@@ -1,2 +1,3 @@
-# clara-le
-Personal website 
+# README
+
+Clara's personal website
