@@ -1,11 +1,11 @@
 {
-  "name": "brut-website",
+  "name": "clara-le",
   "private": "true",
   "type": "module",
   "scripts": {
-    "dev": "tsc && brut && serve dist",
+    "dev": "brut && serve dist",
     "start": "serve dist",
-    "build": "tsc && brut",
+    "build": "brut",
     "test": "start-server-and-test start http://localhost:3000 'PW_EXPERIMENTAL_TS_ESM=1 npx playwright test --browser=all'"
   },
   "devDependencies": {

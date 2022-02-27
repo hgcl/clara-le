@@ -1,10 +1,10 @@
 ---
 template: /templates/default.html
-title: "Second Post"
+title: "Example post"
 date: "2022-02-12"
 ---
 
-# Second Post
+# {{title}}
 
 This post is written in Markdown but contains embedded HTML[^1]:
 

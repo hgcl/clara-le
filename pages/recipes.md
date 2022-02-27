@@ -1,7 +1,7 @@
 ---
 template: /templates/default.html
-title: "Blog"
-buildScript: /scripts/buildPostsList.js
+title: "Recipe Book"
+buildScript: /scripts/buildRecipesList.js
 ---
 
 # {{title}}
