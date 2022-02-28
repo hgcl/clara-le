@@ -1,53 +1,54 @@
 html {
+  font-size: 18px;
   --bg: white;
   --text: black;
   --primary: blue;
 }
 
 @font-face {
+  font-family: "Gangster Grotesk";
   src: url("fonts/GangsterGrotesk-Regular.woff2") format("woff2");
-  font-family: "Gangster Grotesk Regular";
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
+  font-family: "Gangster Grotesk";
   src: url("fonts/GangsterGrotesk-Bold.woff2") format("woff2");
-  font-family: "Gangster Grotesk Bold";
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
+  font-family: "Gangster Grotesk";
   src: url("fonts/GangsterGrotesk-Light.woff2") format("woff2");
-  font-family: "Gangster Grotesk Light";
   font-style: normal;
   font-weight: lighter;
 }
 @font-face {
-  font-family: "noto_serifbold";
+  font-family: "Noto Serif";
   src: url("fonts/notoserif-bold-webfont.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "noto_serifbold_italic";
+  font-family: "Noto Serif";
   src: url("fonts/notoserif-bolditalic-webfont.woff2") format("woff2");
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
-  font-family: "noto_serifitalic";
+  font-family: "Noto Serif";
   src: url("fonts/notoserif-italic-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: "noto_serifregular";
+  font-family: "Noto Serif";
   src: url("fonts/notoserif-regular-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "noto_serifbold";
+  font-family: "Noto Serif";
   src: url("fonts/notoserif-bold-webfont.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
@@ -58,12 +59,11 @@ html {
     --bg: black;
     --text: white;
     --primary: lightskyblue;
-    font-size: 18px;
   }
 }
 
 body {
-  font-family: "noto_serifregular", serif;
+  font-family: "Noto Serif", serif;
   font-size: 1rem;
   line-height: 1.8rem;
   color: var(--text);
@@ -75,8 +75,8 @@ body {
 h1,
 h2,
 h3 {
+  font-family: "Gangster Grotesk";
   font-weight: bold;
-  font-family: "Gangster Grotesk Bold";
 }
 
 h1 {
