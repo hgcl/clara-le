@@ -1,86 +1,49 @@
 html {
-  font-size: 18px;
-  --bg: white;
-  --text: black;
-  --primary: blue;
-}
-
-@font-face {
-  font-family: "Gangster Grotesk";
-  src: url("fonts/GangsterGrotesk-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Gangster Grotesk";
-  src: url("fonts/GangsterGrotesk-Bold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Gangster Grotesk";
-  src: url("fonts/GangsterGrotesk-Light.woff2") format("woff2");
-  font-style: normal;
-  font-weight: lighter;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/notoserif-bold-webfont.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/notoserif-bolditalic-webfont.woff2") format("woff2");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/notoserif-italic-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/notoserif-regular-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/notoserif-bold-webfont.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    --bg: black;
-    --text: white;
-    --primary: lightskyblue;
-  }
+  font-size: 16px;
+  --color-bg: hsl(0deg, 0%, 99%);
+  --color-text: hsl(0deg, 0%, 3%);
+  --color-primary: hsl(47deg, 100%, 54%);
 }
 
 body {
   font-family: "Noto Serif", serif;
   font-size: 1rem;
-  line-height: 1.8rem;
-  color: var(--text);
-  background-color: var(--bg);
+  line-height: 1.75rem;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   max-width: 768px;
-  margin: 0 auto;
+  margin: 0 auto 4rem auto;
+  padding: 0 1rem;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Gangster Grotesk";
+  font-family: "Gangster Grotesk", sans-serif;
   font-weight: bold;
 }
 
+.emphasis {
+  font-family: "Gangster Grotesk", sans-serif;
+  font-weight: normal;
+  font-size: 1.414rem;
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+
 h1 {
-  font-size: 4rem;
+  font-size: 3.998rem;
+  line-height: 4.2rem;
+}
+
+h2 {
+  font-size: 1.999rem;
+  line-height: 2.3rem;
+}
+
+h3 {
+  font-size: 1.414rem;
+  line-height: 1.8rem;
 }
 
 nav ul {
@@ -93,19 +56,40 @@ nav ul {
 }
 
 a {
-  color: var(--primary);
+  color: var(--color-text);
 }
 
 a:hover {
-  text-decoration: none;
+  animation: color-change 5s infinite;
+  text-decoration: underline 0.1em;
 }
 
 a:focus {
+  animation: color-change 5s infinite;
   text-decoration: none;
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  box-shadow: currentColor 0px 0px 0px 2px;
-  border-radius: 0.125rem;
+  outline-offset: 0.1em;
+  outline: 0.1em solid;
+}
+
+@keyframes color-change {
+  5% {
+    color: hsl(0, 100%, 30%);
+  }
+  15% {
+    color: hsl(41, 100%, 33%);
+  }
+  30% {
+    color: hsl(140, 100%, 27%);
+  }
+  50% {
+    color: hsl(230, 100%, 50%);
+  }
+  70% {
+    color: hsl(261, 100%, 55%);
+  }
+  90% {
+    color: hsl(320, 100%, 31%);
+  }
 }
 
 .sr-only {
@@ -118,4 +102,45 @@ a:focus {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --color-bg: hsl(0deg, 0%, 2%);
+    --color-text: hsl(0deg, 0%, 100%);
+    --color-text-alt: hsl(360deg, 0%, 0%);
+  }
+
+  @keyframes color-change {
+    5% {
+      color: hsl(0, 78%, 66%);
+    }
+    15% {
+      color: hsl(44, 100%, 71%);
+    }
+    30% {
+      color: hsl(140, 55%, 54%);
+    }
+    50% {
+      color: hsl(194, 100%, 59%);
+    }
+    70% {
+      color: hsl(273, 100%, 70%);
+    }
+    90% {
+      color: hsl(320, 74%, 70%);
+    }
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 18px;
+  }
+
+  .emphasis {
+    padding: 0 2rem;
+    font-size: 1.999rem;
+    line-height: 2.5rem;
+  }
 }
