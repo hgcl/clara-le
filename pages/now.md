@@ -4,9 +4,9 @@ title: "Now"
 date: 2022-02-27
 ---
 
-_Last updated on Feb 27, 2022_
-
 # {{title}}
+
+_Last updated on Feb 27, 2022_
 
 I have now been in Berlin for more than two years—kinda crazy.
 

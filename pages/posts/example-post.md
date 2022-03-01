@@ -1,5 +1,5 @@
 ---
-template: /templates/posts.html
+template: /templates/default.html
 title: "Example post"
 date: "2022-02-12"
 ---

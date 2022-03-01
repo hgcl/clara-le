@@ -1,5 +1,5 @@
 ---
-template: /templates/posts.html
+template: /templates/default.html
 title: "Now Archive #1"
 excerpt: "Snapshot in time"
 date: "2021-08-21"
