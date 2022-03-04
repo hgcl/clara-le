@@ -6,7 +6,7 @@ date: 2022-02-27
 
 # {{title}}
 
-_Last updated on Feb 27, 2022_
+<p class="label">Last updated on Feb 27, 2022</p>
 
 I have now been in Berlin for more than two years—kinda crazy.
 

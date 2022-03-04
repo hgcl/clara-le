@@ -1,6 +1,6 @@
 ---
 template: /templates/default.html
-title: "Now Archive #1"
+title: "Now archive #1"
 excerpt: "Snapshot in time"
 date: "2021-08-21"
 ---

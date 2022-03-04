@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.ingredients {
+  font-size: smaller;
+  line-height: 1.5rem;
+  opacity: var(--alt-text-opacity);
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    max-width: 1024px;
+  }
+  main {
+    height: 100vh;
+  }
+  .container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .instructions {
+    overflow-y: auto;
+  }
+  .ingredients {
+    flex: 1 0 250px;
+    margin-top: 2rem;
+  }
+}

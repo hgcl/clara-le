@@ -2,9 +2,15 @@ import { cwd } from "process";
 import { readdir, readFile } from "fs/promises";
 import { load } from "js-yaml";
 const POSTS_DIR = `${cwd()}/pages/recipes`;
+/**
+ * Extracts frontmatter with `---` or `<!-- -->` delimiters from a string.
+ * Inspired by vfile-matter: https://github.com/vfile/vfile-matter/
+ */
 function getFrontmatter(file) {
   const match =
-    /^---(?:\r?\n|\r)(?:([\s\S]*?)(?:\r?\n|\r))?---(?:\r?\n|\r|$)/.exec(file);
+    /^(?:---|<!--)(?:\r?\n|\r)(?:([\s\S]*?)(?:\r?\n|\r))?(?:---|-->)(?:\r?\n|\r|$)/.exec(
+      file
+    );
   if (match) {
     return load(match[1]);
   } else {
@@ -19,7 +25,10 @@ async function getPosts() {
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
-        date: new Date(frontmatter.date).toLocaleDateString(),
+        date: new Date(frontmatter.date).toLocaleDateString("fr-FR", {
+          month: "2-digit",
+          day: "numeric",
+        }),
         slug: `/recipes/${file.replace(".md", "")}`,
       };
     })
@@ -32,7 +41,7 @@ export async function buildPage(html) {
     const postsHtml = posts
       .map(
         (post) =>
-          `<li><a href="${post.slug}">${post.date}: ${post.title}</a></li>`
+          `<li><span class="label">${post.date}</span>&emsp;<a href="${post.slug}">${post.title}</a></li>`
       )
       .join("");
     return html.replace("<li>Posts go here</li>", postsHtml);
