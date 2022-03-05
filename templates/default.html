@@ -13,14 +13,17 @@
     />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/now/">Now</a></li>
-        <li><a href="/posts/">Blog</a></li>
-        <li><a href="/recipes/">Recipes</a></li>
-      </ul>
-    </nav>
-    <main>{{> content}}</main>
+    <header>
+      <a class="skip-to-content" href="#main">Skip to content</a>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/now/">Now</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/recipes/">Recipes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">{{> content}}</main>
   </body>
 </html>

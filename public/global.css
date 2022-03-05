@@ -72,12 +72,23 @@ li {
   opacity: var(--alt-text-opacity);
 }
 
+.post-row {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.post-row > span {
+  min-width: 3rem;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  column-gap: 2rem;
   margin: 2rem 0 5rem 0;
 }
 
@@ -134,6 +145,18 @@ a:focus {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+.skip-to-content {
+  position: absolute;
+  transform: translateY(-230%);
+  transition: transform 0.3s;
+  background-color: var(--color-bg);
+  padding: 0 0.5em;
+}
+
+.skip-to-content:focus {
+  transform: translateY(20%);
 }
 
 @media (prefers-color-scheme: dark) {

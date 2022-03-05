@@ -41,7 +41,7 @@ export async function buildPage(html) {
     const postsHtml = posts
       .map(
         (post) =>
-          `<li><span class="label">${post.date}</span>&emsp;<a href="${post.slug}">${post.title}</a></li>`
+          `<li class="post-row"><span class="label">${post.date}</span><a href="${post.slug}">${post.title}</a></li>`
       )
       .join("");
     return html.replace("<li>Posts go here</li>", postsHtml);
