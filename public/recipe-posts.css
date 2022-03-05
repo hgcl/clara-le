@@ -9,6 +9,14 @@
   opacity: var(--alt-text-opacity);
 }
 
+.ingredients li span::before {
+  content: "\A\2003";
+}
+
+.instructions li span::after {
+  content: "\A\2003";
+}
+
 @media only screen and (min-width: 600px) {
   body {
     max-width: 1024px;
