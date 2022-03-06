@@ -4,6 +4,7 @@
     <title>{{#title}}{{title}} | {{/title}}Clara Le</title>
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/global.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/recipe-posts.css" type="text/css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link
@@ -23,6 +24,18 @@
         </ul>
       </nav>
     </header>
-    <main id="main">{{> content}}</main>
+    <main id="main">
+      <!-- if it has a date it's a post -->
+      {{#date}}
+      <div class="post-header">
+        <h1>{{title}}</h1>
+        <p class="label">
+          <span class="sr-only">Published on</span>
+          <time datetime="{{date}}">{{date}}</time>
+        </p>
+      </div>
+      <article>{{/date}} {{> content}} {{#date}}</article>
+      {{/date}}
+    </main>
   </body>
 </html>

@@ -25,10 +25,7 @@ async function getPosts() {
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
-        date: new Date(frontmatter.date).toLocaleDateString("fr-FR", {
-          month: "2-digit",
-          day: "numeric",
-        }),
+        date: frontmatter.date,
         slug: `/posts/${file.replace(".md", "")}`,
       };
     })
@@ -39,9 +36,15 @@ export async function buildPage(html) {
   try {
     const posts = await getPosts();
     const postsHtml = posts
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
       .map(
         (post) =>
-          `<li class="post-row"><span class="label">${post.date}</span><a href="${post.slug}">${post.title}</a></li>`
+          `<li class="post-row"><time class="label" datetime="${post.date}">
+           ${new Date(post.date).toLocaleDateString("en-US", {
+             month: "short",
+             day: "numeric",
+           })}
+          </time><a href="${post.slug}">${post.title}</a></li>`
       )
       .join("");
     return html.replace("<li>Posts go here</li>", postsHtml);

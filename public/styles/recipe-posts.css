@@ -1,4 +1,4 @@
-.container {
+article {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -24,7 +24,7 @@
   main {
     height: 100vh;
   }
-  .container {
+  article {
     flex-direction: row;
     gap: 1rem;
   }

@@ -1,12 +1,9 @@
 ---
-template: /templates/default.html
+template: /templates/blog-posts.html
 title: "Now"
-date: 2022-02-27
+date: "2022-02-27"
+buildScript: "/scripts/formatPostDate.js"
 ---
-
-# {{title}}
-
-<p class="label">Last updated on Feb 27, 2022</p>
 
 I have now been in Berlin for more than two years—kinda crazy.
 

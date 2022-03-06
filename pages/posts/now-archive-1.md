@@ -1,11 +1,10 @@
 ---
-template: /templates/default.html
+template: /templates/blog-posts.html
 title: "Now archive #1"
 excerpt: "Snapshot in time"
 date: "2021-08-21"
+buildScript: "/scripts/formatPostDate.js"
 ---
-
-# {{title}}
 
 Now in Berlin for more than two years with my partner [Robin](https://robinmetral.com/).
 
