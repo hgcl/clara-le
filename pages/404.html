@@ -2,6 +2,15 @@
 template: /templates/default.html
 -->
 <h1>404</h1>
-<p>
-  <a href="/">Go back home</a>
-</p>
+<section>
+  <p>
+    There is no page here. (Did you find a broken link? Please
+    <a id="contact">let me know</a>!)
+  </p>
+  <p><a href="/">Go back home.</a></p>
+</section>
+<script type="text/javascript">
+  const contactEl = document.getElementById("contact");
+  const currentLocation = window.location.href;
+  contactEl.href = `mailto:contact@clarale.com?subject=Broken%20link&body=URL:%20${currentLocation}`;
+</script>
