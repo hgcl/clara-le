@@ -8,8 +8,10 @@
 
 html {
   font-size: 16px;
-  --serif: "Noto Serif", serif;
-  --sans-serif: "Gangster Grotesk", sans-serif;
+  --serif: "Noto Serif", "Palatino", "Book Antiqua", "Big Caslon",
+    "Goudy Old Style", serif;
+  --sans-serif: "Gangster Grotesk", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   --color-bg: var(--white);
   --color-text: var(var(--black));
 }
