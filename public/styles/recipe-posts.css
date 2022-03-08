@@ -13,9 +13,21 @@ article {
   content: "\A\2003";
 }
 
-.instructions li span::after {
-  content: "\A\2003";
+/* .instructions ol {
+  list-style: none;
+  counter-reset: steps;
+  padding-left: 1rem;
 }
+.instructions ol li {
+  counter-increment: steps;
+}
+.instructions ol li::before {
+  font-family: var(--sans-serif);
+  font-weight: bold;
+  font-size: 1.414rem;
+  opacity: var(--alt-text-opacity);
+  content: "" counter(steps) " ";
+} */
 
 @media only screen and (min-width: 600px) {
   body {
@@ -33,6 +45,6 @@ article {
   }
   .ingredients {
     flex: 1 0 250px;
-    margin-top: 2rem;
+    margin: 2rem 0;
   }
 }

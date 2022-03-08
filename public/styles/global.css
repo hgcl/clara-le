@@ -13,7 +13,7 @@ html {
   --sans-serif: "Gangster Grotesk", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   --color-bg: var(--white);
-  --color-text: var(var(--black));
+  --color-text: var(--black);
 }
 
 body {
