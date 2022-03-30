@@ -15,7 +15,7 @@ Bifurcating is the act of dividing your time between a stable job and a side act
 
 Bifurcating is a compromise between the more stable "having a family and some savings" world and the riskier "following your passion" choice.
 
-## Is It Bad to Bifurcate?
+## Is it bad to bifurcate?
 
 > I wouldn't dare to advise young idealists either to follow or not to follow their dreams. At the most, I might advise them to be wary of career preachers, whether radical or conservative, and that, while they shouldn't fear commitment and leaps of faith, they also shouldn't fear compromise.[^2]
 
