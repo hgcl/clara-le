@@ -20,21 +20,22 @@
           <li><a href="/now/">Now</a></li>
           <li><a href="/posts/">Musings</a></li>
           <li><a href="/recipes/">Recipes</a></li>
+          <li><a href="/media/">Media</a></li>
         </ul>
       </nav>
     </header>
     <main id="main">
       <!-- if it has a date it's a post -->
-      {{#date}}
+      {{#dateCreated}}
       <div class="post-header">
         <h1>{{title}}</h1>
         <p class="label">
           <span class="sr-only">Published on</span>
-          <time datetime="{{date}}">{{date}}</time>
+          <time datetime="{{dateCreated}}">{{dateCreated}}</time>
         </p>
       </div>
-      <article>{{/date}} {{> content}} {{#date}}</article>
-      {{/date}}
+      <article>{{/dateCreated}} {{> content}} {{#dateCreated}}</article>
+      {{/dateCreated}}
     </main>
   </body>
 </html>

@@ -1,7 +1,7 @@
 ---
 template: /templates/blog-posts.html
 title: "Now"
-date: "2022-02-27"
+dateCreated: "2022-02-27"
 buildScript: "/scripts/formatPostDate.js"
 ---
 

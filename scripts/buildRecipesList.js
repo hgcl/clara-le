@@ -25,7 +25,7 @@ async function getPosts() {
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
-        date: frontmatter.date,
+        date: frontmatter.dateCreated,
         slug: `/recipes/${file.replace(".md", "")}`,
       };
     })

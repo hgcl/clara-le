@@ -1,8 +1,8 @@
 export async function buildPage(html, frontmatter) {
   try {
     return html.replace(
-      `>${frontmatter.date}<`,
-      `>${new Date(frontmatter.date).toLocaleDateString("en-US", {
+      `>${frontmatter.dateCreated}<`,
+      `>${new Date(frontmatter.dateCreated).toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
         day: "numeric",

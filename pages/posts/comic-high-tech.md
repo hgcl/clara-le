@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 title: "High tech"
 excerpt: "Comic strip #1"
-date: "2021-10-19"
+dateCreated: "2021-10-19"
 buildScript: "/scripts/formatPostDate.js"
 ---
 
