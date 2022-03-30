@@ -1,10 +1,12 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Woke shaming"
-modified: "2021-09-27"
-created: "2021-09-27"
+dateModified: "2021-09-27"
+dateCreated: "2021-09-27"
 ---
 
-I have to agree with Obama's point of view on the issue: "The world is messy. There are ambiguities. People who do really good stuff have flaws."[^]Allyson Chiu, _[He is right on all counts](https://www.washingtonpost.com/nation/2019/10/31/obama-woke-shaming-bipartisan-support-yang-coulter-gabbard/)_, Washington Post, 2019.[^^]
+I have to agree with Obama's point of view on the issue: "The world is messy. There are ambiguities. People who do really good stuff have flaws."[^1]
 
 In today's moral landscape, it is hard to have a conversation about politics, philosophy or ethics without having to add a disclaimer to each and every sentence. Woke shaming fosters a very unwelcoming and intolerant environment, where it is impossible to disagree—even slightly—with the in-group. Not being able to disagree with "your team" seems like a sign of radicalization.
 
@@ -17,3 +19,5 @@ In today's moral landscape, it is hard to have a conversation about politics, ph
 - Identity politics — #tocreate
 - [Cancel culture](cancel-culture)
 - [Broken conversations](broken-conversations)
+
+[^1]: Allyson Chiu, _[He is right on all counts](https://www.washingtonpost.com/nation/2019/10/31/obama-woke-shaming-bipartisan-support-yang-coulter-gabbard/)_, Washington Post, 2019.

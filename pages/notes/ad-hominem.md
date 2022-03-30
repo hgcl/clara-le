@@ -1,7 +1,9 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Ad hominem"
-modified: "2021-09-30"
-created: "2021-09-30"
+dateModified: "2021-09-30"
+dateCreated: "2021-09-30"
 excerpt: "Philosophical fallacy where the interlocutor attacks the character of the proponent of the argument and concludes that the attack refutes the argument."
 ---
 

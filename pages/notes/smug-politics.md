@@ -1,11 +1,13 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Smug politics"
-modified: "2021-10-11"
-created: "2021-10-11"
+dateModified: "2021-10-11"
+dateCreated: "2021-10-11"
 excerpt: "Rather than treating working people as an agency for change or a constituency to be served, they publicly declared them a problem to be solved, and explained racism, sexism and other forms of bigotry as the consequence of the public's lamentable ignorance."
 ---
 
-Jeff Sparrow on smug politics[^]Jeff Sparrow, _[Covid, the Left and radical democracy](https://overland.org.au/2021/09/covid-the-left-and-radical-democracy/)_, 2021.[^^]:
+Jeff Sparrow on smug politics[^1]:
 
 > [T]he rise of Donald Trump [can be explained] by looking at the resonance of his attacks on so-called political correctness. [..] Trump capitalised on the evolution of the Left. The social movements of the 1960s built via a ‘direct politics' that identified grassroots mobilisations of working people as the antidote to racism, sexism and other forms of oppression. The anti-war struggle; anti-racism campaigns; women's liberation; gay liberation and so on: they shared (in the broadest sense) a belief that change depended on the masses overcoming oppressive structures imposed on them by the wealthy and powerful.
 >
@@ -16,3 +18,5 @@ Jeff Sparrow on smug politics[^]Jeff Sparrow, _[Covid, the Left and radical demo
 ## Related
 
 - [Broken conversations](broken-conversations)
+
+[^1]: Jeff Sparrow, _[Covid, the Left and radical democracy](https://overland.org.au/2021/09/covid-the-left-and-radical-democracy/)_, 2021.

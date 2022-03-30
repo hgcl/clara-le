@@ -1,9 +1,9 @@
 ---
 template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Now archive #2"
 excerpt: "Snapshot in time"
 dateCreated: "2021-10-24"
-buildScript: "/scripts/formatPostDate.js"
 ---
 
 Now in Berlin for more than two years with my partner [Robin](https://robinmetral.com/).

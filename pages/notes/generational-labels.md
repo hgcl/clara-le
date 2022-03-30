@@ -1,11 +1,13 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Generational labels"
-modified: "2021-10-24"
-created: "2021-10-24"
+dateModified: "2021-10-24"
+dateCreated: "2021-10-24"
 excerpt: "The dividing lines between generations are a figment of our collective imagination."
 ---
 
-In his article[^]Joe Pinsker, [‘Gen Z’ Only Exists in Your Head](https://www.theatlantic.com/family/archive/2021/10/millennials-gen-z-boomers-generations-are-fake/620390/), The Atlantic, 2021.[^^], Joe Pinsker summaries the points made by sociologist Philip Cohen.
+In his article[^1], Joe Pinsker summaries the points made by sociologist Philip Cohen.
 
 First of all, labels are imprecise and inaccurate as they "steer every conversation toward generalization, fairly or not".
 
@@ -19,6 +21,8 @@ Down the line, generational labels are just another selling tool for marketers w
 
 > Consultants and marketing experts take advantage of the appetite for these sorts of narratives by framing generations monolithically and presenting themselves to clients as authorities on entire segments of the population.
 
-# Related
+## Related
 
 - [Age segregation](age-segregation)
+
+[^1]: Joe Pinsker, [‘Gen Z’ Only Exists in Your Head](https://www.theatlantic.com/family/archive/2021/10/millennials-gen-z-boomers-generations-are-fake/620390/), The Atlantic, 2021.

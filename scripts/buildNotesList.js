@@ -1,7 +1,7 @@
 import { cwd } from "process";
 import { readdir, readFile } from "fs/promises";
 import { load } from "js-yaml";
-const POSTS_DIR = `${cwd()}/pages/recipes`;
+const POSTS_DIR = `${cwd()}/pages/notes`;
 /**
  * Based on buildPostsList.js
  */
@@ -24,8 +24,9 @@ async function getPosts() {
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
-        date: frontmatter.dateCreated,
-        slug: `/recipes/${file.replace(".md", "")}`,
+        dateCreated: frontmatter.dateCreated,
+        dateModified: frontmatter.dateModified,
+        slug: `/notes/${file.replace(".md", "")}`,
       };
     })
   );
@@ -35,10 +36,16 @@ export async function buildPage(html) {
   try {
     const posts = await getPosts();
     const postsHtml = posts
+      .sort(
+        (a, b) =>
+          new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
+      )
       .map(
         (post) =>
-          `<li class="post-row"><time class="label" datetime="${post.date}">
-           ${new Date(post.date).toLocaleDateString("en-US", {
+          `<li class="post-row"><time class="label" datetime="${
+            post.dateCreated
+          }">
+           ${new Date(post.dateCreated).toLocaleDateString("en-US", {
              month: "short",
              day: "numeric",
            })}

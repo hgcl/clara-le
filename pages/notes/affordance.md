@@ -1,7 +1,9 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Affordance"
-modified: "2021-10-09"
-created: "2021-10-09"
+dateModified: "2021-10-09"
+dateCreated: "2021-10-09"
 excerpt: A chair affords ("is for") support and, therefore, affords sitting.
 ---
 

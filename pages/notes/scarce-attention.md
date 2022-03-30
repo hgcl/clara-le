@@ -1,7 +1,9 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Scarce attention"
-modified: "2021-10-24"
-created: "2021-10-24"
+dateModified: "2021-10-24"
+dateCreated: "2021-10-24"
 excerpt: "We don't know how to be bored anymore."
 ---
 

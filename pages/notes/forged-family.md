@@ -1,13 +1,15 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Forged family"
-modified: "2021-02-14"
-created: "2021-02-14"
+dateModified: "2021-02-14"
+dateCreated: "2021-02-14"
 excerpt: "The kin or family that you choose."
 ---
 
 The "forged family" is a term coined by Daniel Burns, a political scientist at the University of Dallas. It designates the kin or family that you choose.
 
-I first learned of that concept in the article _The nuclear family was a mistake_[^]David Brooks, _[The Nuclear Family Was a Mistake](www.theatlantic.com/magazine/archive/2020/03/the-nuclear-family-was-a-mistake/605536/)_, The Atlantic, 2020.[^^] by David Brooks. Here are a few notes I took:
+I first learned of that concept in the article _The nuclear family was a mistake_[^1] by David Brooks. Here are a few notes I took:
 
 > In 1850, 75 percent of Americans older than 65 lived with relatives; by 1990, only 18 percent did.
 
@@ -38,3 +40,5 @@ I first learned of that concept in the article _The nuclear family was a mistake
 - Forged family
   - The chosen-family movement first came to prominence in San Francisco in the 1980s. Many gays and lesbians were estranged by their biological families and created their own "forged families"—as they are called by Daniel Burns, a political scientist at the University of Dallas.
   - These chosen families are demanding—just like their biological counterpart. They hold you accountable and demand attention. The difference is that you choose them.
+
+[^1]: David Brooks, _[The Nuclear Family Was a Mistake](www.theatlantic.com/magazine/archive/2020/03/the-nuclear-family-was-a-mistake/605536/)_, The Atlantic, 2020.

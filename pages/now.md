@@ -1,8 +1,8 @@
 ---
 template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Now"
 dateCreated: "2022-02-27"
-buildScript: "/scripts/formatPostDate.js"
 ---
 
 I have now been in Berlin for more than two years—kinda crazy.

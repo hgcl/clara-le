@@ -1,10 +1,14 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Habitus"
-modified: "2021-09-22"
-created: "2021-09-22"
-tags: ["label1", "label2"]
+dateModified: "2021-09-22"
+dateCreated: "2021-09-22"
 ---
 
-In Bourdieu's words, _habitus_ refers to "a subjective but not individual system of internalized structures, schemes of perception, conception, and action common to all members of the same group or class"[^]Pierre Bourdieu, _Outline of a Theory of Practice_, 1977.[^^].
+In Bourdieu's words, _habitus_ refers to "a subjective but not individual system of internalized structures, schemes of perception, conception, and action common to all members of the same group or class"[^1].
 
-I first discovered this concept via this video essay explaining the [Overton Window](overton-window) and _Why AOC's dress matters_[^]Alice Cappelle, _[Why AOC's dress matters](https://www.youtube.com/watch?v=hax6xSScQdA)_, 2021, Video.[^^].
+I first discovered this concept via this video essay explaining the [Overton Window](overton-window) and _Why AOC's dress matters_[^2].
+
+[^1]: Pierre Bourdieu, _Outline of a Theory of Practice_, 1977.
+[^2]: Alice Cappelle, _[Why AOC's dress matters](https://www.youtube.com/watch?v=hax6xSScQdA)_, 2021, Video.

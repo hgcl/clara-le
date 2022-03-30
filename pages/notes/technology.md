@@ -1,7 +1,9 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Technology"
-modified: "2021-10-01"
-created: "2021-10-01"
+dateModified: "2021-10-01"
+dateCreated: "2021-10-01"
 ---
 
 Technology used to be a lot more than just the computing and digital world. Writing is a technology.

@@ -1,8 +1,11 @@
 ---
+template: /templates/blog-posts.html
+buildScript: "/scripts/formatPostDate.js"
 title: "Vice signalling"
-modified: "2021-09-27"
-created: "2021-09-27"
-tags: ["label3", "label2", "label4"]
+dateModified: "2021-09-27"
+dateCreated: "2021-09-27"
 ---
 
-I first heard of the term through Tara Mooknee's video essay[^]Tara Mooknee, _[Virtue signalling vs. Vice signalling](https://www.youtube.com/watch?v=JlQuH7c01Dc)_, 2021, Video.[^^]. She presents the concept of _vice signalling_ in opposition to _[virtue signalling](virtue-signalling)_.
+I first heard of the term through Tara Mooknee's video essay[^1]. She presents the concept of _vice signalling_ in opposition to _[virtue signalling](virtue-signalling)_.
+
+[^1]: Tara Mooknee, _[Virtue signalling vs. Vice signalling](https://www.youtube.com/watch?v=JlQuH7c01Dc)_, 2021, Video.
