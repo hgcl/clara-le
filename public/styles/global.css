@@ -4,6 +4,9 @@
   --white: hsl(0deg, 0%, 99%);
   --black: hsl(0deg, 0%, 3%);
   --alt-text-opacity: 0.7;
+  --screen-sm: 360px;
+  --screen-md: 600px;
+  --screen-lg: 1024px;
 }
 
 html {
@@ -115,15 +118,18 @@ li {
 
 /* Hyperlinks */
 
+.media-card button,
 a {
   color: var(--color-text);
   text-underline-position: under;
 }
 
+.media-card button:hover,
 a:hover {
   animation: color-change 5s infinite;
 }
 
+.media-card button:focus,
 a:focus {
   animation: color-change 5s infinite;
   text-decoration: none;
@@ -150,6 +156,29 @@ a:focus {
   90% {
     color: hsl(320, 100%, 31%);
   }
+}
+
+/* Footnotes */
+
+.footnotes {
+  border: solid 1px;
+  margin-top: 3rem;
+  /* below style similar to .label */
+  font-family: var(--sans-serif);
+  text-transform: uppercase;
+  font-size: small;
+  line-height: 1.3rem;
+  letter-spacing: 0.1em;
+  opacity: var(--alt-text-opacity);
+}
+
+/* Blockquotes */
+
+blockquote {
+  border-left: solid 1px;
+  padding-left: 1.5rem;
+  margin: 2rem 0 2rem 2rem;
+  opacity: var(--alt-text-opacity);
 }
 
 /* List of generated posts */

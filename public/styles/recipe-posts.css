@@ -1,3 +1,7 @@
+body {
+  max-width: var(--screen-lg);
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -30,9 +34,6 @@ article {
 } */
 
 @media only screen and (min-width: 600px) {
-  body {
-    max-width: 1024px;
-  }
   main {
     height: 100vh;
   }
