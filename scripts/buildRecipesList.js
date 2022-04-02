@@ -25,7 +25,7 @@ async function getPosts() {
       return {
         title: frontmatter.title,
         date: frontmatter.dateCreated,
-        slug: `/recipes/${file.replace(".md", "")}`,
+        slug: `/recipes/${file.replace(".html", "")}`,
       };
     })
   );
