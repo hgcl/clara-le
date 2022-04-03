@@ -6,28 +6,3 @@ template: /templates/default.html
   Hey, I'm Clara. See what I am
   <a href="/posts/">writing</a> or <a href="/now/">doing now</a>.
 </p>
-
-<!-- LEAVE BELOW SCRIPT AS IS -->
-<script type="module">
-  async function getRepo() {
-    try {
-      const res = await fetch(`https://api.github.com/repos/robinmetral/brut`);
-      const data = await res.json();
-      return { stars: data.stargazers_count, updated: data.pushed_at };
-    } catch (error) {
-      return null;
-    }
-  }
-  async function init() {
-    const data = await getRepo();
-    if (data?.stars) {
-      const starsElement = document.getElementById("stars");
-      starsElement.innerText = data.stars;
-    }
-    if (data?.updated) {
-      const updatedElement = document.getElementById("updated");
-      updatedElement.innerText = new Date(data.updated).toLocaleDateString();
-    }
-  }
-  init();
-</script>
