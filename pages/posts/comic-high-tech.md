@@ -1,8 +1,7 @@
 ---
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDate.js"
-title: "High tech"
-excerpt: "Comic strip #1"
+title: "High tech: comic strip #1"
 dateCreated: "2021-10-19"
 ---
 

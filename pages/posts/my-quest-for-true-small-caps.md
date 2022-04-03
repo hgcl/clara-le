@@ -2,7 +2,6 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDate.js"
 title: "My quest for true small caps"
-excerpt: "Setting up true small caps on my website was not as simple as I expected."
 dateCreated: "2021-01-07"
 ---
 

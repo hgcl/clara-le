@@ -2,7 +2,6 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDate.js"
 title: "Last homage to my old website"
-excerpt: 'A toast to all personal websites that disappeared after "necessary" redesigns'
 dateCreated: "2022-04-03"
 ---
 
