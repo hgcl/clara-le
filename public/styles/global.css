@@ -108,6 +108,29 @@ li {
   opacity: var(--alt-text-opacity);
 }
 
+blockquote {
+  border-left: solid 1px;
+  padding-left: 1.5rem;
+  margin: 2rem 0 2rem 2rem;
+  opacity: var(--alt-text-opacity);
+}
+
+pre code {
+  opacity: var(--alt-text-opacity);
+}
+
+code,
+kbd {
+  font-size: smaller;
+}
+
+hr {
+  border: 0.5px solid var(--color-text);
+  width: 3rem;
+  opacity: var(--alt-text-opacity);
+  margin: 2rem 0;
+}
+
 /* Lists */
 
 .nobullet,
@@ -169,15 +192,6 @@ a:focus {
   font-size: small;
   line-height: 1.3rem;
   letter-spacing: 0.1em;
-  opacity: var(--alt-text-opacity);
-}
-
-/* Blockquotes */
-
-blockquote {
-  border-left: solid 1px;
-  padding-left: 1.5rem;
-  margin: 2rem 0 2rem 2rem;
   opacity: var(--alt-text-opacity);
 }
 
