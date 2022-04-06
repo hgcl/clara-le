@@ -4,7 +4,7 @@ html {
   --card-border: rgba(44, 44, 44, 0.5);
 }
 
-main {
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 2rem 1rem;
@@ -17,16 +17,17 @@ main {
   height: auto;
   aspect-ratio: 250 / 375;
   object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.media-card {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
 }
 
 .media-card .content {
   opacity: var(--alt-text-opacity);
   font-family: var(--sans-serif);
-  font-size: 0.8rem;
-  line-height: 1.3rem;
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.5rem;
 }
 
 /* Button: rest of styles in global.css */

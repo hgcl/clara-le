@@ -16,9 +16,9 @@ export async function buildPage(html) {
     .map(
       (post) =>
         `<div class="media-card">
-          <img src=${
-            post.posterUrl
-          } width="250" height="375" alt="" loading="lazy">
+          <img src=${post.posterUrl} width="250" height="375" alt="${
+          post.title
+        }" loading="lazy">
             <div class="content">
               <div><time datetime="${post.watchDate}">${new Date(
           post.watchDate
@@ -39,5 +39,5 @@ export async function buildPage(html) {
         </div>`
     )
     .join("");
-  return html.replace("<div>Data goes here</div>", postsHtml);
+  return html.replace("<div>Data generated here</div>", postsHtml);
 }
