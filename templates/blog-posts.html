@@ -39,10 +39,10 @@
     </main>
   </body>
   <script type="text/javascript">
-    // Get footnotes box and set up counter
-    let footnotes = document.querySelector(".footnotes");
+    // Get footnotes box (ol element) and set up counter
+    let footnotes = document.querySelector(".footnotes").lastChild;
     let counter = 1;
-    while (footnotes.childNodes.length + 1 >= counter) {
+    while (footnotes.childNodes.length >= counter) {
       // Generate ids numbers
       let footnoteId = "user-content-fn-" + counter;
       let refId = "user-content-fnref-" + counter;
