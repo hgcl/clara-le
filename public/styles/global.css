@@ -128,10 +128,16 @@ kbd {
 }
 
 hr {
-  border: 0.5px solid var(--color-text);
-  width: 3rem;
-  opacity: var(--alt-text-opacity);
-  margin: 2rem 0;
+  border: none;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  font-family: var(--sans-serif);
+  font-size: 1.5rem;
+}
+
+hr::before {
+  content: "*\00a0*\00a0*";
 }
 
 /* Lists */
