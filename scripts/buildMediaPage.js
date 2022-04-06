@@ -16,7 +16,9 @@ export async function buildPage(html) {
     .map(
       (post) =>
         `<div class="media-card">
-          <img class="lazy" src=${post.posterUrl}>
+          <img src=${
+            post.posterUrl
+          } width="250" height="375" alt="" loading="lazy">
             <div class="content">
               <div><time datetime="${post.watchDate}">${new Date(
           post.watchDate
