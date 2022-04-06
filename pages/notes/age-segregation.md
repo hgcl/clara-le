@@ -18,4 +18,4 @@ Nowadays, age segregation might be as big of a problem as racial segregation.[^2
 > Research in 2013 from demographer Richelle Winkler shows that in the U.S., age segregation is often as ingrained as racial segregation. Using census data from 1990 to 2010, Winkler found that in some parts of the country, old (age 60+) and young (age 20–34) are roughly as segregated as Hispanics and whites. This broader pattern is reflected in our neighborhoods.
 
 [^1]: Howard P. Chudacoff, [How old are you?](https://press.princeton.edu/titles/4418.html), Princeton University Press, 2021.
-[^2]: Marc Freedman and Trent Stamp, [The U.S. Isn’t Just Getting Older. It’s Getting More Segregated by Age.](https://hbr.org/2018/06/the-u-s-isnt-just-getting-older-its-getting-more-segregated-by-age), Harvard Business Review, 2018.
+[^2]: Marc Freedman and Trent Stamp, [The U.S. Isn't Just Getting Older. It’s Getting More Segregated by Age.](https://hbr.org/2018/06/the-u-s-isnt-just-getting-older-its-getting-more-segregated-by-age), Harvard Business Review, 2018.

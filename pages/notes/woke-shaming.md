@@ -16,8 +16,8 @@ In today's moral landscape, it is hard to have a conversation about politics, ph
 
 ## Related
 
-- Identity politics — #tocreate
-- [Cancel culture](cancel-culture)
-- [Broken conversations](broken-conversations)
+- Identity politics — \#tocreate
+- [Cancel culture](/notes/cancel-culture)
+- [Broken conversations](/notes/broken-conversations)
 
 [^1]: Allyson Chiu, _[He is right on all counts](https://www.washingtonpost.com/nation/2019/10/31/obama-woke-shaming-bipartisan-support-yang-coulter-gabbard/)_, Washington Post, 2019.

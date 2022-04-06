@@ -15,7 +15,7 @@ First of all, labels are imprecise and inaccurate as they "steer every conversat
 >
 > Baby Boomers are the only currently living cohort defined by an actual demographic event—in this case, the postwar baby boom. [...] The Silent Generation was born over a span of 18 years before the end of World War II; Millennials entered the world over a span of 16 years from 1981 to 1996. No official body certified these categories and verified the rationale behind them—they just eventually became accepted after getting repeated over and over.
 
-It feels like labels only serve to stereotype and mock imaginary monoliths in a generational warfare. It is especially easy to do as our communities are getting more [segregated by age](age-segregation) than ever before.
+It feels like labels only serve to stereotype and mock imaginary monoliths in a generational warfare. It is especially easy to do as our communities are getting more [segregated by age](/notes/age-segregation) than ever before.
 
 Down the line, generational labels are just another selling tool for marketers who need easy targeting—no matter if the method is accurate or not.
 
@@ -23,6 +23,6 @@ Down the line, generational labels are just another selling tool for marketers w
 
 ## Related
 
-- [Age segregation](age-segregation)
+- [Age segregation](/notes/age-segregation)
 
 [^1]: Joe Pinsker, [‘Gen Z’ Only Exists in Your Head](https://www.theatlantic.com/family/archive/2021/10/millennials-gen-z-boomers-generations-are-fake/620390/), The Atlantic, 2021.
