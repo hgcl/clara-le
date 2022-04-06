@@ -13,6 +13,10 @@ main {
 .media-card img {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 7px -1px;
   border: solid 0.4px var(--card-border);
+  width: 100%;
+  height: auto;
+  aspect-ratio: 250 / 375;
+  object-fit: cover;
 }
 
 .media-card .content {
