@@ -4,7 +4,7 @@
   --white: hsl(0deg, 0%, 99%);
   --black: hsl(0deg, 0%, 3%);
   --alt-text-opacity: 0.7;
-  --screen-sm: 360px;
+  --screen-sm: 370px;
   --screen-md: 600px;
   --screen-lg: 1024px;
 }
@@ -25,13 +25,17 @@ body {
   line-height: 1.75rem;
   color: var(--color-text);
   background-color: var(--color-bg);
-  max-width: 768px;
-  margin: 0 auto;
   padding: 0rem 1rem;
 }
 
 main {
   padding-bottom: 2rem;
+}
+
+article,
+.intro {
+  max-width: 600px;
+  margin-bottom: 4rem;
 }
 
 /* Images */
@@ -47,7 +51,6 @@ nav ul {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   column-gap: 2rem;
   margin-bottom: 5rem;
 }
@@ -63,9 +66,8 @@ h3 {
 }
 
 h1 {
-  font-size: 3.998rem;
-  line-height: 4.2rem;
-  margin-bottom: 3rem;
+  font-size: 2.827rem;
+  line-height: 2.9rem;
 }
 
 h2 {
@@ -95,7 +97,6 @@ li {
   font-weight: normal;
   font-size: 1.414rem;
   line-height: 2rem;
-  padding: 0 1rem;
 }
 
 .label {
@@ -188,12 +189,9 @@ a:focus {
 .footnotes {
   border: solid 1px;
   margin-top: 3rem;
-  /* below style similar to .label */
   font-family: var(--sans-serif);
-  text-transform: uppercase;
   font-size: small;
-  line-height: 1.3rem;
-  letter-spacing: 0.1em;
+  line-height: 1.2rem;
   opacity: var(--alt-text-opacity);
 }
 
@@ -212,15 +210,12 @@ a:focus {
 /* Posts only */
 
 .post-header {
+  max-width: 1024px;
   margin-bottom: 3rem;
 }
 
 .post-header h1 {
   margin: 0;
-}
-
-article {
-  margin-bottom: 4rem;
 }
 
 /* Accessibility */
@@ -239,7 +234,7 @@ article {
 
 .skip-to-content {
   position: absolute;
-  transform: translateY(-230%);
+  transform: translateY(-280%);
   transition: transform 0.3s;
   background-color: var(--color-bg);
   padding: 0 0.5em;
@@ -282,18 +277,40 @@ article {
 
 /* Bigger than mobile */
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 370px) {
   html {
     font-size: 18px;
   }
   .emphasis {
-    padding: 0 2rem;
     font-size: 1.999rem;
     line-height: 2.5rem;
   }
 }
 @media only screen and (min-width: 600px) {
   body {
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 2rem 4rem 4rem 4rem;
+  }
+  h1 {
+    font-size: 3.998rem;
+    line-height: 4.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Sidenotes */
+
+  .sidenote {
+    position: absolute;
+    left: 750px; /* max-width of article being 600px */
+    padding-right: 2rem;
+    max-width: 300px;
+  }
+
+  .sidenote > * {
+    margin: 0;
+  }
+
+  .footnotes {
+    border: none;
   }
 }
