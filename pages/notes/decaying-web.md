@@ -15,6 +15,7 @@ Now, what if articles and blog posts decayed when not maintained? Let's say that
 
 This concept is not embraced by everyone. In our physical search for immortality, we also want to be immortal digitally. Does our need to track and save everything in the cloud come from our wish to live forever?
 
-> We try really hard to embrace this idea of limitless and maybe that is reflected in our pursuit of never dying.[^1].
+> We try really hard to embrace this idea of limitless and maybe that is reflected in our pursuit of never dying.[^2].
 
 [^1]: Maggie Appleton & Henry Zhu, _[Technology as process](https://hopeinsource.com/process/)_, 2020, Podcast.
+[^2]: Maggie Appleton & Henry Zhu, _[Technology as process](https://hopeinsource.com/process/)_, 2020, Podcast.
