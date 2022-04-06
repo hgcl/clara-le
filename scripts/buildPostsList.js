@@ -1,7 +1,8 @@
 import { cwd } from "process";
 import { readdir, readFile } from "fs/promises";
 import { load } from "js-yaml";
-const POSTS_DIR = `${cwd()}/pages/posts`;
+const PAGES_DIR = `${cwd()}/pages`;
+
 /**
  * Extracts frontmatter with `---` or `<!-- -->` delimiters from a string.
  * Inspired by vfile-matter: https://github.com/vfile/vfile-matter/
@@ -17,30 +18,50 @@ function getFrontmatter(file) {
     return {};
   }
 }
-async function getPosts() {
-  const files = await readdir(POSTS_DIR);
+async function getPosts(dirCategory) {
+  const files = await readdir(PAGES_DIR + "/" + dirCategory);
   const posts = await Promise.all(
     files.map(async (file) => {
-      const content = await readFile(`${POSTS_DIR}/${file}`, "utf-8");
+      const content = await readFile(
+        `${PAGES_DIR}/${dirCategory}/${file}`,
+        "utf-8"
+      );
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
-        date: frontmatter.dateCreated,
-        slug: `/posts/${file.replace(".md", "")}`,
+        dateCreated: frontmatter.dateCreated,
+        dateModified: frontmatter.dateModified,
+        slug: `/${dirCategory}/${file.replace(".md", "")}`,
       };
     })
   );
   return posts;
 }
 export async function buildPage(html) {
+  // Get headline H1
+  const h1Regex = /<([h1]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/gm;
+  let headline = html.match(h1Regex);
+  let dirCategory =
+    headline == "<h1>Musings</h1>"
+      ? `posts`
+      : headline == "<h1>Notes</h1>"
+      ? `notes`
+      : headline == "<h1>Recipe book</h1>"
+      ? `recipes`
+      : "mmmh not sure what to write here";
   try {
-    const posts = await getPosts();
+    const posts = await getPosts(dirCategory);
     const postsHtml = posts
-      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+      .sort(
+        (a, b) =>
+          new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
+      )
       .map(
         (post) =>
-          `<li class="post-row"><time class="label" datetime="${post.date}">
-           ${new Date(post.date).toLocaleDateString("en-US", {
+          `<li class="post-row"><time class="label" datetime="${
+            post.dateCreated
+          }">
+           ${new Date(post.dateCreated).toLocaleDateString("en-US", {
              month: "short",
              day: "numeric",
            })}
