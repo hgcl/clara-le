@@ -6,7 +6,9 @@ article {
   display: flex;
   flex-direction: column;
   height: 100%;
+  max-width: none;
 }
+
 .ingredients {
   font-size: smaller;
   line-height: 1.5rem;
@@ -17,23 +19,7 @@ article {
   content: "\A\2003";
 }
 
-/* .instructions ol {
-  list-style: none;
-  counter-reset: steps;
-  padding-left: 1rem;
-}
-.instructions ol li {
-  counter-increment: steps;
-}
-.instructions ol li::before {
-  font-family: var(--sans-serif);
-  font-weight: bold;
-  font-size: 1.414rem;
-  opacity: var(--alt-text-opacity);
-  content: "" counter(steps) " ";
-} */
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   main {
     height: 100vh;
   }

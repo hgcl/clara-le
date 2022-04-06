@@ -4,10 +4,6 @@ html {
   --card-border: rgba(44, 44, 44, 0.5);
 }
 
-body {
-  max-width: var(--screen-lg);
-}
-
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -138,9 +134,7 @@ h1 {
 }
 /* Bigger than mobile */
 
-@media only screen and (min-width: 360px) {
-}
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   #dialog .dialog-content {
     max-width: 70%;
     width: 600px;
