@@ -42,10 +42,6 @@ article,
 
 img {
   border-radius: 0.25rem;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 250 / 375;
-  object-fit: cover;
 }
 
 /* Nav */
