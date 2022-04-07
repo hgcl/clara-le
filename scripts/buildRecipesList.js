@@ -16,8 +16,10 @@ export async function buildPage(html) {
         (post) =>
           `<li class="post-row"><a href="${post.slug}">${post.title}</a>${
             post.durationMin > 0
-              ? `<span class="label">` + minToHours(post.durationMin)
-              : "" + `</span>`
+              ? `<time class="label dt-duration" datetime="${minToHours(
+                  post.durationMin
+                )}">` + minToHours(post.durationMin)
+              : "" + `</time>`
           }</li>`
       )
       .join("");

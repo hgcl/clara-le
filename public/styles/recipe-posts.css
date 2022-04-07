@@ -27,7 +27,7 @@ article {
     flex-direction: row;
     gap: 1rem;
   }
-  .instructions {
+  .e-instructions {
     overflow-y: auto;
   }
   .ingredients {

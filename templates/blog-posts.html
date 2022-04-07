@@ -26,17 +26,22 @@
         </ul>
       </nav>
     </header>
-    <main id="main">
+    <!-- ID of main necessary for skip content button -->
+    <main id="main" class="h-entry">
       <!-- if it has a date it's a post -->
       {{#dateCreated}}
       <div class="post-header">
-        <h1>{{title}}</h1>
+        <h1 class="p-name">{{title}}</h1>
         <p class="label">
           <span class="sr-only">Published on</span>
-          <time datetime="{{dateCreated}}">{{dateCreated}}</time>
+          <time datetime="{{dateCreated}}" class="dt-published"
+            >{{dateCreated}}</time
+          >
         </p>
       </div>
-      <article>{{/dateCreated}} {{> content}} {{#dateCreated}}</article>
+      <article class="e-content">
+        {{/dateCreated}} {{> content}} {{#dateCreated}}
+      </article>
       {{/dateCreated}}
     </main>
   </body>
