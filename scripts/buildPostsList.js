@@ -19,7 +19,7 @@ export async function buildPage(html) {
       )
       .map(
         (post) =>
-          `<li class="post-row"><time class="label" datetime="${
+          `<li class="post-row"><time class="label dt-duration" datetime="${
             post.dateCreated
           }">
            ${new Date(post.dateCreated).toLocaleDateString("en-US", {
