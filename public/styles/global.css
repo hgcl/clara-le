@@ -250,6 +250,30 @@ a:focus {
   transform: translateY(20%);
 }
 
+/* Completely hide */
+
+.hide {
+  display: none;
+}
+
+/* IndieWeb */
+
+#webring {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: var(--sans-serif);
+  opacity: var(--alt-text-opacity);
+}
+
+#webring a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
 /* Dark mode */
 
 @media (prefers-color-scheme: dark) {
@@ -279,30 +303,6 @@ a:focus {
       color: hsl(320, 74%, 70%);
     }
   }
-}
-
-/* Completely hide */
-
-.hide {
-  display: none;
-}
-
-/* IndieWeb */
-
-#webring {
-  position: absolute;
-  bottom: 2rem;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 0.8rem;
-  font-family: var(--sans-serif);
-  opacity: var(--alt-text-opacity);
-}
-
-#webring a {
-  text-decoration: none;
-  font-size: 1rem;
 }
 
 /* Bigger than mobile */
