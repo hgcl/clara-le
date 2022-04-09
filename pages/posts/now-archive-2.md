@@ -2,6 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDate.js"
 title: "Now archive #2"
+subtitle: "A snapshot in time"
 dateCreated: "2021-10-24"
 ---
 
