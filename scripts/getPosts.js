@@ -30,6 +30,7 @@ export default async function getPosts(dirCategory) {
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
+        subtitle: frontmatter.subtitle,
         dateCreated: frontmatter.dateCreated,
         dateModified: frontmatter.dateModified,
         durationMin: frontmatter.durationMin,

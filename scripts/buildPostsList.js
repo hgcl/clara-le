@@ -26,7 +26,9 @@ export async function buildPage(html) {
              month: "short",
              day: "numeric",
            })}
-          </time><a href="${post.slug}">${post.title}</a></li>`
+          </time><span><a href="${post.slug}">${
+            post.title
+          }</a><span class="subtle">${post.subtitle}</span></span></li>`
       )
       .join("");
     return html.replace("<li>Posts go here</li>", postsHtml);
