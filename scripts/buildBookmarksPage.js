@@ -10,7 +10,7 @@ export function buildPage(html) {
           .filter((item) => item.category.includes(cat.anchor))
           .map(
             (item) =>
-              `<li><a href="${item.url}">${item.title}</a>&emsp;<span style="opacity: var(--alt-text-opacity);">${item.description}</span></li>`
+              `<li><a href="${item.url}">${item.title}</a>&emsp;<span class="subtle">${item.description}</span></li>`
           )
           .join("") +
         `</ul>`

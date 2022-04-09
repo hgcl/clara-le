@@ -109,6 +109,10 @@ li {
   opacity: var(--alt-text-opacity);
 }
 
+.subtle {
+  opacity: var(--alt-text-opacity);
+}
+
 blockquote {
   border-left: solid 1px;
   padding-left: 1.5rem;
@@ -210,6 +214,11 @@ a:focus {
 
 .post-row > .label {
   min-width: 3rem;
+}
+
+.post-row > span {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Posts only */
@@ -341,5 +350,11 @@ a:focus {
 
   .footnotes {
     border: none;
+  }
+
+  /* List of generated posts */
+  .post-row > span {
+    flex-direction: row;
+    column-gap: 1rem;
   }
 }
