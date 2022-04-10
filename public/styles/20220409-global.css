@@ -32,7 +32,10 @@ main {
   padding-bottom: 2rem;
 }
 
-article,
+article {
+  max-width: 600px;
+}
+
 .intro {
   max-width: 600px;
   margin-bottom: 4rem;

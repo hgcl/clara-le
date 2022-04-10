@@ -4,7 +4,11 @@
     <title>{{#title}}{{title}} | {{/title}}Clara Le</title>
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/20220409-global.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/recipe-posts.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="/styles/20220410-recipe-posts.css"
+      type="text/css"
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link
@@ -40,8 +44,10 @@
         </p>
       </div>
       <article>
-        <!-- e-instructions microformat should theoretically contain only the instructions of the recipe -->
         {{/dateCreated}} {{> content}} {{#dateCreated}}
+        <a href="#ingredients" class="label"
+          >&uparrow; Back to the ingredients</a
+        >
       </article>
       {{/dateCreated}}
     </main>

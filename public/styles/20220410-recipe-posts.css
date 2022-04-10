@@ -9,29 +9,36 @@ article {
   max-width: none;
 }
 
-.ingredients {
+#ingredients {
   font-size: smaller;
   line-height: 1.5rem;
   opacity: var(--alt-text-opacity);
 }
 
-.ingredients li span::before {
+#ingredients li span::before {
   content: "\A\2003";
 }
 
+/* Back to top */
+
+article > a {
+  margin: 2rem auto;
+}
+
 @media only screen and (min-width: 768px) {
-  main {
-    height: 100vh;
-  }
   article {
     flex-direction: row;
     gap: 1rem;
   }
-  .e-instructions {
-    overflow-y: auto;
+  /* Back to top */
+  article > a {
+    display: none;
   }
-  .ingredients {
+  #ingredients {
     flex: 1 0 250px;
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
     margin: 2rem 0;
   }
 }
