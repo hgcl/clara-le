@@ -47,6 +47,14 @@ img {
   border-radius: 0.25rem;
 }
 
+figcaption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  /* below similar to .label */
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
 /* Nav */
 
 nav ul {
