@@ -10,7 +10,7 @@ dateCreated: "2022-04-09"
 
 I got quite sick this last week and wasn't able to do much except for lying in bed. It happens that this exciting activity pairs pretty well with audiobooks. So I set on searching for an available audiobook on [Libby](https://libbyapp.com/)[^1] and stumbled on _The Guernsey Literary and Potato Peel Pie Society_ by Mary Ann Shaffer and Annie Barrows.
 
-I had already read the book a few years ago and remembered loving it. Being at the end of my life, it seemed like it would have just the kind of wholesome vibe I needed. Plus, I was curious about how an audio version of this epistolary novel would fare. So I closed my eyes and pressed on _play_ (or more likely the other way around).
+I had already read the book a few years ago and remembered loving it. As I was practically in a dying state, it seemed like it would have just the kind of wholesome vibe I needed. Plus, I was curious about how an audio version of this epistolary novel would fare. So I closed my eyes and pressed on _play_ (or more likely the other way around).
 
 And what an adventure! I wholeheartedly recommend listening to the [Penguin Random House edition of the audiobook](https://www.penguinrandomhouseaudio.com/book/164594/the-guernsey-literary-and-potato-peel-pie-society/). The voice actors are able to give life to the many characters in such a natural way, it is hard to believe that it is only a five-people cast.
 
@@ -18,5 +18,5 @@ There is something about this novel and these characters that just made me want 
 
 In short, _The Guernsey Literary and Potato Peel Pie Society_ made me feel like I was part of a quirky, loving and caring community. And isn't that what everyone is looking for in the end?
 
-[^1]: Libby is a great library app, if you have a chance to use it!
+[^1]: Libby is a great library app, if you have the chance to try it!
 [^2]: Is this example too _me_-specific? This must be a universal feeling, no?
