@@ -53,7 +53,7 @@ export const categories = {
   },
 };
 
-export const bookmarksData = [
+export const blogrollData = [
   // >A
   {
     url: "https://notes.andymatuschak.org/About_these_notes",

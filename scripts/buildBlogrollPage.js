@@ -1,4 +1,4 @@
-import { categories, bookmarksData } from "../data/bookmarks.js";
+import { categories, blogrollData } from "../data/blogroll.js";
 
 export function buildPage(html) {
   const postsHtml = Object.values(categories)
@@ -6,7 +6,7 @@ export function buildPage(html) {
       (cat) =>
         `<h2 id=${cat.anchor}>${cat.title}</h2>` +
         `<ul>` +
-        bookmarksData
+        blogrollData
           .filter((item) => item.category.includes(cat.anchor))
           .map(
             (item) =>
