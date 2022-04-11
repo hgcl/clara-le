@@ -11,7 +11,7 @@ Don Norman, early user experience designer at Apple and author of _The Design of
 
 > Yes. I push doors that are meant to be pulled, pull doors that should be pushed, and walk into doors that neither pull nor push, but slide. Moreover, I see others having the same troubles— unnecessary troubles. My problems with doors have become so well known that confusing doors are often called "Norman doors".
 
-In the end, this comes down to something Norman calls "affordances". He further explains:
+In the end, this comes down to something Norman calls <q>affordances</q>. He further explains:
 
 > An affordance is a relationship between the properties of an object and the capabilities of the agent that determine just how the object could possibly be used. A chair affords ("is for") support and, therefore, affords sitting.
 

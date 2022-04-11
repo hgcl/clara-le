@@ -7,7 +7,7 @@ dateCreated: "2021-10-16"
 excerpt: "Can anger be constructive and transformative?"
 ---
 
-Ancient Stoic philosopher Seneca said, "To be angry is to be a madman".
+Ancient Stoic philosopher Seneca said, <q>To be angry is to be a madman</q>.
 
 Philosophy scholar Myisha Cherry argues that our view of anger might be over-simplified[^1]:
 

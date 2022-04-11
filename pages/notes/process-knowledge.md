@@ -11,7 +11,7 @@ excerpt: "Process knowledge is the third type of technology. You can give someon
 
 When embracing the age of specialization and comparative advantage, many developed countries lost their process knowledge on the way. It was easy to deprioritize industries, but it would take a tremendous amount of time and effort to gain back their lost know-how.
 
-The former Intel CEO Andy Grove argues that "[the United States] broke the chain of experience that is so important in technological innovation."
+The former Intel CEO Andy Grove argues that <q>[the United States] broke the chain of experience that is so important in technological innovation.</q>
 
 Societies tend to innovate more and have strong technology advancements when design and manufacturing are close to each other. Process knowledge is key to technological advancement.
 

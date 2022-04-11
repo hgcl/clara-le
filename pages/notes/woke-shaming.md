@@ -6,7 +6,7 @@ dateModified: "2021-09-27"
 dateCreated: "2021-09-27"
 ---
 
-I have to agree with Obama's point of view on the issue: "The world is messy. There are ambiguities. People who do really good stuff have flaws."[^1]
+I have to agree with Obama's point of view on the issue: <q>The world is messy. There are ambiguities. People who do really good stuff have flaws.</q>[^1]
 
 In today's moral landscape, it is hard to have a conversation about politics, philosophy or ethics without having to add a disclaimer to each and every sentence. Woke shaming fosters a very unwelcoming and intolerant environment, where it is impossible to disagree—even slightly—with the in-group. Not being able to disagree with "your team" seems like a sign of radicalization.
 

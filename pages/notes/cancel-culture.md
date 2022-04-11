@@ -7,7 +7,7 @@ dateCreated: "2021-09-27"
 excerpt: "Closely linked to deplatforming, censorship and virtue signalling. Cancelling is about intimidating ideological opponents."
 ---
 
-_Canceling_ is different from _criticism_ in that its practitioners seek "to organize and manipulate the social or media environment in order to isolate, deplatform or intimidate ideological opponents. [Cancel culture] is about shaping the information battlefield, not seeking truth; and its intent—or at least its predictable outcome—is to coerce conformity and reduce the scope for forms of criticism that are not sanctioned by the prevailing consensus of some local majority."[^1]
+_Canceling_ is different from _criticism_ in that its practitioners seek <q>to organize and manipulate the social or media environment in order to isolate, deplatform or intimidate ideological opponents. [Cancel culture] is about shaping the information battlefield, not seeking truth; and its intent—or at least its predictable outcome—is to coerce conformity and reduce the scope for forms of criticism that are not sanctioned by the prevailing consensus of some local majority.</q>[^1]
 
 In his article, Rauch differentiates cancel culture from criticism in six ways[^2]:
 

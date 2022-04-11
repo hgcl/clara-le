@@ -9,7 +9,7 @@ dateCreated: "2020-11-28"
 <figure>
  <img src="https://raw.githubusercontent.com/lisacharlotterost/talk-slides/master/0000_gifs/2011_WhatToConsiderWhenConsideringDataVisRules.gif" alt="What To Consider When Considering Data Vis Rules by Lisa Charlotte Ros" />
  <figcaption>
- What To Consider When Considering Data Vis Rules by Lisa Charlotte Ros
+ <cite>What To Consider When Considering Data Vis Rules</cite> by Lisa Charlotte Ros
  </figcaption>
 </figure>
 

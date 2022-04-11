@@ -9,7 +9,7 @@ dateCreated: "2020-12-12"
 <figure>
  <img src="https://cdn.dribbble.com/users/4072391/screenshots/14742944/media/54f9c36015bc753152fda9051e85f106.gif" alt="Christmas Music animated illustration by Maria Scherlies" />
  <figcaption>
- Christmas Music animated illustration by Maria Scherlies
+ <cite>Christmas Music animated illustration</cite> by Maria Scherlies
  </figcaption>
 </figure>
 

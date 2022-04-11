@@ -6,7 +6,7 @@ dateModified: "2021-09-22"
 dateCreated: "2021-09-22"
 ---
 
-In Bourdieu's words, _habitus_ refers to "a subjective but not individual system of internalized structures, schemes of perception, conception, and action common to all members of the same group or class"[^1].
+In Bourdieu's words, _habitus_ refers to <q>a subjective but not individual system of internalized structures, schemes of perception, conception, and action common to all members of the same group or class</q>[^1].
 
 I first discovered this concept via this video essay explaining the [Overton Window](/notes/overton-window) and _Why AOC's dress matters_[^2].
 

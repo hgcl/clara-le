@@ -9,7 +9,7 @@ dateCreated: "2020-11-24"
 <figure>
  <img src="https://cdn.dribbble.com/users/2548965/screenshots/14483558/media/58f1c0f63d4bb35865746eecf4f6b1dd.jpg" alt="Among us by Pooria LFA" />
  <figcaption>
- Among us by Pooria LFA
+ <cite>Among us</cite> by Pooria LFA
  </figcaption>
 </figure>
 

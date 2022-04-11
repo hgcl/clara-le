@@ -9,7 +9,7 @@ dateCreated: "2020-12-05"
 <figure>
  <img src="https://cdn.dribbble.com/users/1899690/screenshots/14563460/media/9080e68acae7e08dd83b893c4b22bd22.jpg" alt="VDInk 03/31 by Osmar Axel Rivera Mejia" />
  <figcaption>
- VDInk 03/31 by Osmar Axel Rivera Mejia
+ <cite>VDInk 03/31</cite> by Osmar Axel Rivera Mejia
  </figcaption>
 </figure>
 

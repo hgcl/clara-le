@@ -9,7 +9,7 @@ excerpt: "What if articles and blog posts decayed when not maintained?"
 
 When you have a physical object, it gets used and older. It might be scratches on a plate, a coffee stain on a book, a loose thread from your jacket.
 
-In the digital sphere, we lose this contextual information. We cannot tell the age of websites. It does arrive that you stumble on a personal retro website from the 1990s, but what if that person bootstraps and updates it? If there is no date or any obvious outdated terms, it is then impossible to differentiate an article written 20 years ago from one written today. "Your blog posts never die"[^1].
+In the digital sphere, we lose this contextual information. We cannot tell the age of websites. It does arrive that you stumble on a personal retro website from the 1990s, but what if that person bootstraps and updates it? If there is no date or any obvious outdated terms, it is then impossible to differentiate an article written 20 years ago from one written today. <q>Your blog posts never die</q>[^1].
 
 Now, what if articles and blog posts decayed when not maintained? Let's say that you didn't update a post for 10 years and that it was read by close to no one in the meantime, it could simply disappear.
 

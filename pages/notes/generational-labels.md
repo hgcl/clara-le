@@ -9,7 +9,7 @@ excerpt: "The dividing lines between generations are a figment of our collective
 
 In his article[^1], Joe Pinsker summaries the points made by sociologist Philip Cohen.
 
-First of all, labels are imprecise and inaccurate as they "steer every conversation toward generalization, fairly or not".
+First of all, labels are imprecise and inaccurate as they <q>steer every conversation toward generalization, fairly or not</q>.
 
 > Generational labels capture some of the basic fact that people who are born in different eras lead meaningfully different lives. But these labels are clumsy and imprecise—and getting more so all the time. They flatten out the experiences of tens of millions of very different people, remove nuance from conversations, and imply commonality where there may be none. [...]
 >
