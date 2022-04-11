@@ -58,19 +58,21 @@
     // Get footnotes box (ol element) and set up counter
     let footnotes = document.querySelector(".footnotes").lastChild;
     let counter = 1;
-    while (footnotes.childNodes.length >= counter) {
-      // Generate ids numbers
-      let footnoteId = "user-content-fn-" + counter;
-      let refId = "user-content-fnref-" + counter;
-      // Get footnote element (li element) + set class sidenote
-      let footnoteEl = document.getElementById(footnoteId);
-      footnoteEl.setAttribute("class", "sidenote");
-      // Get the reference sup element top position
-      let supEl = document.getElementById(refId).parentNode;
-      let topPos = supEl.offsetTop;
-      // Vertically position footnote
-      footnoteEl.style.top = topPos + "px";
-      counter++;
-    }
+    window.onload = () => {
+      while (footnotes.childNodes.length >= counter) {
+        // Generate ids numbers
+        let footnoteId = "user-content-fn-" + counter;
+        let refId = "user-content-fnref-" + counter;
+        // Get footnote element (li element) + set class sidenote
+        let footnoteEl = document.getElementById(footnoteId);
+        footnoteEl.setAttribute("class", "sidenote");
+        // Get the reference sup element top position
+        let supEl = document.getElementById(refId).parentNode;
+        let topPos = supEl.offsetTop;
+        // Vertically position footnote
+        footnoteEl.style.top = topPos + "px";
+        counter++;
+      }
+    };
   </script>
 </html>
