@@ -273,6 +273,13 @@ export const bookmarksData = [
   // >Q
   // >R
   // >S
+  {
+    url: "https://sebastiangreger.net",
+    title: "Sebastian Greger",
+    description: "When the IndieWeb meets great design.",
+    category: [categories.techieTool.anchor],
+    best: false,
+  },
   // >T
   {
     url: "https://www.theydrawandtravel.com/",

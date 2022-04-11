@@ -204,6 +204,17 @@ a:focus {
   }
 }
 
+/* External links */
+
+a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
+{
+  content: url("/external-link.svg");
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  transform: scale(0.8);
+}
+
 /* Footnotes */
 
 .footnotes {
