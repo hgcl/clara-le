@@ -2,6 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDate.js"
 title: "Habitus"
+excerpt: ""
 dateModified: "2021-09-22"
 dateCreated: "2021-09-22"
 ---

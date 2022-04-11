@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDate.js"
 title: "How do vaccines work?"
 dateModified: "2022-03-30"
 dateCreated: "2022-03-30"
-excerpt: "XXX"
+excerpt: ""
 ---
 
 ## What's in a virus?[^1]
