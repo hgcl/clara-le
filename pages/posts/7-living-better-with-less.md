@@ -33,7 +33,7 @@ Fascinating article about why we envision the ideal family as two parents with 2
 
 ## Antilibrary
 
-### [Wabi-Sabi](https://bookshop.org/books/wabi-sabi-for-artists-designers-poets-philosophers/9780981484600/)
+### [Wabi-Sabi (2008)](https://bookshop.org/books/wabi-sabi-for-artists-designers-poets-philosophers/9780981484600/)
 
 _Wabi-sabi_ (侘寂) is a Japanese concept describing the appreciation of things imperfect, impermanent, and incomplete. It is a short meditative read by Leonard Koren that might help me to let go and be a bit less of a perfectionist.
 
