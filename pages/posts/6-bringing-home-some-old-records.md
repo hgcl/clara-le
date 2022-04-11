@@ -3,7 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDate.js"
 title: "#6 Bringing home some old records"
 subtitle: "Weekly review #6"
-dateCreated: "2020-12-125"
+dateCreated: "2020-12-12"
 ---
 
 <figure>
