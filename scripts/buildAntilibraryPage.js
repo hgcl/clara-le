@@ -20,34 +20,38 @@ async function fetchMediaJSON() {
   return posts;
 }
 export async function buildPage(html) {
-  const posts = await fetchMediaJSON();
-  const postsHtml = posts
-    .sort(
-      (a, b) =>
-        new Date(b.addedDate).getTime() - new Date(a.addedDate).getTime()
-    )
-    .map(
-      (post) =>
-        `<div class="media-card">
+  try {
+    const posts = await fetchMediaJSON();
+    const postsHtml = posts
+      .sort(
+        (a, b) =>
+          new Date(b.addedDate).getTime() - new Date(a.addedDate).getTime()
+      )
+      .map(
+        (post) =>
+          `<div class="media-card">
         <img src=${
           post.posterUrl
         } width="250" height="375" alt="" loading="lazy">
         <span>${post.title}</span>
             <div class="content">
            <time datetime="${post.addedDate}">${new Date(
-          post.addedDate
-        ).toLocaleDateString("en-US", {
-          month: "short",
-          day: "numeric",
-        })}</time>&ensp;|&ensp;Book&ensp;|&ensp;
+            post.addedDate
+          ).toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+          })}</time>&ensp;|&ensp;Book&ensp;|&ensp;
                 <a href="${
                   post.bookUrl
                 }">More&nbsp;info<span class="sr-only">of ${
-          post.title
-        }</span></a>
+            post.title
+          }</span></a>
             </div>
         </div>`
-    )
-    .join("");
-  return html.replace("<div>Data generated here</div>", postsHtml);
+      )
+      .join("");
+    return html.replace("<div>Data generated here</div>", postsHtml);
+  } catch (error) {
+    throw new Error(`Failed to build page: ${error}`);
+  }
 }
