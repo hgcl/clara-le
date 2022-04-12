@@ -3,9 +3,9 @@ export const categories = {
     title: "Berlin",
     anchor: "berlin",
   },
-  blogroll: {
-    title: "Blogroll",
-    anchor: "blogroll",
+  blog: {
+    title: "Blog",
+    anchor: "blog",
   },
   cooking: {
     title: "Cooking",
@@ -19,9 +19,9 @@ export const categories = {
     title: "Digital Garden",
     anchor: "digital-garden",
   },
-  games: {
-    title: "Games",
-    anchor: "games",
+  game: {
+    title: "Game",
+    anchor: "game",
   },
   map: {
     title: "Map",
@@ -84,7 +84,7 @@ export const blogrollData = [
     title: "Codenames",
     description:
       "I love codenames and have the actual game at home. This online version works great for remote play.",
-    category: [categories.games.anchor],
+    category: [categories.game.anchor],
     best: false,
   },
   {
@@ -149,7 +149,7 @@ export const blogrollData = [
     title: "Gartic Phone",
     description:
       "Playing online is not just for gamers. Gartic Phone is the love child of Telephone and Pictionary—super fun and accessible!",
-    category: [categories.games.anchor],
+    category: [categories.game.anchor],
     best: false,
   },
   // >H
@@ -173,7 +173,7 @@ export const blogrollData = [
     title: "Hundred Rabbits",
     description:
       "When I think about inspiring people, I think about Rekka and Devine, the creators of Hundred Rabbits. They live off the grid on a sailboat, have a plant-based cooking blog, create open-source projects... Do I need to go on?",
-    category: [categories.travel.anchor, categories.blogroll.anchor],
+    category: [categories.travel.anchor, categories.blog.anchor],
     best: false,
   },
   {
@@ -189,7 +189,7 @@ export const blogrollData = [
     url: "https://ifdb.org/",
     title: "Interactive Fiction Database",
     description: "The home of all text adventures games!",
-    category: [categories.games.anchor],
+    category: [categories.game.anchor],
     best: false,
   },
   // >J
@@ -232,7 +232,7 @@ export const blogrollData = [
     title: "Mindmeld",
     description:
       "Wavelength is a social party game that fosters conversations. Mindmeld is its free online spin-off.",
-    category: [categories.games.anchor],
+    category: [categories.game.anchor],
     best: false,
   },
   {
@@ -250,7 +250,7 @@ export const blogrollData = [
     title: "OMGLORD",
     description:
       "Designer Gabby Lord shares amazing resources on her website and through her newsletter.",
-    category: [categories.blogroll.anchor],
+    category: [categories.blog.anchor],
     best: false,
   },
   // >P
