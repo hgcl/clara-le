@@ -243,6 +243,18 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   flex-direction: column;
 }
 
+#recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 1rem;
+}
+
+#bookmarks-list > li > span > span {
+  /* selects the domain name */
+  font-size: smaller;
+  opacity: var(--alt-text-opacity);
+}
+
 /* Posts only */
 
 .post-header {
@@ -252,12 +264,6 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
 .post-header h1 {
   margin: 0;
-}
-
-#recipe-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap: 1rem;
 }
 
 /* Accessibility */
@@ -290,6 +296,14 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
 .hide {
   display: none;
+}
+
+/* Image composition (e.g. portfolio page) */
+
+.image-comp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 /* IndieWeb */
@@ -380,8 +394,8 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
     border: none;
   }
 
-  /* List of generated posts */
-  .post-row > span {
+  /* List of generated blog posts */
+  #blog-list .post-row > span {
     flex-direction: row;
     column-gap: 1rem;
   }
