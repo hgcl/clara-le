@@ -8,10 +8,6 @@ export async function buildPage(html) {
   try {
     const posts = await getPosts(dirCategory);
     const postsHtml = posts
-      .sort(
-        (a, b) =>
-          new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
-      )
       .map(
         (post) =>
           `<li class="post-row"><a href="${post.slug}">${post.title}</a>${
