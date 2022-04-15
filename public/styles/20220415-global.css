@@ -356,7 +356,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
   @keyframes color-change {
     5% {
-      color: hsl(0, 78%, 66%);
+      color: hsl(0, 78%, 65%);
     }
     15% {
       color: hsl(44, 100%, 71%);
