@@ -6,11 +6,11 @@ subtitle: "With CSS only"
 dateCreated: "2022-04-15"
 ---
 
-This new website layout is quite minimalist and mostly plays on typography styles and hierarchy. But I wanted to add some _spice_ and what better way than doing it rainbow-style on hyperlinks?[^1]
+This new website layout is quite minimalist and mostly plays on typography styles and hierarchy. I wanted to add some _spice_ to such a simple base—so what better way than doing it rainbow-style on hyperlinks?[^1]
 
-The general idea is that my hyperlinks are the same color as the body text and are underlined by default. When hovered of focused, they are animated with CSS keyframes that seamlessly transition through a list of colors. To differentiate between the `focus` and `hover` states, I removed the underline on `focus` and added an outline instead.
+The general idea is that my hyperlinks are underlined by default[^2] as they are the same color as the body text. When hovered of focused, they are animated with CSS keyframes that seamlessly transition through a list of colors. To differentiate the `focus` from `hover` state, I removed the underline and added an `outline` around the link instead[^3].
 
-As you noticed, I am definitely not a web dev blogger, so I'll just drop my CSS below.
+As you noticed, I am not a very talented web dev blogger, so I'll just drop my CSS below.
 
 ```
 a {
@@ -52,3 +52,5 @@ a:focus {
 ```
 
 [^1]: Please don't answer to that, this is a rhetorical question.
+[^2]: Accessibility note: If your links are not underlined, you have to make sure [they contrast enough with your body text](https://webaim.org/resources/linkcontrastchecker/).
+[^3]: Just tab through the links to test it out!
