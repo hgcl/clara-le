@@ -2,8 +2,7 @@ import fetch from "node-fetch";
 
 async function fetchBookmarksJSON() {
   const url = "https://api.hypothes.is/api/search?limit=200&group=qoP5v2Eg";
-  const HYPOTHESIS_TOKEN = "6879-FnOjdqDMK99gFtdeQ3S8-oDEvXkXII3qnmgU-xYhO1k";
-  const bearer = "Bearer " + HYPOTHESIS_TOKEN;
+  const bearer = "Bearer " + process.env.HYPOTHESIS_TOKEN;
   const response = await fetch(url, {
     method: "GET",
     headers: {
