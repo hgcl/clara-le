@@ -326,12 +326,23 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   display: flex;
   gap: 2rem;
   align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
 }
 
 #home-intro svg {
   display: none;
   fill: currentColor;
   flex-shrink: 0;
+}
+
+#home-intro p {
+  max-width: 632px;
+  padding: 1rem;
 }
 
 /* Dark mode */
@@ -387,9 +398,6 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   #recipe-list {
     columns: 2;
   }
-  #home-intro {
-    flex-wrap: nowrap;
-  }
   #home-intro svg {
     display: block;
   }
@@ -411,6 +419,9 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
   .footnotes {
     border: none;
+  }
+  #home-intro {
+    gap: 4rem;
   }
 
   /* List of generated blog posts */
