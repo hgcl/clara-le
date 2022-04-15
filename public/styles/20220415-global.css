@@ -332,6 +332,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   left: 0;
   height: 100vh;
   width: 100%;
+  padding: 1rem;
 }
 
 #home-intro svg {
@@ -341,8 +342,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 }
 
 #home-intro p {
-  max-width: 632px;
-  padding: 1rem;
+  max-width: 600px;
 }
 
 /* Dark mode */
