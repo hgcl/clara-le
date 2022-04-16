@@ -348,6 +348,13 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   display: none;
   fill: currentColor;
   flex-shrink: 0;
+  transition: transform 0.5s ease;
+}
+
+#home-intro svg:hover {
+  display: block;
+  animation: color-change 5s infinite;
+  transform: translateY(-3%);
 }
 
 #home-intro p {
