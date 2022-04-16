@@ -57,6 +57,11 @@ figcaption {
 
 /* Nav */
 
+nav {
+  z-index: 1;
+  position: relative;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -226,6 +231,10 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   opacity: var(--alt-text-opacity);
 }
 
+.footnotes ol {
+  padding-right: 1rem;
+}
+
 /* List of generated posts */
 
 .post-row {
@@ -279,6 +288,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 }
 
 .skip-to-content {
+  z-index: 2;
   position: absolute;
   transform: translateY(-280%);
   transition: transform 0.3s;
