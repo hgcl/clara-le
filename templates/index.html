@@ -4,17 +4,14 @@
     <title>{{#title}}{{title}} | {{/title}}Clara Le</title>
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/20220419-global.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="/styles/20220410-recipe-posts.css"
-      type="text/css"
-    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>"
     />
+    <!-- IndieWeb auth -->
+    <link rel="stylesheet" href="https://github.com/hgcl" rel="me" />
     <!-- Webmentions links, state that I want to receive webmentions on webmention.io -->
     <link
       rel="webmention"
@@ -37,26 +34,7 @@
         </ul>
       </nav>
     </header>
-    <main id="main" class="h-recipe">
-      <!-- if it has a date it's a post -->
-      {{#dateCreated}}
-      <div class="post-header">
-        <h1 class="p-name">{{title}}</h1>
-        <p class="label">
-          <span class="sr-only">Published on</span>
-          <time datetime="{{dateCreated}}" class="dt-published"
-            >{{dateCreated}}</time
-          >
-        </p>
-      </div>
-      <article>
-        {{/dateCreated}} {{> content}} {{#dateCreated}}
-        <a href="#ingredients" class="label"
-          >&uparrow; Back to the ingredients</a
-        >
-      </article>
-      {{/dateCreated}}
-    </main>
+    <main id="main">{{> content}}</main>
     <footer>
       <ul>
         <li class="nobullet">
@@ -66,6 +44,17 @@
           <a href="/colophon">Colophon</a>
         </li>
       </ul>
+      <div id="webring">
+        <a
+          href="https://xn--sr8hvo.ws/%F0%9F%90%89%F0%9F%94%8B%F0%9F%8C%A4/previous"
+          >&leftarrow;</a
+        >
+        &emsp;An IndieWeb Webring 🕸💍&emsp;
+        <a
+          href="https://xn--sr8hvo.ws/%F0%9F%90%89%F0%9F%94%8B%F0%9F%8C%A4/next"
+          >&rightarrow;</a
+        >
+      </div>
     </footer>
   </body>
 </html>

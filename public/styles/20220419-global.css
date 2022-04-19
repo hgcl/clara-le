@@ -26,10 +26,13 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   padding-bottom: 2rem;
+  flex: 1 0 auto;
 }
 
 article {
@@ -165,6 +168,15 @@ hr::before {
 .nobullet > li {
   padding: 0;
   list-style: none;
+}
+
+/* Completed task */
+.completed {
+  text-decoration: line-through;
+  opacity: var(--alt-text-opacity);
+}
+.completed::after {
+  content: "\00A0\2714";
 }
 
 /* Hyperlinks */
@@ -316,14 +328,9 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 /* Homepage */
 
 #webring {
-  position: absolute;
-  bottom: 2rem;
-  left: 0;
-  width: 100%;
   text-align: center;
   font-size: 0.8rem;
   font-family: var(--sans-serif);
-  opacity: var(--alt-text-opacity);
 }
 
 #webring a {
@@ -332,16 +339,15 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 }
 
 #home-intro {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#home-intro div {
   display: flex;
   gap: 2rem;
   align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  padding: 1rem;
 }
 
 #home-intro svg {
@@ -359,6 +365,26 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
 #home-intro p {
   max-width: 600px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  opacity: var(--alt-text-opacity);
+}
+
+footer ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 /* Dark mode */
@@ -405,7 +431,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 }
 @media only screen and (min-width: 768px) {
   body {
-    padding: 2rem 4rem 4rem 4rem;
+    padding: 2rem 4rem 2rem 4rem;
   }
   h1 {
     font-size: 3.998rem;
@@ -416,6 +442,10 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   }
   #home-intro svg {
     display: block;
+  }
+  footer {
+    justify-content: space-between;
+    flex-direction: row-reverse;
   }
 }
 
@@ -436,7 +466,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   .footnotes {
     border: none;
   }
-  #home-intro {
+  #home-intro .h-card {
     gap: 4rem;
   }
 
