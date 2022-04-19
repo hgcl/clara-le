@@ -236,6 +236,14 @@ export const blogrollData = [
     best: false,
   },
   {
+    url: "https://blog.mollywhite.net/",
+    title: "Molly White",
+    description:
+      "Molly is a software engineer by trade and writes opinionated pieces about online harassment, Web3 and more.",
+    category: [categories.blog.anchor],
+    best: false,
+  },
+  {
     url: "https://www.youtube.com/c/mynameisandong/",
     title: "My Name Is Andong",
     description:
