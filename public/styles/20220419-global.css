@@ -338,6 +338,10 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   font-size: 1rem;
 }
 
+#webring span {
+  display: none;
+}
+
 #home-intro {
   padding: 1rem;
   display: flex;
@@ -371,8 +375,8 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
 footer {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row-reverse;
   align-items: center;
   flex-shrink: 0;
   padding: 1rem 0;
@@ -428,6 +432,9 @@ footer ul {
     font-size: 1.999rem;
     line-height: 2.5rem;
   }
+  #webring span {
+    display: inline;
+  }
 }
 @media only screen and (min-width: 768px) {
   body {
@@ -442,10 +449,6 @@ footer ul {
   }
   #home-intro svg {
     display: block;
-  }
-  footer {
-    justify-content: space-between;
-    flex-direction: row-reverse;
   }
 }
 
