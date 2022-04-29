@@ -346,6 +346,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   padding: 1rem;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 #home-intro div {
@@ -364,7 +365,7 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 #home-intro svg:hover {
   display: block;
   animation: color-change 5s infinite;
-  transform: translateY(-3%);
+  transform: scale(1.15);
 }
 
 #home-intro p {
