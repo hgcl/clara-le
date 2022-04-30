@@ -19,8 +19,6 @@ What a week! I feel like so many things happened since last week.
 
 First of all, I finally had my interview with three people from my current company. For the first time in my life, I have answered to these interview questions with 100% honesty. It felt quite liberating to be completely myself and not give half-truths that are more aligned with people expectations.
 
-<Comment>But I was so stressed out the whole time.</Comment>
-
 ## An app to feel closer to your friends
 
 Robin introduced our small group of friends to the [Cappuccino App](https://capp.fm/).
