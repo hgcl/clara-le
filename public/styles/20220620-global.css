@@ -170,7 +170,14 @@ hr::before {
   list-style: none;
 }
 
+/* Details */
+
+details summary {
+  cursor: pointer;
+}
+
 /* Completed task */
+
 .completed {
   text-decoration: line-through;
   opacity: var(--alt-text-opacity);
@@ -451,6 +458,9 @@ footer ul {
   h1 {
     font-size: 3.998rem;
     line-height: 4.2rem;
+  }
+  details > *:not(summary) {
+    margin-left: 2rem;
   }
   #recipe-list {
     columns: 2;
