@@ -2,15 +2,16 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDate.js"
 title: "Now"
-dateCreated: "2022-06-20"
+dateCreated: "2022-06-25"
 ---
 
-I have now been in Berlin for more than three years—kinda crazy.
+I am based in Berlin since 3+ years and working as a UX designer.
 
-My routine mostly consists of bouldering a few times a week, meeting with friends for morning pastries and working as a visual designer.
+Outside of work, you'll find me bouldering and sharing morning pastries with friends.
 
-A few current side-projects:
+A few side-projects:
 
-- Nurturing my planner shop _[Life Under Control](https://www.etsy.com/shop/LifeUnderControl/)_
+- Nurturing my planner shop _[Life Under Control](https://www.etsy.com/shop/LifeUnderControl/)_, aiming for one new listing every month
 - Reading <cite>100 Things Every Designer Needs to Know About People</cite> by Susan M. Weinschenk and updating [my UX learnings note](/posts/ux-learnings) accordingly
-- Building my website from scratch—yes, _again_—with [brut](https://github.com/robinmetral/brut/)
+- Going through a [wine tasting project](https://www.rafaeldelima.com/) with Robin consisting of trying 73 different wines. Current progress: 2/73
+- Participating in my first D&D campaign. My character is a dragonborn who is on a personal cooking quest.
