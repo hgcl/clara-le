@@ -1,0 +1,65 @@
+<!--
+template: /templates/default.html
+-->
+
+<h1>Log a book</h1>
+<div id="details">
+    <img src="" alt="" width="250" height="375" />
+</div>
+<form>
+    <fieldset>
+        <legend>Book data</legend>
+        <label for="title">Title</label>
+        <input name="title" id="title" type="search" required />
+        <button type="submit">Submit</button>
+        <!-- <label for="summary">Summary</label>
+        <input name="summary" id="summary" type="text" required />
+        <label for="release-date">Release date</label>
+        <input name="release-date" id="release-date" type="date" required />
+        <label for="language">Original language</label>
+        <input name="language" id="language" type="text" required />
+        <label for="countries">Countries (ISO 3166-1, comma-separated)</label>
+        <input name="countries" id="countries" type="text" required />
+        <label for="genres">Genres (comma-separated)</label>
+        <input name="genres" id="genres" type="text" required />
+        <label for="directors">Directed by (comma-separated)</label>
+        <input name="directors" id="directors" type="text" required />
+        <label for="tmdb-id">TMDB ID</label>
+        <input name="tmdb-id" id="tmdb-id" type="text" required /> -->
+    </fieldset>
+    <!-- <fieldset>
+        <legend>Rating and review</legend>
+        <label for="watch-date">Watch date</label>
+        <input name="watch-date" id="watch-date" type="date" required />
+        <label for="rating">Rating</label>
+        <div>
+            <input name="rating" id="rating" type="range" min="1" max="10" required />
+            <span id="rating-current" />
+        </div>
+        <label for="review-url">Review URL (optional)</label>
+        <input name="review-url" id="review-url" type="url" />
+    </fieldset> -->
+    <!-- <label for="key">Key</label>
+    <input name="key" id="key" type="password" required /> -->
+    <ul id="replaceme">
+        <li></li>
+    </ul>
+</form>
+<script type="text/javascript">
+    async function getBooks(event) {
+        event.preventDefault(); // prevent reloading of page on normal html form submission
+        const replaceMe = document.getElementById('replaceme');
+        let searchValue = document.getElementById('title').value;
+        try {
+            const booksJson = await fetch("http://openlibrary.org/search.json?q=" + searchValue)
+                .then((response) => response.json());
+            const booksHtml = booksJson.docs.map(x => `<li><a href="https://openlibrary.org${x.key}">${x.title}</a></li>`).join("");
+            replaceMe.innerHTML = booksHtml;
+        } catch (error) {
+            throw new Error(`Failed to build page: ${error}`);
+        }
+    }
+    // event listener on form submission (in order to prevent page reload)
+    const form = document.querySelector("form");
+    form.addEventListener('submit', (event) => getBooks(event));
+</script>
