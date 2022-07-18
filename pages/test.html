@@ -1,17 +1,19 @@
 <!--
-template: /templates/default.html
+template: /templates/new-media.html
 -->
 
 <h1>Log a book</h1>
-<div id="details">
-    <img src="" alt="" width="250" height="375" />
-</div>
-<form>
+<!-- <div id="details">
+    <div></div>
+    <div></div>
+</div> -->
+<form id="search-book">
     <fieldset>
-        <legend>Book data</legend>
-        <label for="title">Title</label>
-        <input name="title" id="title" type="search" required />
-        <button type="submit">Submit</button>
+        <legend>1. Search book</legend>
+        <label for="search-value">Search terms</label>
+        <input name="search-value" id="search-value" type="search" />
+        <!-- <input name="search-value" id="search-value" type="search" required /> -->
+        <button type="submit">Search books</button>
         <!-- <label for="summary">Summary</label>
         <input name="summary" id="summary" type="text" required />
         <label for="release-date">Release date</label>
@@ -41,25 +43,106 @@ template: /templates/default.html
     </fieldset> -->
     <!-- <label for="key">Key</label>
     <input name="key" id="key" type="password" required /> -->
-    <ul id="replaceme">
-        <li></li>
+    <ul id="replace-list">
     </ul>
 </form>
+<form id="add-book" action="/data/books.json" method="POST">
+    <fieldset>
+        <legend>2. Add book</legend>
+        <label for="title">Title</label>
+        <input name="title" id="title" type="text" />
+        <label for="author">Author</label>
+        <input name="author" id="author" type="text" />
+        <label for="cover">Cover</label>
+        <input name="cover" id="cover" type="text" />
+        <label for="description">Description</label>
+        <input name="description" id="description" type="text" />
+        <button type="submit">Add book</button>
+    </fieldset>
+</form>
 <script type="text/javascript">
-    async function getBooks(event) {
+    // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
+
+    const GITHUB_TOKEN = ''
+    const GH_API_URL =
+        "https://api.github.com/repos/hgcl/clara-le/contents/data/books.json";
+    const GH_API_HEADERS = {
+        Authorization: `token ${GITHUB_TOKEN}`,
+        Accept: "application/vnd.github.v3+json",
+        "User-Agent": "logger", // required by the GitHub API: https://docs.github.com/en/rest/overview/resources-in-the-rest-api#user-agent-required
+    };
+
+    const updateGit = async () => {
+        // 1. get form content
+        let body =
+        {
+            "title": addForm.title.value,
+            "author": addForm.author.value,
+            "description": addForm.description.value,
+            "cover": addForm.cover.value
+        };
+        // 2. get latest data from GitHub
+        const file = await getFile();
+        const data = JSON.parse(atob(file.content));
+        // 3. append new entry to data
+        data.push(body);
+        // 4. push back to GitHub
+        const response = await fetch(GH_API_URL, {
+            method: "PUT",
+            headers: GH_API_HEADERS,
+            body: JSON.stringify({
+                message: `Add new media to books.json`, // commit message
+                content: btoa(JSON.stringify(data, null, 2)), // encode new file content in base64
+                sha: file.sha, // sha for updating the old file (GH API requirement)
+            }),
+        });
+    }
+
+    const replaceList = document.getElementById('replace-list');
+    async function searchBooks(event) {
         event.preventDefault(); // prevent reloading of page on normal html form submission
-        const replaceMe = document.getElementById('replaceme');
-        let searchValue = document.getElementById('title').value;
+        let searchValue = document.getElementById('search-value').value;
         try {
             const booksJson = await fetch("http://openlibrary.org/search.json?q=" + searchValue)
                 .then((response) => response.json());
-            const booksHtml = booksJson.docs.map(x => `<li><a href="https://openlibrary.org${x.key}">${x.title}</a></li>`).join("");
-            replaceMe.innerHTML = booksHtml;
+            const booksHtml = booksJson.docs.map(x => `<li><button id="${x.key}" onclick="selectBook(this.id)" type="button">${x.title}</button></li>`).join("");
+            replaceList.innerHTML = booksHtml;
         } catch (error) {
             throw new Error(`Failed to build page: ${error}`);
         }
     }
+
+    async function selectBook(id) {
+        try {
+            const callWorksApi = await fetch("https://openlibrary.org" + id + ".json").then((response) => response.json());
+            const coverId = callWorksApi.covers[0];
+            const authorKey = callWorksApi.authors[0].author.key;
+            const callCoversApi = await fetch("https://covers.openlibrary.org/b/id/" + coverId + "-M.jpg");
+            const callAuthorApi = await fetch("https://openlibrary.org" + authorKey + ".json").then((response) => response.json());
+            // Replace info on page
+            // replaceCover.innerHTML = "<img src='" + callCoversApi.url + "'" + "alt='' width='180' height='275' />";
+            replaceList.innerHTML = "";
+            // Add info to form
+            addForm.title.value = callWorksApi.title;
+            addForm.author.value = callAuthorApi.name;
+            addForm.description.value = callWorksApi.description;
+            addForm.cover.value = callCoversApi.url;
+            updateGit();
+        } catch (error) {
+            throw new Error(`Failed to build page: ${error}`);
+        }
+    }
+
+    async function getFile() {
+        const response = await fetch(GH_API_URL, {
+            headers: GH_API_HEADERS,
+        });
+        const data = await response.json();
+        return data;
+    }
+
     // event listener on form submission (in order to prevent page reload)
-    const form = document.querySelector("form");
-    form.addEventListener('submit', (event) => getBooks(event));
+    const searchForm = document.getElementById("search-book");
+    searchForm.addEventListener('submit', (event) => searchBooks(event));
+    const addForm = document.getElementById("add-book");
 </script>
