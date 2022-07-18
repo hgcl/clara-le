@@ -14,5 +14,9 @@
   {
     "id": 3,
     "name": "Harry Potter and the Philosopher's Stone"
+  },
+  {
+    "id": 3,
+    "name": "form.title.value"
   }
 ]
