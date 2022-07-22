@@ -82,9 +82,15 @@
     "cover": "https://covers.openlibrary.org/b/id/8243267-M.jpg"
   },
   {
-    "title": "Le siècle",
+    "title": "Le siÃ¨cle",
     "author": "Ernest Hello",
     "description": "undefined",
     "cover": "https://covers.openlibrary.org/b/id/2479960-M.jpg"
+  },
+  {
+    "title": "Harry",
+    "author": "Marcia Moody",
+    "description": "[object Object]",
+    "cover": "https://covers.openlibrary.org/b/id/10259842-M.jpg"
   }
 ]
