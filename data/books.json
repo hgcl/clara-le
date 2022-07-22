@@ -97,5 +97,10 @@
     "title": "Harry",
     "author": "Marcia Moody",
     "cover": "https://covers.openlibrary.org/b/id/10259842-M.jpg"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "J. K. Rowling",
+    "cover": "https://covers.openlibrary.org/b/id/12059372-M.jpg"
   }
 ]
