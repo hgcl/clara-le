@@ -107,5 +107,12 @@
     "title": "Harry Potter and the Goblet of Fire",
     "author": "J. K. Rowling",
     "cover": "https://covers.openlibrary.org/b/id/12059372-M.jpg"
+  },
+  {
+    "title": "Wake-Robin",
+    "author": "John Burroughs",
+    "cover": "https://covers.openlibrary.org/b/id/10934377-M.jpg",
+    "read-date": "2022-07-22",
+    "rating": "1"
   }
 ]
