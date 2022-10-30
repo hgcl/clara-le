@@ -34,6 +34,7 @@ export default async function getPosts(dirCategory) {
         dateCreated: frontmatter.dateCreated,
         dateModified: frontmatter.dateModified,
         durationMin: frontmatter.durationMin,
+        dataTag: frontmatter.dataTag,
         slug: `/${dirCategory}/${file.replace(".md", "").replace(".html", "")}`,
       };
     })

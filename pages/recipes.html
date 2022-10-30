@@ -9,6 +9,29 @@ buildScript: /scripts/buildRecipesList.js
   linked in the posts directly. Some of the steps and ingredients might differ
   from the original instructions to suit my preferences.
 </p>
+<label for="filter-recipes">Filter:</label>
+<select name="tags" id="filter-recipes">
+  <option value="" onclick="filter()">All</option>
+  <option value="dessert" onclick="filter(value)">Desserts</option>
+  <option value="main" onclick="filter(value)">Mains</option>
+  <option value="cereal" onclick="filter(value)">Cereals</option>
+  <option value="extra" onclick="filter(value)">Extras</option>
+  <option value="diy" onclick="filter(value)">DIY</option>
+</select>
 <ul id="recipe-list" class="nobullet">
   <li>Posts go here</li>
 </ul>
+
+<script>
+  // TODO: add multiple categories support with .split (returns an array)
+  function filter(param) {
+    // Select all <li> and unhide
+    let list = [...document.querySelectorAll(`li[data-tag]`)].map(li => li.setAttribute("style", "display:flex"));
+    if (param.length > 0) {
+      // Select all <li> tagged differently from selected tag...
+      const differentLi = document.querySelectorAll(`li[data-tag]:not([data-tag=${CSS.escape(param)}])`);
+      // ... and hide them
+      list = [...differentLi].map(li => li.setAttribute("style", "display:none"));
+    }
+  }
+</script>

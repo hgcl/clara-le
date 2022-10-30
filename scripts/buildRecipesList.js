@@ -10,7 +10,10 @@ export async function buildPage(html) {
     const postsHtml = posts
       .map(
         (post) =>
-          `<li class="post-row"><a href="${post.slug}">${post.title}</a>${
+          // TODO: data-tag to replace when real tags added to posts
+          `<li data-tag="${post.dataTag}" class="post-row"><a href="${
+            post.slug
+          }">${post.title}</a>${
             post.durationMin > 0
               ? `<time class="label dt-duration" datetime="${minToHours(
                   post.durationMin
