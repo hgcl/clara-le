@@ -10,20 +10,20 @@ buildScript: /scripts/buildRecipesList.js
   from the original instructions to suit my preferences.
 </p>
 <label for="filter-recipes">Filter:</label>
-<select name="tags" id="filter-recipes">
-  <option value="" onclick="filter()">All</option>
+<select name="tags" id="filter-recipes" onchange="filter(value);">
+  <option value="">All</option>
   <optgroup label="By type">
-    <option value="dessert" onclick="filter(value)">Desserts</option>
-    <option value="main" onclick="filter(value)">Mains</option>
-    <option value="cereal" onclick="filter(value)">Cereals</option>
-    <option value="extra" onclick="filter(value)">Extras</option>
-    <option value="diy" onclick="filter(value)">DIY</option>
+    <option value="dessert">Desserts</option>
+    <option value="main">Mains</option>
+    <option value="cereal">Cereals</option>
+    <option value="extra">Extras</option>
+    <option value="diy">DIY</option>
   </optgroup>
   <optgroup label="By season">
-    <option value="spring" onclick="filter(value)">Spring (Apr–Jun)</option>
-    <option value="summer" onclick="filter(value)">Summer (Jul–Sep)</option>
-    <option value="fall" onclick="filter(value)">Fall (Oct–Dec)</option>
-    <option value="winter" onclick="filter(value)">Winter (Jan–Mar)</option>
+    <option value="spring">Spring (Apr–Jun)</option>
+    <option value="summer">Summer (Jul–Sep)</option>
+    <option value="fall">Fall (Oct–Dec)</option>
+    <option value="winter">Winter (Jan–Mar)</option>
   </optgroup>
 </select>
 <ul id="recipe-list" class="nobullet">
