@@ -27,7 +27,7 @@ buildScript: /scripts/buildRecipesList.js
   function filter(param) {
     // Select all <li> and unhide
     const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
-    let showAll = completeLiList.map(li => li.setAttribute("style", "display:flex"));
+    completeLiList.map(li => li.setAttribute("style", "display:flex"));
     let i = 0;
     while (param.length > 0 && i < completeLiList.length) {
       // Select <li> number i and get its tags
