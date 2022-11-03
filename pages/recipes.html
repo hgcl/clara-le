@@ -23,15 +23,19 @@ buildScript: /scripts/buildRecipesList.js
 </ul>
 
 <script>
-  // TODO: add multiple categories support with .split (returns an array)
+  // TODO: find ways to add multiple filter categories
   function filter(param) {
     // Select all <li> and unhide
-    let list = [...document.querySelectorAll(`li[data-tag]`)].map(li => li.setAttribute("style", "display:flex"));
-    if (param.length > 0) {
-      // Select all <li> tagged differently from selected tag...
-      const differentLi = document.querySelectorAll(`li[data-tag]:not([data-tag=${CSS.escape(param)}])`);
-      // ... and hide them
-      list = [...differentLi].map(li => li.setAttribute("style", "display:none"));
+    const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+    let finalList = completeLiList.map(li => li.setAttribute("style", "display:flex"));
+    let i = 0;
+    while (param.length > 0 && i < completeLiList.length) {
+      // Select <li> number i and get its tags
+      let tagArray = completeLiList[i].getAttribute("data-tag").split(' ');
+
+      // Hide <li> if it doesn't include the selected param
+      if (tagArray.includes(param) === false) { completeLiList[i].setAttribute("style", "display:none") }
+      i++;
     }
   }
 </script>
