@@ -12,11 +12,19 @@ buildScript: /scripts/buildRecipesList.js
 <label for="filter-recipes">Filter:</label>
 <select name="tags" id="filter-recipes">
   <option value="" onclick="filter()">All</option>
-  <option value="dessert" onclick="filter(value)">Desserts</option>
-  <option value="main" onclick="filter(value)">Mains</option>
-  <option value="cereal" onclick="filter(value)">Cereals</option>
-  <option value="extra" onclick="filter(value)">Extras</option>
-  <option value="diy" onclick="filter(value)">DIY</option>
+  <optgroup label="By type">
+    <option value="dessert" onclick="filter(value)">Desserts</option>
+    <option value="main" onclick="filter(value)">Mains</option>
+    <option value="cereal" onclick="filter(value)">Cereals</option>
+    <option value="extra" onclick="filter(value)">Extras</option>
+    <option value="diy" onclick="filter(value)">DIY</option>
+  </optgroup>
+  <optgroup label="By season">
+    <option value="spring" onclick="filter(value)">Spring (Apr–Jun)</option>
+    <option value="summer" onclick="filter(value)">Summer (Jul–Sep)</option>
+    <option value="fall" onclick="filter(value)">Fall (Oct–Dec)</option>
+    <option value="winter" onclick="filter(value)">Winter (Jan–Mar)</option>
+  </optgroup>
 </select>
 <ul id="recipe-list" class="nobullet">
   <li>Posts go here</li>
