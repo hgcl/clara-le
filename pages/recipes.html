@@ -27,12 +27,11 @@ buildScript: /scripts/buildRecipesList.js
   function filter(param) {
     // Select all <li> and unhide
     const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
-    let finalList = completeLiList.map(li => li.setAttribute("style", "display:flex"));
+    let showAll = completeLiList.map(li => li.setAttribute("style", "display:flex"));
     let i = 0;
     while (param.length > 0 && i < completeLiList.length) {
       // Select <li> number i and get its tags
       let tagArray = completeLiList[i].getAttribute("data-tag").split(' ');
-
       // Hide <li> if it doesn't include the selected param
       if (tagArray.includes(param) === false) { completeLiList[i].setAttribute("style", "display:none") }
       i++;
