@@ -31,9 +31,9 @@ export const categories = {
     title: "Newsletter",
     anchor: "newsletter",
   },
-  techieTool: {
-    title: "Techie Tool",
-    anchor: "techie-tool",
+  tech: {
+    title: "Tech",
+    anchor: "tech",
   },
   thinking: {
     title: "Thinking",
@@ -78,6 +78,13 @@ export const blogrollData = [
     category: [categories.berlin.anchor],
     best: false,
   },
+  {
+    url: "https://builtformars.com/",
+    title: "Built for Mars",
+    description: "Serious UX case-studies explained with a lot of humor",
+    category: [categories.tech.anchor],
+    best: false,
+  },
   // >C
   {
     url: "https://www.horsepaste.com/",
@@ -101,7 +108,7 @@ export const blogrollData = [
     title: "Dark Reader",
     description:
       "Browser extension to enable dark mode on websites not supporting dark mode—this saved my eyes so many times",
-    category: [categories.techieTool.anchor],
+    category: [categories.tech.anchor],
     best: true,
   },
   {
@@ -165,7 +172,7 @@ export const blogrollData = [
     title: "HTML Character Reference Chart",
     description:
       "Ever wondered how to write a character in HTML? Here is a full list of them that I just can't stop looking at.",
-    category: [categories.techieTool.anchor],
+    category: [categories.tech.anchor],
     best: false,
   },
   {
@@ -181,7 +188,7 @@ export const blogrollData = [
     title: "Hypothesis",
     description:
       "Highlight and annotate articles online—super cool open-source project.",
-    category: [categories.techieTool.anchor],
+    category: [categories.tech.anchor],
     best: true,
   },
   // >I
@@ -200,7 +207,7 @@ export const blogrollData = [
     title: "LanguageTool",
     description:
       "A multilingual browser extension (and more) for grammar, style and spell checking—and it's open source",
-    category: [categories.writing.anchor, categories.techieTool.anchor],
+    category: [categories.writing.anchor, categories.tech.anchor],
     best: false,
   },
   {
@@ -208,7 +215,7 @@ export const blogrollData = [
     title: "Libby App",
     description:
       "A library reading—but in my case mostly listening—app. Their interface is great and makes borrowing audiobooks a breeze. Check if they partnered with your local library!",
-    category: [categories.techieTool.anchor],
+    category: [categories.tech.anchor],
     best: false,
   },
   // >M
@@ -252,6 +259,14 @@ export const blogrollData = [
     best: false,
   },
   // >N
+  {
+    url: "https://www.nngroup.com/",
+    title: "Nielsen Norman Group",
+    description:
+      "The number one reference for everything UX and accessibility-related",
+    category: [categories.tech.anchor],
+    best: false,
+  },
   // >O
   {
     url: "https://omglord.com/",
@@ -285,7 +300,7 @@ export const blogrollData = [
     url: "https://sebastiangreger.net",
     title: "Sebastian Greger",
     description: "When the IndieWeb meets great design.",
-    category: [categories.techieTool.anchor],
+    category: [categories.tech.anchor],
     best: false,
   },
   // >T
@@ -302,7 +317,7 @@ export const blogrollData = [
     title: "Type scale",
     description:
       "My go-to tool whenever I need to create a new website. It just makes font size choices so much more straightforward.",
-    category: [categories.techieTool.anchor],
+    category: [categories.tech.anchor],
     best: false,
   },
   // >U
