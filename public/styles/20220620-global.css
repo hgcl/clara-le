@@ -255,17 +255,17 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
 /* List of generated posts */
 
-.post-row {
+#blog-list .post-row {
   display: flex;
   align-items: baseline;
   gap: 1rem;
 }
 
-.post-row > .label {
+#blog-list .post-row > .label {
   min-width: 3rem;
 }
 
-.post-row > span {
+#blog-list .post-row > span {
   display: flex;
   flex-direction: column;
 }
@@ -279,6 +279,10 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 
 #recipe-list {
   columns: 1;
+}
+
+#recipe-list .post-row > .label {
+  margin-left: 1em;
 }
 
 #bookmarks-list > li > span > span {
