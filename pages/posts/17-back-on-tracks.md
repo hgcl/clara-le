@@ -18,7 +18,9 @@ Oh my, oh my. So I kind of took the decision to stop these weekly reviews more t
 
 These last few weeks have been getting colder in Berlin. Tonight, we are expecting the temperature to drop under 0&nbsp;°C. When we went bouldering this morning, we could see a thin layer of snow on cars and terrace tables. My routine of going bouldering in the early morning with friends, followed by pastries at _[La Maison](https://www.instagram.com/lamaisonberlin/)_[^1], is still one of my great highlights. It will probably be the thing I'll miss the most when we'll move out of Berlin next February.
 
-I finally completed my first ever D&D campaign last weekend—what an epilogue! I learned a lot and we are ready to kickstart the next campaign straight away. I still need to think about my character, but am excited to try to get inside the head of someone new.
+---
+
+Otherwise, I finally completed my first ever D&D campaign last weekend—what an epilogue! I learned a lot and we are ready to kickstart the next campaign straight away. I still need to think about my character, but am excited to try to get inside the head of someone new.
 
 [^1]: Amazing French bakery in Berlin with a super nice staff
 
