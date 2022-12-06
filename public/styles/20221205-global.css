@@ -241,8 +241,8 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 /* Footnotes */
 
 .footnotes {
-  border: solid 1px;
-  margin-top: 3rem;
+  border-top: solid 1px;
+  margin-top: 7rem;
   font-family: var(--sans-serif);
   font-size: small;
   line-height: 1.2rem;
@@ -250,7 +250,12 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 }
 
 .footnotes ol {
-  padding-right: 1rem;
+  padding: 0 0 0 1rem;
+}
+
+a[id*="user-content-fnref"] {
+  opacity: var(--alt-text-opacity);
+  padding: 0 2px 0 3px;
 }
 
 /* List of generated posts */
@@ -491,6 +496,7 @@ footer ul {
   .footnotes {
     border: none;
   }
+
   #home-intro .h-card {
     gap: 4rem;
   }
