@@ -8,7 +8,7 @@ dateCreated: "2022-11-18"
 
 <figure>
  <img src="https://cdn.dribbble.com/userupload/2795607/file/original-bd699902e84b08aad055bdfd75118d39.jpg" alt="Bouldering illustration by Karolin Chen" />
- <figcaption>Bouldering illustration by Karolin Chen
+ <figcaption><a href="https://dribbble.com/shots/17084943-Man-and-goose">Bouldering illustration</a> by Karolin Chen
  </figcaption>
 </figure>
 
@@ -20,7 +20,7 @@ These last few weeks have been getting colder in Berlin. Tonight, we are expecti
 
 ---
 
-Otherwise, I finally completed my first ever D&D campaign last weekend—what an epilogue! I learned a lot and we are ready to kickstart the next campaign straight away. I still need to think about my character, but am excited to try to get inside the head of someone new.
+Otherwise, I finally completed my first ever D&D campaign last weekend—what an epilogue! I learned a lot, and we are ready to kick start the next campaign straight away. I still need to think about my character, but am excited to try to get inside the head of someone new.
 
 [^1]: Amazing French bakery in Berlin with a super nice staff
 
@@ -42,4 +42,4 @@ A few weeks ago, we invited over some Italian friends for a wine-tasting and car
 
 ### To lead-climb
 
-Last weekend, Robin and I completed our lead climbing course at _Magic Mountain_. It is actually not that complicated, but we did learn a number of safety habits that we'll need to integrate in the long term. The weight difference between Robin and I (about 40kg) was also totally fine as we learned to use the Ohm that was made for this specific reason. We'll go back lead climbing by ourselves on Monday to keep practicing.
+Last weekend, Robin and I completed our lead climbing course at _Magic Mountain_. It is actually not that complicated, but we did learn a number of safety habits that we'll need to integrate in the long term. The weight difference between Robin and I (about 40 kg) was also totally fine, as we learned to use the Ohm that was made for this specific reason. We'll go back to lead climbing by ourselves on Monday to keep practicing.

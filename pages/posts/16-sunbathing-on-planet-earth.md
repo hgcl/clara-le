@@ -9,7 +9,7 @@ dateCreated: "2021-02-22"
 <figure>
  <img src="https://cdn.dribbble.com/users/1184471/screenshots/9952879/media/ddf1cfcb2cc2be7adb182b326d9d5bce.jpg" alt="The Hiding-in-the-Wrong-Place Club by Andy Wang" />
  <figcaption>
- <cite>The Hiding-in-the-Wrong-Place Club</cite> by Andy Wang
+    <a href="https://dribbble.com/shots/9833313-The-Hiding-in-the-Wrong-Place-Club-Pot-of-Tea">The Hiding-in-the-Wrong-Place Club</a> by Andy Wang
  </figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ On February 18, 2021, NASA's Perseverance rover landed on Mars. At the exact sam
 
 Robin Sloan has a way of mixing genres. <cite>Sourdough</cite> is both very modern and slightly fantastical. Even though, the ending left me a bit _meh_, I still really liked the overall book and plot. This is my favorite book by Robin Sloan so far.
 
-### [Onward (2020)](https://en.wikipedia.org/wiki/Onward_(film))
+### [Onward (2020)](<https://en.wikipedia.org/wiki/Onward_(film)>)
 
 Many movie gems passed right under our noses in 2020, <cite>Onward</cite> is one of them. It is set in a fantasy world where magic has been forgotten, where unicorns are another kind of rats and elves use electricity.
 

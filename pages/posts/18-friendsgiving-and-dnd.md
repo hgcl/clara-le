@@ -8,7 +8,7 @@ dateCreated: "2022-11-28"
 
 <figure>
  <img src="https://cdn.dribbble.com/users/1182578/screenshots/17084943/media/1c223afdfd53ee906d3fce615f1e0a94.png" alt="Man and goose by Max Hodlevskyi" />
- <figcaption>Man and goose by Max Hodlevskyi
+ <figcaption><a href="https://dribbble.com/shots/17084943-Man-and-goose">Man and goose</a> by Max Hodlevskyi
  </figcaption>
 </figure>
 
@@ -18,7 +18,7 @@ On Saturday, I was part of my first ever Friendsgiving[^1]. In Europe, Thanksgiv
 
 ---
 
-On Sunday, we started a new D&D mini-campaign! It is my second one only, so it feels very exciting to play a new race, class and personality. I am playing a Tiefling Rogue and already love all the special powers that come just from the race.[^2]
+On Sunday, we started a new D&D mini-campaign! It is my second one only, so it feels very exciting to play a new race, class, and personality. I am playing a Tiefling Rogue and already love all the special powers that come just from the race.[^2]
 
 [^1]: I also, just discovered that _Friendsgiving_ is apparently a word.
 [^2]: Trying to intimidate a baddie with advantage by using my loud voice boomed up 3 times—done.
@@ -41,4 +41,4 @@ _Werewolf by night_ is a short-ish movie (53 minutes) that came out this year. I
 
 For my friend's Thanksgiving dinner, I prepared a green bean casserole—even though I had never tried one and didn't know what it was supposed to taste like.
 
-Reading through the [the recipe](https://www.mccormick.com/frenchs/recipes/salads-sides/frenchs-green-bean-casserole), it looked simple enough and surprisingly close to... a green bean grâtin? I guess that might just be my French upbringing lense distortion, but the recipe felt a lot more approachable once I made this connection in my mind. I would definitely try to make more of these veggie-heavy casseroles / grâtins in the future!
+Reading through [the recipe](https://www.mccormick.com/frenchs/recipes/salads-sides/frenchs-green-bean-casserole), it looked simple enough and surprisingly close to... a green bean grâtin? I guess that might just be my French upbringing lense distortion, but the recipe felt a lot more approachable once I made this connection in my mind. I would definitely try to make more of these veggie-heavy casseroles / grâtins in the future!

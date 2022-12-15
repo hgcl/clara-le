@@ -9,7 +9,7 @@ dateCreated: "2021-02-07"
 <figure>
  <img src="https://cdn.dribbble.com/users/39645/screenshots/2786339/dribbble2.png" alt="Mariah Idrissi, Badass. by Maggie Bignell" />
  <figcaption>
- <cite>Mariah Idrissi, Badass.</cite> by Maggie Bignell
+    <a href="https://dribbble.com/shots/2786339-Mariah-Idrissi-Badass">Mariah Idrissi, Badass.</a> by Maggie Bignell
  </figcaption>
 </figure>
 
@@ -17,7 +17,7 @@ dateCreated: "2021-02-07"
 
 Since the start of the year, I haven't made much time for reading. I guess I just couldn't find a book that really hooked me—a book that I was looking forward to going back to. I finally found it this last week.
 
-It is called <cite>Girl, Woman, Other</cite> by Bernadine Evaristo. I had never heard of it before, never read anything about it, and simply began reading it with my company book club. I was sucked in and finished it in a few days time.[^1] 
+It is called <cite>Girl, Woman, Other</cite> by Bernadine Evaristo. I had never heard of it before, never read anything about it, and simply began reading it with my company book club. I was sucked in and finished it in a few days time.[^1]
 
 Another book that marked this week is <cite>The Witches</cite> by Roald Dahl. In the evening, I put on some background music, turn on some warm lights and Robin and I take turns, reading the book aloud to each other. We used to do the same with <cite>Le Petit Nicholas</cite> by Jean-Jacques Sempé, a series of French children's books—that are also great for adults.
 

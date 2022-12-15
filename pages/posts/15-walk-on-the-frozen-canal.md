@@ -9,7 +9,7 @@ dateCreated: "2021-02-14"
 <figure>
  <img src="https://cdn.dribbble.com/users/3009971/screenshots/9896423/media/4eb381a2c058c68e7dacc1225e5b37dd.gif" alt="Coffee shop during winter by Jenny Lelong" />
  <figcaption>
- <cite>Coffee shop during winter</cite> by Jenny Lelong
+    <a href="https://dribbble.com/shots/9896423-Coffee-shop-during-winter">Coffee shop during winter</a> by Jenny Lelong
  </figcaption>
 </figure>
 
@@ -34,7 +34,6 @@ Bacurau was... unexpected. I watched it as some Brazilian friends recommended it
 It starts a few years from now in a tiny isolated village in rural Brazil. It is a direct reference to _quilombos_—historical places of resistance where slaves ran away from their masters during Portuguese colonial times.
 
 Midway through the movie, we suddenly realize we are in a dystopian future, mixing genres from action to sci-fi. Very original, slow and tense, a critic of its times.
-
 
 ## Food for thought
 

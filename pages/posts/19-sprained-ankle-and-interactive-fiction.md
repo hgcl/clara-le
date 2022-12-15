@@ -8,13 +8,13 @@ dateCreated: "2022-12-05"
 
 <figure>
  <img src="https://cdn.dribbble.com/users/295355/screenshots/16105800/media/f66e4c774148681255ccb89f9e120a76.png" alt="Arcade Astronaut by Jordan Jenkins" />
- <figcaption>Arcade Astronaut by Jordan Jenkins
+ <figcaption><a href="https://dribbble.com/shots/16105800-Arcade-Astronaut">Arcade Astronaut</a> by Jordan Jenkins
  </figcaption>
 </figure>
 
 ## Life Peek
 
-So my life just took an unexpected turn on Friday morning. As usual, I started the day bouldering with friends. As I was doing a very non-dangerous move[^1], I slipped and fell on the side of my ankle with a lot of speed and strength. It hurt _a lot_. Of course, we still had to follow up with our normal routine of getting breakfast first at a local café—because _priorities_—before taking any drastic decisions, like going to the doctor. Stuffed with pastries and coffee, Robin finally took me on a piggyback ride to the closest doctor.
+So, my life just took an unexpected turn on Friday morning. As usual, I started the day bouldering with friends. As I was doing a very non-dangerous move[^1], I slipped and fell on the side of my ankle with a lot of speed and strength. It hurt _a lot_. Of course, we still had to follow up with our normal routine of getting breakfast first at a local café—because _priorities_—before taking any drastic decisions, like going to the doctor. Stuffed with pastries and coffee, Robin finally took me on a piggyback ride to the closest doctor.
 
 Diagnostic: a very badly sprained ankle and 4–6 weeks without sport. And that'd only be if the ankle was _not_ fractured. Which luckily it was not.[^2]
 
@@ -60,6 +60,6 @@ One of the things that inspire me to cook at home is going to the restaurant, ea
 
 ### To make lasagna
 
-Yay, lasagna! How come I had never tried before? Not sure, but I will definitely have another go at it very soon. It was much easier than I expected it to be and the result is just so good!
+Yay, lasagna! How come I had never tried before? Not sure, but I will definitely have another go at it very soon. It was much easier than I expected it to be, and the result is just so good!
 
 [^6]: I feel like both Germans and Italians would kill me for saying that.
