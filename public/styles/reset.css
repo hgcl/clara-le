@@ -41,6 +41,25 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
 #root,
 #__next {
   isolation: isolate;
