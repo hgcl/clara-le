@@ -87,6 +87,14 @@ export const blogrollData = [
   },
   // >C
   {
+    url: "https://cmhb.de/",
+    title: "CMHB",
+    description:
+      "Super cool blog about web design and technology. Bonus points: Carl is into rock-climbing.",
+    category: [categories.blog.anchor],
+    best: false,
+  },
+  {
     url: "https://www.horsepaste.com/",
     title: "Codenames",
     description:
@@ -232,6 +240,13 @@ export const blogrollData = [
     title: "Maggie Appleton",
     description: "Maggie Appleton's illustration-based digital garden",
     category: [categories.digitalGarden.anchor],
+    best: false,
+  },
+  {
+    url: "https://macwright.com/",
+    title: "Tom MacWright",
+    description: "Tom MacWright's personal blog is minimalism at its finest.",
+    category: [categories.blog.anchor],
     best: false,
   },
   {
