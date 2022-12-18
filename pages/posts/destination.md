@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Destination"
 subtitle: "A stop motion experiment"
 dateCreated: "2022-02-13"

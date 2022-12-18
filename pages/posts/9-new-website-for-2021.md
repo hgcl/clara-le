@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#9 New website for 2021"
 subtitle: "Weekly review #9"
 dateCreated: "2021-01-02"

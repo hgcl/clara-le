@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Overton window"
 dateModified: "2021-09-22"
 dateCreated: "2021-09-22"

@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "IndieWeb browsing"
 subtitle: "How I lost myself in the webring"
 dateCreated: "2022-04-16"

@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Peeking into the IndieWeb world"
 subtitle: "My first baby steps"
 dateCreated: "2022-04-10"

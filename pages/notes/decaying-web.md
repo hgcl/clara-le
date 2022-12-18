@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Decaying web"
 dateModified: "2021-02-14"
 dateCreated: "2021-02-14"

@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Interactive fiction"
 subtitle: "So I got into text adventure games"
 dateCreated: "2022-04-06"

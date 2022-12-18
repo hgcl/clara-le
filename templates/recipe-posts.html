@@ -37,11 +37,12 @@
       <h1 class="p-name">{{title}}</h1>
       <p class="label">
         <span class="sr-only">Published on</span>
-        <time datetime="{{dateCreated}}" class="dt-published">{{dateCreated}}</time>
+        <time datetime="{{dateCreated}}" class="dt-published">{{dateCreated}}</time>{{#durationMin}}<span
+          class="sr-only">,</span> <span aria-hidden="true">&bullet;</span> {{durationMin}}{{/durationMin}}
       </p>
     </div>
     <article>
-      {{/dateCreated}} {{> content}} {{#dateCreated}}
+      {{> content}}
       <a href="#ingredients" class="label">&uparrow; Back to the ingredients</a>
     </article>
     {{/dateCreated}}

@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#15 Walk on the frozen canal"
 subtitle: "Weekly review #15"
 dateCreated: "2021-02-14"

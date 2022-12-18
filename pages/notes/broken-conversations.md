@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Broken conversations"
 dateModified: "2021-09-28"
 dateCreated: "2021-09-28"

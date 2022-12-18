@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#16 Sunbathing on planet Earth"
 subtitle: "Weekly review #16"
 dateCreated: "2021-02-22"

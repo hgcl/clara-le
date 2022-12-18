@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "UI/UX Learnings"
 subtitle: "Living notes"
 dateCreated: "2022-07-13"

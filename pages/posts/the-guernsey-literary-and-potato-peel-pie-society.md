@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "The Guernsey Literary and Potato Peel Pie Society"
 subtitle: "A review of the audiobook"
 dateCreated: "2022-04-09"

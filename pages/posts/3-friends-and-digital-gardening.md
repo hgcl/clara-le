@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#3 Friends and digital gardening"
 subtitle: "Weekly review #3"
 dateCreated: "2020-11-24"

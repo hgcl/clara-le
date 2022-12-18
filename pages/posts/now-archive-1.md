@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Now archive #1"
 subtitle: "A snapshot in time"
 dateCreated: "2021-08-21"

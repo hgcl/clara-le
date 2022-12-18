@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Sick days cheatsheet"
 subtitle: "Or how to help my tired cloudy mind"
 dateCreated: "2022-11-30"

@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Virtue signalling"
 dateModified: "2021-09-27"
 dateCreated: "2021-09-27"

@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Digital doodling"
 subtitle: "Trying out Tayasui Sketches"
 dateCreated: "2021-12-25"

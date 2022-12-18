@@ -1,15 +1,15 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#11 Habits in the oven"
 subtitle: "Weekly review #11"
 dateCreated: "2021-01-17"
 ---
 
 <figure>
- <img src="https://cdn.dribbble.com/users/3460/screenshots/3833442/meh.png" alt="Scroll by Timothée Bart" />
+ <img src="https://cdn.dribbble.com/users/173116/screenshots/3502465/media/2281a1fd16039fb89ec7866ea0d9dc00.gif" alt="Scroll by Timothée Bart" />
  <figcaption>
- <cite>Scroll</cite> by Timothée Bart
+    <a href="https://dribbble.com/shots/3502465-Addiction-1-2-Scroll">Addiction 1/2 — Scroll</a> by Timothée Bart
  </figcaption>
 </figure>
 

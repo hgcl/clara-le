@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#10 On obsessions"
 subtitle: "Weekly review #10"
 dateCreated: "2021-01-10"

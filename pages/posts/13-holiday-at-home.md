@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#13 Holiday at home"
 subtitle: "Weekly review #13"
 dateCreated: "2021-01-30"

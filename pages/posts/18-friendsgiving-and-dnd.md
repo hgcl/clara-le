@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "#18 Friendsgiving and D&D"
 subtitle: "Weekly review #18"
 dateCreated: "2022-11-28"

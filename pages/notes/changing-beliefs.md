@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Changing beliefs"
 dateModified: "2021-10-06"
 dateCreated: "2021-10-04"

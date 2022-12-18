@@ -1,6 +1,6 @@
 ---
 template: /templates/blog-posts.html
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/formatPostDetails.js"
 title: "Gardening"
 subtitle: "Another try at knowledge management"
 dateCreated: "2021-10-24"
