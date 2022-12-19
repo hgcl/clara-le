@@ -1,4 +1,4 @@
-body {
+main {
   max-width: var(--screen-lg);
 }
 
@@ -26,7 +26,8 @@ article > a {
 }
 
 @media only screen and (min-width: 768px) {
-  article {
+  article div {
+    display: flex;
     flex-direction: row;
     gap: 1rem;
   }
