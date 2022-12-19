@@ -1,4 +1,4 @@
-import minToHours from "./minToHours";
+import minToHours, { minToDurationString } from "./minToHours";
 
 export async function buildPage(html, frontmatter) {
   try {
@@ -12,7 +12,12 @@ export async function buildPage(html, frontmatter) {
           day: "numeric",
         })}<`
       )
-      .replace(frontmatter.durationMin, minToHours(frontmatter.durationMin));
+      .replace(
+        frontmatter.durationMin,
+        `<time datetime="${minToDurationString(
+          frontmatter.durationMin
+        )}">${minToHours(frontmatter.durationMin)}</time>`
+      );
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
   }

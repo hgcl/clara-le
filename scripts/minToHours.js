@@ -7,3 +7,14 @@ export default function minToHours(mins) {
   finalTime = h === 0 ? `${m} min` : `${h} h ${m}`;
   return finalTime;
 }
+
+// Outputs <time> datetime attribute friendly string
+export function minToDurationString(mins) {
+  let h = Math.floor(mins / 60);
+  let m = mins % 60;
+
+  let finalTime;
+  finalTime =
+    h === 0 && m > 0 ? `${m}M` : h > 0 && m === 0 ? `${h}H` : `${h}H${m}M`;
+  return `PT${finalTime}`;
+}
