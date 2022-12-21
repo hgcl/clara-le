@@ -26,7 +26,7 @@ article > a {
 }
 
 @media only screen and (min-width: 768px) {
-  article div {
+  article > div {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -41,11 +41,5 @@ article > a {
     position: sticky;
     top: 0;
     margin: 2rem 0;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  article {
-    gap: 3rem;
   }
 }

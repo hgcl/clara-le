@@ -13,8 +13,9 @@ export async function buildPage(html, frontmatter) {
         })}<`
       )
       .replace(
-        frontmatter.durationMin,
-        `<time datetime="${minToDurationString(
+        // the closing span ensures we replace the correct occurrence of durationMin (otherwise e.g. "120" may be found in other places)
+        `</span> ${frontmatter.durationMin}`,
+        `</span> <time datetime="${minToDurationString(
           frontmatter.durationMin
         )}">${minToHours(frontmatter.durationMin)}</time>`
       );
