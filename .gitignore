@@ -4,3 +4,5 @@ dist
 .*.html
 .*.js
 .env
+.post-templates
+feed.xml

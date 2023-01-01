@@ -6,6 +6,7 @@
     "dev": "brut && serve dist",
     "start": "serve dist",
     "build": "brut",
+    "prebuild": "node scripts/prebuild.js",
     "test": "start-server-and-test start http://localhost:3000 'PW_EXPERIMENTAL_TS_ESM=1 npx playwright test --browser=all'"
   },
   "devDependencies": {
@@ -14,6 +15,8 @@
     "@types/node": "^16.11.7",
     "brut": "^0.0.30",
     "dotenv": "^16.0.0",
+    "feed": "^4.2.2",
+    "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
     "node-fetch": "^3.2.2",
     "serve": "^13.0.2",
