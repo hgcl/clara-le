@@ -20,7 +20,7 @@ I don't visit people I love in Switzerland as often as I would like to. Days alw
 
 Anyway, we are having one more laid back Christmas party today with close friends from Germany, the US and Brazil. Let's see how this international party deals with the traditional Swiss cheese fondue! I'll personally allow for non-traditional toppings, spices and sides, but let's see what Robin's views are on such blasphemy. At least, it'll be fun to watch.
 
-[^1]: I used to directly code the HTML of each recipe. This worked quite well when my recipe layouts were more straightforward. The HTML template I am using is becoming more complex, as it includes [microformats](my-first-indieweb-steps) and needs more styling. Basically, I am now dividing my recipes more clearly between the recipes content (e.g. ingredient list, instructions, etc.) and their shared HTML structure.
+[^1]: I used to directly code the HTML of each recipe. This worked quite well when my recipe layouts were more straightforward. The HTML template I am using is becoming more complex, as it includes [microformats](/posts/my-first-indieweb-steps) and needs more styling. Basically, I am now dividing my recipes more clearly between the recipes content (e.g. ingredient list, instructions, etc.) and their shared HTML structure.
 
 ## Read & Watched
 

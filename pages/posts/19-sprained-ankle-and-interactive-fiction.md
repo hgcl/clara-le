@@ -56,7 +56,7 @@ Finally, _[And Then You Come to a House Not Unlike the Previous One](https://ifd
 
 ### To make Knödel
 
-One of the things that inspire me to cook at home is going to the restaurant, eating something delicious and being like: "I want to know how to make this." Well, that happened just last week with [Knödel](../recipes/tyrolean-knoedel). A few days later, I had made a fresh batch of my own that was not bad at all. Basically, they felt like big gnocchi where you simply swap the potatoes for bread instead.[^6]
+One of the things that inspire me to cook at home is going to the restaurant, eating something delicious and being like: "I want to know how to make this." Well, that happened just last week with [Knödel](/recipes/tyrolean-knoedel). A few days later, I had made a fresh batch of my own that was not bad at all. Basically, they felt like big gnocchi where you simply swap the potatoes for bread instead.[^6]
 
 ### To make lasagna
 

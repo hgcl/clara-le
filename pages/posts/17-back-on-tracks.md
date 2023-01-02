@@ -38,7 +38,7 @@ _Adieu Bohème_ is a beautiful short-film that will leave you awed. As the film 
 
 ### To make some Italian-approved carbonara
 
-A few weeks ago, we invited over some Italian friends for a wine-tasting and carbonara-making session. It was super fun to see them argue over the technicalities of making this very simple—oh but so controversial—dish. This is more or less the [recipe we followed](../recipes/carbonara)—even though they definitely didn't need a recipe.
+A few weeks ago, we invited over some Italian friends for a wine-tasting and carbonara-making session. It was super fun to see them argue over the technicalities of making this very simple—oh but so controversial—dish. This is more or less the [recipe we followed](/recipes/carbonara)—even though they definitely didn't need a recipe.
 
 ### To lead-climb
 

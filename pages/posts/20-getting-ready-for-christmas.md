@@ -39,7 +39,7 @@ Yes, I'm two years late to the party. Robin watched this miniseries when it came
 
 I tried to bake my first apple tarte tatin this week. We had a bunch of apples and butter we had to finish before they went bad, so it felt like the most fitting recipe. There were a few challenges on the way.
 
-First, the puff pastry. I followed [this recipe](../recipes/puff-pastry), and I have to say that it worked quite well! The result didn't have as many layers as a store-bought dough, but it definitely did the job! Second, the caramelized apples. I struggled to make a caramel base that would not burn, but would still hold together when "poaching the apples" in it. Mine became too liquid, and I removed some of it before baking the pie. My concern was that it would be completely liquid when flipping the pie at the end of the process.
+First, the puff pastry. I followed [this recipe](/recipes/puff-pastry), and I have to say that it worked quite well! The result didn't have as many layers as a store-bought dough, but it definitely did the job! Second, the caramelized apples. I struggled to make a caramel base that would not burn, but would still hold together when "poaching the apples" in it. Mine became too liquid, and I removed some of it before baking the pie. My concern was that it would be completely liquid when flipping the pie at the end of the process.
 
 The final tarte tatin was still delicious, but the apples were not as beautifully caramelized as I would have wanted them to be.
 

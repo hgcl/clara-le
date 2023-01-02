@@ -17,7 +17,7 @@ dateCreated: "2021-01-23"
 
 I love trying out new recipes—especially the ones that are about creating things that you usually buy. This week, I baked some sourdough croissants. For a first time, it wasn't too bad: not airy, but not dense either, a bit too buttery, but so satisfying. Robin and I had some plain croissants for breakfast, but we also tried a grilled cheese version which was deliciously decadent.
 
-Another recipe I tried this week are those <a href="/recipes/vegetarian-polish-cabbage-rolls">vegetarian Polish cabbage rolls</a>. It is not easy finding out winter dishes that are seasonal and that make me excited. These rolls did the job perfectly.
+Another recipe I tried this week are those [vegetarian Polish cabbage rolls](/recipes/vegetarian-polish-cabbage-rolls). It is not easy finding out winter dishes that are seasonal and that make me excited. These rolls did the job perfectly.
 
 <Comment>
   They also exist in Germany as <em>Kohlrouladen</em>, but I stumbled upon the
