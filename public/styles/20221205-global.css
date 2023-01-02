@@ -267,7 +267,7 @@ a[id*="user-content-fnref"] {
 }
 
 #blog-list .post-row > .label {
-  min-width: 3rem;
+  min-width: 3.5rem;
 }
 
 #blog-list .post-row > span {
