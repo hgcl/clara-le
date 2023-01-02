@@ -13,7 +13,7 @@ dateCreated: "2020-12-12"
  </figcaption>
 </figure>
 
-## Life Peek: Books and records
+## Life peek: Books and records
 
 This last week, I was super excited to finally receive the _[Data Visualization Handbook](https://shop.aalto.fi/p/971-data-visualization-handbook/)_ that I ordered from a Finnish university. I have just started it, but have already taken a few notes that might enter my Zettelkasten. On a side note, the book itself is gorgeous with a very smart layout. I am really enjoying it so far!
 

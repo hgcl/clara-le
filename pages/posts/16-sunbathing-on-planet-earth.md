@@ -13,7 +13,7 @@ dateCreated: "2021-02-22"
  </figcaption>
 </figure>
 
-## Life Peek: Sunbathing on planet Earth
+## Life peek: Sunbathing on planet Earth
 
 Last week, Robin and I were [walking on the frozen canal](/posts/15-walk-on-the-frozen-canal). This weekend, we took off our hats, coats and gloves, had a long walk outside that finished in the best possible way—with a cup of coffee in the sun.
 

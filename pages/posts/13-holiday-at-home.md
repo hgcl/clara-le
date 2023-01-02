@@ -15,7 +15,7 @@ dateCreated: "2021-01-30"
 
 What a week! I feel like so many things happened since last week.
 
-## Life Peek: Holiday at home
+## Life peek: Holiday at home
 
 This week was a bit special as both Robin and I took time off work without any holiday plans. We spent most of it having outdoor walks, doing pizza-related activities and working on our personal projects. _Yes_, I did spend a disproportionate amount of time working on my website.[^1]
 

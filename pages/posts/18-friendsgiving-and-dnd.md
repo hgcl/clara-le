@@ -12,7 +12,7 @@ dateCreated: "2022-11-28"
  </figcaption>
 </figure>
 
-## Life Peek
+## Life peek
 
 On Saturday, I was part of my first ever Friendsgiving[^1]. In Europe, Thanksgiving is just this remote Christmas-like event that you only see in movies, so I didn't really know what to expect. In short, my American (obviously) friend took upon herself to organize the most incredible homemade menu I have ever seen on a dinner table. We had everything that you can expect for Thanksgiving, even a goose—couldn't find a Turkey—that we named Larry (David) Goose. I feel so grateful to be surrounded by close friends in a city where I have only lived for a couple of years.
 

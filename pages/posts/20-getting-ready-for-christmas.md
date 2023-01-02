@@ -12,7 +12,7 @@ dateCreated: "2022-12-16"
  </figcaption>
 </figure>
 
-## Life Peek
+## Life peek
 
 So, I'm writing this from <s>Switzerland</s>… or actually 4&nbsp;km across Switzerland border on the French side.[^1] Robin and I are back in cows land for family reunions time. Yesterday was a long train day. We left our Berlin home at 7am in the morning and arrived at Robin's parents' place 12 hours later. Thankfully, German trains are equipped with wifi, so we have plenty of things to do during the ride[^2].
 

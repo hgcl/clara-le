@@ -13,7 +13,7 @@ dateCreated: "2020-11-28"
  </figcaption>
 </figure>
 
-## Life Peek: Wholesome feelings after work
+## Life peek: Wholesome feelings after work
 
 Being in semi-lockdown in Berlin feels both fast and slow. Days resemble each other and night falls early. Yet, I feel like I have been doing a lot of new small exciting things lately—this Weekly Review being one of them. Week after week, there are always a few highlights worth mentioning.
 

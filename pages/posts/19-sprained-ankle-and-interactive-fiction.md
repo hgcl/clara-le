@@ -12,7 +12,7 @@ dateCreated: "2022-12-05"
  </figcaption>
 </figure>
 
-## Life Peek
+## Life peek
 
 So, my life just took an unexpected turn on Friday morning. As usual, I started the day bouldering with friends. As I was doing a very non-dangerous move[^1], I slipped and fell on the side of my ankle with a lot of speed and strength. It hurt _a lot_. Of course, we still had to follow up with our normal routine of getting breakfast first at a local café—because _priorities_—before taking any drastic decisions, like going to the doctor. Stuffed with pastries and coffee, Robin finally took me on a piggyback ride to the closest doctor.
 

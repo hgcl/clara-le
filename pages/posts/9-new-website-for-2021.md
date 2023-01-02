@@ -13,7 +13,7 @@ dateCreated: "2021-01-02"
  </figcaption>
 </figure>
 
-## Life Peek: New website for 2021
+## Life peek: New website for 2021
 
 I had an incredibly productive last week of the year, as I threw together my new website from scratch[^1]. Having a clear and attainable goal really helped me speed learn through the basics of React. I realized that I actually do learn best by _doing_.
 

@@ -13,7 +13,7 @@ dateCreated: "2021-02-07"
  </figcaption>
 </figure>
 
-## Life Peek: Books, books, books
+## Life peek: Books, books, books
 
 Since the start of the year, I haven't made much time for reading. I guess I just couldn't find a book that really hooked me—a book that I was looking forward to going back to. I finally found it this last week.
 

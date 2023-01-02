@@ -13,7 +13,7 @@ dateCreated: "2021-01-23"
  </figcaption>
 </figure>
 
-## Life Peek: Culinary experiments
+## Life peek: Culinary experiments
 
 I love trying out new recipes—especially the ones that are about creating things that you usually buy. This week, I baked some sourdough croissants. For a first time, it wasn't too bad: not airy, but not dense either, a bit too buttery, but so satisfying. Robin and I had some plain croissants for breakfast, but we also tried a grilled cheese version which was deliciously decadent.
 

@@ -13,7 +13,7 @@ dateCreated: "2020-12-05"
  </figcaption>
 </figure>
 
-## Life Peek: Cozy December
+## Life peek: Cozy December
 
 Last Tuesday, something very special happened: December 1st. Robin and I were waiting for it for a long time as we could finally open our Coffee Advent Calendar from [19grams](https://19grams.coffee/en)—a Berlin-based coffee roastery. I am now excited to start every morning with a meditative coffee tasting session.
 

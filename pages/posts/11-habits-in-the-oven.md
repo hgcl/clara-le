@@ -13,7 +13,7 @@ dateCreated: "2021-01-17"
  </figcaption>
 </figure>
 
-## Life Peek: Habit tracking
+## Life peek: Habit tracking
 
 Instead of proactively working on my new habits this last week, I procrastinated—again—by setting up overkill habit trackers.
 

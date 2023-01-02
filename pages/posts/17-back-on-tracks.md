@@ -14,7 +14,7 @@ dateCreated: "2022-11-18"
 
 Oh my, oh my. So I kind of took the decision to stop these weekly reviews more than a year ago. Nowadays, I am slowly feeling the need to come back to them. I remember that they sometimes felt like chores, but they also helped to anchor me in the present. Well, in any case, I am giving this habit a second (or third/fourth?) chance. I'll keep on calling them "weekly reviews" even though I am not really expecting to follow a strict schedule.
 
-## Life Peek
+## Life peek
 
 These last few weeks have been getting colder in Berlin. Tonight, we are expecting the temperature to drop under 0&nbsp;°C. When we went bouldering this morning, we could see a thin layer of snow on cars and terrace tables. My routine of going bouldering in the early morning with friends, followed by pastries at _[La Maison](https://www.instagram.com/lamaisonberlin/)_[^1], is still one of my great highlights. It will probably be the thing I'll miss the most when we'll move out of Berlin next February.
 

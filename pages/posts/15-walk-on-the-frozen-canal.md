@@ -13,7 +13,7 @@ dateCreated: "2021-02-14"
  </figcaption>
 </figure>
 
-## Life Peek: Frozen canal & digital garden
+## Life peek: Frozen canal & digital garden
 
 The last week in Berlin has been freezing cold—think -10&nbsp;°C. It was so cold that we were able to walk on the frozen canal. This was the first time in my life doing this kind of thing in a city center. The air was biting, the sun was shining, while we walked on the ice eating pastries.
 

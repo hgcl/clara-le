@@ -13,7 +13,7 @@ dateCreated: "2020-12-19"
  </figcaption>
 </figure>
 
-## Life Peek: Fostering Conversations
+## Life peek: Fostering Conversations
 
 I am not much of an outdoor person—lots of allergies and just _life ya know_. From time to time, I will force myself out of the door for a long walk with Robin. And we invariably talk about thought-provoking topics.
 

@@ -12,7 +12,7 @@ dateCreated: "2022-12-27"
  </figcaption>
 </figure>
 
-## Life Peek
+## Life peek
 
 After about ten days spent with family and friends in Switzerland, we took the train back to Berlin on December 25th. On the ride back, I continued restructuring the way [my recipes](/pages/recipes/) are coded[^1], as well as watched two heist movies with Robin.
 

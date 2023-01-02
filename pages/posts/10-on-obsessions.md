@@ -13,7 +13,7 @@ dateCreated: "2021-01-10"
  </figcaption>
 </figure>
 
-## Life Peek: On obsessions
+## Life peek: On obsessions
 
 Since the last week of December, I have been _obsessively_ working on my website. Being pretty new to coding, I am always discovering exciting things to try out in this new playground.
 

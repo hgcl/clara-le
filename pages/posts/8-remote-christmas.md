@@ -13,7 +13,7 @@ dateCreated: "2020-12-26"
  </figcaption>
 </figure>
 
-## Life Peek: Christmas via Skype
+## Life peek: Christmas via Skype
 
 Christmas is an important event in my family, even though no one is Christian. It has always been a pretext to have a large family gathering with good food—and when I was younger—presents.
 
