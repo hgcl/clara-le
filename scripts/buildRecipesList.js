@@ -17,7 +17,7 @@ export async function buildPage(html) {
             post.durationMin > 0
               ? `<time class="label dt-duration" datetime="${minToDurationString(
                   post.durationMin
-                )}">` + minToHours(post.durationMin)
+                )}">` + minToHours(post.durationMin).replace(/ /g, "\xa0")
               : "" + `</time>`
           }</li>`
       )
