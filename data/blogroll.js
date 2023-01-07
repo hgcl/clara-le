@@ -326,6 +326,14 @@ export const blogrollData = [
     category: [categories.tech.anchor],
     best: false,
   },
+  {
+    url: "https://skullsinthestars.com/",
+    title: "Skulls in the stars",
+    description:
+      "The intersection of physics, optics, history and pulp fiction",
+    category: [categories.blog.anchor],
+    best: false,
+  },
   // >T
   {
     url: "https://www.theydrawandtravel.com/",
