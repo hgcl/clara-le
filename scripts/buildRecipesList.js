@@ -1,4 +1,4 @@
-import minToHours, { minToDurationString } from "./formatPostDetails";
+import { minToHours, minToDurationString } from "./formatPostDetails";
 import getPosts from "./getPosts";
 const dirCategory = "recipes";
 
