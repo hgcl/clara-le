@@ -243,6 +243,14 @@ export const blogrollData = [
     best: false,
   },
   {
+    url: "https://mariovillalobos.com/",
+    title: "Mario Villalobos",
+    description:
+      "Mario Villalobos's blog, where he writes notes about his life",
+    category: [categories.blog.anchor],
+    best: false,
+  },
+  {
     url: "https://macwright.com/",
     title: "Tom MacWright",
     description: "Tom MacWright's personal blog is minimalism at its finest.",
@@ -345,6 +353,14 @@ export const blogrollData = [
       "Tim Urban is one of the most thoughtful thinkers on the internet. He brings complex and fascinating topics within everyone's reach through (very) long form blog posts.",
     category: [categories.thinking.anchor],
     best: true,
+  },
+  {
+    url: "https://winnielim.org/",
+    title: "Winnie Lim",
+    description:
+      "Winnie Lim's beautifully written blog, where she documents her life.",
+    category: [categories.blog.anchor],
+    best: false,
   },
   // >X
   // >Y
