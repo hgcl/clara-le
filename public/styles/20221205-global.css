@@ -400,7 +400,6 @@ a[id*="user-content-fnref"] {
 footer {
   display: flex;
   justify-content: space-between;
-  flex-direction: row-reverse;
   align-items: center;
   flex-shrink: 0;
   padding: 1rem 0;

@@ -19,21 +19,11 @@ article {
   content: "\A\2003";
 }
 
-/* Back to top */
-
-article > a {
-  margin: 2rem auto;
-}
-
 @media only screen and (min-width: 768px) {
   article > div {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-  }
-  /* Back to top */
-  article > a {
-    display: none;
   }
   #ingredients {
     flex: 1 0 250px;
