@@ -515,5 +515,6 @@ footer ul {
 
   #recipe-list {
     columns: 3;
+    text-transform: capitalize;
   }
 }
