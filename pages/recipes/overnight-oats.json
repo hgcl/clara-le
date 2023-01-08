@@ -1,0 +1,29 @@
+{
+  "title": "Overnight Oats",
+  "publishedOn": "2022-11-22",
+  "dataTag": ["main", "ahead"],
+  "intro": "",
+  "duration": "PT5M",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["Oats", "Oat milk or cow milk", "Honey (to taste)"],
+      "ingOpt": ["Seeds", "Yoghurt", "Fresh fruits", "Jam"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Add the oats in a sealed jar or tupperware,",
+        "Pour enough milk to just cover the oats. Add honey (to taste) and mix well.",
+        "Close the jar and store in the fridge overnight for the oats to soften.",
+        "In the morning, make a bowl of overnight oats with more milk and/or yoghurt. Add some seeds, jam or freshly cut fruits."
+      ]
+    }
+  ],
+  "notes": [
+    "Tip: Overnight oats are the perfect make-ahead breakfast. You can prepare them in advance and keep them up to five days in the fridge."
+  ],
+  "recipeUrl": ""
+}

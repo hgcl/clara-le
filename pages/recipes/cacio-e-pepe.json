@@ -1,0 +1,33 @@
+{
+  "title": "Cacio E Pepe",
+  "publishedOn": "2021-02-25",
+  "dataTag": ["main"],
+  "intro": "I love the one-pan hack of this super creamy cacio e pepe!",
+  "duration": "30",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Spaghetti",
+        "Water",
+        "Salt",
+        "Pecorino (or parmesan)",
+        "Black pepper, freshly ground"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Grate the cheese and keep aside.",
+        "Add the spaghetti in a pan and cover with boiling water. Mix constantly for about ten minutes, the pasta should still be slightly undercooked. The starchy water should have reduced almost completely.",
+        "Grind some black pepper into the pan, mix everything. Add the grated cheese, keep on mixing for one minute until melted.",
+        "Serve hot."
+      ]
+    }
+  ],
+  "notes": [],
+  "recipeUrl": "https://www.youtube.com/watch?v=q8kTWNwUD88"
+}
