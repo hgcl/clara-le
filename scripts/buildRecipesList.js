@@ -10,7 +10,6 @@ export async function buildPage(html) {
     const postsHtml = posts
       .map(
         (post) =>
-          // TODO: data-tag to replace when real tags added to posts
           `<li data-tag="${post.dataTag}" class="post-row"><a href="${
             post.slug
           }">${post.title}</a>${

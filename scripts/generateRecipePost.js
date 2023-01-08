@@ -3,6 +3,7 @@
  */
 
 import { readdirSync, readFileSync, writeFileSync } from "fs";
+import * as path from "path";
 
 const RECIPES_DIR = "./pages/recipes/";
 const PUBLIC_DIR = "./public/";
@@ -102,7 +103,7 @@ function getRecipes(files) {
 
 export default async function process() {
   const files = readdirSync(RECIPES_DIR).filter(
-    (i) => i.endsWith("json") === true
+    (i) => path.extname(i) === ".json"
   );
   const recipes = getRecipes(files);
   recipes.forEach((file) => {

@@ -1,6 +1,7 @@
 import { load } from "js-yaml";
 import { cwd } from "process";
 import { readdir, readFile } from "fs/promises";
+import * as path from "path";
 const PAGES_DIR = `${cwd()}/pages`;
 
 /**
@@ -22,22 +23,26 @@ function getFrontmatter(file) {
 export default async function getPosts(dirCategory) {
   const files = await readdir(PAGES_DIR + "/" + dirCategory);
   const posts = await Promise.all(
-    files.map(async (file) => {
-      const content = await readFile(
-        `${PAGES_DIR}/${dirCategory}/${file}`,
-        "utf-8"
-      );
-      const frontmatter = getFrontmatter(content);
-      return {
-        title: frontmatter.title,
-        subtitle: frontmatter.subtitle,
-        dateCreated: frontmatter.dateCreated,
-        dateModified: frontmatter.dateModified,
-        durationMin: frontmatter.durationMin,
-        dataTag: frontmatter.dataTag,
-        slug: `/${dirCategory}/${file.replace(".md", "").replace(".html", "")}`,
-      };
-    })
+    files
+      .filter((i) => path.extname(i) !== ".json")
+      .map(async (file) => {
+        const content = await readFile(
+          `${PAGES_DIR}/${dirCategory}/${file}`,
+          "utf-8"
+        );
+        const frontmatter = getFrontmatter(content);
+        return {
+          title: frontmatter.title,
+          subtitle: frontmatter.subtitle,
+          dateCreated: frontmatter.dateCreated,
+          dateModified: frontmatter.dateModified,
+          durationMin: frontmatter.durationMin,
+          dataTag: frontmatter.dataTag,
+          slug: `/${dirCategory}/${file
+            .replace(".md", "")
+            .replace(".html", "")}`,
+        };
+      })
   );
   return posts;
 }
