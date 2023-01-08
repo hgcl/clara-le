@@ -127,6 +127,14 @@ export const blogrollData = [
     category: [categories.newsletter.anchor],
     best: false,
   },
+  {
+    url: "https://devils.neocities.org",
+    title: "Devils",
+    description:
+      "What a refreshing personal website! It breaks the boudaries of what a personal website could be.",
+    category: [categories.blog.anchor],
+    best: false,
+  },
   // >E
   {
     url: "https://www.eaudepoisson.com/",
