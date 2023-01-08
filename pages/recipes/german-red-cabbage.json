@@ -1,0 +1,32 @@
+{
+  "title": "German Red Cabbage",
+  "publishedOn": "2022-10-06",
+  "dataTag": ["main", "fall", "winter", "ahead"],
+  "intro": "",
+  "duration": "75",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 small head of red cabbage",
+        "1 cup apple cider vinegar",
+        "1.5 cups water",
+        "1/3 cup sugar",
+        "8 cloves"
+      ],
+      "ingOpt": ["1 green apple, peeled and diced", "8 juniper berries"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Core and chop cabbage. Peel and dice apple.",
+        "Combine all the ingredients in a dutch oven and toss.",
+        "Bring the liquid to a boil, reduce to simmer, cover and simmer stirring occasionally for at least one hour. You can leave it simmering for a bit longer if needed. It is pretty forgiving. Remove cloves and berries and serve warm."
+      ]
+    }
+  ],
+  "notes": [],
+  "recipeUrl": "https://pinchofjoy.blogspot.com/2011/08/german-feast-rouladen-knodel-and-red.html"
+}

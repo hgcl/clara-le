@@ -1,8 +1,13 @@
 node_modules
 dist
+
+# All files starting with a dot
 .*.md
 .*.html
 .*.js
 .env
 .post-templates
+
+# Generated files during prebuild
 feed.xml
+/pages/recipes/*.html

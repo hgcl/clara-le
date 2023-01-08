@@ -1,0 +1,45 @@
+{
+  "title": "Orange Loaf Cake",
+  "publishedOn": "2022-02-10",
+  "dataTag": ["dessert", "fall", "winter"],
+  "intro": "",
+  "duration": "100",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "190 g all-purpose flour",
+        "1 tsp. baking powder (or Natron if we use some extra sourdough starter)",
+        "0.5 tsp. salt",
+        "190 g sugar",
+        "170 g butter, at room temperature",
+        "2 large eggs",
+        "5+ tbsp. orange juice (or juice of half an orange)",
+        "1 orange zest",
+        "250 ml sour cream"
+      ],
+      "ingOpt": [
+        "1 tbsp. sourdough starter",
+        "1 squeeze lemon juice (or more to taste)",
+        "1 apple, sliced in small pieces"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Preheat oven to 180 °C and grease a loaf pan.",
+        "In a bowl, cream butter and sugar for 5 minutes, until it's nice and fluffy. Add in the eggs one at a time, mixing until each is fully combined. Add the sourdough starter and orange zest.",
+        "Add the dry ingredients: flour, baking powder (or Natron), and salt. Mix until fully combined.",
+        "Add the orange juice, lemon juice and sour cream, mix until fully combined.",
+        "Add slices of apple to the mixture.",
+        "Bake for 60–65 minutes or until a toothpick inserted in the center of the cake comes out clean. Let it cool on a wire rack for at least 30 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "Tip: I put the butter in the oven at 30 °C for 10 minutes to get it soft enough to work with."
+  ],
+  "recipeUrl": "https://confessionsofabakingqueen.com/orange-loaf-cake/#tasty-recipes-14927-jump-target"
+}

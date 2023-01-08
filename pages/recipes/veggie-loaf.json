@@ -1,0 +1,47 @@
+{
+  "title": "Veggie Loaf",
+  "publishedOn": "2022-11-20",
+  "dataTag": ["main"],
+  "intro": "Recette de Souad, toute simple et goûtue.",
+  "duration": "75",
+  "ingredients": [
+    {
+      "ingTitle": "Pâte",
+      "ingMand": [
+        "110 g farine blanche",
+        "110 g farine d'épeautre complète",
+        "2 oeufs",
+        "150 g lait",
+        "40 g huile végétale",
+        "0.5 cc bicarbonate",
+        "1 cc vinaigre blanc",
+        "Sel et poivre"
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Légumes",
+      "ingMand": [
+        "2 courgettes, coupés en dés",
+        "2 carottes, coupés en dés",
+        "1 botte de persil plat, ciselé",
+        "5–10 noix"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Dans un grand bol, bien mélanger tous les ingrédients pour faire la pâte.",
+        "Ajouter les légumes coupés en dés, le persil ciselé, les noix cassées en petits morceaux.",
+        "Préchauffer le four à 180 °C.",
+        "Huiler un plat à cake et y verser la préparation.",
+        "Enfourner pendant 45–60 minutes."
+      ]
+    }
+  ],
+  "notes": [],
+  "recipeUrl": ""
+}

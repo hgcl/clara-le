@@ -1,0 +1,46 @@
+{
+  "title": "Korean Kimchi",
+  "publishedOn": "2022-02-10",
+  "dataTag": ["extra", "fall", "winter"],
+  "intro": "I love fermenting stuff. Kimchi is one of the first fermenting recipes I learned. It is the perfect addition to any dish you want to brighten or spice a bit.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "700 g cabbage, chopped",
+        "3 tbsp. salt",
+        "1 tbsp. sugar",
+        "2 tbsp. flour",
+        "water",
+        "6 tbsp. soy sauce",
+        "6 tbsp. gochugaru",
+        "ginger, minced",
+        "garlic, crushed",
+        "onion, minced",
+        "leek, chopped",
+        "green onion, diagonally sliced",
+        "carrot, julienned"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Chop the cabbage into bite size pieces.",
+        "In a large basin, soak the pieces of cabbage in cold water. Sprinkle salt.",
+        "Every 30 minutes, turn the cabbage over to salt evenly (total salting time will be 1.5 hours). Once done, rinse and drain thoroughly.",
+        "In a pot, mix flour with water and bring to a boil.",
+        "Add sugar and cook a few minutes more until translucent. Set aside to cool down.",
+        "Mix the cold flour porridge into a large bowl with gochugaru, soy sauce, garlic, onion, green onion, leek, ginger and carrots.",
+        "Add the cabbage to the bowl and thoroughly mix.",
+        "Put the kimchi into an air-tight sealed plastic container or glass jar.",
+        "Store in the fridge, making sure to mix it up at least once a week."
+      ]
+    }
+  ],
+  "notes": ["Tip: Make sure you use some in a kimchi grilled cheese!"],
+  "recipeUrl": "https://www.maangchi.com/recipe/easy-kimchi"
+}

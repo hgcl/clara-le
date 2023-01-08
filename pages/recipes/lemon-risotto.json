@@ -1,0 +1,42 @@
+{
+  "title": "Lemon Risotto",
+  "publishedOn": "2022-03-04",
+  "dataTag": ["main"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "For 2 servings",
+      "ingMand": [
+        "2 shallots",
+        "1 stick of celery",
+        "60 g unsalted butter",
+        "1 tbsp. olive oil",
+        "300 g risotto rice",
+        "1 l vegetable stock",
+        "zest and juice of half a lemon",
+        "2 small sprigs of fresh rosemary (finely chopped)",
+        "1 large egg yolk",
+        "4 tbsp. grated Parmesan cheese (plus more to sprinkle)",
+        "60 ml double cream",
+        "salt (to taste)",
+        "pepper (preferably white)"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Put the shallots and celery into a food processor and blitz until they are a finely chopped mush.",
+        "Heat half the butter, the oil and the shallot and celery mixture in a wide saucepan, and cook to soften the mixture for about 5 minutes, making sure it doesn't catch. Mix in the rice, stirring to give it a good coating of oil and butter. Meanwhile, heat the stock in another saucepan and keep it at simmering point.",
+        "Pour a ladleful of the stock into the rice and keep stirring until the stock is absorbed. Then add another ladleful and stir again. Continue doing this until the rice is al dente. You may not need all of the stock, equally, you may need to add hot water from the kettle.",
+        "Mix the lemon zest and the rosemary into the risotto, and in a small bowl beat the egg yolk, lemon juice, parmesan, cream and pepper.",
+        "When the risotto is ready—when the rice is no longer chalky, but still has some bite—take it off the heat and add the bowl of eggy, lemony mixture, and the remaining butter and salt to taste. Serve with more grated parmesan if you wish, check the seasoning and dive in."
+      ]
+    }
+  ],
+  "notes": [],
+  "recipeUrl": "https://www.nigella.com/recipes/lemon-risotto/"
+}

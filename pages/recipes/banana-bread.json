@@ -1,0 +1,39 @@
+{
+  "title": "Banana Bread",
+  "publishedOn": "2021-02-05",
+  "dataTag": ["dessert"],
+  "intro": "This is a recipe that Niamh recommended to me. And as with most dessert recipes, she was spot on. Definitely one of the best banana breads I have eaten. It has a very strong banana taste, is moist in the inside, but crispy on the outside.",
+  "duration": "110",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "115 g butter, cut into chunks",
+        "160 g brown sugar",
+        "5 medium-large mashed bananas",
+        "2 large eggs",
+        "1 tsp. salt",
+        "1.5 tsp. ground cinnamon",
+        "0.5 tsp. ground nutmeg",
+        "260 g flour",
+        "1 tsp. baking soda (Natron)",
+        ">100 sourdough starter (or 1 tsp. baking powder)"
+      ],
+      "ingOpt": [">100 g chopped walnuts", ">1 packet vanilla sugar"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Heat oven to 150 °C. Line a 20 cm loaf tin.",
+        "Melt butter in a large pan. Whisk in brown sugar until smooth, then stir in 3 mashed bananas. Whisk in eggs, vanilla, salt, cinnamon, nutmeg, baking soda (Natron), and sourdough starter (or baking powder). Whisk until the ingredients are fully dispersed in the batter.",
+        "Add flour and stir until combined, add the chopped walnuts and the rest of the bananas (sliced). Scrape batter into prepared loaf tin.",
+        "Bake banana bread for 75 minutes, or more. Test with a knife—the top third is often slowest to cook. The bread will get very dark but will not taste burnt.",
+        "Let cool in pan. This banana bread is good on the first day but exceptional on the second and third."
+      ]
+    }
+  ],
+  "notes": [],
+  "recipeUrl": ""
+}

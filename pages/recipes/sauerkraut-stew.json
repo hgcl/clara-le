@@ -1,0 +1,45 @@
+{
+  "title": "Sauerkraut Stew",
+  "publishedOn": "2022-04-03",
+  "dataTag": ["main", "fall", "winter", "ahead"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 tbsp. paprika",
+        "1 tsp. chili powder",
+        "500 g sauerkraut",
+        "4 potatoes, peeled and chopped bite-size",
+        "2 carrots, peeled and chopped bite-size",
+        "3 cloves garlic, sliced",
+        "1 onion, diced",
+        "2–3 pickled cucumbers, sliced",
+        "1 stock cube",
+        "oil",
+        "pepper and salt"
+      ],
+      "ingOpt": [
+        "1 dried sausage, diced",
+        "2 bay leaves (or other dried herbs)",
+        "2 tbsp. horseradish, blended"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Boil potatoes and carrots in a pot until almost done and set aside. Make sure to keep 1–2 cups of the water to make stock.",
+        "Add oil to pan over medium-high heat, then add onion, garlic, and sausage. Sauté until fragrant. Add ground paprika, chili powder and bay leaves, as well as salt and pepper to taste and mix to combine.",
+        "Lower heat to a simmer, then add sauerkraut and continue to cook for an approx. 30 minutes.",
+        "5 minutes before the sauerkraut is done, add the cooked potatoes and carrots, half of them mashed with the fork—this will help to thicken the stew.",
+        "Season with salt and pepper, as needed.",
+        "Add the sliced pickled cucumbers. Leave it to stand in a saucepan for at least 30 minutes. It will taste better thereafter."
+      ]
+    }
+  ],
+  "notes": [],
+  "recipeUrl": "https://www.behealthynow.co.uk/healthy-meals/healthy-lunches/slovenian-sauerkraut-stew-recipe-vegetarian/"
+}

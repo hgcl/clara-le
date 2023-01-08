@@ -1,0 +1,74 @@
+{
+  "title": "Indian Dal Tadka",
+  "publishedOn": "2020-12-24",
+  "dataTag": ["main", "ahead"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Dal",
+      "ingMand": [
+        "1–2 cups of rinsed lentils (mix different types of lentils for a more diverse texture)",
+        "0.5 tsp. turmeric powder",
+        "1.5 tsp. salt",
+        "3.5 cups water",
+        "4 large garlic cloves, crushed",
+        "1 inch ginger, crushed",
+        "1 green chili, crushed",
+        "1.5 tbsp. ghee (or oil)",
+        "1 tsp. cumin seeds",
+        "1 tbsp. coriander seeds, crushed",
+        "2 cloves",
+        "1 medium red onion, chopped",
+        "2 medium tomatoes chopped (or tomato puree / paste)",
+        "0.5 tsp. coriander powder",
+        "¼ tsp. garam masala",
+        "¼ tsp. red chili powder",
+        "2 tbsp. cilantro, chopped",
+        "1 tsp. dried fenugreek leaves, crushed"
+      ],
+      "ingOpt": ["2 carrots or other veggies, diced"]
+    },
+    {
+      "ingTitle": "Tempering (tadka)",
+      "ingMand": [
+        "2 tsp. ghee",
+        "2 large garlic cloves, chopped",
+        "2 dried red chilies"
+      ],
+      "ingOpt": [
+        "¼ tsp. hing also known as asafoetida",
+        "¼ tsp. red chili powder"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Dal",
+      "insSteps": [
+        "Crush 4 large garlic cloves, 1-inch ginger and 1 green chili in a mortar pestle and set it aside.",
+        "In a heavy bottom pan, heat 2 tsp. ghee on medium heat. Once hot, add the 1 tsp. cumin seeds, 1 tbsp. crushed coriander seeds and 2 cloves. Saute for few seconds until fragrant.",
+        "Then add onions, cook for around 3 to 4 minutes until they are soft and start changing color.",
+        "Add the crushed garlic-ginger-green chili. Cook for 1 to 2 minutes until the raw smell goes away.",
+        "Add the optional carrots, chopped tomatoes along with 1/2 teaspoon salt and mix. Cover and cook for 7 to 8 minutes until tomatoes are very soft and cooked.",
+        "Then add the 0.5 tsp. coriander powder, ¼ tsp. garam masala, ¼ tsp. red chili powder, and 2 tbsp. cilantro. Stir the spices with the masala for 30 seconds.",
+        "Add the raw 1–2 cups lentils to the pot with 3 cups water, 0.5 tsp. turmeric powder, and 1.5 tsp. salt. Bring to a boil and let simmer for 30 minutes. The texture should be more liquid than your ideal version as the mixture thickens as it cools down."
+      ]
+    },
+    {
+      "insTitle": "Tempering (Tadka)",
+      "insSteps": [
+        "Heat 2 teaspoons ghee in a small pan. Once the ghee is hot, add 2 chopped garlic cloves. Also add hing and dried red chilies.",
+        "Cook for one minute until the garlic starts changing color. Add kashmiri red chili powder, remove pan from heat.",
+        "Pour tempering over the dal and mix.",
+        "Optional but recommended: For the dhungar method — place a steel bowl on top of a trivet placed inside the dal. Then heat a piece of charcoal over direct heat until it's red hot.",
+        "Place hot charcoal in that steel bowl on top of the trivet. Pour melted ghee (around 1 tablespoon) on top of charcoal. You will immediately see fumes coming out of charcoal.",
+        "Immediately close the pan with a lid. Let it remain like this for 5 to 10 minutes. After 5 to 10 minutes, remove lid and remove the bowl from dal.",
+        "The longer you keep the lid closed, the smokier dal will get, so don't do more than 10 minutes.",
+        "Garnish dal tadka with more cilantro and serve!"
+      ]
+    }
+  ],
+  "notes": [],
+  "recipeUrl": "#"
+}
