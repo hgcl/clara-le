@@ -318,6 +318,14 @@ export const blogrollData = [
   },
   // >Q
   // >R
+  {
+    url: "https://v6.robweychert.com/",
+    title: "Robwey Chert",
+    description:
+      "Robwey Chert is a designer and artist that has been blogging since 2002.",
+    category: [categories.blog.anchor],
+    best: false,
+  },
   // >S
   {
     url: "https://sebastiangreger.net",
