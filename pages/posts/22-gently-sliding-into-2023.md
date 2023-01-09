@@ -16,7 +16,7 @@ dateCreated: "2023-01-02"
 
 Guten Rutsch ins neue Jahr! Or have a good slide into the new year, as Germans say.
 
-I am back to work after one week of relaxed vacation in Berlin. It feels like much longer though, as we had been back in Switzerland the two previous weeks as well. Nothing much happened since my [last weekly review](/posts/21-berlin-post-christmas).
+I am back to work after one week of relaxed vacation in Berlin. It feels like much longer though, as we had been to in Switzerland the two previous weeks as well. Nothing much happened since my [last weekly review](/posts/21-berlin-post-christmas).
 
 Robin and I met with friends for some holiday dinners, we started playing chess, we did our Year in Review[^1], we caught up with our current D&D campaign, we created a photo album for 2022, and I started to do some rehabilitation exercises for my sprained ankle.
 
@@ -24,7 +24,7 @@ Writing this last paragraph, I realize that "nothing much" was actually a lot. I
 
 People around me are talking a lot about New Year's resolutions. For once, I am looking at the coming year with a very open mind. My main goal is to get acclimated with our new life in the French countryside. Of course, I have a [ton of things I'd love to do there](/posts/city-kids-going-cottagecore). But I see these more like wishes and ideas than resolutions.
 
-_26 days left before the move_
+_27 days left before the move_
 
 [^1]: It's now been three years I write a Year in Review to reflect on the past and plan for the future. I am tweaking its structure year after year to fit my needs. I'll see if I find the time—or more like the motivation—to share it here these next few weeks.
 
