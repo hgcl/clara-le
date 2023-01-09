@@ -284,6 +284,7 @@ a[id*="user-content-fnref"] {
 
 #recipe-list {
   columns: 1;
+  text-transform: capitalize;
 }
 
 #recipe-list .post-row > .label {
@@ -515,6 +516,5 @@ footer ul {
 
   #recipe-list {
     columns: 3;
-    text-transform: capitalize;
   }
 }
