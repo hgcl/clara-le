@@ -46,3 +46,10 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "EauDePoisson";
+  src: url("./fonts/eaudepoisson.woff2") format("woff2");
+  font-weight: normal;
+  font-style: 400;
+}
