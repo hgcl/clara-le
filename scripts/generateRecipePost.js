@@ -87,7 +87,7 @@ function getRecipes(files) {
     const str = JSON.parse(readFileSync(RECIPES_DIR + file, "utf8"));
     return {
       slug: file.replace(".json", ""),
-      title: str.title.toLowerCase(),
+      title: str.title,
       publishedOn: str.publishedOn,
       dataTag: str.dataTag,
       intro: str.intro,
