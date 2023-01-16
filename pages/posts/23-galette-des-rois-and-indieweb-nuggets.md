@@ -26,7 +26,7 @@ _20 days left before the move_
 
 <p class="label">By the Nee brothers</p>
 
-So, as it often is, we were in the mood for a light and entertaining movie. <cite>The lost city</cite> was all of that, plus extra dumb as well. It was perfect. It stars Sandra Bullock and Channing Tatum in a romantic comedy-adventure. The movie doesn't take itself seriously and is just what you need on a long day of work. Also, did you know that there are three series and three other movies called exactly <cite>The lost city</cite> as well?[^1]
+So, as it often is, we were in the mood for a light and entertaining movie. <cite>The lost city</cite> was all of that, plus extra dumb as well. It was perfect. It stars Sandra Bullock and Channing Tatum in a romantic comedy-adventure. The movie doesn't take itself seriously and is just what you need after a long day of work. Also, did you know that there are three series and three other movies called exactly <cite>The lost city</cite> as well?[^1]
 
 ### Aftersun (2022)
 
@@ -38,7 +38,7 @@ On the other extreme of the spectrum, there is <cite>Aftersun</cite>. What a won
 
 ## Discovered
 
-I am not a hundred-pinned-tabs kind of person. I don't really know why, it just doesn't happen for me.[^2] These last few days, I consciously pinned websites I had stumbled. If I like the process, this might be one of my new ways to nurture this _Discovered_ section.
+I am not a hundred-pinned-tabs kind of person. I don't really know why, it just doesn't happen for me.[^2] These last few days, I consciously pinned websites I had stumbled on. If I like the process, this might be one of my new ways to nurture this _Discovered_ section.
 
 [^2]: Maybe I get stressed out when having too many pinned tabs?
 
