@@ -1,85 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{#title}}{{title}} | {{/title}}Clara Le</title>
+    <meta name="description" content="A personal website" />
+    <link rel="stylesheet" href="/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/20230116-global.css" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="/feed.xml"
+      title="Clara Le"
+    />
+    <!-- Webmentions links, state that I want to receive webmentions on webmention.io -->
+    <link
+      rel="webmention"
+      href="https://webmention.io/clarale.com/webmention"
+    />
+    <link rel="pingback" href="https://webmention.io/clarale.com/xmlrpc" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>{{#title}}{{title}} | {{/title}}Clara Le</title>
-  <meta name="description" content="A personal website">
-  <link rel="stylesheet" href="/fonts.css" type="text/css" />
-  <link rel="stylesheet" href="/styles/20221205-global.css" type="text/css" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>" />
-  <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Clara Le">
-  <!-- Webmentions links, state that I want to receive webmentions on webmention.io -->
-  <link rel="webmention" href="https://webmention.io/clarale.com/webmention" />
-  <link rel="pingback" href="https://webmention.io/clarale.com/xmlrpc" />
-</head>
-
-<body>
-  <header>
-    <a class="skip-to-content" href="#main">Skip to content</a>
-    <nav>
+  <body>
+    <header>
+      <a class="skip-to-content" href="#main">Skip to content</a>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/now/">Now</a></li>
+          <li><a href="/posts/">Musings</a></li>
+          <li><a href="/recipes/">Recipes</a></li>
+          <li><a href="/antilibrary/">Antilibrary</a></li>
+          <li><a href="/blogroll/">Blogroll</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ID of main necessary for skip content button -->
+    <main id="main" class="h-entry">
+      <!-- if it has a date it's a post -->
+      {{#dateCreated}}
+      <div class="post-header">
+        <h1 class="p-name">{{title}}</h1>
+        <a rel="author" class="p-author h-card hide" href="https://clarale.com"
+          >Clara Le</a
+        >
+        <p class="label">
+          <span class="sr-only">Published on</span>
+          <time datetime="{{dateCreated}}" class="dt-published"
+            >{{dateCreated}}</time
+          >
+        </p>
+      </div>
+      <article class="e-content">
+        {{/dateCreated}} {{> content}} {{#dateCreated}}
+      </article>
+      {{/dateCreated}}
+    </main>
+    <footer>
+      <a href="#main">Back to top</a>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/now/">Now</a></li>
-        <li><a href="/posts/">Musings</a></li>
-        <li><a href="/recipes/">Recipes</a></li>
-        <li><a href="/antilibrary/">Antilibrary</a></li>
-        <li><a href="/blogroll/">Blogroll</a></li>
+        <li class="nobullet">
+          <a href="mailto:hey@clarale.com">Contact</a>
+        </li>
+        <li class="nobullet">
+          <a href="/colophon">Colophon</a>
+        </li>
       </ul>
-    </nav>
-  </header>
-  <!-- ID of main necessary for skip content button -->
-  <main id="main" class="h-entry">
-    <!-- if it has a date it's a post -->
-    {{#dateCreated}}
-    <div class="post-header">
-      <h1 class="p-name">{{title}}</h1>
-      <a rel="author" class="p-author h-card hide" href="https://clarale.com">Clara Le</a>
-      <p class="label">
-        <span class="sr-only">Published on</span>
-        <time datetime="{{dateCreated}}" class="dt-published">{{dateCreated}}</time>
-      </p>
-    </div>
-    <article class="e-content">
-      {{/dateCreated}} {{> content}} {{#dateCreated}}
-    </article>
-    {{/dateCreated}}
-  </main>
-  <footer>
-    <a href="#main">Back to top</a>
-    <ul>
-      <li class="nobullet">
-        <a href="mailto:hey@clarale.com">Contact</a>
-      </li>
-      <li class="nobullet">
-        <a href="/colophon">Colophon</a>
-      </li>
-    </ul>
-  </footer>
-</body>
-<script type="text/javascript">
-  // Get footnotes box (ol element) and set up counter
-  let footnotes = document.querySelector(".footnotes").lastChild;
-  let counter = 1;
-  window.onload = () => {
-    while (footnotes.childNodes.length >= counter) {
-      // Generate ids numbers
-      let footnoteId = "user-content-fn-" + counter;
-      let refId = "user-content-fnref-" + counter;
-      // Get footnote element (li element) + set class sidenote
-      let footnoteEl = document.getElementById(footnoteId);
-      footnoteEl.setAttribute("class", "sidenote");
-      // Get the reference sup element top position
-      let supEl = document.getElementById(refId).parentNode;
-      let topPos = supEl.offsetTop;
-      // Vertically position footnote
-      footnoteEl.style.top = topPos + "px";
-      counter++;
-    }
-  };
-</script>
-
+    </footer>
+  </body>
+  <script type="text/javascript">
+    // Get footnotes box (ol element) and set up counter
+    let footnotes = document.querySelector(".footnotes").lastChild;
+    let counter = 1;
+    window.onload = () => {
+      while (footnotes.childNodes.length >= counter) {
+        // Generate ids numbers
+        let footnoteId = "user-content-fn-" + counter;
+        let refId = "user-content-fnref-" + counter;
+        // Get footnote element (li element) + set class sidenote
+        let footnoteEl = document.getElementById(footnoteId);
+        footnoteEl.setAttribute("class", "sidenote");
+        // Get the reference sup element top position
+        let supEl = document.getElementById(refId).parentNode;
+        let topPos = supEl.offsetTop;
+        // Vertically position footnote
+        footnoteEl.style.top = topPos + "px";
+        counter++;
+      }
+    };
+  </script>
 </html>

@@ -2,50 +2,58 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{#title}}{{title}} | {{/title}}Clara Le</title>
+    <meta name="description" content="A personal website" />
+    <link rel="stylesheet" href="/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/20230116-global.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/20220409-media.css" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="/feed.xml"
+      title="Clara Le"
+    />
+    <!-- Webmentions links, state that I want to receive webmentions on webmention.io -->
+    <link
+      rel="webmention"
+      href="https://webmention.io/clarale.com/webmention"
+    />
+    <link rel="pingback" href="https://webmention.io/clarale.com/xmlrpc" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>{{#title}}{{title}} | {{/title}}Clara Le</title>
-  <meta name="description" content="A personal website">
-  <link rel="stylesheet" href="/fonts.css" type="text/css" />
-  <link rel="stylesheet" href="/styles/20221205-global.css" type="text/css" />
-  <link rel="stylesheet" href="/styles/20220409-media.css" type="text/css" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>" />
-  <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Clara Le">
-  <!-- Webmentions links, state that I want to receive webmentions on webmention.io -->
-  <link rel="webmention" href="https://webmention.io/clarale.com/webmention" />
-  <link rel="pingback" href="https://webmention.io/clarale.com/xmlrpc" />
-</head>
-
-<body>
-  <header>
-    <a class="skip-to-content" href="#main">Skip to content</a>
-    <nav>
+  <body>
+    <header>
+      <a class="skip-to-content" href="#main">Skip to content</a>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/now/">Now</a></li>
+          <li><a href="/posts/">Musings</a></li>
+          <li><a href="/recipes/">Recipes</a></li>
+          <li><a href="/antilibrary/">Antilibrary</a></li>
+          <li><a href="/blogroll/">Blogroll</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">{{> content}}</main>
+    <footer>
+      <a href="#main">Back to top</a>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/now/">Now</a></li>
-        <li><a href="/posts/">Musings</a></li>
-        <li><a href="/recipes/">Recipes</a></li>
-        <li><a href="/antilibrary/">Antilibrary</a></li>
-        <li><a href="/blogroll/">Blogroll</a></li>
+        <li class="nobullet">
+          <a href="mailto:hey@clarale.com">Contact</a>
+        </li>
+        <li class="nobullet">
+          <a href="/colophon">Colophon</a>
+        </li>
       </ul>
-    </nav>
-  </header>
-  <main id="main">{{> content}}</main>
-  <footer>
-    <a href="#main">Back to top</a>
-    <ul>
-      <li class="nobullet">
-        <a href="mailto:hey@clarale.com">Contact</a>
-      </li>
-      <li class="nobullet">
-        <a href="/colophon">Colophon</a>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

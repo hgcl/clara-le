@@ -27,7 +27,7 @@ export async function buildPage(html) {
       .map(
         (cat) =>
           `<h2>${cat}</h2>` +
-          `<ul id="blog-list" class="nobullet">` +
+          `<ul class="nobullet">` +
           orderedPosts
             .filter((post) => new Date(post.dateCreated).getFullYear() == cat)
             .map(

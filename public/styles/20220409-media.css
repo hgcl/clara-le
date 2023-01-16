@@ -124,12 +124,6 @@ html {
   margin: 0 auto;
 }
 
-h1 {
-  margin: 0;
-  font-size: 1.999rem;
-  line-height: 2.3rem;
-}
-
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   html {

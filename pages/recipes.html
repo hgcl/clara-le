@@ -29,7 +29,7 @@ buildScript: /scripts/buildRecipesList.js
     <option value="ahead">Prep-ahead meals</option>
   </optgroup>
 </select>
-<ul id="recipe-list" class="nobullet">
+<ul id="recipes" class="nobullet">
   <li>Posts go here</li>
 </ul>
 
@@ -38,13 +38,15 @@ buildScript: /scripts/buildRecipesList.js
   function filter(param) {
     // Select all <li> and unhide
     const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
-    completeLiList.map(li => li.setAttribute("style", "display:flex"));
+    completeLiList.map((li) => li.setAttribute("style", "display:flex"));
     let i = 0;
     while (param.length > 0 && i < completeLiList.length) {
       // Select <li> number i and get its tags
-      let tagArray = completeLiList[i].getAttribute("data-tag").split(' ');
+      let tagArray = completeLiList[i].getAttribute("data-tag").split(" ");
       // Hide <li> if it doesn't include the selected param
-      if (tagArray.includes(param) === false) { completeLiList[i].setAttribute("style", "display:none") }
+      if (tagArray.includes(param) === false) {
+        completeLiList[i].setAttribute("style", "display:none");
+      }
       i++;
     }
   }

@@ -1,5 +1,9 @@
 @import "/styles/reset.css";
 
+/*--------------------------------------------------------*/
+/*            Default variables and sections              */
+/*--------------------------------------------------------*/
+
 :root {
   --white: hsl(0deg, 0%, 99%);
   --black: hsl(0deg, 0%, 3%);
@@ -39,6 +43,72 @@ article {
   max-width: 600px;
 }
 
+/* Nav */
+
+nav {
+  z-index: 1;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+/* Accessibility */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-to-content {
+  z-index: 2;
+  position: absolute;
+  transform: translateY(-280%);
+  transition: transform 0.3s;
+  background-color: var(--color-bg);
+  padding: 0 0.5em;
+}
+
+.skip-to-content:focus {
+  transform: translateY(20%);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  opacity: var(--alt-text-opacity);
+}
+
+footer ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+/*--------------------------------------------------------*/
+/*                   Shared components                    */
+/*--------------------------------------------------------*/
+
 .intro {
   max-width: 600px;
   margin-bottom: 4rem;
@@ -58,22 +128,6 @@ figcaption {
   line-height: 1.3rem;
 }
 
-/* Nav */
-
-nav {
-  z-index: 1;
-  position: relative;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 2rem;
-  margin-bottom: 5rem;
-}
-
 /* Typography */
 
 h1,
@@ -83,18 +137,15 @@ h3 {
   font-weight: bold;
   text-transform: capitalize;
 }
-
 h1 {
   font-size: 2.827rem;
   line-height: 2.9rem;
 }
-
 h2 {
   font-size: 1.999rem;
   line-height: 2.3rem;
   margin: 3rem 0 1rem 0;
 }
-
 h3 {
   font-size: 1.414rem;
   line-height: 1.8rem;
@@ -157,7 +208,6 @@ hr {
   font-family: var(--sans-serif);
   font-size: 1.5rem;
 }
-
 hr::before {
   content: "*\00a0*\00a0*";
 }
@@ -258,19 +308,35 @@ a[id*="user-content-fnref"] {
   padding: 0 2px 0 3px;
 }
 
-/* List of generated posts */
+/* Image composition (e.g. portfolio page) */
 
-#blog-list .post-row {
+.image-comp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Completely hide */
+
+.hide {
+  display: none;
+}
+
+/*--------------------------------------------------------*/
+/*               Custom pages or elements                 */
+/*--------------------------------------------------------*/
+
+/* posts.html layout */
+
+#posts .post-row {
   display: flex;
   align-items: baseline;
   gap: 1rem;
 }
-
-#blog-list .post-row > .label {
+#posts .post-row > .label {
   min-width: 3.5rem;
 }
-
-#blog-list .post-row > span {
+#posts .post-row > span {
   display: flex;
   flex-direction: column;
 }
@@ -282,19 +348,14 @@ a[id*="user-content-fnref"] {
   line-height: 1.3rem;
 }
 
-#recipe-list {
+/* recipes.html layout */
+
+#recipes {
   columns: 1;
   text-transform: capitalize;
 }
-
-#recipe-list .post-row > .label {
+#recipes .post-row > .label {
   margin-left: 1em;
-}
-
-#bookmarks-list > li > span > span {
-  /* selects the domain name */
-  font-size: smaller;
-  opacity: var(--alt-text-opacity);
 }
 
 /* Posts only */
@@ -308,112 +369,49 @@ a[id*="user-content-fnref"] {
   margin: 0;
 }
 
-/* Accessibility */
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
-.skip-to-content {
-  z-index: 2;
-  position: absolute;
-  transform: translateY(-280%);
-  transition: transform 0.3s;
-  background-color: var(--color-bg);
-  padding: 0 0.5em;
-}
-
-.skip-to-content:focus {
-  transform: translateY(20%);
-}
-
-/* Completely hide */
-
-.hide {
-  display: none;
-}
-
-/* Image composition (e.g. portfolio page) */
-
-.image-comp {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-/* Homepage */
+/* index.html layout */
 
 #webring {
   text-align: center;
   font-size: 0.8rem;
   font-family: var(--sans-serif);
 }
-
 #webring a {
   text-decoration: none;
   font-size: 1rem;
 }
-
 #webring span {
   display: none;
 }
-
-#home-intro {
+#index {
   padding: 1rem;
   display: flex;
   justify-content: center;
   height: 100%;
 }
-
-#home-intro div {
+#index div {
   display: flex;
   gap: 2rem;
   align-items: center;
 }
-
-#home-intro svg {
+#index svg {
   display: none;
   fill: currentColor;
   flex-shrink: 0;
   transition: transform 0.5s ease;
 }
-
-#home-intro svg:hover {
+#index svg:hover {
   display: block;
   animation: color-change 5s infinite;
   transform: scale(1.15);
 }
-
-#home-intro p {
+#index p {
   max-width: 600px;
 }
 
-/* Footer */
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-shrink: 0;
-  padding: 1rem 0;
-  font-size: 0.8rem;
-  opacity: var(--alt-text-opacity);
-}
-
-footer ul {
-  display: flex;
-  gap: 1rem;
-  padding: 0;
-  margin: 0;
-}
+/*--------------------------------------------------------*/
+/*                     Media-queries                      */
+/*--------------------------------------------------------*/
 
 /* Dark mode */
 
@@ -471,10 +469,10 @@ footer ul {
   details > *:not(summary) {
     margin-left: 2rem;
   }
-  #recipe-list {
+  #recipes {
     columns: 2;
   }
-  #home-intro svg {
+  #index svg {
     display: block;
   }
 }
@@ -497,12 +495,12 @@ footer ul {
     border: none;
   }
 
-  #home-intro .h-card {
+  #index .h-card {
     gap: 4rem;
   }
 
   /* List of generated blog posts */
-  #blog-list .post-row > span {
+  #posts .post-row > span {
     flex-direction: row;
     column-gap: 1rem;
   }
@@ -514,7 +512,7 @@ footer ul {
     line-height: 1.75rem;
   }
 
-  #recipe-list {
+  #recipes {
     columns: 3;
   }
 }
