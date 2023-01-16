@@ -1,0 +1,48 @@
+<!--
+template: /templates/default.html
+-->
+
+<article id="about">
+  <h1>About</h1>
+  <p>
+    Hi, I'm Clara,
+    <button id="word-swap" onclick="swapWord()">a tinkerer</button> based in the
+    Ardèche region in France. I am currently working remotely as a UX designer
+    and trying to figure out the countryside life.
+  </p>
+  <p>
+    If you want to know more about what I'm up to at the moment, have a look at
+    my
+    <a href="/now/">Now page</a> or one of my latest
+    <a href="/posts/">weekly reviews</a>.
+  </p>
+  <p>
+    I consider this website to be a space where I can express myself freely
+    without editing. If you happen to browse it a bit, you might find one-line
+    notes, half-formed thoughts, doodles, full reviews or anything else in
+    between.
+  </p>
+</article>
+<script>
+  function swapWord() {
+    let word = document.getElementById("word-swap");
+    const wordArray = [
+      "a tinkerer",
+      "a designer",
+      "an explorer",
+      "a climber",
+      "a cat lover",
+      "a clumsy being",
+      "a fixer",
+    ];
+
+    if (wordArray.includes(word.innerHTML) == true) {
+      const index = wordArray.indexOf(word.innerHTML);
+      wordArray[index + 1]
+        ? (word.innerHTML = wordArray[index + 1])
+        : (word.innerHTML = "a tinkerer");
+    } else {
+      word.innerHTML = "a tinkerer";
+    }
+  }
+</script>

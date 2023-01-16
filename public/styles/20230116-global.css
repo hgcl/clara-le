@@ -236,7 +236,21 @@ details summary {
   content: "\00A0\2714";
 }
 
-/* Hyperlinks */
+/* Hyperlinks and buttons */
+button {
+  font: inherit;
+  border: solid 1px;
+  padding: 0.1em 0.4em;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+button:hover,
+button:focus {
+  animation: color-change 5s infinite;
+}
+button:focus {
+  outline: 0.1em solid;
+}
 
 .media-card button,
 a {
@@ -408,6 +422,8 @@ a[id*="user-content-fnref"] {
 #index p {
   max-width: 600px;
 }
+
+/* about.html layout */
 
 /*--------------------------------------------------------*/
 /*                     Media-queries                      */
