@@ -12,7 +12,7 @@ article {
 #ingredients {
   font-size: smaller;
   line-height: 1.5rem;
-  opacity: var(--alt-text-opacity);
+  color: var(--color-subtle);
 }
 
 #ingredients li span::before {

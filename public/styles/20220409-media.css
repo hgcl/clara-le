@@ -24,8 +24,9 @@ html {
   line-height: 1.4rem;
 }
 
-.media-card .content {
-  opacity: var(--alt-text-opacity);
+.media-card .content,
+.media-card .content * {
+  color: var(--color-subtle);
   font-family: var(--sans-serif);
 }
 

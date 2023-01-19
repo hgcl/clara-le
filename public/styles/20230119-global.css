@@ -28,6 +28,20 @@
   /* Colors */
   --white: hsl(0deg, 0%, 99%);
   --black: hsl(0deg, 0%, 3%);
+  --grey-on-black: #b4b4b4;
+  --grey-on-white: #515151;
+  --red-dark: hsl(0, 100%, 30%);
+  --yellow-dark: hsl(41, 100%, 33%);
+  --green-dark: hsl(140, 100%, 27%);
+  --blue-dark: hsl(230, 100%, 50%);
+  --purple-dark: hsl(261, 100%, 55%);
+  --pink-dark: hsl(320, 100%, 31%);
+  --red-light: hsl(0, 78%, 65%);
+  --yellow-light: hsl(44, 100%, 71%);
+  --green-light: hsl(140, 55%, 54%);
+  --blue-light: hsl(194, 100%, 59%);
+  --purple-light: hsl(273, 100%, 70%);
+  --pink-light: hsl(320, 74%, 70%);
   /* Other */
   --alt-text-opacity: 0.7;
   --screen-sm: 370px;
@@ -43,6 +57,7 @@ html {
     sans-serif;
   --color-bg: var(--white);
   --color-text: var(--black);
+  --color-subtle: var(--grey-on-white);
 }
 
 body {
@@ -106,25 +121,6 @@ nav ul {
 
 .skip-to-content:focus {
   transform: translateY(20%);
-}
-
-/* Footer */
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-shrink: 0;
-  padding: var(--space-s) 0;
-  font-size: var(--font-xs);
-  opacity: var(--alt-text-opacity);
-}
-
-footer ul {
-  display: flex;
-  gap: var(--space-s);
-  padding: 0;
-  margin: 0;
 }
 
 /*--------------------------------------------------------*/
@@ -198,22 +194,18 @@ li {
   font-size: small;
   line-height: 1.3rem;
   letter-spacing: 0.1em;
-  opacity: var(--alt-text-opacity);
-}
-
-.subtle {
-  opacity: var(--alt-text-opacity);
+  color: var(--color-subtle);
 }
 
 blockquote {
   border-left: solid 1px;
   padding-left: 1.5rem;
   margin: 2rem 0 2rem 2rem;
-  opacity: var(--alt-text-opacity);
+  color: var(--color-subtle);
 }
 
 pre {
-  opacity: var(--alt-text-opacity);
+  color: var(--color-subtle);
   overflow: auto;
 }
 
@@ -252,7 +244,7 @@ details summary {
 
 .completed {
   text-decoration: line-through;
-  opacity: var(--alt-text-opacity);
+  color: var(--color-subtle);
 }
 .completed::after {
   content: "\00A0\2714";
@@ -274,18 +266,13 @@ button:focus {
   outline: 0.1em solid;
 }
 
-.media-card button,
 a {
   color: var(--color-text);
   text-underline-position: under;
 }
-
-.media-card button:hover,
 a:hover {
   animation: color-change 5s infinite;
 }
-
-.media-card button:focus,
 a:focus {
   animation: color-change 5s infinite;
   text-decoration: none;
@@ -295,22 +282,22 @@ a:focus {
 
 @keyframes color-change {
   5% {
-    color: hsl(0, 100%, 30%);
+    color: var(--red-dark);
   }
   15% {
-    color: hsl(41, 100%, 33%);
+    color: var(--yellow-dark);
   }
   30% {
-    color: hsl(140, 100%, 27%);
+    color: var(--green-dark);
   }
   50% {
-    color: hsl(230, 100%, 50%);
+    color: var(--blue-dark);
   }
   70% {
-    color: hsl(261, 100%, 55%);
+    color: var(--purple-dark);
   }
   90% {
-    color: hsl(320, 100%, 31%);
+    color: var(--pink-dark);
   }
 }
 
@@ -332,15 +319,16 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   font-family: var(--sans-serif);
   font-size: small;
   line-height: 1.2rem;
-  opacity: var(--alt-text-opacity);
+  color: var(--color-subtle);
 }
-
+.footnotes * {
+  color: var(--color-subtle);
+}
 .footnotes ol {
   padding: 0 0 0 1rem;
 }
-
 a[id*="user-content-fnref"] {
-  opacity: var(--alt-text-opacity);
+  color: var(--color-subtle);
   padding: 0 2px 0 3px;
 }
 
@@ -352,10 +340,34 @@ a[id*="user-content-fnref"] {
   gap: var(--space-s);
 }
 
-/* Completely hide */
+/* Utils */
 
 .hide {
   display: none;
+}
+
+.subtle {
+  color: var(--color-subtle);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  padding: var(--space-s) 0;
+  font-size: var(--font-xs);
+}
+footer ul {
+  display: flex;
+  gap: var(--space-s);
+  padding: 0;
+  margin: 0;
+}
+footer * {
+  color: var(--color-subtle);
 }
 
 /*--------------------------------------------------------*/
@@ -458,26 +470,27 @@ a[id*="user-content-fnref"] {
     --color-bg: hsl(0deg, 0%, 2%);
     --color-text: hsl(0deg, 0%, 100%);
     --color-text-alt: hsl(360deg, 0%, 0%);
+    --color-subtle: var(--grey-on-black);
   }
 
   @keyframes color-change {
     5% {
-      color: hsl(0, 78%, 65%);
+      color: var(--red-light);
     }
     15% {
-      color: hsl(44, 100%, 71%);
+      color: var(--yellow-light);
     }
     30% {
-      color: hsl(140, 55%, 54%);
+      color: var(--green-light);
     }
     50% {
-      color: hsl(194, 100%, 59%);
+      color: var(--blue-light);
     }
     70% {
-      color: hsl(273, 100%, 70%);
+      color: var(--purple-light);
     }
     90% {
-      color: hsl(320, 74%, 70%);
+      color: var(--pink-light);
     }
   }
 }
