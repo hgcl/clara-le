@@ -1,5 +1,5 @@
 /**
- * This script generates an RSS2 feed from the markdown notes.
+ * This script generates the recipe overview from the JSON notes.
  */
 
 import { readdirSync, readFileSync, writeFileSync } from "fs";
