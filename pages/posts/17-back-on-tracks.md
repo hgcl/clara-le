@@ -8,7 +8,7 @@ dateCreated: "2022-11-18"
 
 <figure>
  <img src="https://cdn.dribbble.com/userupload/2795607/file/original-bd699902e84b08aad055bdfd75118d39.jpg" alt="Bouldering illustration by Karolin Chen" />
- <figcaption><a href="https://dribbble.com/shots/17084943-Man-and-goose">Bouldering illustration</a> by Karolin Chen
+ <figcaption><a href="https://dribbble.com/shots/17084943-Man-and-goose">Bouldering illustration by Karolin Chen</a>
  </figcaption>
 </figure>
 

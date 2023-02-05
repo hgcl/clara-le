@@ -8,7 +8,7 @@ dateCreated: "2022-12-05"
 
 <figure>
  <img src="https://cdn.dribbble.com/users/295355/screenshots/16105800/media/f66e4c774148681255ccb89f9e120a76.png" alt="Arcade Astronaut by Jordan Jenkins" />
- <figcaption><a href="https://dribbble.com/shots/16105800-Arcade-Astronaut">Arcade Astronaut</a> by Jordan Jenkins
+ <figcaption><a href="https://dribbble.com/shots/16105800-Arcade-Astronaut">Arcade Astronaut by Jordan Jenkins</a>
  </figcaption>
 </figure>
 

@@ -9,7 +9,7 @@ dateCreated: "2021-02-22"
 <figure>
  <img src="https://cdn.dribbble.com/users/1184471/screenshots/9952879/media/ddf1cfcb2cc2be7adb182b326d9d5bce.jpg" alt="The Hiding-in-the-Wrong-Place Club by Andy Wang" />
  <figcaption>
-    <a href="https://dribbble.com/shots/9833313-The-Hiding-in-the-Wrong-Place-Club-Pot-of-Tea">The Hiding-in-the-Wrong-Place Club</a> by Andy Wang
+    <a href="https://dribbble.com/shots/9833313-The-Hiding-in-the-Wrong-Place-Club-Pot-of-Tea">The Hiding-in-the-Wrong-Place Club by Andy Wang</a>
  </figcaption>
 </figure>
 

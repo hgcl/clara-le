@@ -8,7 +8,7 @@ dateCreated: "2023-01-19"
 
 <figure>
  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Berlin%2C_2014_%2814771166515%29.jpg/2560px-Berlin%2C_2014_%2814771166515%29.jpg" alt="Berlin, 2014 by Magnus Hagdorn" />
- <figcaption><a href="https://www.flickr.com/photos/hagdorned/14771166515/">Berlin, 2014</a> by Magnus Hagdorn
+ <figcaption><a href="https://www.flickr.com/photos/hagdorned/14771166515/">Berlin, 2014 by Magnus Hagdorn</a>
  </figcaption>
 </figure>
 

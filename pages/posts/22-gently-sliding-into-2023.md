@@ -8,7 +8,7 @@ dateCreated: "2023-01-02"
 
 <figure>
  <img src="https://static.wixstatic.com/media/d33cd3_dc078aaf057a43909f156172e5d33d80~mv2.jpg/v1/fill/w_1238,h_1238,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d33cd3_dc078aaf057a43909f156172e5d33d80~mv2.jpg" alt="House by the sea by Jessamy Hawke" />
- <figcaption><a href="https://www.jessamyhawke.co.uk/in-the-garden">House by the sea</a> by Jessamy Hawke
+ <figcaption><a href="https://www.jessamyhawke.co.uk/in-the-garden">House by the sea by Jessamy Hawke</a>
  </figcaption>
 </figure>
 

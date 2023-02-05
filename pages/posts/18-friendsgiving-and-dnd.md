@@ -8,7 +8,7 @@ dateCreated: "2022-11-28"
 
 <figure>
  <img src="https://cdn.dribbble.com/users/1182578/screenshots/17084943/media/1c223afdfd53ee906d3fce615f1e0a94.png" alt="Man and goose by Max Hodlevskyi" />
- <figcaption><a href="https://dribbble.com/shots/17084943-Man-and-goose">Man and goose</a> by Max Hodlevskyi
+ <figcaption><a href="https://dribbble.com/shots/17084943-Man-and-goose">Man and goose by Max Hodlevskyi</a>
  </figcaption>
 </figure>
 

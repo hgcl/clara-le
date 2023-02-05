@@ -8,7 +8,7 @@ dateCreated: "2022-12-27"
 
 <figure>
  <img src="https://irinawerning.com/wp-content/uploads/2019/01/61-MARGOT-1980-2012-REYKAVIC.jpg" alt="Margot 1980–2021 Reykavic by Irina Werning" />
- <figcaption><a href="https://irinawerning.com/gallery/back-to-the-future-thumbs/">Margot 1980–2012 Reykavic</a> by Irina Werning
+ <figcaption><a href="https://irinawerning.com/gallery/back-to-the-future-thumbs/">Margot 1980–2012 Reykavic by Irina Werning</a>
  </figcaption>
 </figure>
 

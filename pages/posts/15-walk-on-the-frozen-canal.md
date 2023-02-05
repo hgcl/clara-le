@@ -9,7 +9,7 @@ dateCreated: "2021-02-14"
 <figure>
  <img src="https://cdn.dribbble.com/users/3009971/screenshots/9896423/media/4eb381a2c058c68e7dacc1225e5b37dd.gif" alt="Coffee shop during winter by Jenny Lelong" />
  <figcaption>
-    <a href="https://dribbble.com/shots/9896423-Coffee-shop-during-winter">Coffee shop during winter</a> by Jenny Lelong
+    <a href="https://dribbble.com/shots/9896423-Coffee-shop-during-winter">Coffee shop during winter by Jenny Lelong</a>
  </figcaption>
 </figure>
 

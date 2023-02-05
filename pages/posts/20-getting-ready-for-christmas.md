@@ -8,7 +8,7 @@ dateCreated: "2022-12-16"
 
 <figure>
  <img src="https://cdn.dribbble.com/users/202174/screenshots/15423020/media/0625f7ae5c600d30d9b0de5cd346d1a4.png" alt="Chojny Train Station by Krzysztof Nowak" />
- <figcaption><a href="https://dribbble.com/shots/15423020-Chojny-Train-Station">Chojny Train Station</a> by Krzysztof Nowak
+ <figcaption><a href="https://dribbble.com/shots/15423020-Chojny-Train-Station">Chojny Train Station by Krzysztof Nowak</a>
  </figcaption>
 </figure>
 

@@ -9,7 +9,7 @@ dateCreated: "2021-02-07"
 <figure>
  <img src="https://cdn.dribbble.com/users/39645/screenshots/2786339/dribbble2.png" alt="Mariah Idrissi, Badass. by Maggie Bignell" />
  <figcaption>
-    <a href="https://dribbble.com/shots/2786339-Mariah-Idrissi-Badass">Mariah Idrissi, Badass.</a> by Maggie Bignell
+    <a href="https://dribbble.com/shots/2786339-Mariah-Idrissi-Badass">Mariah Idrissi, Badass. by Maggie Bignell</a>
  </figcaption>
 </figure>
 
