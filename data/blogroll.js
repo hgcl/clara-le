@@ -1,8 +1,4 @@
 export const categories = {
-  berlin: {
-    title: "Berlin",
-    anchor: "berlin",
-  },
   blog: {
     title: "Blog",
     anchor: "blog",
@@ -71,14 +67,6 @@ export const blogrollData = [
     best: false,
   },
   {
-    url: "https://berlinfoodstories.com/",
-    title: "Berlin Food Stories",
-    description:
-      "Per shares amazing food and restaurants recommendations in Berlin.",
-    category: [categories.berlin.anchor],
-    best: false,
-  },
-  {
     url: "https://builtformars.com/",
     title: "Built for Mars",
     description: "Serious UX case-studies explained with a lot of humor",
@@ -138,7 +126,7 @@ export const blogrollData = [
   // >E
   {
     url: "https://www.eaudepoisson.com/",
-    title: "eau de poisson (in French)",
+    title: "Eau de poisson (in French)",
     description: "Yep, sometimes Robin and I travel blog when we feel like it.",
     category: [categories.travel.anchor],
     best: false,
@@ -223,7 +211,7 @@ export const blogrollData = [
     title: "LanguageTool",
     description:
       "A multilingual browser extension (and more) for grammar, style and spell checking—and it's open source",
-    category: [categories.writing.anchor, categories.tech.anchor],
+    category: [categories.writing.anchor],
     best: false,
   },
   {
@@ -327,6 +315,14 @@ export const blogrollData = [
   // >Q
   // >R
   {
+    url: "https://robinmetral.com/",
+    title: "Robin Métral",
+    description:
+      "Robin is my partner in life. He gets passionate about a lot of things, so be prepared for a diverse mix of topics.",
+    category: [categories.blog.anchor],
+    best: true,
+  },
+  {
     url: "https://v6.robweychert.com/",
     title: "Robwey Chert",
     description:
@@ -364,7 +360,7 @@ export const blogrollData = [
     title: "Type scale",
     description:
       "My go-to tool whenever I need to create a new website. It just makes font size choices so much more straightforward.",
-    category: [categories.tech.anchor],
+    category: [categories.typography.anchor],
     best: false,
   },
   // >U
