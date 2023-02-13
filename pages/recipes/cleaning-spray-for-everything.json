@@ -1,0 +1,36 @@
+{
+  "title": "Cleaning spray for everything",
+  "publishedOn": "2023-02-13",
+  "dataTag": ["diy"],
+  "intro": "",
+  "duration": "10",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Bouteille à sprayer de 500 ml",
+        "1,5 c-à-c. bicarbonate de soude",
+        "Eau chaude",
+        "2 c-à-c. vinaigre blanc",
+        "15–20 gouttes d'huiles essentielles (e.g. citron, eucalyptus, pin sylvestre)"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Dans la bouteille vide, mettez 1,5 c-à-c. de bicarbonate.",
+        "Ajoutez assez d'eau chaude pour remplir la bouteille.",
+        "Mettez 2 c-à-c. de vinaigre blanc.",
+        "Ajoutez les huiles essentielles de votre choix.",
+        "Agitez bien avant chaque usage."
+      ]
+    }
+  ],
+  "notes": [
+    "Note: Faites bien attention à ajouter le bicarbonate avant l'eau pour éviter qu'il n'entre en contact direct avec le vinaigre."
+  ],
+  "recipeUrl": "https://www.comment-economiser.fr/nettoyant-multi-usages-maison-bicarbonate-vinaigre.html"
+}
