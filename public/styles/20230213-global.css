@@ -132,6 +132,11 @@ nav ul {
   margin-bottom: var(--space-4xl);
 }
 
+.post-row {
+  align-items: center;
+  justify-content: left;
+}
+
 /* Images */
 
 img {
@@ -555,7 +560,6 @@ footer * {
     flex-direction: row;
     column-gap: 1rem;
   }
-
   .post-row > span .subtle {
     /* font styles similar to body */
     margin-top: 0;
