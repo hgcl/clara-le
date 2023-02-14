@@ -449,14 +449,15 @@ footer * {
 }
 #index svg {
   display: none;
-  fill: currentColor;
+  fill: var(--color-text);
   flex-shrink: 0;
   transition: transform 0.5s ease;
 }
-#index svg:hover {
+#index svg:hover,
+#index svg:active {
   display: block;
   animation: color-change 5s infinite;
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 #index p {
   max-width: 600px;
