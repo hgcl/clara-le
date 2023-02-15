@@ -19,13 +19,13 @@ export const categories = {
     title: "Game",
     anchor: "game",
   },
-  map: {
-    title: "Map",
-    anchor: "map",
-  },
   newsletter: {
     title: "Newsletter",
     anchor: "newsletter",
+  },
+  reading: {
+    title: "Reading",
+    anchor: "reading",
   },
   tech: {
     title: "Tech",
@@ -42,6 +42,10 @@ export const categories = {
   typography: {
     title: "Typography",
     anchor: "typography",
+  },
+  ux: {
+    title: "UX",
+    anchor: "ux",
   },
   writing: {
     title: "Writing",
@@ -70,7 +74,7 @@ export const blogrollData = [
     url: "https://builtformars.com/",
     title: "Built for Mars",
     description: "Serious UX case-studies explained with a lot of humor",
-    category: [categories.tech.anchor],
+    category: [categories.ux.anchor],
     best: false,
   },
   // >C
@@ -215,11 +219,18 @@ export const blogrollData = [
     best: false,
   },
   {
+    url: "https://lawsofux.com/",
+    title: "Laws of UX",
+    description: "Nuggets of UX knowledge beautifully presented",
+    category: [categories.ux.anchor],
+    best: false,
+  },
+  {
     url: "https://www.overdrive.com/apps/libby",
     title: "Libby App",
     description:
       "A library reading—but in my case mostly listening—app. Their interface is great and makes borrowing audiobooks a breeze. Check if they partnered with your local library!",
-    category: [categories.tech.anchor],
+    category: [categories.reading.anchor],
     best: false,
   },
   // >M
@@ -283,7 +294,7 @@ export const blogrollData = [
     title: "Nielsen Norman Group",
     description:
       "The number one reference for everything UX and accessibility-related",
-    category: [categories.tech.anchor],
+    category: [categories.ux.anchor],
     best: false,
   },
   // >O
@@ -335,7 +346,7 @@ export const blogrollData = [
     url: "https://sebastiangreger.net",
     title: "Sebastian Greger",
     description: "When the IndieWeb meets great design.",
-    category: [categories.tech.anchor],
+    category: [categories.blog.anchor],
     best: false,
   },
   {
@@ -352,7 +363,7 @@ export const blogrollData = [
     title: "They draw and travel",
     description:
       "Collection of illustrated travel map created by artists from around the world",
-    category: [categories.map.anchor],
+    category: [categories.travel.anchor],
     best: false,
   },
   {
