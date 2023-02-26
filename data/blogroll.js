@@ -11,10 +11,6 @@ export const categories = {
     title: "Data Visualization",
     anchor: "data-visualization",
   },
-  digitalGarden: {
-    title: "Digital Garden",
-    anchor: "digital-garden",
-  },
   game: {
     title: "Game",
     anchor: "game",
@@ -59,7 +55,7 @@ export const blogrollData = [
     url: "https://notes.andymatuschak.org/About_these_notes",
     title: "Andy Matuschak",
     description: "Is it still necessary to talk about the digital garden guru?",
-    category: [categories.digitalGarden.anchor],
+    category: [categories.blog.anchor],
     best: false,
   },
   // >B
@@ -131,8 +127,9 @@ export const blogrollData = [
   {
     url: "https://www.eaudepoisson.com/",
     title: "Eau de poisson (in French)",
-    description: "Yep, sometimes Robin and I travel blog when we feel like it.",
-    category: [categories.travel.anchor],
+    description:
+      "Robin and I started Eau de poisson as a travel blog to share with friends and family. We now use it as a way to document some aspects of our personal lives.",
+    category: [categories.blog.anchor],
     best: false,
   },
   // >F
@@ -211,6 +208,14 @@ export const blogrollData = [
   // >K
   // >L
   {
+    url: "https://labnotes.org/",
+    title: "Labnotes",
+    description:
+      "Assan Arkin's weekly newsletter answers to my crave of random browsing without spending too much time on it. It is mostly tech-oriented.",
+    category: [categories.newsletter.anchor],
+    best: false,
+  },
+  {
     url: "https://languagetool.org/",
     title: "LanguageTool",
     description:
@@ -246,7 +251,7 @@ export const blogrollData = [
     url: "https://maggieappleton.com/garden/",
     title: "Maggie Appleton",
     description: "Maggie Appleton's illustration-based digital garden",
-    category: [categories.digitalGarden.anchor],
+    category: [categories.blog.anchor],
     best: false,
   },
   {
