@@ -16,7 +16,7 @@ dateCreated: "2023-03-06"
 
 What a week! Lots of new discoveries these last few days.
 
-For the first time, I went climbed my first crag with Robin and a few people we met at our local bouldering club. So far, we had only been climbing indoors—what a change! I do feel a lot more queasy than indoors, afraid to fall. I am also climbing a lot less efficiently as I spend precious minutes trying out tons of different holds before settling on one. On the opposite side, it is really liberating to be able to reach for any hold you want and decide to use it. The weather was also perfect. We arrived around 1PM and immediately removed jackets and sweaters. It was so sunny that it felt like the start of summer.
+For the first time, I climbed my first crag with Robin and a few people we met at our local bouldering club. So far, we had only been climbing indoors—what a change! I do feel a lot more queasy than indoors, afraid to fall. I am also climbing a lot less efficiently as I spend precious minutes trying out tons of different holds before settling on one. On the opposite side, it is really liberating to be able to reach for any hold you want and decide to use it. The weather was also perfect. We arrived around 1PM and immediately removed jackets and sweaters. It was so sunny that it felt like the start of summer.
 
 I also had my first car driving experience. I never learned to drive, but the region really demands it. So far, I just learned to start the car, and I finally realize how much coordination it requires! I'll try to get through my car driving lessons as fast as possible—let's see if I can manage to drive a car by the end of the year.
 
