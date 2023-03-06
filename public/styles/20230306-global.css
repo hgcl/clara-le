@@ -257,6 +257,7 @@ details summary {
 
 /* Hyperlinks and buttons */
 button {
+  cursor: pointer;
   font: inherit;
   border: solid 1px;
   padding: 0.1rem 0.4rem;
@@ -462,8 +463,6 @@ footer * {
 #index p {
   max-width: 600px;
 }
-
-/* about.html layout */
 
 /*--------------------------------------------------------*/
 /*                     Media-queries                      */
