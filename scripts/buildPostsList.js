@@ -8,17 +8,8 @@ export async function buildPage(html) {
   for (let i = currentYear; i >= firstYear; i--) {
     yearArray.push(new Date(i, 1, 1).getFullYear());
   }
-  // Get headline H1
-  const h1Regex = /<([h1]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/gm;
-  const headline = html.match(h1Regex);
-  const dirCategory =
-    headline == "<h1>Musings</h1>"
-      ? `posts`
-      : headline == "<h1>Notes</h1>"
-      ? `notes`
-      : "mmmh not sure what to write here";
   try {
-    const posts = await getPosts(dirCategory);
+    const posts = await getPosts(`posts`);
     const orderedPosts = posts.sort(
       (a, b) =>
         new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
