@@ -155,21 +155,27 @@ figcaption {
 
 h1,
 h2,
-h3 {
+h3,
+.h1,
+.h2,
+.h3 {
   font-family: var(--sans-serif);
   font-weight: bold;
   text-transform: capitalize;
 }
-h1 {
+h1,
+.h1 {
   font-size: var(--font-xl);
   line-height: 2.9rem;
 }
-h2 {
+h2,
+.h2 {
   font-size: var(--font-l);
   line-height: 2.3rem;
   margin: 3rem 0 1rem 0;
 }
-h3 {
+h3,
+.h3 {
   font-size: var(--font-m);
   line-height: 1.8rem;
   margin: 2rem 0 1rem 0;
@@ -518,7 +524,8 @@ footer * {
   body {
     padding: var(--space-l) var(--space-4xl) var(--space-l) var(--space-4xl);
   }
-  h1 {
+  h1,
+  .h1 {
     font-size: var(--font-2xl);
     line-height: 4.2rem;
   }
