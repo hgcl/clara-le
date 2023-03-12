@@ -23,7 +23,7 @@ export async function buildPage(html) {
   const h1Regex = /\<h1[^\)]+?\<\/h1\>/;
   const headline = html.match(h1Regex);
   const category =
-    headline == `<h1><span class="sr-only">to-read</span> Library</h1>`
+    headline == `<h1>Books <span class="sr-only">to-read</span></h1>`
       ? `https://openlibrary.org/people/hgcl/books/want-to-read.json`
       : `https://openlibrary.org/people/hgcl/books/already-read.json`;
 
