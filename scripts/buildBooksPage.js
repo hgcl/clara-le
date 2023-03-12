@@ -30,6 +30,8 @@ export async function buildPage(html) {
   try {
     const posts = await fetchMediaJSON(category);
     const postsHtml = posts
+      // JSON includes books that have been removed from the lists...
+      .filter((post) => post.title !== null)
       .sort(
         (a, b) =>
           new Date(b.addedDate).getTime() - new Date(a.addedDate).getTime()
