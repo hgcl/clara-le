@@ -1,107 +1,137 @@
 <!--
-template: /templates/default.html
+template: /templates/blank.html
 buildScript: "/scripts/formatPostDetails.js"
-dateCreated: 2021-04-01
+dateCreated: 2023-03-07
 -->
 
-<article>
-  <h1>Portfolio</h1>
-  <p class="label">
-    Last updated on
-    <time datetime="{{dateCreated}}" class="dt-published">{{dateCreated}}</time>
-  </p>
+<!-- Resource: 
+  https://daveyhert.hashnode.dev/revealing-contents-on-scroll-using-javascripts-intersection-observer-api 
+  https://www.youtube.com/watch?v=M8Gq_HPDXsU
+-->
+
+<style>
+  svg {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+  }
+  svg path {
+    height: 100%;
+  }
+  section {
+    height: 100vh;
+    width: 100%;
+    gap: var(--space-s);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    object-fit: cover;
+    min-width: 200px;
+  }
+  .h1 {
+    text-align: center;
+  }
+  .explanation {
+    max-width: 600px;
+  }
+  .anim {
+    opacity: 0;
+    z-index: 2;
+  }
+  .animate {
+    animation: reveal 1s forwards;
+    transition: all 2s ease-in;
+  }
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateX(-180px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+</style>
+<div>
   <section>
-    <h2>Life Under Control: My Planner Shop</h2>
-    <p>
-      End of 2018, I launched my planner shop
-      <a href="https://www.etsy.com/shop/LifeUnderControl/">
-        Life Under Control
-      </a>
-      while backpacking in South-East Asia. As of January 2021, the shop had
-      +90k visits, +1,700 orders and a rating of 5/5 stars on average.
-    </p>
-    <div class="image-comp">
-      <img
-        alt="Homepage of Life Under Control on Etsy"
-        src="/images/portfolio/Screenshot_2021-01-04_LifeUnderControl-1.jpg"
-      />
-      <img
-        alt="Listings of Life Under Control on Etsy"
-        src="/images/portfolio/Screenshot_2021-01-04_LifeUnderControl-2.jpg"
-      />
-    </div>
+    <p class="anim h1">Hey, I'm Clara.</p>
+  </section>
+  <section><p class="anim h1">A designer</p></section>
+  <section>
+    <p class="h2">The Berlin Walls: Street Art Walks In Berlin</p>
+  </section>
+  <section class="anim">
+    <img src="/images/portfolio/berlinwalls.jpg" /><img
+      src="/images/portfolio/berlinwalls2.jpg"
+    />
   </section>
   <section>
-    <h2>The Berlin Walls: Street Art Walks in Berlin</h2>
-    <p>
+    <p class="explanation">
       When arriving in Berlin in 2018, Robin and I were amazed by how street art
       covered everything—walls, bridges and cars. From the big murals to the
       small stickers, we explored our first neighborhood through the urban art
       lens. A 50-page street art walking guide was born of it.
     </p>
-    <div class="image-comp">
-      <img
-        alt="The Berlin Walls: Street Art Walks in Berlin"
-        src="/images/portfolio/berlinwalls.jpg"
-      />
-      <img
-        alt="The Berlin Walls: Street Art Walks in Berlin"
-        src="/images/portfolio/berlinwalls2.jpg"
-      />
-      <img
-        alt="The Berlin Walls: Street Art Walks in Berlin"
-        src="/images/portfolio/berlinwalls3.jpg"
-      />
-    </div>
   </section>
-  <section>
-    <h2>Dynamic Landing Page</h2>
-    <p>
-      Here is a complete rework of the home and service pages of an SEO company
-      website. They are both one-pagers that are optimized for client
-      conversion—first presenting the problem, the solution and its benefits,
-      before diving more into the features. Bonus: the animated illustrations
-      also bring additional dynamism and clarity.
-    </p>
-    <div class="image-comp">
-      <img alt="Homepage of Handmade SEO" src="/images/portfolio/lp-seo1.jpg" />
-      <img alt="Homepage of Handmade SEO" src="/images/portfolio/lp-seo2.jpg" />
-    </div>
+  <section class="anim">
+    <img src="/images/portfolio/berlinwalls.jpg" /><img
+      src="/images/portfolio/berlinwalls.jpg"
+    />
   </section>
-  <section>
-    <h2>Digital Illustrations</h2>
-    <p>
-      On the spectrum of digital illustration, I like experimenting with
-      different tools and techniques. Here are some examples of illustrations
-      made with Blender, Illustrator and Photoshop respectively.
-    </p>
-    <div class="image-comp">
-      <img
-        alt="Realistic donut created with Blender"
-        src="/images/portfolio/illustration-3ddonut.jpg"
-      />
-      <img
-        alt="Autoportrait made with Illustrator"
-        src="/images/portfolio/illustration-crayoneffect.png"
-      />
-      <img
-        alt="Illustration of 10 Objects I Used Backpacking In South-East Asia"
-        src="/images/portfolio/illustration-10objects.jpg"
-      />
-    </div>
-  </section>
-  <section>
-    <h2>This website (going meta)</h2>
-    <p>
-      I have been learning to create static generated websites since end of
-      2020. The website you are on right now was created from scratch using the
-      <a href="https://brut.pages.dev/">static generator <em>brut</em></a
-      >. All the remaining HTML, CSS and JS is handcrafted by yours truly. If
-      you are interested,
-      <a href="/posts/last-homage-to-my-old-website"
-        >here is also a post about my previous website</a
-      >
-      that was written in React instead.
-    </p>
-  </section>
-</article>
+  <svg
+    preserveAspectRatio="none"
+    height="560"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path id="path" d="M1 0v560" />
+    <text>
+      <textPath id="text" class="h1" fill="white" href="#path">
+        Exampleeeeee
+      </textPath>
+    </text>
+  </svg>
+</div>
+<script>
+  // 1. Animate background elements
+  let textPath = document.querySelector("#text");
+
+  function updateTextPathOffset(offset) {
+    textPath.setAttribute("startOffset", offset);
+  }
+
+  function onScroll() {
+    requestAnimationFrame(function () {
+      updateTextPathOffset(window.scrollY);
+    });
+  }
+
+  window.addEventListener("scroll", onScroll);
+
+  // 2. Animate titles
+  const titles = document.querySelectorAll(".anim");
+
+  const options = {
+    root: null,
+    rootMargin: "10px", // start 10px before threshold
+  };
+
+  function callbackFunction(entries) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting == true) {
+        entry.target.classList.add("animate");
+      } else {
+        entry.target.classList.remove("animate");
+      }
+    });
+  }
+
+  observer = new IntersectionObserver(callbackFunction, options);
+
+  titles.forEach((title) => {
+    observer.observe(title);
+  });
+</script>
