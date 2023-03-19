@@ -356,19 +356,20 @@ a[id*="user-content-fnref"] {
 
 .tooltip {
   position: relative;
+  width: 100%;
 }
 .tooltip img {
+  z-index: 2;
   display: none;
   position: absolute;
-  top: 3rem;
-  left: 64px;
-  z-index: 2;
-  width: 200px;
-  max-width: 50vw;
+  right: var(--space-xs);
+  bottom: -10vh;
+  width: 350px;
+  max-width: 30vw;
+  border: 2px solid var(--color-text);
 }
-
-.tooltip:hover img,
-.tooltip:focus img {
+.tooltip a:hover img,
+.tooltip a:focus img {
   display: block;
 }
 
@@ -418,6 +419,7 @@ footer * {
 }
 #posts .post-row > span {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
 }
 
@@ -557,6 +559,9 @@ footer * {
   }
   #index svg {
     display: block;
+  }
+  .tooltip img {
+    bottom: -30vh;
   }
 }
 
