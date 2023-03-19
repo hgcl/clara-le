@@ -29,30 +29,33 @@ export async function buildPage(html) {
 
   try {
     const posts = await fetchMediaJSON(category);
-    const postsHtml = posts
-      // JSON includes books that have been removed from the lists...
-      .filter((post) => post.title !== null)
-      .sort(
-        (a, b) =>
-          new Date(b.addedDate).getTime() - new Date(a.addedDate).getTime()
-      )
-      .map(
-        (post) =>
-          `<li class="post-row">
+    const postsHtml =
+      `<ul class="nobullet">` +
+      posts
+        // JSON includes books that have been removed from the lists...
+        .filter((post) => post.title !== null)
+        .sort(
+          (a, b) =>
+            new Date(b.addedDate).getTime() - new Date(a.addedDate).getTime()
+        )
+        .map(
+          (post) =>
+            `<li class="post-row">
             <time class="label dt-duration" datetime="${post.addedDate}">
             ${new Date(post.addedDate).toLocaleDateString("en-US", {
               month: "short",
               year: "2-digit",
             })}</time>
             <span><a class="tooltip" href="${post.bookUrl}">${
-            post.title
-          }<img src="${post.posterUrl}"/></a><span class="subtle">by ${
-            post.author
-          }</span>
+              post.title
+            }<img src="${post.posterUrl}"/></a><span class="subtle">by ${
+              post.author
+            }</span>
           </span></li>`
-      )
-      .join("");
-    return html.replace("<div>Data generated here</div>", postsHtml);
+        )
+        .join("") +
+      `</ul>`;
+    return html.replace(`<div>Data generated here</div>`, postsHtml);
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
   }
