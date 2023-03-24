@@ -10,7 +10,7 @@ async function fetchMediaJSON(category) {
         title: data.work.title,
         author: data.work.author_names[0],
         addedDate: data.logged_date,
-        posterUrl: `https://covers.openlibrary.org/b/olid/${data.work.cover_edition_key}-L.jpg`,
+        posterUrl: `https://covers.openlibrary.org/b/olid/${data.work.cover_edition_key}-M.jpg`,
         bookUrl: `https://openlibrary.org${data.work.key}`,
       };
     })
@@ -41,15 +41,8 @@ export async function buildPage(html) {
         .map(
           (post) =>
             `<li class="post-row">
-            <time class="label dt-duration" datetime="${post.addedDate}">
-            ${new Date(post.addedDate).toLocaleDateString("en-US", {
-              month: "short",
-              year: "2-digit",
-            })}</time>
             <span class="tooltip">
-            <a href="${post.bookUrl}">${post.title}<img src="${
-              post.posterUrl
-            }"/></a>
+            <a href="${post.bookUrl}">${post.title}<img src="${post.posterUrl}" loading="lazy"/></a>
             <span class="subtle">by ${post.author}</span>
           </span></li>`
         )
