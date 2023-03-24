@@ -383,6 +383,13 @@ a[id*="user-content-fnref"] {
   color: var(--color-subtle);
 }
 
+.subtitle {
+  font-size: var(--font-m);
+  line-height: 2rem;
+  opacity: var(--alt-text-opacity);
+  margin: 0.5rem 0 2rem 0;
+}
+
 /* Footer */
 
 footer {
@@ -446,7 +453,6 @@ footer * {
   max-width: 1024px;
   margin-bottom: var(--space-2xl);
 }
-
 .post-header h1 {
   margin: 0;
 }
