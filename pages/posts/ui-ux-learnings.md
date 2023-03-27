@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "UI/UX Learnings"
 subtitle: "Living notes"
 dateCreated: "2022-07-13"
+dataTag: ["notes", "digital"]
 ---
 
 I started using Notion a bit more to keep "living notes"—posts that I want to access and update easily through time.

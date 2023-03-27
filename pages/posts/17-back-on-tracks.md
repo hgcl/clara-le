@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "#17 Back on tracks"
 subtitle: "Weekly review #17"
 dateCreated: "2022-11-18"
+dataTag: ["weekly"]
 ---
 
 <figure>

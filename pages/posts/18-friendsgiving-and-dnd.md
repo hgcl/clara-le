@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "#18 Friendsgiving and D&D"
 subtitle: "Weekly review #18"
 dateCreated: "2022-11-28"
+dataTag: ["weekly"]
 ---
 
 <figure>

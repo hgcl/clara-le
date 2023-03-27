@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Styling animated rainbow links"
 subtitle: "With CSS only"
 dateCreated: "2022-04-15"
+dataTag: ["digital"]
 ---
 
 This new website layout is quite minimalist and mostly plays on typography styles and hierarchy. I wanted to add some _spice_ to such a simple base—so what better way than doing it rainbow-style on hyperlinks?[^1]

@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "IndieWeb browsing"
 subtitle: "How I lost myself in the webring"
 dateCreated: "2022-04-16"
+dataTag: ["notes", "digital"]
 ---
 
 This weekend, I spent a lot of time jumping from site to site through the IndieWeb webring—[check my homepage footer to start browsing](/#webring).

@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "#16 Sunbathing on planet Earth"
 subtitle: "Weekly review #16"
 dateCreated: "2021-02-22"
+dataTag: ["weekly"]
 ---
 
 <figure>

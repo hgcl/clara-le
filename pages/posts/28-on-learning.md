@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "#28 On learning"
 subtitle: "Weekly review #28"
 dateCreated: "2023-03-24"
+dataTag: ["weekly"]
 ---
 
 Since we arrived in Ardèche, I find it hard to keep up with this weekly review. I think that one of the reasons is that I invest more time on [Eau de poisson](https://eaudepoisson.com/)—the blog I share with Robin.

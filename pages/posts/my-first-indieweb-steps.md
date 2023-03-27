@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Peeking into the IndieWeb world"
 subtitle: "My first baby steps"
 dateCreated: "2022-04-10"
+dataTag: ["digital"]
 ---
 
 Robin introduced me to the IndieWeb about a year ago. And as it usually happens, I dived head first into it before he even had time to close his tabs.

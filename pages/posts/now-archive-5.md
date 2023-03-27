@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Now archive #5"
 subtitle: "A snapshot in time"
 dateCreated: "2022-11-04"
+dataTag: ["now"]
 ---
 
 I am based in Berlin since 3+ years and working as a UX designer. (And if everything goes to plan, soon moving to the countryside in France).
