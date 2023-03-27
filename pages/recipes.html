@@ -9,42 +9,138 @@ buildScript: /scripts/buildRecipesList.js
   linked in the posts directly. Some of the steps and ingredients might differ
   from the original instructions to suit my preferences.
 </p>
-<label for="filter-recipes">Filter:</label>
-<select name="tags" id="filter-recipes" onchange="filter(value);">
-  <option value="">All</option>
-  <optgroup label="By type">
-    <option value="dessert">Desserts</option>
-    <option value="main">Mains</option>
-    <option value="cereal">Cereals</option>
-    <option value="extra">Extras</option>
-    <option value="diy">DIY</option>
-  </optgroup>
-  <optgroup label="By season">
-    <option value="spring">Spring (Apr–Jun)</option>
-    <option value="summer">Summer (Jul–Sep)</option>
-    <option value="fall">Fall (Oct–Dec)</option>
-    <option value="winter">Winter (Jan–Mar)</option>
-  </optgroup>
-  <optgroup label="Bonus">
-    <option value="ahead">Prep-ahead meals</option>
-  </optgroup>
-</select>
+<fieldset class="label" id="posts-filter">
+  <legend class="sr-only">Select filters:</legend>
+  <div>
+    <input
+      type="radio"
+      id="all"
+      name="filter"
+      value="all"
+      onchange="filterItems(value);"
+      checked
+    />
+    <label for="all">All</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="main"
+      name="filter"
+      value="main"
+      onchange="filterItems(value);"
+    />
+    <label for="main">Mains</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="cereal"
+      name="filter"
+      value="cereal"
+      onchange="filterItems(value);"
+    />
+    <label for="cereal">Cereal</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="dessert"
+      name="filter"
+      value="dessert"
+      onchange="filterItems(value);"
+    />
+    <label for="dessert">Desserts</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="extra"
+      name="filter"
+      value="extra"
+      onchange="filterItems(value);"
+    />
+    <label for="extra">Extra</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="ahead"
+      name="filter"
+      value="ahead"
+      onchange="filterItems(value);"
+    />
+    <label for="ahead">Prep-ahead</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="diy"
+      name="filter"
+      value="diy"
+      onchange="filterItems(value);"
+    />
+    <label for="diy">DIY</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="spring"
+      name="filter"
+      value="spring"
+      onchange="filterItems(value);"
+    />
+    <label for="spring">Spring</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="summer"
+      name="filter"
+      value="summer"
+      onchange="filterItems(value);"
+    />
+    <label for="summer">Summer</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="fall"
+      name="filter"
+      value="fall"
+      onchange="filterItems(value);"
+    />
+    <label for="fall">Fall</label>
+  </div>
+  <div>
+    <input
+      type="radio"
+      id="winter"
+      name="filter"
+      value="winter"
+      onchange="filterItems(value);"
+    />
+    <label for="winter">Winter</label>
+  </div>
+</fieldset>
 <ul id="recipes" class="nobullet">
   <li>Posts go here</li>
 </ul>
 
+<!-- Same script as posts.html -->
 <script>
-  // TODO: find ways to add multiple filter categories
-  function filter(param) {
-    // Select all <li> and unhide
+  function filterItems(param) {
+    // Select all list items and unhide
     const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
-    completeLiList.map((li) => li.setAttribute("style", "display:flex"));
+    // Hide list items based on updated tags list
     let i = 0;
-    while (param.length > 0 && i < completeLiList.length) {
+    while (i < completeLiList.length) {
       // Select <li> number i and get its tags
-      let tagArray = completeLiList[i].getAttribute("data-tag").split(" ");
+      let itemTags = completeLiList[i].getAttribute("data-tag").split(" ");
       // Hide <li> if it doesn't include the selected param
-      if (tagArray.includes(param) === false) {
+      if ((param === "all") | (itemTags.includes(param) === true)) {
+        completeLiList[i].setAttribute("style", "display:flex");
+      } else {
         completeLiList[i].setAttribute("style", "display:none");
       }
       i++;
