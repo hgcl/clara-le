@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Digital doodling"
 subtitle: "Trying out Tayasui Sketches"
 dateCreated: "2021-12-25"
+dataTag: ["creative"]
 ---
 
 ![Black and white doodling of myself surrounded by things I like](/images/20211225_me-patchwork.webp)

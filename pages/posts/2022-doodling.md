@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "2022 doodling"
 subtitle: "Playing around with my graphics tablet"
 dateCreated: "2022-12-29"
+dataTag: ["creative"]
 ---
 
 In October, I got a super cool graphics tablet. I have been doodling on and off since then—and I should definitely try to create a habit around it.

@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "#7 Living Better With Less"
 subtitle: "Weekly review #7"
 dateCreated: "2020-12-19"
+dataTag: ["weekly"]
 ---
 
 <figure>

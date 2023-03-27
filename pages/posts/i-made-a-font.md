@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "I made a font"
 subtitle: "Or how I created a simple font as a complete typography-noob"
 dateCreated: "2023-01-10"
+dataTag: ["creative", "digital"]
 ---
 
 <p class="sr-only">There is some dummy text here to illustrate the font used in English, Vietnamese and French.</p>

@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Waking up in Berlin"
 subtitle: "A last note"
 dateCreated: "2023-01-29"
+dataTag: ["thoughts"]
 ---
 
 6.20 AM

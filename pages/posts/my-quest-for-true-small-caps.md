@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "My quest for true small caps"
 subtitle: "A web design adventure"
 dateCreated: "2021-01-07"
+dataTag: ["digital"]
 ---
 
 _Note: this article is based on the previous design of my website._

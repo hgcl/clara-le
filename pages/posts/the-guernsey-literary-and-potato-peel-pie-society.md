@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "The Guernsey Literary and Potato Peel Pie Society"
 subtitle: "A review of the audiobook"
 dateCreated: "2022-04-09"
+dataTag: ["reviews"]
 ---
 
 > January 1946: London is emerging from the shadow of the Second World War, and writer Juliet Ashton is looking for her next book subject. Who could imagine that she would find it in a letter from a man she's never met, a native of the island of Guernsey, who has come across her name written inside a book by Charles Lamb... As Juliet and her new correspondent exchange letters, Juliet is drawn into the world of this man and his friends—and what a wonderfully eccentric world it is. The Guernsey Literary and Potato Peel Pie Society—born as a spur-of-the-moment alibi when its members were discovered breaking curfew by the Germans occupying their island—boasts a charming, funny, deeply human cast of characters, from pig farmers to phrenologists, literature lovers all. Juliet begins a remarkable correspondence with the society's members, learning about their island, their taste in books, and the impact the recent German occupation has had on their lives.

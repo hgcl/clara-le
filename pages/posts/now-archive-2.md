@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Now archive #2"
 subtitle: "A snapshot in time"
 dateCreated: "2021-10-24"
+dataTag: ["now"]
 ---
 
 Now in Berlin for more than two years with my partner [Robin](https://robinmetral.com/).
