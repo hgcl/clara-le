@@ -6,5 +6,64 @@ buildScript: /scripts/buildPostsList.js
 <!-- buildPostsList.js is linked to current H1, do not edit it -->
 <section id="posts">
   <h1>Musings</h1>
+  <fieldset class="label" id="posts-filter" onchange="filterItems();">
+    <legend class="sr-only">Select filters:</legend>
+    <div>
+      <input type="checkbox" id="creative" name="creative" checked />
+      <label for="creative">Creative</label>
+    </div>
+    <div>
+      <input type="checkbox" id="digital" name="digital" checked />
+      <label for="digital">Digital</label>
+    </div>
+    <div>
+      <input type="checkbox" id="notes" name="notes" checked />
+      <label for="notes">Notes</label>
+    </div>
+    <div>
+      <input type="checkbox" id="now" name="now" checked />
+      <label for="now">Now</label>
+    </div>
+    <div>
+      <input type="checkbox" id="reviews" name="reviews" checked />
+      <label for="reviews">Reviews</label>
+    </div>
+    <div>
+      <input type="checkbox" id="thoughts" name="thoughts" checked />
+      <label for="thoughts">Thoughts</label>
+    </div>
+    <div>
+      <input type="checkbox" id="weekly" name="weekly" checked />
+      <label for="weekly">Weekly reviews</label>
+    </div>
+  </fieldset>
   <p>Posts go here</p>
 </section>
+
+<script>
+  function filterItems() {
+    // Select all list items and unhide
+    const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+    completeLiList.map((li) => li.setAttribute("style", "display:flex"));
+    // Identify which tags are checked
+    let allCheckedBoxes = document.querySelectorAll(
+      "#posts-filter input[type='checkbox']:checked"
+    );
+    // Update tags array
+    let checkedTags = [];
+    allCheckedBoxes.forEach((elem) =>
+      checkedTags.push(elem.getAttribute("id"))
+    );
+    // Hide list items based on updated tags list
+    let i = 0;
+    while (i < completeLiList.length) {
+      // Select <li> number i and get its tags
+      let itemTags = completeLiList[i].getAttribute("data-tag").split(",");
+      // Check if itemTags array contains any element of completeLiList[i]
+      if (itemTags.some((r) => checkedTags.indexOf(r) >= 0) === false) {
+        completeLiList[i].setAttribute("style", "display:none");
+      }
+      i++;
+    }
+  }
+</script>

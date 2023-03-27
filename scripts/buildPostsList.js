@@ -23,7 +23,9 @@ export async function buildPage(html) {
             .filter((post) => new Date(post.dateCreated).getFullYear() == cat)
             .map(
               (post) =>
-                `<li class="post-row"><time class="label dt-duration" datetime="${
+                `<li data-tag="${
+                  post.dataTag
+                }" class="post-row"><time class="label dt-duration" datetime="${
                   post.dateCreated
                 }">
            ${new Date(post.dateCreated).toLocaleDateString("en-US", {
