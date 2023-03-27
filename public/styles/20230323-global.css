@@ -275,7 +275,7 @@ button:focus {
   animation: color-change 5s infinite;
 }
 button:focus {
-  outline: 0.1em solid;
+  outline: 1px solid;
 }
 
 a {
@@ -295,21 +295,27 @@ a:focus {
 
 @keyframes color-change {
   5% {
+    border-color: var(--red-dark);
     color: var(--red-dark);
   }
   15% {
+    border-color: var(--yellow-dark);
     color: var(--yellow-dark);
   }
   30% {
+    border-color: var(--green-dark);
     color: var(--green-dark);
   }
   50% {
+    border-color: var(--blue-dark);
     color: var(--blue-dark);
   }
   70% {
+    border-color: var(--purple-dark);
     color: var(--purple-dark);
   }
   90% {
+    border-color: var(--pink-dark);
     color: var(--pink-dark);
   }
 }
@@ -438,6 +444,46 @@ footer * {
   line-height: 1.3rem;
 }
 
+#posts-filter {
+  margin: var(--space-s) 0 var(--space-2xl);
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+#posts-filter > div {
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+}
+#posts-filter input {
+  position: absolute;
+  appearance: none;
+  border: none;
+  padding: 0;
+  outline: 0;
+}
+#posts-filter label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  border: solid 1px transparent;
+  padding: 0.1rem 0.6rem;
+  border-radius: 1000px;
+  color: var(--color-subtle);
+}
+#posts-filter input:checked + label {
+  border-color: var(--color-text);
+  color: var(--color-text);
+}
+#posts-filter input:focus + label,
+#posts-filter label:hover {
+  border-color: var(--color-text);
+  animation: color-change 5s infinite;
+}
+
 /* recipes.html layout */
 
 #recipes {
@@ -515,21 +561,27 @@ footer * {
 
   @keyframes color-change {
     5% {
+      border-color: var(--red-light);
       color: var(--red-light);
     }
     15% {
+      border-color: var(--yellow-light);
       color: var(--yellow-light);
     }
     30% {
+      border-color: var(--green-light);
       color: var(--green-light);
     }
     50% {
+      border-color: var(--blue-light);
       color: var(--blue-light);
     }
     70% {
+      border-color: var(--purple-light);
       color: var(--purple-light);
     }
     90% {
+      border-color: var(--pink-light);
       color: var(--pink-light);
     }
   }
