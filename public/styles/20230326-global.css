@@ -469,19 +469,26 @@ footer * {
   cursor: pointer;
   display: block;
   width: 100%;
-  border: solid 1px transparent;
+  border: solid 1px;
   padding: 0.1rem 0.6rem;
   border-radius: 1000px;
   color: var(--color-subtle);
 }
 #posts-filter input:checked + label {
-  border-color: var(--color-text);
-  color: var(--color-text);
+  background-color: var(--color-text);
+  color: var(--color-bg);
 }
-#posts-filter input:focus + label,
-#posts-filter label:hover {
-  border-color: var(--color-text);
+
+#posts-filter input:focus + label {
+  background-color: var(--color-text);
+  color: var(--color-text);
   animation: color-change 5s infinite;
+}
+#posts-filter label:hover {
+  background-color: transparent;
+  color: var(--color-text);
+  animation: color-change 5s infinite;
+  border-color: var(--color-text);
 }
 
 /* recipes.html layout */
