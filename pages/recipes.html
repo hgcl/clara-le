@@ -23,14 +23,15 @@ buildScript: /scripts/buildRecipesList.js
     <label for="all">All</label>
   </div>
   <div>
+    <!-- We need the id to be plural to avoid collisions with regular main id... -->
     <input
       type="radio"
-      id="main"
+      id="mains"
       name="filter"
       value="main"
       onchange="filterItems(value);"
     />
-    <label for="main">Mains</label>
+    <label for="mains">Mains</label>
   </div>
   <div>
     <input
@@ -40,7 +41,7 @@ buildScript: /scripts/buildRecipesList.js
       value="cereal"
       onchange="filterItems(value);"
     />
-    <label for="cereal">Cereal</label>
+    <label for="cereal">Cereals</label>
   </div>
   <div>
     <input
@@ -60,7 +61,7 @@ buildScript: /scripts/buildRecipesList.js
       value="extra"
       onchange="filterItems(value);"
     />
-    <label for="extra">Extra</label>
+    <label for="extra">Extras</label>
   </div>
   <div>
     <input
