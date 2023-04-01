@@ -1,7 +1,7 @@
 ---
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
-title: "The host (2006)"
+title: "The Host (2006)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-12-12"
 dataTag: ["tiny", "reviews"]
