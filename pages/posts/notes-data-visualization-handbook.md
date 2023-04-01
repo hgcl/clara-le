@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Notes: Data visualization handbook"
 subtitle: "Direct quotes from the book"
 dateCreated: "2022-05-05"
-dataTag: ["notes", "digital"]
+dataTag: ["digital"]
 ---
 
 It's been a while <cite>Data visualization handbook</cite> by Juuso Koponen and Jonatan Hildén has been waiting on my book shelf. I started to go through it about a week ago and here are a few quotes that stayed with me.
