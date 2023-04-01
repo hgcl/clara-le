@@ -6,107 +6,123 @@ buildScript: /scripts/buildPostsList.js
 <!-- buildPostsList.js is linked to current H1, do not edit it -->
 <section id="posts">
   <h1>Musings</h1>
-  <fieldset class="label" id="posts-filter">
+  <p class="intro">
+    Expect half-formed thoughts, doodles, full-fledged posts or anything in
+    between. Everything except for the tiny notes can be followed through my
+    <a href="/feed.xml">RSS feed</a>.
+  </p>
+  <fieldset id="posts-filter">
     <legend class="sr-only">Select filters:</legend>
     <div>
       <input
         type="radio"
         id="all"
-        name="filter"
+        name="filter-tag"
         value="all"
-        onchange="filterItems(value);"
+        onchange="filterItems();"
         checked
       />
-      <label for="all">All</label>
+      <label class="radio-label" for="all">All</label>
     </div>
     <div>
       <input
         type="radio"
         id="creative"
-        name="filter"
+        name="filter-tag"
         value="creative"
-        onchange="filterItems(value);"
+        onchange="filterItems();"
       />
-      <label for="creative">Creative</label>
+      <label class="radio-label" for="creative">Creative</label>
     </div>
     <div>
       <input
         type="radio"
         id="digital"
-        name="filter"
+        name="filter-tag"
         value="digital"
-        onchange="filterItems(value);"
+        onchange="filterItems();"
       />
-      <label for="digital">Digital</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="notes"
-        name="filter"
-        value="notes"
-        onchange="filterItems(value);"
-      />
-      <label for="notes">Notes</label>
+      <label class="radio-label" for="digital">Digital</label>
     </div>
     <div>
       <input
         type="radio"
         id="now"
-        name="filter"
+        name="filter-tag"
         value="now"
-        onchange="filterItems(value);"
+        onchange="filterItems();"
       />
-      <label for="now">Now</label>
+      <label class="radio-label" for="now">Now</label>
     </div>
     <div>
       <input
         type="radio"
         id="reviews"
-        name="filter"
+        name="filter-tag"
         value="reviews"
-        onchange="filterItems(value);"
+        onchange="filterItems();"
       />
-      <label for="reviews">Reviews</label>
+      <label class="radio-label" for="reviews">Reviews</label>
     </div>
     <div>
       <input
         type="radio"
         id="thoughts"
-        name="filter"
+        name="filter-tag"
         value="thoughts"
-        onchange="filterItems(value);"
+        onchange="filterItems();"
       />
-      <label for="thoughts">Thoughts</label>
+      <label class="radio-label" for="thoughts">Thoughts</label>
     </div>
     <div>
       <input
         type="radio"
         id="weekly"
-        name="filter"
+        name="filter-tag"
         value="weekly"
-        onchange="filterItems(value);"
+        onchange="filterItems();"
       />
-      <label for="weekly">Weekly reviews</label>
+      <label class="radio-label" for="weekly">Weekly reviews</label>
     </div>
+    <label class="checkbox-label" for="tiny">
+      <input
+        type="checkbox"
+        id="tiny"
+        name="filter-tiny"
+        value="tiny"
+        onchange="filterItems();"
+        checked
+      />
+      Show tiny notes</label
+    >
   </fieldset>
   <p>Posts go here</p>
 </section>
 
 <script>
-  function filterItems(param) {
-    // Select all list items and unhide
-    const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+
+  function filterItems() {
+    const checkbox = document.getElementById("tiny");
+    let selectedtag = document.querySelector(
+      "input[name='filter-tag']:checked"
+    ).value;
     // Hide list items based on updated tags list
     let i = 0;
     while (i < completeLiList.length) {
       // Select <li> number i and get its tags
-      let itemTags = completeLiList[i].getAttribute("data-tag").split(",");
-      // Hide <li> if it doesn't include the selected param
-      if ((param === "all") | (itemTags.includes(param) === true)) {
-        completeLiList[i].setAttribute("style", "display:flex");
-      } else {
+      const itemTags = completeLiList[i].getAttribute("data-tag").split(",");
+      // 1. Hide all tiny notes if tiny notes checkbox is unchecked
+      // 2. Hide posts if tag != selected tag
+      // 3. Show all remaining
+      if (itemTags.includes("tiny") && !checkbox.checked) {
         completeLiList[i].setAttribute("style", "display:none");
+      } else {
+        if ((selectedtag === "all") | itemTags.includes(selectedtag)) {
+          completeLiList[i].setAttribute("style", "display:flex");
+        } else {
+          completeLiList[i].setAttribute("style", "display:none");
+        }
       }
       i++;
     }

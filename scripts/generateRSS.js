@@ -65,7 +65,7 @@ function getNotes(files) {
   return files.map((file) => {
     const str = readFileSync(NOTES_DIR + file, "utf8");
     const frontmatter = matter(str).data;
-    const { title, subtitle, dateCreated } = frontmatter;
+    const { title, subtitle, dateCreated, dataTag } = frontmatter;
     const slug = `/posts/${file.replace(".md", "")}/`;
     const url = SITE_URL + slug;
     return {
@@ -74,6 +74,7 @@ function getNotes(files) {
       url,
       subtitle,
       content: `<a href="${url}">${frontmatter.title}</a>`,
+      dataTag,
     };
   });
 }
@@ -81,10 +82,11 @@ function getNotes(files) {
 export default async function process() {
   const files = readdirSync(NOTES_DIR);
   const notes = getNotes(files);
-  const sortedNotes = notes.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
-  const feed = generateFeed(sortedNotes);
+  const filteredNotes = notes
+    .filter((note) => !note.dataTag.includes("tiny")) // excludes tiny notes from RSS
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 50); // limit to 50 posts
+  const feed = generateFeed(filteredNotes);
   writeFileSync(PUBLIC_DIR + "feed.xml", feed, "utf8");
   console.log("Generated RSS feed.");
 }

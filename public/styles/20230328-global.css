@@ -330,6 +330,12 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   transform: translate(0.4rem, -10%);
 }
 
+/* Forms */
+
+input[type="checkbox"] {
+  margin-right: 0.25rem;
+}
+
 /* Footnotes */
 
 .footnotes {
@@ -451,6 +457,7 @@ footer * {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   gap: var(--space-xs);
 }
 #posts-filter > div {
@@ -458,7 +465,10 @@ footer * {
   position: relative;
   width: fit-content;
 }
-#posts-filter input {
+#posts-filter > div:last-of-type {
+  margin-right: var(--space-s);
+}
+#posts-filter input[type="radio"] {
   position: absolute;
   appearance: none;
   border: none;
@@ -467,24 +477,35 @@ footer * {
 }
 #posts-filter label {
   cursor: pointer;
+  color: var(--color-subtle);
+}
+#posts-filter .checkbox-label {
+  font-family: var(--sans-serif);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: small;
+  line-height: 1.3rem;
+  letter-spacing: 0.1em;
+  margin: var(--space-xs) 0;
+}
+#posts-filter .radio-label {
   display: block;
   width: 100%;
   border: solid 1px;
   padding: 0.1rem 0.6rem;
   border-radius: 1000px;
-  color: var(--color-subtle);
 }
-#posts-filter input:checked + label {
+#posts-filter input[type="radio"]:checked + .radio-label {
   background-color: var(--color-text);
   color: var(--color-bg);
 }
 
-#posts-filter input:focus + label {
+#posts-filter input[type="radio"]:focus + .radio-label {
   background-color: var(--color-text);
   color: var(--color-text);
   animation: color-change 5s infinite;
 }
-#posts-filter label:hover {
+#posts-filter .radio-label:hover {
   background-color: transparent;
   color: var(--color-text);
   animation: color-change 5s infinite;

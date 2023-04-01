@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Interactive fiction"
 subtitle: "So I got into text adventure games"
 dateCreated: "2022-04-06"
+dataTag: []
 ---
 
 A bit more than a month ago, I rediscovered the very niche game subgenre of interactive fiction—or IF for the initiated.
