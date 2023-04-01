@@ -9,7 +9,7 @@ buildScript: /scripts/buildRecipesList.js
   linked in the posts directly. Some of the steps and ingredients might differ
   from the original instructions to suit my preferences.
 </p>
-<fieldset class="label" id="posts-filter">
+<fieldset id="posts-filter">
   <legend class="sr-only">Select filters:</legend>
   <div>
     <input
@@ -20,7 +20,7 @@ buildScript: /scripts/buildRecipesList.js
       onchange="filterItems(value);"
       checked
     />
-    <label for="all">All</label>
+    <label class="radio-label" for="all">All</label>
   </div>
   <div>
     <!-- We need the id to be plural to avoid collisions with regular main id... -->
@@ -31,7 +31,7 @@ buildScript: /scripts/buildRecipesList.js
       value="main"
       onchange="filterItems(value);"
     />
-    <label for="mains">Mains</label>
+    <label class="radio-label" for="mains">Mains</label>
   </div>
   <div>
     <input
@@ -41,7 +41,7 @@ buildScript: /scripts/buildRecipesList.js
       value="cereal"
       onchange="filterItems(value);"
     />
-    <label for="cereal">Cereals</label>
+    <label class="radio-label" for="cereal">Cereals</label>
   </div>
   <div>
     <input
@@ -51,7 +51,7 @@ buildScript: /scripts/buildRecipesList.js
       value="dessert"
       onchange="filterItems(value);"
     />
-    <label for="dessert">Desserts</label>
+    <label class="radio-label" for="dessert">Desserts</label>
   </div>
   <div>
     <input
@@ -61,7 +61,7 @@ buildScript: /scripts/buildRecipesList.js
       value="extra"
       onchange="filterItems(value);"
     />
-    <label for="extra">Extras</label>
+    <label class="radio-label" for="extra">Extras</label>
   </div>
   <div>
     <input
@@ -71,7 +71,7 @@ buildScript: /scripts/buildRecipesList.js
       value="ahead"
       onchange="filterItems(value);"
     />
-    <label for="ahead">Prep-ahead</label>
+    <label class="radio-label" for="ahead">Prep-ahead</label>
   </div>
   <div>
     <input
@@ -81,7 +81,7 @@ buildScript: /scripts/buildRecipesList.js
       value="diy"
       onchange="filterItems(value);"
     />
-    <label for="diy">DIY</label>
+    <label class="radio-label" for="diy">DIY</label>
   </div>
   <div>
     <input
@@ -91,7 +91,7 @@ buildScript: /scripts/buildRecipesList.js
       value="spring"
       onchange="filterItems(value);"
     />
-    <label for="spring">Spring</label>
+    <label class="radio-label" for="spring">Spring</label>
   </div>
   <div>
     <input
@@ -101,7 +101,7 @@ buildScript: /scripts/buildRecipesList.js
       value="summer"
       onchange="filterItems(value);"
     />
-    <label for="summer">Summer</label>
+    <label class="radio-label" for="summer">Summer</label>
   </div>
   <div>
     <input
@@ -111,7 +111,7 @@ buildScript: /scripts/buildRecipesList.js
       value="fall"
       onchange="filterItems(value);"
     />
-    <label for="fall">Fall</label>
+    <label class="radio-label" for="fall">Fall</label>
   </div>
   <div>
     <input
@@ -121,7 +121,7 @@ buildScript: /scripts/buildRecipesList.js
       value="winter"
       onchange="filterItems(value);"
     />
-    <label for="winter">Winter</label>
+    <label class="radio-label" for="winter">Winter</label>
   </div>
 </fieldset>
 <ul id="recipes" class="nobullet">

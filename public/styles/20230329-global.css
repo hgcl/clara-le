@@ -58,6 +58,7 @@ html {
   --color-bg: var(--white);
   --color-text: var(--black);
   --color-subtle: var(--grey-on-white);
+  --color-subtle-inverted: var(--grey-on-black);
 }
 
 body {
@@ -497,19 +498,15 @@ footer * {
 }
 #posts-filter input[type="radio"]:checked + .radio-label {
   background-color: var(--color-text);
+  border-color: var(--color-text);
   color: var(--color-bg);
 }
 
-#posts-filter input[type="radio"]:focus + .radio-label {
-  background-color: var(--color-text);
-  color: var(--color-text);
-  animation: color-change 5s infinite;
-}
+#posts-filter input[type="radio"]:focus + .radio-label,
 #posts-filter .radio-label:hover {
-  background-color: transparent;
-  color: var(--color-text);
-  animation: color-change 5s infinite;
+  background-color: var(--color-subtle-inverted);
   border-color: var(--color-text);
+  color: var(--color-text);
 }
 
 /* recipes.html layout */
@@ -585,6 +582,7 @@ footer * {
     --color-text: hsl(0deg, 0%, 100%);
     --color-text-alt: hsl(360deg, 0%, 0%);
     --color-subtle: var(--grey-on-black);
+    --color-subtle-inverted: var(--grey-on-white);
   }
 
   @keyframes color-change {
