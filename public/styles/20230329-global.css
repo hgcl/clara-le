@@ -496,17 +496,12 @@ footer * {
   padding: 0.1rem 0.6rem;
   border-radius: 1000px;
 }
-#posts-filter input[type="radio"]:checked + .radio-label {
+#posts-filter input[type="radio"]:checked + .radio-label,
+#posts-filter input[type="radio"]:focus + .radio-label,
+#posts-filter .radio-label:hover {
   background-color: var(--color-text);
   border-color: var(--color-text);
   color: var(--color-bg);
-}
-
-#posts-filter input[type="radio"]:focus + .radio-label,
-#posts-filter .radio-label:hover {
-  background-color: var(--color-subtle-inverted);
-  border-color: var(--color-text);
-  color: var(--color-text);
 }
 
 /* recipes.html layout */
@@ -515,7 +510,7 @@ footer * {
   columns: 1;
   text-transform: capitalize;
 }
-#recipes .post-row > .label {
+#recipes .label {
   margin-left: var(--space-s);
 }
 

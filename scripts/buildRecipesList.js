@@ -10,9 +10,9 @@ export async function buildPage(html) {
     const postsHtml = posts
       .map(
         (post) =>
-          `<li data-tag="${post.dataTag}" class="post-row"><a href="${
-            post.slug
-          }">${post.title}</a>${
+          `<li data-tag="${post.dataTag}"><a href="${post.slug}">${
+            post.title
+          }</a>${
             post.durationMin > 0
               ? `<time class="label dt-duration" datetime="${minToDurationString(
                   post.durationMin

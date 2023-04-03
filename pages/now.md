@@ -17,6 +17,8 @@ Still trying to find my marks in this new countryside life. I spend my free time
 
 ---
 
+This is a [Now page](https://nownownow.com/). I update mine every few months with my current life status. Below is my archive.
+
 ## Archive
 
 - [November 4, 2022](/posts/now-archive-5)
