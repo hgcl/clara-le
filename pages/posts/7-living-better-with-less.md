@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#7 Living Better With Less"
-subtitle: "Weekly review #7"
+subtitle: "Weeknote #7"
 dateCreated: "2020-12-19"
 dataTag: ["weekly"]
 ---

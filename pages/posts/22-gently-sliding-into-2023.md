@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#22 Gently sliding into 2023"
-subtitle: "Weekly review #22"
+subtitle: "Weeknote #22"
 dateCreated: "2023-01-02"
 dataTag: ["weekly"]
 ---
@@ -17,7 +17,7 @@ dataTag: ["weekly"]
 
 Guten Rutsch ins neue Jahr! Or have a good slide into the new year, as Germans say.
 
-I am back to work after one week of relaxed vacation in Berlin. It feels like much longer though, as we had been to in Switzerland the two previous weeks as well. Nothing much happened since my [last weekly review](/posts/21-berlin-post-christmas).
+I am back to work after one week of relaxed vacation in Berlin. It feels like much longer though, as we had been to in Switzerland the two previous weeks as well. Nothing much happened since my [last weeknote](/posts/21-berlin-post-christmas).
 
 Robin and I met with friends for some holiday dinners, we started playing chess, we did our Year in Review[^1], we caught up with our current D&D campaign, we created a photo album for 2022, and I started to do some rehabilitation exercises for my sprained ankle.
 

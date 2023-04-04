@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#16 Sunbathing on planet Earth"
-subtitle: "Weekly review #16"
+subtitle: "Weeknote #16"
 dateCreated: "2021-02-22"
 dataTag: ["weekly"]
 ---

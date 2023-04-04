@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#5 Coffee tasting and cozy December"
-subtitle: "Weekly review #5"
+subtitle: "Weeknote #5"
 dateCreated: "2020-12-05"
 dataTag: ["weekly"]
 ---

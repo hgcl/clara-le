@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#10 On obsessions"
-subtitle: "Weekly review #10"
+subtitle: "Weeknote #10"
 dateCreated: "2021-01-10"
 dataTag: ["weekly"]
 ---

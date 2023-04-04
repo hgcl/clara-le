@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#25 Unpacking and wood stove fires"
-subtitle: "Weekly review #25"
+subtitle: "Weeknote #25"
 dateCreated: "2023-02-04"
 dataTag: ["weekly"]
 ---

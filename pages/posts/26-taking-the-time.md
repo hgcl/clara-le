@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#26 Taking the time"
-subtitle: "Weekly review #26"
+subtitle: "Weeknote #26"
 dateCreated: "2023-02-26"
 dataTag: ["weekly"]
 ---
@@ -27,4 +27,4 @@ Surprise, surprise: we started bouldering again by joining a local club. It was 
 
 One last big change is that I have been spending my free time much more offline. It is quite invigorating to step away from the online world a bit.
 
-On that note, I'll keep this weekly review short and stop it here.
+On that note, I'll keep this weeknote short and stop it here.

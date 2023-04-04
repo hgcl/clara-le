@@ -2,12 +2,12 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#28 On learning"
-subtitle: "Weekly review #28"
+subtitle: "Weeknote #28"
 dateCreated: "2023-03-24"
 dataTag: ["weekly"]
 ---
 
-Since we arrived in Ardèche, I find it hard to keep up with this weekly review. I think that one of the reasons is that I invest more time on [Eau de poisson](https://eaudepoisson.com/)—the blog I share with Robin.
+Since we arrived in Ardèche, I find it hard to keep up with this weeknote. I think that one of the reasons is that I invest more time on [Eau de poisson](https://eaudepoisson.com/)—the blog I share with Robin.
 
 I still like having this space that is only mine. However, it will have to adapt to these new needs, to this new rhythm. Let's see how this evolves in the future months.
 

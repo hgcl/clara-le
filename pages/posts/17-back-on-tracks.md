@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#17 Back on tracks"
-subtitle: "Weekly review #17"
+subtitle: "Weeknote #17"
 dateCreated: "2022-11-18"
 dataTag: ["weekly"]
 ---
@@ -13,7 +13,7 @@ dataTag: ["weekly"]
  </figcaption>
 </figure>
 
-Oh my, oh my. So I kind of took the decision to stop these weekly reviews more than a year ago. Nowadays, I am slowly feeling the need to come back to them. I remember that they sometimes felt like chores, but they also helped to anchor me in the present. Well, in any case, I am giving this habit a second (or third/fourth?) chance. I'll keep on calling them "weekly reviews" even though I am not really expecting to follow a strict schedule.
+Oh my, oh my. So I kind of took the decision to stop these weeknotes more than a year ago. Nowadays, I am slowly feeling the need to come back to them. I remember that they sometimes felt like chores, but they also helped to anchor me in the present. Well, in any case, I am giving this habit a second (or third/fourth?) chance. I'll keep on calling them "weeknotes" even though I am not really expecting to follow a strict schedule.
 
 ## Life peek
 

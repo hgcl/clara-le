@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#23 Galette des rois and IndieWeb nuggets"
-subtitle: "Weekly review #23"
+subtitle: "Weeknote #23"
 dateCreated: "2023-01-09"
 dataTag: ["weekly"]
 ---
