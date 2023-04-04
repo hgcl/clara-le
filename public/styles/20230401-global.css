@@ -133,11 +133,6 @@ nav ul {
   margin-bottom: var(--space-4xl);
 }
 
-.post-row {
-  align-items: center;
-  justify-content: left;
-}
-
 /* Images */
 
 img {
@@ -428,7 +423,7 @@ footer * {
 /*               Custom pages or elements                 */
 /*--------------------------------------------------------*/
 
-/* posts.html layout */
+/* posts.html, books.html, movies.html layout */
 
 #posts .post-row {
   display: flex;
@@ -438,13 +433,19 @@ footer * {
 #posts .post-row > .label {
   min-width: 3.5rem;
 }
-#posts .post-row > span {
+#posts .details {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
 }
+#posts .rating {
+  display: flex;
+  justify-content: flex-end;
+}
+#to-watch .rating {
+  display: none;
+}
 
-.post-row > span .subtle {
+.post-row .subtle {
   /* font styles smaller than body */
   margin-top: 0.25rem;
   font-size: smaller;
@@ -513,6 +514,12 @@ footer * {
 #recipes .label {
   margin-left: var(--space-s);
 }
+
+/* movies.html layout */
+
+/* #movies .label {
+  margin-left: var(--space-s);
+} */
 
 /* Posts only */
 

@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
-async function fetchMediaJSON(category) {
-  const response = await fetch(category);
+async function fetchMediaJSON(url) {
+  const response = await fetch(url);
   const jsonData = await response.json();
   const toReadList = jsonData.reading_log_entries;
   const posts = await Promise.all(
@@ -19,16 +19,15 @@ async function fetchMediaJSON(category) {
 }
 
 export async function buildPage(html) {
-  // Get category in H1
   const h1Regex = /\<h1[^\)]+?\<\/h1\>/;
   const headline = html.match(h1Regex);
-  const category =
-    headline == `<h1>Books <span class="sr-only">to-read</span></h1>`
-      ? `https://openlibrary.org/people/hgcl/books/want-to-read.json`
-      : `https://openlibrary.org/people/hgcl/books/already-read.json`;
+  const urlRead = "https://openlibrary.org/people/hgcl/books/already-read.json";
+  const urlToRead =
+    "https://openlibrary.org/people/hgcl/books/want-to-read.json";
+  const url = headline == `<h1>Want to read</h1>` ? urlToRead : urlRead;
 
   try {
-    const posts = await fetchMediaJSON(category);
+    const posts = await fetchMediaJSON(url);
     const postsHtml =
       `<ul class="nobullet">` +
       posts
@@ -43,7 +42,7 @@ export async function buildPage(html) {
             `<li class="post-row">
             <span class="tooltip">
             <a href="${post.bookUrl}">${post.title}<img src="${post.posterUrl}" loading="lazy"/></a>
-            <span class="subtle">by ${post.author}</span>
+            <span class="subtle details">by ${post.author}</span>
           </span></li>`
         )
         .join("") +
