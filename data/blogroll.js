@@ -278,6 +278,14 @@ export const blogrollData = [
     best: false,
   },
   {
+    url: "https://modernfontstacks.com/",
+    title: "Modern font stacks",
+    description:
+      "System font stack CSS organized by typeface classification for every modern OS. What a lifesaver.",
+    category: [typography.blog.anchor],
+    best: false,
+  },
+  {
     url: "https://blog.mollywhite.net/",
     title: "Molly White",
     description:
