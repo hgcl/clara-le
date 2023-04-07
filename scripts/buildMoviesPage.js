@@ -26,6 +26,14 @@ export async function buildPage(html) {
   const urlWatched = "https://letterboxd.com/hgcle/films/by/date/";
   const urlWatchlist = "https://letterboxd.com/hgcle/watchlist/";
   const url = headline == `<h1>Want to watch</h1>` ? urlWatchlist : urlWatched;
+  const outro =
+    headline == `<h1>Want to watch</h1>`
+      ? `Go to my
+  <a href="https://letterboxd.com/hgcle/watchlist/">Letterboxd account</a> for the
+  complete movies watchlist.`
+      : `Go to my
+  <a href="https://letterboxd.com/hgcle/films/">Letterboxd account</a> for the
+  complete movies list.`;
   try {
     const posts = await fetchMedia(url);
     const postsHtml =
@@ -37,6 +45,9 @@ export async function buildPage(html) {
           <a href="${post.movieUrl}">${post.title}</a></li>`
         )
         .join("") +
+      `<p class="intro label" style="margin-top: 3rem;">` +
+      outro +
+      `</p>` +
       `</ul>`;
     return html.replace(`<div>Data generated here</div>`, postsHtml);
   } catch (error) {
