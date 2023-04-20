@@ -7,8 +7,6 @@ dateCreated: "2023-04-04"
 dataTag: ["weekly"]
 ---
 
-## Life peek
-
 It's official: I am leaving my job of almost four years by the end of May. Many feelings are battling inside my head—excitement, anxiety (a lot of it), wonder, a bit of nostalgia.
 
 I don't have clear-cut plans yet, but I would like these next few months to be free experimentation grounds. I want to learn new things—digital and not, to get dirty with my hands, to spend more time outdoors, to improve at crag climbing, to create more things from scratch, to preserve food, to kick-start personal projects[^1].
