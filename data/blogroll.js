@@ -282,7 +282,7 @@ export const blogrollData = [
     title: "Modern font stacks",
     description:
       "System font stack CSS organized by typeface classification for every modern OS. What a lifesaver.",
-    category: [typography.blog.anchor],
+    category: [categories.typography.anchor],
     best: false,
   },
   {

@@ -17,6 +17,7 @@ export function buildPage(html) {
           `</ul>`
       )
       .join("");
+    console.log(postsHtml);
     return html.replace("<div>Data generated here</div>", postsHtml);
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
