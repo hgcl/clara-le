@@ -6,8 +6,6 @@ import { readdirSync, readFileSync, writeFileSync } from "fs";
 import * as path from "path";
 
 const RECIPES_DIR = "./pages/recipes/";
-const PUBLIC_DIR = "./public/";
-const SITE_URL = "https://clarale.com";
 
 function generateFrontmatter(file) {
   const frontmatter = `<!--
