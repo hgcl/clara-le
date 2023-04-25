@@ -1,26 +1,20 @@
 import getPosts from "./getPosts";
+import yearArray from "./yearArray";
 
 export async function buildPage(html) {
-  // Create year array
-  const currentYear = new Date(Date.now()).getFullYear();
-  const firstYear = 2020;
-  let yearArray = [];
-  for (let i = currentYear; i >= firstYear; i--) {
-    yearArray.push(new Date(i, 1, 1).getFullYear());
-  }
   try {
     const posts = await getPosts(`posts`);
     const orderedPosts = posts.sort(
       (a, b) =>
         new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
     );
-    const postsHtml = Object.values(yearArray)
+    const postsHtml = Object.values(yearArray(2020))
       .map(
-        (cat) =>
-          `<h2>${cat}</h2>` +
+        (year) =>
+          `<h2>${year}</h2>` +
           `<ul class="nobullet">` +
           orderedPosts
-            .filter((post) => new Date(post.dateCreated).getFullYear() == cat)
+            .filter((post) => new Date(post.dateCreated).getFullYear() == year)
             .map(
               (post) =>
                 `<li data-tag="${
