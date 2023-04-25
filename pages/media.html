@@ -1,0 +1,78 @@
+<!--
+template: /templates/default.html
+buildScript: /scripts/buildMediaPage.js
+-->
+
+<section id="posts">
+  <h1>Media</h1>
+  <p class="intro">
+    Books, movies and articles coming soon! Here are my latest read and watched
+    media content.
+  </p>
+  <fieldset id="posts-filter">
+    <legend class="sr-only">Select filters:</legend>
+    <div>
+      <input
+        type="radio"
+        id="all"
+        name="filter-tag"
+        value="all"
+        onchange="filterItems();"
+        checked
+      />
+      <label class="radio-label" for="all">All</label>
+    </div>
+    <div>
+      <input
+        type="radio"
+        id="book"
+        name="filter-tag"
+        value="book"
+        onchange="filterItems();"
+      />
+      <label class="radio-label" for="book">Books</label>
+    </div>
+    <div>
+      <input
+        type="radio"
+        id="movie"
+        name="filter-tag"
+        value="movie"
+        onchange="filterItems();"
+      />
+      <label class="radio-label" for="movie">Movies</label>
+    </div>
+  </fieldset>
+  <div>Data generated here</div>
+  <p class="intro label" style="margin-top: 3rem">
+    Go to my <a href="https://letterboxd.com/hgcle/">Letterboxd</a> account to
+    view the full movie list.
+  </p>
+</section>
+
+<script>
+  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+
+  function filterItems() {
+    let selectedtag = document.querySelector(
+      "input[name='filter-tag']:checked"
+    ).value;
+    // Hide list items based on updated tags list
+    let i = 0;
+    while (i < completeLiList.length) {
+      // Select <li> number i and get its tags
+      const itemTags = completeLiList[i]
+        .getAttribute("data-tag")
+        .toLowerCase()
+        .split(",");
+      // 2. Hide posts if tag != selected tag
+      // 3. Show all remaining
+      if ((selectedtag === "all") | itemTags.includes(selectedtag)) {
+        completeLiList[i].setAttribute("style", "display:flex");
+      } else {
+        completeLiList[i].setAttribute("style", "display:none");
+      }
+      i++;
+    }
+  }
+</script>
