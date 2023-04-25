@@ -111,7 +111,10 @@ buildScript: /scripts/buildPostsList.js
     let i = 0;
     while (i < completeLiList.length) {
       // Select <li> number i and get its tags
-      const itemTags = completeLiList[i].getAttribute("data-tag").split(",");
+      const itemTags = completeLiList[i]
+        .getAttribute("data-tag")
+        .toLowerCase()
+        .split(",");
       // 1. Hide all tiny notes if tiny notes checkbox is unchecked
       // 2. Hide posts if tag != selected tag
       // 3. Show all remaining

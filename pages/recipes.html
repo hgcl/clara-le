@@ -137,7 +137,10 @@ buildScript: /scripts/buildRecipesList.js
     let i = 0;
     while (i < completeLiList.length) {
       // Select <li> number i and get its tags
-      let itemTags = completeLiList[i].getAttribute("data-tag").split(" ");
+      let itemTags = completeLiList[i]
+        .getAttribute("data-tag")
+        .toLowerCase()
+        .split(" ");
       // Hide <li> if it doesn't include the selected param
       if ((param === "all") | (itemTags.includes(param) === true)) {
         completeLiList[i].setAttribute("style", "display:flex");
