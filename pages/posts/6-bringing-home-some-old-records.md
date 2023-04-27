@@ -44,6 +44,6 @@ I currently use Foam and Obsidian for my Zettelkasten. They both work great on d
 
 ## Overheard
 
-> I'm barely keeping up in most conversations — I think that's my learning style?
+> I'm barely keeping up in most conversations—I think that's my learning style?
 >
 > — Brandon Toner on Twitter

@@ -17,9 +17,9 @@ I fell in love with this type of gaming which allows you to dive into completely
 
 If you would also like to dip your fingers (or full arms) into this gaming genre, here are some links I found useful as an IF beginner:
 
-- [A Beginner's Guide to Playing Interactive Fiction](https://www.microheaven.com/ifguide/index.html) — clear and concise overview of IF
-- [Interactive Fiction Database](https://ifdb.org/) — all the games are there!
-- [Games for Beginners](https://ifdb.org/poll?id=memavsp06v1oc571) — list of beginner-friendly games from an IFDB poll
+- [A Beginner's Guide to Playing Interactive Fiction](https://www.microheaven.com/ifguide/index.html)—clear and concise overview of IF
+- [Interactive Fiction Database](https://ifdb.org/)—all the games are there!
+- [Games for Beginners](https://ifdb.org/poll?id=memavsp06v1oc571)—list of beginner-friendly games from an IFDB poll
 
 ---
 

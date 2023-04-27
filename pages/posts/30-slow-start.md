@@ -22,7 +22,7 @@ I might need to be more patient and simply progress one step at a time, wherever
 
 ### Making cereal bars
 
-As the weather is getting better, we are doing more and more sporty outdoorsy activities. Whenever we have cereal bars at home, I usually bring them as snacks. For the first time last week, I tried making my own cereal bars. So far, I am not 100% convinced by the recipe I tried — they were a bit too soft and didn't contain enough honey to my taste. However, I am pretty sure I can get it right after a few tries. I don't know why I didn't think of making these cereal bars earlier, as the ingredients are so simple[^3].
+As the weather is getting better, we are doing more and more sporty outdoorsy activities. Whenever we have cereal bars at home, I usually bring them as snacks. For the first time last week, I tried making my own cereal bars. So far, I am not 100% convinced by the recipe I tried—they were a bit too soft and didn't contain enough honey to my taste. However, I am pretty sure I can get it right after a few tries. I don't know why I didn't think of making these cereal bars earlier, as the ingredients are so simple[^3].
 
 ### Gardening
 
