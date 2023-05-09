@@ -55,9 +55,11 @@
           <span class="sr-only">Published on</span>
           <time datetime="{{dateCreated}}" class="dt-published"
             >{{dateCreated}}</time
-          >{{#durationMin}}<span class="sr-only">,</span>
+          >
+          {{#durationMin}}
+          <span class="sr-only">,</span>
           <span aria-hidden="true">&bullet;</span>
-          {{durationMin}}{{/durationMin}}
+          {{durationMin}}&nbsp;min {{/durationMin}}
         </p>
       </div>
       <article>{{> content}}</article>

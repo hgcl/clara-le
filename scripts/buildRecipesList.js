@@ -1,4 +1,4 @@
-import { minToHours, minToDurationString } from "./formatPostDetails";
+import { minToDurationString } from "./formatPostDetails";
 import getPosts from "./getPosts";
 const dirCategory = "recipes";
 
@@ -16,8 +16,10 @@ export async function buildPage(html) {
             post.durationMin > 0
               ? `<time class="label dt-duration" datetime="${minToDurationString(
                   post.durationMin
-                )}">` + minToHours(post.durationMin).replace(/ /g, "\xa0")
-              : "" + `</time>`
+                )}">` +
+                post.durationMin +
+                `&nbsp;min</time>`
+              : ""
           }</li>`
       )
       .join("");
