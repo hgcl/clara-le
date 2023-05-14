@@ -233,6 +233,28 @@ hr::before {
   content: "*\00a0*\00a0*";
 }
 
+/* ~striked-through text~ styles and accessibility */
+
+del {
+  text-decoration-thickness: 1.5px;
+}
+del::before,
+del::after {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+del::before {
+  content: " [start of strikethrough text] ";
+}
+del::after {
+  content: " [end of strikethrough text] ";
+}
+
 /* Lists */
 
 .nobullet,
