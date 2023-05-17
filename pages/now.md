@@ -27,6 +27,6 @@ This is a [Now page](https://nownownow.com/). I update mine every few months wit
 - [February 6, 2023](/posts/now-archive-6)
 - [November 4, 2022](/posts/now-archive-5)
 - [June 25, 2022](/posts/now-archive-4)
-- [February 20, 2021](/posts/now-archive-3)
+- [February 20, 2022](/posts/now-archive-3)
 - [October 24, 2021](/posts/now-archive-2)
 - [August 21, 2021](/posts/now-archive-1)
