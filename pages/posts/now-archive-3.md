@@ -3,7 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Now archive #3"
 subtitle: "A snapshot in time"
-dateCreated: "2021-02-20"
+dateCreated: "2022-02-20"
 dataTag: ["now"]
 ---
 
