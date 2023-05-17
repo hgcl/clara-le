@@ -2,18 +2,21 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Now"
-dateCreated: "2023-02-06"
+dateCreated: "2023-05-17"
 ---
 
-Still trying to find my marks in this new countryside life. I spend my free time:
+I am just starting my [early retirement parenthesis](https://clarale.com/posts/29-time-for-a-break/)—a.k.a, I am unemployed for the first time in four years. I do have a few productive plans for these next few months, but to be honest, I mostly want to slow down a bit and enjoy life differently.
 
-- Tending to the wood stove fire to heat the main living room
-- Exploring the house
-- Unpacking our boxes
-- Planning and cooking meals
-- Visiting neighbors and Robin's grandma for coffee (or wine)
-- Reading graphic novels
-- Thinking about post ideas for [Eau de poisson](https://eaudepoisson.com/)
+Currently, I spend most of my days:
+- reading sci-fi novels
+- tending to the garden
+- blogging here and [there](https://eaudepoisson.com/)
+- climbing outdoors and at my local gym
+- working on a private Pocket alternative with Robin
+- exploring new recipes
+- doing small creative projects
+- learning Typescript
+- drinking wine with France
 
 ---
 
@@ -21,6 +24,7 @@ This is a [Now page](https://nownownow.com/). I update mine every few months wit
 
 ## Archive
 
+- [February 6, 2023](/posts/now-archive-6)
 - [November 4, 2022](/posts/now-archive-5)
 - [June 25, 2022](/posts/now-archive-4)
 - [February 20, 2021](/posts/now-archive-3)
