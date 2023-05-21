@@ -1,6 +1,6 @@
 ---
 created: 2023-05-21T11:20:12+02:00
-modified: 2023-05-21T19:39:26+02:00
+modified: 2023-05-21T19:45:55+02:00
 ---
 
 ---
@@ -18,11 +18,11 @@ Anyway, Robin and I just left Berlin yesterday after spending a little under one
 
 Our short Berlin trip was also synonymous with our last week of work. By quitting, I know—or anxiously wish(?)—that I am making the right decision, but I still feel sad to leave this team that shared my daily life for the last few years. 
 
-___
+---
 
 Oh wait, the train is getting on the ferry(!) to Sicily. I'll go have a walk on the deck and come back to these thoughts.
 
-___
+---
 
 Wow, we actually just learned that the Etna just erupted less than an hour ago. We tried to see the smoke, but are not sure we could distinguish it among the other clouds. 
 
