@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Just the two of us"
-subtitle: "A tiny note about life"
+subtitle: "A tiny note about life stuff"
 dateCreated: "2023-05-29"
 dataTag: ["tiny"]
 ---
