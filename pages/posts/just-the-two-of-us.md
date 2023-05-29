@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Just the two of us"
 subtitle: "A tiny note about life stuff"
 dateCreated: "2023-05-29"
-dataTag: ["tiny"]
+dataTag: ["tiny", "thoughts"]
 ---
 
 Robin and I just realized that this is the first time in a month that we are back to being just the two of us.
