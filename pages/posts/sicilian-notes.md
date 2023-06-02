@@ -20,8 +20,8 @@ A list of things noticed during our 2-week trip in Sicily:
 - Recycling is going strong (or theoretically at least with all these different bins)
 - So many stray cats
 - A few stray dogs
-- You can make a carb with carb with carb sandwich[^2]
-- You don't need Photoshop to get clear turquoise water that are postcard-worthy
+- A carb with carb with carb sandwich[^2]
+- Clear turquoise water that are postcard-worthy
 - The landscape looks similar to some parts of the Ardèche region in France (but as a drier version most of the time)
 - Some people wearing winter jackets even though it's more than 25°C 
 - A mix of overpopulated cities and lands only inhabited by cows and sheeps
