@@ -7,7 +7,7 @@ dateCreated: "2023-06-01"
 dataTag: ["tiny", "thoughts"]
 ---
 
-A list of things noticed during our 2-week trip in Sicily:
+A non-exhaustive list of things noticed during our 2-week trip in Sicily:
 
 - People saying "bombastic"
 - Traffic rules seem to simply be suggestions (especially speed limits)
@@ -37,7 +37,7 @@ A list of things noticed during our 2-week trip in Sicily:
 - Very cool pebble beaches (sand is overrated)
 - Natural reserves where you can swim just like at a regular beach[^3]
 - A very poor public transportation system—the car is king
-- An obsession with the Moor's heads[^4] as: ceramic vases, book holders, tablecloth decoration, bed sheet pattern, ...
+- An obsession with the Moor's heads[^4] as: ceramic vases, book holders, tablecloth decoration, bed sheet pattern, magnets, mugs, ...
 - Many archeological monuments (a.k.a. lots of protected old rocks that are expensive to see)
 - Ficuses, my new favorite type of tree![^5]
 
