@@ -7,7 +7,7 @@ dateCreated: "2023-06-01"
 dataTag: ["tiny", "thoughts"]
 ---
 
-A non-exhaustive list of things noticed during our 2-week trip in Sicily:
+A list of things noticed during our 2-week trip in Sicily:
 
 - People saying "bombastic"
 - Traffic rules seem to simply be suggestions (especially speed limits)
