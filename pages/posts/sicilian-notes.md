@@ -40,6 +40,7 @@ A non-exhaustive list of things noticed during our 2-week trip in Sicily:
 - An obsession with the Moor's heads[^4] as: ceramic vases, book holders, tablecloth decoration, bed sheet pattern, magnets, mugs, ...
 - Many archeological monuments (a.k.a. lots of protected old rocks that are expensive to see)
 - Ficuses, my new favorite type of tree![^5]
+- Toilets that flush with a manual tap
 
 [^1]: There is apparently a strong debate between West (_arancina_ team) and East (_arancino_ team) Sicily on how to call these delicious rice balls.
 [^2]: Thinking of the _panelle e crocchè_ sandwich that is made with bread, chickpea fritters and fried potato balls
