@@ -2,7 +2,7 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Sicilian notes"
-subtitle: "A tiny note about life stuff"
+subtitle: "A tiny note about our Sicily trip"
 dateCreated: "2023-06-01"
 dataTag: ["tiny", "thoughts"]
 ---
