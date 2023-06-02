@@ -32,9 +32,11 @@ A list of things noticed during our 2-week trip in Sicily:
 - Empty streets from 1–3pm, except for the occasional tourist
 - A very strong pride in being Sicilian
 - Churches
+- 24 hours vending machine clusters everywhere
 - Lots of precise hand gestures
 - Much more tourism than what I would have expected
 - Very cool pebble beaches (sand is overrated)
+- Terrible napkins that feel like paper
 - Natural reserves where you can swim just like at a regular beach[^3]
 - A very poor public transportation system—the car is king
 - An obsession with the Moor's heads[^4] as: ceramic vases, book holders, tablecloth decoration, bed sheet pattern, pillow cases, magnets, mugs, ...
