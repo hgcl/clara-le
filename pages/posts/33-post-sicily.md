@@ -7,11 +7,11 @@ dateCreated: "2023-06-05"
 dataTag: ["weekly"]
 ---
 
-Our first trip to Sicily came to an end yesterday, as we took a 13-hour ferry from Palermo (Sicily) to Cagliari (Sardinia). These two last weeks in Sicily were full of discoveries. We are bringing back home some new recipes—_caponata, pasta alla Trapanese, panelle,pistacchio pesto_, and also many bottles of local specialties[^1].
+Our first trip to Sicily came to an end yesterday, as we took a 13-hour ferry from Palermo (Sicily) to Cagliari (Sardinia). The two last weeks in Sicily were [full of discoveries](/posts/sicilian-notes). We are bringing back home some new recipes—_caponata, pasta alla Trapanese, panelle, pistacchio pesto_, and also many bottles of local specialties[^1].
 
 Another thing I am bringing back home is inspiration from people I've met and things I've seen on the way:
 - Isabel and Baptiste, singing and dancing their hearts out during our roadtrip
-- The rich sea flora / fauna that can be seen with a simple snorkeling mask
+- The rich sea flora / fauna that can be observed with a simple snorkeling mask
 - Sicilians love for good produces
 - Davide and his wife starting to make their own wine, honey and olive oil
 - Those winemakers offering us a bottle of wine out of nowhere
