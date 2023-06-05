@@ -3,7 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#33 Post-Sicily"
 subtitle: "Weeknote #33"
-dateCreated: "2023-05-14"
+dateCreated: "2023-06-05"
 dataTag: ["weekly"]
 ---
 
