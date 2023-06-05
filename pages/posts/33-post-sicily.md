@@ -12,8 +12,10 @@ Our first trip to Sicily came to an end yesterday, as we took a 13-hour ferry fr
 Another thing I am bringing back home is inspiration from people I've met and things I've seen on the way:
 - Isabel and Baptiste, singing and dancing their hearts out during our roadtrip
 - The rich sea flora / fauna that can be seen with a simple snorkeling mask
+- Sicilians love for good produces
 - Davide and his wife starting to make their own wine, honey and olive oil
-- Those winemakers offering us a bottle of wine
+- Those winemakers offering us a bottle of wine out of nowhere
+- That little creative guide of Palermo, randomly found in a wine bar
 - Georgia and Davide moving to the heart of Sicily to open their B&B for climbers
 - Old ladies feeding stray cats in the street
 - Alice, travelling alone through Italy with only a backpack and camping gears
