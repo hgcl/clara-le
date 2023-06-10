@@ -357,7 +357,6 @@ input[type="checkbox"] {
 /* Footnotes */
 
 .footnotes {
-  border-top: solid 1px;
   margin-top: var(--space-7xl);
   font-family: var(--sans-serif);
   font-size: small;
@@ -693,6 +692,18 @@ footer * {
 
   .footnotes {
     border: none;
+  }
+  #footnote-label {
+    /* Same as .sr-only */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
   }
 
   #index .h-card {
