@@ -94,7 +94,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: var(--space-l);
-  margin-bottom: var(--space-5xl);
+  margin-bottom: var(--space-m);
 }
 
 /* Accessibility */
@@ -190,8 +190,8 @@ li {
 .emphasis {
   font-family: var(--sans-serif);
   font-weight: normal;
-  font-size: var(--font-m);
-  line-height: 2rem;
+  font-size: var(--font-l);
+  line-height: 2.5rem;
 }
 
 .label {
@@ -641,10 +641,6 @@ footer * {
 @media only screen and (min-width: 370px) {
   html {
     font-size: 18px;
-  }
-  .emphasis {
-    font-size: var(--font-l);
-    line-height: 2.5rem;
   }
   #webring span {
     display: inline;
