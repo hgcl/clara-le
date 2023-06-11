@@ -6,8 +6,11 @@ template: /templates/default.html
   <h1>About</h1>
   <p>
     Hi, I'm Clara,
-    <button id="word-swap" onclick="swapWord()">a tinkerer</button> based in the
-    Ardèche region in France. I am currently trying to figure out the countryside life, as well as life in general.
+    <button type="button" id="word-swap" onclick="swapWord()">
+      a tinkerer
+    </button>
+    based in the Ardèche region in France. I am currently trying to figure out
+    the countryside life, as well as life in general.
   </p>
   <p>
     If you want to know more about what I'm up to at the moment, have a look at
@@ -21,17 +24,21 @@ template: /templates/default.html
     notes, half-formed thoughts, doodles, full reviews or anything else in
     between.
   </p>
-  <p>For those wanting to contact me: my Ouija board connection is unfortunately out of order, so you'll have to email me at <em>hey [at] clarale [dot] com</em>.</p>
+  <p>
+    For those wanting to contact me: my Ouija board connection is unfortunately
+    out of order, so you'll have to email me at
+    <em>hey [at] clarale [dot] com</em>.
+  </p>
 </article>
 <script>
   function swapWord() {
     let word = document.getElementById("word-swap");
     const wordArray = [
       "a tinkerer",
-      "a designer",
       "an explorer",
       "a climber",
       "a cat lover",
+      "a designer",
       "a clumsy being",
       "a fixer",
     ];
