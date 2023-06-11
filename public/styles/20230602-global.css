@@ -94,7 +94,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: var(--space-l);
-  margin-bottom: var(--space-m);
+  margin-bottom: var(--space-4xl);
 }
 
 /* Accessibility */
@@ -130,7 +130,7 @@ nav ul {
 
 .intro {
   max-width: 600px;
-  margin-bottom: var(--space-4xl);
+  margin-bottom: var(--space-2xl);
 }
 
 /* Images */
