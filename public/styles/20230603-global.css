@@ -483,47 +483,27 @@ footer * {
   align-items: center;
   gap: var(--space-xs);
 }
-#posts-filter > div {
-  overflow: hidden;
-  position: relative;
-  width: fit-content;
-}
-#posts-filter > div:last-of-type {
-  margin-right: var(--space-s);
-}
-#posts-filter input[type="radio"] {
-  position: absolute;
-  appearance: none;
-  border: none;
-  padding: 0;
-  outline: 0;
-}
-#posts-filter label {
-  cursor: pointer;
-  color: var(--color-subtle);
-}
-#posts-filter .checkbox-label {
-  font-family: var(--sans-serif);
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: small;
-  line-height: 1.3rem;
-  letter-spacing: 0.1em;
-  margin: var(--space-xs) 0;
-}
-#posts-filter .radio-label {
-  display: block;
-  width: 100%;
+#posts-filter button,
+#posts-filter details {
   border: solid 1px;
   padding: 0.1rem 0.6rem;
   border-radius: 1000px;
+  margin: 0;
 }
-#posts-filter input[type="radio"]:checked + .radio-label,
-#posts-filter input[type="radio"]:focus + .radio-label,
-#posts-filter .radio-label:hover {
+#posts-filter .selectedTag {
+  color: var(--color-bg);
   background-color: var(--color-text);
   border-color: var(--color-text);
-  color: var(--color-bg);
+}
+#posts-filter details[open] {
+  border: none;
+  padding: 0;
+}
+#posts-filter details[open] > summary {
+  display: none;
+}
+#posts-filter details summary::marker {
+  content: none;
 }
 
 /* recipes.html layout */
@@ -535,12 +515,6 @@ footer * {
 #recipes .label {
   margin-left: var(--space-s);
 }
-
-/* movies.html layout */
-
-/* #movies .label {
-  margin-left: var(--space-s);
-} */
 
 /* Posts only */
 
