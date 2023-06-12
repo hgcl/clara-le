@@ -11,102 +11,94 @@ buildScript: /scripts/buildPostsList.js
     between. Everything except for the tiny notes can be followed through my
     <a href="/feed.xml">RSS feed</a>.
   </p>
-  <fieldset id="posts-filter">
-    <legend class="sr-only">Select filters:</legend>
-    <div>
-      <input
-        type="radio"
-        id="all"
-        name="filter-tag"
-        value="all"
-        onchange="filterItems();"
-        checked
-      />
-      <label class="radio-label" for="all">All</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="creative"
-        name="filter-tag"
-        value="creative"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="creative">Creative</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="digital"
-        name="filter-tag"
-        value="digital"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="digital">Digital</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="now"
-        name="filter-tag"
-        value="now"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="now">Now</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="reviews"
-        name="filter-tag"
-        value="reviews"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="reviews">Reviews</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="thoughts"
-        name="filter-tag"
-        value="thoughts"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="thoughts">Thoughts</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="weekly"
-        name="filter-tag"
-        value="weekly"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="weekly">Weeknotes</label>
-    </div>
+  <div id="posts-filter">
+    <span class="sr-only">Select filters:</span>
+    <button
+      type="button"
+      class="selectedTag"
+      id="all"
+      value="all"
+      onclick="filterItems(value);"
+    >
+      All
+    </button>
+    <button
+      type="button"
+      id="creative"
+      value="creative"
+      onclick="filterItems(value);"
+    >
+      Creative
+    </button>
+    <button
+      type="button"
+      id="digital"
+      value="digital"
+      onclick="filterItems(value);"
+    >
+      Digital
+    </button>
+    <button type="button" id="now" value="now" onclick="filterItems(value);">
+      Now
+    </button>
+    <button
+      type="button"
+      id="reviews"
+      value="reviews"
+      onclick="filterItems(value);"
+    >
+      Reviews
+    </button>
+    <button
+      type="button"
+      id="thoughts"
+      value="thoughts"
+      onclick="filterItems(value);"
+    >
+      Thoughts
+    </button>
+    <button
+      type="button"
+      id="weekly"
+      value="weekly"
+      onclick="filterItems(value);"
+    >
+      Weeknotes
+    </button>
     <label class="checkbox-label" for="tiny">
       <input
         type="checkbox"
         id="tiny"
-        name="filter-tiny"
         value="tiny"
         onchange="filterItems();"
         checked
       />
       Show tiny notes</label
     >
-  </fieldset>
+  </div>
   <p>Posts go here</p>
 </section>
 
 <script>
   const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+  let selectedtag = "all";
 
-  function filterItems() {
+  function filterItems(param) {
     const checkbox = document.getElementById("tiny");
-    let selectedtag = document.querySelector(
-      "input[name='filter-tag']:checked"
-    ).value;
+
+    // If not tiny checkbox selected
+    if (param) {
+      // Update current selectedTag with button value
+      selectedtag = param;
+      // Update CSS of current button and reset other buttons styles
+      const allButtons = document.querySelectorAll("#posts-filter button");
+      allButtons.forEach((button) => {
+        button.removeAttribute("class");
+      });
+      const clickedButton = document.getElementById(param);
+      clickedButton.setAttribute("class", "selectedTag");
+    }
+
     // Hide list items based on updated tags list
     let i = 0;
     while (i < completeLiList.length) {
