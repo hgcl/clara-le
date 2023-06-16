@@ -9,40 +9,29 @@ buildScript: /scripts/buildMediaPage.js
     Books and movies—plus, articles coming soon! Here are my latest read and
     watched media content.
   </p>
-  <fieldset id="posts-filter">
-    <legend class="sr-only">Select filters:</legend>
-    <div>
-      <input
-        type="radio"
-        id="all"
-        name="filter-tag"
-        value="all"
-        onchange="filterItems();"
-        checked
-      />
-      <label class="radio-label" for="all">All</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="book"
-        name="filter-tag"
-        value="book"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="book">Books</label>
-    </div>
-    <div>
-      <input
-        type="radio"
-        id="movie"
-        name="filter-tag"
-        value="movie"
-        onchange="filterItems();"
-      />
-      <label class="radio-label" for="movie">Movies</label>
-    </div>
-  </fieldset>
+  <div id="posts-filter">
+    <span class="sr-only">Select filters:</span>
+    <button
+      type="button"
+      class="selectedTag"
+      id="all"
+      value="all"
+      onclick="filterItems(value);"
+    >
+      All
+    </button>
+    <button type="button" id="book" value="book" onclick="filterItems(value);">
+      Books
+    </button>
+    <button
+      type="button"
+      id="movie"
+      value="movie"
+      onclick="filterItems(value);"
+    >
+      Movies
+    </button>
+  </div>
   <div>Data generated here</div>
   <p class="intro label" style="margin-top: 3rem">
     Go to my <a href="https://letterboxd.com/hgcle/">Letterboxd</a> account to
@@ -50,24 +39,31 @@ buildScript: /scripts/buildMediaPage.js
   </p>
 </section>
 
+<!-- Same script as posts.html -->
 <script>
-  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+  let selectedtag = "all";
 
-  function filterItems() {
-    let selectedtag = document.querySelector(
-      "input[name='filter-tag']:checked"
-    ).value;
+  function filterItems(param) {
+    // Update CSS of current button and reset other buttons styles
+    const allButtons = document.querySelectorAll("#posts-filter button");
+    allButtons.forEach((button) => {
+      button.removeAttribute("class");
+    });
+    const clickedButton = document.getElementById(param);
+    clickedButton.setAttribute("class", "selectedTag");
+
+    // Select all list items and unhide
+    const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
     // Hide list items based on updated tags list
     let i = 0;
     while (i < completeLiList.length) {
       // Select <li> number i and get its tags
-      const itemTags = completeLiList[i]
+      let itemTags = completeLiList[i]
         .getAttribute("data-tag")
         .toLowerCase()
-        .split(",");
-      // 2. Hide posts if tag != selected tag
-      // 3. Show all remaining
-      if ((selectedtag === "all") | itemTags.includes(selectedtag)) {
+        .split(" ");
+      // Hide <li> if it doesn't include the selected param
+      if ((param === "all") | (itemTags.includes(param) === true)) {
         completeLiList[i].setAttribute("style", "display:flex");
       } else {
         completeLiList[i].setAttribute("style", "display:none");
