@@ -30,7 +30,6 @@ We wanted to repaint the main door to our house, and discovered [this Swedish pa
 
 For a few years now, I have been writing on and off in my numerous diaries, travel journals, blogs, and so on. All of these projects are very down-to-earth, as I usually talk about lived experiences, current thoughts or future plans.
 
-I have been trying to bring back some creativity in my life in different ways. One of them is playing more with words and poetry. I published [my first try at it in a previous post (in French)](/posts/dans-la-cabane/)[^1]. I also tried to do some _caviardage_ exercises, that are quite fun and relaxing![^2]
+I have been trying to bring back some creativity in my life in different ways. One of them is playing more with words and poetry. I published [my first try at it in a previous post (in French)](/posts/dans-la-cabane/). I also tried to do some _caviardage_ exercises, that are quite fun and relaxing![^2]
 
-[^1]: I feel a bit anxious about sharing these first baby steps in public. But I somehow feel safe enough on this blog, my own little bubble, to do it.
 [^2]: In French, _caviarder_ means blacking out lines or sentences. You can do it creatively from a source text to create a poem, that has a completely different meaning.
