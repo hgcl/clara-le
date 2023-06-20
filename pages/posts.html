@@ -88,14 +88,10 @@ buildScript: /scripts/buildPostsList.js
 </section>
 
 <script>
-  // Get list of tags
+  // Set variables
   const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
   let selectedtag = "all";
-
-  // Get current URL and apply filter to open page if necessary
-  let currentUrl = new URL(window.location.href);
-  const searchParams = new URLSearchParams(currentUrl.search);
-  filterItems(searchParams.get("q"));
+  const allButtons = document.querySelectorAll("#posts-filter button");
 
   function filterItems(param) {
     const checkbox = document.getElementById("tiny");
@@ -107,7 +103,6 @@ buildScript: /scripts/buildPostsList.js
       // Update current selectedTag with button value
       selectedtag = param;
       // Update CSS of current button and reset other buttons styles
-      const allButtons = document.querySelectorAll("#posts-filter button");
       allButtons.forEach((button) => {
         button.removeAttribute("class");
       });
@@ -138,6 +133,11 @@ buildScript: /scripts/buildPostsList.js
       i++;
     }
   }
+
+  // Get current URL and apply filter to open page if necessary
+  let currentUrl = new URL(window.location.href);
+  const searchParams = new URLSearchParams(currentUrl.search);
+  filterItems(searchParams.get("q"));
 
   // Align selected filter with URL
   function updateURL(filter) {
