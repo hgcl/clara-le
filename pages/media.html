@@ -41,19 +41,24 @@ buildScript: /scripts/buildMediaPage.js
 
 <!-- Same script as posts.html -->
 <script>
+  // Set variables
+  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
   let selectedtag = "all";
+  const allButtons = document.querySelectorAll("#posts-filter button");
 
   function filterItems(param) {
+    if (param) {
+      // Update URL onclick
+      updateURL(param);
+    }
+
     // Update CSS of current button and reset other buttons styles
-    const allButtons = document.querySelectorAll("#posts-filter button");
     allButtons.forEach((button) => {
       button.removeAttribute("class");
     });
     const clickedButton = document.getElementById(param);
     clickedButton.setAttribute("class", "selectedTag");
 
-    // Select all list items and unhide
-    const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
     // Hide list items based on updated tags list
     let i = 0;
     while (i < completeLiList.length) {
@@ -70,5 +75,17 @@ buildScript: /scripts/buildMediaPage.js
       }
       i++;
     }
+  }
+
+  // Get current URL and apply filter to open page if necessary
+  let currentUrl = new URL(window.location.href);
+  const searchParams = new URLSearchParams(currentUrl.search);
+  filterItems(searchParams.get("q"));
+
+  // Align selected filter with URL
+  function updateURL(filter) {
+    // Update URL
+    currentUrl.searchParams.set("q", filter);
+    history.pushState({}, "", currentUrl);
   }
 </script>
