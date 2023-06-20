@@ -58,6 +58,10 @@
           <time datetime="{{dateCreated}}" class="dt-published"
             >{{dateCreated}}</time
           >
+          {{#dataTag.length}}
+          <span class="sr-only">,</span>
+          <span aria-hidden="true">&bullet;</span>
+          {{dataTag}}&nbsp;{{/dataTag.length}}
         </p>
       </div>
       <article class="e-content">
