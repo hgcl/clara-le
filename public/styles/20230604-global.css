@@ -457,6 +457,7 @@ footer * {
 #posts .details {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 #posts .rating {
   display: flex;
