@@ -1,9 +1,10 @@
 import getPosts from "./getPosts";
 import yearArray from "./yearArray";
+const dirCategory = "posts";
 
 export async function buildPage(html) {
   try {
-    const posts = await getPosts(`posts`);
+    const posts = await getPosts(dirCategory);
     const orderedPosts = posts.sort(
       (a, b) =>
         new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
