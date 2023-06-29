@@ -30,12 +30,6 @@
   --black: hsl(0deg, 0%, 3%);
   --grey-on-black: #b4b4b4;
   --grey-on-white: #515151;
-  --red-dark: hsl(0, 100%, 30%);
-  --yellow-dark: hsl(41, 100%, 33%);
-  --green-dark: hsl(140, 100%, 27%);
-  --blue-dark: hsl(230, 100%, 50%);
-  --purple-dark: hsl(261, 100%, 55%);
-  --pink-dark: hsl(320, 100%, 31%);
   --red-light: hsl(0, 78%, 65%);
   --yellow-light: hsl(44, 100%, 71%);
   --green-light: hsl(140, 55%, 54%);
@@ -55,10 +49,11 @@ html {
     "Goudy Old Style", serif;
   --sans-serif: "Gangster Grotesk", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  --color-bg: var(--white);
-  --color-text: var(--black);
-  --color-subtle: var(--grey-on-white);
-  --color-subtle-inverted: var(--grey-on-black);
+  --color-bg: hsl(0deg, 0%, 2%);
+  --color-text: hsl(0deg, 0%, 100%);
+  --color-text-alt: hsl(360deg, 0%, 0%);
+  --color-subtle: var(--grey-on-black);
+  --color-subtle-inverted: var(--grey-on-white);
 }
 
 body {
@@ -313,28 +308,28 @@ a:focus {
 
 @keyframes color-change {
   5% {
-    border-color: var(--red-dark);
-    color: var(--red-dark);
+    border-color: var(--red-light);
+    color: var(--red-light);
   }
   15% {
-    border-color: var(--yellow-dark);
-    color: var(--yellow-dark);
+    border-color: var(--yellow-light);
+    color: var(--yellow-light);
   }
   30% {
-    border-color: var(--green-dark);
-    color: var(--green-dark);
+    border-color: var(--green-light);
+    color: var(--green-light);
   }
   50% {
-    border-color: var(--blue-dark);
-    color: var(--blue-dark);
+    border-color: var(--blue-light);
+    color: var(--blue-light);
   }
   70% {
-    border-color: var(--purple-dark);
-    color: var(--purple-dark);
+    border-color: var(--purple-light);
+    color: var(--purple-light);
   }
   90% {
-    border-color: var(--pink-dark);
-    color: var(--pink-dark);
+    border-color: var(--pink-light);
+    color: var(--pink-light);
   }
 }
 
@@ -571,45 +566,6 @@ footer * {
 /*--------------------------------------------------------*/
 /*                     Media-queries                      */
 /*--------------------------------------------------------*/
-
-/* Dark mode */
-
-@media (prefers-color-scheme: dark) {
-  html {
-    --color-bg: hsl(0deg, 0%, 2%);
-    --color-text: hsl(0deg, 0%, 100%);
-    --color-text-alt: hsl(360deg, 0%, 0%);
-    --color-subtle: var(--grey-on-black);
-    --color-subtle-inverted: var(--grey-on-white);
-  }
-
-  @keyframes color-change {
-    5% {
-      border-color: var(--red-light);
-      color: var(--red-light);
-    }
-    15% {
-      border-color: var(--yellow-light);
-      color: var(--yellow-light);
-    }
-    30% {
-      border-color: var(--green-light);
-      color: var(--green-light);
-    }
-    50% {
-      border-color: var(--blue-light);
-      color: var(--blue-light);
-    }
-    70% {
-      border-color: var(--purple-light);
-      color: var(--purple-light);
-    }
-    90% {
-      border-color: var(--pink-light);
-      color: var(--pink-light);
-    }
-  }
-}
 
 /* Bigger than mobile */
 
