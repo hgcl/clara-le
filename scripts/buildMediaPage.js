@@ -23,7 +23,8 @@ export async function buildPage(html) {
             .join("") +
           `</ul>`
       )
-      .join("");
+      .join("")
+      .replace(/(,(?=\S))/g, ", "); // Make sure all commas are followed by a whitespace
     return html.replace("<p>Posts go here</p>", postsHtml);
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);

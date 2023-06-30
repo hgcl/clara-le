@@ -27,6 +27,8 @@ export async function buildPage(html, frontmatter) {
           `<h2 id="footnote-label" class="sr-only">Footnotes</h2>`,
           `<h2 id="footnote-label" class="label">Footnotes</h2>`
         )
+        // Make sure all commas are followed by a whitespace
+        .replace(/(,(?=\S))/g, ", ")
     );
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
