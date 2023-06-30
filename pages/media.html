@@ -3,89 +3,12 @@ template: /templates/default.html
 buildScript: /scripts/buildMediaPage.js
 -->
 
-<section id="posts">
+<section id="media">
   <h1>Media</h1>
   <p class="intro">
-    Books and movies—plus, articles coming soon! Here is my latest read and
-    watched media content.
+    A curated and non-exhaustive list of books, movies and series I liked and
+    recommend. Everything under 2022 might have been read or watched years
+    before.
   </p>
-  <div id="posts-filter">
-    <span class="sr-only">Select filters:</span>
-    <button
-      type="button"
-      class="selectedTag"
-      id="all"
-      value="all"
-      onclick="filterItems(value);"
-    >
-      All
-    </button>
-    <button type="button" id="book" value="book" onclick="filterItems(value);">
-      Books
-    </button>
-    <button
-      type="button"
-      id="movie"
-      value="movie"
-      onclick="filterItems(value);"
-    >
-      Movies
-    </button>
-  </div>
-  <div>Data generated here</div>
-  <p class="intro label" style="margin-top: 3rem">
-    Go to my <a href="https://letterboxd.com/hgcle/">Letterboxd</a> account to
-    view the full movie list.
-  </p>
+  <p>Posts go here</p>
 </section>
-
-<!-- Same script as posts.html -->
-<script>
-  // Set variables
-  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
-  let selectedtag = "all";
-  const allButtons = document.querySelectorAll("#posts-filter button");
-
-  function filterItems(param) {
-    if (param) {
-      // Update URL onclick
-      updateURL(param);
-    }
-
-    // Update CSS of current button and reset other buttons styles
-    allButtons.forEach((button) => {
-      button.removeAttribute("class");
-    });
-    const clickedButton = document.getElementById(param);
-    clickedButton.setAttribute("class", "selectedTag");
-
-    // Hide list items based on updated tags list
-    let i = 0;
-    while (i < completeLiList.length) {
-      // Select <li> number i and get its tags
-      let itemTags = completeLiList[i]
-        .getAttribute("data-tag")
-        .toLowerCase()
-        .split(" ");
-      // Hide <li> if it doesn't include the selected param
-      if ((param === "all") | (itemTags.includes(param) === true)) {
-        completeLiList[i].setAttribute("style", "display:flex");
-      } else {
-        completeLiList[i].setAttribute("style", "display:none");
-      }
-      i++;
-    }
-  }
-
-  // Get current URL and apply filter to open page if necessary
-  let currentUrl = new URL(window.location.href);
-  const searchParams = new URLSearchParams(currentUrl.search);
-  filterItems(searchParams.get("q"));
-
-  // Align selected filter with URL
-  function updateURL(filter) {
-    // Update URL
-    currentUrl.searchParams.set("q", filter);
-    history.pushState({}, "", currentUrl);
-  }
-</script>

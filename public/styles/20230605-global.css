@@ -139,7 +139,7 @@ figcaption {
   font-style: italic;
   /* below similar to .label */
   font-size: var(--font-xs);
-  line-height: 1.3rem;
+  line-height: 1.1rem;
 }
 
 /* Typography */
@@ -194,7 +194,7 @@ li {
   text-transform: uppercase;
   font-weight: bold;
   font-size: small;
-  line-height: 1.3rem;
+  line-height: 1rem;
   letter-spacing: 0.1em;
   color: var(--color-subtle);
 }
@@ -439,7 +439,7 @@ footer * {
 /*               Custom pages or elements                 */
 /*--------------------------------------------------------*/
 
-/* posts.html, books.html, movies.html layout */
+/* posts.html layout */
 
 #posts .post-row {
   display: flex;
@@ -449,26 +449,6 @@ footer * {
 #posts .post-row > .label {
   min-width: 3.5rem;
 }
-#posts .details {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-#posts .rating {
-  display: flex;
-  justify-content: flex-end;
-}
-#to-watch .rating {
-  display: none;
-}
-
-.post-row .subtle {
-  /* font styles smaller than body */
-  margin-top: 0.25rem;
-  font-size: smaller;
-  line-height: 1.3rem;
-}
-
 #posts-filter {
   margin: var(--space-s) 0 var(--space-2xl);
   border: 0;
@@ -500,6 +480,38 @@ footer * {
 }
 #posts-filter details summary::marker {
   content: none;
+}
+#posts .details,
+#media .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.post-row .subtle {
+  /* font styles smaller than body */
+  margin-top: 0.25rem;
+  font-size: smaller;
+  line-height: 1.3rem;
+}
+
+/* media.html layout */
+
+#media ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+  grid-gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+#media li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#media img {
+  margin-bottom: var(--space-s);
+  height: auto;
+  aspect-ratio: 250 / 375;
+  object-fit: cover;
 }
 
 /* recipes.html layout */

@@ -9,7 +9,7 @@ export async function buildPage(html) {
       (a, b) =>
         new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
     );
-    const postsHtml = Object.values(yearArray(2020))
+    const postsHtml = Object.values(yearArray(2022))
       .map(
         (year) =>
           `<h2>${year}</h2>` +
@@ -18,22 +18,7 @@ export async function buildPage(html) {
             .filter((post) => new Date(post.dateCreated).getFullYear() == year)
             .map(
               (post) =>
-                `<li data-tag="${
-                  post.dataTag
-                }" class="post-row"><time class="label dt-duration" datetime="${
-                  post.dateCreated
-                }">
-           ${new Date(post.dateCreated).toLocaleDateString("en-US", {
-             month: "short",
-             day: "numeric",
-           })}
-          </time><span class="details"><a href="${post.slug}">${
-                  post.title
-                }</a>${
-                  post.subtitle
-                    ? `<span class="subtle">${post.subtitle}</span>`
-                    : ""
-                }</span></li>`
+                `<li data-tag="${post.dataTag}" class="card"><img alt="" src="${post.cover}"><a class="details" href="${post.slug}">${post.title} (${post.year})</a><span class="label">${post.author} <span aria-hidden="true">•</span> ${post.dataTag}</span></li>`
             )
             .join("") +
           `</ul>`
