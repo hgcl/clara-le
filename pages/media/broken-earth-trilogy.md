@@ -5,7 +5,7 @@ title: "Broken Earth trilogy"
 author: ["N. K. Jemisin"]
 cover: "https://covers.openlibrary.org/b/id/9158524-L.jpg"
 dateCreated: "2022-01-01"
-dataTag: ["movie"]
+dataTag: ["book"]
 year: "2015"
 ---
 

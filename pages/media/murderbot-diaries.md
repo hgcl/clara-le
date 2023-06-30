@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Murderbot diaries"
 author: "Martha Wells"
-cover: "https://www.themoviedb.org/t/p/w1280/2KvuvaIBDxrafatQHX4hoj4FcI6.jpg"
+cover: "https://covers.openlibrary.org/b/id/8478857-L.jpg"
 dateCreated: "2022-01-01"
 dataTag: ["book"]
 year: "2017"
