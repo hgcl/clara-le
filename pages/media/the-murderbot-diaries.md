@@ -1,7 +1,7 @@
 ---
 template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
-title: "Murderbot diaries"
+title: "The Murderbot Diaries"
 author: "Martha Wells"
 cover: "https://covers.openlibrary.org/b/id/8478857-L.jpg"
 dateCreated: "2022-01-01"
