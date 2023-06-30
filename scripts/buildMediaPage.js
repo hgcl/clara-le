@@ -18,7 +18,7 @@ export async function buildPage(html) {
             .filter((post) => new Date(post.dateCreated).getFullYear() == year)
             .map(
               (post) =>
-                `<li data-tag="${post.dataTag}" class="card"><img alt="" src="${post.cover}"><a class="details" href="${post.slug}">${post.title} (${post.year})</a><span class="label">${post.author} <span aria-hidden="true">•</span> ${post.dataTag}</span></li>`
+                `<li data-tag="${post.dataTag}" class="card"><img alt="" src="${post.cover}"><a class="details" href="${post.slug}">${post.title} (${post.year})</a><span class="label">${post.dataTag} <span aria-hidden="true">•</span> ${post.author}</span></li>`
             )
             .join("") +
           `</ul>`
