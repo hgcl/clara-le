@@ -1,7 +1,7 @@
 ---
 template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
-title: "What we do in the shadows"
+title: "What We Do in the Shadows"
 author: "Taika Waititi"
 cover: "https://www.themoviedb.org/t/p/w1280/32QNWU2RoB7El5m2cjo3TnmvUxJ.jpg"
 dateCreated: "2022-01-01"
