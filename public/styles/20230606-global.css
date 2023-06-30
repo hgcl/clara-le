@@ -498,9 +498,9 @@ footer * {
 
 #media ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
-  grid-gap: var(--space-xl);
-  margin-bottom: var(--space-xl);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: var(--space-m);
+  margin-bottom: var(--space-l);
 }
 #media li {
   display: flex;
@@ -508,7 +508,7 @@ footer * {
   gap: 0.5rem;
 }
 #media img {
-  margin-bottom: var(--space-s);
+  margin-bottom: var(--space-xs);
   height: auto;
   aspect-ratio: 250 / 375;
   object-fit: cover;
@@ -606,6 +606,11 @@ footer * {
   }
   #index svg {
     display: block;
+  }
+  #media ul {
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    grid-gap: var(--space-xl);
+    margin-bottom: var(--space-xl);
   }
   .tooltip img {
     bottom: -30vh;
