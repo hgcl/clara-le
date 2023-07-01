@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Amélie"
 author: ["Jean-Pierre Jeunet"]
 cover: "https://www.themoviedb.org/t/p/w1280/vZ9NhNbQQ3yhtiC5sbhpy5KTXns.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2001"
 ---

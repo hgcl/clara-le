@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Coraline"
 author: ["Henry Selick"]
 cover: "https://www.themoviedb.org/t/p/w1280/7Hgiro8MGcfrHFi1ulgpmXaJhGV.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2009"
 ---

@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Parasite"
 author: ["Bong Joon-ho"]
 cover: "https://www.themoviedb.org/t/p/w1280/tNJB14t2lqZ9L4oyEKoN6DT2ou8.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2019"
 ---

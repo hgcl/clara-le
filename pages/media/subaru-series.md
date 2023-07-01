@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Subaru series"
 author: ["Masahito Soda"]
 cover: "https://covers.openlibrary.org/b/id/10971827-L.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "2006"
 ---

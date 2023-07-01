@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "What We Do in the Shadows"
 author: "Taika Waititi"
 cover: "https://www.themoviedb.org/t/p/w1280/32QNWU2RoB7El5m2cjo3TnmvUxJ.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2014"
 ---

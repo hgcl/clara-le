@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Harry Potter series"
 author: ["J. K. Rowling"]
 cover: "https://covers.openlibrary.org/b/id/12902949-L.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "1998"
 ---

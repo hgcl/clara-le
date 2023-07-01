@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Wizard of Oz"
 author: ["Victor Fleming"]
 cover: "https://www.themoviedb.org/t/p/w1280/bSA6DbAC5gdkaooU164lQUX6rVs.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1939"
 ---

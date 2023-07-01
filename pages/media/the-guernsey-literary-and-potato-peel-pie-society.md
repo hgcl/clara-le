@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "The Guernsey Literary and Potato Peel Pie Society"
 author: ["Mary Ann Shaffer", "Annie Barrows"]
 cover: "https://covers.openlibrary.org/b/id/10159827-L.jpg"
-dateCreated: "2022-01-01"
+dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "2008"
 ---
