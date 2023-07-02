@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Dune"
 author: ["Eric Roth"]
 cover: "https://www.themoviedb.org/t/p/w1280/8hoD5BQuUV9dDecAbiyVIxLjzZ9.jpg"
-dateCreated: "2021-01-01"
+dateCreated: "2021-12-01"
 dataTag: ["movie"]
 year: "2021"
 ---

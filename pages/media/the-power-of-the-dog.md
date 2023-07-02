@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "The Power of the Dog"
 author: ["Jane Campion"]
 cover: "https://www.themoviedb.org/t/p/w1280/epb8WAquLI1S38HWLaHwSdKvxHm.jpg"
-dateCreated: "2021-01-01"
+dateCreated: "2021-12-01"
 dataTag: ["movie"]
 year: "2021"
 ---
