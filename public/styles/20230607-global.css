@@ -499,7 +499,7 @@ footer * {
 #media ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: var(--space-m);
+  grid-gap: var(--space-s);
   margin-bottom: var(--space-l);
 }
 #media li {
