@@ -18,13 +18,13 @@ export async function buildPage(html) {
             .filter((post) => new Date(post.dateCreated).getFullYear() == year)
             .map(
               (post) =>
-                `<li data-tag="${post.dataTag}" class="card"><img alt="" src="${post.cover}"><a class="details" href="${post.slug}">${post.title} (${post.year})</a><span class="label">${post.dataTag} <span aria-hidden="true">•</span> ${post.author}</span></li>`
+                `<li data-tag="${post.dataTag}" class="card"><img alt="" src="${post.cover}"><a class="details" href="${post.slug}">${post.title}</a><span class="label">${post.dataTag} <span aria-hidden="true">•</span> ${post.year}</span></li>`
             )
             .join("") +
           `</ul>`
       )
       .join("")
-      .replace(/(,(?=\S))/g, ", "); // Make sure all commas are followed by a whitespace
+      .replace("<h2>2021</h2>", "<h2>Pre-2022</h2>");
     return html.replace("<p>Posts go here</p>", postsHtml);
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
