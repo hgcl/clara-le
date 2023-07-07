@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Pianist"
 author: ["Roman Polanski"]
-cover: "https://www.themoviedb.org/t/p/w1280/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+cover: "2hFvxCCWrTmCYwfy7yum0GKRi3Y"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2002"

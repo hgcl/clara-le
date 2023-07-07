@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Howl's Moving Castle"
 author: ["Hayao Miyazaki"]
-cover: "https://www.themoviedb.org/t/p/w1280/2KvuvaIBDxrafatQHX4hoj4FcI6.jpg"
+cover: "2KvuvaIBDxrafatQHX4hoj4FcI6"
 dateCreated: "2023-06-29"
 dataTag: ["movie"]
 year: "2004"

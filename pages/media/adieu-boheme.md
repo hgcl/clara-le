@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Adieu Bohème"
 author: ["Jeanne Frenkel"]
-cover: "https://www.themoviedb.org/t/p/w1280/qXQPjOZW6lMJMWlO94ki2jc1o9B.jpg"
+cover: "qXQPjOZW6lMJMWlO94ki2jc1o9B"
 dateCreated: "2022-01-01"
 dataTag: ["movie"]
 year: "2017"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Three Billboards Outside Ebbing, Missouri"
 author: ["Martin McDonagh"]
-cover: "https://www.themoviedb.org/t/p/w1280/pZRhqJj0DBy4ghB7g6pU7MGHsWJ.jpg"
+cover: "pZRhqJj0DBy4ghB7g6pU7MGHsWJ"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2017"

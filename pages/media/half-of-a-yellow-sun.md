@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Half of a Yellow Sun"
 author: ["Chimamanda Ngozi Adichie"]
-cover: "https://covers.openlibrary.org/b/id/11325154-L.jpg"
+cover: "11325154"
 dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "2006"

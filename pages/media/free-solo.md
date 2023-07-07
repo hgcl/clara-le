@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Free Solo"
 author: ["Elizabeth Chai Vasarhelyi", "Jimmy Chin"]
-cover: "https://www.themoviedb.org/t/p/w1280/v4QfYZMACODlWul9doN9RxE99ag.jpg"
+cover: "v4QfYZMACODlWul9doN9RxE99ag"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2018"

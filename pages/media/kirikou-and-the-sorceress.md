@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Kirikou and the Sorceress"
 author: ["Michel Ocelot"]
-cover: "https://www.themoviedb.org/t/p/w1280/oYM8Gz1JYLYpokgVjiBfIWdr4Ns.jpg"
+cover: "oYM8Gz1JYLYpokgVjiBfIWdr4Ns"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1998"

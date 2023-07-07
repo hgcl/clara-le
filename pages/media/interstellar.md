@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Interstellar"
 author: ["Christopher Nolan"]
-cover: "https://www.themoviedb.org/t/p/w1280/mS4EvhsrT0SQZOlWrQEzWI5KiUa.jpg"
+cover: "mS4EvhsrT0SQZOlWrQEzWI5KiUa"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2014"

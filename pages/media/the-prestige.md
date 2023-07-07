@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Prestige"
 author: ["Christopher Nolan"]
-cover: "https://www.themoviedb.org/t/p/w1280/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg"
+cover: "bdN3gXuIZYaJP7ftKK2sU0nPtEA"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2006"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Years and Years"
 author: ["Simon Cellan Jones", "Lisa Mulcahy"]
-cover: "https://www.themoviedb.org/t/p/w1280/u1FBsyMH9Tx7K5yzMnJsYRvNEKQ.jpg"
+cover: "u1FBsyMH9Tx7K5yzMnJsYRvNEKQ"
 dateCreated: "2021-01-01"
 dataTag: ["tv series"]
 year: "2019"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Broken Earth trilogy"
 author: ["N. K. Jemisin"]
-cover: "https://covers.openlibrary.org/b/id/9158524-L.jpg"
+cover: "9158524"
 dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "2015"

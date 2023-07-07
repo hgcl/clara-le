@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Handmaiden"
 author: ["Park Chan-wook"]
-cover: "https://www.themoviedb.org/t/p/w1280/oZrLMir5kxqErMoLQTG9gP4NCyk.jpg"
+cover: "oZrLMir5kxqErMoLQTG9gP4NCyk"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2016"

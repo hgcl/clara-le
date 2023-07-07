@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Soul"
 author: ["Pete Docter"]
-cover: "https://www.themoviedb.org/t/p/w1280/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
+cover: "hm58Jw4Lw8OIeECIq5qyPYhAeRJ"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2020"

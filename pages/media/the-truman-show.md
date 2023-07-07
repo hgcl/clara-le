@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Truman Show"
 author: ["Peter Weir"]
-cover: "https://www.themoviedb.org/t/p/w1280/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+cover: "vuza0WqY239yBXOadKlGwJsZJFE"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1998"

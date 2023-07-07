@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Inception"
 author: ["Christopher Nolan"]
-cover: "https://www.themoviedb.org/t/p/w1280/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+cover: "ljsZTbVsrQSqZgWeep2B1QiDKuh"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2010"

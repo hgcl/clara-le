@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Murderbot Diaries"
 author: "Martha Wells"
-cover: "https://covers.openlibrary.org/b/id/8478857-L.jpg"
+cover: "8478857"
 dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "2017"

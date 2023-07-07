@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Kubo and the Two Strings"
 author: ["Travis Knight"]
-cover: "https://www.themoviedb.org/t/p/w1280/la6QA9tk4Foq8OBH2Dyh5dTcw6H.jpg"
+cover: "la6QA9tk4Foq8OBH2Dyh5dTcw6H"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2016"

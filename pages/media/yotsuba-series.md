@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Yotsuba&! series"
 author: ["Kiyohiko Azuma"]
-cover: "https://covers.openlibrary.org/b/id/14353841-L.jpg"
+cover: "14353841"
 dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "2018"

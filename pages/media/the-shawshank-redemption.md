@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Shawshank Redemption"
 author: ["Frank Darabont"]
-cover: "https://www.themoviedb.org/t/p/w1280/lyQBXzOQSuE59IsHyhrp0qIiPAz.jpg"
+cover: "lyQBXzOQSuE59IsHyhrp0qIiPAz"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1994"

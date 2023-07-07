@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Django Unchained"
 author: ["Quentin Tarantino"]
-cover: "https://www.themoviedb.org/t/p/w1280/mgp4F0jQfixmgQtrn7QfrswRZK4.jpg"
+cover: "mgp4F0jQfixmgQtrn7QfrswRZK4"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2012"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Spotlight"
 author: ["Tom McCarthy"]
-cover: "https://www.themoviedb.org/t/p/w1280/gWkgMnIsd8Od7iyhEEKL5G4Qq6J.jpg"
+cover: "gWkgMnIsd8Od7iyhEEKL5G4Qq6J"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2015"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Hocus Pocus"
 author: ["Kenny Ortega"]
-cover: "https://www.themoviedb.org/t/p/w1280/9Y5AEhIuMuONTXXylAmg4sgRLPB.jpg"
+cover: "9Y5AEhIuMuONTXXylAmg4sgRLPB"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1993"

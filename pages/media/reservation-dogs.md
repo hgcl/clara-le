@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Reservation Dogs"
 author: ["Taika Waititi", "Sterlin Harjo"]
-cover: "https://www.themoviedb.org/t/p/w1280/ApzExFmLWANlp0BJUHmtDZRKyCA.jpg"
+cover: "ApzExFmLWANlp0BJUHmtDZRKyCA"
 dateCreated: "2022-12-01"
 dataTag: ["tv series"]
 year: "2021"
