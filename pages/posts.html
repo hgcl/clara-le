@@ -117,6 +117,7 @@ buildScript: /scripts/buildPostsList.js
       const itemTags = completeLiList[i]
         .getAttribute("data-tag")
         .toLowerCase()
+        .replace(" ", "-")
         .split(",");
       // 1. Hide all tiny notes if tiny notes checkbox is unchecked
       // 2. Hide posts if tag != selected tag
