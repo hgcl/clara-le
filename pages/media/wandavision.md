@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "WandaVision"
 author: ["Jac Schaeffer"]
-cover: "https://www.themoviedb.org/t/p/w1280/glKDfE6btIRcVB5zrjspRIs4r52.jpg"
+cover: "glKDfE6btIRcVB5zrjspRIs4r52"
 dateCreated: "2021-12-01"
 dataTag: ["tv series"]
 year: "2021"

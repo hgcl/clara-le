@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Get Out"
 author: ["Jordan Peele"]
-cover: "https://www.themoviedb.org/t/p/w1280/DaDh4SXcJHHDvdMCpng2M95r8s.jpg"
+cover: "DaDh4SXcJHHDvdMCpng2M95r8s"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2017"

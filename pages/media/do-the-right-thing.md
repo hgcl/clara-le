@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Do the Right Thing"
 author: ["Spike Lee"]
-cover: "https://www.themoviedb.org/t/p/w1280/oAeLEyWYObkLmYbRnPQAKBUAQw3.jpg"
+cover: "oAeLEyWYObkLmYbRnPQAKBUAQw3"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1989"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Kill Bill"
 author: ["Quentin Tarantino"]
-cover: "https://www.themoviedb.org/t/p/w1280/zomX76Pf3nUaTzRBk5BveLk1QPu.jpg"
+cover: "zomX76Pf3nUaTzRBk5BveLk1QPu"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2003"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Memento"
 author: ["Christopher Nolan"]
-cover: "https://www.themoviedb.org/t/p/w1280/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg"
+cover: "yuNs09hvpHVU1cBTCAk9zxsL2oW"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2000"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Her"
 author: ["Spike Jonze"]
-cover: "https://www.themoviedb.org/t/p/w1280/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg"
+cover: "eCOtqtfvn7mxGl6nfmq4b1exJRc"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2013"

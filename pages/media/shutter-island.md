@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Shutter Island"
 author: ["Martin Scorsese"]
-cover: "https://www.themoviedb.org/t/p/w1280/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg"
+cover: "4GDy0PHYX3VRXUtwK5ysFbg3kEx"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2010"

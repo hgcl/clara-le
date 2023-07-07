@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Jumanji"
 author: ["Jake Kasdan"]
-cover: "https://www.themoviedb.org/t/p/w1280/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg"
+cover: "pSgXKPU5h6U89ipF7HBYajvYt7j"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2017"

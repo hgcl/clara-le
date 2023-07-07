@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Three-Body Problem trilogy"
 author: ["Cixin Liu"]
-cover: "https://covers.openlibrary.org/b/id/9157544-L.jpg"
+cover: "9157544"
 dateCreated: "2021-01-01"
 dataTag: ["book"]
 year: "2008"

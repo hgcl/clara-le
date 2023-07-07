@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Joker"
 author: ["Todd Phillips"]
-cover: "https://www.themoviedb.org/t/p/w1280/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+cover: "udDclJoHjfjb8Ekgsd4FDteOkCU"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2019"

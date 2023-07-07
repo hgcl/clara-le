@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Artist"
 author: ["Michel Hazanavicius"]
-cover: "https://www.themoviedb.org/t/p/w1280/z68py0ZqPgeacGPG54AGVRbNBS7.jpg"
+cover: "z68py0ZqPgeacGPG54AGVRbNBS7"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2011"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Mary Poppins"
 author: ["Robert Stevenson"]
-cover: "https://www.themoviedb.org/t/p/w1280/mrHTMQ6bIUQeo2WLD4KF8fYW4Nl.jpg"
+cover: "mrHTMQ6bIUQeo2WLD4KF8fYW4Nl"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1964"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "A Gentleman in Moscow"
 author: ["Amor Towles"]
-cover: "https://covers.openlibrary.org/b/id/11326818-L.jpg"
+cover: "11326818"
 dateCreated: "2022-05-01"
 dataTag: ["book"]
 year: "2016"

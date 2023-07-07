@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Matrix"
 author: ["Lana Wachowski", "Lilly Wachowski"]
-cover: "https://www.themoviedb.org/t/p/w1280/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg"
+cover: "dXNAPwY7VrqMAo51EKhhCJfaGb5"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1999"

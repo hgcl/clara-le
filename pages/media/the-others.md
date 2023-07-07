@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Others"
 author: ["Alejandro Amenábar"]
-cover: "https://www.themoviedb.org/t/p/w1280/AdTFzlJmQ3rTtTpoyS9rqU17qN7.jpg"
+cover: "AdTFzlJmQ3rTtTpoyS9rqU17qN7"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2001"

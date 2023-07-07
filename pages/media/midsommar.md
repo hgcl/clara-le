@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Midsommar"
 author: ["Ari Aster"]
-cover: "https://www.themoviedb.org/t/p/w1280/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg"
+cover: "7LEI8ulZzO5gy9Ww2NVCrKmHeDZ"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2019"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Hunt for the Wilderpeople"
 author: ["Taika Waititi"]
-cover: "https://www.themoviedb.org/t/p/w1280/QKVexLBGxjLYfgV2WBH90VzAHt.jpg"
+cover: "QKVexLBGxjLYfgV2WBH90VzAHt"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2016"

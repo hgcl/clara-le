@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "WALL·E"
 author: ["Andrew Stanton"]
-cover: "https://www.themoviedb.org/t/p/w1280/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+cover: "hbhFnRzzg6ZDmm8YAmxBnQpQIPh"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2008"

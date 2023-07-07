@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Triangle of Sadness"
 author: ["Ruben Östlund"]
-cover: "https://www.themoviedb.org/t/p/w1280/k9eLozCgCed5FGTSdHu0bBElAV8.jpg"
+cover: "k9eLozCgCed5FGTSdHu0bBElAV8"
 dateCreated: "2022-12-01"
 dataTag: ["movie"]
 year: "2022"

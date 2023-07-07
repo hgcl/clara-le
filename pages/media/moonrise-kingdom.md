@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Moonrise Kingdom"
 author: ["Wes Anderson"]
-cover: "https://www.themoviedb.org/t/p/w1280/xrziXRHRQ7c7YLIehgSJY8GQBsx.jpg"
+cover: "xrziXRHRQ7c7YLIehgSJY8GQBsx"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2012"

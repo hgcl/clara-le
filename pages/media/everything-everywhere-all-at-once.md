@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Everything Everywhere All At Once"
 author: ["Daniel Scheinert", "Daniel Kwan"]
-cover: "https://www.themoviedb.org/t/p/w1280/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+cover: "w3LxiVYdWWRvEVdn5RYq6jIqkb1"
 dateCreated: "2022-12-01"
 dataTag: ["movie"]
 year: "2022"

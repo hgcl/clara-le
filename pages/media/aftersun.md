@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Aftersun"
 author: "Charlotte Wells"
-cover: "https://www.themoviedb.org/t/p/w1280/jeXmhP2zbUkREMRqFOYIwQOk49T.jpg"
+cover: "jeXmhP2zbUkREMRqFOYIwQOk49T"
 dateCreated: "2022-12-01"
 dataTag: ["movie"]
 year: "2022"

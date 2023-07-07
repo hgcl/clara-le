@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Ex Machina"
 author: ["Alex Garland"]
-cover: "https://www.themoviedb.org/t/p/w1280/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg"
+cover: "dmJW8IAKHKxFNiUnoDR7JfsK7Rp"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "2015"

@@ -3,7 +3,7 @@ template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "12 Angry Men"
 author: ["Reginald Rose"]
-cover: "https://www.themoviedb.org/t/p/w1280/ppd84D2i9W8jXmsyInGyihiSyqz.jpg"
+cover: "ppd84D2i9W8jXmsyInGyihiSyqz"
 dateCreated: "2021-01-01"
 dataTag: ["movie"]
 year: "1957"
