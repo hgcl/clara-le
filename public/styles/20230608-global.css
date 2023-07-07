@@ -142,6 +142,15 @@ figcaption {
   line-height: 1.1rem;
 }
 
+/* Image lazy loading blur */
+.lazy-image[data-src] {
+  filter: blur(0.2em);
+}
+.lazy-image {
+  filter: blur(0em);
+  transition: filter 0.5s 0.25s;
+}
+
 /* Typography */
 
 h1,
