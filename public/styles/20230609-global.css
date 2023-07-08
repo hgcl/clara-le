@@ -418,7 +418,9 @@ a[id*="user-content-fnref"] {
 }
 
 .subtitle {
+  font-family: var(--sans-serif);
   font-size: var(--font-m);
+  letter-spacing: -0.005rem;
   line-height: 2rem;
   opacity: var(--alt-text-opacity);
   margin: 0.5rem 0 2rem 0;
