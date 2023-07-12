@@ -11,12 +11,16 @@ export function minToDurationString(mins) {
 
 export async function buildPage(html, frontmatter) {
   try {
+    // p1 captures category name, p2 is the first tag
     function linkReplacer(match, p1, p2, p3, p4, p5, p6, offset, string) {
-      let newString = `class="${p1}-data-tags"><a href="/${p1}s/?q=${p2}">${p2}</a>`;
-      const capturingGroups = [p3, p4, p5, p6];
-      capturingGroups.forEach(function (p) {
-        if (p) {
-          newString = newString + `, <a href="/${p1}s/?q=${p}">${p}</a>`;
+      let newString = `class="${p1}-data-tags">`;
+      const capturingGroups = [p2, p3, p4, p5, p6];
+      capturingGroups.forEach(function (p, i) {
+        if (p && p != "tiny") {
+          if (i > 0) {
+            newString = newString + `, `;
+          }
+          newString = newString + `<a href="/${p1}s/?q=${p}">${p}</a>`;
         }
       });
       return newString;
