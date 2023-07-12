@@ -115,7 +115,7 @@ buildScript: /scripts/buildRecipesList.js
       let itemTags = completeLiList[i]
         .getAttribute("data-tag")
         .toLowerCase()
-        .split(" ");
+        .split(",");
       // Hide <li> if it doesn't include the selected param
       if ((param === "all") | (itemTags.includes(param) === true)) {
         completeLiList[i].setAttribute("style", "display:inherit");
