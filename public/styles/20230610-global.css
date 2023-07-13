@@ -29,7 +29,6 @@
   --white: hsl(0deg, 0%, 99%);
   --black: hsl(0deg, 0%, 3%);
   --grey-on-black: rgb(210, 210, 210);
-  --grey-on-white: #515151;
   --red-light: hsl(0, 78%, 65%);
   --yellow-light: hsl(44, 100%, 71%);
   --green-light: hsl(140, 55%, 54%);
@@ -52,7 +51,6 @@ html {
   --color-text: hsl(0deg, 0%, 100%);
   --color-text-alt: hsl(360deg, 0%, 0%);
   --color-subtle: var(--grey-on-black);
-  --color-subtle-inverted: var(--grey-on-white);
 }
 
 body {
@@ -201,7 +199,7 @@ li {
   font-family: var(--sans-serif);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: small;
+  font-size: var(--font-xs);
   line-height: 1rem;
   letter-spacing: 0.1em;
   color: var(--color-subtle);
@@ -221,7 +219,7 @@ pre {
 
 code,
 kbd {
-  font-size: smaller;
+  font-size: var(--font-xs);
 }
 
 hr {
@@ -361,11 +359,11 @@ input[type="checkbox"] {
 
 .footnotes {
   margin-top: var(--space-7xl);
-  font-family: var(--sans-serif);
-  font-size: small;
+  font-size: var(--font-xs);
   line-height: 1.2rem;
   color: var(--color-subtle);
 }
+font-family: var(--serif);
 .footnotes * {
   color: var(--color-subtle);
 }
@@ -421,7 +419,7 @@ a[id*="user-content-fnref"] {
   font-size: var(--font-m);
   letter-spacing: -0.005rem;
   line-height: 2rem;
-  color: var(--grey-on-black);
+  color: var(--color-subtle);
   margin: 0.5rem 0 2rem 0;
 }
 
@@ -500,7 +498,7 @@ footer * {
 .post-row .subtle {
   /* font styles smaller than body */
   margin-top: 0.25rem;
-  font-size: smaller;
+  font-size: var(--font-xs);
   line-height: 1.3rem;
 }
 
