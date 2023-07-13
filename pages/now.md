@@ -5,7 +5,7 @@ title: "Now"
 dateCreated: "2023-07-12"
 ---
 
-I am currently [slow living](/posts/29-time-for-a-break/) and spending my days following my heart desires.
+I am currently [slow living](/posts/29-time-for-a-break/) in Ardèche and spending my days following my heart desires.
 
 Top of my mind at the moment:
 
