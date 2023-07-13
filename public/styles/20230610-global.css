@@ -28,7 +28,7 @@
   /* Colors */
   --white: hsl(0deg, 0%, 99%);
   --black: hsl(0deg, 0%, 3%);
-  --grey-on-black: #b4b4b4;
+  --grey-on-black: rgb(210, 210, 210);
   --grey-on-white: #515151;
   --red-light: hsl(0, 78%, 65%);
   --yellow-light: hsl(44, 100%, 71%);
@@ -421,7 +421,7 @@ a[id*="user-content-fnref"] {
   font-size: var(--font-m);
   letter-spacing: -0.005rem;
   line-height: 2rem;
-  opacity: var(--alt-text-opacity);
+  color: var(--grey-on-black);
   margin: 0.5rem 0 2rem 0;
 }
 
