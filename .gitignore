@@ -5,6 +5,7 @@ dist
 .*.md
 .*.html
 .*.js
+.*.json
 .env
 .post-templates
 

@@ -1,0 +1,36 @@
+{
+  "title": "Clafoutis",
+  "publishedOn": "2023-07-18",
+  "dataTag": ["dessert", "ahead", "summer"],
+  "intro": "Recette d'un vieux bouquin de cuisine de France.",
+  "duration": "35",
+  "ingredients": [
+    {
+      "ingTitle": "Pour 6 personnes",
+      "ingMand": [
+        "500 g de fruits avec leurs noyaux (cerises, mirabelles, prunes, baies)",
+        "1 cuillère à soupe bombée de farine",
+        "65 g de sucre",
+        "1 pincée de sel",
+        "120 g (12 cl) de lait",
+        "2 oeufs"
+      ],
+      "ingOpt": ["1 cuillère à soupe de crème de cerise"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Dans un grand bol, mélanger les ingrédients secs (farine, sucre, sel).",
+        "Ajouter le lait en battant petit à petit pour éviter les grumeaux.",
+        "Lorsque le mélange est homogène, ajouter les oeufs et mélanger.",
+        "Préchauffer le four à 180°C.",
+        "Disposer les fruits dans un moule à cake et les couvrir du mélange précédent.",
+        "Cuire au four pendant 25 minutes et laisser refroir avant de servir."
+      ]
+    }
+  ],
+  "notes": ["Note : le clafoutis peut être congelé et réchauffé au four."],
+  "recipeUrl": ""
+}

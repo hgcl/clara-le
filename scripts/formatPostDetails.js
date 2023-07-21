@@ -11,6 +11,20 @@ export function minToDurationString(mins) {
 
 export async function buildPage(html, frontmatter) {
   try {
+    // p1 captures category name, p2 is the first tag
+    function linkReplacer(match, p1, p2, p3, p4, p5, p6, offset, string) {
+      let newString = `class="${p1}-data-tags">`;
+      const capturingGroups = [p2, p3, p4, p5, p6];
+      capturingGroups.forEach(function (p, i) {
+        if (p && p != "tiny") {
+          if (i > 0) {
+            newString = newString + `, `;
+          }
+          newString = newString + `<a href="/${p1}s/?q=${p}">${p}</a>`;
+        }
+      });
+      return newString;
+    }
     return (
       html
         // we include the html <> tags to avoid replacing the datetime attribute value
@@ -21,6 +35,18 @@ export async function buildPage(html, frontmatter) {
             month: "long",
             day: "numeric",
           })}<`
+        )
+        // Make footnotes label visible
+        .replace(
+          `<h2 id="footnote-label" class="sr-only">Footnotes</h2>`,
+          `<h2 id="footnote-label" class="label">Footnotes</h2>`
+        )
+        // Make sure all commas are followed by a whitespace
+        .replace(/(,(?=\S))/g, ", ")
+        // Add links to data tags (max 5)
+        .replace(
+          /class\="(recipe|post)-data-tags"\>(\w+)(?:.\s)?(\w+)?(?:.\s)?(\w+)?(?:.\s)?(\w+)?(?:.\s)?(\w+)?/g,
+          linkReplacer
         )
     );
   } catch (error) {

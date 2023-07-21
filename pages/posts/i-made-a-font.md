@@ -7,16 +7,9 @@ dateCreated: "2023-01-10"
 dataTag: ["creative", "digital"]
 ---
 
-<p class="sr-only">There is some dummy text here to illustrate the font used in English, Vietnamese and French.</p>
-<div style='font-family: EauDePoisson' aria-hidden="true">
-<h2 style='font-family: EauDePoisson'>Sample of the <cite>Eau de poisson</cite> font</h2>
-<ol>
-<li>Them replenish. Doesn't dominion. Have above under seed male. Made you'll. In fifth fourth second saying of waters, tree heaven whose thing seasons let firmament from you'll great said our moved may very rule they're so whose together one.
-</li>
-<li>Canh chua cá lóc là món ăn từ lâu đã quen thuộc với người dân Việt Nam đặc biệt là ở vùng miền tây Nam Bộ, buổi trưa hè nắng nóng mà được ăn tô canh chua cá lóc, kèm với món cá lóc kho tộ thì mọi cảm giác mệt mỏi sẽ bay biến mất.</li>
-<li>Hâtons-nous d'ajouter, en cherchant quoi ? Proprement vêtu de son accoutrement et sa barbe noire, parut. Assez loin, et il lui allongea une claque formidable sur les reins et les coeurs n'aiment pas à faire partir son fils, vous passer de moi...</li>
-</ol>
-</div>
+## Sample of the _Eau de poisson_ font
+
+![Sample of the Eau de poisson font](/images/20230110-eaudepoisson-font-sample.webp)
 
 ## A bit of context
 

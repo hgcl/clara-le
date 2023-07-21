@@ -2,21 +2,20 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Now"
-dateCreated: "2023-05-17"
+dateCreated: "2023-07-12"
 ---
 
-I am just starting my [early retirement parenthesis](https://clarale.com/posts/29-time-for-a-break/)—a.k.a, I am unemployed for the first time in four years. I do have a few productive plans for these next few months, but to be honest, I mostly want to slow down a bit and enjoy life differently.
+I am currently [slow living](/posts/29-time-for-a-break/) in Ardèche and spending my days following my heart desires.
 
-Currently, I spend most of my days:
-- reading sci-fi novels
-- tending to the garden
-- blogging here and [there](https://eaudepoisson.com/)
-- climbing outdoors and at my local gym
-- working on a private Pocket alternative with Robin
-- exploring new recipes
-- doing small creative projects
-- learning Typescript
-- drinking wine with France
+Top of my mind at the moment:
+
+- Climbing, climbing, climbing (and learning new cool outdoor techniques)
+- Working on a private Pocket alternative with Robin
+- Learning about plants and creating my herbarium
+- Reading
+- Tending to my website
+- Gardening and preserving food
+- Planning our big 2024 trip
 
 ---
 
@@ -24,6 +23,7 @@ This is a [Now page](https://nownownow.com/). I update mine every few months wit
 
 ## Archive
 
+- [May 17, 2023](/posts/now-archive-7)
 - [February 6, 2023](/posts/now-archive-6)
 - [November 4, 2022](/posts/now-archive-5)
 - [June 25, 2022](/posts/now-archive-4)

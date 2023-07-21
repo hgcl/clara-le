@@ -9,130 +9,105 @@ buildScript: /scripts/buildRecipesList.js
   linked in the posts directly. Some of the steps and ingredients might differ
   from the original instructions to suit my preferences.
 </p>
-<fieldset id="posts-filter">
-  <legend class="sr-only">Select filters:</legend>
-  <div>
-    <input
-      type="radio"
-      id="all"
-      name="filter"
-      value="all"
-      onchange="filterItems(value);"
-      checked
-    />
-    <label class="radio-label" for="all">All</label>
-  </div>
-  <div>
-    <!-- We need the id to be plural to avoid collisions with regular main id... -->
-    <input
-      type="radio"
-      id="mains"
-      name="filter"
-      value="main"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="mains">Mains</label>
-  </div>
-  <div>
-    <input
-      type="radio"
-      id="cereal"
-      name="filter"
-      value="cereal"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="cereal">Cereals</label>
-  </div>
-  <div>
-    <input
-      type="radio"
-      id="dessert"
-      name="filter"
-      value="dessert"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="dessert">Desserts</label>
-  </div>
-  <div>
-    <input
-      type="radio"
-      id="extra"
-      name="filter"
-      value="extra"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="extra">Extras</label>
-  </div>
-  <div>
-    <input
-      type="radio"
+<div id="posts-filter">
+  <span class="sr-only">Select filters:</span>
+  <button
+    type="button"
+    class="selectedTag"
+    id="all"
+    value="all"
+    onclick="filterItems(value);"
+  >
+    All
+  </button>
+  <button type="button" id="main" value="main" onclick="filterItems(value);">
+    Main
+  </button>
+  <button
+    type="button"
+    id="cereal"
+    value="cereal"
+    onclick="filterItems(value);"
+  >
+    Cereal
+  </button>
+  <button
+    type="button"
+    id="dessert"
+    value="dessert"
+    onclick="filterItems(value);"
+  >
+    Dessert
+  </button>
+  <button type="button" id="extra" value="extra" onclick="filterItems(value);">
+    Extra
+  </button>
+  <details>
+    <summary><span class="sr-only">More filters</span>...</summary>
+    <button
+      type="button"
       id="ahead"
-      name="filter"
       value="ahead"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="ahead">Prep-ahead</label>
-  </div>
-  <div>
-    <input
-      type="radio"
-      id="diy"
-      name="filter"
-      value="diy"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="diy">DIY</label>
-  </div>
-  <div>
-    <input
-      type="radio"
+      onclick="filterItems(value);"
+    >
+      Prep-ahead
+    </button>
+    <button type="button" id="diy" value="diy" onclick="filterItems(value);">
+      DIY
+    </button>
+    <button
+      type="button"
       id="spring"
-      name="filter"
       value="spring"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="spring">Spring</label>
-  </div>
-  <div>
-    <input
-      type="radio"
+      onclick="filterItems(value);"
+    >
+      Spring
+    </button>
+    <button
+      type="button"
       id="summer"
-      name="filter"
       value="summer"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="summer">Summer</label>
-  </div>
-  <div>
-    <input
-      type="radio"
-      id="fall"
-      name="filter"
-      value="fall"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="fall">Fall</label>
-  </div>
-  <div>
-    <input
-      type="radio"
+      onclick="filterItems(value);"
+    >
+      Summer
+    </button>
+    <button type="button" id="fall" value="fall" onclick="filterItems(value);">
+      Fall
+    </button>
+    <button
+      type="button"
       id="winter"
-      name="filter"
       value="winter"
-      onchange="filterItems(value);"
-    />
-    <label class="radio-label" for="winter">Winter</label>
-  </div>
-</fieldset>
+      onclick="filterItems(value);"
+    >
+      Winter
+    </button>
+  </details>
+</div>
 <ul id="recipes" class="nobullet">
   <li>Posts go here</li>
 </ul>
 
 <!-- Same script as posts.html -->
 <script>
+  // Set variables
+  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+  let selectedtag = "all";
+  const allButtons = document.querySelectorAll("#posts-filter button");
+
   function filterItems(param) {
-    // Select all list items and unhide
-    const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
+    if (param) {
+      // Update URL onclick
+      updateURL(param);
+    }
+
+    // Update CSS of current button and reset other buttons styles
+    allButtons.forEach((button) => {
+      button.removeAttribute("class");
+    });
+    const clickedButton = document.getElementById(param);
+    clickedButton.setAttribute("class", "selectedTag");
+
     // Hide list items based on updated tags list
     let i = 0;
     while (i < completeLiList.length) {
@@ -140,14 +115,26 @@ buildScript: /scripts/buildRecipesList.js
       let itemTags = completeLiList[i]
         .getAttribute("data-tag")
         .toLowerCase()
-        .split(" ");
+        .split(",");
       // Hide <li> if it doesn't include the selected param
       if ((param === "all") | (itemTags.includes(param) === true)) {
-        completeLiList[i].setAttribute("style", "display:flex");
+        completeLiList[i].setAttribute("style", "display:inherit");
       } else {
         completeLiList[i].setAttribute("style", "display:none");
       }
       i++;
     }
+  }
+
+  // Get current URL and apply filter to open page if necessary
+  let currentUrl = new URL(window.location.href);
+  const searchParams = new URLSearchParams(currentUrl.search);
+  filterItems(searchParams.get("q"));
+
+  // Align selected filter with URL
+  function updateURL(filter) {
+    // Update URL
+    currentUrl.searchParams.set("q", filter);
+    history.pushState({}, "", currentUrl);
   }
 </script>

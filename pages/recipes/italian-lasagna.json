@@ -1,0 +1,44 @@
+{
+  "title": "Italian lasagna",
+  "publishedOn": "2023-02-04",
+  "dataTag": ["main", "ahead"],
+  "intro": "",
+  "duration": "60",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 paquet de lasagnes sèches",
+        "0.5 l de sauce bolognaise",
+        "0.5 l de sauce béchamel",
+        "1 oignon, émincé",
+        "2 gousses d'ail",
+        "Poivre",
+        "Sel"
+      ],
+      "ingOpt": ["Légumes coupés en dés (carottes, céleri, etc.)"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Pimper la bolognaise",
+      "insSteps": [
+        "Faire revenir gousses hachées d'ail et les oignons émincés dans un peu d'huile d'olive.",
+        "Ajouter les légumes coupés en dés et faire revenir le tout.",
+        "Ajouter la sauce bolognaise, assaisoner, puis laisser mijoter à feu doux jusqu'à ce que les légumes soient cuits."
+      ]
+    },
+    {
+      "insTitle": "Construire la lasagne",
+      "insSteps": [
+        "Préchauffer le four à 200&nbsp;°C (thermostat 6–7). Huiler le plat à lasagnes. Poser une fine couche de béchamel puis des feuilles de lasagnes, de la bolognaise, et de la béchamel. Répéter l'opération autant de fois que nécessaire.",
+        "Sur la dernière couche de lasagnes, ne mettre que de la béchamel et recouvrir de fromage râpé.",
+        "Enfourner pour environ 25 minutes de cuisson."
+      ]
+    }
+  ],
+  "notes": [
+    "Note: Si vous prévoyez 3 couches de lasagnes, il faudra 5 couches de béchamel et 3 couches de bolognaise en tout."
+  ],
+  "recipeUrl": "https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx"
+}

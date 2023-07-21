@@ -5,6 +5,7 @@ template: /templates/index.html
   <h1 class="sr-only">Home</h1>
   <div class="h-card">
     <svg
+      aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       width="191"
@@ -68,11 +69,13 @@ template: /templates/index.html
 	l-0.5-0.7c0.5,3.1,1.4,6.1,1.4,9.2C129.5,100.4,117.4,115.8,101.4,116.4z"
       />
     </svg>
-    <p class="emphasis">
-      <a class="u-url hide" href="https://clarale.com/"></a>
-      <img class="u-photo hide" src="/images/clara.svg" />Hey, I'm <span class="p-name p-given-name">Clara</span>
-      See what I am <a href="/posts/">writing</a> or
-      <a href="/now/">doing now</a>.
-    </p>
+    <div>
+      <p class="emphasis">
+        <a class="u-url hide" href="https://clarale.com/"></a>
+        <img class="u-photo hide" src="/images/clara.svg" />Hey, I'm
+        <span class="p-name p-given-name">Clara</span>. Check out what I am
+        <a href="/posts/">writing</a> or <a href="/now/">doing now</a>.
+      </p>
+    </div>
   </div>
 </section>

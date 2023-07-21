@@ -34,10 +34,13 @@ export default async function getPosts(dirCategory) {
         return {
           title: frontmatter.title,
           subtitle: frontmatter.subtitle,
+          author: frontmatter.author,
+          cover: frontmatter.cover,
           dateCreated: frontmatter.dateCreated,
           dateModified: frontmatter.dateModified,
           durationMin: frontmatter.durationMin,
           dataTag: frontmatter.dataTag,
+          year: frontmatter.year,
           slug: `/${dirCategory}/${file
             .replace(".md", "")
             .replace(".html", "")}`,

@@ -13,7 +13,7 @@ template: /templates/recipe-posts.html
 title: "${file.title}"
 dateCreated: "${file.publishedOn}"
 durationMin: "${file.duration}"
-dataTag: "${file.dataTag.join(" ")}"
+dataTag: ["${file.dataTag.join(`","`)}"]
 buildScript: "/scripts/formatPostDetails.js"
 -->
 `;
