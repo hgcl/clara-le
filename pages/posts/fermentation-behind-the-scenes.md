@@ -7,9 +7,9 @@ dateCreated: "2023-07-27"
 dataTag: ["thoughts"]
 ---
 
-In the few last years, I have superficially dabbled with fermenting my own food, making kimchi, Sauerkraut, kombucha, kefir, etc. I have also learned that so many of the things I drink or eat are in fact fermented—think cheese, wine, beer, yogurt, bread.
+In the last few years, I have superficially dabbled with fermenting my own food, making kimchi, Sauerkraut, kombucha or kefir. I have also learned that so many of the things I drink or eat are in fact fermented—think cheese, wine, beer, yogurt, bread.
 
-Since Wednesday, I have been diving deep into the intricate world of fermentation from a complete other direction. I stepped outside of my comfort zone and had a look at this whole fermentation shenanigan from the point of view of biochemistry.
+Since Wednesday, I have been diving deep into the intricate world of fermentation from a complete other direction. I stepped outside my comfort zone and had a look at this whole fermentation shenanigan from the point of view of biochemistry.
 
 Here are the things I've learned. <span class="subtle">(Disclaimer: I am mostly quoting Wikipedia as that's where my fermentation rabbit hole started. Please get back to me if I wrote anything wrong-I-don't-really-know-what-I'm-talking-about.)</span>
 
@@ -61,8 +61,8 @@ A SCOBY is a _symbiotic culture of bacteria and yeast_. It is a culinary ferment
 
 Common examples of food / drinks made from a SCOBY are kombucha, kefir, sourdough bread, vinegar, soy sauce or sour beers.
 
-A SCOBY is a mix of yeast, acetic acid bacteria (AAB), and LAB.
+A SCOBY is a mix of yeast, LAB, and acetic acid bacteria (AAB).
 
-The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple types of fermentation. To be completely honest, I haven't fully understood what ferments what and when. But all in all, yeasts consume sugars and produce ethanol. The LAB are anaerobic, consume sugars and produce lactic acid. The AAB are aerobic[^4], consume either sugars or ethanol and produce acetic acid.
+The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple types of fermentation and oxidation. To be completely honest, I haven't fully understood what ferments what and when. But all in all, yeasts consume sugars and produce ethanol. The LAB are anaerobic, consume sugars and produce lactic acid. The AAB are aerobic[^4], consume either sugars or ethanol and produce acetic acid.
 
 [^4]: They like oxygen.
