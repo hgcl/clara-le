@@ -29,7 +29,7 @@ Let's have a look at a few types of fermentation used in the food-industry—bec
 
 _Lacto fermentation_, also called _lactic acid fermentation_, is the process where lactic acid bacteria (LAB) convert sugars into energy, with lactic acid (and sometimes other stuff as well) as by-products. This occurs in an anaerobic environment[^2].
 
-Common examples of lacto fermentation are kimchi, Sauerkraut or yogurt. LAB already naturally exists in many vegetables, so you don't need to add external bacteria for the fermentation to occur.
+Common examples of lacto fermentation are kimchi, Sauerkraut or yogurt. LAB already naturally exists in many vegetables, so you don't need to add external bacteria for the fermentation to occur. The bacteria keep on living in the final product and make them _probiotic_, which is good your gut health.
 
 Let's use the [Sauerkraut recipe](/recipes/german-sauerkraut/) as an example. At its simplest, you only need to mix cabbage with water and let it rest at room temperature to kickstart the fermentation process. Notice how the recipe insists on preventing the minced cabbage from coming in contact with the air. The reason is to keep the environment anaerobic, where LAB thrive whereas other \*bad bacteria\* would die. As the fermentation goes, all the glucose present in the cabbage is transformed into lactic acid, making Sauerkraut sour.
 
@@ -42,6 +42,10 @@ _Ethanol fermentation_ or _alcoholic fermentation_ is the process where yeasts�
 In the case of food, ethanol makes things—well—alcoholic, whereas carbon dioxide produces bubbles. In short, this type of fermentation is used for wines, beers, whiskeys, rums and tons of other alcoholic beverages.
 
 In most cases, the brewers will let the carbon dioxide escape during a primary fermentation. When needed, a second fermentation (sometimes with extra yeast) can be done in the final bottle. As the carbon dioxide doesn't have anywhere to go, it is integrated into the liquid as bubbles—yay! Beers and sparkly wines are perfect examples of this second fermentation.
+
+With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached 15% alcohol per unit volume—strong enough to kill all types of yeasts. When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
+
+Winemakers also use this yeast property to make fortified wines (e.g. Porto wine). They can stop the fermenting process by adding some extra alcohol in wine. This usually results in a sweeter and stronger wine. The fermenting process can also be stopped by simply dropping the temperature of the tank.
 
 > Fun fact: ethanol fermentation also takes place in some species of fish where it provides energy when oxygen is scarce.
 
@@ -66,3 +70,7 @@ A SCOBY is a mix of yeast, LAB, and acetic acid bacteria (AAB).
 The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple types of fermentation and oxidation. To be completely honest, I haven't fully understood what ferments what and when. But all in all, yeasts consume sugars and produce ethanol. The LAB are anaerobic, consume sugars and produce lactic acid. The AAB are aerobic[^4], consume either sugars or ethanol and produce acetic acid.
 
 [^4]: They like oxygen.
+
+---
+
+That's it on today's episode on food fermentation! I might update it in the future, as I learn more about this fascinating world!
