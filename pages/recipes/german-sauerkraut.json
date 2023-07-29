@@ -7,8 +7,8 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["4 tsp. salt", "1 tsp. fennel seeds", "1 tsp. black pepper"],
-      "ingOpt": ["1 tsp. any other spices or dried herbs"]
+      "ingMand": ["4 tsp salt", "1 tsp fennel seeds", "1 tsp black pepper"],
+      "ingOpt": ["1 tsp any other spices or dried herbs"]
     }
   ],
   "instructions": [

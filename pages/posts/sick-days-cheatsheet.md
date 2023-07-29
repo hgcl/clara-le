@@ -41,5 +41,5 @@ As it is happening more and more often, here is a list of the things I personall
 
 [^1]: Always make sure to store some porridge in the freezer!
 [^2]: Essential oils: 1 drop lavender, 1 drop peppermint
-[^3]: Preboil 3/4 cup water and let it cool down, mix in 1&nbsp;tsp. salt and 1/2&nbsp;tsp. baking soda. You can keep this solution for a week.
+[^3]: Preboil 3/4 cup water and let it cool down, mix in 1&nbsp;tsp salt and 1/2&nbsp;tsp baking soda. You can keep this solution for a week.
 [^4]: Inhale through nose to a count of three, hold breath to a count of three, then exhale to a count of three

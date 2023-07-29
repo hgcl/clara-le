@@ -7,7 +7,7 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["1 l milk", "1.5 tbsp. white vinegar"],
+      "ingMand": ["1 l milk", "1.5 tbsp white vinegar"],
       "ingOpt": []
     }
   ],
@@ -16,7 +16,7 @@
       "insTitle": "",
       "insSteps": [
         "Boil milk",
-        "Add 1–1.5 tbsp. of vinegar per liter of milk",
+        "Add 1–1.5 tbsp of vinegar per liter of milk",
         "Milk should curdle, add vinegar if necessary",
         "Drain curdled milk with cloth, add salt",
         "Optional: Keep it pressed 1–2h"
