@@ -1,0 +1,56 @@
+{
+  "title": "Stuffed vine leaves",
+  "publishedOn": "2023-07-31",
+  "dataTag": ["extra", "ahead", "preserve"],
+  "intro": "France's recipe, perfect for quick out-of-the-freezer starters.",
+  "duration": "120",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 tasse d'huile d'olive",
+        "2 c.à.s. de pignons de pin",
+        "2 oignons émincés",
+        "1/2 tasse de riz blanc",
+        "1/4 tasse de raisins secs",
+        "sel et poivre",
+        "un peu de menthe",
+        "1/2 tasse d'eau chaude",
+        "30 feuilles de vigne fraîches",
+        "1 citron"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Préparation de la farce",
+      "insSteps": [
+        "Faire revenir les oignons dans un peu d'huile et laisser cuire doucement jusqu'à ce qu'ils deviennent transparents.",
+        "Ajouter le riz et cuire à courvert 5 min.",
+        "Ajouter les autres ingrédients, exceptés les feuilles de vigne, le citron et la première demi-tasse d'huile d'olive. Laisser refroidir."
+      ]
+    },
+    {
+      "insTitle": "Farcir les feuilles de vigne",
+      "insSteps": [
+        "Faire blanchir les feuilles de vigne.",
+        "Disposer les feuilles, la surface brillante en dessous et mettre au centre de chacune d'elle une bonne c.à.c. du mélange.",
+        "Replier la feuille sans trop serrer car le riz gonfle 2 à 3 fois son volume."
+      ]
+    },
+    {
+      "insTitle": "Cuisson finale",
+      "insSteps": [
+        "Disposer toutes les feuilles farcies dans une poêle en fonte.",
+        "Arroser avec le jus de citron, la demi-tasse d'huile d'olive restante et l'eau chaude.",
+        "Couvrir et mijoter à petit feu pendant une heure. Rajouter éventuellement un peu d'eau en cours de cuisson.",
+        "À manger tiède ou froid. Se congèle très bien également."
+      ]
+    }
+  ],
+  "notes": [
+    "Note : Si vous voulez congeler les feuilles de vigne farcies, groupez les cinq par cinq et divisez les groupes par des séparateurs de papier sulfurisé."
+  ],
+  "recipeUrl": ""
+}
