@@ -17,7 +17,7 @@ Here are the things I've learned. <span class="subtle">(Disclaimer: I am mostly 
 
 ## What is fermentation?
 
-In biochemistry, _fermentation_ is the process where living organisms extract energy from carbohydrates (e.g. starch or sugar) in the absence of oxygen. There are tons of different fermentation processes that can produce a number of things: alcohol (a.k.a. ethanol), acid, carbon dioxide, and others.
+In biochemistry, _fermentation_ is the process where living organisms extract energy from carbohydrates (e.g. starch or sugar) in the absence of oxygen. The food industry sets a broader scope, as it is more largely defined as a metabolic process that produces chemical changes in organic substances through the action of enzymes. There are tons of different fermentation processes that can produce a number of things: alcohol (a.k.a. ethanol), acid, carbon dioxide, and others.
 
 For instance, yeasts are used in wine and beer-making to produce alcohol, while bacteria are used for yogurts to produce acid. Sometimes, a mix of both yeasts and bacteria can be used in tandem as well.
 
@@ -33,7 +33,10 @@ Common examples of lacto fermentation are kimchi, Sauerkraut or yogurt. LAB alre
 
 Let's use the [Sauerkraut recipe](/recipes/german-sauerkraut/) as an example. At its simplest, you only need to mix cabbage with water and let it rest at room temperature to kickstart the fermentation process. Notice how the recipe insists on preventing the minced cabbage from coming in contact with the air. The reason is to keep the environment anaerobic, where LAB thrive whereas other \*bad bacteria\* would die. As the fermentation goes, all the glucose present in the cabbage is transformed into lactic acid, making Sauerkraut sour.
 
+Another example of lacto fermentation is cheese. The basic concept of cheese is to divide milk into solid curds and liquid whey. To do so, we need to either add an acid element to the milk (e.g. vinegar) or mix in LAB that will consume the lactose and transform it into lactic acid.[^3]
+
 [^2]: An anaerobic environment has no oxygen.
+[^3]: A lot of cheeses are also made with rennet, a set of enzymes, that will also divide the milk into curds and whey. The bonus effect is that the curds will be less fragile and more gel-like.
 
 ## Ethanol fermentation
 
@@ -49,15 +52,33 @@ Winemakers also use this yeast property to make fortified wines (e.g. Porto wine
 
 > Fun fact: ethanol fermentation also takes place in some species of fish where it provides energy when oxygen is scarce.
 
+## Malolactic fermentation
+
+_Malolactic fermentation_ is a process in winemaking. It is usually done after the first ethanol fermentation, by introducing LAB into the must. Those bacteria will consume the tart-tasting malic acid, naturally present in grape must, and produce softer-tasting lactic acid and carbon dioxide.
+
+The final aromas are said to be less acid, apple-like and more buttery, milky, oily or vanilla-like. Most red wines undergo malolactic fermentation, as well as some rounder white wines like Chardonnay.
+
+LAB can be very sensitive to the sulfites (sulfur dioxide) added during the winemaking process. When choosing to not use sulfites, wild LAB native to the grapes can initiate uncontrolled malolactic fermentation that might give an off-taste to some natural wines.
+
 ## Carbonic maceration
 
 _Carbonic maceration_ is a fermentation technique usually used for specific types of wines (e.g. Beaujolais). It results in wines with low tannins that should be drunk young.
 
-It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­—because of _duh_ gravity—and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^3]. The carbon dioxide gas stimulates the fermentation process, which occurs inside of each berry.
+It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­—because of _duh_ gravity—and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^4]. The carbon dioxide gas stimulates the fermentation process, which occurs inside of each berry.
 
 Carbonic maceration started as a winemaking technique, but people have started using it during coffee preprocessing. Before the coffee berries are ready to be roasted, they need to first be fermented, so that the fruit pulp can be removed from the seed. The method is similar: keep the berries intact in a closed vessel to undergo a carbonic maceration. In the case of coffee, the vessel is pumped with extra carbon dioxide to begin with. The resulting coffee profiles are often described as more intense.
 
-[^3]: Carbon dioxide is heavier than oxygen. As it saturates the tank, oxygen is pushed out from the tank through a one-way valve.
+[^4]: Carbon dioxide is heavier than oxygen. As it saturates the tank, oxygen is pushed out from the tank through a one-way valve.
+
+## Aerobic fermentation
+
+_Aerobic fermentation_ is the process where acetic acid bacteria (AAB) metabolize sugars or ethanol in an aerobic environment[^5]. Its by-product is acetic acid. As there is oxygen involved, it is more accurate to call this fermentation an _oxidation_ process.
+
+This type of fermentation is used for the production of vinegar. If making wine vinegar, the ethanol present in the wine is converted into acetic acid.
+
+This is also why we usually use sulfites in the winemaking process. Sulfites prevent oxidation, thus avoiding the wine transforming into vinegar.
+
+[^5]: They like oxygen.
 
 ## Special mention: SCOBY
 
@@ -65,11 +86,9 @@ A SCOBY is a _symbiotic culture of bacteria and yeast_. It is a culinary ferment
 
 Common examples of food / drinks made from a SCOBY are kombucha, kefir, sourdough bread, vinegar, soy sauce or sour beers.
 
-A SCOBY is a mix of yeast, LAB, and acetic acid bacteria (AAB).
+A SCOBY is a mix of yeast, LAB, and AAB.
 
-The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple types of fermentation and oxidation. To be completely honest, I haven't fully understood what ferments what and when. But all in all, yeasts consume sugars and produce ethanol. The LAB are anaerobic, consume sugars and produce lactic acid. The AAB are aerobic[^4], consume either sugars or ethanol and produce acetic acid.
-
-[^4]: They like oxygen.
+The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple types of fermentation and oxidation. To be completely honest, I haven't fully understood what ferments what and when. But all in all, yeasts consume sugars and produce ethanol. The LAB are anaerobic, consume sugars and produce lactic acid. The AAB are aerobic, consume either sugars or ethanol and produce acetic acid.
 
 ---
 
