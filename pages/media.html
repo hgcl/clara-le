@@ -44,29 +44,6 @@ buildScript: /scripts/buildMediaPage.js
 </section>
 
 <script>
-  // lazy loading from https://www.audreyhal.com/blog/lazy-loading-images-with-intersection-observer-api
-  // Create an observer instance and pass the callback and possible options
-  const observer = new IntersectionObserver(callback);
-  // Since we have multiple images we'd like to observe, we can create an array containing each image
-  const lazyImages = [].slice.call(document.querySelectorAll(".lazy-image"));
-  // Loop through the image array and pass each image as a target element to the observer
-  lazyImages.forEach((lazyImage) => {
-    observer.observe(lazyImage);
-  });
-  function callback(entries, observer) {
-    entries.forEach((entry) => {
-      const target = entry.target;
-      const dataSrc = target.getAttribute("data-src");
-      if (entry.isIntersecting) {
-        // put the desired url(dataSrc) as the src
-        target.setAttribute("src", dataSrc);
-        target.removeAttribute("data-src");
-        // stop observing the element
-        observer.unobserve(target);
-      }
-    });
-  }
-
   // Same filter script as posts.html
   // Set variables
   const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];

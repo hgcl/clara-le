@@ -20,11 +20,11 @@ export async function buildPage(html) {
               (post) =>
                 `<li data-tag="${
                   post.dataTag
-                }" class="card"><img class="lazy-image" alt=""
+                }" class="card"><img loading="lazy" alt=""
                 ${
                   post.dataTag == "movie" || post.dataTag == "tv series"
-                    ? `src="https://image.tmdb.org/t/p/w200/${post.cover}.jpg" data-src="https://image.tmdb.org/t/p/w1280/${post.cover}.jpg"`
-                    : `src="https://covers.openlibrary.org/b/id/${post.cover}-M.jpg" data-src="https://covers.openlibrary.org/b/id/${post.cover}-L.jpg"`
+                    ? `src="https://image.tmdb.org/t/p/w1280/${post.cover}.jpg"`
+                    : `src="https://covers.openlibrary.org/b/id/${post.cover}-L.jpg"`
                 }
                 ><a class="details" href="${post.slug}">${
                   post.title
