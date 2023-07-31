@@ -1,7 +1,7 @@
 ---
 template: /templates/media-posts.html
 buildScript: "/scripts/formatPostDetails.js"
-title: "Can't we talk about something more pleasant?"
+title: "Can't We Talk About Something More Pleasant?"
 author: ["Roz Chast"]
 cover: "7312632"
 dateCreated: "2023-07-31"
