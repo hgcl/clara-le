@@ -11,7 +11,7 @@ In the last few years, I have superficially dabbled with fermenting my own food,
 
 Since Wednesday, I have been diving deep into the intricate world of fermentation from a complete other direction. I stepped outside my comfort zone and had a look at this whole fermentation shenanigan from the point of view of biochemistry.
 
-Here are the things I've learned. <span class="subtle">(Disclaimer: I am mostly quoting Wikipedia as that's where my fermentation rabbit hole started. Please get back to me if I wrote anything wrong-I-don't-really-know-what-I'm-talking-about.)</span>
+Here are the things I've learned. <span class="subtle">(Disclaimer: I am mostly quoting Wikipedia as that's where my fermentation rabbit hole started. Please <a href="/about#contact">get back to me</a> if I wrote anything wrong-I-don't-really-know-what-I'm-talking-about.)</span>
 
 ---
 
@@ -66,7 +66,7 @@ _Carbonic maceration_ is a fermentation technique usually used for specific type
 
 It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­—because of _duh_ gravity—and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^4]. The carbon dioxide gas stimulates the fermentation process, which occurs inside of each berry.
 
-Carbonic maceration started as a winemaking technique, but people have started using it during coffee preprocessing. Before the coffee berries are ready to be roasted, they need to first be fermented, so that the fruit pulp can be removed from the seed. The method is similar: keep the berries intact in a closed vessel to undergo a carbonic maceration. In the case of coffee, the vessel is pumped with extra carbon dioxide to begin with. The resulting coffee profiles are often described as more intense.
+Carbonic maceration started as a winemaking technique, but people have started using it during coffee preprocessing as well. Before the coffee berries are ready to be roasted, they need to first be fermented, so that the fruit pulp can be removed from the seed. The method is similar: keep the berries intact in a closed vessel to undergo a carbonic maceration. In the case of coffee, the vessel is pumped with extra carbon dioxide to begin with. The resulting coffee profiles are often described as more intense.
 
 [^4]: Carbon dioxide is heavier than oxygen. As it saturates the tank, oxygen is pushed out from the tank through a one-way valve.
 
