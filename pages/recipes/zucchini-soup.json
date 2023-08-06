@@ -1,0 +1,32 @@
+{
+  "title": "Zucchini soup",
+  "publishedOn": "2023-07-06",
+  "dataTag": ["main", "summer"],
+  "intro": "",
+  "duration": "30",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Huile d'olive",
+        "1 kg courgette",
+        "2 oignons",
+        "2 verres de lait et / ou eau",
+        "Sel et poivre"
+      ],
+      "ingOpt": ["Cumin"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "A l'aide d'un pinceau, mettre un peu d'huile d'olive au fond d'une casserole. Y faire revenir les oignons, puis les courgettes coupées en rondelles.",
+        "Au bout de quelques minutes, ajouter un fond d'eau, le cumin et du sel et du poivre. Refermez la casserole et laissez cuire quelques minutes.",
+        "Quand les courgettes sont cuites, ajouter le lait et mixez le tout."
+      ]
+    }
+  ],
+  "notes": ["Note : cette soupe peut être dégustée chaude ou froide."],
+  "recipeUrl": "https://www.marmiton.org/recettes/recette_soupe-de-courgettes-dietetique_11716.aspx"
+}
