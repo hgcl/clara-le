@@ -1,0 +1,29 @@
+{
+  "title": "Flan",
+  "publishedOn": "2023-08-08",
+  "dataTag": ["dessert"],
+  "intro": "L'une des premières recettes que j'ai appris à faire petite.",
+  "duration": "45",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["1 l de lait", "100 g de sucre"],
+      "ingOpt": ["100 g de sucre pour le caramel", "3 c-à-s de fleur d'oranger"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Préchauffer le four à 180 °C. Préparer le caramel en mettant 100 g de sucre dans une casserole à fond épais et en faisant chauffer doucement sans remuer.",
+        "Tourner la casserole de temps en temps pour homogénéiser la cuisson. Lorsqu'il commence à prendre une jolie couleur dorée, le verser dans un grand moule allant au four. Battre les œufs avec les 100 g de sucre restants, puis ajouter le lait préalablement chauffé et l'eau de fleur d'oranger.",
+        "Verser le tout dans le moule caramélisé. Faire cuire au four dans un bain-marie pendant 30 à 40 minutes environ, cela peut varier en fonction de la taille du moule utilisé. Il faut que le centre soit pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis placer au frais jusqu'au moment de servir."
+      ]
+    }
+  ],
+  "notes": [
+    "Note : Il est aussi possible de cuire ces flans dans des petits pots à la vapeur."
+  ],
+  "recipeUrl": "https://cuisine.journaldesfemmes.fr/recette/344305-flan-aux-oeufs"
+}
