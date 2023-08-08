@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#4 Glühwein and note-taking"
-subtitle: "Weeknote #4"
+subtitle: "Update #4"
 dateCreated: "2020-11-28"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 <figure>
@@ -16,7 +16,7 @@ dataTag: ["weekly"]
 
 ## Life peek: Wholesome feelings after work
 
-Being in semi-lockdown in Berlin feels both fast and slow. Days resemble each other and night falls early. Yet, I feel like I have been doing a lot of new small exciting things lately—this Weeknote being one of them. Week after week, there are always a few highlights worth mentioning.
+Being in semi-lockdown in Berlin feels both fast and slow. Days resemble each other and night falls early. Yet, I feel like I have been doing a lot of new small exciting things lately—this Update being one of them. Week after week, there are always a few highlights worth mentioning.
 
 Work wise, this last week was pretty intense for me: lots of Black Friday-related emergencies (ugh, marketing agencies) and the confirmation of my promotion to Senior Designer.
 

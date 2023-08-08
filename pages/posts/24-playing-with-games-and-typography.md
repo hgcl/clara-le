@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#24 Playing with games and typography"
-subtitle: "Weeknote #24"
+subtitle: "Update #24"
 dateCreated: "2023-01-19"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 <figure>

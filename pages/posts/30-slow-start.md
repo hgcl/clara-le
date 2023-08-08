@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#30 Slow start"
-subtitle: "Weeknote #30"
+subtitle: "Update #30"
 dateCreated: "2023-04-20"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 After a week of holiday with family coming over to visit, I am back to my routine. Getting back to work felt intense. The things I am currently working on are quite interesting, but I felt exhausted at the end of each day. I'm not complaining though, I only have 3-day-work weeks from now on until the end of my contract.

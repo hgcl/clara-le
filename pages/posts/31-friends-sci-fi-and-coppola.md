@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#31 Friends, sci-fi and Coppola"
-subtitle: "Weeknote #31"
+subtitle: "Update #31"
 dateCreated: "2023-05-14"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 These past two weeks, Jillian and Connor came to visit us in Joux! We have now been in the area long enough to have developed a few routines. It was great being able to share some parts of this new life with friends from Berlin. Nothing fancy, but heartwarming nonetheless: a lot of gardening, reading, outdoor climbing, village hopping, wine drinking, cheese, sandwiches and cheese-sandwiches eating.

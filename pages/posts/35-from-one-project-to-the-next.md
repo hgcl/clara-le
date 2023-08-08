@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#35 From one project to the next"
-subtitle: "Weeknote #35"
+subtitle: "Update #35"
 dateCreated: "2023-07-12"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 Apparently, the fewer obligations I have in life, the less I keep this blog updated. One reason might be that I find it hard to focus. As I don't have any "real obligations", my days are spread out across multiple projects. I find myself having days filled with varied snippets of many little things.

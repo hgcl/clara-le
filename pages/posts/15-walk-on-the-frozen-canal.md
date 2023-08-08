@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#15 Walk on the frozen canal"
-subtitle: "Weeknote #15"
+subtitle: "Update #15"
 dateCreated: "2021-02-14"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 <figure>

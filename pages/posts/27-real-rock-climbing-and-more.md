@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#27 (Real) rock climbing and more"
-subtitle: "Weeknote #27"
+subtitle: "Update #27"
 dateCreated: "2023-03-06"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 <figure>

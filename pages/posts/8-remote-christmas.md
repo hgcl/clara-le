@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#8 Remote Christmas"
-subtitle: "Weeknote #8"
+subtitle: "Update #8"
 dateCreated: "2020-12-26"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 <figure>

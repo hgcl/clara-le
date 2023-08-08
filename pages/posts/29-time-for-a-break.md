@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#29 Time for a break"
-subtitle: "Weeknote #29"
+subtitle: "Update #29"
 dateCreated: "2023-04-04"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 It's official: I am leaving my job of almost four years by the end of May. Many feelings are battling inside my head—excitement, anxiety (a lot of it), wonder, a bit of nostalgia.

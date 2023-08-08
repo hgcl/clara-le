@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#16 Sunbathing on planet Earth"
-subtitle: "Weeknote #16"
+subtitle: "Update #16"
 dateCreated: "2021-02-22"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 <figure>

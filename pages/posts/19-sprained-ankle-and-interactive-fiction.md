@@ -2,9 +2,9 @@
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#19 Sprained ankle and interactive fiction"
-subtitle: "Weeknote #19"
+subtitle: "Update #19"
 dateCreated: "2022-12-05"
-dataTag: ["weekly"]
+dataTag: ["update"]
 ---
 
 <figure>
