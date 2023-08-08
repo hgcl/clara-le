@@ -37,7 +37,7 @@ Summer is amazing for fruits and veggies here. We almost don't buy any extra veg
 
 The only problem is that we tend to have a lot of a few produces—yep congrats, that's how seasonal veggies work, Clara. This really challenges my creativity, as I need to find diverse ways to eat the same vegetables every day.
 
-The same is true with fruits, as we have a lot of prunes from the garden. We also buy some extra peaches, apricots, and melons from local farmers. The duration of a fruit season is usually quite limited, so it feels a bit like "now or never".
+The same is true with fruits, as we have a lot of plums from the garden. We also buy some extra peaches, apricots, and melons from local farmers. The duration of a fruit season is usually quite limited, so it feels a bit like "now or never".
 
 I love this abundance. Having too much of these fruits and veggies lead me to discover [zucchini soup](/recipes/zucchini-soup/), [peach ice tea](/recipes/peach-ice-tea), zucchini terrine, [tomato and zucchini tarte tatin](/recipes/tarte-tatin-with-summer-veggies/), [gaspacho](/recipes/gaspacho/), [fruit clafoutis](/recipes/clafoutis/), and more.
 
