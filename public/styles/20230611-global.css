@@ -29,12 +29,8 @@
   --white: hsl(0deg, 0%, 99%);
   --black: hsl(0deg, 0%, 3%);
   --grey-on-black: rgb(210, 210, 210);
-  --red-light: hsl(0, 78%, 65%);
-  --yellow-light: hsl(44, 100%, 71%);
-  --green-light: hsl(140, 55%, 54%);
-  --blue-light: hsl(194, 100%, 59%);
-  --purple-light: hsl(273, 100%, 70%);
-  --pink-light: hsl(320, 74%, 70%);
+  --red: #ec0000;
+  --blue: #0011ff;
   /* Other */
   --alt-text-opacity: 0.7;
   --screen-sm: 370px;
@@ -83,10 +79,6 @@ nav {
 nav ul {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: var(--space-l);
-  margin-bottom: var(--space-4xl);
 }
 
 /* Accessibility */
@@ -222,6 +214,7 @@ hr {
   font-size: 1.5rem;
 }
 hr::before {
+  /* TODO: review*/
   content: "*\00a0*\00a0*";
 }
 
@@ -275,17 +268,13 @@ details summary {
 button {
   cursor: pointer;
   font: inherit;
-  border: solid 1px;
-  padding: 0.1rem 0.4rem;
-  background: var(--color-bg);
-  color: var(--color-text);
 }
 button:hover,
 button:focus {
-  animation: color-change 5s infinite;
+  /* TODO */
 }
 button:focus {
-  outline: 1px solid;
+  /* TODO */
 }
 
 a {
@@ -294,40 +283,12 @@ a {
   transition: color 0.25s ease-out;
 }
 a:hover {
-  animation: color-change 5s infinite;
+  /* TODO */
 }
 a:focus {
-  animation: color-change 5s infinite;
-  text-decoration: none;
+  /* TODO */
   outline-offset: 0.1em;
   outline: 0.1em solid;
-}
-
-@keyframes color-change {
-  5% {
-    border-color: var(--red-light);
-    color: var(--red-light);
-  }
-  15% {
-    border-color: var(--yellow-light);
-    color: var(--yellow-light);
-  }
-  30% {
-    border-color: var(--green-light);
-    color: var(--green-light);
-  }
-  50% {
-    border-color: var(--blue-light);
-    color: var(--blue-light);
-  }
-  70% {
-    border-color: var(--purple-light);
-    color: var(--purple-light);
-  }
-  90% {
-    border-color: var(--pink-light);
-    color: var(--pink-light);
-  }
 }
 
 /* External links */
@@ -354,7 +315,6 @@ input[type="checkbox"] {
   line-height: 1.2rem;
   color: var(--color-subtle);
 }
-font-family: var(--serif);
 .footnotes * {
   color: var(--color-subtle);
 }
@@ -364,35 +324,6 @@ font-family: var(--serif);
 a[id*="user-content-fnref"] {
   color: var(--color-subtle);
   padding: 0 2px 0 3px;
-}
-
-/* Image composition (e.g. portfolio page) */
-
-.image-comp {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-s);
-}
-
-/* Image tooltip */
-
-.tooltip {
-  position: relative;
-  width: 100%;
-}
-.tooltip a img {
-  z-index: 2;
-  display: none;
-  position: absolute;
-  right: var(--space-xs);
-  bottom: -10vh;
-  width: 350px;
-  max-width: 30vw;
-  border: 2px solid var(--color-text);
-}
-.tooltip a:hover img,
-.tooltip a:focus img {
-  display: block;
 }
 
 /* Utils */
@@ -415,24 +346,7 @@ a[id*="user-content-fnref"] {
 }
 
 /* Footer */
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-shrink: 0;
-  padding: var(--space-s) 0;
-  font-size: var(--font-xs);
-}
-footer ul {
-  display: flex;
-  gap: var(--space-s);
-  padding: 0;
-  margin: 0;
-}
-footer * {
-  color: var(--color-subtle);
-}
+/* TODO */
 
 /*--------------------------------------------------------*/
 /*               Custom pages or elements                 */
@@ -535,43 +449,8 @@ footer * {
 
 /* index.html layout */
 
-#webring {
-  text-align: center;
-  font-size: var(--font-xs);
-  font-family: var(--sans-serif);
-}
-#webring a {
-  text-decoration: none;
-  font-size: var(--font-s);
-}
 #webring span {
   display: none;
-}
-#index {
-  padding: var(--space-s);
-  display: flex;
-  justify-content: center;
-  height: 100%;
-}
-#index div {
-  display: flex;
-  gap: var(--space-l);
-  align-items: center;
-}
-#index svg {
-  display: none;
-  fill: var(--color-text);
-  flex-shrink: 0;
-  transition: transform 0.5s ease;
-}
-#index svg:hover,
-#index svg:active {
-  display: block;
-  animation: color-change 5s infinite;
-  transform: scale(1.05);
-}
-#index p {
-  max-width: 600px;
 }
 
 /*--------------------------------------------------------*/
@@ -603,19 +482,10 @@ footer * {
   #recipes {
     columns: 2;
   }
-  #index svg {
-    display: block;
-  }
   #media ul {
     grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
     grid-gap: var(--space-xl);
     margin-bottom: var(--space-xl);
-  }
-  .tooltip img {
-    bottom: -30vh;
-  }
-  .tooltip a img {
-    right: var(--space-5xl);
   }
 }
 
@@ -628,7 +498,6 @@ footer * {
     padding-right: var(--space-l);
     max-width: 300px;
   }
-
   .sidenote > * {
     margin: 0;
   }
