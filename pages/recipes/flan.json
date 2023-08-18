@@ -6,17 +6,23 @@
   "duration": "45",
   "ingredients": [
     {
-      "ingTitle": "",
-      "ingMand": ["1 l de lait", "100 g de sucre"],
-      "ingOpt": ["100 g de sucre pour le caramel", "3 c-à-s de fleur d'oranger"]
+      "ingTitle": "Pour 6 pots",
+      "ingMand": ["0.5 l de lait", "50 g de sucre", "3 oeufs"],
+      "ingOpt": ["50 g de sucre pour le caramel", "2 c-à-s de fleur d'oranger"]
     }
   ],
   "instructions": [
     {
-      "insTitle": "",
+      "insTitle": "Caramel",
       "insSteps": [
-        "Préchauffer le four à 180 °C. Préparer le caramel en mettant 100 g de sucre dans une casserole à fond épais et en faisant chauffer doucement sans remuer.",
-        "Tourner la casserole de temps en temps pour homogénéiser la cuisson. Lorsqu'il commence à prendre une jolie couleur dorée, le verser dans un grand moule allant au four. Battre les œufs avec les 100 g de sucre restants, puis ajouter le lait préalablement chauffé et l'eau de fleur d'oranger.",
+        "Préchauffer le four à 180 °C. Préparer le caramel en mettant 50 g de sucre dans une casserole à fond épais et en faisant chauffer doucement sans remuer.",
+        "Tourner la casserole de temps en temps pour homogénéiser la cuisson. Lorsqu'il commence à prendre une jolie couleur dorée, le verser dans un grand moule allant au four."
+      ]
+    },
+    {
+      "insTitle": "Flan",
+      "insSteps": [
+        "Battre les œufs avec les 50 g de sucre restants, puis ajouter le lait préalablement chauffé et l'eau de fleur d'oranger.",
         "Verser le tout dans le moule caramélisé. Faire cuire au four dans un bain-marie pendant 30 à 40 minutes environ, cela peut varier en fonction de la taille du moule utilisé. Il faut que le centre soit pris mais encore légèrement tremblotant.",
         "Laisser refroidir puis placer au frais jusqu'au moment de servir."
       ]
