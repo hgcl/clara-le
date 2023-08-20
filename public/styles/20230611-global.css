@@ -31,6 +31,7 @@
   --grey-on-black: rgb(210, 210, 210);
   --red: #ec0000;
   --blue: #0011ff;
+  --yellow: #ffff33;
   /* Other */
   --alt-text-opacity: 0.7;
   --screen-sm: 370px;
@@ -44,7 +45,7 @@ html {
   --sans-serif: "Gangster Grotesk", "Helvetica Neue", Inter, Roboto,
     "Arial Nova", Arial, sans-serif;
   --color-bg: var(--white);
-  --color-text: var(--black);
+  --color-text: var(--blue);
   --color-text-alt: hsl(360deg, 0%, 0%);
   --color-subtle: var(--grey-on-black);
 }
@@ -77,7 +78,7 @@ main {
 
 #bg-deco #square {
   position: absolute;
-  background: left bottom / contain no-repeat url("/square.svg");
+  background: left bottom / contain no-repeat url("/square.webp");
   width: 40%;
   height: 60%;
   max-width: 360px;
@@ -89,7 +90,7 @@ main {
 
 #bg-deco #circle {
   position: absolute;
-  background: top right / contain no-repeat url("/circle.svg");
+  background: top right / contain no-repeat url("/circle.webp");
   width: 40%;
   height: 50%;
   max-width: 400px;
