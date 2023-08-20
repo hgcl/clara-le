@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Choses que j'ai apprises à Berlin"
 subtitle: "Un exercise de poésie"
 dateCreated: "2023-08-20"
-dataTag: ["tiny", "creative", "french"]
+dataTag: ["creative", "french", "tiny"]
 ---
 
 À assumer ma singularité en m'habillant tout de noir

@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Split (2016)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-12-21"
-dataTag: ["tiny", "reviews"]
+dataTag: ["reviews", "tiny"]
 ---
 
 _Directed by M. Night Shyamalan_

@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Sicilian notes"
 subtitle: "A tiny note about our trip in Sicily"
 dateCreated: "2023-06-02"
-dataTag: ["tiny", "thoughts"]
+dataTag: ["thoughts", "tiny"]
 ---
 
 A list of things noticed during our 2-week trip in Sicily:
@@ -23,7 +23,7 @@ A list of things noticed during our 2-week trip in Sicily:
 - A carb with carb with carb sandwich[^2]
 - Clear turquoise water that are postcard-worthy
 - The landscape looks similar to some parts of the Ardèche region in France (but as a drier version most of the time)
-- Some people wearing winter jackets even though it's more than 25°C 
+- Some people wearing winter jackets even though it's more than 25°C
 - A mix of overpopulated cities and lands only inhabited by cows and sheeps
 - Olive trees
 - Orange trees
@@ -49,4 +49,4 @@ A list of things noticed during our 2-week trip in Sicily:
 [^2]: Thinking of the _panelle e crocchè_ sandwich that is made with bread, chickpea fritters and fried potato balls
 [^3]: This feels weird to me, aren't natural reserves usually supposed to be protected from any kind of human impact?
 [^4]: The Moor's heads are symbolic of Sicily. The story is about an impossible love between a Moor young woman and a man. Spoiler: She cuts his head and makes a vase with it when she learns that he is married with kids. #romantic #truelove
-[^5]: The  coolest ficus tree is in the Palermo botanical garden.
+[^5]: The coolest ficus tree is in the Palermo botanical garden.
