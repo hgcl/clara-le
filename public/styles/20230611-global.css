@@ -43,8 +43,8 @@ html {
   --serif: "Noto Serif", P052, Sylfaen, "Iowan Old Style", serif;
   --sans-serif: "Gangster Grotesk", "Helvetica Neue", Inter, Roboto,
     "Arial Nova", Arial, sans-serif;
-  --color-bg: hsl(0deg, 0%, 2%);
-  --color-text: hsl(0deg, 0%, 100%);
+  --color-bg: var(--white);
+  --color-text: var(--black);
   --color-text-alt: hsl(360deg, 0%, 0%);
   --color-subtle: var(--grey-on-black);
 }
@@ -63,6 +63,39 @@ body {
 main {
   padding-bottom: var(--space-l);
   flex: 1 0 auto;
+}
+
+#bg-deco {
+  z-index: -1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#bg-deco #square {
+  position: absolute;
+  background: left bottom / contain no-repeat url("/square.svg");
+  width: 40%;
+  height: 60%;
+  max-width: 360px;
+  min-width: 200px;
+  bottom: 50px;
+  left: 20px;
+  transform: rotate(30deg);
+}
+
+#bg-deco #circle {
+  position: absolute;
+  background: top right / contain no-repeat url("/circle.svg");
+  width: 40%;
+  height: 50%;
+  max-width: 400px;
+  min-width: 180px;
+  top: -60px;
+  right: -20px;
 }
 
 article {
