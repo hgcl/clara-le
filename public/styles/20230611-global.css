@@ -41,9 +41,10 @@
 
 html {
   font-size: 16px;
-  --serif: "Noto Serif", P052, Sylfaen, "Iowan Old Style", serif;
-  --sans-serif: "Gangster Grotesk", "Helvetica Neue", Inter, Roboto,
-    "Arial Nova", Arial, sans-serif;
+  --serif: ui-monospace, "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono",
+    monospace;
+  --sans-serif: ui-monospace, "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
   --color-bg: var(--white);
   --color-text: var(--blue);
   --color-text-alt: hsl(360deg, 0%, 0%);
@@ -81,7 +82,7 @@ main {
   background-size: auto 2100px;
   opacity: 70%;
   height: 100%;
-  width: 20px;
+  width: 15px;
   left: var(--space-s);
 }
 #bg-deco #square {
@@ -115,12 +116,12 @@ article {
 nav {
   z-index: 1;
   position: relative;
-  /* Align padding with main */
-  margin: var(--space-xs) var(--space-s);
+  margin: var(--space-xs) var(--space-s); /* Align margin with main */
 }
 nav details {
   display: flex;
   gap: var(--space-m);
+  align-items: center;
 }
 nav details > summary {
   list-style: none;
@@ -151,7 +152,13 @@ nav ul {
   background-size: 2100px auto;
   opacity: 70%;
   width: 100%;
-  height: 20px;
+  height: 15px;
+}
+
+/* Footer */
+
+footer {
+  margin: var(--space-s); /* Align margin with main */
 }
 
 /* Accessibility */
@@ -242,13 +249,6 @@ ol {
 
 li {
   margin: 0.4rem 0;
-}
-
-.emphasis {
-  font-family: var(--sans-serif);
-  font-weight: normal;
-  font-size: var(--font-l);
-  line-height: 2.5rem;
 }
 
 .label {
@@ -418,12 +418,25 @@ a[id*="user-content-fnref"] {
   margin: 0.5rem 0 2rem 0;
 }
 
-/* Footer */
-/* TODO */
-
 /*--------------------------------------------------------*/
 /*               Custom pages or elements                 */
 /*--------------------------------------------------------*/
+
+/* index.html layout */
+
+#index {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.h-card {
+  max-width: 560px;
+  position: relative;
+  bottom: 0;
+  font-family: var(--sans-serif);
+  font-size: var(--font-l);
+  line-height: 2.5rem;
+}
 
 /* posts.html layout */
 
@@ -520,12 +533,6 @@ a[id*="user-content-fnref"] {
   margin: 0;
 }
 
-/* index.html layout */
-
-#webring span {
-  display: none;
-}
-
 /*--------------------------------------------------------*/
 /*                     Media-queries                      */
 /*--------------------------------------------------------*/
@@ -536,9 +543,6 @@ a[id*="user-content-fnref"] {
   html {
     font-size: 18px;
   }
-  #webring span {
-    display: inline;
-  }
 }
 @media only screen and (min-width: 768px) {
   main {
@@ -546,7 +550,8 @@ a[id*="user-content-fnref"] {
     margin-bottom: var(--space-l);
   }
   main,
-  nav {
+  nav,
+  footer {
     margin-left: var(--space-4xl);
     margin-right: var(--space-4xl);
   }
@@ -595,10 +600,6 @@ a[id*="user-content-fnref"] {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-  }
-
-  #index .h-card {
-    gap: var(--space-4xl);
   }
 
   #recipes {
