@@ -32,25 +32,30 @@
 
   <body>
     <div id="bg-deco" aria-hidden="true">
+      <div id="line-vertical"></div>
       <div id="square"></div>
       <div id="circle"></div>
     </div>
     <header>
       <a class="skip-to-content" href="#main-section">Skip to content</a>
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/now/">Now</a></li>
-          <li><a href="/posts/">Musings</a></li>
-          <li><a href="/recipes/">Recipes</a></li>
-          <li><a href="/media/">Media</a></li>
-          <li><a href="/blogroll/">Blogroll</a></li>
-        </ul>
+        <details>
+          <summary>Menu</summary>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/now/">Now</a></li>
+            <li><a href="/posts/">Musings</a></li>
+            <li><a href="/recipes/">Recipes</a></li>
+            <li><a href="/media/">Media</a></li>
+            <li><a href="/blogroll/">Blogroll</a></li>
+          </ul>
+        </details>
       </nav>
+      <div id="line-horizontal" aria-hidden="true"></div>
     </header>
     <main id="main-section">{{> content}}</main>
-    <footer>
+    <!-- <footer>
       <div id="webring">
         <a
           href="https://xn--sr8hvo.ws/%F0%9F%90%89%F0%9F%94%8B%F0%9F%8C%A4/previous"
@@ -62,6 +67,6 @@
           >&rightarrow;</a
         >
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
