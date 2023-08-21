@@ -68,25 +68,19 @@ main {
 
 #bg-deco {
   z-index: -100;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 #bg-deco #line-vertical {
   display: none;
-  position: absolute;
+  position: fixed;
   background: no-repeat url("/vertical-line.svg");
-  background-size: auto 2100px;
-  opacity: 70%;
-  height: 100%;
-  width: 15px;
   left: var(--space-s);
+  top: 0;
+  opacity: 70%;
+  width: 15px;
+  height: 100%;
 }
 #bg-deco #square {
-  position: absolute;
+  position: fixed;
   background: left bottom / contain no-repeat url("/square.webp");
   width: 40%;
   height: 60%;
@@ -97,7 +91,7 @@ main {
   transform: rotate(30deg);
 }
 #bg-deco #circle {
-  position: absolute;
+  position: fixed;
   background: top right / contain no-repeat url("/circle.webp");
   width: 40%;
   height: 50%;
