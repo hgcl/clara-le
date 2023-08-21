@@ -368,10 +368,9 @@ a:focus {
 
 a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 {
-  content: url("/external-link.svg");
+  content: "\2197";
   display: inline-block;
-  width: 1.2rem;
-  transform: translate(0.4rem, -10%);
+  margin-left: var(--space-2xs);
 }
 
 /* Forms */
