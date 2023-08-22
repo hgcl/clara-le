@@ -28,9 +28,8 @@
   /* Colors */
   --white: hsl(0deg, 0%, 98%);
   --black: hsl(0deg, 0%, 3%);
-  --grey-on-black: rgb(210, 210, 210);
   --red: #ec0000;
-  --blue: #0011ff;
+  --blue: hsl(236deg, 100%, 50%);
   --yellow: #ffff33;
   /* Other */
   --alt-text-opacity: 0.7;
@@ -47,8 +46,7 @@ html {
     "DejaVu Sans Mono", monospace;
   --color-bg: var(--white);
   --color-text: var(--blue);
-  --color-text-alt: hsl(360deg, 0%, 0%);
-  --color-subtle: var(--grey-on-black);
+  --color-subtle: var(--blue);
 }
 
 body {
@@ -176,6 +174,7 @@ footer {
   transition: transform 0.3s;
   background-color: var(--color-bg);
   margin: 0 0.5rem;
+  padding: 0.5rem;
 }
 
 .skip-to-content:focus {
@@ -248,22 +247,18 @@ li {
 .label {
   font-family: var(--sans-serif);
   text-transform: uppercase;
-  font-weight: bold;
   font-size: var(--font-xs);
   line-height: 1rem;
   letter-spacing: 0.1em;
-  color: var(--color-subtle);
 }
 
 blockquote {
   border-left: solid 1px;
   padding-left: 1.5rem;
   margin: 2rem 0 2rem 2rem;
-  color: var(--color-subtle);
 }
 
 pre {
-  color: var(--color-subtle);
   overflow: auto;
 }
 
@@ -325,7 +320,6 @@ details summary {
 
 .completed {
   text-decoration: line-through;
-  color: var(--color-subtle);
 }
 .completed::after {
   content: "\00A0\2714";
@@ -346,18 +340,18 @@ button:focus {
 
 a {
   color: var(--color-text);
-  background-image: linear-gradient(120deg, var(--blue), var(--blue));
+  background-image: linear-gradient(120deg, var(--black), var(--black));
   background-position: 0 100%;
   background-repeat: no-repeat;
-  background-size: 100% 0;
+  background-size: 105% 0;
   border-bottom: 0.1em solid var(--blue);
-  border-color: var(--blue);
   text-decoration: none;
   transition: background-size 0.125s ease-in;
 }
 a:hover,
 a:focus {
   color: var(--color-bg);
+  border-color: var(--black);
   background-size: 100% 100%;
 }
 a:focus {
@@ -369,13 +363,10 @@ a:focus {
 .simple-link:hover,
 .simple-link:focus {
   background: none;
-  border: none;
 }
+.simple-link:hover,
 .simple-link:focus {
-  color: var(--color-text);
-}
-.simple-link:hover {
-  color: var(--red);
+  color: var(--black);
 }
 
 /* External links */
@@ -383,6 +374,7 @@ a:focus {
 a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 {
   content: "\2197";
+  width: 1rem;
   display: inline-block;
   margin-left: var(--space-2xs);
 }
@@ -399,16 +391,13 @@ input[type="checkbox"] {
   margin-top: var(--space-7xl);
   font-size: var(--font-xs);
   line-height: 1.2rem;
-  color: var(--color-subtle);
 }
 .footnotes * {
-  color: var(--color-subtle);
 }
 .footnotes ol {
   padding: 0 0 0 1rem;
 }
 a[id*="user-content-fnref"] {
-  color: var(--color-subtle);
   padding: 0 2px 0 3px;
 }
 
@@ -419,7 +408,6 @@ a[id*="user-content-fnref"] {
 }
 
 .subtle {
-  color: var(--color-subtle);
 }
 
 .subtitle {
@@ -427,7 +415,6 @@ a[id*="user-content-fnref"] {
   font-size: var(--font-m);
   letter-spacing: -0.005rem;
   line-height: 2rem;
-  color: var(--color-subtle);
   margin: 0.5rem 0 2rem 0;
 }
 
