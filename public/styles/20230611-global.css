@@ -82,11 +82,11 @@ main {
 #bg-deco #square {
   position: fixed;
   background: left bottom / contain no-repeat url("/square.webp");
-  width: 40%;
-  height: 60%;
-  max-width: 360px;
-  min-width: 200px;
-  bottom: 50px;
+  width: 50%;
+  height: 70%;
+  max-width: 380px;
+  min-width: 240px;
+  bottom: -20px;
   left: 20px;
   transform: rotate(30deg);
 }
