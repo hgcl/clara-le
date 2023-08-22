@@ -329,13 +329,16 @@ details summary {
 button {
   cursor: pointer;
   font: inherit;
+  padding: 0.1rem 0.6rem;
+  /* Default button style is primary button */
+  color: var(--color-bg);
+  background-color: var(--color-text);
+  border: 1px solid var(--color-text);
 }
 button:hover,
 button:focus {
-  /* TODO */
-}
-button:focus {
-  /* TODO */
+  background-color: var(--black);
+  border-color: var(--black);
 }
 
 a {
@@ -458,27 +461,17 @@ a[id*="user-content-fnref"] {
   align-items: center;
   gap: var(--space-xs);
 }
-#posts-filter button,
-#posts-filter details {
-  border: solid 1px;
-  padding: 0.1rem 0.6rem;
-  border-radius: 1000px;
-  margin: 0;
-}
-#posts-filter .selectedTag {
-  color: var(--color-bg);
-  background-color: var(--color-text);
+#posts-filter button {
+  color: var(--color-text);
+  background-color: transparent;
   border-color: var(--color-text);
 }
-#posts-filter details[open] {
-  border: none;
-  padding: 0;
-}
-#posts-filter details[open] > summary {
-  display: none;
-}
-#posts-filter details summary::marker {
-  content: none;
+#posts-filter .selectedTag,
+#posts-filter button:hover,
+#posts-filter button:focus {
+  color: var(--color-bg);
+  background-color: var(--black);
+  border-color: var(--black);
 }
 #posts .details,
 #media .details {
