@@ -29,8 +29,8 @@
   --white: hsl(0deg, 0%, 98%);
   --black: hsl(0deg, 0%, 3%);
   --red: #ec0000;
-  --blue: hsl(236deg, 100%, 50%);
-  --yellow: #ffff33;
+  --blue: hsl(236deg, 100%, 47%);
+  --yellow: hsl(50deg, 100%, 60%);
   /* Other */
   --alt-text-opacity: 0.7;
   --screen-sm: 370px;
@@ -79,14 +79,15 @@ main {
 }
 #bg-deco #square {
   position: fixed;
-  background: left bottom / contain no-repeat url("/square.webp");
+  background: right bottom / contain no-repeat url("/square.webp");
   width: 50%;
   height: 70%;
   max-width: 380px;
-  min-width: 240px;
-  bottom: -20px;
-  left: 20px;
+  min-width: 220px;
+  bottom: -130px;
+  right: 20%;
   transform: rotate(30deg);
+  opacity: 80%;
 }
 #bg-deco #circle {
   position: fixed;
