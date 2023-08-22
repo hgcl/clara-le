@@ -3,7 +3,7 @@ template: /templates/default.html
 buildScript: /scripts/buildRecipesList.js
 -->
 
-<h1>Recipe book</h1>
+<h1>Recipes</h1>
 <p class="intro">
   Here is a collection of recipes I have bookmarked. The original recipes are
   linked in the posts directly. Some of the steps and ingredients might differ
@@ -42,55 +42,47 @@ buildScript: /scripts/buildRecipesList.js
   <button type="button" id="extra" value="extra" onclick="filterItems(value);">
     Extra
   </button>
-  <details>
-    <summary><span class="sr-only">More filters</span>...</summary>
-    <button
-      type="button"
-      id="ahead"
-      value="ahead"
-      onclick="filterItems(value);"
-    >
-      Prep-ahead
-    </button>
-    <button
-      type="button"
-      id="preserve"
-      value="preserve"
-      onclick="filterItems(value);"
-    >
-      Preserve
-    </button>
-    <button type="button" id="diy" value="diy" onclick="filterItems(value);">
-      DIY
-    </button>
-    <button
-      type="button"
-      id="spring"
-      value="spring"
-      onclick="filterItems(value);"
-    >
-      Spring
-    </button>
-    <button
-      type="button"
-      id="summer"
-      value="summer"
-      onclick="filterItems(value);"
-    >
-      Summer
-    </button>
-    <button type="button" id="fall" value="fall" onclick="filterItems(value);">
-      Fall
-    </button>
-    <button
-      type="button"
-      id="winter"
-      value="winter"
-      onclick="filterItems(value);"
-    >
-      Winter
-    </button>
-  </details>
+  <button type="button" id="ahead" value="ahead" onclick="filterItems(value);">
+    Prep-ahead
+  </button>
+  <button
+    type="button"
+    id="preserve"
+    value="preserve"
+    onclick="filterItems(value);"
+  >
+    Preserve
+  </button>
+  <button type="button" id="diy" value="diy" onclick="filterItems(value);">
+    DIY
+  </button>
+  <button
+    type="button"
+    id="spring"
+    value="spring"
+    onclick="filterItems(value);"
+  >
+    Spring
+  </button>
+  <button
+    type="button"
+    id="summer"
+    value="summer"
+    onclick="filterItems(value);"
+  >
+    Summer
+  </button>
+  <button type="button" id="fall" value="fall" onclick="filterItems(value);">
+    Fall
+  </button>
+  <button
+    type="button"
+    id="winter"
+    value="winter"
+    onclick="filterItems(value);"
+  >
+    Winter
+  </button>
 </div>
 <ul id="recipes" class="nobullet">
   <li>Posts go here</li>
