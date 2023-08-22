@@ -221,6 +221,8 @@ h1,
 .h1 {
   font-size: var(--font-xl);
   line-height: 2.9rem;
+  font-style: italic;
+  text-transform: uppercase;
 }
 h2,
 .h2 {
@@ -411,17 +413,6 @@ a[id*="user-content-fnref"] {
   display: none;
 }
 
-.subtle {
-}
-
-.subtitle {
-  font-family: var(--sans-serif);
-  font-size: var(--font-m);
-  letter-spacing: -0.005rem;
-  line-height: 2rem;
-  margin: 0.5rem 0 2rem 0;
-}
-
 /*--------------------------------------------------------*/
 /*               Custom pages or elements                 */
 /*--------------------------------------------------------*/
@@ -522,9 +513,6 @@ a[id*="user-content-fnref"] {
 .post-header {
   max-width: 1024px;
   margin-bottom: var(--space-2xl);
-}
-.post-header h1 {
-  margin: 0;
 }
 
 /*--------------------------------------------------------*/
