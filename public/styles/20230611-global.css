@@ -36,6 +36,7 @@
   --screen-sm: 370px;
   --screen-md: 768px;
   --screen-lg: 1024px;
+  --article-width: 600px;
 }
 
 html {
@@ -44,22 +45,27 @@ html {
     "DejaVu Sans Mono", monospace;
   --color-bg: var(--white);
   --color-text: var(--blue);
-  --color-subtle: var(--blue);
+  --color-text-alt: var(--black);
 }
 
 body {
   font-family: var(--font-mono);
   font-size: var(--font-s);
-  line-height: 1.75rem;
+  line-height: 1.6rem;
   color: var(--color-text);
   background-color: var(--color-bg);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 main {
-  padding: 0 var(--space-s) var(--space-l) var(--space-s);
+  padding: var(--space-l) var(--space-s);
   flex: 1 0 auto;
+}
+
+header {
+  width: 100%;
 }
 
 #bg-deco {
@@ -69,7 +75,7 @@ main {
   display: none;
   position: fixed;
   background: no-repeat url("/vertical-line.svg");
-  left: var(--space-s);
+  right: var(--space-s);
   top: 0;
   opacity: 70%;
   width: 15px;
@@ -83,7 +89,7 @@ main {
   max-width: 380px;
   min-width: 220px;
   bottom: -130px;
-  right: 20%;
+  left: -10%;
   transform: rotate(30deg);
   opacity: 80%;
 }
@@ -99,7 +105,8 @@ main {
 }
 
 article {
-  max-width: 600px;
+  max-width: var(--article-width);
+  margin: 0 auto;
 }
 
 /* Nav */
@@ -109,14 +116,10 @@ nav {
   position: relative;
   padding: var(--space-xs) var(--space-s); /* Align margin with main */
 }
-nav details {
-  display: flex;
-  gap: var(--space-m);
-  align-items: center;
-}
 nav details > summary {
   list-style: none;
   width: fit-content;
+  margin: 0 auto;
 }
 nav details > summary::-webkit-details-marker {
   display: none;
@@ -131,9 +134,11 @@ nav ul {
   display: flex;
   column-gap: var(--space-m);
   flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
   /* Reset */
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 #line-horizontal {
@@ -185,7 +190,7 @@ footer {
 /*--------------------------------------------------------*/
 
 .intro {
-  max-width: 600px;
+  max-width: var(--article-width);
   margin-bottom: var(--space-2xl);
 }
 
@@ -335,24 +340,28 @@ button {
 }
 button:hover,
 button:focus {
-  background-color: var(--black);
-  border-color: var(--black);
+  background-color: var(--color-text-alt);
+  border-color: var(--color-text-alt);
 }
 
 a {
   color: var(--color-text);
-  background-image: linear-gradient(120deg, var(--black), var(--black));
+  background-image: linear-gradient(
+    120deg,
+    var(--color-text-alt),
+    var(--color-text-alt)
+  );
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 105% 0;
-  border-bottom: 0.1em solid var(--blue);
+  border-bottom: 0.1em solid var(--color-text);
   text-decoration: none;
   transition: background-size 0.125s ease-in;
 }
 a:hover,
 a:focus {
   color: var(--color-bg);
-  border-color: var(--black);
+  border-color: var(--color-text-alt);
   background-size: 100% 100%;
 }
 a:focus {
@@ -367,7 +376,7 @@ a:focus {
 }
 .simple-link:hover,
 .simple-link:focus {
-  color: var(--black);
+  color: var(--color-text-alt);
 }
 
 /* External links */
@@ -378,6 +387,9 @@ a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
   width: 1rem;
   display: inline-block;
   margin-left: var(--space-2xs);
+}
+#webring > a {
+  border: none;
 }
 
 /* Forms */
@@ -456,8 +468,8 @@ a[id*="user-content-fnref"] {
 #posts-filter button:hover,
 #posts-filter button:focus {
   color: var(--color-bg);
-  background-color: var(--black);
-  border-color: var(--black);
+  background-color: var(--color-text-alt);
+  border-color: var(--color-text-alt);
 }
 #posts .details,
 #media .details {
@@ -505,7 +517,6 @@ a[id*="user-content-fnref"] {
 /* Posts only */
 
 .post-header {
-  max-width: 1024px;
   margin-bottom: var(--space-2xl);
 }
 
@@ -521,10 +532,6 @@ a[id*="user-content-fnref"] {
   }
 }
 @media only screen and (min-width: 768px) {
-  main {
-    padding-top: var(--space-l);
-    padding-bottom: var(--space-l);
-  }
   main,
   nav,
   footer {
@@ -554,9 +561,9 @@ a[id*="user-content-fnref"] {
 
   .sidenote {
     position: absolute;
-    left: 750px; /* max-width of article being 600px */
+    left: calc(var(--article-width) * 1.25);
     padding-right: var(--space-l);
-    max-width: 300px;
+    max-width: calc(var(--article-width) / 2);
   }
   .sidenote > * {
     margin: 0;
