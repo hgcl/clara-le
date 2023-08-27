@@ -11,132 +11,79 @@ buildScript: /scripts/buildRecipesList.js
     from the original instructions to suit my preferences.
   </p>
 </div>
-<div id="posts-filter">
-  <span class="sr-only">Select filters:</span>
-  <button
-    type="button"
-    class="selectedTag"
-    id="all"
-    value="all"
-    onclick="filterItems(value);"
+<div class="posts-filter">
+  <label for="category-select">Filter by category</label>
+  <select
+    id="category-select"
+    aria-describedby="notes-filter-js-warning"
+    onchange="filterNotes(this.value)"
   >
-    All
-  </button>
-  <button type="button" id="main" value="main" onclick="filterItems(value);">
-    Main
-  </button>
-  <button
-    type="button"
-    id="cereal"
-    value="cereal"
-    onclick="filterItems(value);"
-  >
-    Cereal
-  </button>
-  <button
-    type="button"
-    id="dessert"
-    value="dessert"
-    onclick="filterItems(value);"
-  >
-    Dessert
-  </button>
-  <button type="button" id="extra" value="extra" onclick="filterItems(value);">
-    Extra
-  </button>
-  <button type="button" id="ahead" value="ahead" onclick="filterItems(value);">
-    Prep-ahead
-  </button>
-  <button
-    type="button"
-    id="preserve"
-    value="preserve"
-    onclick="filterItems(value);"
-  >
-    Preserve
-  </button>
-  <button type="button" id="diy" value="diy" onclick="filterItems(value);">
-    DIY
-  </button>
-  <button
-    type="button"
-    id="spring"
-    value="spring"
-    onclick="filterItems(value);"
-  >
-    Spring
-  </button>
-  <button
-    type="button"
-    id="summer"
-    value="summer"
-    onclick="filterItems(value);"
-  >
-    Summer
-  </button>
-  <button type="button" id="fall" value="fall" onclick="filterItems(value);">
-    Fall
-  </button>
-  <button
-    type="button"
-    id="winter"
-    value="winter"
-    onclick="filterItems(value);"
-  >
-    Winter
-  </button>
+    <option value="">All</option>
+    <option value="main">Main</option>
+    <option value="cereal">Cereal</option>
+    <option value="dessert">Dessert</option>
+    <option value="extra">extra</option>
+    <option value="ahead">Prep-ahead</option>
+    <option value="preserve">Preserve</option>
+    <option value="diy">DIY</option>
+    <option value="spring">Spring</option>
+    <option value="summer">Summer</option>
+    <option value="fall">Fall</option>
+    <option value="winter">Winter</option>
+  </select>
+  <p id="notes-filter-js-warning">
+    <em> You need to enable JavaScript to use filters.</em>
+  </p>
 </div>
 <ul id="recipes" class="nobullet">
   <li>Posts go here</li>
 </ul>
-
-<!-- Same script as posts.html -->
 <script>
-  // Set variables
-  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
-  let selectedtag = "all";
-  const allButtons = document.querySelectorAll("#posts-filter button");
+  const allNotes = document.querySelectorAll(`li[data-tag]`);
+  const selectElement = document.getElementById("category-select");
+  // remove no JS warning
+  const notesFilterJSWarning = document
+    .getElementById("notes-filter-js-warning")
+    .remove();
 
-  function filterItems(param) {
-    if (param) {
-      // Update URL onclick
-      updateURL(param);
-    }
-
-    // Update CSS of current button and reset other buttons styles
-    allButtons.forEach((button) => {
-      button.removeAttribute("class");
-    });
-    const clickedButton = document.getElementById(param);
-    clickedButton.setAttribute("class", "selectedTag");
-
-    // Hide list items based on updated tags list
-    let i = 0;
-    while (i < completeLiList.length) {
-      // Select <li> number i and get its tags
-      let itemTags = completeLiList[i]
-        .getAttribute("data-tag")
-        .toLowerCase()
-        .split(",");
-      // Hide <li> if it doesn't include the selected param
-      if ((param === "all") | (itemTags.includes(param) === true)) {
-        completeLiList[i].setAttribute("style", "display:inherit");
-      } else {
-        completeLiList[i].setAttribute("style", "display:none");
-      }
-      i++;
+  /**
+   * This gets triggered when a user changes the value of the select
+   */
+  function filterNotes(category) {
+    // update URL onclick
+    updateURL(category);
+    // remove previous filter (show all notes)
+    allNotes.forEach((note) => note.removeAttribute("hidden"));
+    // add hidden attributes to notes that don't have the chosen category in data-tag
+    if (category) {
+      selectElement.value = category;
+      let filteredNotes = [];
+      allNotes.forEach((note) => {
+        if (note.dataset.tag.split(",").includes(category)) {
+          filteredNotes.push(note);
+        } else {
+          note.setAttribute("hidden", "");
+        }
+      });
     }
   }
 
-  // Get current URL and apply filter to open page if necessary
+  // get current URL
   let currentUrl = new URL(window.location.href);
   const searchParams = new URLSearchParams(currentUrl.search);
-  filterItems(searchParams.get("q"));
+  // apply URL filter to open page if not "All" filter selected
+  if (searchParams.get("q")) {
+    filterNotes(searchParams.get("q"));
+  }
 
-  // Align selected filter with URL
-  function updateURL(filter) {
-    // Update URL
-    currentUrl.searchParams.set("q", filter);
+  // align selected category with URL
+  function updateURL(category) {
+    if (category) {
+      currentUrl.searchParams.set("q", category);
+    } else {
+      // delete current query to support "All" filter
+      currentUrl.searchParams.delete("q");
+    }
     history.pushState({}, "", currentUrl);
   }
 </script>

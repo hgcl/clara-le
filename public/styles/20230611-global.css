@@ -202,6 +202,13 @@ footer {
   align-items: center;
 }
 
+.posts-filter {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-s);
+  flex-wrap: wrap;
+}
+
 /* Images */
 
 img {
@@ -460,28 +467,6 @@ a[id*="user-content-fnref"] {
 }
 #posts .post-row > .label {
   min-width: 3.5rem;
-}
-#posts-filter {
-  margin: var(--space-s) 0 var(--space-2xl);
-  border: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--space-xs);
-}
-#posts-filter button {
-  color: var(--color-text);
-  background-color: transparent;
-  border-color: var(--color-text);
-}
-#posts-filter .selectedTag,
-#posts-filter button:hover,
-#posts-filter button:focus {
-  color: var(--color-bg);
-  background-color: var(--color-text-alt);
-  border-color: var(--color-text-alt);
 }
 #posts .details,
 #media .details {
