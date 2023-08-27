@@ -61,7 +61,7 @@ body {
 
 main {
   padding: var(--space-l) var(--space-s);
-  flex: 1 0 auto;
+  flex: 1 0 auto; /* makes sure index.html main takes all available space */
 }
 
 header {
@@ -76,7 +76,6 @@ header {
   position: fixed;
   background: no-repeat url("/vertical-line.svg");
   right: var(--space-s);
-  top: 0;
   opacity: 70%;
   width: 15px;
   height: 100%;
@@ -104,11 +103,6 @@ header {
   right: -20px;
 }
 
-article {
-  max-width: var(--article-width);
-  margin: 0 auto;
-}
-
 /* Nav */
 
 nav {
@@ -134,7 +128,6 @@ nav ul {
   display: flex;
   column-gap: var(--space-m);
   flex-wrap: wrap;
-  width: fit-content;
   justify-content: center;
   /* Reset */
   list-style: none;
@@ -145,7 +138,6 @@ nav ul {
   position: relative;
   z-index: -101;
   background: no-repeat url("/horizontal-line.svg");
-  background-size: 2100px auto;
   opacity: 70%;
   width: 100%;
   height: 15px;
@@ -176,11 +168,11 @@ footer {
   position: absolute;
   transform: translateY(-280%);
   transition: transform 0.3s;
-  background-color: var(--color-bg);
   margin: 0 0.5rem;
   padding: 0.5rem;
+  /* Removes default link styles */
+  border: none;
 }
-
 .skip-to-content:focus {
   transform: translateY(20%);
 }
@@ -191,7 +183,23 @@ footer {
 
 .intro {
   max-width: var(--article-width);
+  margin-top: var(--space-xl);
+}
+.e-content {
+  max-width: var(--article-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: column;
   margin-bottom: var(--space-2xl);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--screen-md);
+  text-align: center;
+  align-items: center;
 }
 
 /* Images */
@@ -419,6 +427,10 @@ a[id*="user-content-fnref"] {
 .hide {
   display: none;
 }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*--------------------------------------------------------*/
 /*               Custom pages or elements                 */
@@ -514,10 +526,24 @@ a[id*="user-content-fnref"] {
   margin-left: var(--space-s);
 }
 
-/* Posts only */
+/* recipe-post layout */
 
-.post-header {
-  margin-bottom: var(--space-2xl);
+.h-recipe {
+  max-width: var(--screen-lg);
+}
+.h-recipe article {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: none;
+}
+#ingredients {
+  font-size: smaller;
+  line-height: 1.5rem;
+  color: var(--color-text);
+}
+#ingredients li span::before {
+  content: "\A\2003";
 }
 
 /*--------------------------------------------------------*/
@@ -532,12 +558,6 @@ a[id*="user-content-fnref"] {
   }
 }
 @media only screen and (min-width: 768px) {
-  main,
-  nav,
-  footer {
-    padding-left: var(--space-4xl);
-    padding-right: var(--space-4xl);
-  }
   #bg-deco #line-vertical {
     display: block;
   }
@@ -553,6 +573,18 @@ a[id*="user-content-fnref"] {
     grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
     grid-gap: var(--space-xl);
     margin-bottom: var(--space-xl);
+  }
+  .h-recipe article > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  #ingredients {
+    flex: 1 0 250px;
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+    margin: 2rem 0;
   }
 }
 
