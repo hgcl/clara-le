@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "In Bruges (2008)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-12-19"
-dataTag: ["reviews", "tiny"]
+dataTag: ["review", "tiny"]
 ---
 
 _Directed by Martin McDonagh_

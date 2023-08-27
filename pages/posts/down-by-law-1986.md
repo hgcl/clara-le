@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Down By Law (1986)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-10-17"
-dataTag: ["reviews", "tiny"]
+dataTag: ["review", "tiny"]
 ---
 
 _Directed by Jim Jarmusch_

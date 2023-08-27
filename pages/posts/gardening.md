@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Gardening"
 subtitle: "Another try at knowledge management"
 dateCreated: "2021-10-24"
-dataTag: ["thoughts"]
+dataTag: ["thought"]
 ---
 
 For many years, I have struggled with knowledge management—as I still do.

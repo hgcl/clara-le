@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Wonder Woman 1984 (2020)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-12-26"
-dataTag: ["reviews", "tiny"]
+dataTag: ["review", "tiny"]
 ---
 
 _Directed by Patty Jenkins_

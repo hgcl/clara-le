@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Fermentation: behind-the-scenes"
 subtitle: "Biochemistry stuff I barely understand"
 dateCreated: "2023-07-27"
-dataTag: ["thoughts"]
+dataTag: ["thought"]
 ---
 
 In the last few years, I have superficially dabbled with fermenting my own food, making kimchi, Sauerkraut, kombucha or kefir. I have also learned that so many of the things I drink or eat are in fact fermented—think cheese, wine, beer, yogurt, bread.
