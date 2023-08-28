@@ -385,7 +385,11 @@ a:focus {
 .simple-link,
 .simple-link:hover,
 .simple-link:focus {
+  text-decoration: 0.1em underline;
+  text-underline-offset: 0.3em;
+  /* Reset link styles */
   background: none;
+  border: none;
 }
 .simple-link:hover,
 .simple-link:focus {
