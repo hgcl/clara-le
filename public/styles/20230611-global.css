@@ -391,6 +391,23 @@ a:focus {
   color: var(--color-text-alt);
 }
 
+.card-link {
+  border-radius: var(--space-2xs);
+  overflow: hidden;
+  /* Reset link styles */
+  background: none;
+  border: none;
+}
+.card-link > div {
+  background-color: var(--red);
+  height: 100%;
+}
+.card-link:hover img,
+.card-link:focus img {
+  mix-blend-mode: screen;
+  filter: grayscale(100%) contrast(105%) brightness(108%);
+}
+
 /* External links */
 
 a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
@@ -464,8 +481,7 @@ a[id*="user-content-fnref"] {
 #posts .post-row > .label {
   min-width: 3.5rem;
 }
-#posts .details,
-#media .details {
+#posts .details {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -490,10 +506,11 @@ a[id*="user-content-fnref"] {
   flex-direction: column;
   gap: 0.5rem;
 }
+#media a {
+  height: 100%;
+}
 #media img {
-  margin-bottom: var(--space-xs);
-  height: auto;
-  aspect-ratio: 250 / 375;
+  height: 100%;
   object-fit: cover;
 }
 
