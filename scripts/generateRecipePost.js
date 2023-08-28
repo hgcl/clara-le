@@ -14,6 +14,7 @@ title: "${file.title}"
 dateCreated: "${file.publishedOn}"
 durationMin: "${file.duration}"
 dataTag: ["${file.dataTag.join(`","`)}"]
+intro: "${file.intro}"
 buildScript: "/scripts/formatPostDetails.js"
 -->
 `;
@@ -21,9 +22,8 @@ buildScript: "/scripts/formatPostDetails.js"
 }
 
 function generateHtml(file) {
-  const intro = file.intro ? `<p class="intro">${file.intro}</p>` : "";
   const url = file.recipeUrl
-    ? `<p class="label"><a href="${file.recipeUrl}">Link to original recipe</a></p>`
+    ? `<p class="label"><a href="${file.recipeUrl}">Original recipe</a></p>`
     : "";
   const ingredientList = file.ingredients[1] // There is a second section in the ingredient list (= simple recipe)
     ? file.ingredients
@@ -69,14 +69,14 @@ function generateHtml(file) {
     ? file.notes.map((i) => `<p>${i}</p>`).join("")
     : "";
   const ingredientsHtml = `<section id="ingredients">
-  <h2 class="sr-only">Ingredients</h2>
+  <h2>Ingredients</h2>
   ${ingredientList}${url}</section>`;
   const instructionsHtml = `<section class="e-instructions">
-    <h2>Instructions</h2>
+    <h2>Step-by-step</h2>
     ${instructionList}
     ${noteList}
   </section>`;
-  const html = intro + `<div>${ingredientsHtml}${instructionsHtml}</div>`;
+  const html = `${ingredientsHtml}${instructionsHtml}`;
   return html;
 }
 

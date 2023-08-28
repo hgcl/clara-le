@@ -60,6 +60,7 @@ body {
 }
 
 main {
+  width: 100%;
   padding: var(--space-l) var(--space-s);
   flex: 1 0 auto; /* makes sure index.html main takes all available space */
 }
@@ -185,11 +186,6 @@ footer {
   max-width: var(--article-width);
   margin-top: var(--space-xl);
 }
-.e-content {
-  max-width: var(--article-width);
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .post-header {
   display: flex;
@@ -207,6 +203,7 @@ footer {
   justify-content: center;
   gap: var(--space-s);
   flex-wrap: wrap;
+  margin: var(--space-2xl) 0;
 }
 
 /* Images */
@@ -399,7 +396,7 @@ a:focus {
 a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
 {
   content: "\2197";
-  width: 1rem;
+  width: 1em;
   display: inline-block;
   margin-left: var(--space-2xs);
 }
@@ -437,6 +434,7 @@ a[id*="user-content-fnref"] {
 .center {
   margin-left: auto;
   margin-right: auto;
+  max-width: var(--article-width);
 }
 
 /*--------------------------------------------------------*/
@@ -452,8 +450,6 @@ a[id*="user-content-fnref"] {
 }
 .h-card {
   max-width: 560px;
-  position: relative;
-  bottom: 0;
   font-size: var(--font-l);
   line-height: 2.5rem;
 }
@@ -513,15 +509,6 @@ a[id*="user-content-fnref"] {
 
 /* recipe-post layout */
 
-.h-recipe {
-  max-width: var(--screen-lg);
-}
-.h-recipe article {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  max-width: none;
-}
 #ingredients {
   font-size: smaller;
   line-height: 1.5rem;
@@ -529,6 +516,9 @@ a[id*="user-content-fnref"] {
 }
 #ingredients li span::before {
   content: "\A\2003";
+}
+.h-recipe .e-instructions {
+  max-width: var(--screen-md);
 }
 
 /*--------------------------------------------------------*/
@@ -546,6 +536,10 @@ a[id*="user-content-fnref"] {
   #bg-deco #line-vertical {
     display: block;
   }
+  main {
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+  }
   h1,
   .h1 {
     font-size: var(--font-2xl);
@@ -559,17 +553,16 @@ a[id*="user-content-fnref"] {
     grid-gap: var(--space-xl);
     margin-bottom: var(--space-xl);
   }
-  .h-recipe article > div {
+  .h-recipe article {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: var(--space-2xl);
   }
   #ingredients {
     flex: 1 0 250px;
     align-self: flex-start;
     position: sticky;
     top: 0;
-    margin: 2rem 0;
   }
 }
 
