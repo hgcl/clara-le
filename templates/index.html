@@ -44,18 +44,13 @@
           id="menu-button"
           aria-haspopup="true"
           aria-expanded="false"
+          hidden
         >
           Menu
         </button>
-        <ul id="menu" role="menu" hidden>
+        <ul id="menu" role="menu">
           <li>
-            <a
-              aria-current="page"
-              class="secondary-link"
-              role="menuitem"
-              href="/"
-              >Home</a
-            >
+            <a class="secondary-link" role="menuitem" href="/">Home</a>
           </li>
           <li>
             <a class="secondary-link" role="menuitem" href="/about/">About</a>
@@ -100,23 +95,29 @@
       </div>
     </footer>
   </body>
-</html>
-<script>
-  const menuButton = document.querySelector("#menu-button");
-  const menu = document.querySelector("#menu");
+  <script>
+    // NAV
 
-  menuButton.addEventListener("click", () => {
-    if (!menu.hidden) {
-      // close menu
-      menuButton.setAttribute("aria-expanded", false);
-      menu.hidden = true;
-      menu.setAttribute("style", "display: none;");
-    } else {
-      // open menu
-      menuButton.setAttribute("aria-expanded", true);
-      menu.hidden = false;
-      menu.setAttribute("style", "display: inline;");
-      menu.querySelector(":not(\[disabled])").focus();
-    }
-  });
-</script>
+    const menuButton = document.querySelector("#menu-button");
+    const menu = document.querySelector("#menu");
+
+    // hide menu button and show menu list by default if JS is enabled
+    menu.setAttribute("hidden", true);
+    menuButton.removeAttribute("hidden");
+
+    menuButton.addEventListener("click", () => {
+      if (!menu.hidden) {
+        // close menu
+        menuButton.setAttribute("aria-expanded", false);
+        menu.hidden = true;
+        menu.setAttribute("style", "display: none;");
+      } else {
+        // open menu
+        menuButton.setAttribute("aria-expanded", true);
+        menu.hidden = false;
+        menu.setAttribute("style", "display: inline;");
+        menu.querySelector(":not(\[disabled])").focus();
+      }
+    });
+  </script>
+</html>
