@@ -107,34 +107,31 @@ header {
 /* Nav */
 
 nav {
-  z-index: 1;
-  position: relative;
-  padding: var(--space-xs) var(--space-s); /* Align margin with main */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  column-gap: var(--space-s);
+  margin: 0 var(--space-s);
 }
-nav details > summary {
-  list-style: none;
-  width: fit-content;
-  margin: 0 auto;
+#menu-button {
+  /* align with nav li margins */
+  margin: var(--space-xs) 0;
 }
-nav details > summary::-webkit-details-marker {
-  display: none;
-}
-nav summary:after {
+#menu-button::after {
   content: " \00BB";
 }
-nav details[open] summary:after {
-  content: " \00AB";
-}
-nav ul {
-  display: flex;
-  column-gap: var(--space-m);
-  flex-wrap: wrap;
-  justify-content: center;
+#menu {
+  text-align: center;
   /* Reset */
   list-style: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
+#menu li {
+  display: inline-block;
+  margin: var(--space-xs);
+}
+
 #line-horizontal {
   position: relative;
   z-index: -101;
@@ -382,17 +379,31 @@ a:focus {
   outline: 0.1em solid;
 }
 
-.simple-link,
-.simple-link:hover,
-.simple-link:focus {
+.secondary-link,
+.secondary-link:hover,
+.secondary-link:focus {
   text-decoration: 0.1em underline;
   text-underline-offset: 0.3em;
   /* Reset link styles */
   background: none;
   border: none;
 }
-.simple-link:hover,
-.simple-link:focus {
+.secondary-link:hover,
+.secondary-link:focus {
+  color: var(--color-text-alt);
+}
+
+.tertiary-link {
+  /* reset */
+  color: var(--color-text);
+  background: none;
+  border: none;
+  padding: 0;
+}
+.tertiary-link:hover,
+.tertiary-link:focus {
+  /* reset */
+  background: none;
   color: var(--color-text-alt);
 }
 
@@ -557,6 +568,9 @@ a[id*="user-content-fnref"] {
 @media only screen and (min-width: 768px) {
   #bg-deco #line-vertical {
     display: block;
+  }
+  nav {
+    flex-direction: row;
   }
   main {
     padding-left: var(--space-2xl);

@@ -39,18 +39,47 @@
     <header>
       <a class="skip-to-content" href="#main-section">Skip to content</a>
       <nav>
-        <details>
-          <summary>Menu</summary>
-          <ul>
-            <li><a class="simple-link" href="/">Home</a></li>
-            <li><a class="simple-link" href="/about/">About</a></li>
-            <li><a class="simple-link" href="/now/">Now</a></li>
-            <li><a class="simple-link" href="/posts/">Musings</a></li>
-            <li><a class="simple-link" href="/recipes/">Recipes</a></li>
-            <li><a class="simple-link" href="/media/">Media</a></li>
-            <li><a class="simple-link" href="/blogroll/">Blogroll</a></li>
-          </ul>
-        </details>
+        <button
+          class="tertiary-link"
+          id="menu-button"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+        <ul id="menu" role="menu" hidden>
+          <li>
+            <a
+              aria-current="page"
+              class="secondary-link"
+              role="menuitem"
+              href="/"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/about/">About</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/now/">Now</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/posts/">Musings</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/recipes/"
+              >Recipes</a
+            >
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/media/">Media</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/blogroll/"
+              >Blogroll</a
+            >
+          </li>
+        </ul>
       </nav>
       <div id="line-horizontal" aria-hidden="true"></div>
     </header>
@@ -58,13 +87,13 @@
     <footer>
       <div id="webring">
         <a
-          class="simple-link"
+          class="tertiary-link"
           href="https://xn--sr8hvo.ws/%F0%9F%90%89%F0%9F%94%8B%F0%9F%8C%A4/previous"
           >&leftarrow;</a
         >
         &emsp;IndieWeb Webring&emsp;
         <a
-          class="simple-link"
+          class="tertiary-link"
           href="https://xn--sr8hvo.ws/%F0%9F%90%89%F0%9F%94%8B%F0%9F%8C%A4/next"
           >&rightarrow;</a
         >
@@ -72,3 +101,22 @@
     </footer>
   </body>
 </html>
+<script>
+  const menuButton = document.querySelector("#menu-button");
+  const menu = document.querySelector("#menu");
+
+  menuButton.addEventListener("click", () => {
+    if (!menu.hidden) {
+      // close menu
+      menuButton.setAttribute("aria-expanded", false);
+      menu.hidden = true;
+      menu.setAttribute("style", "display: none;");
+    } else {
+      // open menu
+      menuButton.setAttribute("aria-expanded", true);
+      menu.hidden = false;
+      menu.setAttribute("style", "display: inline;");
+      menu.querySelector(":not(\[disabled])").focus();
+    }
+  });
+</script>
