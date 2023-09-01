@@ -119,6 +119,9 @@ nav {
 #menu-button {
   /* align with nav li margins */
   margin: var(--space-xs) 0;
+  /* reset button styles */
+  box-shadow: none;
+  transform: none;
 }
 #menu-button::after {
   content: " \00BB";
@@ -345,16 +348,19 @@ details summary {
 button {
   cursor: pointer;
   font: inherit;
-  padding: 0.1rem 0.6rem;
-  /* Default button style is primary button */
-  color: var(--color-bg);
-  background-color: var(--color-text);
+  padding: 0.1em 0.6em;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   border: 1px solid var(--color-text);
+  transition: transform 0.1s ease-in-out;
+  box-shadow: 2px 2px;
 }
 button:hover,
 button:focus {
-  background-color: var(--color-text-alt);
-  border-color: var(--color-text-alt);
+  background-color: var(--color-text);
+  box-shadow: none;
+  transform: translate(1px, 1px);
+  color: var(--color-bg);
 }
 
 a {
