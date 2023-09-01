@@ -102,7 +102,7 @@
   </body>
   <script type="text/javascript">
     // Get footnotes box (ol element) and set up counter
-    let footnotes = document.querySelector(".footnotes").lastChild;
+    let footnotes = document.querySelector(".footnotes ol");
     let counter = 1;
     window.onload = () => {
       while (footnotes.childNodes.length >= counter) {

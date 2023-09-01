@@ -39,6 +39,7 @@
   --screen-md: 768px;
   --screen-lg: 1024px;
   --article-width: 600px;
+  --side-width: calc((100vw - var(--article-width)) / 2);
 }
 
 html {
@@ -80,7 +81,7 @@ header {
   position: fixed;
   mask: no-repeat url("/vertical-line.svg");
   background-color: var(--color-accent);
-  right: var(--space-s);
+  left: var(--space-s);
   width: 15px;
   height: 100%;
 }
@@ -293,11 +294,11 @@ hr {
   margin: 3rem 0;
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 hr::before {
-  /* TODO: review*/
-  content: "*\00a0*\00a0*";
+  /* \002B is a plus sign */
+  content: "\002B\00a0\002B\00a0\002B";
 }
 
 /* ~striked-through text~ styles and accessibility */
@@ -460,11 +461,6 @@ input[type="checkbox"] {
   margin-top: var(--space-7xl);
   font-size: var(--font-xs);
   line-height: 1.2rem;
-}
-.footnotes * {
-}
-.footnotes ol {
-  padding: 0 0 0 1rem;
 }
 a[id*="user-content-fnref"] {
   padding: 0 2px 0 3px;
@@ -632,11 +628,12 @@ a[id*="user-content-fnref"] {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   .sidenote {
     position: absolute;
-    left: calc(var(--article-width) * 1.25);
-    padding-right: var(--space-l);
+    right: 0;
+    padding-right: var(--space-m);
+    width: calc(var(--side-width) - var(--space-2xl));
     max-width: calc(var(--article-width) / 2);
   }
   .sidenote > * {
@@ -657,6 +654,7 @@ a[id*="user-content-fnref"] {
     white-space: nowrap;
     border-width: 0;
   }
+
   #recipes {
     columns: 3;
   }
