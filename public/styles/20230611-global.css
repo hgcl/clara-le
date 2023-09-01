@@ -28,8 +28,10 @@
   /* Colors */
   --white: hsl(0deg, 0%, 98%);
   --black: hsl(0deg, 0%, 3%);
-  --red: #ec0000;
+  --red: hsl(0deg, 100%, 46%);
+  --red-light: hsl(0deg, 100%, 66%);
   --blue: hsl(236deg, 100%, 47%);
+  --blue-dark: hsl(236deg, 100%, 25%);
   --yellow: hsl(50deg, 100%, 60%);
   /* Other */
   --alt-text-opacity: 0.7;
@@ -46,6 +48,7 @@ html {
   --color-bg: var(--white);
   --color-text: var(--blue);
   --color-text-alt: var(--black);
+  --color-accent: var(--red);
 }
 
 body {
@@ -75,9 +78,9 @@ header {
 #bg-deco #line-vertical {
   display: none;
   position: fixed;
-  background: no-repeat url("/vertical-line.svg");
+  mask: no-repeat url("/vertical-line.svg");
+  background-color: var(--color-accent);
   right: var(--space-s);
-  opacity: 70%;
   width: 15px;
   height: 100%;
 }
@@ -135,8 +138,8 @@ nav {
 #line-horizontal {
   position: relative;
   z-index: -101;
-  background: no-repeat url("/horizontal-line.svg");
-  opacity: 70%;
+  mask: no-repeat url("/horizontal-line.svg");
+  background-color: var(--color-accent);
   width: 100%;
   height: 15px;
 }
@@ -415,7 +418,7 @@ a:focus {
   border: none;
 }
 .card-link > div {
-  background-color: var(--red);
+  background-color: var(--color-accent);
   height: 100%;
 }
 .card-link:hover img,
@@ -558,6 +561,25 @@ a[id*="user-content-fnref"] {
 /*                     Media-queries                      */
 /*--------------------------------------------------------*/
 
+/* Dark mode */
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --color-bg: var(--blue-dark);
+    --color-text: var(--white);
+    --color-text-alt: var(--yellow);
+    --color-accent: var(--red-light);
+  }
+  #bg-deco #circle {
+    background-image: url("/circle-darkmode.webp");
+    opacity: 60%;
+  }
+  #bg-deco #square {
+    background-image: url("/square-darkmode.webp");
+    opacity: 60%;
+  }
+}
+
 /* Bigger than mobile */
 
 @media only screen and (min-width: 370px) {
@@ -603,8 +625,6 @@ a[id*="user-content-fnref"] {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* Sidenotes */
-
   .sidenote {
     position: absolute;
     left: calc(var(--article-width) * 1.25);
@@ -614,7 +634,6 @@ a[id*="user-content-fnref"] {
   .sidenote > * {
     margin: 0;
   }
-
   .footnotes {
     border: none;
   }
@@ -630,7 +649,6 @@ a[id*="user-content-fnref"] {
     white-space: nowrap;
     border-width: 0;
   }
-
   #recipes {
     columns: 3;
   }
