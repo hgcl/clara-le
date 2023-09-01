@@ -20,15 +20,15 @@ export async function buildPage(html) {
               (post) =>
                 `<li data-tag="${
                   post.dataTag
-                }" class="card"><img loading="lazy" alt=""
+                }" class="card"><a class="card-link" href="${
+                  post.slug
+                }"><div><img loading="lazy" alt=""
                 ${
                   post.dataTag == "movie" || post.dataTag == "tv series"
                     ? `src="https://image.tmdb.org/t/p/w1280/${post.cover}.jpg"`
                     : `src="https://covers.openlibrary.org/b/id/${post.cover}-L.jpg"`
                 }
-                ><a class="details" href="${post.slug}">${
-                  post.title
-                }</a><span class="label">${
+                ></div></a><span class="label">${
                   post.dataTag
                 } <span aria-hidden="true">•</span> ${post.year}</span></li>`
             )

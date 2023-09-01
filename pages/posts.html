@@ -4,146 +4,85 @@ buildScript: /scripts/buildPostsList.js
 -->
 
 <!-- buildPostsList.js is linked to current H1, do not edit it -->
-<section id="posts">
-  <h1>Musings</h1>
-  <p class="intro">
-    Expect half-formed thoughts, doodles, full-fledged posts or anything in
-    between. Everything except for the tiny notes can be followed through my
-    <a href="/feed.xml">RSS feed</a>.
-  </p>
-  <div id="posts-filter">
-    <span class="sr-only">Select filters:</span>
-    <button
-      type="button"
-      class="selectedTag"
-      id="all"
-      value="all"
-      onclick="filterItems(value);"
+<section class="center" id="posts">
+  <div class="center post-header">
+    <h1>Musings</h1>
+    <p class="intro">
+      Expect half-formed thoughts, doodles, full-fledged posts or anything in
+      between. Everything except for the tiny notes can be followed through my
+      <a href="/feed.xml">RSS feed</a>.
+    </p>
+  </div>
+  <div class="posts-filter">
+    <label for="category-select">Filter by category</label>
+    <select
+      id="category-select"
+      aria-describedby="notes-filter-js-warning"
+      onchange="filterNotes(this.value)"
     >
-      All
-    </button>
-    <button
-      type="button"
-      id="creative"
-      value="creative"
-      onclick="filterItems(value);"
-    >
-      Creative
-    </button>
-    <button
-      type="button"
-      id="digital"
-      value="digital"
-      onclick="filterItems(value);"
-    >
-      Digital
-    </button>
-    <button
-      type="button"
-      id="french"
-      value="french"
-      onclick="filterItems(value);"
-    >
-      French
-    </button>
-    <button type="button" id="now" value="now" onclick="filterItems(value);">
-      Now
-    </button>
-    <button
-      type="button"
-      id="reviews"
-      value="reviews"
-      onclick="filterItems(value);"
-    >
-      Reviews
-    </button>
-    <button
-      type="button"
-      id="thoughts"
-      value="thoughts"
-      onclick="filterItems(value);"
-    >
-      Thoughts
-    </button>
-    <button
-      type="button"
-      id="update"
-      value="update"
-      onclick="filterItems(value);"
-    >
-      Updates
-    </button>
-    <label class="checkbox-label" for="tiny">
-      <input
-        type="checkbox"
-        id="tiny"
-        value="tiny"
-        onchange="filterItems();"
-        checked
-      />
-      Show tiny notes</label
-    >
+      <option value="">All</option>
+      <option value="creative">Creative</option>
+      <option value="digital">Digital</option>
+      <option value="french">French</option>
+      <option value="now">Now</option>
+      <option value="review">Reviews</option>
+      <option value="thought">Thoughts</option>
+      <option value="update">Updates</option>
+      <option value="tiny">Tiny</option>
+    </select>
+    <p id="notes-filter-js-warning">
+      <em> You need to enable JavaScript to use filters.</em>
+    </p>
   </div>
   <p>Posts go here</p>
 </section>
 
 <script>
-  // Set variables
-  const completeLiList = [...document.querySelectorAll(`li[data-tag]`)];
-  let selectedtag = "all";
-  const allButtons = document.querySelectorAll("#posts-filter button");
+  const allNotes = document.querySelectorAll(`li[data-tag]`);
+  const selectElement = document.getElementById("category-select");
+  // remove no JS warning
+  const notesFilterJSWarning = document
+    .getElementById("notes-filter-js-warning")
+    .remove();
 
-  function filterItems(param) {
-    const checkbox = document.getElementById("tiny");
-
-    // If not tiny checkbox selected
-    if (param) {
-      // Update URL onclick
-      updateURL(param);
-      // Update current selectedTag with button value
-      selectedtag = param;
-      // Update CSS of current button and reset other buttons styles
-      allButtons.forEach((button) => {
-        button.removeAttribute("class");
-      });
-      const clickedButton = document.getElementById(param);
-      clickedButton.setAttribute("class", "selectedTag");
-    }
-
-    // Hide list items based on updated tags list
-    let i = 0;
-    while (i < completeLiList.length) {
-      // Select <li> number i and get its tags
-      const itemTags = completeLiList[i]
-        .getAttribute("data-tag")
-        .toLowerCase()
-        .replace(" ", "-")
-        .split(",");
-      // 1. Hide all tiny notes if tiny notes checkbox is unchecked
-      // 2. Hide posts if tag != selected tag
-      // 3. Show all remaining
-      if (itemTags.includes("tiny") && !checkbox.checked) {
-        completeLiList[i].setAttribute("style", "display:none");
-      } else {
-        if ((selectedtag === "all") | itemTags.includes(selectedtag)) {
-          completeLiList[i].setAttribute("style", "display:flex");
+  /**
+   * This gets triggered when a user changes the value of the select
+   */
+  function filterNotes(category) {
+    // update URL onclick
+    updateURL(category);
+    // remove previous filter (show all notes)
+    allNotes.forEach((note) => note.setAttribute("style", "display:flex"));
+    // add hidden attributes to notes that don't have the chosen category in data-tag
+    if (category) {
+      selectElement.value = category;
+      let filteredNotes = [];
+      allNotes.forEach((note) => {
+        if (note.dataset.tag.split(",").includes(category)) {
+          filteredNotes.push(note);
         } else {
-          completeLiList[i].setAttribute("style", "display:none");
+          note.setAttribute("style", "display:none");
         }
-      }
-      i++;
+      });
     }
   }
 
-  // Get current URL and apply filter to open page if necessary
+  // get current URL
   let currentUrl = new URL(window.location.href);
   const searchParams = new URLSearchParams(currentUrl.search);
-  filterItems(searchParams.get("q"));
+  // apply URL filter to open page if not "All" filter selected
+  if (searchParams.get("q")) {
+    filterNotes(searchParams.get("q"));
+  }
 
-  // Align selected filter with URL
-  function updateURL(filter) {
-    // Update URL
-    currentUrl.searchParams.set("q", filter);
+  // align selected category with URL
+  function updateURL(category) {
+    if (category) {
+      currentUrl.searchParams.set("q", category);
+    } else {
+      // delete current query to support "All" filter
+      currentUrl.searchParams.delete("q");
+    }
     history.pushState({}, "", currentUrl);
   }
 </script>

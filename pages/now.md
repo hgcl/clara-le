@@ -3,6 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Now"
 dateCreated: "2023-07-12"
+subtitle: "Chilling"
 ---
 
 I am currently [slow living](/posts/29-time-for-a-break/) in Ardèche and spending my days following my heart desires.

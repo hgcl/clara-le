@@ -31,34 +31,93 @@
   </head>
 
   <body>
+    <div id="bg-deco" aria-hidden="true">
+      <div id="line-vertical"></div>
+      <div id="square"></div>
+      <div id="circle"></div>
+    </div>
     <header>
       <a class="skip-to-content" href="#main-section">Skip to content</a>
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/now/">Now</a></li>
-          <li><a href="/posts/">Musings</a></li>
-          <li><a href="/recipes/">Recipes</a></li>
-          <li><a href="/media/">Media</a></li>
-          <li><a href="/blogroll/">Blogroll</a></li>
+        <button
+          class="tertiary-link"
+          id="menu-button"
+          aria-haspopup="true"
+          aria-expanded="false"
+          hidden
+        >
+          Menu
+        </button>
+        <ul id="menu" role="menu">
+          <li>
+            <a class="secondary-link" role="menuitem" href="/">Home</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/about/">About</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/now/">Now</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/posts/">Musings</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/recipes/"
+              >Recipes</a
+            >
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/media/">Media</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/blogroll/"
+              >Blogroll</a
+            >
+          </li>
         </ul>
       </nav>
+      <div id="line-horizontal" aria-hidden="true"></div>
     </header>
     <main id="main-section">{{> content}}</main>
     <footer>
       <div id="webring">
         <a
+          class="tertiary-link"
           href="https://xn--sr8hvo.ws/%F0%9F%90%89%F0%9F%94%8B%F0%9F%8C%A4/previous"
           >&leftarrow;</a
         >
-        &emsp;IndieWeb<span> Webring</span>&emsp;
+        &emsp;IndieWeb Webring&emsp;
         <a
+          class="tertiary-link"
           href="https://xn--sr8hvo.ws/%F0%9F%90%89%F0%9F%94%8B%F0%9F%8C%A4/next"
           >&rightarrow;</a
         >
       </div>
-      <a href="/colophon">Colophon</a>
     </footer>
   </body>
+  <script>
+    // NAV
+
+    const menuButton = document.querySelector("#menu-button");
+    const menu = document.querySelector("#menu");
+
+    // hide menu button and show menu list by default if JS is enabled
+    menu.setAttribute("hidden", true);
+    menuButton.removeAttribute("hidden");
+
+    menuButton.addEventListener("click", () => {
+      if (!menu.hidden) {
+        // close menu
+        menuButton.setAttribute("aria-expanded", false);
+        menu.hidden = true;
+        menu.setAttribute("style", "display: none;");
+      } else {
+        // open menu
+        menuButton.setAttribute("aria-expanded", true);
+        menu.hidden = false;
+        menu.setAttribute("style", "display: inline;");
+        menu.querySelector(":not(\[disabled])").focus();
+      }
+    });
+  </script>
 </html>

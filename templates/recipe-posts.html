@@ -6,11 +6,6 @@
     <meta name="description" content="A personal website" />
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/20230611-global.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="/styles/20221220-recipe-posts.css"
-      type="text/css"
-    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link
@@ -32,19 +27,52 @@
   </head>
 
   <body>
+    <div id="bg-deco" aria-hidden="true">
+      <div id="line-vertical"></div>
+      <div id="square"></div>
+      <div id="circle"></div>
+    </div>
     <header>
       <a class="skip-to-content" href="#main-section">Skip to content</a>
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/now/">Now</a></li>
-          <li><a href="/posts/">Musings</a></li>
-          <li><a href="/recipes/">Recipes</a></li>
-          <li><a href="/media/">Media</a></li>
-          <li><a href="/blogroll/">Blogroll</a></li>
+        <button
+          class="tertiary-link"
+          id="menu-button"
+          aria-haspopup="true"
+          aria-expanded="false"
+          hidden
+        >
+          Menu
+        </button>
+        <ul id="menu" role="menu">
+          <li>
+            <a class="secondary-link" role="menuitem" href="/">Home</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/about/">About</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/now/">Now</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/posts/">Musings</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/recipes/"
+              >Recipes</a
+            >
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/media/">Media</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/blogroll/"
+              >Blogroll</a
+            >
+          </li>
         </ul>
       </nav>
+      <div id="line-horizontal" aria-hidden="true"></div>
     </header>
     <main id="main-section" class="h-recipe">
       <div class="post-header">
@@ -62,11 +90,38 @@
           <span class="recipe-data-tags">{{dataTag}}</span>
         </p>
       </div>
-      <article>{{> content}}</article>
+      {{#intro}}
+      <p class="center">{{intro}}</p>
+      {{/intro}}
+      <article class="e-content">{{> content}}</article>
     </main>
     <footer>
-      <a href="#main-section">Back to top</a>
-      <a href="/colophon">Colophon</a>
+      <a href="#main-section" class="secondary-link">Back to top &uarr;</a>
     </footer>
   </body>
+  <script>
+    // NAV
+
+    const menuButton = document.querySelector("#menu-button");
+    const menu = document.querySelector("#menu");
+
+    // hide menu button and show menu list by default if JS is enabled
+    menu.setAttribute("hidden", true);
+    menuButton.removeAttribute("hidden");
+
+    menuButton.addEventListener("click", () => {
+      if (!menu.hidden) {
+        // close menu
+        menuButton.setAttribute("aria-expanded", false);
+        menu.hidden = true;
+        menu.setAttribute("style", "display: none;");
+      } else {
+        // open menu
+        menuButton.setAttribute("aria-expanded", true);
+        menu.hidden = false;
+        menu.setAttribute("style", "display: inline;");
+        menu.querySelector(":not(\[disabled])").focus();
+      }
+    });
+  </script>
 </html>

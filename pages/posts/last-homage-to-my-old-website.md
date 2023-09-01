@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Last homage to my old website"
 subtitle: "A toast to all lost websites"
 dateCreated: "2022-04-03"
-dataTag: ["thoughts"]
+dataTag: ["thought"]
 ---
 
 I realized that I change my website more often than I go shopping. I can't decide if it's a good or bad thing.

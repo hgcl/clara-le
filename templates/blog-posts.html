@@ -27,30 +27,56 @@
   </head>
 
   <body>
+    <div id="bg-deco" aria-hidden="true">
+      <div id="line-vertical"></div>
+      <div id="square"></div>
+      <div id="circle"></div>
+    </div>
     <header>
       <a class="skip-to-content" href="#main-section">Skip to content</a>
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/now/">Now</a></li>
-          <li><a href="/posts/">Musings</a></li>
-          <li><a href="/recipes/">Recipes</a></li>
-          <li><a href="/media/">Media</a></li>
-          <li><a href="/blogroll/">Blogroll</a></li>
+        <button
+          class="tertiary-link"
+          id="menu-button"
+          aria-haspopup="true"
+          aria-expanded="false"
+          hidden
+        >
+          Menu
+        </button>
+        <ul id="menu" role="menu">
+          <li>
+            <a class="secondary-link" role="menuitem" href="/">Home</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/about/">About</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/now/">Now</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/posts/">Musings</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/recipes/"
+              >Recipes</a
+            >
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/media/">Media</a>
+          </li>
+          <li>
+            <a class="secondary-link" role="menuitem" href="/blogroll/"
+              >Blogroll</a
+            >
+          </li>
         </ul>
       </nav>
+      <div id="line-horizontal" aria-hidden="true"></div>
     </header>
     <!-- ID of main necessary for skip content button -->
     <main id="main-section" class="h-entry">
       <div class="post-header">
-        <h1 class="p-name">{{title}}</h1>
-        <a rel="author" class="p-author h-card hide" href="https://clarale.com"
-          >Clara Le</a
-        >
-        {{#subtitle}}
-        <p class="subtitle">{{subtitle}}</p>
-        {{/subtitle}}
         <p class="label">
           <span class="sr-only">Published on</span>
           <time datetime="{{dateCreated}}" class="dt-published"
@@ -61,33 +87,65 @@
           <span aria-hidden="true">&#47;</span>
           <span class="post-data-tags">{{dataTag}}</span>{{/dataTag.length}}
         </p>
+        <h1 class="p-name">{{title}}</h1>
+        <a rel="author" class="p-author h-card hide" href="https://clarale.com"
+          >Clara Le</a
+        >
+        {{#subtitle}}
+        <p class="label">{{subtitle}}</p>
+        {{/subtitle}}
       </div>
-      <article class="e-content">{{> content}}</article>
+      <article class="center e-content">{{> content}}</article>
     </main>
     <footer>
-      <a href="#main-section">Back to top</a>
-      <a href="/colophon">Colophon</a>
+      <a href="#main-section" class="secondary-link">Back to top &uarr;</a>
     </footer>
   </body>
   <script type="text/javascript">
     // Get footnotes box (ol element) and set up counter
-    let footnotes = document.querySelector(".footnotes").lastChild;
-    let counter = 1;
-    window.onload = () => {
-      while (footnotes.childNodes.length >= counter) {
-        // Generate ids numbers
-        let footnoteId = "user-content-fn-" + counter;
-        let refId = "user-content-fnref-" + counter;
-        // Get footnote element (li element) + set class sidenote
-        let footnoteEl = document.getElementById(footnoteId);
-        footnoteEl.setAttribute("class", "sidenote");
-        // Get the reference sup element top position
-        let supEl = document.getElementById(refId).parentNode;
-        let topPos = supEl.offsetTop;
-        // Vertically position footnote
-        footnoteEl.style.top = topPos + "px";
-        counter++;
+    if (document.querySelector(".footnotes")) {
+      let footnotes = document.querySelector(".footnotes").lastChild;
+      let counter = 1;
+      window.onload = () => {
+        while (footnotes.childNodes.length >= counter) {
+          // Generate ids numbers
+          let footnoteId = "user-content-fn-" + counter;
+          let refId = "user-content-fnref-" + counter;
+          // Get footnote element (li element) + set class sidenote
+          let footnoteEl = document.getElementById(footnoteId);
+          footnoteEl.setAttribute("class", "sidenote");
+          // Get the reference sup element top position
+          let supEl = document.getElementById(refId).parentNode;
+          let topPos = supEl.offsetTop;
+          // Vertically position footnote
+          footnoteEl.style.top = topPos + "px";
+          counter++;
+        }
+      };
+    }
+
+    // NAV
+
+    const menuButton = document.querySelector("#menu-button");
+    const menu = document.querySelector("#menu");
+
+    // hide menu button and show menu list by default if JS is enabled
+    menu.setAttribute("hidden", true);
+    menuButton.removeAttribute("hidden");
+
+    menuButton.addEventListener("click", () => {
+      if (!menu.hidden) {
+        // close menu
+        menuButton.setAttribute("aria-expanded", false);
+        menu.hidden = true;
+        menu.setAttribute("style", "display: none;");
+      } else {
+        // open menu
+        menuButton.setAttribute("aria-expanded", true);
+        menu.hidden = false;
+        menu.setAttribute("style", "display: inline;");
+        menu.querySelector(":not(\[disabled])").focus();
       }
-    };
+    });
   </script>
 </html>
