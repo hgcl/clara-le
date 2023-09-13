@@ -27,9 +27,9 @@ export async function buildPage(html) {
              month: "short",
              day: "numeric",
            })}
-          </time><span class="details"><a class="secondary-link" href="${
-            post.slug
-          }">${post.title}</a>${
+          </time><span class="details"><a href="${post.slug}">${
+                  post.title
+                }</a>${
                   post.subtitle
                     ? `<span class="subtle">${post.subtitle}</span>`
                     : ""

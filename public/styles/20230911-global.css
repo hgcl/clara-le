@@ -505,12 +505,8 @@ a[id*="user-content-fnref"] {
 #posts .post-row > .label {
   min-width: 3.5rem;
 }
-#posts .details {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .post-row .subtle {
+  display: block;
   /* font styles smaller than body */
   margin-top: 0.25rem;
   font-size: var(--font-xs);
@@ -589,6 +585,9 @@ a[id*="user-content-fnref"] {
   button {
     border-color: var(--color-text-alt);
     box-shadow: 2px 2px var(--color-text-alt); /* only change color */
+  }
+  .secondary-link {
+    text-decoration-color: var(--color-text-alt);
   }
 }
 
