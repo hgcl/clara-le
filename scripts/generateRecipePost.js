@@ -72,7 +72,7 @@ function generateHtml(file) {
   <h2>Ingredients</h2>
   ${ingredientList}${url}</section>`;
   const instructionsHtml = `<section class="e-instructions">
-    <h2>Step-by-step</h2>
+    <h2>Instructions</h2>
     ${instructionList}
     ${noteList}
   </section>`;
