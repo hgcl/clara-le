@@ -434,7 +434,7 @@ a:focus {
 .card-link:hover img,
 .card-link:focus img {
   mix-blend-mode: screen;
-  filter: grayscale(100%) contrast(105%) brightness(108%);
+  filter: grayscale(100%) contrast(105%);
 }
 
 /* External links */
