@@ -29,7 +29,7 @@ function generateHtml(file) {
     ? file.ingredients
         .map(
           (i) =>
-            `<p>${i.ingTitle}</p><ul>` +
+            `<h3>${i.ingTitle}</h3><ul>` +
             i.ingMand
               .map((j) => `<li class="p-ingredient">${j}</li>`)
               .join("") +
