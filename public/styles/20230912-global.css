@@ -347,19 +347,23 @@ details summary {
 }
 
 /* Hyperlinks and buttons */
-button {
+button,
+.button {
+  display: inline-block;
   cursor: pointer;
   font: inherit;
   width: fit-content;
   padding: 0.1em 0.6em;
   color: var(--color-text);
-  background-color: var(--color-bg);
+  background-color: transparent;
   border: 1px solid var(--color-text);
   transition: transform 0.1s ease-in-out;
   box-shadow: 2px 2px;
 }
 button:hover,
-button:focus {
+button:focus,
+.button:hover,
+.button:focus {
   background-color: var(--color-text-alt);
   border-color: var(--color-text-alt);
   box-shadow: none;
@@ -439,15 +443,10 @@ a:focus {
 
 /* External links */
 
-a[href*="//"]:not([href*="clarale.com"], #webring > a)::after
+a[href*="//"]:not([href*="clarale.com"])::after
 {
   content: "\2197";
-  width: 1em;
-  display: inline-block;
   margin-left: var(--space-2xs);
-}
-#webring > a {
-  border: none;
 }
 
 /* Forms */
@@ -582,7 +581,8 @@ a[id*="user-content-fnref"] {
   a {
     border-color: var(--color-text-alt);
   }
-  button {
+  button,
+  .button {
     border-color: var(--color-text-alt);
     box-shadow: 2px 2px var(--color-text-alt); /* only change color */
   }
