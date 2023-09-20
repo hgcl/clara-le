@@ -55,7 +55,7 @@ html {
 body {
   font-family: var(--font-mono);
   font-size: var(--font-s);
-  line-height: 1.6rem;
+  line-height: 1.6;
   color: var(--color-text);
   background-color: var(--color-bg);
   display: flex;
@@ -222,7 +222,6 @@ figcaption {
   font-style: italic;
   /* below similar to .label */
   font-size: var(--font-xs);
-  line-height: 1.1rem;
 }
 
 /* Typography */
@@ -239,20 +238,21 @@ h3,
 h1,
 .h1 {
   font-size: var(--font-xl);
-  line-height: 2.9rem;
+  line-height: 1.1;
   font-style: italic;
   text-transform: uppercase;
 }
 h2,
 .h2 {
-  font-size: var(--font-l);
-  line-height: 2.3rem;
+  font-size: var(--font-m);
+  line-height: 1.2;
   margin: 3rem 0 1rem 0;
+  text-transform: uppercase;
 }
 h3,
 .h3 {
-  font-size: var(--font-m);
-  line-height: 1.8rem;
+  font-size: var(--font-s);
+  line-height: 1.4;
   margin: 2rem 0 1rem 0;
 }
 
@@ -269,13 +269,13 @@ li {
 .label {
   text-transform: uppercase;
   font-size: var(--font-xs);
-  line-height: 1rem;
+  line-height: 1;
   letter-spacing: 0.1em;
 }
 
 blockquote {
   border-left: solid 1px;
-  padding-left: 1.5rem;
+  padding-left: 1.5;
   margin: 2rem 0 2rem 2rem;
 }
 
@@ -460,7 +460,6 @@ input[type="checkbox"] {
 .footnotes {
   margin-top: var(--space-7xl);
   font-size: var(--font-xs);
-  line-height: 1.2rem;
 }
 a[id*="user-content-fnref"] {
   padding: 0 2px 0 3px;
@@ -491,7 +490,7 @@ a[id*="user-content-fnref"] {
 .h-card {
   max-width: 560px;
   font-size: var(--font-l);
-  line-height: 2.5rem;
+  line-height: 1.4;
 }
 
 /* posts.html layout */
@@ -509,7 +508,6 @@ a[id*="user-content-fnref"] {
   /* font styles smaller than body */
   margin-top: 0.25rem;
   font-size: var(--font-xs);
-  line-height: 1.3rem;
 }
 
 /* media.html layout */
@@ -547,7 +545,6 @@ a[id*="user-content-fnref"] {
 
 #ingredients {
   font-size: smaller;
-  line-height: 1.5rem;
   color: var(--color-text);
 }
 #ingredients li span::before {
@@ -612,7 +609,6 @@ a[id*="user-content-fnref"] {
   h1,
   text .h1 {
     font-size: var(--font-2xl);
-    line-height: 4.2rem;
   }
   #recipes {
     columns: 2;
