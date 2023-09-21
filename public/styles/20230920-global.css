@@ -263,7 +263,7 @@ ol {
 }
 
 li {
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
 }
 
 .label {
@@ -536,8 +536,9 @@ a[id*="user-content-fnref"] {
 /* recipes.html layout */
 
 #recipes {
-  columns: 1;
+  columns: 320px auto;
   text-transform: capitalize;
+  column-gap: var(--space-m);
 }
 #recipes .label {
   margin-left: var(--space-s);
@@ -612,9 +613,6 @@ a[id*="user-content-fnref"] {
   text .h1 {
     font-size: var(--font-2xl);
   }
-  #recipes {
-    columns: 2;
-  }
   #media ul {
     grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
     grid-gap: var(--space-xl);
@@ -658,9 +656,5 @@ a[id*="user-content-fnref"] {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-  }
-
-  #recipes {
-    columns: 3;
   }
 }
