@@ -23,7 +23,7 @@ buildScript: "/scripts/formatPostDetails.js"
 
 function generateHtml(file) {
   const url = file.recipeUrl
-    ? `<p class="label"><a href="${file.recipeUrl}">Original recipe</a></p>`
+    ? `<p class="subtle"><em>Adapted from this <a href="${file.recipeUrl}">original recipe</a></em></p>`
     : "";
   const ingredientList = file.ingredients[1] // There is a second section in the ingredient list (= simple recipe)
     ? file.ingredients
@@ -70,11 +70,11 @@ function generateHtml(file) {
     : "";
   const ingredientsHtml = `<section id="ingredients">
   <h2>Ingredients</h2>
-  ${ingredientList}${url}</section>`;
+  ${ingredientList}</section>`;
   const instructionsHtml = `<section class="e-instructions">
     <h2>Instructions</h2>
     ${instructionList}
-    ${noteList}
+    ${noteList}${url}
   </section>`;
   const html = `${ingredientsHtml}${instructionsHtml}`;
   return html;

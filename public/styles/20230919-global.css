@@ -263,7 +263,7 @@ ol {
 }
 
 li {
-  margin: 0.4rem 0;
+  margin: 0.5rem 0;
 }
 
 .label {
@@ -475,6 +475,14 @@ a[id*="user-content-fnref"] {
   margin-right: auto;
   max-width: var(--article-width);
 }
+.subtle {
+  /* font styles smaller than body */
+  font-size: var(--font-xs);
+}
+.post-row .subtle {
+  display: block;
+  margin-top: 0.25rem;
+}
 
 /*--------------------------------------------------------*/
 /*               Custom pages or elements                 */
@@ -502,12 +510,6 @@ a[id*="user-content-fnref"] {
 }
 #posts .post-row > .label {
   min-width: 3.5rem;
-}
-.post-row .subtle {
-  display: block;
-  /* font styles smaller than body */
-  margin-top: 0.25rem;
-  font-size: var(--font-xs);
 }
 
 /* media.html layout */

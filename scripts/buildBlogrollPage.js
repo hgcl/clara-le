@@ -11,7 +11,7 @@ export function buildPage(html) {
             .filter((item) => item.category.includes(cat.anchor))
             .map(
               (item) =>
-                `<li><a href="${item.url}">${item.title}</a>&emsp;<span class="subtle">${item.description}</span></li>`
+                `<li class="post-row"><a href="${item.url}">${item.title}</a><span class="subtle">${item.description}</span></li>`
             )
             .join("") +
           `</ul>`
