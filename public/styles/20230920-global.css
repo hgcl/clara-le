@@ -498,7 +498,7 @@ a[id*="user-content-fnref"] {
   display: flex;
   align-items: center;
 }
-.h-card {
+#index p {
   max-width: 560px;
   font-size: var(--font-l);
   line-height: 1.4;
