@@ -216,6 +216,9 @@ footer {
 img {
   border-radius: var(--space-2xs);
 }
+img + img {
+  margin-top: 1rem;
+}
 
 figcaption {
   margin-top: var(--space-xs);
