@@ -12,7 +12,7 @@ Top of my mind at the moment:
 
 - Climbing, climbing, climbing (and learning new cool outdoor techniques)
 - Working on a private Pocket alternative with Robin
-- Learning about plants and creating my herbarium
+- Learning about plants
 - Reading
 - Tending to my website
 - Gardening and preserving food
