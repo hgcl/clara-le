@@ -509,7 +509,6 @@ a[id*="user-content-fnref"] {
 }
 #index p {
   max-width: var(--article-width);
-  font-size: var(--font-m);
 }
 
 /* posts.html layout */
@@ -623,6 +622,9 @@ a[id*="user-content-fnref"] {
   h1,
   text .h1 {
     font-size: var(--font-2xl);
+  }
+  #index p {
+    font-size: var(--font-m);
   }
   #media ul {
     grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
