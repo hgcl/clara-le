@@ -1,0 +1,37 @@
+{
+  "title": "Italian veggie schiaccata",
+  "publishedOn": "2023-09-26",
+  "dataTag": ["extra", "main"],
+  "intro": "Great to eat as a side or even as a main dish with some accompanying sauce.",
+  "duration": "45",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Some veggies (e.g. 2 carrots, 2 zucchini), grated",
+        "1 potato, grated",
+        "200 g flour",
+        "Salt",
+        "Olive oil"
+      ],
+      "ingOpt": ["Dried herbs", "Parmesan, grated", "Breadcrumbs"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Thickly grate the vegetables and place them all in a bowl. Add salt to taste and let it rest for 15 minutes for the vegetables to release their water.",
+        "Cover a big baking tray with baking paper. Grease it with olive oil.",
+        "Go back to your veggies, add the flour, dried herbs and mix with your hands.",
+        "Once the dough is ready, spread it out onto the baking tray. Ideally, it should be thin (about 0.5 cm).",
+        "Sprinkle some more olive oil on top of the mixture, sprinkle with parmesan, and breadcrumbs.",
+        "Bake for 35 minutes at 200&nbsp;°C until a golden, crunchy crust has formed."
+      ]
+    }
+  ],
+  "notes": [
+    "Note: it is also possible to make a soft and chewy version by baking it at 250&nbsp;°C until slightly golden."
+  ],
+  "recipeUrl": "https://blog.giallozafferano.it/allacciateilgrembiule/schiacciata-di-verdure/"
+}
