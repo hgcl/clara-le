@@ -3,7 +3,7 @@
   "publishedOn": "2023-08-08",
   "dataTag": ["dessert"],
   "intro": "L'une des premières recettes que j'ai appris à faire petite.",
-  "duration": "45",
+  "duration": "70",
   "ingredients": [
     {
       "ingTitle": "Pour 6 pots",
@@ -15,16 +15,18 @@
     {
       "insTitle": "Caramel",
       "insSteps": [
-        "Préchauffer le four à 180 °C. Préparer le caramel en mettant 50 g de sucre dans une casserole à fond épais et en faisant chauffer doucement sans remuer.",
-        "Tourner la casserole de temps en temps pour homogénéiser la cuisson. Lorsqu'il commence à prendre une jolie couleur dorée, le verser dans un grand moule allant au four."
+        "Préparer le caramel en mettant un peu de sucre dans une casserole à fond épais et en faisant chauffer doucement. Ajouter un peu d'eau pour que tout le sucre fonde.",
+        "Tourner la casserole de temps en temps pour homogénéiser la cuisson. Saupoudrer le sucre petit à petit lorsque celui de la casserole a fondu.",
+        "Quand l'entièreté du sucre s'est transformée en caramel, augmenter le feu pour le faire dorer.",
+        "Lorsque le caramel commence à prendre une jolie couleur dorée foncée, le verser dans un grand moule allant au four. Plus le caramel reste clair, plus il sera sucré. Plus le caramel est foncé et plus les notes amères ressortiront."
       ]
     },
     {
-      "insTitle": "Flan",
+      "insTitle": "Cuisson du flan",
       "insSteps": [
         "Battre les œufs avec les 50 g de sucre restants, puis ajouter le lait préalablement chauffé et l'eau de fleur d'oranger.",
-        "Verser le tout dans le moule caramélisé. Faire cuire au four dans un bain-marie pendant 30 à 40 minutes environ, cela peut varier en fonction de la taille du moule utilisé. Il faut que le centre soit pris mais encore légèrement tremblotant.",
-        "Laisser refroidir puis placer au frais jusqu'au moment de servir."
+        "Verser le tout dans le moule caramélisé. Faire cuire au four à 180&nbsp;°C dans un bain-marie pendant 45 minutes environ, cela peut varier en fonction de la taille du moule utilisé. Il faut que le centre soit pris mais encore légèrement tremblotant. Pour les 5–10 dernières minutes, monter la plaque de cuisson pour faire dorer le flan. Note : si le flan est divisé en portions individuelles, vérifier la cuisson après 35 minutes.",
+        "Laisser refroidir puis placer au frais jusqu'au moment de servir. Pour servir, recouvrir le flan de son caramel."
       ]
     }
   ],
