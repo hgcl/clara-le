@@ -238,6 +238,21 @@ export const blogrollData = [
     category: [categories.reading.anchor],
     best: false,
   },
+  {
+    url: "https://solar.lowtechmagazine.com/",
+    title: "Low-tech Magazine",
+    description:
+      "Low-tech Magazine underscores the potential of past and often forgotten technologies and how they can inform sustainable energy practices. The website also walks the talk, as it is solar-powered (which means it sometimes goes offline).",
+    category: [categories.tech.anchor, categories.blog.anchor],
+    best: false,
+  },
+  {
+    url: "https://lynnandtonic.com/",
+    title: "Lynn Fisher",
+    description: "I love Lynn's random and inspiring CSS projects.",
+    category: [categories.blog.anchor],
+    best: false,
+  },
   // >M
   {
     url: "https://www.youtube.com/user/Maangchi",
@@ -399,12 +414,28 @@ export const blogrollData = [
     best: true,
   },
   {
+    url: "https://web.archive.org/",
+    title: "Wayback Machine",
+    description:
+      "I just love how this enables people to experience how the web felt decades ago.",
+    category: [categories.tech.anchor],
+    best: false,
+  },
+  {
     url: "https://winnielim.org/",
     title: "Winnie Lim",
     description:
       "Winnie Lim's beautifully written blog, where she documents her life.",
     category: [categories.blog.anchor],
     best: false,
+  },
+  {
+    url: "https://en.wikipedia.org/wiki/Wikipedia:Contents",
+    title: "Wikipedia",
+    description:
+      "I love Wikipedia. I love that it is collaborative and that people need to discuss to find common ground on a topic (especially the controversial ones). Here, I linked the starting hub to navigate Wikipedia differently.",
+    category: [categories.tech.anchor],
+    best: true,
   },
   // >X
   // >Y
