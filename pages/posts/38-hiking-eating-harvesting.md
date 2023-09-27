@@ -15,11 +15,11 @@ On Sunday, we went to St-Melany for the first time, driving on some of the most 
 
 St-Melany also has an artist-themed hike that guides you through amazing landscapes. The only drawback is that the entire loop is 5–6 hours long. That hike is therefore the longest I have ever done (yes, I'm weak). I am happy to announce, that although I almost gave up in the middle, I still successfully completed the loop without crying.
 
-Plus, a great thing about doing that hike end of September is that we were able to nimble on lots of wild grapes on the way!
+Plus, a great thing about doing that hike end of September is that we were able to nibble on lots of wild grapes on the way!
 
 ## Activity \#2: eating nougat
 
-On Monday, Robin had a doctor appointment in Montélimar, a legit—albeit small—city one hour drive away. So, we thought that it would be nice to spend the day there, doing some city-related activities.
+On Monday, Robin had a doctor appointment in Montélimar, a legit (albeit small) city one hour drive away. So, we thought that it would be nice to spend the day there, doing some city-related activities.
 
 The idea was nice. The only problem was that it was a _Monday_. And French cities are _dead_ on Mondays. In short, all the nice restaurants, coffee shops, museums (nah, kidding), book stores, even libraries we wanted to visit were all closed (sob).
 
