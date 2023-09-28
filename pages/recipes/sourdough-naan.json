@@ -1,0 +1,53 @@
+{
+  "title": "Sourdough naan",
+  "publishedOn": "2023-09-18",
+  "dataTag": ["extra"],
+  "intro": "",
+  "duration": "220",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "150 g water",
+        "80 g yogurt",
+        "75 g sourdough starter",
+        "350 g flour",
+        "0.5 tsp salt",
+        "1.5 tbs sugar",
+        "1 tbsp olive oil"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Mixing everything",
+      "insSteps": [
+        "Mix water, yogurt and sourdough starter.",
+        "Add flour, salt and sugar. Mix with a scraper first and then with your hand until the dough roughly holds together.",
+        "Add olive oil and continue mixing to incorporate all the ingredients."
+      ]
+    },
+    {
+      "insTitle": "Let it rise",
+      "insSteps": [
+        "Cover and let the dough rest for one hour.",
+        "Knead lightly for one minute.",
+        "Repeat the previous steps twice (skip the last kneading).",
+        "Instead of the last kneading, divide the dough into eight equal pieces with a scraper.",
+        "Shape the pieces into balls. Let them rest for 20 minutes."
+      ]
+    },
+    {
+      "insTitle": "Baking",
+      "insSteps": [
+        "Preheat a baking steel at 260&nbsp;°C.",
+        "Gently flatten a ball of dough with a rolling pin (don't break the bubbles!). Stretch it by turning it in your hands, letting gravity work. It should end round-shaped or teardrop-shaped. Work and bake each ball of dough one or two at a time (depending on your baking steel size).",
+        "Bake each naan for two minutes on one side (bubbles should have time to form), and one minute on the other side.",
+        "Keep the finished naans in a basket, covered by a towel."
+      ]
+    }
+  ],
+  "notes": [""],
+  "recipeUrl": "https://www.youtube.com/watch?v=TRHs4KDm7HM"
+}
