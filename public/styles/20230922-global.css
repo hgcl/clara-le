@@ -567,6 +567,16 @@ a[id*="user-content-fnref"] {
   max-width: var(--screen-md);
 }
 
+/* learning.html layout */
+
+#learning article::after {
+  /* \002B is a plus sign */
+  content: "\002B\00a0\002B\00a0\002B";
+  margin-top: 3rem;
+  justify-content: center;
+  display: flex;
+}
+
 /*--------------------------------------------------------*/
 /*                     Media-queries                      */
 /*--------------------------------------------------------*/
