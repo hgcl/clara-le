@@ -1,0 +1,78 @@
+<!--
+template: /templates/default.html
+buildScript: /scripts/buildLearningList.js
+-->
+
+<section class="center" id="learning">
+  <div class="post-header">
+    <h1>Learning</h1>
+    <p class="intro">
+      This is where I document my learning adventures about various topics. I
+      use it as a log of short nuggets of knowledge.
+    </p>
+  </div>
+  <div class="posts-filter">
+    <label for="category-select">Filter by category</label>
+    <select
+      id="category-select"
+      aria-describedby="notes-filter-js-warning"
+      onchange="filterNotes(this.value)"
+    >
+      <option value="">All</option>
+      <option value="russian">Russian</option>
+    </select>
+    <p id="notes-filter-js-warning">
+      <em> You need to enable JavaScript to use filters.</em>
+    </p>
+  </div>
+  <p>Posts go here</p>
+</section>
+<script>
+  const allNotes = document.querySelectorAll(`article[data-tag]`);
+  const selectElement = document.getElementById("category-select");
+  // remove no JS warning
+  const notesFilterJSWarning = document
+    .getElementById("notes-filter-js-warning")
+    .remove();
+
+  /**
+   * This gets triggered when a user changes the value of the select
+   */
+  function filterNotes(category) {
+    // update URL onclick
+    updateURL(category);
+    // remove previous filter (show all notes)
+    allNotes.forEach((note) => note.removeAttribute("hidden"));
+    // add hidden attributes to notes that don't have the chosen category in data-tag
+    if (category) {
+      selectElement.value = category;
+      let filteredNotes = [];
+      allNotes.forEach((note) => {
+        if (note.dataset.tag.split(",").includes(category)) {
+          filteredNotes.push(note);
+        } else {
+          note.setAttribute("hidden", "");
+        }
+      });
+    }
+  }
+
+  // get current URL
+  let currentUrl = new URL(window.location.href);
+  const searchParams = new URLSearchParams(currentUrl.search);
+  // apply URL filter to open page if not "All" filter selected
+  if (searchParams.get("q")) {
+    filterNotes(searchParams.get("q"));
+  }
+
+  // align selected category with URL
+  function updateURL(category) {
+    if (category) {
+      currentUrl.searchParams.set("q", category);
+    } else {
+      // delete current query to support "All" filter
+      currentUrl.searchParams.delete("q");
+    }
+    history.pushState({}, "", currentUrl);
+  }
+</script>
