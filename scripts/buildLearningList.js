@@ -4,10 +4,12 @@ const DIR_CATEGORY = "learning";
 export async function buildPage(html) {
   try {
     const posts = await getPosts(DIR_CATEGORY, true);
-    const orderedPosts = posts.sort(
-      (a, b) =>
-        new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
-    );
+    const orderedPosts = posts
+      .sort((a, b) => (a === b ? 0 : a < b ? 1 : -1)) // reverse alphabetical
+      .sort(
+        (a, b) =>
+          new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
+      );
     const postsHtml = orderedPosts
       .map(
         (post) =>
