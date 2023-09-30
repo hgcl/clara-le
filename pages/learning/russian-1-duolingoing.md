@@ -1,7 +1,7 @@
 ---
-title: "Duolingo: kickstarting Russian"
+title: "Russian: Duolingoing"
 dateCreated: "2023-09-29"
-dataTag: ["russian"]
+dataTag: ["language"]
 ---
 
 Sooo I've been Duolingoing Russian for approximately a month now. Compared to other Duolingo languages, the Russian course is really bad. For me, the main issue is that we are missing some grammar notes or simple explanations for each lesson.

@@ -1,7 +1,7 @@
 ---
-title: "You, you, you"
+title: "Russian: You, you, you"
 dateCreated: "2023-09-29"
-dataTag: ["russian"]
+dataTag: ["language"]
 ---
 
 Russian makes a distinction between ты, singular "you", and вы, plural "you" (you all). The latter also doubles for "polite" you, with verbs also in plural.

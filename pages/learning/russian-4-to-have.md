@@ -1,7 +1,7 @@
 ---
-title: "To have"
+title: "Russian: To have"
 dateCreated: "2023-09-29"
-dataTag: ["russian"]
+dataTag: ["language"]
 ---
 
 "У _A_ есть _B_" ~ "By _A_ there is a _B_." which is used to translate "_A_ has a _B_."

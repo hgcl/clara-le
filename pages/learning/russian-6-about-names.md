@@ -1,7 +1,7 @@
 ---
-title: "About names"
+title: "Russian: About names"
 dateCreated: "2023-09-29"
-dataTag: ["russian"]
+dataTag: ["language"]
 ---
 
 ### Patronyms
