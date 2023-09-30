@@ -22,8 +22,8 @@ buildScript: "/scripts/formatPostDetails.js"
 }
 
 function generateHtml(file) {
-  const url = file.recipeUrl
-    ? `<p class="subtle"><em>Adapted from this <a href="${file.recipeUrl}">original recipe</a></em></p>`
+  const url = file.sourceUrl
+    ? `<p class="subtle"><em>Adapted from this <a href="${file.sourceUrl}">original recipe</a></em></p>`
     : "";
   const ingredientList = file.ingredients[1] // There is a second section in the ingredient list (= simple recipe)
     ? file.ingredients
@@ -93,7 +93,7 @@ function getRecipes(files) {
       ingredients: str.ingredients,
       instructions: str.instructions,
       notes: str.notes,
-      recipeUrl: str.recipeUrl,
+      sourceUrl: str.sourceUrl,
     };
   });
   return recipesArray;
