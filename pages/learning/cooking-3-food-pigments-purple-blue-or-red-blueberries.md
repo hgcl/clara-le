@@ -5,7 +5,7 @@ dataTag: ["cooking"]
 sourceUrl: "https://niksharmacooks.com/the-flavor-equation/"
 ---
 
-Anthocyanins give their purple color to fruits and vegetab such as blueberries, pomegrenates, grapes or purple beans.
+Anthocyanins give their purple color to fruits and vegetables such as blueberries, pomegrenates, grapes or purple beans.
 
 When cooking (heating), the anthocyanin pigment leaches out. Heat also destroys the pigment: as the purple color disappears, the green chlorophyll becomes more visible.
 

@@ -17,6 +17,6 @@ Heat also plays a second role: it destroys a plant enzyme called chlorophyllase,
 
 However, if vegetables are cooked too long, their bright green transforms into a dull olive gray. The prolonged heating causes the cells to release acids. These push out the magnesium atom in the center of the chlorophyll molecule, causing it to turn dull green.
 
-When cooking, we should then avoid adding acids (e.g. lemon, vinegar) to blanching water. On the opposite, adding a pinch of baking soda can help retain some of the bright green color. Alkaline will indeed counteract the plant acids dulling effect.
+When cooking, we should then avoid adding acids (e.g. lemon, vinegar) to blanching water. On the opposite, adding a pinch of baking soda can help retain some of the bright green color. Alkalines will indeed counteract the plant acids dulling effect.
 
 Note: This is also the reason why lactic fermentation of green veggies will make their color duller.
