@@ -106,6 +106,7 @@ export default async function getPosts(dirCategory, withPostContent = false) {
             .replace(".md", "")
             .replace(".html", "")}`,
           content: html,
+          sourceUrl: frontmatter.sourceUrl,
         };
       })
   );

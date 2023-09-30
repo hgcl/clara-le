@@ -27,7 +27,11 @@ export async function buildPage(html) {
          </time> \/ ${post.dataTag}</span></div>
           <span class="details">${
             post.subtitle ? `<span class="subtle">${post.subtitle}</span>` : ""
-          }</span>${post.content}</article>`
+          }</span>${post.content}${
+            post.sourceUrl
+              ? `<p class="subtle"><em><a href="${post.sourceUrl}">Original source</a></em></p>`
+              : ""
+          }</article>`
       )
       .join("");
     return html.replace("<p>Posts go here</p>", postsHtml);
