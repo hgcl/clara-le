@@ -13,7 +13,9 @@ export async function buildPage(html) {
     const postsHtml = orderedPosts
       .map(
         (post) =>
-          `<article data-tag="${post.dataTag}">
+          `<article id="${post.slug.replace(`/learning/`, ``)}" data-tag="${
+            post.dataTag
+          }">
           <div class="post-header"><h2>${
             post.title
           }</h2><span class="label"><time class="dt-duration" datetime="${
@@ -29,7 +31,7 @@ export async function buildPage(html) {
             post.subtitle ? `<span class="subtle">${post.subtitle}</span>` : ""
           }</span>${post.content}${
             post.sourceUrl
-              ? `<p class="subtle"><em><a href="${post.sourceUrl}">Original source</a></em></p>`
+              ? `<p class="subtle"><em>Go to the <a href="${post.sourceUrl}">original source</a></em></p>`
               : ""
           }</article>`
       )
