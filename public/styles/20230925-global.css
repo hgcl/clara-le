@@ -277,9 +277,17 @@ li {
 }
 
 blockquote {
-  border-left: solid 1px;
-  padding-left: 1.5;
+  position: relative;
   margin: 2rem 0 2rem 2rem;
+  font-size: var(--font-xs);
+}
+blockquote > p::before {
+  content: "";
+  border-left: 0.5rem solid;
+  position: absolute;
+  height: 1.5rem;
+  left: -2rem;
+  top: 0;
 }
 
 pre {
