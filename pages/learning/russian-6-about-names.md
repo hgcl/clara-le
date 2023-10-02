@@ -20,6 +20,8 @@ Russian has a casual diminutive form for many common names. They are often used 
 
 "Меня зовут Клаус. А тебя/Вас?" ~ "My name is Klaus. And you?" (polite/informal)
 
+> [Mnemonic] "зовут" as "z'oeufs vous", an egg with a name tag
+
 "Как вас/тебя зовут?" ~ "What is your name?" (polite/informal)
 
 "Очень приятно." ~ "Very nice." as in "Nice to meet you."
