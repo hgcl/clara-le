@@ -6,6 +6,7 @@
 
 :root {
   /* Typography: augmented fourth scale (1.414) */
+  --font-2xs: 0.7rem;
   --font-xs: 0.8rem;
   --font-s: 1rem; /* 16px */
   --font-m: 1.414rem; /* 23px */
@@ -224,7 +225,7 @@ figcaption {
   margin-top: var(--space-xs);
   font-style: italic;
   /* below similar to .label */
-  font-size: var(--font-xs);
+  font-size: var(--font-2xs);
 }
 
 /* Typography */
@@ -271,7 +272,7 @@ li {
 
 .label {
   text-transform: uppercase;
-  font-size: var(--font-xs);
+  font-size: var(--font-2xs);
   line-height: 1;
   letter-spacing: 0.1em;
 }
@@ -515,8 +516,9 @@ a[id*="user-content-fnref"] {
   align-items: center;
   justify-content: center;
 }
-#index p {
+#index > * {
   max-width: var(--article-width);
+  margin: 2rem 0 0 0;
 }
 
 /* posts.html layout */
@@ -638,10 +640,14 @@ a[id*="user-content-fnref"] {
     padding-right: var(--space-2xl);
   }
   h1,
-  text .h1 {
+  .h1 {
     font-size: var(--font-2xl);
   }
-  #index p {
+  .label,
+  figcaption {
+    font-size: var(--font-xs);
+  }
+  #index > p {
     font-size: var(--font-m);
   }
   #media ul {
