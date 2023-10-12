@@ -11,6 +11,10 @@ export const categories = {
     title: "Data Visualization",
     anchor: "data-visualization",
   },
+  discovering: {
+    title: "Discovering",
+    anchor: "discovering",
+  },
   game: {
     title: "Game",
     anchor: "game",
@@ -64,6 +68,13 @@ export const blogrollData = [
     title: "Beautiful Web Type",
     description: "A curated collection of open-source typefaces and pairings",
     category: [categories.typography.anchor],
+    best: false,
+  },
+  {
+    url: "https://blogroll.org/",
+    title: "Blogroll",
+    description: "Ray is taking the blogroll concept to the next level.",
+    category: [categories.discovering.anchor],
     best: false,
   },
   {
@@ -194,7 +205,7 @@ export const blogrollData = [
     description:
       "Highlight and annotate articles online—super cool open-source project.",
     category: [categories.tech.anchor],
-    best: true,
+    best: false,
   },
   // >I
   {
@@ -228,7 +239,7 @@ export const blogrollData = [
     title: "Laws of UX",
     description: "Nuggets of UX knowledge beautifully presented",
     category: [categories.ux.anchor],
-    best: false,
+    best: true,
   },
   {
     url: "https://www.overdrive.com/apps/libby",
@@ -298,7 +309,7 @@ export const blogrollData = [
     description:
       "System font stack CSS organized by typeface classification for every modern OS. What a lifesaver.",
     category: [categories.typography.anchor],
-    best: false,
+    best: true,
   },
   {
     url: "https://blog.mollywhite.net/",
@@ -378,6 +389,14 @@ export const blogrollData = [
     best: false,
   },
   {
+    url: "https://searchmysite.net/",
+    title: "Search my site",
+    description:
+      "Search real content by real people from the indieweb / the small web / digital gardens.",
+    category: [categories.discovering.anchor],
+    best: false,
+  },
+  {
     url: "https://skullsinthestars.com/",
     title: "Skulls in the stars",
     description:
@@ -400,7 +419,7 @@ export const blogrollData = [
     description:
       "My go-to tool whenever I need to create a new website. It just makes font size choices so much more straightforward.",
     category: [categories.typography.anchor],
-    best: false,
+    best: true,
   },
   // >U
   // >V
@@ -438,6 +457,14 @@ export const blogrollData = [
     best: true,
   },
   // >X
+  {
+    url: "https://xkcd.com/",
+    title: "xkcd",
+    description:
+      "Just a guy drawing comics with stick-people. I love how this website stayed simple despite becoming quite famous.",
+    category: [categories.reading.anchor],
+    best: false,
+  },
   // >Y
   // >Z
 ];
