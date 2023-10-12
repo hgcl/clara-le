@@ -1,6 +1,6 @@
 export const categories = {
   blog: {
-    title: "Blog",
+    title: "Blogs",
     anchor: "blog",
   },
   cooking: {
@@ -16,11 +16,11 @@ export const categories = {
     anchor: "discovering",
   },
   game: {
-    title: "Game",
+    title: "Games",
     anchor: "game",
   },
   newsletter: {
-    title: "Newsletter",
+    title: "Newsletters",
     anchor: "newsletter",
   },
   reading: {
