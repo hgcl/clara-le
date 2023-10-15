@@ -24,8 +24,6 @@
   --space-3xl: 56px;
   --space-4xl: 64px; /* 4rem */
   --space-5xl: 80px; /* 5rem */
-  --space-6xl: 96px; /* 6rem */
-  --space-7xl: 112px; /* 7rem */
   /* Colors */
   --white: hsl(0deg, 0%, 98%);
   --black: hsl(0deg, 0%, 3%);
@@ -210,6 +208,18 @@ footer {
   gap: var(--space-s);
   flex-wrap: wrap;
   margin: var(--space-2xl) 0;
+}
+
+.comment-section {
+  text-align: center;
+  font-size: var(--font-xs);
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  padding: var(--space-s) var(--space-m);
+  margin-top: var(--space-3xl);
+}
+.comment-section h2 {
+  margin-top: 1rem;
 }
 
 /* Images */
@@ -470,7 +480,7 @@ input[type="checkbox"] {
 /* Footnotes */
 
 .footnotes {
-  margin-top: var(--space-7xl);
+  margin-top: var(--space-3xl);
   font-size: var(--font-xs);
 }
 a[id*="user-content-fnref"] {
