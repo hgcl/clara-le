@@ -162,8 +162,8 @@ export const blogrollData = [
     best: false,
   },
   {
-    url: `Existential comics`,
-    title: `https://existentialcomics.com/`,
+    url: `https://existentialcomics.com/`,
+    title: `Existential comics`,
     description: `A philosophy comic about the inevitable anguish of living a brief life in an absurd world. Also jokes and philosophy 101.`,
     category: [categories.thinking.anchor],
     best: false,
