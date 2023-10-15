@@ -158,7 +158,14 @@ export const blogrollData = [
     url: `https://www.eaudepoisson.com/`,
     title: `Eau de poisson (in French)`,
     description: `Robin and I started Eau de poisson as a travel blog to share with friends and family. We now use it as a way to document some aspects of our personal lives.`,
-    category: [categories.blog.anchor],
+    category: [categories.blog.anchor, categories.travel.anchor],
+    best: false,
+  },
+  {
+    url: `Existential comics`,
+    title: `https://existentialcomics.com/`,
+    description: `A philosophy comic about the inevitable anguish of living a brief life in an absurd world. Also jokes and philosophy 101.`,
+    category: [categories.thinking.anchor],
     best: false,
   },
   // >F
@@ -203,6 +210,13 @@ export const blogrollData = [
     url: `http://www.hemingwayapp.com/`,
     title: `Hemingway Editor`,
     description: `Online editor for simpler, bolder and clearer writing`,
+    category: [categories.writing.anchor],
+    best: false,
+  },
+  {
+    url: `https://openlibrary.org/books/OL29510342M/How_to_Grow_Your_Own_Poem`,
+    title: `How to grow your own poem`,
+    description: `In this book, Kate Clanchy is able to break down the barriers that may stop you from writing. "How to grow your own poem" is to be read on paper, as a practical book.`,
     category: [categories.writing.anchor],
     best: false,
   },
@@ -270,7 +284,7 @@ export const blogrollData = [
     url: `https://solar.lowtechmagazine.com/`,
     title: `Low-tech Magazine`,
     description: `Low-tech Magazine underscores the potential of past and often forgotten technologies and how they can inform sustainable energy practices. The website also walks the talk, as it is solar-powered (which means it sometimes goes offline).`,
-    category: [categories.technology.anchor, categories.blog.anchor],
+    category: [categories.technology.anchor],
     best: false,
   },
   {
@@ -343,6 +357,13 @@ export const blogrollData = [
     title: `Nielsen Norman Group`,
     description: `The number one reference for everything UX and accessibility-related`,
     category: [categories.ux.anchor],
+    best: false,
+  },
+  {
+    url: `https://neocities.org/browse`,
+    title: `Neocities`,
+    description: `I just love the Neocities community. They were able to foster a culture where creating a website is fun, unique and possible for non-devs as well.`,
+    category: [categories.exploring.anchor],
     best: false,
   },
   // >O
