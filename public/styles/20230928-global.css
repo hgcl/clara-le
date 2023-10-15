@@ -465,7 +465,7 @@ a:focus {
 
 /* External links */
 
-a[href*="//"]:not([href*="clarale.com"])::after
+a[href*="//"]:not([href*="clarale.com"])::after, .external-link::after
 {
   content: "\2197";
   margin-left: var(--space-2xs);

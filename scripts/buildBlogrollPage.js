@@ -17,7 +17,12 @@ export function buildPage(html) {
           `</ul>`
       )
       .join("");
-    return html.replace("<div>Data generated here</div>", postsHtml);
+    const linkArray = Object.values(blogrollData)
+      .map((item) => `${item.url}`)
+      .join(`","`);
+    return html
+      .replace("<div>Data generated here</div>", postsHtml)
+      .replace(`<script>`, `<script>let linkArray = ["` + linkArray + `"];`);
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
   }

@@ -12,6 +12,23 @@ buildScript: /scripts/buildBlogrollPage.js
       they liked. I just love this idea of subjective and personal curation,
       leading you from website to website.
     </p>
+    <a id="random-link" href="" class="button external-link">
+      Open a random link
+    </a>
   </div>
   <div>Data generated here</div>
 </article>
+
+<script>
+  const el = document.getElementById("random-link");
+  el.addEventListener("click", (el) => {
+    // get a random number between 0 and the number of links
+    let randIdx = Math.random() * linkArray.length;
+    // round it, so it can be used as array index
+    randIdx = parseInt(randIdx, 10);
+    // construct the link to be opened
+    let randomLink = linkArray[randIdx];
+    // open it in a new window / tab (depends on browser setting)
+    window.open(randomLink);
+  });
+</script>
