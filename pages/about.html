@@ -6,9 +6,7 @@ template: /templates/default.html
   <h1 class="post-header">About</h1>
   <p>
     Hi, I'm Clara,
-    <button type="button" id="word-swap" onclick="swapWord()">
-      a tinkerer
-    </button>
+    <button type="button" id="word-swap">a tinkerer</button>
     based in the Ardèche region in France. I am currently trying to figure out
     the countryside life, as well as life in general.
   </p>
@@ -35,25 +33,24 @@ template: /templates/default.html
   </p>
 </article>
 <script>
-  function swapWord() {
-    let word = document.getElementById("word-swap");
-    const wordArray = [
-      "a tinkerer",
-      "an explorer",
-      "a climber",
-      "a cat lover",
-      "a designer",
-      "a clumsy being",
-      "a fixer",
-    ];
-
-    if (wordArray.includes(word.innerHTML) == true) {
-      const index = wordArray.indexOf(word.innerHTML);
+  const el = document.getElementById("word-swap");
+  const wordArray = [
+    "a tinkerer",
+    "an explorer",
+    "a climber",
+    "a cat lover",
+    "a designer",
+    "a clumsy being",
+    "a fixer",
+  ];
+  el.addEventListener("click", (el) => {
+    if (wordArray.includes(el.target.innerText) == true) {
+      const index = wordArray.indexOf(el.target.innerText);
       wordArray[index + 1]
-        ? (word.innerHTML = wordArray[index + 1])
-        : (word.innerHTML = "a tinkerer");
+        ? (el.target.innerText = wordArray[index + 1])
+        : (el.target.innerText = "a tinkerer");
     } else {
-      word.innerHTML = "a tinkerer";
+      el.target.innerText = "a tinkerer";
     }
-  }
+  });
 </script>
