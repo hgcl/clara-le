@@ -11,7 +11,7 @@ Just like the last weeknote, I am writing from a long train ride. My days and mi
 
 Anyway, Robin and I just left Berlin yesterday after spending a little under one week at Jillian and Connor's place. Our first night there was both very familiar and completely foreign. We have surprisingly gotten used to our new countryside pace in just a few months.
 
-Our short Berlin trip was also synonymous with our last week of work. By quitting, I know—or anxiously wish(?)—that I am making the right decision, but I still feel sad to leave this team that shared my daily life for the last few years.
+Our short Berlin trip was also synonymous with our last week of work. By quitting, I know — or anxiously wish(?) — that I am making the right decision, but I still feel sad to leave this team that shared my daily life for the last few years.
 
 ---
 

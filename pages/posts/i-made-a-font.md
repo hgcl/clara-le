@@ -15,7 +15,7 @@ dataTag: ["creative", "digital"]
 
 A year ago, I bought a [Fontself](https://www.fontself.com/) license with my company learning budget. Since then, I remember starting a project or two, but never completing them. Fast-forward to January 2023, I finally find a reason to have a typography pet project.
 
-Robin and I wanted to bring our shared blog [Eau de poisson](https://eaudepoisson.com) back to life. In our usual knowing-how-to-prioritize fashion, we decided to first reformat and redesign the entire website. And for that, we needed a new font. A font that was casual and laid back, but that would also support Latin-extended characters—mostly French, Vietnamese and other major Latin languages.
+Robin and I wanted to bring our shared blog [Eau de poisson](https://eaudepoisson.com) back to life. In our usual knowing-how-to-prioritize fashion, we decided to first reformat and redesign the entire website. And for that, we needed a new font. A font that was casual and laid back, but that would also support Latin-extended characters — mostly French, Vietnamese and other major Latin languages.
 
 The existing [Gaegu](https://fonts.google.com/specimen/Gaegu) typeface would have been perfect. However, it was mostly created for Korean and didn't support Latin-Extended characters. So, I decided to create my own typeface, shamelessly taking inspiration from Gaegu, but making sure to include all the characters I needed. For a first font creation, I'll give myself some leeway and say it's okay.
 
@@ -76,6 +76,6 @@ Make sure you spend most of your time on the spacing before getting to kerning. 
 
 ---
 
-And that's it! It took me a day and a half to finish, even though I made the simplest font I could think of. I am really happy with the result, even though it doesn't produce the most legible body text—but who cares, I only use it for headings.
+And that's it! It took me a day and a half to finish, even though I made the simplest font I could think of. I am really happy with the result, even though it doesn't produce the most legible body text — but who cares, I only use it for headings.
 
 Anyway.

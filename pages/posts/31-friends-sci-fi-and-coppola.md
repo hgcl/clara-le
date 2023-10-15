@@ -18,7 +18,7 @@ I am now writing this weeknote as we are all on a train[^1] from Valence to Berl
 
 ### A small streak of Becky Chambers
 
-After one lunch discussion about sci-fi, I suddenly wanted to dive into something sci-fi-ish again. So I did. I went on and read two novellas by Becky Chambers back-to-back—and I fell in love with her writing.
+After one lunch discussion about sci-fi, I suddenly wanted to dive into something sci-fi-ish again. So I did. I went on and read two novellas by Becky Chambers back-to-back — and I fell in love with her writing.
 
 The first novella is called <cite>To Be Taught, If Fortunate</cite> (2019) and is set in the 22nd century. Space exploration has been revolutionized as astronauts bodies can now adapt to their environments through a new biotechnology.
 
@@ -28,7 +28,7 @@ The main characters of each novella could not be more different: the first one i
 
 ### Sicilian night
 
-As a taster of our Sicily trip in one week, we watched <cite>The Godfather</cite> directed by Francis Ford Coppola. It is a three-hour-long movie from 1972, and _wow_, it does deserve its "classic" label. I—surprisingly—really enjoyed the movie and didn't get bored at all. _Consiglio questo film!_
+As a taster of our Sicily trip in one week, we watched <cite>The Godfather</cite> directed by Francis Ford Coppola. It is a three-hour-long movie from 1972, and _wow_, it does deserve its "classic" label. I — surprisingly — really enjoyed the movie and didn't get bored at all. _Consiglio questo film!_
 
 ## Experiments
 
@@ -51,4 +51,4 @@ We also gathered some elderflowers from the garden. I tried to make an elderflow
 
 ## T(W)IL
 
-I started to follow the [Typescript course by the codecademy](https://www.codecademy.com/learn/learn-typescript). I feel like I have reached a comfortable level in Javascript—at least, comfortable for what I usually need to do with it. Hopefully, this course will help me feel a little bit less lost when needing to read some Typescript files. I'm also entertaining the idea of migrating my website to Typescript for practice. (Well, now that I've written that sentence, I will do it for certain.)
+I started to follow the [Typescript course by the codecademy](https://www.codecademy.com/learn/learn-typescript). I feel like I have reached a comfortable level in Javascript — at least, comfortable for what I usually need to do with it. Hopefully, this course will help me feel a little bit less lost when needing to read some Typescript files. I'm also entertaining the idea of migrating my website to Typescript for practice. (Well, now that I've written that sentence, I will do it for certain.)

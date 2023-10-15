@@ -16,11 +16,11 @@ dataTag: ["update"]
 
 ## Life peek: Cozy December
 
-Last Tuesday, something very special happened: December 1st. Robin and I were waiting for it for a long time as we could finally open our Coffee Advent Calendar from [19grams](https://19grams.coffee/en)—a Berlin-based coffee roastery. I am now excited to start every morning with a meditative coffee tasting session.
+Last Tuesday, something very special happened: December 1st. Robin and I were waiting for it for a long time as we could finally open our Coffee Advent Calendar from [19grams](https://19grams.coffee/en) — a Berlin-based coffee roastery. I am now excited to start every morning with a meditative coffee tasting session.
 
 Besides that, this week definitely had some end-of-the-year vibes. I have been listening to a lot of chill classics: some jazz, soul and a bit of blues.
 
-It actually feels so much like cozy December that I even started reflecting on the year—here is my [Year in Review 2020](https://www.notion.so/Year-in-Review-2020-f430491c0ec243128863b5fd59dcb295). I like Steve Schlafman's approach of spreading this reflection over two weeks. For once, it doesn't feel like an overwhelming chore.
+It actually feels so much like cozy December that I even started reflecting on the year — here is my [Year in Review 2020](https://www.notion.so/Year-in-Review-2020-f430491c0ec243128863b5fd59dcb295). I like Steve Schlafman's approach of spreading this reflection over two weeks. For once, it doesn't feel like an overwhelming chore.
 
 ## Read & Watched
 
@@ -30,11 +30,11 @@ Kate Clanchy loves her students and you feel it. In this memoir, she invites you
 
 ### [How Technology Grows (article, 2018)](https://danwang.co/how-technology-grows/)
 
-In this long-form article, Dan Wang denounces our fixation on the digital and computing industry when talking about technology. He explains the three forms technology can take—as tools, instructions or process knowledge. Very interesting read on the lure of the digital and what truly drives innovation.
+In this long-form article, Dan Wang denounces our fixation on the digital and computing industry when talking about technology. He explains the three forms technology can take — as tools, instructions or process knowledge. Very interesting read on the lure of the digital and what truly drives innovation.
 
 ### [Tasting RARE Russian Food in Karelia! (video, 2019)](https://www.youtube.com/watch?v=MH6MynleTBE)
 
-I've just discovered this Berlin-based food vlogger on YouTube and I already love his channel. I can't exactly say what I like about it. Maybe it's his long historical and contextual intros, the way he travels—that feels so close to mine—or maybe just his genuine love for food.
+I've just discovered this Berlin-based food vlogger on YouTube and I already love his channel. I can't exactly say what I like about it. Maybe it's his long historical and contextual intros, the way he travels — that feels so close to mine — or maybe just his genuine love for food.
 
 ## Discovered
 

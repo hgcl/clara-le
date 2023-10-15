@@ -15,20 +15,20 @@ dataTag: ["update"]
 
 ## Life peek
 
-On Saturday, I was part of my first ever Friendsgiving[^1]. In Europe, Thanksgiving is just this remote Christmas-like event that you only see in movies, so I didn't really know what to expect. In short, my American (obviously) friend took upon herself to organize the most incredible homemade menu I have ever seen on a dinner table. We had everything that you can expect for Thanksgiving, even a goose—couldn't find a Turkey—that we named Larry (David) Goose. I feel so grateful to be surrounded by close friends in a city where I have only lived for a couple of years.
+On Saturday, I was part of my first ever Friendsgiving[^1]. In Europe, Thanksgiving is just this remote Christmas-like event that you only see in movies, so I didn't really know what to expect. In short, my American (obviously) friend took upon herself to organize the most incredible homemade menu I have ever seen on a dinner table. We had everything that you can expect for Thanksgiving, even a goose — couldn't find a Turkey—that we named Larry (David) Goose. I feel so grateful to be surrounded by close friends in a city where I have only lived for a couple of years.
 
 ---
 
 On Sunday, we started a new D&D mini-campaign! It is my second one only, so it feels very exciting to play a new race, class, and personality. I am playing a Tiefling Rogue and already love all the special powers that come just from the race.[^2]
 
 [^1]: I also, just discovered that _Friendsgiving_ is apparently a word.
-[^2]: Trying to intimidate a baddie with advantage by using my loud voice boomed up 3 times—done.
+[^2]: Trying to intimidate a baddie with advantage by using my loud voice boomed up 3 times — done.
 
 ## Read & Watched
 
 ### The Truffle Hunters (2020)
 
-_The Truffle Hunters_ is an Italian documentary film following a group of old men hunting truffles with their dogs. The shots are incredibly beautiful—they are staged, yet very authentic. The documentary shows the decline of truffle hunting, but doesn't make a clear argument as to which "side" it roots for. I would definitely recommend it if you want to witness an emotional and bittersweet slice of life.
+_The Truffle Hunters_ is an Italian documentary film following a group of old men hunting truffles with their dogs. The shots are incredibly beautiful — they are staged, yet very authentic. The documentary shows the decline of truffle hunting, but doesn't make a clear argument as to which "side" it roots for. I would definitely recommend it if you want to witness an emotional and bittersweet slice of life.
 
 ### Werewolf by night (2022)
 
@@ -40,6 +40,6 @@ _Werewolf by night_ is a short-ish movie (53 minutes) that came out this year. I
 
 ### To make a green bean casserole
 
-For my friend's Thanksgiving dinner, I prepared a green bean casserole—even though I had never tried one and didn't know what it was supposed to taste like.
+For my friend's Thanksgiving dinner, I prepared a green bean casserole — even though I had never tried one and didn't know what it was supposed to taste like.
 
 Reading through [the recipe](https://www.mccormick.com/frenchs/recipes/salads-sides/frenchs-green-bean-casserole), it looked simple enough and surprisingly close to... a green bean grâtin? I guess that might just be my French upbringing lense distortion, but the recipe felt a lot more approachable once I made this connection in my mind. I would definitely try to make more of these veggie-heavy casseroles / grâtins in the future!

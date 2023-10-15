@@ -11,6 +11,6 @@ year: "2021"
 
 One of the best series of the Marvel universe.
 
-> Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.
+> Wanda Maximoff and Vision — two super-powered beings living idealized suburban lives — begin to suspect that everything is not as it seems.
 >
 > Source: TMDB

@@ -11,7 +11,7 @@ I haven't been super consistent with these updates for the past few weeks. One s
 
 Robin already wrote extensively about [our mushrooming adventures](https://robinmetral.com/notes/weeknote-14-part-2-mushrooming/), so I won't repeat it all here.
 
-We also gathered a few of the vegetables from our garden—so green, so lush! It feels like every meal now contains a bit of our work in it: super satisfying.
+We also gathered a few of the vegetables from our garden — so green, so lush! It feels like every meal now contains a bit of our work in it: super satisfying.
 
 ## Read & Watched
 

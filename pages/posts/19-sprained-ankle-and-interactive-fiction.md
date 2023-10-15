@@ -15,13 +15,13 @@ dataTag: ["update"]
 
 ## Life peek
 
-So, my life just took an unexpected turn on Friday morning. As usual, I started the day bouldering with friends. As I was doing a very non-dangerous move[^1], I slipped and fell on the side of my ankle with a lot of speed and strength. It hurt _a lot_. Of course, we still had to follow up with our normal routine of getting breakfast first at a local café—because _priorities_—before taking any drastic decisions, like going to the doctor. Stuffed with pastries and coffee, Robin finally took me on a piggyback ride to the closest doctor.
+So, my life just took an unexpected turn on Friday morning. As usual, I started the day bouldering with friends. As I was doing a very non-dangerous move[^1], I slipped and fell on the side of my ankle with a lot of speed and strength. It hurt _a lot_. Of course, we still had to follow up with our normal routine of getting breakfast first at a local café — because _priorities_ — before taking any drastic decisions, like going to the doctor. Stuffed with pastries and coffee, Robin finally took me on a piggyback ride to the closest doctor.
 
 Diagnostic: a very badly sprained ankle and 4–6 weeks without sport. And that'd only be if the ankle was _not_ fractured. Which luckily it was not.[^2]
 
 Needless to say, a lot of my plans for this month have been reviewed after the _catastrophe_. Fortunately, I have a local wine bar five minutes from home where we are welcomed like friends. It is nice to build these local connections in the place you live in, from the coffee shop waiter to the grocery lady. It makes me a bit sad to leave them behind once we'll move away from Berlin.
 
-[^1]: For those interested in the technicalities, it was one of those "run along the wall on a long volume" move. However, as I kept my eyes on the prize—the final hand hold—my foot just _missed_ the volume at some point and I fell to the floor... 15&nbsp;cm below.
+[^1]: For those interested in the technicalities, it was one of those "run along the wall on a long volume" move. However, as I kept my eyes on the prize — the final hand hold — my foot just _missed_ the volume at some point and I fell to the floor... 15&nbsp;cm below.
 [^2]: But we found that out the long way around after sticking around in the emergency room for 7 hours, yay.
 
 ## Discovered
@@ -41,7 +41,7 @@ _[The Absence of Miriam Lane](https://ifdb.org/viewgame?id=2glbsr1n5uevrnhs)_ is
 
 > A thief on the run from the galactic police finds refuge on an abandoned spaceship. A lonely ship AI finds unexpected company.
 
-Similarly, _[A Long Way to the Nearest Star](https://ifdb.org/viewgame?id=6cjbax7d0to42vof)_ is a choice-based game. The use of the platform is not as creative, but definitely helps with the setting. The difference between your thoughts and the things you read on digital devices (usually the AI talking to you) are stylized perfectly. The game is also quite lengthy—if you are a slow player like me—and left me with this wonderful feeling of coming out of a very good and absorbing story.
+Similarly, _[A Long Way to the Nearest Star](https://ifdb.org/viewgame?id=6cjbax7d0to42vof)_ is a choice-based game. The use of the platform is not as creative, but definitely helps with the setting. The difference between your thoughts and the things you read on digital devices (usually the AI talking to you) are stylized perfectly. The game is also quite lengthy — if you are a slow player like me — and left me with this wonderful feeling of coming out of a very good and absorbing story.
 
 ### And Then You Come to a House Not Unlike the Previous One
 

@@ -17,7 +17,7 @@ dataTag: ["update"]
 
 So, I'm writing this from <s>Switzerland</s>… or actually 4&nbsp;km across Switzerland border on the French side.[^1] Robin and I are back in cows land for family reunions time. Yesterday was a long train day. We left our Berlin home at 7am in the morning and arrived at Robin's parents' place 12 hours later. Thankfully, German trains are equipped with wifi, so we have plenty of things to do during the ride[^2].
 
-The last week has felt intense. We had a bunch of stuff to prep and do before leaving Berlin, and I was pretty busy with work as well—in a good way. All that rush culminated to a wonderful note on Wednesday evening. My good friend Valentina prepared for us the most delicious bolognese ever. The strict recipe comes straight from her Italian grandmother—so we cannot get much more authentic than that.
+The last week has felt intense. We had a bunch of stuff to prep and do before leaving Berlin, and I was pretty busy with work as well — in a good way. All that rush culminated to a wonderful note on Wednesday evening. My good friend Valentina prepared for us the most delicious bolognese ever. The strict recipe comes straight from her Italian grandmother — so we cannot get much more authentic than that.
 
 [^1]: We are at a bouldering gym with friends, but I am forced to stay on the bench as I sprained my ankle two weeks ago.
 [^2]: All in all, I wrote a new post, added a recipe to my website and watched four episodes of <cite>The Queen's Gambit</cite>.

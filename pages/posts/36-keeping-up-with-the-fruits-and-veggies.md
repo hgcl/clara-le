@@ -23,7 +23,7 @@ As you might have seen, I dove head first into the theory of [fermentation](/pos
 
 Robin's parents came to visit a few weeks ago. We took advantage of Robin's father woodworking skills to build our bookshelf together. I love how it looks and am so happy to finally be able to store our books in a proper bookshelf[^2]!
 
-[^2]: They hadn't moved from their cardboard boxes since our arrival in February—shame on us.
+[^2]: They hadn't moved from their cardboard boxes since our arrival in February — shame on us.
 
 ## Learning Russian
 
@@ -35,7 +35,7 @@ So far, I managed to learn the Cyrillic alphabet. Robin and I took our first Rus
 
 Summer is amazing for fruits and veggies here. We almost don't buy any extra vegetables at the market nowadays, as our garden is providing us with new zucchini, eggplants, tomatoes, green beans (and more) every few days.
 
-The only problem is that we tend to have a lot of a few produces—yep congrats, that's how seasonal veggies work, Clara. This really challenges my creativity, as I need to find diverse ways to eat the same vegetables every day.
+The only problem is that we tend to have a lot of a few produces — yep congrats, that's how seasonal veggies work, Clara. This really challenges my creativity, as I need to find diverse ways to eat the same vegetables every day.
 
 The same is true with fruits, as we have a lot of plums from the garden. We also buy some extra peaches, apricots, and melons from local farmers. The duration of a fruit season is usually quite limited, so it feels a bit like "now or never".
 
@@ -43,6 +43,6 @@ I love this abundance. Having too much of these fruits and veggies lead me to di
 
 ---
 
-Otherwise, I'm thinking of redesigning my website (once again). I am getting bored of this minimalist black and white style. And—let's be honest—I just want to redesign it because it's fun.
+Otherwise, I'm thinking of redesigning my website (once again). I am getting bored of this minimalist black and white style. And — let's be honest — I just want to redesign it because it's fun.
 
 Until next time!

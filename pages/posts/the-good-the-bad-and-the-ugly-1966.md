@@ -9,6 +9,6 @@ dataTag: ["review", "tiny"]
 
 _Directed by Sergio Leone_
 
-It might not have helped that we watched the 3 hours version, but I was falling asleep by the end—it was very late. Amazing silences, staging and soundtrack otherwise.
+It might not have helped that we watched the 3 hours version, but I was falling asleep by the end — it was very late. Amazing silences, staging and soundtrack otherwise.
 
 Rating: 3.5/5

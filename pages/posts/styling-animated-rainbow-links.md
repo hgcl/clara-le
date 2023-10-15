@@ -7,7 +7,7 @@ dateCreated: "2022-04-15"
 dataTag: ["digital"]
 ---
 
-This new website layout is quite minimalist and mostly plays on typography styles and hierarchy. I wanted to add some _spice_ to such a simple base—so what better way than doing it rainbow-style on hyperlinks?[^1]
+This new website layout is quite minimalist and mostly plays on typography styles and hierarchy. I wanted to add some _spice_ to such a simple base — so what better way than doing it rainbow-style on hyperlinks?[^1]
 
 The general idea is that my hyperlinks are underlined by default[^2] as they are the same color as the body text. When hovered of focused, they are animated with CSS keyframes that seamlessly transition through a list of colors. To differentiate the `focus` from `hover` state, I removed the underline and added an `outline` around the link instead[^3].
 

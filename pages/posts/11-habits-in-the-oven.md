@@ -16,7 +16,7 @@ dataTag: ["update"]
 
 ## Life peek: Habit tracking
 
-Instead of proactively working on my new habits this last week, I procrastinated—again—by setting up overkill habit trackers.
+Instead of proactively working on my new habits this last week, I procrastinated — again — by setting up overkill habit trackers.
 
 I call them overkill because my habit goals are pretty simple:
 
@@ -26,7 +26,7 @@ I call them overkill because my habit goals are pretty simple:
 
 I told you about my [recent obsession](/posts/10-on-obsessions) with building this website. A consequence is that I spend way too much time on my computer. To gather some stats about my screen time, I installed [TimeFibers](https://timefibers.com/) on my laptop and the [StayFree app](https://stayfreeapps.com/) on my phone.[^1]
 
-Every month now, I will try to give a completely transparent habit report to keep me accountable. Most importantly, I will start _actually_ doing some habits this week—pinky swear.
+Every month now, I will try to give a completely transparent habit report to keep me accountable. Most importantly, I will start _actually_ doing some habits this week — pinky swear.
 
 ## Antilibrary
 

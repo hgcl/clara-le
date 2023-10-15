@@ -91,7 +91,7 @@ export const blogrollData = [
   {
     url: `https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/`,
     title: `Brain Baking: Cool things people do with their blogs`,
-    description: `In this article, Wouter lists the cool things people did with their personal websites—very inspiring.`,
+    description: `In this article, Wouter lists the cool things people did with their personal websites — very inspiring.`,
     category: [categories.article.anchor],
     best: false,
   },
@@ -127,7 +127,7 @@ export const blogrollData = [
   {
     url: `https://www.youtube.com/c/CuisineAndChill/`,
     title: `Cuisine And Chill (in French)`,
-    description: `My number one cooking channel on Youtube—I have watched all of his videos and ask for more.`,
+    description: `My number one cooking channel on Youtube — I have watched all of his videos and ask for more.`,
     category: [categories.cooking.anchor],
     best: true,
   },
@@ -135,14 +135,14 @@ export const blogrollData = [
   {
     url: `https://darkreader.org/`,
     title: `Dark Reader`,
-    description: `Browser extension to enable dark mode on websites not supporting dark mode—this saved my eyes so many times`,
+    description: `Browser extension to enable dark mode on websites not supporting dark mode — this saved my eyes so many times`,
     category: [categories.technology.anchor],
     best: true,
   },
   {
     url: `https://www.densediscovery.com/`,
     title: `Dense Discovery`,
-    description: `Kai's “curation newsletter” about design, productivity and society—love the personal intros and Worthy Five sections`,
+    description: `Kai's “curation newsletter” about design, productivity and society — love the personal intros and Worthy Five sections`,
     category: [categories.newsletter.anchor],
     best: false,
   },
@@ -201,7 +201,7 @@ export const blogrollData = [
   {
     url: `https://garticphone.com/`,
     title: `Gartic Phone`,
-    description: `Playing online is not just for gamers. Gartic Phone is the love child of Telephone and Pictionary—super fun and accessible!`,
+    description: `Playing online is not just for gamers. Gartic Phone is the love child of Telephone and Pictionary — super fun and accessible!`,
     category: [categories.game.anchor],
     best: false,
   },
@@ -237,7 +237,7 @@ export const blogrollData = [
   {
     url: `https://hypothes.is/`,
     title: `Hypothesis`,
-    description: `Highlight and annotate articles online—super cool open-source project.`,
+    description: `Highlight and annotate articles online — super cool open-source project.`,
     category: [categories.technology.anchor],
     best: false,
   },
@@ -262,7 +262,7 @@ export const blogrollData = [
   {
     url: `https://languagetool.org/`,
     title: `LanguageTool`,
-    description: `A multilingual browser extension (and more) for grammar, style and spell checking—and it's open source`,
+    description: `A multilingual browser extension (and more) for grammar, style and spell checking — and it's open source`,
     category: [categories.writing.anchor],
     best: false,
   },
@@ -276,7 +276,7 @@ export const blogrollData = [
   {
     url: `https://www.overdrive.com/apps/libby`,
     title: `Libby App`,
-    description: `A library reading—but in my case mostly listening—app. Their interface is great and makes borrowing audiobooks a breeze. Check if they partnered with your local library!`,
+    description: `A library reading — but in my case mostly listening — app. Their interface is great and makes borrowing audiobooks a breeze. Check if they partnered with your local library!`,
     category: [categories.reading.anchor],
     best: false,
   },
@@ -298,7 +298,7 @@ export const blogrollData = [
   {
     url: `https://www.youtube.com/user/Maangchi`,
     title: `Maangchi`,
-    description: `If you are into Korean food, you certainly know Maangchi—the Korean mama that you always wished you had.`,
+    description: `If you are into Korean food, you certainly know Maangchi — the Korean mama that you always wished you had.`,
     category: [categories.cooking.anchor],
     best: false,
   },
@@ -347,7 +347,7 @@ export const blogrollData = [
   {
     url: `https://www.youtube.com/c/mynameisandong/`,
     title: `My Name Is Andong`,
-    description: `One of my favorite cooking channels on Youtube—informative, funny and dynamic`,
+    description: `One of my favorite cooking channels on Youtube — informative, funny and dynamic`,
     category: [categories.cooking.anchor],
     best: false,
   },

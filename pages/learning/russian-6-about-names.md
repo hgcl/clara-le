@@ -6,7 +6,7 @@ dataTag: ["language"]
 
 ### Patronyms
 
-Russians have three names; their first name and their surname—just like you have—and a patronymic (отчество), which is based on their father's name. Male patronymic a end in -евич or -ович, while female patronymics end in -евна or -овна.
+Russians have three names; their first name and their surname — just like you have — and a patronymic (отчество), which is based on their father's name. Male patronymic a end in -евич or -ович, while female patronymics end in -евна or -овна.
 
 A very common "polite" pattern is to use a person's first name and a patronymic: "Иван Иванович, вы заняты?" ~ "Ivan Ivanovich (= son of Ivan), are you busy?"
 

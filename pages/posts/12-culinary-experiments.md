@@ -16,7 +16,7 @@ dataTag: ["update"]
 
 ## Life peek: Culinary experiments
 
-I love trying out new recipes—especially the ones that are about creating things that you usually buy. This week, I baked some sourdough croissants. For a first time, it wasn't too bad: not airy, but not dense either, a bit too buttery, but so satisfying. Robin and I had some plain croissants for breakfast, but we also tried a grilled cheese version which was deliciously decadent.
+I love trying out new recipes — especially the ones that are about creating things that you usually buy. This week, I baked some sourdough croissants. For a first time, it wasn't too bad: not airy, but not dense either, a bit too buttery, but so satisfying. Robin and I had some plain croissants for breakfast, but we also tried a grilled cheese version which was deliciously decadent.
 
 Another recipe I tried this week are those [vegetarian Polish cabbage rolls](/recipes/vegetarian-polish-cabbage-rolls). It is not easy finding out winter dishes that are seasonal and that make me excited. These rolls did the job perfectly.
 
@@ -33,7 +33,7 @@ A light rom com that gives just what you are expecting from it. It is cheesy, ov
 
 ### [Blade Runner (movie, 1982)](https://en.wikipedia.org/wiki/Blade_Runner)
 
-I finally watched this classic that wonderfully depicts the year 2019: dark and polluted, people from all nationalities mixing, not one dominant language, strong Japanese video game feel. Human-like and life-like androids are a thing. People still have retro haircuts and clothes—of course. I loved the strong vibrations of the soundtrack. Tonight, we are watching the 2049 edition.
+I finally watched this classic that wonderfully depicts the year 2019: dark and polluted, people from all nationalities mixing, not one dominant language, strong Japanese video game feel. Human-like and life-like androids are a thing. People still have retro haircuts and clothes — of course. I loved the strong vibrations of the soundtrack. Tonight, we are watching the 2049 edition.
 
 ## Discovered
 

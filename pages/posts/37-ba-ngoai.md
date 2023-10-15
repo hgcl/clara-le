@@ -15,6 +15,6 @@ Growing up, she was my hero. She had faced many hardships: extreme poverty, war,
 
 Growing up, I felt like my bà ngoại was invincible. During that trip in Switzerland, it hit me how fragile and old she had become. As she used to be the one to carry me, I am now helping her to walk around. As she was the one tending to my childish scrapes and wounds, I am now taking her mind off her constant physical pains.
 
-She lived her life to the fullest, grateful for all the silver linings. Her body is now failing her, but her mind is still as sharp, her mindset content. I now realize that she was not invincible in body, but in her way of seeing life—fighting hard for her ideals, yet savoring every drop of what she had.
+She lived her life to the fullest, grateful for all the silver linings. Her body is now failing her, but her mind is still as sharp, her mindset content. I now realize that she was not invincible in body, but in her way of seeing life — fighting hard for her ideals, yet savoring every drop of what she had.
 
 [^1]: Pronounced as /ɓaː ŋwaːj/

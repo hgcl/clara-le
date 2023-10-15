@@ -29,7 +29,7 @@ With Robin, we spent New Year's eve doing a number of adult things:
 
 ### [Soul (movie, 2020)](<https://en.wikipedia.org/wiki/Soul_(2020_film)>)
 
-We all agree that 2020 was pretty sad in terms of movie releases. Well, Pixar just saved the year by releasing <cite>Soul</cite>, an animated movie about passion, jazz, purpose and what it means to be alive. I just added it to my list of favorite Pixar movies of all time—just next to [_Coco_ (2017)](<https://en.wikipedia.org/wiki/Coco_(2017_film)>).[^2]
+We all agree that 2020 was pretty sad in terms of movie releases. Well, Pixar just saved the year by releasing <cite>Soul</cite>, an animated movie about passion, jazz, purpose and what it means to be alive. I just added it to my list of favorite Pixar movies of all time — just next to [_Coco_ (2017)](<https://en.wikipedia.org/wiki/Coco_(2017_film)>).[^2]
 
 ## Antilibrary
 
@@ -37,12 +37,12 @@ Everything is closed in Berlin at the moment, except for restaurant takeouts, gr
 
 ### [Piranesi (2020)](<https://en.wikipedia.org/wiki/Piranesi_(novel)>)
 
-As usual, I spent way too much time in the fantasy / sci-fi section. With its mythological, dreamy setup, <cite>Piranesi</cite> really reminded me of _[Circe](https://en.wikipedia.org/wiki/Madeline_Miller#Circe)_ by Madeline Miller—which I loved. This novel by Susanna Clarke will probably
+As usual, I spent way too much time in the fantasy / sci-fi section. With its mythological, dreamy setup, <cite>Piranesi</cite> really reminded me of _[Circe](https://en.wikipedia.org/wiki/Madeline_Miller#Circe)_ by Madeline Miller — which I loved. This novel by Susanna Clarke will probably
 not be in the antilibrary very long as I intend to read it _very_ soon.
 
 ### [Children of Time (2015)](<https://en.wikipedia.org/wiki/Children_of_Time_(novel)>)
 
-I know nothing about the author—Adrian Tchaikovsky, but I know I love smart sci-fi and space odysseys that dive into civilization building. I am adding it here for next time I will be in this kind of mood.
+I know nothing about the author — Adrian Tchaikovsky, but I know I love smart sci-fi and space odysseys that dive into civilization building. I am adding it here for next time I will be in this kind of mood.
 
 ## Discovered
 

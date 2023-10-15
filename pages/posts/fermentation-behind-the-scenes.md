@@ -7,7 +7,7 @@ dateCreated: "2023-07-27"
 dataTag: ["thought"]
 ---
 
-In the last few years, I have superficially dabbled with fermenting my own food, making kimchi, Sauerkraut, kombucha or kefir. I have also learned that so many of the things I drink or eat are in fact fermented—think cheese, wine, beer, yogurt, bread.
+In the last few years, I have superficially dabbled with fermenting my own food, making kimchi, Sauerkraut, kombucha or kefir. I have also learned that so many of the things I drink or eat are in fact fermented — think cheese, wine, beer, yogurt, bread.
 
 Since Wednesday, I have been diving deep into the intricate world of fermentation from a complete other direction. I stepped outside my comfort zone and had a look at this whole fermentation shenanigan from the point of view of biochemistry.
 
@@ -21,7 +21,7 @@ In biochemistry, _fermentation_ is the process where living organisms extract en
 
 For instance, yeasts are used in wine and beer-making to produce alcohol, while bacteria are used for yogurts to produce acid. Sometimes, a mix of both yeasts and bacteria can be used in tandem as well.
 
-Let's have a look at a few types of fermentation used in the food-industry—because who cares about the other types anyway.[^1]
+Let's have a look at a few types of fermentation used in the food-industry — because who cares about the other types anyway.[^1]
 
 [^1]: Actually, fermentation also occurs in other super interesting cases. For instance, during intense exercise, Mammalian muscles will undergo fermentation and transform some of those stored sugars into energy and lactic acid as a by-product. I now finally understand why my arms hurt after an intense climbing session!
 
@@ -40,13 +40,13 @@ Another example of lacto fermentation is cheese. The basic concept of cheese is 
 
 ## Ethanol fermentation
 
-_Ethanol fermentation_ or _alcoholic fermentation_ is the process where yeasts—a.k.a. mushrooms—convert sugars into energy in an anaerobic environment (same old, same old). However, this time, the by-products are ethanol and carbon dioxide.
+_Ethanol fermentation_ or _alcoholic fermentation_ is the process where yeasts — a.k.a. mushrooms — convert sugars into energy in an anaerobic environment (same old, same old). However, this time, the by-products are ethanol and carbon dioxide.
 
-In the case of food, ethanol makes things—well—alcoholic, whereas carbon dioxide produces bubbles. In short, this type of fermentation is used for wines, beers, whiskeys, rums and tons of other alcoholic beverages.
+In the case of food, ethanol makes things — well — alcoholic, whereas carbon dioxide produces bubbles. In short, this type of fermentation is used for wines, beers, whiskeys, rums and tons of other alcoholic beverages.
 
-In most cases, the brewers will let the carbon dioxide escape during a primary fermentation. When needed, a second fermentation (sometimes with extra yeast) can be done in the final bottle. As the carbon dioxide doesn't have anywhere to go, it is integrated into the liquid as bubbles—yay! Beers and sparkly wines are perfect examples of this second fermentation.
+In most cases, the brewers will let the carbon dioxide escape during a primary fermentation. When needed, a second fermentation (sometimes with extra yeast) can be done in the final bottle. As the carbon dioxide doesn't have anywhere to go, it is integrated into the liquid as bubbles — yay! Beers and sparkly wines are perfect examples of this second fermentation.
 
-With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached 15% alcohol per unit volume—strong enough to kill all types of yeasts. When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
+With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached 15% alcohol per unit volume — strong enough to kill all types of yeasts. When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
 
 Winemakers also use this yeast property to make fortified wines (e.g. Porto wine). They can stop the fermenting process by adding some extra alcohol in wine. This usually results in a sweeter and stronger wine. The fermenting process can also be stopped by simply dropping the temperature of the tank.
 
@@ -64,7 +64,7 @@ LAB can be very sensitive to the sulfites (sulfur dioxide) added during the wine
 
 _Carbonic maceration_ is a fermentation technique usually used for specific types of wines (e.g. Beaujolais). It results in wines with low tannins that should be drunk young.
 
-It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­—because of _duh_ gravity—and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^4]. The carbon dioxide gas stimulates the fermentation process, which occurs inside of each berry.
+It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­ — because of _duh_ gravity — and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^4]. The carbon dioxide gas stimulates the fermentation process, which occurs inside of each berry.
 
 Carbonic maceration started as a winemaking technique, but people have started using it during coffee preprocessing as well. Before the coffee berries are ready to be roasted, they need to first be fermented, so that the fruit pulp can be removed from the seed. The method is similar: keep the berries intact in a closed vessel to undergo a carbonic maceration. In the case of coffee, the vessel is pumped with extra carbon dioxide to begin with. The resulting coffee profiles are often described as more intense.
 
@@ -82,7 +82,7 @@ This is also why we usually use sulfites in the winemaking process. Sulfites pre
 
 ## Special mention: SCOBY
 
-A SCOBY is a _symbiotic culture of bacteria and yeast_. It is a culinary fermentation culture (or starter) where we find both yeasts and bacteria living in harmony—isn't it beautiful?
+A SCOBY is a _symbiotic culture of bacteria and yeast_. It is a culinary fermentation culture (or starter) where we find both yeasts and bacteria living in harmony — isn't it beautiful?
 
 Common examples of food / drinks made from a SCOBY are kombucha, kefir, sourdough bread, vinegar, soy sauce or sour beers.
 

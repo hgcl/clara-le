@@ -22,10 +22,10 @@ I might need to be more patient and simply progress one step at a time, wherever
 
 ### Making cereal bars
 
-As the weather is getting better, we are doing more and more sporty outdoorsy activities. Whenever we have cereal bars at home, I usually bring them as snacks. For the first time last week, I tried making my own cereal bars. So far, I am not 100% convinced by the recipe I tried—they were a bit too soft and didn't contain enough honey to my taste. However, I am pretty sure I can get it right after a few tries. I don't know why I didn't think of making these cereal bars earlier, as the ingredients are so simple[^3].
+As the weather is getting better, we are doing more and more sporty outdoorsy activities. Whenever we have cereal bars at home, I usually bring them as snacks. For the first time last week, I tried making my own cereal bars. So far, I am not 100% convinced by the recipe I tried — they were a bit too soft and didn't contain enough honey to my taste. However, I am pretty sure I can get it right after a few tries. I don't know why I didn't think of making these cereal bars earlier, as the ingredients are so simple[^3].
 
 ### Gardening
 
-Robin did a lot of gardening work these last few weeks — and I helped him here and there. I can already see that he is going to be the gardening-person out of us two. I do like it, but prefer the cooking-and-eating-the-veggies part. So far, we have a few strawberry and arugula plants on our terrace, six zucchini plants in the lower garden, 12 salads in the greenhouse. There are some more plants in France's garden that we are helping with as well.
+Robin did a lot of gardening work these last few weeks —  and I helped him here and there. I can already see that he is going to be the gardening-person out of us two. I do like it, but prefer the cooking-and-eating-the-veggies part. So far, we have a few strawberry and arugula plants on our terrace, six zucchini plants in the lower garden, 12 salads in the greenhouse. There are some more plants in France's garden that we are helping with as well.
 
 [^3]: Basically, you just need to use granola ingredients.

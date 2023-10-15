@@ -7,7 +7,7 @@ dateCreated: "2023-05-17"
 dataTag: ["now"]
 ---
 
-I am just starting my [early retirement parenthesis](/posts/29-time-for-a-break/)—a.k.a, I am unemployed for the first time in four years. I do have a few productive plans for these next few months, but to be honest, I mostly want to slow down a bit and enjoy life differently.
+I am just starting my [early retirement parenthesis](/posts/29-time-for-a-break/) — a.k.a, I am unemployed for the first time in four years. I do have a few productive plans for these next few months, but to be honest, I mostly want to slow down a bit and enjoy life differently.
 
 Currently, I spend most of my days:
 

@@ -21,7 +21,7 @@ These last few weeks have been getting colder in Berlin. Tonight, we are expecti
 
 ---
 
-Otherwise, I finally completed my first ever D&D campaign last weekend—what an epilogue! I learned a lot, and we are ready to kick start the next campaign straight away. I still need to think about my character, but am excited to try to get inside the head of someone new.
+Otherwise, I finally completed my first ever D&D campaign last weekend — what an epilogue! I learned a lot, and we are ready to kick start the next campaign straight away. I still need to think about my character, but am excited to try to get inside the head of someone new.
 
 [^1]: Amazing French bakery in Berlin with a super nice staff
 
@@ -39,7 +39,7 @@ _Adieu Bohème_ is a beautiful short-film that will leave you awed. As the film 
 
 ### To make some Italian-approved carbonara
 
-A few weeks ago, we invited over some Italian friends for a wine-tasting and carbonara-making session. It was super fun to see them argue over the technicalities of making this very simple—oh but so controversial—dish. This is more or less the [recipe we followed](/recipes/carbonara)—even though they definitely didn't need a recipe.
+A few weeks ago, we invited over some Italian friends for a wine-tasting and carbonara-making session. It was super fun to see them argue over the technicalities of making this very simple — oh but so controversial — dish. This is more or less the [recipe we followed](/recipes/carbonara) — even though they definitely didn't need a recipe.
 
 ### To lead-climb
 

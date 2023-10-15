@@ -22,7 +22,7 @@ The downside is when the obsession gets out of control. It is not uncommon that 
 
 Feeling excited to work on my website is good. The problem is that it replaces other things that I deem important: thinking, reading, cooking, writing, AFK time.
 
-In the coming week, I will set up a few healthy habit trackers. I have—unsuccessfully—done so countless times in the past. The difference this time is that it will be public to keep me accountable.
+In the coming week, I will set up a few healthy habit trackers. I have — unsuccessfully — done so countless times in the past. The difference this time is that it will be public to keep me accountable.
 
 Until next week for more info!
 
@@ -44,7 +44,7 @@ _Recommended by Ryan Norbauer in [Dense Discovery](https://www.densediscovery.co
 
 ### [Dsxyliea](https://geon.github.io/programming/2016/03/03/dsxyliea)
 
-This website simulates the reading experience of a person with dyslexia. The letters <q>seem to jump around</q>. I think that it looks a bit too extreme—first and last letters of a long word swapping, but it is an important reminder of how different our experiences of the world can be.
+This website simulates the reading experience of a person with dyslexia. The letters <q>seem to jump around</q>. I think that it looks a bit too extreme — first and last letters of a long word swapping, but it is an important reminder of how different our experiences of the world can be.
 
 ## Overheard
 

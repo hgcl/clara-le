@@ -29,7 +29,7 @@ _Ten days left before the move_
 
 <p class="label">By Xavier Dolan</p>
 
-This movie was—and was not—on my watch list for some time. Simply by looking at the poster, you know that the <cite>Mommy</cite> is going to be disturbing on some level. I finally watched it last week, and indeed, it was disturbing. However, I wasn't expecting it to also feel touching and wholesome. It made me feel a lot and I would definitely recommend it!
+This movie was — and was not — on my watch list for some time. Simply by looking at the poster, you know that the <cite>Mommy</cite> is going to be disturbing on some level. I finally watched it last week, and indeed, it was disturbing. However, I wasn't expecting it to also feel touching and wholesome. It made me feel a lot and I would definitely recommend it!
 
 ### John Wick (2014)
 
@@ -65,7 +65,7 @@ I stumbled on Chris Burnell's website while browsing the IndieWeb ring (once aga
 
 I discovered Utopia through a link on Chris Burnell's styleguide. I haven't had time to dive into it properly, but I already like what I saw so far.
 
-Through CSS variables and calculations, they created a way to design responsive websites without the use of media-queries. I like how systematic and simple the concept is—the calculations are hard on the eye though. Once reviewed properly, I will see if I want to adapt my website to this kind of system.
+Through CSS variables and calculations, they created a way to design responsive websites without the use of media-queries. I like how systematic and simple the concept is — the calculations are hard on the eye though. Once reviewed properly, I will see if I want to adapt my website to this kind of system.
 
 ## T(W)IL
 

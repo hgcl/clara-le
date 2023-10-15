@@ -9,7 +9,7 @@ dataTag: ["thought"]
 
 So, Robin and I are moving to the countryside in France pretty soon. End of next month actually[^1]. The thing is that I am a city kid. Okay, sure, my hometown in Switzerland is really not that big. In all fairness, you could actually say that it's tiny (whooping population of 12,000+ people). _But_, it is still a town. It has public transports, libraries, grocery stores, fancy or dirt-cheap restaurants, all the conveniences of every day life.
 
-In contrast, we are going to move to the most remote village in the Ardèche region. It has at most five permanent residents, you can only get there by car, and the closest city—if it qualifies as a city at all—is 30 minutes away (by car, of course).
+In contrast, we are going to move to the most remote village in the Ardèche region. It has at most five permanent residents, you can only get there by car, and the closest city — if it qualifies as a city at all — is 30 minutes away (by car, of course).
 
 In short, I am both excited and anxious about this move. At least, it's not a no-return type of decision for us.[^2] Now, I am pretty sure that I imagine and idealize life in the countryside on many levels. But here is still a list of things I am looking forward to start doing (or doing more of)[^3]:
 

@@ -16,7 +16,7 @@ dataTag: ["update"]
 
 ## Life peek: Sunbathing on planet Earth
 
-Last week, Robin and I were [walking on the frozen canal](/posts/15-walk-on-the-frozen-canal). This weekend, we took off our hats, coats and gloves, had a long walk outside that finished in the best possible way—with a cup of coffee in the sun.
+Last week, Robin and I were [walking on the frozen canal](/posts/15-walk-on-the-frozen-canal). This weekend, we took off our hats, coats and gloves, had a long walk outside that finished in the best possible way — with a cup of coffee in the sun.
 
 On February 18, 2021, NASA's Perseverance rover landed on Mars. At the exact same time, something else was happening. I was completing the first illustration of my _Tiny Worlds_ project. Have a look at the [final SVG](/playground/tiny-world-1).
 
@@ -40,6 +40,6 @@ Biang Biang noodles come from the Shaanxi province in China. They are deliciousl
 
 ### To bake some pastéis de nata
 
-After the noodles, we needed a dessert. A friend had recommended [this recipe](/recipes/pasteis-de-nata) to me by _Babish Culinary Universe_. I like how he goes through the extra effort of making the [laminated dough](https://en.wikipedia.org/wiki/Laminated_dough)—just learned that English word—from scratch.
+After the noodles, we needed a dessert. A friend had recommended [this recipe](/recipes/pasteis-de-nata) to me by _Babish Culinary Universe_. I like how he goes through the extra effort of making the [laminated dough](https://en.wikipedia.org/wiki/Laminated_dough) — just learned that English word — from scratch.
 
 The result was much better than I had expected. It was maybe slightly too sweet for me (and let's not even talk about how my microwave-oven stops at 230&nbsp;°C only).

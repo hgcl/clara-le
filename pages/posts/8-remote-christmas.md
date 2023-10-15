@@ -16,7 +16,7 @@ dataTag: ["update"]
 
 ## Life peek: Christmas via Skype
 
-Christmas is an important event in my family, even though no one is Christian. It has always been a pretext to have a large family gathering with good food—and when I was younger—presents.
+Christmas is an important event in my family, even though no one is Christian. It has always been a pretext to have a large family gathering with good food — and when I was younger — presents.
 
 This year, we weren't able to meet in person because of the pandemic. Instead, we had a video conference dinner party. In total: four cameras and thirteen people, all eating and talking at the same time. Needless to say, it was a hectic and noisy event.
 
@@ -32,7 +32,7 @@ Yet, I felt at home in the middle of this chaos. Remote or not, the atmosphere w
 
 ### [IndieWeb](https://indieweb.org/)
 
-The IndieWeb is a movement that Robin introduced me to a few months ago. The concept is to take control of your content and be able to connect with others without using silos—centralized for profit websites. This last week, I finally acted on that knowledge and started to create my "IndieWeb friendly" website in Next.js. I am pretty excited by this project and will tell you more about it in the next issue&ensp;📪
+The IndieWeb is a movement that Robin introduced me to a few months ago. The concept is to take control of your content and be able to connect with others without using silos — centralized for profit websites. This last week, I finally acted on that knowledge and started to create my "IndieWeb friendly" website in Next.js. I am pretty excited by this project and will tell you more about it in the next issue&ensp;📪
 
 ### [Excalidraw](https://excalidraw.com/)
 

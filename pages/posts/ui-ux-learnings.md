@@ -7,7 +7,7 @@ dateCreated: "2022-07-13"
 dataTag: ["digital", "tiny"]
 ---
 
-I started using Notion a bit more to keep "living notes"—posts that I want to access and update easily through time.
+I started using Notion a bit more to keep "living notes" — posts that I want to access and update easily through time.
 
 Here are the ones I am keeping on my UI/UX learning journey.
 

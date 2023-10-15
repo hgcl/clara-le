@@ -16,9 +16,9 @@ dataTag: ["update"]
 
 ## Life peek: Fostering Conversations
 
-I am not much of an outdoor person—lots of allergies and just _life ya know_. From time to time, I will force myself out of the door for a long walk with Robin. And we invariably talk about thought-provoking topics.
+I am not much of an outdoor person — lots of allergies and just _life ya know_. From time to time, I will force myself out of the door for a long walk with Robin. And we invariably talk about thought-provoking topics.
 
-I am not sure yet, but I think the secret lies in having a protected space in time for a passive activity—walking in this case. This passive activity doesn't use a lot of mental space. It allows your mind to wander just enough, which fosters these organic conversations.
+I am not sure yet, but I think the secret lies in having a protected space in time for a passive activity — walking in this case. This passive activity doesn't use a lot of mental space. It allows your mind to wander just enough, which fosters these organic conversations.
 
 Our morning coffee tasting routine is another example. More often than not, it will conclude on an in-depth discussion about something random. I might just bring up this topic on our next walk.
 

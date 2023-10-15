@@ -27,7 +27,7 @@ But that's _fine_, because Montélimar is a wonderful city where everything is u
 
 [insert construction noises]
 
-_Okay_, I'm making it sound worse than what it was. In reality, we stumbled upon a cute Vietnamese restaurant—yes, one of the rare restaurants to be open. Bonus points: we also visited two nougat producers and brought back a lot of sweet edible souvenirs. We discovered _black nougat_ that is made with mostly honey and as little sugar as possible. It's official, I can now never go back to "regular white nougat".
+_Okay_, I'm making it sound worse than what it was. In reality, we stumbled upon a cute Vietnamese restaurant — yes, one of the rare restaurants to be open. Bonus points: we also visited two nougat producers and brought back a lot of sweet edible souvenirs. We discovered _black nougat_ that is made with mostly honey and as little sugar as possible. It's official, I can now never go back to "regular white nougat".
 
 ## Activity \#3: harvesting pepper
 

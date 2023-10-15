@@ -40,7 +40,7 @@ A list of things noticed during our 2-week trip in Sicily:
 - Toilets that flush with a manual tap system
 - Terrible napkins that feel like paper
 - Natural reserves where you can swim just like at a regular beach[^3]
-- A very poor public transportation system—the car is king
+- A very poor public transportation system — the car is king
 - An obsession with the Moor's heads[^4] as: ceramic vases, book holders, tablecloth decoration, bed sheet pattern, pillow cases, magnets, mugs, ...
 - Many archeological monuments (a.k.a. lots of protected old rocks that are expensive to see)
 - Ficuses, my new favorite type of tree![^5]

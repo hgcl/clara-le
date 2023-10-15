@@ -16,7 +16,7 @@ dataTag: ["update"]
 
 ## Life peek: Wholesome feelings after work
 
-Being in semi-lockdown in Berlin feels both fast and slow. Days resemble each other and night falls early. Yet, I feel like I have been doing a lot of new small exciting things lately—this Update being one of them. Week after week, there are always a few highlights worth mentioning.
+Being in semi-lockdown in Berlin feels both fast and slow. Days resemble each other and night falls early. Yet, I feel like I have been doing a lot of new small exciting things lately — this Update being one of them. Week after week, there are always a few highlights worth mentioning.
 
 Work wise, this last week was pretty intense for me: lots of Black Friday-related emergencies (ugh, marketing agencies) and the confirmation of my promotion to Senior Designer.
 
@@ -32,7 +32,7 @@ Like many others, Steph Smith explains why building a _habit of progression_ mig
 
 ### [The Zettelkasten Method: Examples to help you get started. (article, 2020)](https://medium.com/@rebeccawilliams9941/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6)
 
-Rebecca Williams gives a clear and concise explanation to get started with the Zettelkasten Method—beginner friendly!
+Rebecca Williams gives a clear and concise explanation to get started with the Zettelkasten Method — beginner friendly!
 
 Her step by step approach with concrete examples really helped me settle on a working note-taking system.
 
@@ -46,11 +46,11 @@ As I got more serious with my note-taking habit, I also needed a place to save w
 
 ### [Newslettrs](https://newslettrs.app/)
 
-A newsletter-dedicated inbox out of your email—beta mode.
+A newsletter-dedicated inbox out of your email — beta mode.
 
 Robin was telling me that I have an "early adopter" personality. Newslettrs is one of those services I subscribed to less than 30 minutes after discovering them.
 
-I had enough of dividing my email inbox between work emails and newsletters—which I think require a completely different mindset. Separating them completely sounded like an ideal plan to me!
+I had enough of dividing my email inbox between work emails and newsletters — which I think require a completely different mindset. Separating them completely sounded like an ideal plan to me!
 
 ## Overheard
 

@@ -27,7 +27,7 @@ People around me are talking a lot about New Year's resolutions. For once, I am 
 
 _27 days left before the move_
 
-[^1]: It's now been three years I write a Year in Review to reflect on the past and plan for the future. I am tweaking its structure year after year to fit my needs. I'll see if I find the time—or more like the motivation—to share it here these next few weeks.
+[^1]: It's now been three years I write a Year in Review to reflect on the past and plan for the future. I am tweaking its structure year after year to fit my needs. I'll see if I find the time — or more like the motivation — to share it here these next few weeks.
 
 ## Read & Watched
 

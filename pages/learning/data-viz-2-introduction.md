@@ -7,7 +7,7 @@ sourceUrl: "https://www.datavizhandbook.com/"
 
 ### Text v. data visualization
 
-> When should data be visualized, and when is text enough? In short, if something can be expressed just as clearly or even more clearly in words, visualization is unnecessary—sometimes even couterproductive. (p. 29)
+> When should data be visualized, and when is text enough? In short, if something can be expressed just as clearly or even more clearly in words, visualization is unnecessary — sometimes even couterproductive. (p. 29)
 
 ### Golden rule
 

@@ -37,7 +37,7 @@ What saved me was this (amazing looking) [blog post on small caps](https://www.j
 
 ## Challenge \#3: Setting up true small caps
 
-I dived into the small caps rabbit hole again and realized that small caps—and other special glyphs—were only supported by the OpenType format (OTF). That explained a lot as I was using the WOFF and WOFF2 formats so far.
+I dived into the small caps rabbit hole again and realized that small caps — and other special glyphs — were only supported by the OpenType format (OTF). That explained a lot as I was using the WOFF and WOFF2 formats so far.
 
 I was hesitant to switch to an OTF font as the WOFF format is made for the web and loads _much_ faster. I settled on an in-between decision by keeping both of them. My main font would remain in WOFF / WOFF2, while I would load the small caps from the OTF file. I basically treated my main font and small caps as two distinct font families.
 
@@ -57,7 +57,7 @@ For reference, here is the `@font-face` code I used for my small caps characters
 Let's dive into the details:
 
 - `font-display: swap` means that the block time is short for an infinite swap period. Your computer might take a tiny moment to load your small caps. This line of code avoids having a blank space where your small caps should be during that time.
-- `unicode-range: U+000-2AF` loads the IPA Extensions Unicode range only—that's where the small caps are.
+- `unicode-range: U+000-2AF` loads the IPA Extensions Unicode range only — that's where the small caps are.
 
 And that's how I managed to set up true small caps on my website.
 

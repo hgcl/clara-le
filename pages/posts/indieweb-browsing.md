@@ -7,7 +7,7 @@ dateCreated: "2022-04-16"
 dataTag: ["digital"]
 ---
 
-This weekend, I spent a lot of time jumping from site to site through the IndieWeb webring—[check my homepage footer to start browsing](/#webring).
+This weekend, I spent a lot of time jumping from site to site through the IndieWeb webring — [check my homepage footer to start browsing](/#webring).
 
 I loved stumbling upon these little corners of the internet that people would customize to fit their own personality and preferences. A few of these websites were business-driven, but a lot of them were just quirky personal websites that you would never find through regular SEO.
 
