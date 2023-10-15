@@ -23,7 +23,7 @@ A list of things noticed during our 2-week trip in Sicily:
 - A carb with carb with carb sandwich[^2]
 - Clear turquoise water that are postcard-worthy
 - The landscape looks similar to some parts of the Ardèche region in France (but as a drier version most of the time)
-- Some people wearing winter jackets even though it's more than 25°C
+- Some people wearing winter jackets even though it's more than 25&nbsp;°C
 - A mix of overpopulated cities and lands only inhabited by cows and sheeps
 - Olive trees
 - Orange trees
