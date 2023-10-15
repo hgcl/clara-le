@@ -471,7 +471,7 @@ export const blogrollData = [
     url: `https://en.wikipedia.org/wiki/Wikipedia:Contents`,
     title: `Wikipedia`,
     description: `I love Wikipedia. I love that it is collaborative and that people need to discuss to find common ground on a topic (especially the controversial ones). Here, I linked the starting hub to navigate Wikipedia differently.`,
-    category: [categories.technology.anchor],
+    category: [categories.thinking.anchor],
     best: true,
   },
   // >X
