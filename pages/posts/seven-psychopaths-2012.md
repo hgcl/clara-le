@@ -3,7 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Seven Psychopaths (2012)"
 subtitle: "A tiny note about the movie"
-dateCreated: "2020-10-18"
+dateCreated: "2020-11-26"
 dataTag: ["review", "tiny"]
 ---
 

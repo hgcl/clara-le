@@ -3,7 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Victoria (2015)"
 subtitle: "A tiny note about the movie"
-dateCreated: "2020-10-17"
+dateCreated: "2020-11-26"
 dataTag: ["review", "tiny"]
 ---
 
