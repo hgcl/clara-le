@@ -437,6 +437,13 @@ export const blogrollData = [
     best: false,
   },
   {
+    url: `https://tracydurnell.com/`,
+    title: `Tracy Durnell`,
+    description: `Tracy's personal website and digital garden`,
+    category: [categories.blog.anchor],
+    best: false,
+  },
+  {
     url: `https://type-scale.com/`,
     title: `Type scale`,
     description: `My go-to tool whenever I need to create a new website. It just makes font size choices so much more straightforward.`,
