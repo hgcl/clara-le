@@ -85,7 +85,7 @@ export default async function process() {
   const filteredNotes = notes
     .filter((note) => !note.dataTag.includes("tiny")) // excludes tiny notes from RSS
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 50); // limit to 50 posts
+    .slice(0, 15); // limit to 15 posts
   const feed = generateFeed(filteredNotes);
   writeFileSync(PUBLIC_DIR + "feed.xml", feed, "utf8");
   console.log("Generated RSS feed.");
