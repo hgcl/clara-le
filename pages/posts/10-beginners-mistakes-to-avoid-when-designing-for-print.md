@@ -43,7 +43,7 @@ Need to print to the border very edge?
 
 Set up a _bleed_ before creating your design. The bleed is an outer-margin that you set around your document borders. All the graphics that touch the borders will be slightly extended to the bleed limit, before being trimmed to the sheet size after print. Thanks to the bleed, you won't have any unwanted white border appearing along the edges of the artwork.
 
-The _quiet border_ is a safety margin inside your document, where no essential elements - such as text or logo - should be placed. This border is necessary as the trimming process is not always precise and can cut off important information.
+The _quiet border_ is a safety margin inside your document, where no essential elements — such as text or logo — should be placed. This border is necessary as the trimming process is not always precise and can cut off important information.
 
 ### So what?
 
@@ -57,7 +57,7 @@ These limits should be adjusted to your printer and paper size. As a rule of thu
 
 You are writing down your copy, selecting black ⬛ as a text fill color and are ready to print! Well, _maybe not_.
 
-Double-click on the black fill you used and check the CMYK code. It might be something like C75-M68-Y67-K90. Using all four inks to write in black can result in blurry text - and that's bad. What you really need is to use the following code: C0-M0-Y0-K100.
+Double-click on the black fill you used and check the CMYK code. It might be something like C75-M68-Y67-K90. Using all four inks to write in black can result in blurry text — and that's bad. What you really need is to use the following code: C0-M0-Y0-K100.
 
 However, when applied on a larger area that black tone will look almost grey. For best results, switch to a _rich black_ by mixing several ink colors to get a darker tone. There is not one recipe, but try to use the C40-M30-Y30-K100 CMYK code for those large areas.
 
@@ -75,7 +75,7 @@ Another common mistake is to use small text on a rich black background. The slig
 
 ### So what?
 
-Don't use tiny text in your artwork. 6pt character size is a good rule of thumb - even though it all depends on your typeface style!
+Don't use tiny text in your artwork. 6pt character size is a good rule of thumb — even though it all depends on your typeface style!
 
 When using small white text over black, choose a C0-M0-Y0-K100 simple black.
 
