@@ -36,7 +36,7 @@ While browsing books on Open Library, I stumbled upon this graphic novel version
 
 ### [The Art of Fermentation (book)](https://www.wildfermentation.com/the-art-of-fermentation/)
 
-In <cite>The Preserve Journal Issue 4</cite>, journalist Kaszmarzyk says{" "}
+In <cite>The Preserve Journal Issue 4</cite>, journalist Kaszmarzyk says
 
 > I believe everyone goes through the same thing when they receive their first copy of <cite>The Art of Fermentation</cite>: you spend days with it. You bond and form a relationship like no other with it, because it's neither a recipe book nor a nonfiction novel, it is its own special world.
 
