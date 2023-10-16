@@ -224,8 +224,8 @@ footer {
 
 /* Images */
 
-img {
-  border-radius: var(--space-2xs);
+figure {
+  margin: 2rem 0;
 }
 img + img {
   margin-top: 1rem;
@@ -308,6 +308,13 @@ pre {
 code,
 kbd {
   font-size: var(--font-xs);
+  font-weight: bold;
+}
+kbd {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  padding: 0.05em 0.3em;
+  border-radius: 2px;
 }
 
 cite {
@@ -453,7 +460,6 @@ a:focus {
 }
 
 .card-link {
-  border-radius: var(--space-2xs);
   overflow: hidden;
   /* Reset link styles */
   background: none;
