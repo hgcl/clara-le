@@ -224,7 +224,8 @@ footer {
 
 /* Images */
 
-figure {
+figure, 
+p > img /* images not in <figure> that appear in Markdown files only (blog posts) */ {
   margin: 2rem 0;
 }
 img + img {
