@@ -1,7 +1,7 @@
 ---
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
-title: "#7 Living Better With Less"
+title: "#7 Living better with less"
 subtitle: "Update #7"
 dateCreated: "2020-12-19"
 dataTag: ["update"]
