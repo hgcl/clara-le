@@ -9,7 +9,7 @@ export async function buildPage(html) {
       (a, b) =>
         new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
     );
-    const postsHtml = Object.values(yearArray(2020))
+    const postsHtml = Object.values(yearArray(2019))
       .map(
         (year) =>
           `<h2>${year}</h2>` +
