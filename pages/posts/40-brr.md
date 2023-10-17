@@ -3,7 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#40 Brr"
 subtitle: "Update #40"
-dateCreated: "2023-10-16"
+dateCreated: "2023-10-17"
 dataTag: ["update"]
 ---
 
