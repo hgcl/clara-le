@@ -8,7 +8,7 @@
       content="All the recipes I bookmarked over the years"
     />
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/20230929-global.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/20230930-global.css" type="text/css" />
     <meta name="viewport" content="width=device-width" />
     <meta property="og:site_name" content="Clara Le" />
     <meta property="og:title" content="{{title}}" />
@@ -40,11 +40,9 @@
       <a class="skip-to-content" href="#main-section">Skip to content</a>
       <nav>
         <button
-          class="tertiary-link"
+          class="tertiary-link hide"
           id="menu-button"
           aria-haspopup="true"
-          aria-expanded="false"
-          hidden
         >
           Menu
         </button>
@@ -109,23 +107,16 @@
     const menuButton = document.querySelector("#menu-button");
     const menu = document.querySelector("#menu");
 
-    // hide menu button and show menu list by default if JS is enabled
-    menu.setAttribute("hidden", true);
-    menuButton.removeAttribute("hidden");
+    // If JS is enabled:
+    // 1) unhide #menu-button
+    // 2) on mobile, make #menu-button visible and #menu hidden
+    // 3) on desktop, make #menu-button hidden and #menu visible
+    menuButton.classList.remove("hide");
+    menuButton.classList.add("js-enabled");
+    menu.classList.add("js-enabled");
 
     menuButton.addEventListener("click", () => {
-      if (!menu.hidden) {
-        // close menu
-        menuButton.setAttribute("aria-expanded", false);
-        menu.hidden = true;
-        menu.setAttribute("style", "display: none;");
-      } else {
-        // open menu
-        menuButton.setAttribute("aria-expanded", true);
-        menu.hidden = false;
-        menu.setAttribute("style", "display: inline;");
-        menu.querySelector(":not(\[disabled])").focus();
-      }
+      menu.classList.toggle("expanded"); // make visible when hidden, and vice-versa
     });
   </script>
 </html>

@@ -125,7 +125,7 @@ nav {
   transform: none;
 }
 #menu-button::after {
-  content: " \00BB";
+  content: " \2193";
 }
 #menu {
   text-align: center;
@@ -137,6 +137,15 @@ nav {
 #menu li {
   display: inline-block;
   margin: var(--space-xs);
+}
+#menu-button.js-enabled {
+  display: inline-block;
+}
+#menu.js-enabled {
+  display: none;
+}
+#menu.expanded {
+  display: inline-block;
 }
 
 #line-horizontal {
@@ -657,6 +666,13 @@ a[id*="user-content-fnref"] {
   }
   nav {
     flex-direction: row;
+  }
+  #menu-button.js-enabled {
+    display: none;
+  }
+  #menu.js-enabled,
+  #menu.expanded {
+    display: unset;
   }
   main {
     padding-left: var(--space-2xl);
