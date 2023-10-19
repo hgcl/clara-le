@@ -1,8 +1,8 @@
 ---
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
-title: "Now"
 dateCreated: "2023-07-12"
+title: "Now"
 subtitle: "Chilling"
 ---
 
