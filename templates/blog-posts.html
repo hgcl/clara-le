@@ -21,12 +21,6 @@
       href="/feed.xml"
       title="Clara Le"
     />
-    <!-- Webmentions links, state that I want to receive webmentions on webmention.io -->
-    <link
-      rel="webmention"
-      href="https://webmention.io/clarale.com/webmention"
-    />
-    <link rel="pingback" href="https://webmention.io/clarale.com/xmlrpc" />
   </head>
 
   <body>
@@ -89,7 +83,10 @@
           <span class="post-data-tags">{{dataTag}}</span>{{/dataTag.length}}
         </p>
         <h1 class="p-name">{{title}}</h1>
-        <a rel="author" class="p-author h-card hide" href="https://clarale.com"
+        <a
+          rel="author"
+          class="p-author h-card hide"
+          href="https://www.clarale.com"
           >Clara Le</a
         >
         {{#subtitle}}
