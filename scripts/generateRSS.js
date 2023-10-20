@@ -8,7 +8,7 @@ import { Feed } from "feed";
 
 const NOTES_DIR = "./pages/posts/";
 const PUBLIC_DIR = "./public/";
-const SITE_URL = "https://www.clarale.com";
+const SITE_URL = "https://clarale.com";
 
 /**
  * @typedef {Object} Note
