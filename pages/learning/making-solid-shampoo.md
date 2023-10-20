@@ -30,3 +30,5 @@ SCI is also [not very ecologically friendly to produce](https://blutopia.org/sha
 - So easy to make! Basically: mix everything in a _bain-marie_ and knead your mixture by hand with the essential oils.
 - Too many essential oil drops; I would bring it down to max 20 drops.
 - Would mixing only the SCI with the oil first help to melt it completely? Using a solid spoon could help to break it down as well.
+
+_Update 20/10/23: I tested the shampoo and it works great — my hair feels very clean. I wonder if it might be a bit too basic though. Would mixing in some citric acid make it smoother to use?_
