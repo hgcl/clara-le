@@ -118,11 +118,7 @@ nav {
   margin: 0 var(--space-s);
 }
 #menu-button {
-  /* align with nav li margins */
-  margin: var(--space-xs) 0;
-  /* reset button styles */
-  box-shadow: none;
-  transform: none;
+  margin: var(--space-xs);
 }
 #menu-button::after {
   content: " \2193";
@@ -440,33 +436,25 @@ a:focus {
   outline-offset: 0.1em;
   outline: 0.1em solid;
 }
-
+.secondary-link {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .secondary-link,
 .secondary-link:hover,
 .secondary-link:focus {
-  text-decoration: 0.1em underline;
-  text-underline-offset: 0.3em;
   /* Reset link styles */
   background: none;
   border: none;
+  padding: 0;
+  box-shadow: none;
+  transform: none;
 }
 .secondary-link:hover,
 .secondary-link:focus {
   color: var(--color-text-alt);
-}
-
-.tertiary-link {
-  /* reset */
-  color: var(--color-text);
-  background: none;
-  border: none;
-  padding: 0;
-}
-.tertiary-link:hover,
-.tertiary-link:focus {
-  /* reset */
-  background: none;
-  color: var(--color-text-alt);
+  text-decoration: 0.1em underline;
+  text-underline-offset: 0.3em;
 }
 
 .card-link {
