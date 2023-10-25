@@ -218,9 +218,9 @@ footer {
 .comment-section {
   text-align: center;
   font-size: var(--font-xs);
-  background-color: var(--color-text);
-  color: var(--color-bg);
-  padding: var(--space-s) var(--space-m);
+  background-color: var(--blue);
+  color: var(--white);
+  padding: var(--space-s) var(--space-l);
   margin-top: var(--space-3xl);
 }
 .comment-section h2 {
