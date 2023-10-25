@@ -570,6 +570,7 @@ a[id*="user-content-fnref"] {
 }
 #media img {
   height: 100%;
+  min-width: 100%;
   object-fit: cover;
 }
 
