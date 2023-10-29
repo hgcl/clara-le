@@ -1,0 +1,65 @@
+{
+  "title": "Couscous",
+  "publishedOn": "2023-10-29",
+  "dataTag": ["main"],
+  "intro": "",
+  "duration": "130",
+  "ingredients": [
+    {
+      "ingTitle": "Pour 7–8 personnes",
+      "ingMand": [
+        "Huile d'olive",
+        "1 kg de semoule de blé",
+        "600 g d'eau froide, salée",
+        "2–3 oignons",
+        "Persil",
+        "Pois-chiches, trempés la veille",
+        "2 boîtes de tomates",
+        "1 petit pot de concentré de tomate",
+        "1 petit verre de vin rouge",
+        "Ras el hanout",
+        "Sel et poivre",
+        "Légumes cuisson lente : carottes, navets, aubergine (coupés en gros morceaux)",
+        "Légumes cuisson rapide : courgettes, poivrons (coupés en gros morceaux)",
+        "Épaule d'agneau coupée en gros morceaux",
+        "Cuisses de poulet",
+        "Merguez"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "La soupe",
+      "insSteps": [
+        "Remplir d'eau une grosse casserole jusqu'à sa moitié. Allumer le feu et commencer le timer. La soupe restera deux heures en tout sur le feu.",
+        "Couper les oignons et les répartir à la surface de l'eau. Fortement bouillir le tout pendant 30 minutes. Pendant ce temps, préparer la suite des ingrédients.",
+        "À la fin des 30 minutes, ajouter ras el hanout, sel, poivre, pois-chiches, tomates en boîtes, concentré de tomate et vin rouge. Laisser bouillir pendant 30 minutes supplémentaires sans remuer.",
+        "Ajouter les légumes de cuisson lente et laisser mijoter 30 minutes supplémentaires.",
+        "Bien griller les merguez et les garder de côté pour le moment du service. Saisir l'agneau et le poulet.",
+        "À une heure avant la fin de la cuisson, ajouter les morceaux de viande à la soupe.",
+        "30–45 minutes avant la fin de la cuisson, ajouter les légumes à cuisson rapide à la soupe."
+      ]
+    },
+    {
+      "insTitle": "La semoule",
+      "insSteps": [
+        "Si le plat à couscous n'a pas été utilisé depuis un moment, légèrement l'huiler.",
+        "2 heures avant le repas, répartir la semoule de blé dans le plat et les tremper des 600 g d'eau. La semoule doit être entièrement mouillée, mais ne doit pas baigner dans l'eau. Après quelques minutes, la semoule forme une sorte de galette dure en aspirant l'eau.",
+        "Effriter la semoule entre ses mains. Ajouter un filet d'huile d'olive sur le tout pour éviter que le couscous ne se colmate."
+      ]
+    },
+    {
+      "insTitle": "Le service",
+      "insSteps": [
+        "15 minutes avant de servir, faire cuire le couscous dans une couscoussière par dessus la soupe qui bout. Pour cela, répartir le couscous dans la couscoussière sur 2–3 cm. Lorsque la vapeur traverse le couscous, celui-ci est prêt et peut être disposé dans le plat à couscous. Répéter l'opération avec tout le couscous.",
+        "S'il y a beaucoup de couscous, en garder de côté (au chaud) pour un second service. Répartir le reste (en cercle) dans le plat à couscous. Disposer légumes, soupe et viandes au milieu du plat.",
+        "Servir chaud"
+      ]
+    }
+  ],
+  "notes": [
+    "Recette de couscous de Souad, préparée ensemble pour la première fois à Joux en octobre 2023. Il fait légèrement frais dehors, on allume le poêle et on mange tous et toutes du même plat. Autour de la table : France, Souad, Greg, Karmia, Thibaud, Robin et moi."
+  ],
+  "recipeUrl": ""
+}
