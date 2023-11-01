@@ -28,9 +28,9 @@ export async function buildPage(html) {
                     ? `src="https://image.tmdb.org/t/p/w1280/${post.cover}.jpg"`
                     : `src="https://covers.openlibrary.org/b/id/${post.cover}-L.jpg"`
                 }
-                ></div></a><span class="sr-only">${post.title} by ${
-                  post.author
-                }</span> <span class="label">${
+                ></div><span class="h3">${post.title}<br/>(by ${post.author
+                  .toString()
+                  .replace(",", " & ")})</span></a> <span class="label">${
                   post.dataTag
                 } <span aria-hidden="true">•</span> ${post.year}</span></li>`
             )

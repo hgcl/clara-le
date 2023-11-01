@@ -464,13 +464,13 @@ a:focus {
   border: none;
 }
 .card-link > div {
-  background-color: var(--color-accent);
+  background-color: var(--red);
   height: 100%;
 }
 .card-link:hover img,
 .card-link:focus img {
   mix-blend-mode: screen;
-  filter: grayscale(100%) contrast(105%);
+  filter: grayscale(100%) brightness(0.5) blur(1px);
 }
 
 /* External links */
@@ -561,14 +561,32 @@ a[id*="user-content-fnref"] {
   margin-bottom: var(--space-l);
 }
 #media li {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-#media a {
+#media li a {
   height: 100%;
 }
-#media img {
+#media li .h3 {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: var(--space-m);
+  color: var(--white);
+  /* center vertically */
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+#media li a:hover .h3,
+#media li a:focus .h3,
+#media li a:active .h3 {
+  opacity: 1;
+}
+#media li img {
   height: 100%;
   min-width: 100%;
   object-fit: cover;
