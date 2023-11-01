@@ -289,7 +289,6 @@ li {
 .label {
   text-transform: uppercase;
   font-size: var(--font-2xs);
-  line-height: 1;
   letter-spacing: 0.1em;
 }
 
