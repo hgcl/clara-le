@@ -47,7 +47,7 @@ html {
     "DejaVu Sans Mono", monospace;
   --color-bg: var(--white);
   --color-text: var(--blue);
-  --color-text-alt: var(--black);
+  --color-text-highlight: var(--yellow);
   --color-accent: var(--red);
 }
 
@@ -64,7 +64,7 @@ body {
 
 main {
   width: 100%;
-  padding: var(--space-l) var(--space-s);
+  padding: var(--space-l) var(--space-m);
   flex: 1 0 auto; /* makes sure index.html main takes all available space */
 }
 
@@ -75,36 +75,20 @@ header {
 #bg-deco {
   z-index: -100;
 }
-#bg-deco #line-vertical {
-  display: none;
+#bg-deco .line-left,
+#bg-deco .line-right {
   position: fixed;
   mask: no-repeat url("/vertical-line.svg");
   background-color: var(--color-accent);
-  left: var(--space-s);
   width: 15px;
   height: 100%;
 }
-#bg-deco #square {
-  position: fixed;
-  background: right bottom / contain no-repeat url("/square.webp");
-  width: 50%;
-  height: 70%;
-  max-width: 380px;
-  min-width: 220px;
-  bottom: -130px;
-  left: -10%;
-  transform: rotate(30deg);
-  opacity: 80%;
+#bg-deco .line-left {
+  left: 0;
 }
-#bg-deco #circle {
-  position: fixed;
-  background: top right / contain no-repeat url("/circle.webp");
-  width: 40%;
-  height: 50%;
-  max-width: 400px;
-  min-width: 180px;
-  top: -60px;
-  right: -20px;
+#bg-deco .line-right {
+  right: 0;
+  transform: rotate(180deg);
 }
 
 /* Nav */
@@ -121,7 +105,7 @@ nav {
   margin: var(--space-xs);
 }
 #menu-button::after {
-  content: " \2193";
+  content: " \2299";
 }
 #menu {
   text-align: center;
@@ -178,8 +162,7 @@ footer {
   position: absolute;
   transform: translateY(-280%);
   transition: transform 0.3s;
-  margin: 0 0.5rem;
-  padding: 0.5rem;
+  margin: 0.5rem;
   /* Removes default link styles */
   border: none;
 }
@@ -393,6 +376,7 @@ button,
   cursor: pointer;
   font: inherit;
   width: fit-content;
+  text-decoration: none;
   padding: 0.1em 0.6em;
   color: var(--color-text);
   background-color: transparent;
@@ -404,56 +388,53 @@ button:hover,
 button:focus,
 .button:hover,
 .button:focus {
-  background-color: var(--color-text-alt);
-  border-color: var(--color-text-alt);
-  box-shadow: none;
+  text-decoration: none;
+  background-color: var(--color-text-highlight);
+  box-shadow: 1px 1px;
   transform: translate(1px, 1px);
-  color: var(--color-bg);
 }
 
-a {
+a,
+.secondary-link {
   color: var(--color-text);
   background-image: linear-gradient(
     120deg,
-    var(--color-text-alt),
-    var(--color-text-alt)
+    var(--color-text-highlight),
+    var(--color-text-highlight)
   );
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 105% 0;
-  border-bottom: 0.1em solid var(--color-text);
-  text-decoration: none;
   transition: background-size 0.125s ease-in;
+  text-underline-offset: 0.3em;
 }
-a:hover,
-a:focus {
-  color: var(--color-bg);
-  border-color: var(--color-text-alt);
-  background-size: 100% 100%;
-}
-a:focus {
-  outline-offset: 0.1em;
-  outline: 0.1em solid;
+a {
+  text-decoration: 1px underline;
 }
 .secondary-link {
-  text-transform: uppercase;
-  font-weight: bold;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+.secondary-link:hover,
+.secondary-link:focus {
+  background-size: 100% 100%;
+  text-decoration: 1px underline;
+}
+a:focus,
+.secondary-link:focus {
+  outline: 1px solid;
 }
 .secondary-link,
 .secondary-link:hover,
 .secondary-link:focus {
-  /* Reset link styles */
-  background: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* reset styles */
   border: none;
   padding: 0;
   box-shadow: none;
   transform: none;
-}
-.secondary-link:hover,
-.secondary-link:focus {
-  color: var(--color-text-alt);
-  text-decoration: 0.1em underline;
-  text-underline-offset: 0.3em;
 }
 
 .card-link {
@@ -635,27 +616,21 @@ a[id*="user-content-fnref"] {
   html {
     --color-bg: var(--blue-dark);
     --color-text: var(--white);
-    --color-text-alt: var(--yellow);
     --color-accent: var(--red-light);
   }
-  #bg-deco #circle {
-    background-image: url("/circle-darkmode.webp");
-    opacity: 60%;
+  a:hover,
+  a:active,
+  a:focus {
+    color: var(--color-bg);
   }
-  #bg-deco #square {
-    background-image: url("/square-darkmode.webp");
-    opacity: 60%;
-  }
-  a {
-    border-color: var(--color-text-alt);
-  }
-  button,
-  .button {
-    border-color: var(--color-text-alt);
-    box-shadow: 2px 2px var(--color-text-alt); /* only change color */
-  }
-  .secondary-link {
-    text-decoration-color: var(--color-text-alt);
+  button:hover,
+  .button:hover,
+  button:active,
+  .button:active,
+  button:focus,
+  .button:focus {
+    color: var(--color-bg);
+    box-shadow: 2px 2px var(--color-bg); /* only change color */
   }
 }
 
@@ -665,11 +640,21 @@ a[id*="user-content-fnref"] {
   html {
     font-size: 18px;
   }
+  nav {
+    margin: 0 var(--space-l);
+  }
+  #bg-deco .line-left {
+    left: var(--space-s);
+  }
+  #bg-deco .line-right {
+    right: var(--space-s);
+  }
+  main {
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+  }
 }
 @media only screen and (min-width: 768px) {
-  #bg-deco #line-vertical {
-    display: block;
-  }
   nav {
     flex-direction: row;
   }
