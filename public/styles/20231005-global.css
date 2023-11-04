@@ -39,6 +39,7 @@
   --screen-lg: 1024px;
   --article-width: 600px;
   --side-width: calc((100vw - var(--article-width)) / 2);
+  --line-thickness: 1.5px;
 }
 
 html {
@@ -335,7 +336,7 @@ hr::before {
 /* ~striked-through text~ styles and accessibility */
 
 del {
-  text-decoration-thickness: 1.5px;
+  text-decoration-thickness: var(--line-thickness);
 }
 del::before,
 del::after {
@@ -388,7 +389,7 @@ button,
   padding: 0.1em 0.6em;
   color: var(--color-text);
   background-color: transparent;
-  border: 1px solid var(--color-text);
+  border: var(--line-thickness) solid var(--color-text);
   transition: transform 0.1s ease-in-out;
   box-shadow: 2px 2px;
 }
@@ -417,7 +418,7 @@ a,
   text-underline-offset: 0.3em;
 }
 a {
-  text-decoration: 1px underline;
+  text-decoration: var(--line-thickness) underline;
 }
 .secondary-link {
   text-decoration: none;
@@ -427,7 +428,7 @@ a:focus,
 .secondary-link:hover,
 .secondary-link:focus {
   background-size: 100% 100%;
-  text-decoration: 1px underline;
+  text-decoration: var(--line-thickness) underline;
 }
 a:focus,
 .secondary-link:focus {
