@@ -24,10 +24,8 @@
   </head>
 
   <body>
-    <div id="bg-deco" aria-hidden="true">
-      <div class="line-left"></div>
-      <div class="line-right"></div>
-    </div>
+    <div class="deco-vert-1 bg-deco" aria-hidden="true"></div>
+    <div class="deco-vert-2 bg-deco" aria-hidden="true"></div>
     <header>
       <a class="skip-to-content button" href="#main-section">Skip to content</a>
       <nav>
@@ -66,11 +64,14 @@
           </li>
         </ul>
       </nav>
-      <div id="line-horizontal" aria-hidden="true"></div>
+      <div class="deco-horiz-1 bg-deco" aria-hidden="true"></div>
     </header>
     <main id="main-section">{{> content}}</main>
     <footer>
-      <a href="#main-section">Back to top &uarr;</a>
+      <a href="#main-section"
+        >Back to top<span aria-hidden="true"> &uarr;</span></a
+      >
+      <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
     </footer>
   </body>
   <script>
