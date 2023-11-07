@@ -20,11 +20,15 @@ subtitle: "Behind the scenes of this personal website"
       <a href="https://github.com/hgcl/clara-le">GitHub</a>.
     </li>
     <li>There is no tracking of any kind. Just fun!</li>
+    <li>This page uses a <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement approach</a> (HTML and CSS first) for better accessibility and performance. Please get back to me if you notice any accessibility issue!</li>
+    <li >
+      I am trying to reduce the ecological impact of this website bit by bit, avoiding custom fonts and using images when necessary only.
+    </li>
+    <li id="timing">If you want to see the CO2 impact of this page, enable Javascript to calculate it here.</li id="timing">
   </ul>
   <h2>Roadmap</h2>
   <ul>
-    <li>
-      For each <code>h2</code> title, generate an <code>id</code> automatically
+    <li>For each <code>h2</code> title, generate an <code>id</code> automatically
     </li>
     <li>Create portfolio page</li>
     <li>Add landmarks for accessibility</li>
@@ -70,3 +74,26 @@ subtitle: "Behind the scenes of this personal website"
     </li>
   </ul>
 </article>
+<script type="module">
+  window.addEventListener("load", function () {
+    const now = new Date().getTime();
+    const loadingTime = now - performance.timing.navigationStart;
+    const transferredBytes = performance
+      .getEntries()
+      .map((entry) => entry.transferSize || 0) // we omit missing sizes like in paint perf entries
+      .reduce((a, b) => a + b, 0);
+    /**
+     * Calculating digital emissions in g CO2e
+     * https://sustainablewebdesign.org/calculating-digital-emissions/
+     */
+    const transferredGigabytes = transferredBytes / 1000000000;
+    const emissions = transferredGigabytes * 0.81 * 442;
+
+    const perfElement = document.getElementById("timing");
+    perfElement.innerText = `In numbers, this page loaded ${(transferredBytes / 1000).toFixed(
+      2
+    )}kB in ${(loadingTime / 1000).toFixed(2)}s and emitted ${emissions.toFixed(
+      2
+    )}g CO2e. (Reload page to reset numbers.)`;
+  });
+</script>
