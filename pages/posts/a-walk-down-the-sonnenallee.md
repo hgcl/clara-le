@@ -39,7 +39,7 @@ Some drivers get out of their cars and are now discussing in the middle of the s
 
 Almost bursting, we continue our walk down Sonnenallee: shops selling wedding dresses and hijabs, pastry shops selling giant colorful cakes and baklava, gold jewelry stores, Döner joints, shops displaying shiny home decor items.
 
-As we get closer to Sonnenallee station, the street chaos seems to tame down, there are fewer people, more space, less noise. But the true end of Arab street might be marked by the clothing store specialized in "techno rave outfits" — mostly skimpy black leather clothes that look like bikinis.
+As we get closer to Sonnenallee station, the street chaos seems to tame down, there are fewer people, more space, less noise. But the true end of the Arab street might be marked by the clothing store specialized in "techno rave outfits" — mostly skimpy black leather clothes that look like bikinis.
 
 We do a final stop as we arrive at the Sonnenallee station. We order a filter coffee and a flat white in a familiar hipster coffee shop. Students and young professionals are sitting at various tables, some are wearing beanies, thick black leather boots, most are working on their laptops. From there, we see and hear the S-Bahn run by.
 
