@@ -385,7 +385,7 @@ button,
   display: inline-block;
   cursor: pointer;
   font: inherit;
-  width: fit-content;
+  width: max-content;
   text-decoration: none;
   padding: 0.1em 0.6em;
   color: var(--color-text);
