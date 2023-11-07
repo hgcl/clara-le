@@ -307,6 +307,7 @@ kbd {
   font-size: var(--font-xs);
   font-weight: bold;
 }
+*:not(pre) > code,
 kbd {
   background-color: var(--color-text);
   color: var(--color-bg);
