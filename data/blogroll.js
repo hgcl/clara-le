@@ -246,7 +246,7 @@ export const blogrollData = [
   {
     url: `https://jillianblogs.com/`,
     title: `Jillian blogs`,
-    description: `My good friend Jillian is starting on the blogosphere! She writes about her life with a great deal of humor.`,
+    description: `My good friend Jillian is starting out on the blogosphere! She writes about her life with a great deal of humor.`,
     category: [categories.blog.anchor],
     best: false,
   },
