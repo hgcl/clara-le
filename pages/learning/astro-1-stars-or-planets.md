@@ -13,11 +13,11 @@ Sometimes, the object is just too bright to be a star. Venus is the brightest pl
 
 ### 2. Does it scintillate?
 
-Because stars are much farther than planets, they also appear smaller. Stars appear as dots whereas planets appear as discs. 
+Let's be clear, neither planets or stars really twinkle. The difference in scintillation will be explained by how big the objects are seen from Earth. Stars appear as dots, whereas planets appear as discs. (Because stars are much farther than planets, they also appear smaller.)
 
 The light coming from a star will be refracted in many directions when going through our turbulent atmosphere. It will make it look like it is scintillating.
 
-On the contrary, the light coming from a pusher and going through our atmosphere will seem more stable as its extra surface will allow it to "compensate".
+On the contrary, the light coming from a planet and going through our atmosphere will seem more stable as its extra surface will allow it to "compensate" the variations.
 
 ### 3. Where is it positioned?
 
