@@ -13,7 +13,7 @@ It feels great to have the freedom of waking up in the morning and be like "nah,
 
 - learning about plants and creating a herbarium
 - home improvements (starting with building a bookshelf)
-- getting better at Javascript (usually because I am working on yet another unnecessary feature for my website[^1])
+- getting better at JavaScript (usually because I am working on yet another unnecessary feature for my website[^1])
 - gardening with France
 - learning ways to preserve food
 - climbing, climbing, climbing
