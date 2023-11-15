@@ -146,13 +146,6 @@ export const blogrollData = [
     category: [categories.newsletter.anchor],
     best: false,
   },
-  {
-    url: `https://devils.neocities.org`,
-    title: `Devils`,
-    description: `What a refreshing personal website! It breaks the boudaries of what a personal website could be.`,
-    category: [categories.blog.anchor],
-    best: false,
-  },
   // >E
   {
     url: `https://www.eaudepoisson.com/`,
@@ -250,6 +243,13 @@ export const blogrollData = [
     best: false,
   },
   // >J
+  {
+    url: `https://jillianblogs.com/`,
+    title: `Jillian blogs`,
+    description: `My good friend Jillian is starting on the blogosphere! She writes about her life with a great deal of humor.`,
+    category: [categories.blog.anchor],
+    best: false,
+  },
   // >K
   // >L
   {
@@ -395,12 +395,12 @@ export const blogrollData = [
   {
     url: `https://robinmetral.com/`,
     title: `Robin Métral`,
-    description: `Robin is my partner in life. He gets passionate about a lot of things, so be prepared for a diverse mix of topics.`,
+    description: `Robin is my partner in life. He gets passionate about a lot of things, so be prepared to dive into diverse rabbit holes.`,
     category: [categories.blog.anchor],
     best: true,
   },
   {
-    url: `https://v6.robweychert.com/`,
+    url: `https://robweychert.com/`,
     title: `Robwey Chert`,
     description: `Robwey Chert is a designer and artist that has been blogging since 2002.`,
     category: [categories.blog.anchor],
@@ -465,6 +465,13 @@ export const blogrollData = [
     title: `Wayback Machine`,
     description: `I just love how this enables people to experience how the web felt decades ago.`,
     category: [categories.technology.anchor],
+    best: false,
+  },
+  {
+    url: `https://webcurios.co.uk/`,
+    title: `Web Curios`,
+    description: `A weekly blognewslettertypething of weird, interesting, scandalous links — all wrapped in sarcasm.`,
+    category: [categories.newsletter.anchor],
     best: false,
   },
   {
