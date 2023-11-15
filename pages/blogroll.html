@@ -17,7 +17,15 @@ subtitle: "Before search engines became a thing, blogrolls were quite common.
       they liked. I just love this idea of subjective and personal curation,
       leading you from website to website.
     </p>
-    <a id="random-link" href="" class="button external-link">
+    <p id="enable-js-message" class="subtle">
+      <em>Enable JavaScript for the following button to work.</em>
+    </p>
+    <a
+      id="random-link"
+      class="button external-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       Open a random link
     </a>
   </div>
@@ -25,6 +33,9 @@ subtitle: "Before search engines became a thing, blogrolls were quite common.
 </article>
 
 <script>
+  // Remove no JS warning
+  const jsMessage = document.getElementById("enable-js-message").remove();
+
   const el = document.getElementById("random-link");
   el.addEventListener("click", (el) => {
     // get a random number between 0 and the number of links
