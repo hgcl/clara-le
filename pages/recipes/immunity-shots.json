@@ -1,0 +1,34 @@
+{
+  "title": "Immunity shots",
+  "publishedOn": "2023-11-17",
+  "dataTag": ["ahead", "winter", "fall"],
+  "intro": "Prepare these frozen immunity shots early winter to be ready for the cold season.",
+  "duration": "30",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "10 cm fresh ginger",
+        "5 cm fresh tumeric",
+        "2 lemons, roughly peeled",
+        "2 oranges, roughly peeled",
+        "Black pepper (anti-inflammatory)",
+        "Honey"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Add everything to a blender, only roughly peeling the fruits. Blend it for one minute until frothy and deeply golden.",
+        "Press the juice through a fine-mesh strainer and into an ice cube tray for later use.",
+        "Once they're frozen, pop them out of the ice cube tray and stash them in an airtight container in the freezer for up to three months.",
+        "To serve, either let an ice cube unfreeze for a quick shot, or add a cube directly to a mug of just-boiled water."
+      ]
+    }
+  ],
+  "notes": [""],
+  "recipeUrl": "https://www.bonappetit.com/story/homemade-ginger-shots"
+}
