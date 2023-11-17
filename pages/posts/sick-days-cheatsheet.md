@@ -39,6 +39,17 @@ As it is happening more and more often, here is a list of the things I personall
 - To test: wrist acupressure to [point Neiguan (P-6)](https://www.youtube.com/watch?v=XNDoQm8wxHg&t=25s)
 - To test: candied ginger or fennel tea
 
+## To prevent sinusitis
+
+I have a sensitive nose that easily transforms an inoffensive cold into full-fledged sinusitis. Here are ways to prevent it:
+
+- Rinse nostrils with a neti pot a few times a day[^3]
+- Drink lots of water to keep the mucus thin
+- Take a hot shower and do a steam bath[^2]
+- Avoid dry environments
+- Sleep with your head elevated
+- Blow your nose gently, one nostril at a time. Forceful blowing can irritate the nasal passages and propel bacteria-laden mucus back up into your sinuses.
+
 [^1]: Always make sure to store some porridge in the freezer!
 [^2]: Essential oils: 1 drop lavender, 1 drop peppermint
 [^3]: Preboil 3/4 cup water and let it cool down, mix in 1&nbsp;tsp salt and 1/2&nbsp;tsp baking soda. You can keep this solution for a week.
