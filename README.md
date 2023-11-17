@@ -1,3 +1,1 @@
-# Read me
-
-Clara's personal website. Check the [colophon page](https://clarale.com/colophon/) for more info.
+Hey, I'm Clara — a tinkerer lost in the middle of the French countryside. I usually document my experiments on [clarale.com](https://clarale.com/), both digital and analog. 
