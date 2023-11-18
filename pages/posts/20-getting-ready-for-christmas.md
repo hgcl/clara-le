@@ -44,6 +44,6 @@ First, the puff pastry. I followed [this recipe](/recipes/puff-pastry), and I ha
 
 The final tarte tatin was still delicious, but the apples were not as beautifully caramelized as I would have wanted them to be.
 
-For the next try, I will try to use apples that have less water content[^4], as well as make a dry caramel first before adding the melted butter.
+For the next try, I will try to use apples that have less water content[^4], as well as make a dry caramel first before adding the melted butter. {end-key}
 
 [^4]: I might actually even let them dry for a night after cutting them.

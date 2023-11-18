@@ -11,4 +11,4 @@ _Directed by Martin McDonagh_
 
 Completely crazy and over the top characters, dialogues are amazing. Loved how they mixed the screenplay and reality.
 
-Rating: 3.5/5
+Rating: 3.5/5 {end-key}

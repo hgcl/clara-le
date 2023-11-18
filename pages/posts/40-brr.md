@@ -42,4 +42,4 @@ Back to the board game festival, we arrived close to the end of the event but we
 
 - I made my [first solid shampoo](/learning#making-solid-shampoo) a few days ago. I haven't tested it yet, but the process was much easier than I had expected! Once I had the ingredients ready (not that many, not that weird), the full recipe only took 20 minutes and simple kitchen equipment.
 - I browsed for hours on [searchmysite.net](https://searchmysite.net/), a search engine that only goes through personal websites, the small web, digital gardens and so on. Sites are ranked higher when they have no ads.
-- We watched <cite>A Haunting in Venice</cite>, the new Hercule Poirot movie by Kenneth Branagh. It is much darker that the first two movies, which I really liked.
+- We watched <cite>A Haunting in Venice</cite>, the new Hercule Poirot movie by Kenneth Branagh. It is much darker that the first two movies, which I really liked. {end-key}

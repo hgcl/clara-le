@@ -43,4 +43,4 @@ As we get closer to Sonnenallee station, the street chaos seems to tame down, th
 
 We do a final stop as we arrive at the Sonnenallee station. We order a filter coffee and a flat white in a familiar hipster coffee shop. Students and young professionals are sitting at various tables, some are wearing beanies, thick black leather boots, most are working on their laptops. From there, we see and hear the S-Bahn run by.
 
-It feels like the last three kilometers could have happened in a dream. We are gently waking up.
+It feels like the last three kilometers could have happened in a dream. We are gently waking up. {end-key}

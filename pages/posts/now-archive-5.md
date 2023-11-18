@@ -17,6 +17,6 @@ A few side-projects:
 - Learning about UX and updating [my UX living notes](/posts/ui-ux-learnings/) accordingly
 - Nurturing my planner shop _[Life Under Control](https://www.etsy.com/shop/LifeUnderControl/)_
 - Participating in my first D&D campaign. My character is a dragonborn who is on a personal cooking quest.
-- Working on my own Figma wireframing library — because why not.
+- Working on my own Figma wireframing library — because why not. {end-key}
 
 [^1]: My home gym is BoulderKlub :)

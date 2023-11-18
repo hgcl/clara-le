@@ -40,4 +40,4 @@ I've just discovered this Berlin-based food vlogger on YouTube and I already lov
 
 ### [Hypothesis](https://hypothes.is/)
 
-Was I talking about PaperSpan just last week? Well... Robin convinced me to upgrade to the next level of annotating tools: Hypothesis. Built on open-source technology and interoperable standards, you can highlight and annotate the web completely free of charge. Its development is transparent and collaborative through their public roadmap on GitHub.
+Was I talking about PaperSpan just last week? Well... Robin convinced me to upgrade to the next level of annotating tools: Hypothesis. Built on open-source technology and interoperable standards, you can highlight and annotate the web completely free of charge. Its development is transparent and collaborative through their public roadmap on GitHub. {end-key}

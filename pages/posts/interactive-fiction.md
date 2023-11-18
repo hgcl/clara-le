@@ -36,3 +36,5 @@ If you are not convinced yet, here are a few game reviews and synopses that can 
 [Photopia](https://ifdb.org/viewgame?id=ju778uv5xaswnlpl) (a review)
 
 > Scenes from a handful of ordinary lives alternate with chapters of a child's colorful science-fantasy. Sweet and sad, and complex enough that you may need to go through it twice in order to fully understand how all the fragments fit together. Very story-driven, with menu-based conversations and virtually no puzzle content. [...] — Carl Muckenhoupt
+
+{end-key}

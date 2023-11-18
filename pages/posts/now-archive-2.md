@@ -17,4 +17,4 @@ As usual, I am reading sci-fi books. I finally started the [Dune series](https:/
 
 I planted an avocado seed a few months back and finally gave it a name (Sigmund). It is now 55 cm tall and not dying — yet.
 
-Otherwise, I spend most of my free time typing and clicking away on my laptop, working full-time as a visual designer.
+Otherwise, I spend most of my free time typing and clicking away on my laptop, working full-time as a visual designer. {end-key}

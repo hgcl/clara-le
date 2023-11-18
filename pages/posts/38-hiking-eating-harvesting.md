@@ -37,6 +37,6 @@ Yes, flowers and not fruits. When talking about Sichuan pepper, the name is misl
 
 To harvest the pepper, cut some branches to bring back home. This part is already tricky as the branches _do not want to be touched_. They are super spiky and will not hesitate to hurt you. Once home, separate the flowers from the branches. Wait for flowers to dry.
 
-We are now currently in the waiting phase. Let's see what it looks like in a few weeks!
+We are now currently in the waiting phase. Let's see what it looks like in a few weeks! {end-key}
 
 [^1]: Another Wikipedia nugget: Sichuan pepper in Chinese is literally called _flower pepper_.

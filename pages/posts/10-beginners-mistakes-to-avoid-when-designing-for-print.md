@@ -147,4 +147,4 @@ Get a hard-copy proof of your work and check with your client that everything is
 
 Alright, you now know the basics and are ready to go — all by yourself 🤧
 
-Do your best ❤
+Do your best {end-key}

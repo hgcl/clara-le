@@ -27,4 +27,4 @@ Qu'en décembre, on fait le plein de Glühwein (faute de soleil)
 
 Où passer le meilleur Nouvel An : chez soi, les volets fermés
 
-Et bien sûr, à parler allemand : Hallo, ich möchte ein Schokocroissant bitte danke ciao
+Et bien sûr, à parler allemand : Hallo, ich möchte ein Schokocroissant bitte danke ciao {end-key}

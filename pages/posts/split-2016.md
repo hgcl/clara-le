@@ -11,4 +11,4 @@ _Directed by M. Night Shyamalan_
 
 Really nice tension building all throughout the movie, amazing acting.
 
-Rating: 4/5
+Rating: 4/5 {end-key}

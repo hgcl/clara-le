@@ -57,3 +57,5 @@ I had enough of dividing my email inbox between work emails and newsletters — 
 > Not only is any sufficiently advanced technology indistinguishable from magic; any sufficiently advanced technologist seems like a magician.
 >
 > — Autotranslucence, [Becoming a magician](https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/)
+
+{end-key}

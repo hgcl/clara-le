@@ -11,4 +11,4 @@ _Directed by Martin McDonagh_
 
 Super funky characters, really liked the movie!
 
-Rating: 3.5/5
+Rating: 3.5/5 {end-key}

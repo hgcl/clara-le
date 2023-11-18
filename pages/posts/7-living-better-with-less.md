@@ -61,3 +61,5 @@ If you have enough of small-talk leading nowhere, this web-app is made for you. 
 > We judge ourselves by our intentions and others by their behaviour.
 >
 > — Stephen M.R. Covey
+
+{end-key}

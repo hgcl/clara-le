@@ -48,7 +48,7 @@ I know nothing about the author — Adrian Tchaikovsky, but I know I love smart 
 
 ### [Tailwind CSS](https://tailwindcss.com/)
 
-Okay, this tool is definitely not new on the market. But as I only knew HTML and CSS so far, Tailwind CSS was a little revolution. It made the whole website building process a lot easier and beginner-friendly for me.
+Okay, this tool is definitely not new on the market. But as I only knew HTML and CSS so far, Tailwind CSS was a little revolution. It made the whole website building process a lot easier and beginner-friendly for me. {end-key}
 
 [^1]: Or practically in my map of the world, as I used this [Next.js starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter).
 [^2]: I also watched the new DC release: <cite>WW84</cite>, but needed to close my eyes at times because it was just too cheesy to witness.

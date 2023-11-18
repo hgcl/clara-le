@@ -24,3 +24,5 @@ In any case, here are already a few experimental drawings.
 ![3-color minimalist drawing of a red sun setting into the sea](/images/20221229-sunset.webp)
 
 ![Minimalist side portrait of a woman](/images/20221229-woman.webp)
+
+{end-key}

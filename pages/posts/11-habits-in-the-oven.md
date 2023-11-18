@@ -48,6 +48,6 @@ I have been digitally browsing a lot of cookbooks recently. Chinese cooking expe
 
 ### [Practical Typography](https://practicaltypography.com/)
 
-I have just stumbled upon this gem again as I was sorting through my old bookmarks. I immediately added it to my [bookmarks](/bookmarks/). It is not a website, nor a book, but a treasure chest of practical information about typography.
+I have just stumbled upon this gem again as I was sorting through my old bookmarks. I immediately added it to my [bookmarks](/bookmarks/). It is not a website, nor a book, but a treasure chest of practical information about typography. {end-key}
 
 [^1]: A digital solution to a digital problem? Yep, I'm not sure it's a good idea either.

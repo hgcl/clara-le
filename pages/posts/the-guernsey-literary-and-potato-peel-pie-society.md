@@ -17,7 +17,7 @@ And what an adventure! I wholeheartedly recommend listening to the [Penguin Rand
 
 There is something about this novel and these characters that just made me want to start over, as soon as I had finished it. Listening to it feels like sitting in a cozy armchair with a cat on your laps, drinking hot chocolate out of your favorite heavy ceramic mug with jazz music in the background.[^2]
 
-In short, _The Guernsey Literary and Potato Peel Pie Society_ made me feel like I was part of a quirky, loving and caring community. And isn't that what everyone is looking for in the end?
+In short, _The Guernsey Literary and Potato Peel Pie Society_ made me feel like I was part of a quirky, loving and caring community. And isn't that what everyone is looking for in the end? {end-key}
 
 [^1]: Libby is a great library app, if you have the chance to try it!
 [^2]: Is this example too _me_-specific? This must be a universal feeling, no?

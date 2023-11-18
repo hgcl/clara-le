@@ -57,4 +57,4 @@ She has a way of illustrating landscapes and scenes, using simple shapes and lin
 
 It is less about me learning to generate a new RSS feed than copying [Robin's setup](https://robinmetral.com/). I did learn a few things on the way and realized that I had misunderstood the whole GitHub / Cloudflare connection.
 
-At the moment, you can find my [RSS feed here](/feed.xml). As I use Brut as a static site generator, I have created a `prebuild.js` file that is automatically run _before_ the main build in Cloudflare.
+At the moment, you can find my [RSS feed here](/feed.xml). As I use Brut as a static site generator, I have created a `prebuild.js` file that is automatically run _before_ the main build in Cloudflare. {end-key}

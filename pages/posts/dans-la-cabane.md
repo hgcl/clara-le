@@ -39,6 +39,6 @@ Même celles où il aura au moins trente ans.
 Il les place toutes dans la cabane.  
 Il y a déjà mis beaucoup de choses dans sa cabane.  
 Mais elle est plus grande qu'elle n'en a l'air,  
-Il pourra y mettre encore plus de choses demain.
+Il pourra y mettre encore plus de choses demain. {end-key}
 
 <em>Texte inspiré du poème <cite>Table</cite> d'Edip Cansever.</em>

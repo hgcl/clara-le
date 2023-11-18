@@ -17,4 +17,4 @@ Top of my mind at the moment:
 - Reading
 - Tending to my website
 - Gardening and preserving food
-- Planning our big 2024 trip
+- Planning our big 2024 trip {end-key}

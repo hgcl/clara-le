@@ -20,7 +20,7 @@ In short, I am both excited and anxious about this move. At least, it's not a no
 - Getting into pottery
 - Learning more about plants and animals (especially the local ones)
 
-Well, we'll see if reality holds up to these projections.
+Well, we'll see if reality holds up to these projections. {end-key}
 
 [^1]: Writing it down make it feel so _real_, oh my.
 [^2]: We are lucky enough to have Robin's grandma sheltering us, as her house is big enough, and her heart even bigger.

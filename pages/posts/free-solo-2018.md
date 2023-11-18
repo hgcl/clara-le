@@ -11,4 +11,4 @@ _Directed by Elizabeth Chai Vasarhelyi and Jimmy Chin_
 
 One of the only times I had cold sweat during a film.
 
-Rating: 4/5
+Rating: 4/5 {end-key}

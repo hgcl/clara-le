@@ -15,4 +15,4 @@ Still trying to find my marks in this new countryside life. I spend my free time
 - Planning and cooking meals
 - Visiting neighbors and Robin's grandma for coffee (or wine)
 - Reading graphic novels
-- Thinking about post ideas for [Eau de poisson](https://eaudepoisson.com/)
+- Thinking about post ideas for [Eau de poisson](https://eaudepoisson.com/) {end-key}

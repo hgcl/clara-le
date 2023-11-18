@@ -21,4 +21,4 @@ This really motivated me to get started with proactively "learning the sky". I c
 
 ---
 
-Talking about learning new things, I feel really inspired at the moment to _learn more_. 3D modeling on Blender, the night sky, edible wild plants, gardening, driving. The motivation is there... but for how long? I know that these quick passions tend to die out. I might need to focus my energy on a few selected topics if I want to do some real progress. As they say: quality over quantity. I'll sleep on that.
+Talking about learning new things, I feel really inspired at the moment to _learn more_. 3D modeling on Blender, the night sky, edible wild plants, gardening, driving. The motivation is there... but for how long? I know that these quick passions tend to die out. I might need to focus my energy on a few selected topics if I want to do some real progress. As they say: quality over quantity. I'll sleep on that. {end-key}

@@ -11,4 +11,4 @@ _Directed by Bong Joon-ho_
 
 I had high-ish expectations and was finally a bit underwhelmed. Too over the top and kitsch for my tastes. Overall entertaining movie.
 
-Rating: 2.5/5
+Rating: 2.5/5 {end-key}

@@ -16,4 +16,4 @@ In the last week:
 - We did a lot of end-of-summer tasks in the garden: we strengthened the compost container, removed the dying tomato plants and started to prep some of the terraces for next year.
 - We picked up several baskets of walnuts to dry.
 - We finally started to crack the dried walnuts from last year.
-- We finished watching the second season of <cite>Our Flag Means Death</cite>, a hilarious pirate-themed tv series.
+- We finished watching the second season of <cite>Our Flag Means Death</cite>, a hilarious pirate-themed tv series. {end-key}
