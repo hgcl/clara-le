@@ -48,6 +48,11 @@ export async function buildPage(html, frontmatter) {
           /class\="(recipe|post)-data-tags"\>(\w+)(?:.\s)?(\w+)?(?:.\s)?(\w+)?(?:.\s)?(\w+)?(?:.\s)?(\w+)?/g,
           linkReplacer
         )
+        // Replace end key at the end of articles
+        .replace(
+          `{end-key}`,
+          `<span style="color: var(--color-accent);">▨</span>`
+        )
     );
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
