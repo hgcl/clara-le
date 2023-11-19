@@ -586,7 +586,7 @@ a[id*="user-content-fnref"] {
 #recipes {
   columns: 320px auto;
   text-transform: capitalize;
-  column-gap: var(--space-m);
+  column-gap: var(--space-l);
 }
 #recipes .label {
   margin-left: var(--space-s);
