@@ -32,7 +32,9 @@ export async function buildPage(html) {
                   .toString()
                   .replace(",", " & ")})</span></a> <span class="label">${
                   post.dataTag
-                } <span aria-hidden="true">•</span> ${post.year}</span></li>`
+                } <span class="sr-only">,</span><span aria-hidden="true">&#47;</span> ${
+                  post.year
+                }</span></li>`
             )
             .join("") +
           `</ul>`
