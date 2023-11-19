@@ -51,7 +51,7 @@ export async function buildPage(html, frontmatter) {
         // Replace end key at the end of articles
         .replace(
           `{end-key}`,
-          `<span style="color: var(--color-accent);">▨</span>`
+          `<span aria-hidden="true" style="font-size: larger; color: var(--color-accent);">⊙</span>`
         )
     );
   } catch (error) {
