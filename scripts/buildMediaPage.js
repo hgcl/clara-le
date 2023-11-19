@@ -40,7 +40,7 @@ export async function buildPage(html) {
           `</ul>`
       )
       .join("")
-      .replace("<h2>2021</h2>", "<h2>Pre-2022</h2>");
+      .replace("<h2>2021</h2>", "<h2>Prior</h2>");
     return html.replace("<p>Posts go here</p>", postsHtml);
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
