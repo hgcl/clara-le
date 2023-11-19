@@ -35,13 +35,16 @@ title: "About"
 </article>
 <script>
   const el = document.getElementById("word-swap");
+  const firstWord = "a tinkerer";
   const wordArray = [
-    "a tinkerer",
+    firstWord,
     "an explorer",
+    "a work in progress",
     "a climber",
     "a cat lover",
     "a clumsy being",
     "a designer",
+    "a bad ukulele player",
     "a fixer",
     "a blob",
   ];
@@ -50,9 +53,9 @@ title: "About"
       const index = wordArray.indexOf(el.target.innerText);
       wordArray[index + 1]
         ? (el.target.innerText = wordArray[index + 1])
-        : (el.target.innerText = "a tinkerer");
+        : (el.target.innerText = firstWord);
     } else {
-      el.target.innerText = "a tinkerer";
+      el.target.innerText = firstWord;
     }
   });
 </script>
