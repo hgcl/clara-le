@@ -1,5 +1,5 @@
 ---
-template: /templates/media-posts.html
+template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Half of a Yellow Sun"
 author: ["Chimamanda Ngozi Adichie"]

@@ -1,5 +1,5 @@
 ---
-template: /templates/media-posts.html
+template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Mary Poppins"
 author: ["Robert Stevenson"]

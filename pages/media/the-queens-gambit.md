@@ -1,5 +1,5 @@
 ---
-template: /templates/media-posts.html
+template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "The Queen's Gambit"
 author: ["Scott Frank", "Allan Scott"]
