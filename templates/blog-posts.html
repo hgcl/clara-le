@@ -69,6 +69,10 @@
     <!-- ID of main necessary for skip content button -->
     <main id="main-section" class="h-entry">
       <div class="post-header">
+        <h1 class="p-name">{{title}}{{#year}} ({{year}}){{/year}}</h1>
+        <a rel="author" class="p-author h-card hide" href="https://clarale.com"
+          >Clara Le</a
+        >
         <p class="label">
           <span class="sr-only">Published on</span>
           <time datetime="{{dateCreated}}" class="dt-published"
@@ -77,15 +81,12 @@
           {{#dataTag.length}}
           <span class="sr-only">,</span>
           <span aria-hidden="true">&#47;</span>
-          <span class="post-data-tags">{{dataTag}}</span>{{/dataTag.length}}
+          <span class="post-data-tags">{{dataTag}}</span>
+          {{/dataTag.length}} {{#author}}
+          <span class="sr-only">,</span>
+          <span aria-hidden="true">&#47;</span>
+          {{author}}{{/author}}
         </p>
-        <h1 class="p-name">{{title}}</h1>
-        <a rel="author" class="p-author h-card hide" href="https://clarale.com"
-          >Clara Le</a
-        >
-        {{#subtitle}}
-        <p class="label">{{subtitle}}</p>
-        {{/subtitle}}
       </div>
       <article class="center e-content">
         {{> content}}
@@ -107,26 +108,24 @@
   </body>
   <script type="text/javascript">
     // Get footnotes box (ol element) and set up counter
-    if (document.querySelector(".footnotes")) {
-      let footnotes = document.querySelector(".footnotes").lastChild;
-      let counter = 1;
-      window.onload = () => {
-        while (footnotes.childNodes.length >= counter) {
-          // Generate ids numbers
-          let footnoteId = "user-content-fn-" + counter;
-          let refId = "user-content-fnref-" + counter;
-          // Get footnote element (li element) + set class sidenote
-          let footnoteEl = document.getElementById(footnoteId);
-          footnoteEl.setAttribute("class", "sidenote");
-          // Get the reference sup element top position
-          let supEl = document.getElementById(refId).parentNode;
-          let topPos = supEl.offsetTop;
-          // Vertically position footnote
-          footnoteEl.style.top = topPos + "px";
-          counter++;
-        }
-      };
-    }
+    let footnotes = document.querySelector(".footnotes ol");
+    let counter = 1;
+    window.onload = () => {
+      while (footnotes.childNodes.length >= counter) {
+        // Generate ids numbers
+        let footnoteId = "user-content-fn-" + counter;
+        let refId = "user-content-fnref-" + counter;
+        // Get footnote element (li element) + set class sidenote
+        let footnoteEl = document.getElementById(footnoteId);
+        footnoteEl.setAttribute("class", "sidenote");
+        // Get the reference sup element top position
+        let supEl = document.getElementById(refId).parentNode;
+        let topPos = supEl.offsetTop;
+        // Vertically position footnote
+        footnoteEl.style.top = topPos + "px";
+        counter++;
+      }
+    };
 
     // NAV
 
