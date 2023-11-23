@@ -13,7 +13,7 @@ As usual, too many things happened since the [last update](/posts/41-chestnut-ti
 
 Aaaand... that's what we have been up to for a week now: working through our to-do list.
 
-Do you know the 80/20 Pareto rule? The concept about focussing on the 20% most important things leading to 80% of the desired outcome? Not surprisingly, we are doing the opposite and spending most of our time prepping (and overengineering) [Eau de poisson](https://eaudepoisson.com) — our travel blog.
+Do you know the 80/20 Pareto rule? The concept about focussing on the 20% most important things leading to 80% of the desired outcome? Unsurprisingly, we are doing the opposite and spending most of our time prepping (and overengineering) [Eau de poisson](https://eaudepoisson.com) — our travel blog.
 
 Even though we are trying our hardest at not being efficient at all, we are still managing to make some progress on our to-do list. (Incredible feat, I know.)
 
