@@ -27,9 +27,6 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
         <option value="movie">Movies</option>
         <option value="tv series">TV series</option>
       </select>
-      <p id="notes-filter-js-warning" class="subtle">
-        <em>Enable JavaScript to use filters.</em>
-      </p>
     </div>
     <fieldset id="layout-swap" class="center">
       <legend>Choose a layout:</legend>
@@ -43,6 +40,9 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
         <label for="list">List</label>
       </div>
     </fieldset>
+    <p id="notes-filter-js-warning" class="subtle">
+      <em>Enable JavaScript to use filters.</em>
+    </p>
   </div>
   <p>Posts go here</p>
 </section>
@@ -100,8 +100,10 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
    * Layout shift from grid to list (and vice-versa)
    */
   const mainContainer = document.getElementById("media");
+  const cardLinkEls = [...document.querySelectorAll(".card > a")];
   document.getElementById("layout-swap").addEventListener("change", () => {
     mainContainer.classList.toggle("media-layout-grid");
     mainContainer.classList.toggle("media-layout-list");
+    cardLinkEls.forEach((el) => el.classList.toggle("card-link"));
   });
 </script>
