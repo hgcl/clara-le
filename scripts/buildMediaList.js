@@ -28,11 +28,15 @@ export async function buildPage(html) {
                     ? `src="https://image.tmdb.org/t/p/w1280/${post.cover}.jpg"`
                     : `src="https://covers.openlibrary.org/b/id/${post.cover}-L.jpg"`
                 }
-                ></div><span class="h3">${post.title}<br/>(by ${post.author
+                ></div><span class="h3">${post.title} (by ${post.author
                   .toString()
-                  .replace(",", " & ")})</span></a> <span class="label">${
-                  post.dataTag
-                } <span class="sr-only">,</span><span aria-hidden="true">&#47;</span> ${
+                  .replace(",", " & ")})</span></a>
+                  <a class="list-title" href="${post.slug}">${
+                  post.title
+                } (by ${post.author.toString().replace(",", " & ")})</a> 
+                  <span class="label">${
+                    post.dataTag
+                  } <span class="sr-only">,</span><span aria-hidden="true">&#47;</span> ${
                   post.year
                 }</span></li>`
             )

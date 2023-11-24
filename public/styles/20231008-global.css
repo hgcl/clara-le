@@ -540,6 +540,7 @@ a[id*="user-content-fnref"] {
 
 /* media.html layout */
 
+/* radio options */
 #media fieldset {
   width: fit-content;
   border: none;
@@ -568,6 +569,7 @@ a[id*="user-content-fnref"] {
   background-color: var(--color-text);
   border-radius: 1000px;
 }
+
 #media.media-layout-list {
   /* same as .center */
   margin-left: auto;
@@ -582,12 +584,14 @@ a[id*="user-content-fnref"] {
 }
 #media li {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
-#media li a {
+#media.media-layout-grid li a {
   height: 100%;
+}
+#media.media-layout-grid li .list-title {
+  /* show h3 only */
+  display: none;
 }
 #media.media-layout-grid li .h3 {
   opacity: 0;
@@ -601,18 +605,23 @@ a[id*="user-content-fnref"] {
   transform: translateY(-50%);
   margin: 0;
 }
-#media li a:hover .h3,
-#media li a:focus .h3,
-#media li a:active .h3 {
+#media.media-layout-grid li a:hover .h3,
+#media.media-layout-grid li a:focus .h3,
+#media.media-layout-grid li a:active .h3 {
   opacity: 1;
 }
-#media.media-layout-list li .card-link > div {
+#media li .label {
+  /* align with posts.html */
+  display: block;
+  margin-top: 0.25rem;
+}
+#media.media-layout-list li .card-link {
   display: none;
 }
-#media.media-layout-grid li .card-link > div {
+#media.media-layout-grid li .card-link {
   display: block;
 }
-#media li .card-link img {
+#media.media-layout-grid li .card-link img {
   height: 100%;
   min-width: 100%;
   object-fit: cover;
