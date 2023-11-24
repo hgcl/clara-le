@@ -6,7 +6,7 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
       would recommend."
 -->
 
-<section id="media">
+<section id="media" class="media-layout-grid">
   <div class="post-header">
     <h1>Media</h1>
     <p class="intro">
@@ -29,6 +29,23 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
     <p id="notes-filter-js-warning" class="subtle">
       <em>Enable JavaScript to use filters.</em>
     </p>
+    <fieldset id="layout-shift" class="center">
+      <legend>Layout</legend>
+      <div>
+        <input
+          type="radio"
+          id="grid"
+          name="layout-shift"
+          value="grid"
+          checked
+        />
+        <label for="grid">grid</label>
+      </div>
+      <div>
+        <input type="radio" id="list" name="layout-shift" value="list" />
+        <label for="list">list</label>
+      </div>
+    </fieldset>
   </div>
   <p>Posts go here</p>
 </section>
@@ -81,4 +98,13 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
     }
     history.pushState({}, "", currentUrl);
   }
+
+  /**
+   * Layout shift from grid to list (and vice-versa)
+   */
+  const mainContainer = document.getElementById("media");
+  document.getElementById("layout-shift").addEventListener("change", () => {
+    mainContainer.classList.toggle("media-layout-grid");
+    mainContainer.classList.toggle("media-layout-list");
+  });
 </script>
