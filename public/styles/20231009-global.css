@@ -593,8 +593,9 @@ a[id*="user-content-fnref"] {
   /* show h3 only */
   display: none;
 }
-#media.media-layout-grid li .h3 {
+#media.media-layout-grid li .post-title {
   opacity: 0;
+  /* overlay on image */
   position: absolute;
   width: 100%;
   text-align: center;
@@ -605,26 +606,26 @@ a[id*="user-content-fnref"] {
   transform: translateY(-50%);
   margin: 0;
 }
-#media.media-layout-grid li a:hover .h3,
-#media.media-layout-grid li a:focus .h3,
-#media.media-layout-grid li a:active .h3 {
+#media.media-layout-grid li > a:hover .post-title,
+#media.media-layout-grid li > a:focus .post-title,
+#media.media-layout-grid li > a:active .post-title {
   opacity: 1;
+}
+#media.media-layout-list li > a > div {
+  display: none;
+}
+#media.media-layout-grid li > a {
+  display: block;
+}
+#media.media-layout-grid li > a img {
+  height: 100%;
+  min-width: 100%;
+  object-fit: cover;
 }
 #media li .label {
   /* align with posts.html */
   display: block;
   margin-top: 0.25rem;
-}
-#media.media-layout-list li .card-link {
-  display: none;
-}
-#media.media-layout-grid li .card-link {
-  display: block;
-}
-#media.media-layout-grid li .card-link img {
-  height: 100%;
-  min-width: 100%;
-  object-fit: cover;
 }
 
 /* recipes.html layout */
