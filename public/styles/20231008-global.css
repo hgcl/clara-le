@@ -200,11 +200,8 @@ footer {
 }
 
 .posts-filter {
-  display: flex;
-  justify-content: center;
-  gap: var(--space-s);
-  flex-wrap: wrap;
   margin: var(--space-2xl) 0;
+  text-align: center;
 }
 
 .comment-section {
@@ -543,6 +540,10 @@ a[id*="user-content-fnref"] {
 
 /* media.html layout */
 
+#media .posts-filter {
+  flex-direction: column;
+  align-items: center;
+}
 #media fieldset {
   width: fit-content;
   border: none;

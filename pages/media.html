@@ -15,20 +15,22 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
     </p>
   </div>
   <div class="posts-filter">
-    <label for="category-select">Filter by category</label>
-    <select
-      id="category-select"
-      aria-describedby="notes-filter-js-warning"
-      onchange="filterNotes(this.value)"
-    >
-      <option value="">All</option>
-      <option value="book">Books</option>
-      <option value="movie">Movies</option>
-      <option value="tv series">TV series</option>
-    </select>
-    <p id="notes-filter-js-warning" class="subtle">
-      <em>Enable JavaScript to use filters.</em>
-    </p>
+    <div>
+      <label for="category-select">Filter by category</label>
+      <select
+        id="category-select"
+        aria-describedby="notes-filter-js-warning"
+        onchange="filterNotes(this.value)"
+      >
+        <option value="">All</option>
+        <option value="book">Books</option>
+        <option value="movie">Movies</option>
+        <option value="tv series">TV series</option>
+      </select>
+      <p id="notes-filter-js-warning" class="subtle">
+        <em>Enable JavaScript to use filters.</em>
+      </p>
+    </div>
     <fieldset id="layout-shift" class="center">
       <legend>Layout</legend>
       <div>
