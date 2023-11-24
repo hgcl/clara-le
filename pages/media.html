@@ -62,7 +62,9 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
     // update URL onclick
     updateURL(category);
     // remove previous filter (show all notes)
-    allNotes.forEach((note) => note.setAttribute("style", "display:flex"));
+    allNotes.forEach((note) =>
+      note.setAttribute("style", "display:inline-block")
+    );
     // add hidden attributes to notes that don't have the chosen category in data-tag
     if (category) {
       selectElement.value = category;

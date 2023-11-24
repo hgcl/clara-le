@@ -585,6 +585,7 @@ a[id*="user-content-fnref"] {
 #media li {
   position: relative;
   margin-bottom: 1rem;
+  width: 100%; /* makes sure that rows stack vertically only */
 }
 #media.media-layout-grid li a {
   height: 100%;
