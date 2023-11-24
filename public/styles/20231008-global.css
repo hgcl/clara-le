@@ -540,20 +540,33 @@ a[id*="user-content-fnref"] {
 
 /* media.html layout */
 
-#media .posts-filter {
-  flex-direction: column;
-  align-items: center;
-}
 #media fieldset {
   width: fit-content;
   border: none;
   display: flex;
+  gap: var(--space-s);
+  margin-top: var(--space-s);
 }
 #media fieldset legend {
   float: left;
 }
-#media fieldset * {
-  display: inline;
+#media fieldset > div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
+}
+#media fieldset > div > * {
+  cursor: pointer;
+}
+#media fieldset > div input {
+  appearance: none;
+  width: 5px;
+  height: 5px;
+}
+#media fieldset > div input:checked {
+  background-color: var(--color-text);
+  border-radius: 1000px;
 }
 #media.media-layout-list {
   /* same as .center */
