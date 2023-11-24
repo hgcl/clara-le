@@ -31,21 +31,15 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
         <em>Enable JavaScript to use filters.</em>
       </p>
     </div>
-    <fieldset id="layout-shift" class="center">
+    <fieldset id="layout-swap" class="center">
       <legend>Choose a layout:</legend>
       <div>
-        <input
-          type="radio"
-          id="grid"
-          name="layout-shift"
-          value="grid"
-          checked
-        />
+        <input type="radio" id="grid" name="layout-swap" value="grid" checked />
         <label for="grid">Grid</label>
       </div>
       <span aria-hidden="true">&#47;</span>
       <div>
-        <input type="radio" id="list" name="layout-shift" value="list" />
+        <input type="radio" id="list" name="layout-swap" value="list" />
         <label for="list">List</label>
       </div>
     </fieldset>
@@ -106,7 +100,7 @@ subtitle: "A curated and non-exhaustive list of books, movies and series I loved
    * Layout shift from grid to list (and vice-versa)
    */
   const mainContainer = document.getElementById("media");
-  document.getElementById("layout-shift").addEventListener("change", () => {
+  document.getElementById("layout-swap").addEventListener("change", () => {
     mainContainer.classList.toggle("media-layout-grid");
     mainContainer.classList.toggle("media-layout-list");
   });
