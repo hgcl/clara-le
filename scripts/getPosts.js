@@ -76,6 +76,13 @@ async function minify(html) {
   });
 }
 
+/**
+ * Word counter
+ */
+function countWords(article) {
+  return article.trim().split(/\s+/).length;
+}
+
 export default async function getPosts(dirCategory, withPostContent = false) {
   const files = await readdir(PAGES_DIR + "/" + dirCategory);
   const posts = await Promise.all(
@@ -107,6 +114,7 @@ export default async function getPosts(dirCategory, withPostContent = false) {
             .replace(".html", "")}`,
           content: html,
           sourceUrl: frontmatter.sourceUrl,
+          wordCount: countWords(content),
         };
       })
   );

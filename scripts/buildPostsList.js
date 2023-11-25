@@ -9,6 +9,9 @@ export async function buildPage(html) {
       (a, b) =>
         new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
     );
+    let totalWords = 0;
+    posts.forEach((post) => (totalWords += post.wordCount));
+    const totalPosts = posts.length;
     const postsHtml = Object.values(yearArray(2019))
       .map(
         (year) =>
@@ -39,7 +42,10 @@ export async function buildPage(html) {
           `</ul>`
       )
       .join("");
-    return html.replace("<p>Posts go here</p>", postsHtml);
+    return html
+      .replace("<p>Posts go here</p>", postsHtml)
+      .replace("<span>word count here</span>", totalWords)
+      .replace("<span>post number here</span>", totalPosts);
   } catch (error) {
     throw new Error(`Failed to build page: ${error}`);
   }
