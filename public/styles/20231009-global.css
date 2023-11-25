@@ -738,7 +738,7 @@ a[id*="user-content-fnref"] {
     font-size: var(--font-xs);
   }
   #media.media-layout-grid ul {
-    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: var(--space-xl);
     margin-bottom: var(--space-xl);
   }
