@@ -11,7 +11,7 @@ As I was browsing (a.k.a. overengineering) my website again, I realized that las
 
 I remember that I decided to start this website during the COVID-19 lockdown. At that time, the concept of _Blogging on The Internet_ sounded very daunting to me, but I felt like I wanted to do something in public, something that kept me accountable.
 
-To build courage, and mostly to get started, I wrote two weekly updates that were just a few lines long. I didn't publish them, but kept them to myself. On the third week, I finally felt brave enough and published my first real blog post.
+To build courage, and mostly to get started, I wrote two weekly updates that were just a few lines long. I didn't publish them. On the third week, I finally felt brave enough and published my first real blog post.
 
 It has now been three years, and I am proud of having kept this routine for so long. My individual posts are not that good, I am definitely not the best writer out there. Yet, I feel like I was able to create a space that is really mine. Here, I feel safe to experiment, code, document, have fun, overthink, share truths-because-its-on-the-internet, doodle, learn, create, write posts that don't fini[^2] {end-key}
 
