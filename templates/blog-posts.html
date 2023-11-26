@@ -83,6 +83,8 @@
           >Clara Le</a
         >
         <p class="label">
+          {{#subtitle}}{{subtitle}} <span class="sr-only">,</span>
+          <span aria-hidden="true">&#47;</span>{{/subtitle}}
           <span class="sr-only">Published on</span>
           <time datetime="{{dateCreated}}" class="dt-published"
             >{{dateCreated}}</time
