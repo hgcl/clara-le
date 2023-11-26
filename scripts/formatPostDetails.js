@@ -27,15 +27,6 @@ export async function buildPage(html, frontmatter) {
     }
     return (
       html
-        // we include the html <> tags to avoid replacing the datetime attribute value
-        .replace(
-          `>${frontmatter.dateCreated}<`,
-          `>${new Date(frontmatter.dateCreated).toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          })}<`
-        )
         // Make footnotes label visible
         .replace(
           `<h2 id="footnote-label" class="sr-only">Footnotes</h2>`,
