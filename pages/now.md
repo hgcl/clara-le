@@ -4,6 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 dateCreated: "2023-11-17"
 title: "Now"
 subtitle: "Planning mode"
+icon: "/drawing-location.svg"
 ---
 
 I am probably eating roasted chestnuts (with salted butter) and sitting by the fire to not freeze to death.

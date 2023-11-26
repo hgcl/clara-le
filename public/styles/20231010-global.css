@@ -197,6 +197,22 @@ footer {
   max-width: var(--screen-md);
   text-align: center;
   align-items: center;
+  justify-content: center;
+}
+
+/* If .post-header is on the same tag as .headline-row, need to cancel previous CSS */
+.post-header.headline-row {
+  flex-direction: row;
+}
+.headline-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-m);
+}
+.headline-row .icon {
+  background-color: var(--yellow);
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 .posts-filter {
