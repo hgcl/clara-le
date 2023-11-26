@@ -6,18 +6,20 @@ title: "Search"
 <div id="search">
   <form id="search-form" role="search">
     <label for="search-bar">Search</label>
-    <input
-      type="search"
-      id="search-bar"
-      autocomplete="none"
-      autocorrect="none"
-      autocapitalize="none"
-      spellcheck="false"
-    />
-    <input type="reset" value="Reset" />
-    <button>Search</button>
+    <div>
+      <input
+        type="search"
+        id="search-bar"
+        autocomplete="none"
+        autocorrect="none"
+        autocapitalize="none"
+        spellcheck="false"
+      />
+      <input type="reset" value="Reset" />
+    </div>
+    <button>Submit</button>
   </form>
-  <ul class="song-list"></ul>
+  <ul class="result-list"></ul>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
@@ -28,18 +30,16 @@ title: "Search"
   const searchPage = document.querySelector("#search");
   const searchForm = document.querySelector("#search-form");
   const searchInput = document.querySelector("#search-bar");
-  const songList = document.querySelector(".song-list");
+  const resultList = document.querySelector(".result-list");
 
   // Set up minisearch
   let miniSearch = new MiniSearch({
     fields: ["title", "text"], // fields to index for full-text search
-    storeFields: ["title", "category"], // fields to return with search results
+    storeFields: ["title", "subtitle", "url", "dateCreated"], // fields to return with search results
   });
 
   // Fetch and index all documents
   miniSearch.addAll(documents);
-  //   const json = JSON.stringify(miniSearch);
-  //   console.log("json: " + json);
 
   // Typing into search bar updates search results and suggestions
   searchForm.addEventListener("submit", (event) => {
@@ -47,7 +47,6 @@ title: "Search"
     const query = searchInput.value;
     const results = query.length > 1 ? getSearchResults(query) : [];
     renderSearchResults(results);
-    console.log("final results: " + JSON.stringify(results));
   });
 
   const getSearchResults = (query) => {
@@ -55,21 +54,14 @@ title: "Search"
   };
 
   const renderSearchResults = (results) => {
-    songList.innerHTML = results
-      .map(({ title, category }) => {
-        return `<li class="Song">
-      <h3>${title}</h3>
-      <dl>
-        <dt>Category:</dt> <dd>${category}</dd>
-      </dl>
-    </li>`;
+    resultList.innerHTML = results
+      .map(({ title, subtitle, url, dateCreated }) => {
+        return `<li>
+            <span class="details">
+            <a href="${url}">${title}</a><span class="subtle">${subtitle}</span>
+            </span>
+        </li>`;
       })
       .join("\n");
-
-    if (results.length > 0) {
-      searchPage.classList.add("hasResults");
-    } else {
-      searchPage.classList.remove("hasResults");
-    }
   };
 </script>
