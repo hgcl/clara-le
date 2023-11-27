@@ -84,14 +84,14 @@ header {
 .deco-vert-2 {
   position: fixed;
   mask: no-repeat url("/vertical-line.svg");
-  width: 15px;
+  width: 9px;
   height: 100%;
 }
 .deco-vert-1 {
   left: 0;
 }
 .deco-vert-2 {
-  right: 0;
+  right: -1px;
   transform: rotate(180deg);
 }
 .deco-horiz-1,
