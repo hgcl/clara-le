@@ -35,7 +35,7 @@ title: "Search"
   // Set up minisearch
   let miniSearch = new MiniSearch({
     fields: ["title", "text"], // fields to index for full-text search
-    storeFields: ["title", "subtitle", "url", "dateCreated"], // fields to return with search results
+    storeFields: ["title", "subtitle", "slug", "dateCreated", "content"], // fields to return with search results
   });
 
   // Fetch and index all documents
@@ -55,10 +55,10 @@ title: "Search"
 
   const renderSearchResults = (results) => {
     resultList.innerHTML = results
-      .map(({ title, subtitle, url, dateCreated }) => {
+      .map(({ title, subtitle, slug, dateCreated, content }) => {
         return `<li>
             <span class="details">
-            <a href="${url}">${title}</a><span class="subtle">${subtitle}</span>
+            <a href="${slug}">${title}</a><span class="subtle">${subtitle}</span>
             </span>
         </li>`;
       })
