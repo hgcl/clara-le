@@ -83,7 +83,7 @@ header {
 .deco-vert-1,
 .deco-vert-2 {
   position: fixed;
-  mask: no-repeat url("/vertical-line.svg");
+  mask: no-repeat url("/20231127-vertical-line.svg");
   width: 9px;
   height: 100%;
 }
