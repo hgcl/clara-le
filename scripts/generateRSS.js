@@ -2,11 +2,11 @@
  * This script generates an RSS2 feed from the markdown notes.
  */
 
-import { readdirSync, readFileSync, writeFileSync } from "fs";
-import matter from "gray-matter";
+import { writeFileSync } from "fs";
+import getPosts from "./getPosts.js";
 import { Feed } from "feed";
 
-const NOTES_DIR = "./pages/posts/";
+const NOTES_DIR = "posts";
 const PUBLIC_DIR = "./public/";
 const SITE_URL = "https://clarale.com";
 
@@ -25,10 +25,10 @@ const SITE_URL = "https://clarale.com";
  * @return {string} RSS feed as a string
  */
 function generateFeed(notes) {
-  const lastNoteDate = notes[0].date;
+  const lastNoteDate = notes[0].dateCreated;
   const feed = new Feed({
     title: "Clara Le",
-    description: "Clara's Feed",
+    description: "Clara's RSS feed",
     id: SITE_URL,
     link: SITE_URL,
     language: "en",
@@ -42,12 +42,14 @@ function generateFeed(notes) {
   });
 
   notes.forEach((note) => {
+    const url = SITE_URL + note.slug;
+    const content = `<a href="${url}">${note.title}</a>`;
     feed.addItem({
       title: note.title,
-      id: note.url,
-      link: note.url,
+      id: url,
+      link: url,
       description: note.subtitle,
-      content: note.content,
+      content: content,
       date: note.date,
       author: [
         {
@@ -61,32 +63,20 @@ function generateFeed(notes) {
   return feed.rss2();
 }
 
-function getNotes(files) {
-  return files.map((file) => {
-    const str = readFileSync(NOTES_DIR + file, "utf8");
-    const frontmatter = matter(str).data;
-    const { title, subtitle, dateCreated, dataTag } = frontmatter;
-    const slug = `/posts/${file.replace(".md", "")}/`;
-    const url = SITE_URL + slug;
-    return {
-      title,
-      date: new Date(dateCreated),
-      url,
-      subtitle,
-      content: `<a href="${url}">${frontmatter.title}</a>`,
-      dataTag,
-    };
-  });
-}
-
 export default async function process() {
-  const files = readdirSync(NOTES_DIR);
-  const notes = getNotes(files);
-  const filteredNotes = notes
-    .filter((note) => !note.dataTag.includes("tiny")) // excludes tiny notes from RSS
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 15); // limit to 15 posts
-  const feed = generateFeed(filteredNotes);
-  writeFileSync(PUBLIC_DIR + "feed.xml", feed, "utf8");
-  console.log("Generated RSS feed.");
+  try {
+    const notes = await getPosts(NOTES_DIR);
+    const filteredNotes = notes
+      .filter((note) => !note.dataTag.includes("tiny")) // excludes tiny notes from RSS
+      .sort(
+        (a, b) =>
+          new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
+      )
+      .slice(0, 15); // limit to 15 posts
+    const feed = generateFeed(filteredNotes);
+    writeFileSync(PUBLIC_DIR + "feed.xml", feed, "utf8");
+    console.log("Generated RSS feed.");
+  } catch (error) {
+    throw new Error(`Failed to generate data: ${error}`);
+  }
 }
