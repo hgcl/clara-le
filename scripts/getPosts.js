@@ -109,6 +109,7 @@ export default async function getPosts(dirCategory, withPostContent = false) {
           durationMin: frontmatter.durationMin,
           dataTag: frontmatter.dataTag,
           year: frontmatter.year,
+          directory: dirCategory,
           slug: `/${dirCategory}/${file
             .replace(".md", "")
             .replace(".html", "")}`,
