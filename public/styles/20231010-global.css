@@ -529,13 +529,27 @@ a[id*="user-content-fnref"] {
 
 /* posts.html layout */
 
-#posts .post-row {
+#posts .post-row,
+#search .post-row {
   display: flex;
   align-items: baseline;
   gap: 1rem;
 }
 #posts .post-row > .label {
   min-width: 3.5rem;
+}
+
+/* search.html layout */
+
+#search-form {
+  margin-bottom: var(--space-2xl);
+}
+#search-form > div {
+  display: flex;
+  gap: var(--space-xs);
+}
+#search-form #search-bar {
+  width: 100%;
 }
 
 /* media.html layout */

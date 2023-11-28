@@ -3,9 +3,9 @@ template: /templates/default.html
 title: "Search"
 -->
 
-<div id="search">
+<div id="search" class="center">
   <form id="search-form" role="search">
-    <label for="search-bar">Search</label>
+    <label for="search-bar">Search posts</label>
     <div>
       <input
         type="search"
@@ -15,11 +15,10 @@ title: "Search"
         autocapitalize="none"
         spellcheck="false"
       />
-      <input type="reset" value="Reset" />
+      <button>Submit</button>
     </div>
-    <button>Submit</button>
   </form>
-  <ul class="result-list"></ul>
+  <ul class="result-list nobullet"></ul>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
@@ -35,7 +34,14 @@ title: "Search"
   // Set up minisearch
   let miniSearch = new MiniSearch({
     fields: ["title", "content"], // fields to index for full-text search
-    storeFields: ["title", "subtitle", "slug", "dateCreated", "content"], // fields to return with search results
+    storeFields: [
+      "title",
+      "subtitle",
+      "directory",
+      "slug",
+      "dateCreated",
+      "content",
+    ], // fields to return with search results
   });
 
   // Fetch and index all documents
@@ -55,12 +61,19 @@ title: "Search"
 
   const renderSearchResults = (results) => {
     resultList.innerHTML = results
-      .map(({ title, subtitle, slug, dateCreated }) => {
-        return `<li>
-            <a href="${slug}">${title}</a>  
-            <span class="subtle">
-              <span>${dateCreated}</span>
-              <span>${subtitle}</span>
+      .map(({ title, subtitle, slug, dateCreated, directory }) => {
+        return `<li class="post-row">
+          <time class="label dt-duration" datetime="${dateCreated}">${dateCreated}</time>
+            <span class="details">
+              <a href="${slug}">${title}</a>
+              <span class="subtle">
+                <span>${directory}</span>
+                ${
+                  subtitle !== undefined
+                    ? `<span aria-hidden="true">&#47;</span> <span>${subtitle}</span>`
+                    : ""
+                }
+              </span>
             </span>
         </li>`;
       })
