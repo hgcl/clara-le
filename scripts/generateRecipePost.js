@@ -2,10 +2,12 @@
  * This script generates the recipe overview from the JSON notes.
  */
 
-import { readdirSync, readFileSync, writeFileSync } from "fs";
+import { writeFileSync } from "fs";
+import { readdir, readFile } from "fs/promises";
 import * as path from "path";
-
-const RECIPES_DIR = "./pages/recipes/";
+import { cwd } from "process";
+const PAGES_DIR = `${cwd()}/pages`;
+const RECIPES_DIR = "recipes";
 
 function generateFrontmatter(file) {
   const frontmatter = `<!--
@@ -80,33 +82,37 @@ function generateHtml(file) {
   return html;
 }
 
-function getRecipes(files) {
-  const recipesArray = files.map((file) => {
-    const str = JSON.parse(readFileSync(RECIPES_DIR + file, "utf8"));
-    return {
-      slug: file.replace(".json", ""),
-      title: str.title,
-      publishedOn: str.publishedOn,
-      dataTag: str.dataTag,
-      intro: str.intro,
-      duration: str.duration,
-      ingredients: str.ingredients,
-      instructions: str.instructions,
-      notes: str.notes,
-      sourceUrl: str.sourceUrl,
-    };
-  });
-  return recipesArray;
+export async function getRecipes(dirCategory) {
+  const files = await readdir(PAGES_DIR + "/" + dirCategory);
+  const recipes = await Promise.all(
+    files
+      .filter((i) => path.extname(i) === ".json")
+      .map(async (file) => {
+        const str = JSON.parse(
+          await readFile(`${PAGES_DIR}/${dirCategory}/${file}`, "utf-8")
+        );
+        return {
+          slug: file.replace(".json", ""),
+          title: str.title,
+          publishedOn: str.publishedOn,
+          dataTag: str.dataTag,
+          intro: str.intro,
+          duration: str.duration,
+          ingredients: str.ingredients,
+          instructions: str.instructions,
+          notes: str.notes,
+          sourceUrl: str.sourceUrl,
+        };
+      })
+  );
+  return recipes;
 }
 
 export default async function process() {
-  const files = readdirSync(RECIPES_DIR).filter(
-    (i) => path.extname(i) === ".json"
-  );
-  const recipes = getRecipes(files);
+  const recipes = await getRecipes(RECIPES_DIR);
   recipes.forEach((file) => {
     writeFileSync(
-      `${RECIPES_DIR}/${file.slug}.html`,
+      `${PAGES_DIR}/${RECIPES_DIR}/${file.slug}.html`,
       generateFrontmatter(file) + generateHtml(file),
       "utf8"
     );
