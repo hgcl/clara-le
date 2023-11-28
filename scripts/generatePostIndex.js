@@ -33,11 +33,11 @@ function mapJson(posts, learningPosts, mediaPosts, recipes) {
           post.directory === "posts"
             ? "Musings"
             : capitalizeFirstLetter(post.directory)
-        }", title: "${post.title}", subtitle: "${post.subtitle}", slug: "${
-          post.slug
-        }", dateCreated: "${post.dateCreated}",  content: "${htmlToJson(
-          post.content
-        )}"},`
+        }", title: "${post.title}", ${
+          post.subtitle ? `subtitle: "${post.subtitle}", ` : ""
+        }slug: "${post.slug}", dateCreated: "${
+          post.dateCreated
+        }",  content: "${htmlToJson(post.content)}"},`
     )
     .join("");
 
