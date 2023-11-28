@@ -13,7 +13,7 @@ function generateFrontmatter(file) {
   const frontmatter = `<!--
 template: /templates/recipe-posts.html
 title: "${file.title}"
-dateCreated: "${file.publishedOn}"
+dateCreated: "${file.dateCreated}"
 durationMin: "${file.duration}"
 dataTag: ["${file.dataTag.join(`","`)}"]
 intro: "${file.intro}"
@@ -94,7 +94,7 @@ export async function getRecipes(dirCategory) {
         return {
           slug: file.replace(".json", ""),
           title: str.title,
-          publishedOn: str.publishedOn,
+          dateCreated: str.dateCreated,
           dataTag: str.dataTag,
           intro: str.intro,
           duration: str.duration,
