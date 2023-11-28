@@ -22,9 +22,9 @@ function mapJson(posts, recipes) {
   posts = posts
     .map(
       (post, index) =>
-        `{ id: ${index}, title: "${post.title}", subtitle: "${
-          post.subtitle
-        }", slug: "${post.slug}", dateCreated: "${
+        `{ id: ${index}, directory: "Musings", title: "${
+          post.title
+        }", subtitle: "${post.subtitle}", slug: "${post.slug}", dateCreated: "${
           post.dateCreated
         }",  content: "${htmlToJson(post.content)}"},`
     )
@@ -34,10 +34,10 @@ function mapJson(posts, recipes) {
   recipes = recipes
     .map(
       (recipe, index) =>
-        `{ id: ${index + totalPosts}, title: "${recipe.title}", subtitle: "${
-          recipe.subtitle
+        `{ id: ${index + totalPosts}, directory: "Recipes", title: "${
+          recipe.title
         }", slug: "${"/" + RECIPES_DIR + "/" + recipe.slug}", dateCreated: "${
-          recipe.publishedOn
+          recipe.dateCreated
         }", content: "${recipe.intro} ${recipe.ingredients[0].ingMand.join(
           ", "
         )}"},`
