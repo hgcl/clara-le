@@ -4,9 +4,11 @@
  */
 
 import getPosts from "./getPosts.js";
+import { getRecipes } from "./generateRecipePost.js";
 import { writeFileSync } from "fs";
+const PUBLIC_DIR = `./public/`;
 const POSTS_DIR = "posts";
-const PUBLIC_DIR = "./public/";
+const RECIPES_DIR = "recipes";
 
 function htmlToJson(html) {
   return html
@@ -15,8 +17,9 @@ function htmlToJson(html) {
     .replace(/[\n]/g, " ");
 }
 
-function mapJson(posts) {
-  return posts
+function mapJson(posts, recipes) {
+  let totalPosts = posts.length; // so that we can continue the ids from there
+  posts = posts
     .map(
       (post, index) =>
         `{ id: ${index}, title: "${post.title}", subtitle: "${
@@ -26,13 +29,28 @@ function mapJson(posts) {
         }",  content: "${htmlToJson(post.content)}"},`
     )
     .join("");
+
+  // TODO: get full recipe in content. For now, I only get a section of the ingredients.
+  recipes = recipes
+    .map(
+      (recipe, index) =>
+        `{ id: ${index + totalPosts}, title: "${recipe.title}", subtitle: "${
+          recipe.subtitle
+        }", slug: "${"/" + RECIPES_DIR + "/" + recipe.slug}", dateCreated: "${
+          recipe.publishedOn
+        }", content: "${recipe.intro} ${recipe.ingredients[0].ingMand.join(
+          ", "
+        )}"},`
+    )
+    .join("");
+  return posts + recipes;
 }
 
 export default async function process() {
   try {
     const posts = await getPosts(POSTS_DIR, true);
-    const postIndex = `export default [` + mapJson(posts) + `];`;
-    console.log(postIndex);
+    const recipes = await getRecipes(RECIPES_DIR);
+    const postIndex = `export default [` + mapJson(posts, recipes) + `];`;
     writeFileSync(PUBLIC_DIR + "postIndex.js", postIndex, "utf8");
     console.log("Generated postIndex.js.");
   } catch (error) {
