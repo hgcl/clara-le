@@ -73,11 +73,11 @@ title: "Search"
     resultList.innerHTML = results
       .map(({ title, subtitle, slug, dateCreated, directory }) => {
         return `<li class="post-row">
-          <time class="label dt-duration" datetime="${dateCreated}">${dateCreated}</time>
+          <span class="label">${directory}</span>
             <span class="details">
               <a href="${slug}">${title}</a>
               <span class="subtle">
-                <span>${directory}</span>
+                <time class="dt-duration" datetime="${dateCreated}">${dateCreated}</time>
                 ${
                   subtitle
                     ? `<span aria-hidden="true">&#47;</span> <span>${subtitle}</span>`
