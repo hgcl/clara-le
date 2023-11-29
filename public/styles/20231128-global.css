@@ -552,7 +552,10 @@ a[id*="user-content-fnref"] {
   gap: 1rem;
 }
 #posts .post-row > .label {
-  min-width: 3.5rem;
+  min-width: 5em;
+}
+#search .post-row > .label {
+  min-width: 6em;
 }
 
 /* search.html layout */
