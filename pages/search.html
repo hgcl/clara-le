@@ -42,6 +42,11 @@ title: "Search"
       "dateCreated",
       "content",
     ], // fields to return with search results
+    searchOptions: {
+      boost: { title: 2 }, // Boost some fields (here "title")
+      fuzzy: 0.2, // Fuzzy search, with a max edit distance of 0.2 * term length
+      prefix: true, // Prefix search (so that 'moto' will match 'motorcycle')
+    },
   });
 
   // Fetch and index all documents
