@@ -92,21 +92,15 @@
         <a rel="author" class="p-author h-card hide" href="https://clarale.com"
           >Clara Le</a
         >
-        <p class="label">
-          {{#subtitle}}{{subtitle}} <span class="sr-only">,</span>
-          <span aria-hidden="true">&#47;</span>{{/subtitle}}
+        <p class="label divide-list">
+          {{#subtitle}}<span>{{subtitle}}</span>{{/subtitle}}
           <span class="sr-only">Published on</span>
           <time datetime="{{dateCreated}}" class="dt-published"
             >{{dateCreated}}</time
           >
           {{#dataTag.length}}
-          <span class="sr-only">,</span>
-          <span aria-hidden="true">&#47;</span>
           <span class="post-data-tags">{{dataTag}}</span>
-          {{/dataTag.length}} {{#author}}
-          <span class="sr-only">,</span>
-          <span aria-hidden="true">&#47;</span>
-          {{author}}{{/author}}
+          {{/dataTag.length}} {{#author}}<span>{{author}}</span>{{/author}}
         </p>
       </div>
       <article class="center e-content">

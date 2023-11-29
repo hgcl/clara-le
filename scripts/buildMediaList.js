@@ -29,16 +29,11 @@ export async function buildPage(html) {
                     : `src="https://covers.openlibrary.org/b/id/${post.cover}-L.jpg"`
                 }
                 ></div><span class="post-title">${post.title}</span></a>
-                  <span class="label">${post.author
+                  <div class="label divide-list"><span>${post.author
                     .toString()
-                    .replace(
-                      ",",
-                      " & "
-                    )} <span class="sr-only">,</span><span aria-hidden="true">&#47;</span> ${
+                    .replace(",", " & ")}</span><span>${
                   post.dataTag
-                } <span class="sr-only">,</span><span aria-hidden="true">&#47;</span> ${
-                  post.year
-                }</span></li>`
+                }</span><span>${post.year}</span></div></li>`
             )
             .join("") +
           `</ul>`

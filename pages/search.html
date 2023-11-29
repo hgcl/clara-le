@@ -76,13 +76,9 @@ title: "Search"
           <span class="label">${directory}</span>
             <span class="details">
               <a href="${slug}">${title}</a>
-              <span class="subtle">
+              <span class="subtle divide-list">
                 <time class="dt-duration" datetime="${dateCreated}">${dateCreated}</time>
-                ${
-                  subtitle
-                    ? `<span aria-hidden="true">&#47;</span> <span>${subtitle}</span>`
-                    : ""
-                }
+                ${subtitle ? `<span>${subtitle}</span>` : ""}
               </span>
             </span>
         </li>`;

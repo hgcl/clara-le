@@ -33,7 +33,7 @@
   --blue-dark: hsl(236deg, 100%, 25%);
   --yellow: hsl(50deg, 100%, 60%);
   /* Other */
-  --alt-text-opacity: 0.7;
+  --alt-text-opacity: 0.6;
   --screen-sm: 370px;
   --screen-md: 768px;
   --screen-lg: 1024px;
@@ -532,6 +532,10 @@ a[id*="user-content-fnref"] {
   padding: 0.25em 0.5em;
   font-size: var(--font-xs);
   vertical-align: text-bottom;
+}
+.divide-list > *:not(:last-child)::after {
+  content: " / ";
+  opacity: var(--alt-text-opacity);
 }
 
 /*--------------------------------------------------------*/
