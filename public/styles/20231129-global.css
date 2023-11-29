@@ -39,7 +39,7 @@
   --screen-lg: 1024px;
   --article-width: 600px;
   --side-width: calc((100vw - var(--article-width)) / 2);
-  --line-thickness: 1.5px;
+  --line-thickness: 1px;
 }
 
 html {
