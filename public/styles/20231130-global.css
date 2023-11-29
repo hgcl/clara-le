@@ -689,6 +689,7 @@ a[id*="user-content-fnref"] {
 }
 #recipes .label {
   margin-left: var(--space-s);
+  opacity: var(--alt-text-opacity);
 }
 
 /* recipe-post layout */
