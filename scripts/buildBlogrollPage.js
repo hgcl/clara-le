@@ -6,12 +6,12 @@ export function buildPage(html) {
       .map(
         (cat) =>
           `<h2 id=${cat.anchor}>${cat.title}</h2>` +
-          `<ul>` +
+          `<ul class="post-rows">` +
           blogrollData
             .filter((item) => item.category.includes(cat.anchor))
             .map(
               (item) =>
-                `<li class="post-row"><a href="${item.url}">${item.title}</a><span class="subtle">${item.description}</span></li>`
+                `<li><a href="${item.url}">${item.title}</a><span class="subtle">${item.description}</span></li>`
             )
             .join("") +
           `</ul>`

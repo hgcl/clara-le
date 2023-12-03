@@ -525,7 +525,7 @@ a[id*="user-content-fnref"] {
   /* font styles smaller than body */
   font-size: var(--font-xs);
 }
-.post-row .subtle {
+.post-rows > li .subtle {
   display: block;
   margin-top: 0.25rem;
 }
@@ -561,17 +561,17 @@ a[id*="user-content-fnref"] {
 
 /* posts.html layout */
 
-#posts .post-row,
-#search .post-row {
+#posts .post-rows > li,
+#search .post-rows > li {
   display: flex;
   align-items: baseline;
   gap: 1rem;
 }
-#posts .post-row > .label {
+#posts .post-rows > li > .label {
   min-width: 5em;
   opacity: var(--alt-text-opacity);
 }
-#search .post-row > .label {
+#search .post-rows > li > .label {
   min-width: 6em;
   opacity: var(--alt-text-opacity);
 }

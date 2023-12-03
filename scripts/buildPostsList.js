@@ -16,14 +16,14 @@ export async function buildPage(html) {
       .map(
         (year) =>
           `<h2>${year}</h2>` +
-          `<ul class="nobullet">` +
+          `<ul class="nobullet post-rows">` +
           orderedPosts
             .filter((post) => new Date(post.dateCreated).getFullYear() == year)
             .map(
               (post) =>
                 `<li data-tag="${
                   post.dataTag
-                }" class="post-row"><time class="label dt-duration" datetime="${
+                }"><time class="label dt-duration" datetime="${
                   post.dateCreated
                 }">
            ${new Date(post.dateCreated).toLocaleDateString("en-US", {
