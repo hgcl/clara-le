@@ -422,6 +422,13 @@ export const blogrollData = [
     best: false,
   },
   {
+    url: `https://www.seat61.com/`,
+    title: `Seat 61`,
+    description: `Seat 61 is Mark's passion project about train travel. He has been keeping a massive amount of useful up-to-date information by himself for DECADES. A real gem on the internet.`,
+    category: [categories.travel.anchor],
+    best: true,
+  },
+  {
     url: `https://skullsinthestars.com/`,
     title: `Skulls in the stars`,
     description: `The intersection of physics, optics, history and pulp fiction`,
