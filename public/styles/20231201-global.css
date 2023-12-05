@@ -25,15 +25,16 @@
   --space-4xl: 64px; /* 4rem */
   --space-5xl: 80px; /* 5rem */
   /* Colors */
-  --white: hsl(0deg, 0%, 98%);
-  --black: hsl(0deg, 0%, 3%);
-  --red: hsl(0deg, 100%, 46%);
-  --red-light: hsl(0deg, 100%, 66%);
-  --blue: hsl(236deg, 100%, 47%);
-  --blue-dark: hsl(236deg, 100%, 25%);
-  --yellow: hsl(50deg, 100%, 60%);
+  --white: hsl(0, 0%, 98%);
+  --white-blue: hsl(235, 31%, 76%); /* --white on --blue-dark, opacity 70% */
+  --black: hsl(0, 0%, 3%);
+  --red: hsl(0, 100%, 46%);
+  --red-light: hsl(0, 100%, 66%);
+  --blue: hsl(236, 100%, 47%);
+  --blue-white: hsl(236, 87%, 62%); /* --blue on --white, opacity 70% */
+  --blue-dark: hsl(236, 100%, 25%);
+  --yellow: hsl(50, 100%, 60%);
   /* Other */
-  --alt-text-opacity: 0.7;
   --screen-sm: 370px;
   --screen-md: 768px;
   --screen-lg: 1024px;
@@ -48,6 +49,7 @@ html {
     "DejaVu Sans Mono", monospace;
   --color-bg: var(--white);
   --color-text: var(--blue);
+  --color-text-subtle: var(--blue-white);
   --color-text-highlight: var(--yellow);
   --color-accent: var(--red);
 }
@@ -356,7 +358,7 @@ hr {
 hr::before {
   /* \002B is a plus sign */
   content: "\002B\00a0\002B\00a0\002B";
-  opacity: var(--alt-text-opacity);
+  color: var(--color-text-subtle);
 }
 
 /* ~striked-through text~ styles and accessibility */
@@ -509,6 +511,7 @@ input[type="checkbox"] {
 }
 a[id*="user-content-fnref"] {
   padding: 0 2px 0 3px;
+  text-decoration: none;
 }
 
 /* Utils */
@@ -538,7 +541,7 @@ a[id*="user-content-fnref"] {
 }
 .divide-list > *:not(:last-child)::after {
   content: " / ";
-  opacity: var(--alt-text-opacity);
+  color: var(--color-text-subtle);
 }
 
 /*--------------------------------------------------------*/
@@ -569,11 +572,11 @@ a[id*="user-content-fnref"] {
 }
 #posts .post-rows > li > .label {
   min-width: 5em;
-  opacity: var(--alt-text-opacity);
+  color: var(--color-text-subtle);
 }
 #search .post-rows > li > .label {
   min-width: 6em;
-  opacity: var(--alt-text-opacity);
+  color: var(--color-text-subtle);
 }
 
 /* search.html layout */
@@ -691,7 +694,7 @@ a[id*="user-content-fnref"] {
 }
 #recipes .label {
   margin-left: var(--space-s);
-  opacity: var(--alt-text-opacity);
+  color: var(--color-text-subtle);
 }
 
 /* recipe-post layout */
@@ -727,6 +730,7 @@ a[id*="user-content-fnref"] {
   html {
     --color-bg: var(--blue-dark);
     --color-text: var(--white);
+    --color-text-subtle: var(--white-blue);
     --color-accent: var(--red-light);
   }
   a:hover,
@@ -822,6 +826,7 @@ a[id*="user-content-fnref"] {
   }
   .footnotes {
     border: none;
+    color: var(--color-text-subtle);
   }
   #footnote-label {
     /* Same as .sr-only */
