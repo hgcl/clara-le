@@ -143,21 +143,22 @@
       <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
     </footer>
   </body>
-  <script type="text/javascript">
+  <!-- FOOTNOTES TO SIDENOTES -->
+  <script>
     // Get footnotes box (ol element) and set up counter
-    let footnotes = document.querySelector(".footnotes ol");
+    const footnotes = document.querySelector(".footnotes ol");
     let counter = 1;
     window.onload = () => {
       while (footnotes.childNodes.length >= counter) {
         // Generate ids numbers
-        let footnoteId = "user-content-fn-" + counter;
-        let refId = "user-content-fnref-" + counter;
+        const footnoteId = "user-content-fn-" + counter;
+        const refId = "user-content-fnref-" + counter;
         // Get footnote element (li element) + set class sidenote
-        let footnoteEl = document.getElementById(footnoteId);
+        const footnoteEl = document.getElementById(footnoteId);
         footnoteEl.setAttribute("class", "sidenote");
         // Get the reference sup element top position
-        let supEl = document.getElementById(refId).parentNode;
-        let topPos = supEl.offsetTop;
+        const supEl = document.getElementById(refId).parentNode;
+        const topPos = supEl.offsetTop;
         // Vertically position footnote
         footnoteEl.style.top = topPos + "px";
         counter++;
