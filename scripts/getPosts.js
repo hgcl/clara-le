@@ -1,5 +1,4 @@
 import { load } from "js-yaml";
-import { cwd } from "process";
 import { readdir, readFile } from "fs/promises";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
@@ -8,7 +7,7 @@ import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import { minify as minifier } from "html-minifier-terser";
 import * as path from "path";
-const PAGES_DIR = `${cwd()}/pages`;
+const PAGES_DIR = `./pages`;
 
 /**
  * Extracts frontmatter with `---` or `<!-- -->` delimiters from a string.

@@ -5,8 +5,7 @@
 import { writeFileSync } from "fs";
 import { readdir, readFile } from "fs/promises";
 import * as path from "path";
-import { cwd } from "process";
-const PAGES_DIR = `${cwd()}/pages`;
+const PAGES_DIR = `./pages`;
 const RECIPES_DIR = "recipes";
 
 function generateFrontmatter(file) {

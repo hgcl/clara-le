@@ -1,12 +1,12 @@
 import { minToDurationString } from "./formatPostDetails";
 import getPosts from "./getPosts";
-const dirCategory = "recipes";
+const DIR_CATEGORY = "recipes";
 
 // Based on buildPostList.js
 
 export async function buildPage(html) {
   try {
-    const posts = await getPosts(dirCategory);
+    const posts = await getPosts(DIR_CATEGORY);
     const postsHtml = posts
       .map(
         (post) =>

@@ -1,10 +1,10 @@
 import getPosts from "./getPosts";
 import yearArray from "./yearArray";
-const dirCategory = "media";
+const DIR_CATEGORY = "media";
 
 export async function buildPage(html) {
   try {
-    const posts = await getPosts(dirCategory);
+    const posts = await getPosts(DIR_CATEGORY);
     const orderedPosts = posts.sort(
       (a, b) =>
         new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()
