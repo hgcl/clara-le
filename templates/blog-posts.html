@@ -163,29 +163,17 @@
         counter++;
       }
     };
-
-    // NAV
-
-    const menuButton = document.querySelector("#menu-button");
-    const menu = document.querySelector("#menu");
-
-    // If JS is enabled:
-    // 1) unhide #menu-button
-    // 2) on mobile, make #menu-button visible and #menu hidden
-    // 3) on desktop, make #menu-button hidden and #menu visible
-    menuButton.classList.remove("hide");
-    menuButton.classList.add("js-enabled");
-    menu.classList.add("js-enabled");
-
-    menuButton.addEventListener("click", () => {
-      menu.classList.toggle("expanded"); // make visible when hidden, and vice-versa
-    });
+  </script>
+  <!-- NAV SETUP -->
+  <script type="module">
+    import { setupNav } from "/scripts/nav.js";
+    setupNav();
   </script>
   <!-- SEARCH FEATURE -->
   <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
   <script type="module">
     import {
-      search,
+      searchPosts,
       showSearchBtn,
       closeSearchBtn,
       dialogSearch,
@@ -200,7 +188,11 @@
     });
 
     // Search all posts
-    document.querySelector("#search-submit").addEventListener("click", search);
-    document.querySelector("#search-submit").addEventListener("click", search);
+    document
+      .querySelector("#search-submit")
+      .addEventListener("click", searchPosts);
+    document
+      .querySelector("#search-submit")
+      .addEventListener("click", searchPosts);
   </script>
 </html>
