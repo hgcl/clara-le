@@ -475,6 +475,7 @@ a:focus,
 .secondary-link:focus {
   background-size: 100% 100%;
   text-decoration: var(--line-thickness) underline;
+  line-height: 1;
 }
 a:focus,
 .secondary-link:focus {

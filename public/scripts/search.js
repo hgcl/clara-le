@@ -1,7 +1,13 @@
+import documents from "/scripts/postIndex.js";
+
 // Select DOM elements
+export const dialogSearch = document.querySelector("#search-dialog");
+export const showSearchBtn = document.querySelector("#show-search");
+export const closeSearchBtn = document.querySelector(
+  "#search-dialog .close-button"
+);
 const searchInput = document.querySelector("#search-bar");
 const resultList = document.querySelector(".result-list");
-import documents from "/scripts/postIndex.js";
 
 // Stop words to be ignored
 // prettier-ignore
@@ -29,14 +35,6 @@ let miniSearch = new MiniSearch({
 // Fetch and index all documents
 miniSearch.addAll(documents);
 
-// Typing into search bar updates search results and suggestions
-export default function (event) {
-  event.preventDefault(); // prevents search input being cleared on submit
-  const query = searchInput.value;
-  const results = query.length > 1 ? getSearchResults(query) : [];
-  renderSearchResults(results);
-}
-
 const getSearchResults = (query) => {
   return miniSearch.search(query);
 };
@@ -57,3 +55,11 @@ const renderSearchResults = (results) => {
     })
     .join("\n");
 };
+
+export function search(event) {
+  // Typing into search bar updates search results and suggestions
+  event.preventDefault(); // prevents search input being cleared on submit
+  const query = searchInput.value;
+  const results = query.length > 1 ? getSearchResults(query) : [];
+  renderSearchResults(results);
+}
