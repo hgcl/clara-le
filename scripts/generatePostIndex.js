@@ -1,12 +1,12 @@
 /**
- * This script generates postIndex.js (all post index)
+ * This script generates scripts/postIndex.js (all post index)
  * that is used for the search feature
  */
 
 import getPosts from "./getPosts.js";
 import { getRecipes } from "./generateRecipePost.js";
 import { writeFileSync } from "fs";
-const PUBLIC_DIR = `./public/`;
+const POST_INDEX = `./public/scripts/postIndex.js`;
 const POSTS_CAT = "posts";
 const RECIPES_CAT = "recipes";
 const LEARN_CAT = "learning";
@@ -67,7 +67,7 @@ export default async function process() {
       `export default [` +
       mapJson(posts, learningPosts, mediaPosts, recipes) +
       `];`;
-    writeFileSync(PUBLIC_DIR + "postIndex.js", postIndex, "utf8");
+    writeFileSync(POST_INDEX, postIndex, "utf8");
     console.log("Generated postIndex.js.");
   } catch (error) {
     throw new Error(`Failed to generate data: ${error}`);

@@ -68,18 +68,32 @@
             >
           </li>
           <li>
-            <a class="secondary-link" role="menuitem" href="/search/"
-              ><div
-                aria-hidden="true"
-                class="icon"
-                style="mask-image: url('/search-icon.svg')"
-              ></div>
-              Search</a
-            >
+            <button id="show-search">Search</button>
           </li>
         </ul>
       </nav>
       <div class="deco-horiz-1 bg-deco" aria-hidden="true"></div>
+      <dialog id="search-dialog" class="center">
+        <button class="close-button">
+          <span class="sr-only">Close</span
+          ><span aria-hidden="true">&#x2715;</span>
+        </button>
+        <form role="search">
+          <label for="search-bar">Search posts</label>
+          <div>
+            <input
+              type="search"
+              id="search-bar"
+              autocomplete="none"
+              autocorrect="none"
+              autocapitalize="none"
+              spellcheck="false"
+            />
+            <button id="search-submit">Submit</button>
+          </div>
+        </form>
+        <ul class="result-list nobullet post-rows"></ul>
+      </dialog>
     </header>
     <main id="main-section">{{> content}}</main>
     <footer>
@@ -87,7 +101,9 @@
     </footer>
   </body>
   <script>
+    //
     // NAV
+    //
 
     const menuButton = document.querySelector("#menu-button");
     const menu = document.querySelector("#menu");
@@ -103,5 +119,27 @@
     menuButton.addEventListener("click", () => {
       menu.classList.toggle("expanded"); // make visible when hidden, and vice-versa
     });
+
+    //
+    // SEARCH DIALOG
+    //
+
+    const dialogSearch = document.querySelector("#search-dialog");
+    const showSearchBtn = document.querySelector("#show-search");
+    const closeSearchBtn = document.querySelector(
+      "#search-dialog .close-button"
+    );
+    showSearchBtn.addEventListener("click", () => {
+      dialogSearch.showModal();
+    });
+    closeSearchBtn.addEventListener("click", () => {
+      dialogSearch.close();
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
+  <script type="module">
+    // SEARCH ALL POSTS
+    import search from "/scripts/search.js";
+    document.querySelector("#search-submit").addEventListener("click", search);
   </script>
 </html>
