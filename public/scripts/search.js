@@ -56,7 +56,7 @@ const renderSearchResults = (results) => {
     .join("\n");
 };
 
-export function search(event) {
+export function searchPosts(event) {
   // Typing into search bar updates search results and suggestions
   event.preventDefault(); // prevents search input being cleared on submit
   const query = searchInput.value;
