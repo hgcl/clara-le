@@ -50,7 +50,7 @@ function generateFeed(notes) {
       link: url,
       description: note.subtitle,
       content: content,
-      date: note.date,
+      date: new Date(note.dateCreated),
       author: [
         {
           name: "Clara Le",
