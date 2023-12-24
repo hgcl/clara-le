@@ -29,9 +29,9 @@ Let's have a look at a few types of fermentation used in the food-industry — b
 
 _Lacto fermentation_, also called _lactic acid fermentation_, is the process where lactic acid bacteria (LAB) convert sugars into energy, with lactic acid (and sometimes other stuff as well) as by-products. This occurs in an anaerobic environment[^2].
 
-Common examples of lacto fermentation are kimchi, Sauerkraut or yogurt. LAB already naturally exists in many vegetables, so you don't need to add external bacteria for the fermentation to occur. The bacteria keep on living in the final product and make them _probiotic_, which is good your gut health.
+Common examples of lacto fermentation are kimchi, Sauerkraut or yogurt. LAB already naturally exists in many vegetables, so you don't need to add external bacteria for the fermentation to occur. The bacteria keep on living in the final product and make them _probiotic_, which is good for your gut health.
 
-Let's use the [Sauerkraut recipe](/recipes/german-sauerkraut/) as an example. At its simplest, you only need to mix cabbage with water and let it rest at room temperature to kickstart the fermentation process. Notice how the recipe insists on preventing the minced cabbage from coming in contact with the air. The reason is to keep the environment anaerobic, where LAB thrive whereas other \*bad bacteria\* would die. As the fermentation goes, all the glucose present in the cabbage is transformed into lactic acid, making Sauerkraut sour.
+Let's use the [Sauerkraut recipe](/recipes/german-sauerkraut/) as an example. At its simplest, you only need to mix cabbage with water and let it rest at room temperature to kickstart the fermentation process. Notice how the recipe insists on preventing the minced cabbage from coming into contact with the air. The reason is to keep the environment anaerobic, where LAB thrive whereas other \*bad bacteria\* would die. As the fermentation goes on, all the glucose present in the cabbage is transformed into lactic acid, making Sauerkraut sour.
 
 Another example of lacto fermentation is cheese. The basic concept of cheese is to divide milk into solid curds and liquid whey. To do so, we need to either add an acid element to the milk (e.g. vinegar) or mix in LAB that will consume the lactose and transform it into lactic acid.[^3]
 
@@ -48,7 +48,7 @@ In most cases, the brewers will let the carbon dioxide escape during a primary f
 
 With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached 15% alcohol per unit volume — strong enough to kill all types of yeasts. When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
 
-Winemakers also use this yeast property to make fortified wines (e.g. Porto wine). They can stop the fermenting process by adding some extra alcohol in wine. This usually results in a sweeter and stronger wine. The fermenting process can also be stopped by simply dropping the temperature of the tank.
+Winemakers also use this yeast property to make fortified wines (e.g. Porto wine). They can stop the fermenting process by adding some extra alcohol in the wine. This usually results in a sweeter and stronger wine. The fermenting process can also be stopped by simply dropping the temperature of the tank.
 
 > Fun fact: ethanol fermentation also takes place in some species of fish where it provides energy when oxygen is scarce.
 
@@ -56,7 +56,7 @@ Winemakers also use this yeast property to make fortified wines (e.g. Porto wine
 
 _Malolactic fermentation_ is a process in winemaking. It is usually done after the first ethanol fermentation, by introducing LAB into the must. Those bacteria will consume the tart-tasting malic acid, naturally present in grape must, and produce softer-tasting lactic acid and carbon dioxide.
 
-The final aromas are said to be less acid, apple-like and more buttery, milky, oily or vanilla-like. Most red wines undergo malolactic fermentation, as well as some rounder white wines like Chardonnay.
+The final aromas are said to be less acid, apple-like and more buttery, milky, oily or vanilla-like. Most red wines undergo malolactic fermentation, as well as some fuller white wines like Chardonnay.
 
 LAB can be very sensitive to the sulfites (sulfur dioxide) added during the winemaking process. When choosing to not use sulfites, wild LAB native to the grapes can initiate uncontrolled malolactic fermentation that might give an off-taste to some natural wines.
 
@@ -88,7 +88,7 @@ Common examples of food / drinks made from a SCOBY are kombucha, kefir, sourdoug
 
 A SCOBY is a mix of yeast, LAB, and AAB.
 
-The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple types of fermentation and oxidation. To be completely honest, I haven't fully understood what ferments what and when. But all in all, yeasts consume sugars and produce ethanol. The LAB are anaerobic, consume sugars and produce lactic acid. The AAB are aerobic, consume either sugars or ethanol and produce acetic acid.
+The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple types of fermentation and oxidation. To be completely honest, I haven't fully understood what ferments what and when. But all in all, yeasts consume sugars and produce ethanol. The LAB (anaerobic) consume sugars and produce lactic acid. The AAB (aerobic) consume either sugars or ethanol and produce acetic acid. The end results is often acidic and just a tiny tiny bit alcoholic.
 
 ---
 
