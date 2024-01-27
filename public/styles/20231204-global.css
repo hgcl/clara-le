@@ -379,6 +379,20 @@ hr::before {
   color: var(--color-text-subtle);
 }
 
+aside {
+  font-size: smaller;
+  border: solid 1px var(--color-text-subtle);
+  padding: 2rem;
+  margin: 2rem 0;
+}
+/* cancels normal typography margins */
+aside :first-child {
+  margin-top: 0rem;
+}
+aside :last-child {
+  margin-bottom: 0rem;
+}
+
 /* ~striked-through text~ styles and accessibility */
 
 del {
