@@ -11,7 +11,7 @@ For many years, I have struggled with knowledge management — as I still do.
 
 I remember enthusiastically filling small cards a few years back when I first stumbled upon the [index card method](http://www.raulpacheco.org/2018/11/note-taking-techniques-i-the-index-card-method/) — or Zettelkasten. It never took off.
 
-A few years later, I discovered that this method had been adapted digitally by multiple different projects. I have a (too) early adopter personality and tried them all — [TiddlyWiki](https://tiddlywiki.com/), [Obsidian](https://obsidian.md/), [Foam](https://foambubble.github.io/foam/). Actually, I even mentioned it in a [weeknote](/posts/3-friends-and-digital-gardening) just last year.
+A few years later, I discovered that this method had been adapted digitally by multiple different projects. I have a (too) early adopter personality and tried them all — [TiddlyWiki](https://tiddlywiki.com/), [Obsidian](https://obsidian.md/), [Foam](https://foambubble.github.io/foam/). Actually, I even mentioned it in a [weeknote](/posts/3-friends-and-digital-gardening/) just last year.
 
 I realize that the problem doesn't lie in the tools and features, but being able to fully commit to a process. I tend to over-complicate things and not start as simple as I should. Building that new habit is then much harder, as the barrier to entry seems too high and complex.
 

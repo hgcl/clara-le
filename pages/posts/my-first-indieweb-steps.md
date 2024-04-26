@@ -19,7 +19,7 @@ Chris Aldrich explains it way better than I could in his [introduction to the In
 2. Author centric — You can be connected to other services and platforms, but everything comes back to your site.
 3. Control of your content and format — You completely control how your website looks and works.
 
-After my recent [website redesign](/posts/last-homage-to-my-old-website), I decided to have another go at this IndieWeb stuff. And I think I was a bit more successful this time around.
+After my recent [website redesign](/posts/last-homage-to-my-old-website/), I decided to have another go at this IndieWeb stuff. And I think I was a bit more successful this time around.
 
 ## IndieWeb baby steps...
 

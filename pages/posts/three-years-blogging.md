@@ -7,7 +7,7 @@ dateCreated: "2023-11-26"
 dataTag: ["thought"]
 ---
 
-As I was browsing (a.k.a. overengineering) my website again, I realized that last Friday marked the three-year anniversary of my blogging adventure. On November 24, 2020[^1], I wrote my first update: [#3 Friends and digital gardening](/posts/3-friends-and-digital-gardening).
+As I was browsing (a.k.a. overengineering) my website again, I realized that last Friday marked the three-year anniversary of my blogging adventure. On November 24, 2020[^1], I wrote my first update: [#3 Friends and digital gardening](/posts/3-friends-and-digital-gardening/).
 
 I remember that I decided to start this website during the COVID-19 lockdown. At that time, the concept of _Blogging on The Internet_ sounded very daunting to me, but I felt like I wanted to do something in public, something that kept me accountable.
 
