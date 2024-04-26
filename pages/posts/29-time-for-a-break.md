@@ -11,7 +11,7 @@ It's official: I am leaving my job of almost four years by the end of May. Many 
 
 I don't have clear-cut plans yet, but I would like these next few months to be free experimentation grounds. I want to learn new things — digital and not, to get dirty with my hands, to spend more time outdoors, to improve at crag climbing, to create more things from scratch, to preserve food, to kick-start personal projects[^1].
 
-And by the start of 2024, the grand evil plan is to go on a long travelling journey again. Robin and I have loved making our (slow) way through Southeast Asia in 2018. The still-to-be-defined idea would be to do something similar — a big shock and dive into (an)other culture(s) for a sustained amount of time.
+And by the start of 2024, the grand evil plan is to go on a long traveling journey again. Robin and I have loved making our (slow) way through Southeast Asia in 2018. The still-to-be-defined idea would be to do something similar — a big shock and dive into (an)other culture(s) for a sustained amount of time.
 
 [^1]: and completing my driving license (fingers crossed)
 

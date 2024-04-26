@@ -19,7 +19,7 @@ Another thing I am bringing back home is inspiration from people I've met and th
 - That little creative guide of Palermo, randomly found in a wine bar
 - Georgia and Davide moving to the heart of Sicily to open their B&B for climbers
 - Old ladies feeding stray cats in the street
-- Alice, travelling alone through Italy with only a backpack and camping gears
+- Alice, traveling alone through Italy with only a backpack and camping gears
 - The close-knit community in Bosa (Sardinia)
 
 Even though we will only be home in a few days[^2], it already feels like the end of a vacation. I am both anxious and excited to be back in our little Ardèche corner.
