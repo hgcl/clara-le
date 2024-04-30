@@ -581,20 +581,6 @@ a[id*="user-content-fnref"] {
 /*               Custom pages or elements                 */
 /*--------------------------------------------------------*/
 
-/* index.html layout */
-
-#index {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#index > * {
-  max-width: var(--article-width);
-  margin: 2rem 0 0 0;
-}
-
 /* posts.html layout */
 
 #posts .post-rows > li,
