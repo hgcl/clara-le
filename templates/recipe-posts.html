@@ -4,6 +4,31 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/20240127-global.css" type="text/css" />
+    <style>
+      #ingredients {
+        font-size: smaller;
+        color: var(--color-text);
+      }
+      #ingredients li span::before {
+        content: "\A\2003";
+      }
+      .h-recipe .e-instructions {
+        max-width: var(--screen-md);
+      }
+      @media only screen and (min-width: 768px) {
+        .h-recipe article {
+          display: flex;
+          flex-direction: row;
+          gap: var(--space-2xl);
+        }
+        #ingredients {
+          flex: 1 0 250px;
+          align-self: flex-start;
+          position: sticky;
+          top: 0;
+        }
+      }
+    </style>
     <meta name="viewport" content="width=device-width" />
     <meta property="og:site_name" content="Clara Le" />
     <meta property="og:title" content="{{title}}" />
