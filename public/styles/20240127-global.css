@@ -611,18 +611,6 @@ a[id*="user-content-fnref"] {
   width: 100%;
 }
 
-/* recipes.html layout */
-
-#recipes {
-  columns: 320px auto;
-  text-transform: capitalize;
-  column-gap: var(--space-l);
-}
-#recipes .label {
-  margin-left: var(--space-s);
-  color: var(--color-text-subtle);
-}
-
 /* recipe-post layout */
 
 #ingredients {
