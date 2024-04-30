@@ -1,13 +1,13 @@
 ---
 template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
-dateCreated: "2024-04-26"
+dateCreated: "2024-04-30"
 title: "Now"
-subtitle: "Planning mode"
+subtitle: "Chilling mode"
 icon: "/graphics/drawing-location.svg"
 ---
 
-Robin and I are on a slow journey, having traveled from Europe to Asia overland. We are now taking a break in Hanoi (Vietnam), drinking coffee, eating good food, working on side projects, making new friends. {end-key}
+Robin and I are on a slow journey, having traveled from Europe to Asia overland. We are now taking a break in Hanoi (Vietnam), drinking cà phê muối and bia hơi, eating at street food stalls, becoming regulars in a local gym, practicing Vietnamese, catching up with blog posts for [Eau de poisson](https://eaudepoisson.com/), working on side projects. {end-key}
 
 ---
 
