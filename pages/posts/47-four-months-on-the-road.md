@@ -3,7 +3,7 @@ template: /templates/blog-posts.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "#47 Four months on the road"
 subtitle: "Update #47"
-dateCreated: "2024-04-26"
+dateCreated: "2024-04-30"
 dataTag: ["update"]
 ---
 
@@ -19,8 +19,6 @@ We heard of this backpacker, hitchhiking his way across the world, just a few co
 
 Travel burnout seems to be a thing. Everyone has their own threshold. For us, it feels like _now_ would be a good time for a longer break. Settling down in Hanoi — a city we know and love — seems like the perfect choice. We are now back in (or pretty close to) our comfort zone. We are still discovering new things every day, but in a context familiar enough to be able to think further than the day-to-day logistics.
 
-_This productivity-oriented society is asking one question of me: what are my objectives for these coming months?_
-
-Well — dear interviewer — I'd say processing the last few hectic months. I'd love to take the time to look back on the places and experiences we have been through. Documenting it on [eaudepoisson.com](https://eaudepoisson.com/) (for memories) and maybe even creating a small analog zine out of it (for fun!). Of course, there will also be plenty of planning and decision-making for the rest of the journey. But let's not get ahead of ourselves.
+During this parenthesis, I'd love to take the time to process the last hectic months, look back on the places and experiences we have been through. Documenting it on [eaudepoisson.com](https://eaudepoisson.com/) (for memories) and maybe even creating a small analog zine out of it (for fun!). Of course, there will also be plenty of planning and decision-making for the rest of the journey. But let's not get ahead of ourselves.
 
 Until then {end-key}
