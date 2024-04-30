@@ -854,7 +854,7 @@ a[id*="user-content-fnref"] {
   .sidenote {
     position: absolute;
     right: 0;
-    padding-right: var(--space-m);
+    padding-right: var(--space-2xl);
     width: calc(var(--side-width) - var(--space-2xl));
     max-width: calc(var(--article-width) / 2);
   }
