@@ -625,99 +625,6 @@ a[id*="user-content-fnref"] {
   width: 100%;
 }
 
-/* media.html layout */
-
-/* radio options */
-#media fieldset {
-  width: fit-content;
-  display: flex;
-  gap: var(--space-s);
-  margin-top: var(--space-s);
-  /* reset */
-  padding: 0;
-  border: none;
-}
-#media fieldset legend {
-  float: left;
-}
-#media fieldset > div {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: start;
-  align-items: center;
-}
-#media fieldset > div > * {
-  cursor: pointer;
-}
-#media fieldset > div input {
-  appearance: none;
-  width: 5px;
-  height: 5px;
-}
-#media fieldset > div input:checked {
-  background-color: var(--color-text);
-  border-radius: 1000px;
-}
-
-#media.media-layout-list {
-  /* same as .center */
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--article-width);
-}
-#media.media-layout-grid ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: var(--space-2xl);
-  grid-column-gap: var(--space-s);
-}
-#media li {
-  position: relative;
-  margin-bottom: 1rem;
-  width: 100%; /* makes sure that rows stack vertically only */
-}
-#media.media-layout-grid li a {
-  height: 100%;
-}
-#media.media-layout-grid li .list-title {
-  /* show h3 only */
-  display: none;
-}
-#media.media-layout-grid li .post-title {
-  opacity: 0;
-  /* overlay on image */
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  padding: var(--space-m);
-  color: var(--white);
-  /* center vertically */
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0;
-}
-#media.media-layout-grid li > a:hover .post-title,
-#media.media-layout-grid li > a:focus .post-title,
-#media.media-layout-grid li > a:active .post-title {
-  opacity: 1;
-}
-#media.media-layout-list li > a > div {
-  display: none;
-}
-#media.media-layout-grid li > a {
-  display: block;
-}
-#media.media-layout-grid li > a img {
-  height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-}
-#media li .label {
-  /* align with posts.html */
-  display: block;
-  margin-top: 0.25rem;
-}
-
 /* recipes.html layout */
 
 #recipes {
@@ -831,11 +738,6 @@ a[id*="user-content-fnref"] {
   .label,
   figcaption {
     font-size: var(--font-xs);
-  }
-  #media.media-layout-grid ul {
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-    grid-row-gap: var(--space-5xl);
-    grid-column-gap: var(--space-xl);
   }
   .h-recipe article {
     display: flex;
