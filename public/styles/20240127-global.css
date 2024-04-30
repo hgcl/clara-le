@@ -611,19 +611,6 @@ a[id*="user-content-fnref"] {
   width: 100%;
 }
 
-/* recipe-post layout */
-
-#ingredients {
-  font-size: smaller;
-  color: var(--color-text);
-}
-#ingredients li span::before {
-  content: "\A\2003";
-}
-.h-recipe .e-instructions {
-  max-width: var(--screen-md);
-}
-
 /* learning.html layout */
 
 #learning article::after {
@@ -712,17 +699,6 @@ a[id*="user-content-fnref"] {
   .label,
   figcaption {
     font-size: var(--font-xs);
-  }
-  .h-recipe article {
-    display: flex;
-    flex-direction: row;
-    gap: var(--space-2xl);
-  }
-  #ingredients {
-    flex: 1 0 250px;
-    align-self: flex-start;
-    position: sticky;
-    top: 0;
   }
 }
 
