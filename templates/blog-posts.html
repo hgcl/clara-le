@@ -136,35 +136,33 @@
           {{/dataTag.length}} {{#author}}<span>{{author}}</span>{{/author}}
         </p>
       </div>
-      <article class="center e-content">
-        {{> content}}
-        <form
-          class="comment-section"
-          method="POST"
-          action="https://staticman-31xs.onrender.com/v2/entry/hgcl/clara-le/main/comments"
-        >
-          <h2 class="label">Leave a comment (not working yet)</h2>
-          <input
-            name="options[redirect]"
-            type="hidden"
-            value="https://clarale.com"
-          />
-          <input id="slug" name="options[slug]" type="hidden" value="" />
-          <div>
-            <label for="name">Name</label
-            ><input id="name" name="fields[name]" type="text" required />
-          </div>
-          <div>
-            <label for="email">Email (optional)</label
-            ><input id="email" name="fields[email]" type="email" />
-          </div>
-          <div>
-            <label for="message">Message</label
-            ><textarea id="message" name="fields[message]" required></textarea>
-          </div>
-          <button type="submit">Submit message</button>
-        </form>
-      </article>
+      <article class="center e-content">{{> content}}</article>
+      <form
+        class="comment-section center"
+        method="POST"
+        action="https://staticman-31xs.onrender.com/v2/entry/hgcl/clara-le/main/comments"
+      >
+        <h2 class="label">Leave a comment (not working yet)</h2>
+        <input
+          name="options[redirect]"
+          type="hidden"
+          value="https://clarale.com"
+        />
+        <input id="slug" name="options[slug]" type="hidden" value="" />
+        <div>
+          <label for="name">Name</label
+          ><input id="name" name="fields[name]" type="text" required />
+        </div>
+        <div>
+          <label for="email">Email (optional)</label
+          ><input id="email" name="fields[email]" type="email" />
+        </div>
+        <div>
+          <label for="message">Message</label
+          ><textarea id="message" name="fields[message]" required></textarea>
+        </div>
+        <button type="submit">Submit message</button>
+      </form>
     </main>
     <footer>
       <a href="#main-section"
