@@ -1,2 +1,2 @@
 # staticman comments configuration
-# staticman_url: https://<heroku_staticman_app>.herokuapp.com/v2/entry/<user-name>/<blog-repo-name>/<branch-name>/comments
+staticman_url: https://clarale-staticman.onrender.com
