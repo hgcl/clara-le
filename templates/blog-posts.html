@@ -9,16 +9,27 @@
     <link rel="stylesheet" href="/styles/global-20240430.css" type="text/css" />
     <style>
       /* Comment section */
-      .comment-section > div {
+      .boxed-content {
+        text-align: center;
+        font-size: var(--font-xs);
+        background-color: var(--blue);
+        color: var(--white);
+        padding: var(--space-s) var(--space-l);
+        margin-top: var(--space-3xl);
+      }
+      .boxed-content h2 {
+        margin-top: 1rem;
+      }
+      .boxed-content > div {
         display: flex;
         flex-direction: column;
         text-align: left;
         margin-bottom: 1rem;
       }
-      .comment-section > div > * {
+      .boxed-content > div > * {
         width: 100%;
       }
-      .comment-section > button {
+      .boxed-content > button {
         margin: 1rem;
       }
     </style>
@@ -139,7 +150,7 @@
       <article class="center e-content">{{> content}}</article>
       <form
         hidden
-        class="comment-section center"
+        class="boxed-content center"
         method="POST"
         action="https://staticman-31xs.onrender.com/v2/entry/hgcl/clara-le/main/comments"
       >

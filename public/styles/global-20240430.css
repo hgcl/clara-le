@@ -251,18 +251,6 @@ dialog .close-button {
   text-align: center;
 }
 
-.comment-section {
-  text-align: center;
-  font-size: var(--font-xs);
-  background-color: var(--blue);
-  color: var(--white);
-  padding: var(--space-s) var(--space-l);
-  margin-top: var(--space-3xl);
-}
-.comment-section h2 {
-  margin-top: 1rem;
-}
-
 /* Images */
 
 figure, 
