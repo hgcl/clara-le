@@ -8,11 +8,22 @@ title: "Comments"
   action="https://staticman-31xs.onrender.com/v2/entry/hgcl/clara-le/main/comments"
 >
   <input name="options[redirect]" type="hidden" value="https://clarale.com" />
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="{{slug}}" />
-  <label><input name="fields[name]" type="text" />Name</label>
-  <label><input name="fields[email]" type="email" />E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
-
-  <button type="submit">Go!</button>
+  <input id="slug" name="options[slug]" type="hidden" value="{{title}}" />
+  <div>
+    <label for="name">Name</label
+    ><input id="name" name="fields[name]" type="text" />
+  </div>
+  <div>
+    <label for="email">Email</label
+    ><input id="email" name="fields[email]" type="email" />
+  </div>
+  <div>
+    <label for="message">Message</label
+    ><textarea id="message" name="fields[message]"></textarea>
+  </div>
+  <button type="submit">Submit message</button>
 </form>
+<!-- <script>
+  let slug = document.getElementById("slug"); // "moo" is the 'id' of the text field
+  slug.value = location.pathname;
+</script> -->
