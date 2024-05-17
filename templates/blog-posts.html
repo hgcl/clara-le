@@ -7,6 +7,21 @@
     {{/subtitle}}
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/global-20240430.css" type="text/css" />
+    <style>
+      /* Comment section */
+      .comment-section > div {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 1rem;
+      }
+      .comment-section > div > * {
+        width: 100%;
+      }
+      .comment-section > button {
+        margin: 1rem;
+      }
+    </style>
     <meta name="viewport" content="width=device-width" />
     <meta property="og:site_name" content="Clara Le" />
     <meta property="og:title" content="{{title}}" />
@@ -123,13 +138,32 @@
       </div>
       <article class="center e-content">
         {{> content}}
-        <section class="comment-section">
-          <h2 class="label">Reply to this post</h2>
-          <p>
-            Wanna chat about this post? Send me an email in French, English or
-            Frenglish at: hey&nbsp;[at]&nbsp;clarale&nbsp;[dot]&nbsp;com.
-          </p>
-        </section>
+        <form
+          class="comment-section"
+          method="POST"
+          action="https://staticman-31xs.onrender.com/v2/entry/hgcl/clara-le/main/comments"
+        >
+          <h2 class="label">Leave a comment (not working yet)</h2>
+          <input
+            name="options[redirect]"
+            type="hidden"
+            value="https://clarale.com"
+          />
+          <input id="slug" name="options[slug]" type="hidden" value="" />
+          <div>
+            <label for="name">Name</label
+            ><input id="name" name="fields[name]" type="text" required />
+          </div>
+          <div>
+            <label for="email">Email (optional)</label
+            ><input id="email" name="fields[email]" type="email" />
+          </div>
+          <div>
+            <label for="message">Message</label
+            ><textarea id="message" name="fields[message]" required></textarea>
+          </div>
+          <button type="submit">Submit message</button>
+        </form>
       </article>
     </main>
     <footer>
@@ -191,5 +225,13 @@
     document
       .querySelector("#search-submit")
       .addEventListener("click", searchPosts);
+  </script>
+  <!-- COMMENTS -->
+  <!-- TODO get slug during build to avoid using JS for comments -->
+  <script type="module">
+    import { slugify } from "/scripts/slugify.js";
+
+    let slug = document.getElementById("slug");
+    slug.value = slugify(location.pathname);
   </script>
 </html>
