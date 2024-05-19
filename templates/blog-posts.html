@@ -34,9 +34,8 @@
       }
       /* Comments */
       #comments article {
-        border: solid 1px var(--color-text-subtle);
-        padding: 0.5rem 1rem;
-        margin-bottom: 1rem;
+        border-bottom: solid 1px var(--color-text-subtle);
+        padding: 0.5rem 0;
       }
     </style>
     <meta name="viewport" content="width=device-width" />
@@ -158,8 +157,9 @@
         class="boxed-content center"
         method="POST"
         action="https://staticman-31xs.onrender.com/v2/entry/hgcl/clara-le/main/comments"
+        onsubmit="return alert('Your comment will be manually reviewed before being published.');"
       >
-        <h2 class="label">Leave a comment (not working yet)</h2>
+        <h2 class="label">Leave a comment</h2>
         <input
           name="options[redirect]"
           type="hidden"
@@ -170,10 +170,10 @@
           <label for="name">Name</label
           ><input id="name" name="fields[name]" type="text" required />
         </div>
-        <div>
+        <!-- <div>
           <label for="email">Email (optional)</label
           ><input id="email" name="fields[email]" type="email" />
-        </div>
+        </div> -->
         <div>
           <label for="message">Message</label
           ><textarea id="message" name="fields[message]" required></textarea>
