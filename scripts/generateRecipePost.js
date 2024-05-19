@@ -1,7 +1,8 @@
 /**
- * This script generates the recipe overview from the JSON notes.
+ * This script generates all recipes (in HTML) from the JSON notes.
+ * Input: get all recipes as JSON
+ * Output: generate recipes as HTML
  */
-import getRecipes from "./getRecipes.js";
 import { writeFileSync } from "fs";
 const PAGES_DIR = `./pages`;
 const RECIPES_DIR = "recipes";
@@ -79,14 +80,17 @@ function generateHtml(file) {
   return html;
 }
 
-export default async function process() {
-  const recipes = await getRecipes(RECIPES_DIR);
-  recipes.forEach((file) => {
-    writeFileSync(
-      `${PAGES_DIR}/${RECIPES_DIR}/${file.slug}.html`,
-      generateFrontmatter(file) + generateHtml(file),
-      "utf8"
-    );
-  });
-  console.log("Generated recipes");
+export default async function process(recipes) {
+  try {
+    recipes.forEach((file) => {
+      writeFileSync(
+        `${PAGES_DIR}/${RECIPES_DIR}/${file.slug}.html`,
+        generateFrontmatter(file) + generateHtml(file),
+        "utf8"
+      );
+    });
+    console.log("Generated recipes (html).");
+  } catch (error) {
+    throw new Error(`Failed to generate recipes posts in html: ${error}`);
+  }
 }
