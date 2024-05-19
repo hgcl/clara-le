@@ -5,6 +5,7 @@ const OUT_DIR = `./dist`;
 const POSTS_DIR = `posts`;
 const COMMENTS_DIR = `./data/comments`;
 
+// This function gets built posts and injects the relevant comments in them
 async function getBuiltPosts() {
   try {
     const blogDir = await readdir(OUT_DIR + "/" + POSTS_DIR);
