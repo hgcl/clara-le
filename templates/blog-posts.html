@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/global-20240516.css" type="text/css" />
     <style>
-      /* Comment section */
+      /* Comment form */
       .boxed-content {
         text-align: center;
         font-size: var(--font-xs);
@@ -31,6 +31,12 @@
       }
       .boxed-content > button {
         margin: 1rem;
+      }
+      /* Comments */
+      #comments article {
+        border: solid 1px var(--color-text-subtle);
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
       }
     </style>
     <meta name="viewport" content="width=device-width" />
@@ -174,6 +180,7 @@
         </div>
         <button type="submit">Submit message</button>
       </form>
+      <!-- DO NOT RENAME FOLLOWING COMMENTS LINE -->
       <section hidden>Comments injected here</section>
     </main>
     <footer>

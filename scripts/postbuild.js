@@ -16,26 +16,30 @@ async function getBuiltPosts() {
         const commentGroup = await readdir(COMMENTS_DIR + "/posts-" + blog);
         let collatedComments = "";
         await Promise.all(
-          // TODO sort first by date
-          commentGroup.map(async (file) => {
-            const rawComment = await readFile(
-              COMMENTS_DIR + "/posts-" + blog + "/" + file,
-              "utf-8"
-            );
-            let commentYAML = yaml.load(rawComment);
-            collatedComments =
-              collatedComments +
-              `
-            <article>
-              <p>${commentYAML.name}</p>
-              <p>${commentYAML.date}</p>
-              <p>${commentYAML.message}</p>
+          commentGroup
+            .map(async (file) => {
+              const rawComment = await readFile(
+                COMMENTS_DIR + "/posts-" + blog + "/" + file,
+                "utf-8"
+              );
+              let commentYAML = yaml.load(rawComment);
+              collatedComments += `<article>
+              <p class="label divide-list"><span>${
+                commentYAML.name
+              }</span><time datetime="${new Date(
+                commentYAML.date
+              ).toLocaleDateString("fr-CA")}" class="dt-published">${new Date(
+                commentYAML.date
+              ).toLocaleDateString("fr-CA")}</time></p>
+              <p class="comment-message">${commentYAML.message}</p>
             </article>`;
-          })
+            })
+            // Sort entries by date (descending order)
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
         );
         injectComments(
           OUT_DIR + "/" + POSTS_DIR + "/" + blog + "/index.html",
-          `<section>${collatedComments}</section>`
+          `<section id="comments" class="center"><h2>Comments</h2>${collatedComments}</section>`
         );
       }
     }
