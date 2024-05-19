@@ -14,20 +14,28 @@ async function getBuiltPosts() {
       // Condition 2: Blog posts has comments
       if (blog !== "index.html" && commentDir.includes("posts-" + blog)) {
         const commentGroup = await readdir(COMMENTS_DIR + "/posts-" + blog);
-        const allCommentsContent = await Promise.all(
+        let collatedComments = "";
+        await Promise.all(
+          // TODO sort first by date
           commentGroup.map(async (file) => {
             const rawComment = await readFile(
               COMMENTS_DIR + "/posts-" + blog + "/" + file,
               "utf-8"
             );
-            let commentContentYAML = yaml.load(rawComment);
-            console.log(commentContentYAML);
+            let commentYAML = yaml.load(rawComment);
+            collatedComments =
+              collatedComments +
+              `
+            <article>
+              <p>${commentYAML.name}</p>
+              <p>${commentYAML.date}</p>
+              <p>${commentYAML.message}</p>
+            </article>`;
           })
         );
-        // console.log(allCommentsContent);
         injectComments(
           OUT_DIR + "/" + POSTS_DIR + "/" + blog + "/index.html",
-          "<section>NEW COMMENTS</section>"
+          `<section>${collatedComments}</section>`
         );
       }
     }
