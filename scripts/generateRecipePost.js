@@ -1,10 +1,8 @@
 /**
  * This script generates the recipe overview from the JSON notes.
  */
-
+import getRecipes from "./getRecipes.js";
 import { writeFileSync } from "fs";
-import { readdir, readFile } from "fs/promises";
-import * as path from "path";
 const PAGES_DIR = `./pages`;
 const RECIPES_DIR = "recipes";
 
@@ -79,32 +77,6 @@ function generateHtml(file) {
   </section>`;
   const html = `${ingredientsHtml}${instructionsHtml}`;
   return html;
-}
-
-export async function getRecipes(dirCategory) {
-  const files = await readdir(PAGES_DIR + "/" + dirCategory);
-  const recipes = await Promise.all(
-    files
-      .filter((i) => path.extname(i) === ".json")
-      .map(async (file) => {
-        const str = JSON.parse(
-          await readFile(`${PAGES_DIR}/${dirCategory}/${file}`, "utf-8")
-        );
-        return {
-          slug: file.replace(".json", ""),
-          title: str.title,
-          dateCreated: str.dateCreated,
-          dataTag: str.dataTag,
-          intro: str.intro,
-          duration: str.duration,
-          ingredients: str.ingredients,
-          instructions: str.instructions,
-          notes: str.notes,
-          sourceUrl: str.sourceUrl,
-        };
-      })
-  );
-  return recipes;
 }
 
 export default async function process() {
