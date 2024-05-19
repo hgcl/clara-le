@@ -1,5 +1,6 @@
 /** This script get all posts data in one go to avoid running
  * through all posts multiple times during prebuild
+ * Input: posts that are in the subdirectories of `pages`
  */
 
 import getPosts from "./getPosts.js";
