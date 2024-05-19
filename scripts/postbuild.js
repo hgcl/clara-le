@@ -1,4 +1,5 @@
 import { readdir, readFile, writeFile } from "fs/promises";
+import yaml from "js-yaml";
 
 const OUT_DIR = `./dist`;
 const POSTS_DIR = `posts`;
@@ -11,10 +12,22 @@ async function getBuiltPosts() {
     for (const blog of blogDir) {
       // Condition 1: Ignore the index.html file at the root of dist/posts
       // Condition 2: Blog posts has comments
-      if (blog !== "index.html" && commentDir.includes(`posts-` + blog)) {
+      if (blog !== "index.html" && commentDir.includes("posts-" + blog)) {
+        const commentGroup = await readdir(COMMENTS_DIR + "/posts-" + blog);
+        const allCommentsContent = await Promise.all(
+          commentGroup.map(async (file) => {
+            const rawComment = await readFile(
+              COMMENTS_DIR + "/posts-" + blog + "/" + file,
+              "utf-8"
+            );
+            let commentContentYAML = yaml.load(rawComment);
+            console.log(commentContentYAML);
+          })
+        );
+        // console.log(allCommentsContent);
         injectComments(
           OUT_DIR + "/" + POSTS_DIR + "/" + blog + "/index.html",
-          "<section>REPLACEMENT</section>"
+          "<section>NEW COMMENTS</section>"
         );
       }
     }
