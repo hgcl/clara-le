@@ -3,10 +3,8 @@
  */
 
 import { writeFileSync } from "fs";
-import getPosts from "./getPosts.js";
 import { Feed } from "feed";
 
-const NOTES_DIR = "posts";
 const PUBLIC_DIR = "./public/";
 const SITE_URL = "https://clarale.com";
 
@@ -63,9 +61,8 @@ function generateFeed(notes) {
   return feed.rss2();
 }
 
-export default async function process() {
+export default async function generateRss(notes) {
   try {
-    const notes = await getPosts(NOTES_DIR);
     const filteredNotes = notes
       .filter((note) => !note.dataTag.includes("tiny")) // excludes tiny notes from RSS
       .sort(

@@ -1,3 +1,9 @@
+/**
+ * What is the getPosts function?
+ * Input: a subdirectory of the pages directory, for instance `posts`
+ * Output: array of all posts in this directory, each object listing the metadata of a post (i.e. title, subtitle, etc.)
+ */
+
 import { load } from "js-yaml";
 import { readdir, readFile } from "fs/promises";
 import { unified } from "unified";
@@ -7,6 +13,7 @@ import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import { minify as minifier } from "html-minifier-terser";
 import * as path from "path";
+
 const PAGES_DIR = `./pages`;
 
 /**
@@ -82,6 +89,7 @@ function countWords(article) {
   return article.trim().split(/\s+/).length;
 }
 
+// If `withPostContent = true` returns content as html as well
 export default async function getPosts(dirCategory, withPostContent = false) {
   const files = await readdir(PAGES_DIR + "/" + dirCategory);
   const posts = await Promise.all(
