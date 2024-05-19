@@ -1,16 +1,12 @@
 /**
- * This script generates scripts/postIndex.js (all post index)
- * that is used for the search feature
+ * This script generates scripts/postIndex.js (all post index) that is used for the search feature
+ * Input: all posts data
+ * Output: postIndex.js
  */
 
-import getPosts from "./getPosts.js";
-import { getRecipes } from "./generateRecipePost.js";
 import { writeFileSync } from "fs";
 const POST_INDEX = `./public/scripts/postIndex.js`;
-const POSTS_CAT = "posts";
-const RECIPES_CAT = "recipes";
-const LEARN_CAT = "learning";
-const MEDIA_CAT = "media";
+const RECIPES_DIR = `recipes`;
 
 function htmlToJson(html) {
   return html
@@ -47,7 +43,7 @@ function mapJson(posts, learningPosts, mediaPosts, recipes) {
       (recipe, index) =>
         `{ id: ${index + postsNumber}, directory: "Recipes", title: "${
           recipe.title
-        }", slug: "${"/" + RECIPES_CAT + "/" + recipe.slug}", dateCreated: "${
+        }", slug: "${"/" + RECIPES_DIR + "/" + recipe.slug}", dateCreated: "${
           recipe.dateCreated
         }", content: "${recipe.intro} ${recipe.ingredients[0].ingMand.join(
           ", "
@@ -57,12 +53,13 @@ function mapJson(posts, learningPosts, mediaPosts, recipes) {
   return allPosts + recipes;
 }
 
-export default async function process() {
+export default async function process(
+  posts,
+  learningPosts,
+  mediaPosts,
+  recipes
+) {
   try {
-    const posts = await getPosts(POSTS_CAT, true);
-    const learningPosts = await getPosts(LEARN_CAT, true);
-    const mediaPosts = await getPosts(MEDIA_CAT, true);
-    const recipes = await getRecipes(RECIPES_CAT);
     const postIndex =
       `export default [` +
       mapJson(posts, learningPosts, mediaPosts, recipes) +
