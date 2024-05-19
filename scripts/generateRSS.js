@@ -61,7 +61,7 @@ function generateFeed(notes) {
   return feed.rss2();
 }
 
-export default async function generateRss(notes) {
+export default async function process(notes) {
   try {
     const filteredNotes = notes
       .filter((note) => !note.dataTag.includes("tiny")) // excludes tiny notes from RSS
@@ -74,6 +74,6 @@ export default async function generateRss(notes) {
     writeFileSync(PUBLIC_DIR + "feed.xml", feed, "utf8");
     console.log("Generated RSS feed.");
   } catch (error) {
-    throw new Error(`Failed to generate data: ${error}`);
+    throw new Error(`Failed to generate RSS data: ${error}`);
   }
 }

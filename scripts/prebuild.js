@@ -1,14 +1,14 @@
 import getAllPosts from "./getAllPosts.js";
-
 import generateRSS from "./generateRSS.js";
 import generateRecipePost from "./generateRecipePost.js";
 import generatePostIndex from "./generatePostIndex.js";
 
-const { posts, learn, media, recipes } = await getAllPosts();
-console.log(recipes);
+// Get all posts data in one go
+const { blogPosts, learningPosts, mediaPosts, recipePosts } =
+  await getAllPosts();
 
 Promise.all([
-  generateRSS(posts),
-  // , generateRecipePost()
-  generatePostIndex(posts, learn, media, recipes),
+  generateRSS(blogPosts),
+  generateRecipePost(recipePosts),
+  generatePostIndex(blogPosts, learningPosts, mediaPosts, recipePosts),
 ]);

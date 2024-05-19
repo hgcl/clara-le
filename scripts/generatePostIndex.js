@@ -5,7 +5,7 @@
  */
 
 import { writeFileSync } from "fs";
-const POST_INDEX = `./public/scripts/postIndex.js`;
+const POST_INDEX_PATH = `./public/scripts/postIndex.js`;
 const RECIPES_DIR = `recipes`;
 
 function htmlToJson(html) {
@@ -19,8 +19,8 @@ function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-function mapJson(posts, learningPosts, mediaPosts, recipes) {
-  let allPosts = posts.concat(learningPosts).concat(mediaPosts); // concat all articles that follow the same original JSON structure
+function mapJson(blogPosts, learningPosts, mediaPosts, recipePosts) {
+  let allPosts = blogPosts.concat(learningPosts).concat(mediaPosts); // concat all articles that follow the same original JSON structure
   let postsNumber = allPosts.length; // so that we can continue the ids from there
   allPosts = allPosts
     .map(
@@ -38,7 +38,7 @@ function mapJson(posts, learningPosts, mediaPosts, recipes) {
     .join("");
 
   // TODO: get full recipe in content. For now, I only get a section of the ingredients.
-  recipes = recipes
+  recipePosts = recipePosts
     .map(
       (recipe, index) =>
         `{ id: ${index + postsNumber}, directory: "Recipes", title: "${
@@ -50,23 +50,23 @@ function mapJson(posts, learningPosts, mediaPosts, recipes) {
         )}"},`
     )
     .join("");
-  return allPosts + recipes;
+  return allPosts + recipePosts;
 }
 
 export default async function process(
-  posts,
+  blogPosts,
   learningPosts,
   mediaPosts,
-  recipes
+  recipePosts
 ) {
   try {
     const postIndex =
       `export default [` +
-      mapJson(posts, learningPosts, mediaPosts, recipes) +
+      mapJson(blogPosts, learningPosts, mediaPosts, recipePosts) +
       `];`;
-    writeFileSync(POST_INDEX, postIndex, "utf8");
+    writeFileSync(POST_INDEX_PATH, postIndex, "utf8");
     console.log("Generated postIndex.js.");
   } catch (error) {
-    throw new Error(`Failed to generate data: ${error}`);
+    throw new Error(`Failed to generate postIndex.js data: ${error}`);
   }
 }
