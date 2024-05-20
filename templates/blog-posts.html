@@ -6,9 +6,20 @@
     <meta name="description" content="{{subtitle}}" />
     {{/subtitle}}
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/global-20240516.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/global-20240517.css" type="text/css" />
     <style>
-      /* Comment section */
+      /* Comment form */
+      .ohsomehoney {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
+      }
+
+      /* Boxed content */
       .boxed-content {
         text-align: center;
         font-size: var(--font-xs);
@@ -31,6 +42,18 @@
       }
       .boxed-content > button {
         margin: 1rem;
+        border-color: var(--white);
+        color: var(--white);
+      }
+      .boxed-content > button:hover,
+      .boxed-content > button:focus {
+        color: var(--blue);
+      }
+
+      /* Comments */
+      #comments article {
+        border-bottom: solid 1px var(--color-text-subtle);
+        padding: 0.5rem 0;
       }
     </style>
     <meta name="viewport" content="width=device-width" />
@@ -149,12 +172,12 @@
       </div>
       <article class="center e-content">{{> content}}</article>
       <form
-        hidden
+        id="comment-form"
         class="boxed-content center"
         method="POST"
-        action="https://staticman-31xs.onrender.com/v2/entry/hgcl/clara-le/main/comments"
+        action="https://clarale-staticman.adaptable.app/v2/entry/hgcl/clara-le/main/comments"
       >
-        <h2 class="label">Leave a comment (not working yet)</h2>
+        <h2 class="label">Leave a comment</h2>
         <input
           name="options[redirect]"
           type="hidden"
@@ -162,19 +185,48 @@
         />
         <input id="slug" name="options[slug]" type="hidden" value="" />
         <div>
-          <label for="name">Name</label
-          ><input id="name" name="fields[name]" type="text" required />
+          <label for="namehjk">Your name</label
+          ><input
+            id="namehjk"
+            name="fields[name]"
+            type="text"
+            maxlength="100"
+            required
+          />
         </div>
+        <!-- <div>
+          <label for="emailhjk">Email (optional)</label
+          ><input id="emailhjk" name="fields[email]" type="email" />
+        </div> -->
         <div>
-          <label for="email">Email (optional)</label
-          ><input id="email" name="fields[email]" type="email" />
+          <label for="messagehjk">Message</label
+          ><textarea id="messagehjk" name="fields[message]" required></textarea>
         </div>
-        <div>
-          <label for="message">Message</label
-          ><textarea id="message" name="fields[message]" required></textarea>
+        <!-- H o n e y p o t -->
+        <div class="ohsomehoney" aria-hidden="true">
+          <label for="name"></label>
+          <input
+            autocomplete="false"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name here"
+          />
+        </div>
+        <div class="ohsomehoney" aria-hidden="true">
+          <label for="email"></label>
+          <input
+            autocomplete="false"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your e-mail here"
+          />
         </div>
         <button type="submit">Submit message</button>
       </form>
+      <!-- DO NOT RENAME FOLLOWING COMMENTS LINE -->
+      <section hidden>Comments injected here</section>
     </main>
     <footer>
       <a href="#main-section"
@@ -239,9 +291,22 @@
   <!-- COMMENTS -->
   <!-- TODO get slug during build to avoid using JS for comments -->
   <script type="module">
-    import { slugify } from "/scripts/slugify.js";
-
     let slug = document.getElementById("slug");
-    slug.value = slugify(location.pathname);
+    slug.value = location.pathname.split("/").pop();
+
+    // Handle comment form submit
+    const commentForm = document.getElementById("comment-form");
+    commentForm.addEventListener("submit", (e) => {
+      const formData = new FormData(e.target);
+      if (formData.get("name") !== "" || formData.get("email") !== "") {
+        // Form submission is spam
+        e.preventDefault();
+        return false;
+      }
+      // Form submission is valid, proceed with processing
+      return alert(
+        "Your comment will be manually reviewed before being published."
+      );
+    });
   </script>
 </html>
