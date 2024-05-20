@@ -13,14 +13,14 @@ async function getBuiltPosts() {
     for (const blog of blogDir) {
       // Condition 1: Ignore the index.html file at the root of dist/posts
       // Condition 2: Blog posts has comments
-      if (blog !== "index.html" && commentDir.includes("posts-" + blog)) {
-        const commentGroup = await readdir(COMMENTS_DIR + "/posts-" + blog);
+      if (blog !== "index.html" && commentDir.includes(blog)) {
+        const commentGroup = await readdir(COMMENTS_DIR + "/" + blog);
         let collatedComments = "";
         await Promise.all(
           commentGroup
             .map(async (file) => {
               const rawComment = await readFile(
-                COMMENTS_DIR + "/posts-" + blog + "/" + file,
+                COMMENTS_DIR + "/" + blog + "/" + file,
                 "utf-8"
               );
               let commentYAML = yaml.load(rawComment);
