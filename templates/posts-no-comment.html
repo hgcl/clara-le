@@ -183,12 +183,4 @@
       .querySelector("#search-submit")
       .addEventListener("click", searchPosts);
   </script>
-  <!-- COMMENTS -->
-  <!-- TODO get slug during build to avoid using JS for comments -->
-  <script type="module">
-    import { slugify } from "/scripts/slugify.js";
-
-    let slug = document.getElementById("slug");
-    slug.value = slugify(location.pathname);
-  </script>
 </html>
