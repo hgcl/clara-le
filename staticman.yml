@@ -35,7 +35,7 @@ comments:
     date:
       type: date
       options:
-        format: "timestamp"
+        format: "timestamp-seconds"
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.

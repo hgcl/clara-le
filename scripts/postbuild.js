@@ -28,9 +28,9 @@ async function getBuiltPosts() {
               <p class="label divide-list"><span>${
                 commentYAML.name
               }</span><time datetime="${new Date(
-                commentYAML.date
+                commentYAML.date * 1000
               ).toLocaleDateString("fr-CA")}" class="dt-published">${new Date(
-                commentYAML.date
+                commentYAML.date * 1000
               ).toLocaleDateString("fr-CA")}</time></p>
               <p class="comment-message">${commentYAML.message}</p>
             </article>`;
