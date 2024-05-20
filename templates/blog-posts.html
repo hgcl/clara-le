@@ -215,9 +215,7 @@
   <!-- COMMENTS -->
   <!-- TODO get slug during build to avoid using JS for comments -->
   <script type="module">
-    import { slugify } from "/scripts/slugify.js";
-
     let slug = document.getElementById("slug");
-    slug.value = slugify(location.pathname);
+    slug.value = location.pathname.split("/").pop();
   </script>
 </html>
