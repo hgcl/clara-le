@@ -7,6 +7,17 @@
     {{/subtitle}}
     <link rel="stylesheet" href="/fonts.css" type="text/css" />
     <link rel="stylesheet" href="/styles/global-20240517.css" type="text/css" />
+    <style>
+      .ohsomehoney {
+        opacity: 0;
+        position: absolute;aria-hidden
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
+      }
+    </style>
     <meta name="viewport" content="width=device-width" />
     <meta property="og:site_name" content="Clara Le" />
     <meta property="og:title" content="{{title}}" />
@@ -123,10 +134,10 @@
       </div>
       <article class="center e-content">{{> content}}</article>
       <form
+        id="comment-form"
         class="boxed-content center"
         method="POST"
         action="https://clarale-staticman.adaptable.app/v2/entry/hgcl/clara-le/main/comments"
-        onsubmit="return alert('Your comment will be manually reviewed before being published.');"
       >
         <h2 class="label">Leave a comment</h2>
         <input
@@ -136,16 +147,43 @@
         />
         <input id="slug" name="options[slug]" type="hidden" value="" />
         <div>
-          <label for="name">Name</label
-          ><input id="name" name="fields[name]" type="text" required />
+          <label for="namehjk">Your name</label
+          ><input
+            id="namehjk"
+            name="fields[name]"
+            type="text"
+            maxlength="100"
+            required
+          />
         </div>
         <!-- <div>
-          <label for="email">Email (optional)</label
-          ><input id="email" name="fields[email]" type="email" />
+          <label for="emailhjk">Email (optional)</label
+          ><input id="emailhjk" name="fields[email]" type="email" />
         </div> -->
         <div>
-          <label for="message">Message</label
-          ><textarea id="message" name="fields[message]" required></textarea>
+          <label for="messagehjk">Message</label
+          ><textarea id="messagehjk" name="fields[message]" required></textarea>
+        </div>
+        <!-- H o n e y p o t -->
+        <div class="ohsomehoney" aria-hidden="true">
+          <label for="name"></label>
+          <input
+            autocomplete="false"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name here"
+          />
+        </div>
+        <div class="ohsomehoney" aria-hidden="true">
+          <label for="email"></label>
+          <input
+            autocomplete="false"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your e-mail here"
+          />
         </div>
         <button type="submit">Submit message</button>
       </form>
@@ -217,5 +255,20 @@
   <script type="module">
     let slug = document.getElementById("slug");
     slug.value = location.pathname.split("/").pop();
+
+    // Handle comment form submit
+    const commentForm = document.getElementById("comment-form");
+    commentForm.addEventListener("submit", (e) => {
+      const formData = new FormData(e.target);
+      if (formData.get("name") !== "" || formData.get("email") !== "") {
+        // Form submission is spam
+        e.preventDefault();
+        return false;
+      }
+      // Form submission is valid, proceed with processing
+      return alert(
+        "Your comment will be manually reviewed before being published."
+      );
+    });
   </script>
 </html>
