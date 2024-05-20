@@ -43,7 +43,7 @@ I found that [Staticman](https://staticman.net/) was ticking all these boxes. Di
 - **Create a bot account** — I created another GitHub account[^3], to which I gave writing access to this website repository. This second account is used as a "bot" to handle comments through Staticman.
 - **Deploy the web service** — On the bot account, I forked the main [Staticman repo](https://github.com/eduardoboucas/staticman). That fork was used to deploy my own web service.
 - **Access permissions** — The Staticman app uses a GitHub "personal access token" to interact with the bot account (to create PRs). It is saved on the server as an environment variable.
-- **Add a webhook** — As a final touch, I added a webhook[^4] to this website repo. Basically, once a PR for a new comment is approved and merged, GitHub automatically sends out a `POST` request to Staticman through this webhook. The bot will then delete the branch that was created for this PR and keep the repo tidy.
+- **Add a webhook** — As a final touch, I added a webhook to this website repo. Basically, once a PR for a new comment is approved and merged, GitHub automatically sends out a `POST` request to Staticman through this webhook. The bot will then delete the branch that was created for this PR and keep the repo tidy.
 
 ## 3. Create a comment form
 
@@ -63,12 +63,11 @@ I didn't really want the full reCAPTCHA shenanigan. This is an MVP, so I just we
 
 ---
 
-All in all, I now have a working (_fingers crossed_) comment feature. It is still quite minimal, not allowing for replies or notifications.[^5] If you notice anything breaking, please let me know!
+All in all, I now have a working (_fingers crossed_) comment feature. It is still quite minimal, not allowing for replies or notifications.[^4] If you notice anything breaking, please let me know!
 
 Until then {end-key}
 
 [^1]: (1) Being constantly on the move, and (2) my laptop being unusable for a few months.
-[^2]: (1) It is not actively maintained anymore, but still working for many. (2) It seems overcomplicated / resource intensive for something that could be done with Cloudflare workers. BUT I still need to learn how to use these first.
+[^2]: (1) It is not actively maintained anymore, but still working for many. (2) It seems overcomplicated / resource intensive for something that could be done with Cloudflare workers. The problem is I need to learn how to use these first.
 [^3]: You could also skip the bot and give Staticman access to your main account, but it is seriously NOT recommended for security reasons.
-[^4]: A webhook is a way for two web programs to communicate via a URL.
-[^5]: I will also try to upgrade it to serverless functions in the future, but that seems so above my level for now. I'll probably just postpone it until Robin shows me how to do it. Or I'll do it, break it, and force him to help me.
+[^4]: I will also try to upgrade it to serverless functions in the future, but that seems so above my current level. I'll probably just postpone it until Robin shows me how to do it. Or I'll do it, break it, and force him to help me.
