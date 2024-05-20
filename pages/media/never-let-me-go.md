@@ -1,5 +1,5 @@
 ---
-template: /templates/blog-posts.html
+template: /templates/posts-no-comment.html
 buildScript: "/scripts/formatPostDetails.js"
 title: "Never Let Me Go"
 author: ["Kazuo Ishiguro"]

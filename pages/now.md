@@ -1,5 +1,5 @@
 ---
-template: /templates/blog-posts.html
+template: /templates/posts-no-comment.html
 buildScript: "/scripts/formatPostDetails.js"
 dateCreated: "2024-04-30"
 title: "Now"
