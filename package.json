@@ -7,6 +7,7 @@
     "build": "brut",
     "prebuild": "node scripts/prebuild.js",
     "postbuild": "node scripts/postbuild.js",
+    "test-postbuild": "brut && node scripts/postbuild.js && serve dist",
     "test": "start-server-and-test start http://localhost:3000 'PW_EXPERIMENTAL_TS_ESM=1 npx playwright test --browser=all'"
   },
   "devDependencies": {
