@@ -292,7 +292,9 @@
   <!-- TODO get slug during build to avoid using JS for comments -->
   <script type="module">
     let slug = document.getElementById("slug");
-    slug.value = location.pathname.split("/").pop();
+    // Gets the name of the post only (e.g. 47-four-months-on-the-road), the previous to last item in the splitPath array.
+    const splitPath = location.pathname.split("/");
+    slug.value = splitPath[splitPath.length - 2];
 
     // Handle comment form submit
     const commentForm = document.getElementById("comment-form");
