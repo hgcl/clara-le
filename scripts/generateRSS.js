@@ -64,7 +64,6 @@ function generateFeed(notes) {
 export default async function process(notes) {
   try {
     const filteredNotes = notes
-      .filter((note) => !note.dataTag.includes("tiny")) // excludes tiny notes from RSS
       .sort(
         (a, b) =>
           new Date(b.dateCreated).getTime() - new Date(a.dateCreated).getTime()

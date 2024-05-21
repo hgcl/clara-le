@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "Free Solo (2018)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-11-26"
-dataTag: ["review", "tiny"]
+dataTag: ["review"]
 ---
 
 _Directed by Elizabeth Chai Vasarhelyi and Jimmy Chin_

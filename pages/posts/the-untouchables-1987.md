@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "The Untouchables (1987)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-12-11"
-dataTag: ["review", "tiny"]
+dataTag: ["review"]
 ---
 
 _Directed by Brian De Palma_

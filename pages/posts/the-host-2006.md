@@ -4,7 +4,7 @@ buildScript: "/scripts/formatPostDetails.js"
 title: "The Host (2006)"
 subtitle: "A tiny note about the movie"
 dateCreated: "2020-12-12"
-dataTag: ["review", "tiny"]
+dataTag: ["review"]
 ---
 
 _Directed by Bong Joon-ho_
