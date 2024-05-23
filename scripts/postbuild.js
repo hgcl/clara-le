@@ -19,7 +19,12 @@ async function getBuiltPosts() {
         await Promise.all(
           [...commentGroup]
             // Sort by filename (most recent comment)
-            .sort((a, b) => b.localeCompare(a))
+            .sort((a, b) =>
+              b.localeCompare(a, undefined, {
+                numeric: true,
+                ignorePunctuation: true,
+              })
+            )
             // Map comment html
             .map(async (file) => {
               const rawComment = await readFile(
