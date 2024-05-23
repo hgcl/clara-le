@@ -18,6 +18,9 @@ async function getBuiltPosts() {
         let collatedComments = "";
         await Promise.all(
           commentGroup
+            // Sort by filename (most recent comment first)
+            .sort((a, b) => b.localeCompare(a))
+            // Map comment html
             .map(async (file) => {
               const rawComment = await readFile(
                 COMMENTS_DIR + "/" + blog + "/" + file,
@@ -35,8 +38,6 @@ async function getBuiltPosts() {
               <p class="comment-message">${commentYAML.message}</p>
             </article>`;
             })
-            // Sort entries by date (descending order)
-            .sort((a, b) => new Date(b.date) - new Date(a.date))
         );
         injectComments(
           OUT_DIR + "/" + POSTS_DIR + "/" + blog + "/index.html",
