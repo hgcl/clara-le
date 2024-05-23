@@ -17,7 +17,7 @@ async function getBuiltPosts() {
         const commentGroup = await readdir(COMMENTS_DIR + "/" + blog);
         let collatedComments = "";
         await Promise.all(
-          commentGroup
+          [...commentGroup]
             // Sort by filename (most recent comment)
             .sort((a, b) =>
               b.localeCompare(a, undefined, {
