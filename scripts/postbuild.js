@@ -1,4 +1,5 @@
 import { readdir, readFile, writeFile } from "fs/promises";
+import { readdirSync } from "fs";
 import yaml from "js-yaml";
 
 const OUT_DIR = `./dist`;
@@ -14,17 +15,12 @@ async function getBuiltPosts() {
       // Condition 1: Ignore the index.html file at the root of dist/posts
       // Condition 2: Blog posts has comments
       if (blog !== "index.html" && commentDir.includes(blog)) {
-        const commentGroup = await readdir(COMMENTS_DIR + "/" + blog);
+        const commentGroup = readdirSync(COMMENTS_DIR + "/" + blog);
         let collatedComments = "";
         await Promise.all(
-          [...commentGroup]
+          commentGroup
             // Sort by filename (most recent comment)
-            .sort((a, b) =>
-              b.localeCompare(a, undefined, {
-                numeric: true,
-                ignorePunctuation: true,
-              })
-            )
+            .sort((a, b) => b.localeCompare(a))
             // Map comment html
             .map(async (file) => {
               const rawComment = await readFile(
