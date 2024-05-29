@@ -1,14 +1,12 @@
 node_modules
 dist
+_site
 
 # All files starting with a dot
 .*.md
 .*.html
 .*.js
 .*.json
-.env
-.post-templates
 
 # Generated files during prebuild
 feed.xml
-/pages/recipes/*.html

@@ -226,6 +226,8 @@ dialog .close-button {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* If .post-header is on the same tag as .headline-row, need to cancel previous CSS */
