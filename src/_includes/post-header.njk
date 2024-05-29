@@ -12,6 +12,8 @@
     ></div>
     {% endif %}
   </div>
+  {# Only show subtitles, dates, etc. in post-header if the page includes dateCreated #}
+  {% if dateCreated %}
   <p class="label divide-list center">
     {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
     {# TODO format datetime in time tag #}
@@ -20,4 +22,5 @@
     {% if tags %} <span class="post-data-tags">{{ tags }}</span>{% endif %} {%
     if author %}<span>{{ author }}</span>{% endif %}
   </p>
+  {% endif %}
 </div>
