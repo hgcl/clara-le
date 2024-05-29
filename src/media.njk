@@ -1,0 +1,228 @@
+---
+title: Media
+description: TODO
+---
+
+{% extends "layout-basic.njk" %} 
+
+{% block customstyles %}
+{# TODO check styles and update if necessary #}
+<style>
+  /* radio options */
+  #media fieldset {
+    width: fit-content;
+    display: flex;
+    gap: var(--space-s);
+    margin-top: var(--space-s);
+    /* reset */
+    padding: 0;
+    border: none;
+  }
+  #media fieldset legend {
+    float: left;
+  }
+  #media fieldset > div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+  }
+  #media fieldset > div > * {
+    cursor: pointer;
+  }
+  #media fieldset > div input {
+    appearance: none;
+    width: 5px;
+    height: 5px;
+  }
+  #media fieldset > div input:checked {
+    background-color: var(--color-text);
+    border-radius: 1000px;
+  }
+
+  #media.media-layout-list {
+    /* same as .center */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--article-width);
+  }
+  #media.media-layout-grid ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: var(--space-2xl);
+    grid-column-gap: var(--space-s);
+  }
+  #media li {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%; /* makes sure that rows stack vertically only */
+  }
+  #media.media-layout-grid li a {
+    height: 100%;
+  }
+  #media.media-layout-grid li .list-title {
+    /* show h3 only */
+    display: none;
+  }
+  #media.media-layout-grid li .post-title {
+    opacity: 0;
+    /* overlay on image */
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: var(--space-m);
+    color: var(--white);
+    /* center vertically */
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+  #media.media-layout-grid li > a:hover .post-title,
+  #media.media-layout-grid li > a:focus .post-title,
+  #media.media-layout-grid li > a:active .post-title {
+    opacity: 1;
+  }
+  #media.media-layout-list li > a > div {
+    display: none;
+  }
+  #media.media-layout-grid li > a {
+    display: block;
+  }
+  #media.media-layout-grid li > a img {
+    height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+  }
+  #media li .label {
+    /* align with posts.html */
+    display: block;
+    margin-top: 0.25rem;
+  }
+  @media only screen and (min-width: 768px) {
+    #media.media-layout-grid ul {
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      grid-row-gap: var(--space-5xl);
+      grid-column-gap: var(--space-xl);
+    }
+  }
+</style>
+{% endblock %} 
+
+{% block article %}
+<section id="media" class="media-layout-grid">
+  <div class="post-header">
+    <div class="headline-row">
+      <h1>Media</h1>
+      <div
+        aria-hidden="true"
+        class="icon"
+        style="mask-image: url('/graphics/drawing-camera.svg')"
+      ></div>
+    </div>
+    <p class="intro">
+      A curated and non-exhaustive list of books, movies and series I loved and
+      would recommend.
+    </p>
+  </div>
+  <div class="posts-filter">
+    <div>
+      <label for="category-select">Filter by category</label>
+      <select
+        id="category-select"
+        aria-describedby="notes-filter-js-warning"
+        onchange="filterNotes(this.value)"
+      >
+        <option value="">All</option>
+        <option value="book">Books</option>
+        <option value="movie">Movies</option>
+        <option value="tv series">TV series</option>
+      </select>
+    </div>
+    <fieldset id="layout-swap" class="center">
+      <legend>Choose a layout:</legend>
+      <div>
+        <input type="radio" id="grid" name="layout-swap" value="grid" checked />
+        <label for="grid">Grid</label>
+      </div>
+      <span aria-hidden="true">&#47;</span>
+      <div>
+        <input type="radio" id="list" name="layout-swap" value="list" />
+        <label for="list">List</label>
+      </div>
+    </fieldset>
+    <p id="notes-filter-js-warning" class="subtle">
+      <em>Enable JavaScript to use filters.</em>
+    </p>
+  </div>
+  <ul>
+    {% for post in collections.media %}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}
+
+{% block script %}
+<script>
+  const allNotes = document.querySelectorAll(`li[data-tag]`);
+  const selectElement = document.getElementById("category-select");
+  // remove no JS warning
+  const notesFilterJSWarning = document
+    .getElementById("notes-filter-js-warning")
+    .remove();
+
+  /**
+   * This gets triggered when a user changes the value of the select
+   */
+  function filterNotes(category) {
+    // update URL onclick
+    updateURL(category);
+    // remove previous filter (show all notes)
+    allNotes.forEach((note) =>
+      note.setAttribute("style", "display:inline-block")
+    );
+    // add hidden attributes to notes that don't have the chosen category in data-tag
+    if (category) {
+      selectElement.value = category;
+      let filteredNotes = [];
+      allNotes.forEach((note) => {
+        if (note.dataset.tag.split(",").includes(category)) {
+          filteredNotes.push(note);
+        } else {
+          note.setAttribute("style", "display:none");
+        }
+      });
+    }
+  }
+
+  // get current URL
+  let currentUrl = new URL(window.location.href);
+  const searchParams = new URLSearchParams(currentUrl.search);
+  // apply URL filter to open page if not "All" filter selected
+  if (searchParams.get("q")) {
+    filterNotes(searchParams.get("q"));
+  }
+
+  // align selected category with URL
+  function updateURL(category) {
+    if (category) {
+      currentUrl.searchParams.set("q", category);
+    } else {
+      // delete current query to support "All" filter
+      currentUrl.searchParams.delete("q");
+    }
+    history.pushState({}, "", currentUrl);
+  }
+
+  /**
+   * Layout shift from grid to list (and vice-versa)
+   */
+  const mainContainer = document.getElementById("media");
+  const cardLinkEls = [...document.querySelectorAll(".card > a")];
+  document.getElementById("layout-swap").addEventListener("change", () => {
+    mainContainer.classList.toggle("media-layout-grid");
+    mainContainer.classList.toggle("media-layout-list");
+    cardLinkEls.forEach((el) => el.classList.toggle("card-link"));
+  });
+</script>
+{% endblock %}

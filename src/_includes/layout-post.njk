@@ -1,0 +1,21 @@
+{% extends "layout-basic.njk" %}
+
+{% block customstyles %}
+  <style>
+    body {
+      background: green;
+    }
+  </style>
+{% endblock %}
+
+{% block article %}
+{# TODO Add rest of template, h-entry, etc. #}
+{# h-entry, e-content are microformats. Don't use for styling! #}
+{# Microformats docs: https://microformats.org/wiki/h-entry #}
+<article class="center h-entry">
+  {% include 'post-header.njk' %}
+  <div class="e-content">{{ content | safe }}</div>
+</article>
+{% include 'comment-form.njk' %}
+{# TODO inject comments #}
+{% endblock %}

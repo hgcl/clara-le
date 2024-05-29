@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/styles/global.css" type="text/css" />
+    {% block customstyles %}
+    {% endblock %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:site_name" content="Clara Le" />
+    <meta property="og:title" content="{{ title }}" />
+    {% if description %}
+    <meta name="description" content="{{ description }}" />
+    {% endif %}
+    <title>{{ title }} | Clara Le</title>
+    {# Favicon  #}
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>"
+    />
+    {# RSS #}
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="/feed.xml"
+      title="Clara Le"
+    />
+    {# IndieWeb auth #}
+    {# TODO only display on index.html? #}
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+    <link href="https://github.com/hgcl" rel="me" />
+  </head>
+  <body>
+    {# TODO add deco items in global.css #}
+    <div class="deco-vert-1 bg-deco" aria-hidden="true"></div>
+    <div class="deco-vert-2 bg-deco" aria-hidden="true"></div>
+    <header>
+      <a class="skip-to-content button" href="#main-section">Skip to content</a>
+      <nav>
+        <button
+          class="secondary-link hide"
+          id="menu-button"
+          aria-haspopup="true"
+        >
+          Menu
+        </button>
+        <ul id="menu">
+          {# Automatically adds nav items with Nunjucks #}
+          {% for item in navigationLinks %}
+          <li>
+            <a class="secondary-link" href="{{ item.url }}"
+              >{{ item.title }}</a
+            >
+          </li>
+          {% endfor %}
+          <li>
+            <button id="show-search" class="secondary-link">
+              <div
+                aria-hidden="true"
+                class="icon"
+                style="mask-image: url('/img/meta/search-icon.svg')"
+              ></div>
+              Search
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="deco-horiz-1 bg-deco" aria-hidden="true"></div>
+      {# Search dialog #}
+      <dialog id="search-dialog" class="center">
+        <button class="close-button">
+          <span class="sr-only">Close</span
+          ><span aria-hidden="true">&#x2715;</span>
+        </button>
+        <form role="search">
+          <label for="search-bar">Search posts</label>
+          <div>
+            <input
+              type="search"
+              id="search-bar"
+              autocomplete="none"
+              autocorrect="none"
+              autocapitalize="none"
+              spellcheck="false"
+            />
+            <button id="search-submit">Submit</button>
+          </div>
+        </form>
+        <ul class="result-list nobullet post-rows"></ul>
+      </dialog>
+    </header>
+    {# This main-section ID is used for the skip-to-content #}
+    <main id="main-section">
+      {# Grab the content from the page data, dump it here, and mark it as safe #}
+      {# Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe #}
+      {% block article %}
+      {{ content | safe }}
+      {% endblock %}
+    </main>
+    <footer>
+      <a href="#main-section"
+        >Back to top<span aria-hidden="true">&nbsp;&uarr;</span></a
+      >
+      <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
+    </footer>
+  </body>
+  {# TODO check if script tags should be inside of body #}
+  {% block script %}
+  {% endblock %}
+</html>

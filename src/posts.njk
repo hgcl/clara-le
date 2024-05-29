@@ -1,0 +1,31 @@
+---
+title: Musings
+icon: TODO
+description: Expect half-formed thoughts, doodles, full-fledged posts or anything in between.
+---
+
+{% extends "layout-basic.njk" %} 
+
+{% block customstyles %}
+{# TODO add styles #}
+{% endblock %}
+
+{% block article %}
+<h1>{{ title }}</h1>
+
+{# Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ #}
+{% for yearCreated, posts in collections.posts | groupby("data.yearCreated") | dictsort | reverse %}
+  <h2>{{ yearCreated }}</h2>
+  <ul class="nobullet post-rows">
+    {% for post in posts | reverse %}
+    <li>
+      <time class="label dt-duration" datetime="{{ post.data.dateCreated }}">{{ post.data.dateCreated | formatDate }}</time>
+      <span class="details">
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+        <span class="subtle">{{ post.data.subtitle }}</span>
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+{% endblock %}

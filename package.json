@@ -1,26 +1,21 @@
 {
-  "name": "clara-le",
-  "private": "true",
-  "type": "module",
+  "name": "eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "brut && serve dist",
-    "build": "brut",
-    "prebuild": "node scripts/prebuild.js",
-    "postbuild": "node scripts/postbuild.js",
-    "test-postbuild": "brut && node scripts/postbuild.js && serve dist",
-    "test": "start-server-and-test start http://localhost:3000 'PW_EXPERIMENTAL_TS_ESM=1 npx playwright test --browser=all'"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": {
+    "name": "Clara Le",
+    "url": "https://clarale.com/"
+  },
+  "license": "ISC",
   "devDependencies": {
-    "@tsconfig/node14": "^1.0.1",
-    "@types/js-yaml": "^4.0.4",
-    "@types/node": "^16.11.7",
-    "brut": "^0.0.30",
-    "dotenv": "^16.0.0",
-    "feed": "^4.2.2",
-    "gray-matter": "^4.0.3",
-    "js-yaml": "^4.1.0",
-    "node-fetch": "^3.2.2",
-    "serve": "^14.1.2",
-    "start-server-and-test": "^2.0.3"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   }
 }

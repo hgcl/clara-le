@@ -1,0 +1,23 @@
+<div class="post-header">
+  <div class="headline-row">
+    <h1 class="p-name">{{ title }}{% if year %} ({{ year }}){% endif %}</h1>
+    <a rel="author" class="p-author h-card hide" href="https://clarale.com"
+      >Clara Le</a
+    >
+    {% if icon %}
+    <div
+      aria-hidden="true"
+      class="icon"
+      style="mask-image: url('{{ icon }}')"
+    ></div>
+    {% endif %}
+  </div>
+  <p class="label divide-list center">
+    {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
+    {# TODO format datetime in time tag #}
+    <span class="sr-only">Published on</span><time datetime="{{ dateCreated | formatDate }}" class="dt-published">{{ dateCreated | formatDate }}</time>
+    {# TODO do not show nav tags #}
+    {% if tags %} <span class="post-data-tags">{{ tags }}</span>{% endif %} {%
+    if author %}<span>{{ author }}</span>{% endif %}
+  </p>
+</div>
