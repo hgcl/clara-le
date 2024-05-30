@@ -98,12 +98,15 @@
       {{ content | safe }}
       {% endblock %}
     </main>
-    <footer>
-      <a href="#main-section"
-        >Back to top<span aria-hidden="true">&nbsp;&uarr;</span></a
-      >
-      <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
-    </footer>
+    {# TODO get decoration line out of footer #}
+      <footer>
+        {% block backtotop %}
+        <a href="#main-section"
+          >Back to top<span aria-hidden="true">&nbsp;&uarr;</span></a
+        >
+        {% endblock %}
+        <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
+      </footer>
   </body>
   {# TODO check if script tags should be inside of body #}
   {% block script %}
