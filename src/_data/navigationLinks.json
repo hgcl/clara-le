@@ -1,6 +1,7 @@
-[	
-    {"title": "Home", "url": "/"},	
-    {"title": "Musings", "url": "/posts/"},	
-    {"title": "Media", "url": "/media/"},	
-    {"title": "Uses", "url": "/uses/"}
+[
+  { "title": "Home", "url": "/" },
+  { "title": "About", "url": "/about/" },
+  { "title": "Musings", "url": "/posts/" },
+  { "title": "Media", "url": "/media/" },
+  { "title": "Uses", "url": "/uses/" }
 ]
