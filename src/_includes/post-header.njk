@@ -13,10 +13,15 @@
     {% endif %}
   </div>
   {# Only show subtitles, dates, etc. in post-header if the page includes dateCreated #}
-  {% if dateCreated %}
+  {% if (dateCreated) or (dateModified) %}
   <p class="label divide-list center">
     {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
-    <span class="sr-only">Published on</span><time datetime="{{ dateCreated | formatDate }}" class="dt-published">{{ dateCreated | formatDate }}</time>
+    {# Prioritize dateModifited over dateCreated #}
+    {% if dateModified %}
+      <span class="sr-only">Updated on</span><time datetime="{{ dateModified | formatDate }}" class="dt-updated">{{ dateModified | formatDate }}</time>
+    {%- else -%}
+      <span class="sr-only">Published on</span><time datetime="{{ dateCreated | formatDate }}" class="dt-published">{{ dateCreated | formatDate }}</time>
+    {% endif %}
     {# TODO do not show nav tags #}
     {% if tags %} <span class="post-data-tags">{{ tags }}</span>{% endif %} {%
     if author %}<span>{{ author }}</span>{% endif %}
