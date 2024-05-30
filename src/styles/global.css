@@ -548,6 +548,9 @@ a[id*="user-content-fnref"] {
   /* font styles smaller than body */
   font-size: var(--font-xs);
 }
+.capitalize {
+  text-transform: capitalize;
+}
 .post-rows > li .subtle {
   display: block;
   margin-top: 0.25rem;

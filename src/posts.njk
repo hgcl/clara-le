@@ -3,23 +3,19 @@ title: Musings
 icon: /img/meta/drawing-face.svg
 description: Expect half-formed thoughts, doodles, full-fledged posts or anything in between.
 ---
+
 {% from 'macro/list-filter-selector.njk' import listFilterSelector %}
-
 {% extends "layout/base.njk" %} 
-
-{% block customstyles %}
-{# TODO add styles #}
-{% endblock %}
 
 {% block article %}
 <section class="center" id="posts">
   {% include 'post-header.njk' %}
   <p class="intro center">
     Expect half-formed thoughts, doodles, full-fledged posts or anything in between. All ramblings can be followed through my <a href="/feed.xml">RSS feed</a>. So far, I've written 
-    {# TODO add script for this number #}
-    <span>post number here</span> posts, totaling <span>word count here</span> words (oh my).
+    {# TODO add word count #}
+    {{ collections.posts.length }} posts, totaling <span>word count here</span> words (oh my).
   </p>
-  {# Post filter #}
+  {# POST FILTER SELECTOR #}
   {{ listFilterSelector(['all','creative','digital','french','now','review','thought','update']) }}
 
 {# TODO the post list structure will need to change to work with the post filter #}
