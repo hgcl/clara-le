@@ -5,13 +5,12 @@
     id="category-select"
     aria-describedby="notes-filter-js-warning"
     onchange="filterNotes(this.value)"
+    class="capitalize"
   >
     {% for item in values %}
-    {# TODO capitalize items #}
-    <option value="{{ item }}">{{ item }}</option>
+      <option value="{{ item }}">{{ item }}</option>
     {% endfor %}
   </select>
-  {# TODO find a way to make script work on this snippet #}
   <p id="notes-filter-js-warning" class="subtle">
     <em>Enable JavaScript to use filters.</em>
   </p>
