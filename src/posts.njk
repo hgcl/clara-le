@@ -3,8 +3,9 @@ title: Musings
 icon: /img/meta/drawing-face.svg
 description: Expect half-formed thoughts, doodles, full-fledged posts or anything in between.
 ---
+{% from 'macro/list-filter-selector.njk' import listFilterSelector %}
 
-{% extends "layout-basic.njk" %} 
+{% extends "layout/base.njk" %} 
 
 {% block customstyles %}
 {# TODO add styles #}
@@ -18,28 +19,8 @@ description: Expect half-formed thoughts, doodles, full-fledged posts or anythin
     {# TODO add script for this number #}
     <span>post number here</span> posts, totaling <span>word count here</span> words (oh my).
   </p>
-  {# TODO make a macro for posts-filter #}
   {# Post filter #}
-  <div class="posts-filter">
-    <label for="category-select">Filter by category</label>
-    <select
-      id="category-select"
-      aria-describedby="notes-filter-js-warning"
-      onchange="filterNotes(this.value)"
-    >
-      <option value="">All</option>
-      <option value="creative">Creative</option>
-      <option value="digital">Digital</option>
-      <option value="french">French</option>
-      <option value="now">Now</option>
-      <option value="review">Reviews</option>
-      <option value="thought">Thoughts</option>
-      <option value="update">Updates</option>
-    </select>
-    <p id="notes-filter-js-warning" class="subtle">
-      <em>Enable JavaScript to use filters.</em>
-    </p>
-  </div>
+  {{ listFilterSelector(['all','creative','digital','french','now','review','thought','update']) }}
 
 {# TODO the post list structure will need to change to work with the post filter #}
 {# TODO make a macro so that the post-filter script can be reused elsewhere #}
@@ -62,52 +43,5 @@ description: Expect half-formed thoughts, doodles, full-fledged posts or anythin
 {% endblock %}
 
 {% block script %}
-{# TODO clean up script before creating a macro #}
-<script>
-  const allNotes = document.querySelectorAll(`li[data-tag]`);
-  const selectElement = document.getElementById("category-select");
-  // remove no JS warning
-  document.getElementById("notes-filter-js-warning").remove();
-
-  /**
-   * This gets triggered when a user changes the value of the select
-   */
-  function filterNotes(category) {
-    // update URL onclick
-    updateURL(category);
-    // remove previous filter (show all notes)
-    allNotes.forEach((note) => note.setAttribute("style", "display:flex"));
-    // add hidden attributes to notes that don't have the chosen category in data-tag
-    if (category) {
-      selectElement.value = category;
-      let filteredNotes = [];
-      allNotes.forEach((note) => {
-        if (note.dataset.tag.split(",").includes(category)) {
-          filteredNotes.push(note);
-        } else {
-          note.setAttribute("style", "display:none");
-        }
-      });
-    }
-  }
-
-  // get current URL
-  let currentUrl = new URL(window.location.href);
-  const searchParams = new URLSearchParams(currentUrl.search);
-  // apply URL filter to open page if not "All" filter selected
-  if (searchParams.get("q")) {
-    filterNotes(searchParams.get("q"));
-  }
-
-  // align selected category with URL
-  function updateURL(category) {
-    if (category) {
-      currentUrl.searchParams.set("q", category);
-    } else {
-      // delete current query to support "All" filter
-      currentUrl.searchParams.delete("q");
-    }
-    history.pushState({}, "", currentUrl);
-  }
-</script>
+  {% include 'filter-notes-script.njk' %}
 {% endblock %}

@@ -1,0 +1,47 @@
+<script>
+  const allNotes = document.querySelectorAll(`li[data-tag]`);
+  const selectElement = document.getElementById("category-select");
+  // remove no JS warning
+  document.getElementById("notes-filter-js-warning").remove();
+
+  /**
+   * This function is called when a user changes the value of the select
+   */
+  function filterNotes(category) {
+    // update URL onclick
+    updateURL(category);
+    // remove previous filter (show all notes)
+    allNotes.forEach((note) => note.setAttribute("style", "display:flex"));
+    // add hidden attributes to notes that don't have the chosen category in data-tag
+    if (category) {
+      selectElement.value = category;
+      let filteredNotes = [];
+      allNotes.forEach((note) => {
+        if (note.dataset.tag.split(",").includes(category)) {
+          filteredNotes.push(note);
+        } else {
+          note.setAttribute("style", "display:none");
+        }
+      });
+    }
+  }
+
+  // get current URL
+  let currentUrl = new URL(window.location.href);
+  const searchParams = new URLSearchParams(currentUrl.search);
+  // apply URL filter to open page if not "All" filter selected
+  if (searchParams.get("q")) {
+    filterNotes(searchParams.get("q"));
+  }
+
+  // align selected category with URL
+  function updateURL(category) {
+    if (category) {
+      currentUrl.searchParams.set("q", category);
+    } else {
+      // delete current query to support "All" filter
+      currentUrl.searchParams.delete("q");
+    }
+    history.pushState({}, "", currentUrl);
+  }
+</script>

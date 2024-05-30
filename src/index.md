@@ -1,5 +1,5 @@
 ---
-layout: layout-basic.njk
+layout: layout/base.njk
 title: Home
 description: TODO
 ---
