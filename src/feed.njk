@@ -3,13 +3,13 @@
   "permalink": "feed.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
-    "title": "My Blog about Boats",
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "title": "Clara Le",
+    "subtitle": "Because you somehow want to follow whatever I post",
     "language": "en",
-    "url": "https://example.com/",
+    "url": "https://clarale.com/",
     "author": {
-      "name": "Boaty McBoatFace",
-      "email": "me@example.com"
+      "name": "Clara Le",
+      "email": "hey@clarale.com"
     }
   }
 }
@@ -21,10 +21,7 @@
 	<subtitle>{{ metadata.subtitle }}</subtitle>
 	<link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" />
 	<link href="{{ metadata.url }}" />
-	<updated
-		>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339
-		}}</updated
-	>
+	<updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
 	<id>{{ metadata.url }}</id>
 	<author>
 		<name>{{ metadata.author.name }}</name>
