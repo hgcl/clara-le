@@ -1,0 +1,78 @@
+---
+title: Home
+icon: /img/meta/drawing-v-sign.svg
+description: Clara Le's personal website
+---
+
+{% extends "layout/base.njk" %}
+
+{% block customstyles %}
+<style>
+  #index {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #index > * {
+    max-width: var(--article-width);
+    margin: 2rem 0 0 0;
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+<section id="index">
+  <h1 class="sr-only">{{ title }}</h1>
+  {# This div is the same as in 'post-header.njk', but with a different visible H1 #}
+  <div class="post-header">
+    <div class="headline-row">
+      <span class="h1">Hello</span>
+      <div
+        aria-hidden="true"
+        class="icon"
+        style="mask-image: url('{{ icon }}')"
+      ></div>
+    </div>
+  </div>
+  <p>
+    I'm Clara and I <a href="/posts">write stuff</a>,
+    <a href="/media/">favorite books &#47; movies</a>,
+    <a href="/blogroll/">bookmark links</a>, and do anything I feel like doing
+    here.
+  </p>
+  <p>
+    P.S. I'm always on the lookout for a cool book or movie,
+    <a href="/about#contact">drop me a message</a> if you have any
+    recommendation!
+  </p>
+  <div class="hide h-card">
+    <a class="u-url" href="https://clarale.com/"></a>
+    <img class="u-photo" src="/graphics/clara.svg" />
+    <div class="p-note">
+      Hey, I'm
+      <span class="p-name p-given-name">Clara</span> — a tinkerer lost in the
+      middle of the French countryside. My website is my sandbox where I
+      document some of my experiments, both digital and analog.
+    </div>
+  </div>
+  <div id="webring">
+    <a class="hide" href="https://xn--sr8hvo.ws/previous"
+      >Shuffle IndieWeb Webring</a
+    >
+    <a
+      class="button"
+      href="https://xn--sr8hvo.ws/next"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Shuffle IndieWeb Webring</a
+    >
+  </div>
+</section>
+{% endblock %}
+
+{% block backtotop %}
+{# Empty block, do not show back-to-top link #}
+{% endblock %}
+
