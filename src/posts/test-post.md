@@ -1,8 +1,8 @@
 ---
-title: "UI/UX Learnings"
+title: "Test post"
 subtitle: "Living notes"
 dateCreated: "2022-07-13"
-tags: ["digital"]
+tags: ["digital", "update"]
 ---
 
 I started using Notion a bit more to keep "living notes" — posts that I want to access and update easily through time.
