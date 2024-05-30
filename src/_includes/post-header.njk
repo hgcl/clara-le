@@ -16,7 +16,6 @@
   {% if dateCreated %}
   <p class="label divide-list center">
     {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
-    {# TODO format datetime in time tag #}
     <span class="sr-only">Published on</span><time datetime="{{ dateCreated | formatDate }}" class="dt-published">{{ dateCreated | formatDate }}</time>
     {# TODO do not show nav tags #}
     {% if tags %} <span class="post-data-tags">{{ tags }}</span>{% endif %} {%
