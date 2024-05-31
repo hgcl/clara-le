@@ -4,28 +4,54 @@ pagination:
     size: 1
     alias: "recipe"
 permalink: "recipes/{{ recipe.key }}/"
+eleventyComputed:
+    title: "{{ recipe.title }}"
+    dateCreated: "{{ recipe.dateCreated }}"
+    duration: "{{ recipe.duration }}"
+    tags: "{{ recipe.dataTag }}"
 ---
+
+{# TODO fix tags in eleventyComputed so that it passes an array #}
 
 {# This is the recipe post template.
    The original data (JSON files) are from the recipes directory.
    The mapped data is generated in_data/recipes.js #} 
-<main id="main-section" class="h-recipe">
-  <div class="post-header">
-    <h1 class="p-name">{{ recipe.title }}</h1>
-    <p class="label divide-list">
-      <span class="sr-only">Published on</span>
-      <time datetime="{{ recipe.dateCreated }}" class="dt-published">{{ recipe.dateCreated }}</time>
-      <span>{{ recipe.duration }}&nbsp;min</span>
-      <span class="recipe-data-tags">
-        {% for tag in recipe.dataTag %}
-        {# TODO remove last comma #}
-        <a href="/recipes/?q={{ tag }}">{{ tag }}</a>,
-        {% endfor %}
-      </span>
-    </p>
-  </div>
-  <p class="intro center">{{ recipe.intro }}</p>
-  <article class="e-content">
+
+{% extends "layout/base.njk" %}
+
+{% block customstyles %}
+<style>
+  #ingredients {
+    font-size: smaller;
+    color: var(--color-text);
+  }
+  #ingredients li span::before {
+    content: "\A\2003";
+  }
+  #recipe-instructions {
+    max-width: var(--screen-md);
+  }
+  @media only screen and (min-width: 768px) {
+    #recipe-content {
+      display: flex;
+      flex-direction: row;
+      gap: var(--space-2xl);
+    }
+    #ingredients {
+      flex: 1 0 250px;
+      align-self: flex-start;
+      position: sticky;
+      top: 0;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+{% include 'post-header.njk' %}
+<article class="h-recipe">
+  {% if recipe.intro %}<p class="intro center">{{ recipe.intro }}</p>{% endif %}
+  <div id="recipe-content" class="e-content">
     <section id="ingredients">
       <h2>Ingredients</h2>
       {% for group in recipe.ingredients %}
@@ -35,40 +61,25 @@ permalink: "recipes/{{ recipe.key }}/"
         <li class="p-ingredient">{{ ingredient }}</li>
         {% endfor %}
         {% for ingredient in group.ingOpt %}
-        <li class="p-ingredient">{{ ingredient }}<span class="label">optional</span></li>
+        <li class="p-ingredient">{{ ingredient }} <span class="label">optional</span></li>
         {% endfor %}
       </ul>
       {% endfor %}
     </section>
-    <section class="e-instructions">
+    <section id="recipe-instructions" class="e-instructions">
       <h2>Instructions</h2>
+      {% for group in recipe.instructions %}
+      {% if group.insTitle %}<h3>{{ group.insTitle }}</h3>{% endif %}
       <ol>
-        <li>Bouillir les pommes de terre jusqu'à ce qu'elles soient cuites.</li>
-        <li>Peler 3–4&nbsp;cm des pieds des asperges.</li>
-        <li>
-          Dans un grand plat huilé, disposer les pommes de terre sur une moitié
-          du plat et les écraser à la fourchette. Dans l'autre moitié du plat,
-          disposer les asperges.
-        </li>
-        <li>
-          Ajouter les noix et le gros sel sur les pommes de terre. Répartir
-          l'huile, le miel, le sel et les flocons de piment sur les asperges.
-        </li>
-        <li>
-          Cuisson: env. 20 min au milieu du four préchauffé à 200&nbsp;°C.
-          Déplacer la plaque au plus haut niveau et continuer la cuisson pendant
-          5 min.
-        </li>
+        {% for instruction in group.insSteps %}
+        <li>{{ instruction }}</li>
+        {% endfor %}
       </ol>
+      {% endfor %}
       <p class="subtle">
-        <em
-          >Adapted from this
-          <a
-            href="{{ recipe.sourceUrl }}"
-            >original recipe</a
-          ></em
-        >
+        <em>Adapted from this <a href="{{ recipe.sourceUrl }}">original recipe</a></em>
       </p>
     </section>
-  </article>
-</main>
+  </div>
+</article>
+{% endblock %}

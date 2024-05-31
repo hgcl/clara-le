@@ -22,9 +22,17 @@
     {%- else -%}
       <span class="sr-only">Published on</span><time datetime="{{ dateCreated | formatDate }}" class="dt-published">{{ dateCreated | formatDate }}</time>
     {% endif %}
+    {% if duration %}<span>{{ duration }}&nbsp;min</span>{% endif %}
     {# TODO do not show nav tags #}
-    {% if tags %} <span class="post-data-tags">{{ tags }}</span>{% endif %} {%
-    if author %}<span>{{ author }}</span>{% endif %}
+    {% if tags %} 
+    {# TODO make "post-" and "/posts/" flexible for when it is used in another group #}
+    <span class="post-data-tags">
+      {% for tag in tags %}
+      <a href="/posts/?q={{ tag }}">{{ tag }}</a>,
+      {% endfor %}
+    </span>
+    {% endif %} 
+    {% if author %}<span>{{ author }}</span>{% endif %}
   </p>
   {% endif %}
 </div>
