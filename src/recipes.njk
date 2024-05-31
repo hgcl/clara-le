@@ -1,0 +1,41 @@
+---
+title: Recipes
+description: Here is a collection of recipes I have bookmarked
+icon: /img/meta/drawing-cutlery.svg
+---
+
+{% from 'macro/list-filter-selector.njk' import listFilterSelector %}
+{% extends "layout/base.njk" %} 
+
+{% block customstyles %}
+<style>
+  #recipes {
+    columns: 320px auto;
+    text-transform: capitalize;
+    column-gap: var(--space-l);
+  }
+  #recipes .label {
+    margin-left: var(--space-s);
+    color: var(--color-text-subtle);
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+<section class="center" id="posts">
+  {% include 'post-header.njk' %}
+  <p class="intro">
+    Here is a collection of recipes I have bookmarked. The original recipes are
+    linked in the posts directly. Some of the steps and ingredients might differ
+    from the original instructions to suit my preferences.
+  </p>
+
+  {# POST FILTER SELECTOR #}
+  {{ listFilterSelector(['all','main','dessert','side','ahead','preserve','diy','spring','summer','fall','winter']) }}
+
+{# TODO generate recipe list #}
+{% endblock %}
+
+{% block script %}
+  {% include 'filter-notes-script.njk' %}
+{% endblock %}
