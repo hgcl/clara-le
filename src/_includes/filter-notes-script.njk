@@ -11,6 +11,7 @@
     // update URL onclick
     updateURL(category);
     // remove previous filter (show all notes)
+    // TODO this display is not working for recipes
     allNotes.forEach((note) => note.setAttribute("style", "display:flex"));
     // add hidden attributes to notes that don't have the chosen category in data-tag
     if (category) {
