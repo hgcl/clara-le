@@ -3,9 +3,11 @@ title: Recipes
 description: Here is a collection of recipes I have bookmarked
 icon: /img/meta/drawing-cutlery.svg
 pagination:
-    data: "recipes"
+    data: "recipeData"
     size: 1
 ---
+
+{# TODO Find out why this page is also created at urls `recipes/1/` and `recipes/2/` #}
 
 {% from 'macro/list-filter-selector.njk' import listFilterSelector %}
 {% extends "layout/base.njk" %} 
