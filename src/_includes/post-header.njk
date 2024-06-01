@@ -25,10 +25,10 @@
     {% if duration %}<span>{{ duration }}&nbsp;min</span>{% endif %}
     {# TODO do not show nav tags #}
     {% if tags %} 
-    {# TODO make "post-" and "/posts/" flexible for when it is used in another group #}
-    <span class="post-data-tags">
+    <span>
       {% for tag in tags %}
-      <a href="/posts/?q={{ tag }}">{{ tag }}</a>,
+      {# Directory (i.e. "posts") should be used in first position in the tag list #}
+      <a href="/{{ tags[0] }}/?q={{ tag }}">{{ tag }}</a>,
       {% endfor %}
     </span>
     {% endif %} 
