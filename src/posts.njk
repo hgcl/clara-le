@@ -19,8 +19,7 @@ icon: /img/meta/drawing-face.svg
   {# POST FILTER SELECTOR #}
   {{ listFilterSelector(['all','creative','digital','french','now','review','thought','update']) }}
 
-{# TODO the post list structure will need to change to work with the post filter #}
-{# TODO make a macro so that the post-filter script can be reused elsewhere #}
+{# POST LIST #}
 {# Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ #}
 {% for yearCreated, posts in collections.posts | groupby("data.yearCreated") | dictsort | reverse %}
   <h2>{{ yearCreated }}</h2>
