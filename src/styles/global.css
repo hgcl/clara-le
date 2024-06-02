@@ -216,6 +216,7 @@ dialog .close-button {
 .intro {
   max-width: var(--article-width);
   margin-top: var(--space-xl);
+  text-align: center;
 }
 
 .post-header {
