@@ -49,7 +49,6 @@
 {# h-entry, e-content are microformats. Don't use for styling! #}
 {# Microformats docs: https://microformats.org/wiki/h-entry #}
 <article class="center h-entry">
-  {% set directory = "posts" %}
   {% include 'post-header.njk' %}
   <div class="e-content">{{ content | safe }}</div>
 </article>
