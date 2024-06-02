@@ -43,8 +43,7 @@ pagination:
     {% for item in pagination.pages %}
     <li data-tag="{{ item.dataTag }}">
       <a href="{{ item.key }}">{{ item.title }}</a>
-      {# TODO generate datetime code #}
-      {% if item.duration %}<time class="label dt-duration" datetime="PT1H">{{ item.duration }}&nbsp;min</time>{% endif %}
+      {% if item.duration %}<time class="label dt-duration" datetime="{{ item.duration | formatDurationAttr }}">{{ item.duration }}&nbsp;min</time>{% endif %}
     </li>
     {% endfor %}
   </ul>
