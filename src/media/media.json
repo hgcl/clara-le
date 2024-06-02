@@ -1,4 +1,5 @@
 {
   "layout": "layout/post.njk",
-  "tags": "media"
+  "tags": "media",
+  "directory": "media"
 }

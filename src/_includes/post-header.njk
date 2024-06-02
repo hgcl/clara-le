@@ -27,7 +27,6 @@
     {% if tags %} 
     <span>
       {% for tag in tags | filterTags %}
-      {# We need to pass the `directory` variable before including this post-header.njk #}
       <a href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>,
       {% endfor %}
     </span>
