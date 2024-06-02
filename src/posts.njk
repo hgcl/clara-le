@@ -12,8 +12,9 @@ icon: /img/meta/drawing-face.svg
   {% include 'post-header.njk' %}
   <p class="intro">
     Expect half-formed thoughts, doodles, full-fledged posts or anything in between. All ramblings can be followed through my <a href="/feed.xml">RSS feed</a>. So far, I've written 
+    {{ collections.posts.length }} posts.
     {# TODO add word count #}
-    {{ collections.posts.length }} posts, totaling <span>word count here</span> words (oh my).
+    {# , totaling <span>word count here</span> words (oh my). #}
   </p>
   
   {# POST FILTER SELECTOR #}
