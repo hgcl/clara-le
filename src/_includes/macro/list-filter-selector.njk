@@ -9,7 +9,8 @@
   >
       <option value="">All</option>
     {% for item in values %}
-      <option value="{{ item }}">{{ item }}</option>
+      {# `title` filter capitalizes the first letter of the variable #}
+      <option value="{{ item }}">{{ item | title }}</option>
     {% endfor %}
   </select>
   <p id="notes-filter-js-warning" class="subtle">
