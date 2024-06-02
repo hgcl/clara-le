@@ -11,11 +11,11 @@ eleventyComputed:
     directory: "recipes"
 ---
 
-{# TODO fix tags in eleventyComputed so that it passes an array #}
-
-{# This is the recipe post template.
+{# This is the recipe post layout. It needs to be out of the _includes folder as it is generated through pagination.
    The original data (JSON files) are from the recipes directory.
    The mapped data is generated in_data/recipeData.js #} 
+
+{# TODO make sure all &nbsp; are spaces. E.g. banana-bread post #}
 
 {% extends "layout/base.njk" %}
 
