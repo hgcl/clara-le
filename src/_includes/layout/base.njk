@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="/styles/global.css" type="text/css" />
-    {% block customstyles %}
+    {% block head %}
     {% endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:site_name" content="Clara Le" />
@@ -25,11 +25,6 @@
       href="/feed.xml"
       title="Clara Le"
     />
-    {# IndieWeb auth #}
-    {# TODO only display on index.html? #}
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-    <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
-    <link href="https://github.com/hgcl" rel="me" />
   </head>
   <body>
     {# TODO add deco items in global.css #}

@@ -6,7 +6,7 @@ icon: /img/meta/drawing-v-sign.svg
 
 {% extends "layout/base.njk" %}
 
-{% block customstyles %}
+{% block head %}
 <style>
   #index {
     height: 100%;
@@ -20,6 +20,10 @@ icon: /img/meta/drawing-v-sign.svg
     margin: 2rem 0 0 0;
   }
 </style>
+{# INDIEWEB AUTH #}
+<link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+<link href="https://github.com/hgcl" rel="me" />
 {% endblock %}
 
 {% block article %}
