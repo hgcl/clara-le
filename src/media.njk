@@ -1,0 +1,142 @@
+---
+title: Media
+description: A curated and non-exhaustive list of books, movies and series I loved and would recommend
+icon: /img/meta/drawing-camera.svg
+---
+
+{% extends "layout/base.njk" %} 
+
+{% block head %}
+{# TODO review media page styles... #}
+<style>
+  /* radio options */
+  #media fieldset {
+    width: fit-content;
+    display: flex;
+    gap: var(--space-s);
+    margin-top: var(--space-s);
+    /* reset */
+    padding: 0;
+    border: none;
+  }
+  #media fieldset legend {
+    float: left;
+  }
+  #media fieldset > div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+  }
+  #media fieldset > div > * {
+    cursor: pointer;
+  }
+  #media fieldset > div input {
+    appearance: none;
+    width: 5px;
+    height: 5px;
+  }
+  #media fieldset > div input:checked {
+    background-color: var(--color-text);
+    border-radius: 1000px;
+  }
+
+  #media.media-layout-list {
+    /* same as .center */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--article-width);
+  }
+  #media.media-layout-grid ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: var(--space-2xl);
+    grid-column-gap: var(--space-s);
+  }
+  #media li {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%; /* makes sure that rows stack vertically only */
+  }
+  #media.media-layout-grid li a {
+    height: 100%;
+  }
+  #media.media-layout-grid li .list-title {
+    /* show h3 only */
+    display: none;
+  }
+  #media.media-layout-grid li .post-title {
+    opacity: 0;
+    /* overlay on image */
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: var(--space-m);
+    color: var(--white);
+    /* center vertically */
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+  #media.media-layout-grid li > a:hover .post-title,
+  #media.media-layout-grid li > a:focus .post-title,
+  #media.media-layout-grid li > a:active .post-title {
+    opacity: 1;
+  }
+  #media.media-layout-list li > a > div {
+    display: none;
+  }
+  #media.media-layout-grid li > a {
+    display: block;
+  }
+  #media.media-layout-grid li > a img {
+    height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+  }
+  #media li .label {
+    /* align with posts.html */
+    display: block;
+    margin-top: 0.25rem;
+  }
+  @media only screen and (min-width: 768px) {
+    #media.media-layout-grid ul {
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      grid-row-gap: var(--space-5xl);
+      grid-column-gap: var(--space-xl);
+    }
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+<section id="media" class="media-layout-grid">
+  {% include 'post-header.njk' %}
+  <p class="intro">
+    A curated and non-exhaustive list of books, movies and series I loved and
+    would recommend.
+  </p>
+
+  {# TODO category filter #}
+  
+  {# POST LIST #}
+  {% for yearCreated, posts in collections.media | groupby("data.yearCreated") | dictsort | reverse %}
+    <h2>{{ yearCreated }}</h2>
+    <ul class="nobullet post-rows">
+      {% for post in posts | reverse %}
+      <li data-tag="{{ post.data.tags }}" class="card">
+        <a class="card-link" href="{{ post.url }}">
+          <div><img loading="lazy" alt="" src="{{ post.data.cover }}"></div><span class="post-title">{{ post.data.title }}</span>
+        </a>
+        <div class="label divide-list">
+          {# Only show the last tag (do not show media) #}
+          <span>{{ post.data.author | join(' & ') }}</span><span>{{ post.data.tags | filterTag("media") }}</span>
+          <span>{{ post.data.year }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
+
+{% endblock %}
