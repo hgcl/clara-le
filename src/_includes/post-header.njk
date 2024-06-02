@@ -23,11 +23,12 @@
       <span class="sr-only">Published on</span><time datetime="{{ dateCreated | formatDate }}" class="dt-published">{{ dateCreated | formatDate }}</time>
     {% endif %}
     {% if duration %}<span>{{ duration }}&nbsp;min</span>{% endif %}
-    {# TODO do not show nav tags #}
     {% if tags %} 
     <span>
+      {# TODO remove extra space #}
+      {% set comma = joiner() %}
       {% for tag in tags | filterTags %}
-      <a href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>,
+      {{ comma() }} <a href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>
       {% endfor %}
     </span>
     {% endif %} 
