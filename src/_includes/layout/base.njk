@@ -13,7 +13,7 @@
     <meta name="description" content="{{ description }}" />
     {% endif %}
     <title>{{ title }} | Clara Le</title>
-    {# Favicon  #}
+    {# FAVICON  #}
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>"
@@ -48,7 +48,8 @@
             >
           </li>
           {% endfor %}
-          <li>
+          {# TODO Add search feature #}
+          {# <li>
             <button id="show-search" class="secondary-link">
               <div
                 aria-hidden="true"
@@ -57,12 +58,13 @@
               ></div>
               Search
             </button>
-          </li>
+          </li> #}
         </ul>
       </nav>
       <div class="deco-horiz-1 bg-deco" aria-hidden="true"></div>
-      {# Search dialog #}
-      <dialog id="search-dialog" class="center">
+      {# TODO include search feature https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/ #}
+      {# SEARCH DIALOG #}
+      {# <dialog id="search-dialog" class="center">
         <button class="close-button">
           <span class="sr-only">Close</span
           ><span aria-hidden="true">&#x2715;</span>
@@ -82,7 +84,7 @@
           </div>
         </form>
         <ul class="result-list nobullet post-rows"></ul>
-      </dialog>
+      </dialog> #}
     </header>
     {# This main-section ID is used for the skip-to-content #}
     <main id="main-section">
