@@ -130,7 +130,7 @@ icon: /img/meta/drawing-camera.svg
         </a>
         <div class="label divide-list">
           {# Only show the last tag (do not show media) #}
-          <span>{{ post.data.author | join(' & ') }}</span><span>{{ post.data.tags | filterTag("media") }}</span>
+          <span>{{ post.data.author | join(' & ') }}</span><span>{{ post.data.tags | filterTags }}</span>
           <span>{{ post.data.year }}</span>
         </div>
       </li>

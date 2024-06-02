@@ -8,7 +8,6 @@ eleventyComputed:
     title: "{{ recipe.title }}"
     dateCreated: "{{ recipe.dateCreated }}"
     duration: "{{ recipe.duration }}"
-    tags: "{{ recipe.dataTag }}"
 ---
 
 {# TODO fix tags in eleventyComputed so that it passes an array #}
@@ -48,6 +47,9 @@ eleventyComputed:
 {% endblock %}
 
 {% block article %}
+{# Pass tag data to post-header.njk #}
+{% set directory = "recipes" %}
+{% set tags = recipe.dataTag %}
 {% include 'post-header.njk' %}
 <article class="h-recipe">
   {% if recipe.intro %}<p class="intro center">{{ recipe.intro }}</p>{% endif %}
