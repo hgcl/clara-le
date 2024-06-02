@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   // LOCAL PLUGINS, see docs: https://www.11ty.dev/docs/quicktips/local-plugin/
   eleventyConfig.addPlugin(require("./config/formatDate.js"));
   eleventyConfig.addPlugin(require("./config/formatDurationAttr.js"));
+  eleventyConfig.addPlugin(require("./config/filterTag.js"));
   // 11ty official RSS plugin: https://www.11ty.dev/docs/plugins/rss/
   eleventyConfig.addPlugin(pluginRss);
   // Copy the following folders over to _site
