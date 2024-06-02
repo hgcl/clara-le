@@ -48,10 +48,10 @@ eleventyComputed:
 {% endblock %}
 
 {% block article %}
+<article class="h-recipe">
 {# Pass tag data to post-header.njk #}
 {% set tags = recipe.dataTag %}
 {% include 'post-header.njk' %}
-<article class="h-recipe">
   {% if recipe.intro %}<p class="intro center">{{ recipe.intro }}</p>{% endif %}
   <div id="recipe-content" class="e-content">
     <section id="ingredients">
