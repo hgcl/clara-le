@@ -3,5 +3,7 @@
   { "title": "About", "url": "/about/" },
   { "title": "Musings", "url": "/posts/" },
   { "title": "Recipes", "url": "/recipes/" },
-  { "title": "Media", "url": "/media/" }
+  { "title": "Media", "url": "/media/" },
+  { "title": "Uses", "url": "/uses/" },
+  { "title": "Colophon", "url": "/colophon/" }
 ]
