@@ -26,9 +26,9 @@
     {# TODO do not show nav tags #}
     {% if tags %} 
     <span>
-      {% for tag in tags %}
-      {# Directory (i.e. "posts") should be used in first position in the tag list #}
-      <a href="/{{ tags[0] }}/?q={{ tag }}">{{ tag }}</a>,
+      {% for tag in tags | filterTags %}
+      {# We need to pass the `directory` variable before including this post-header.njk #}
+      <a href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>,
       {% endfor %}
     </span>
     {% endif %} 
