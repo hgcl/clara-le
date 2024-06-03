@@ -1,6 +1,7 @@
 [
   { "title": "Home", "url": "/" },
   { "title": "About", "url": "/about/" },
+  { "title": "Blogroll", "url": "/blogroll/" },
   { "title": "Now", "url": "/now/" },
   { "title": "Musings", "url": "/posts/" },
   { "title": "Recipes", "url": "/recipes/" },
