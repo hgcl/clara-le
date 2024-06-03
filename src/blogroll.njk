@@ -1,0 +1,64 @@
+---
+title: Blogroll
+description: List of curated links that I like and would like to share
+icon: /img/meta/drawing-list.svg
+pagination:
+    data: "blogrollData"
+    size: 1
+---
+
+{% extends "layout/base.njk" %} 
+
+{% block article %}
+<article class="center h-entry">
+  <div class="e-content">
+  {% include 'post-header.njk' %}
+    <p class="intro">
+      Before search engines became a thing, blogrolls were quite common.
+      Everyone would have a section on their website dedicated to sharing links
+      they liked. I just love this idea of subjective and personal curation,
+      leading you from website to website.
+    </p>
+    <p id="enable-js-message" class="subtle">
+      <em>Enable JavaScript for the following button to work.</em>
+    </p>
+    <a
+      id="random-link"
+      class="button external-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Open a random link
+    </a>
+    {# LINK LIST #}
+    <ul class="post-rows">
+      {% for category, items in pagination.pages | groupby("category") | dictsort %}
+      <h2>{{ category }}</h2>
+        {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a><span class="subtle">{{ item.description }}</span></li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+</article>
+{% endblock %}
+
+{% block script %}
+{# TODO inject linkArray #}
+<script>
+  // Remove no JS warning
+  const jsMessage = document.getElementById("enable-js-message").remove();
+
+  const el = document.getElementById("random-link");
+  el.addEventListener("click", (el) => {
+    // get a random number between 0 and the number of links
+    let randIdx = Math.random() * linkArray.length;
+    // round it, so it can be used as array index
+    randIdx = parseInt(randIdx, 10);
+    // construct the link to be opened
+    let randomLink = linkArray[randIdx];
+    // open it in a new window / tab (depends on browser setting)
+    window.open(randomLink);
+  });
+</script>
+{% endblock %}
