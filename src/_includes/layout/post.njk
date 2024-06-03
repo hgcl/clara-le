@@ -52,6 +52,8 @@
   {% include 'post-header.njk' %}
   <div class="e-content">{{ content | safe }}</div>
 </article>
-{% include 'comment-form.njk' %}
-{# TODO inject comments #}
+{% if directory === "posts" %}
+  {% include 'comment-form.njk' %}
+  {# TODO inject comments #}
+{% endif %}
 {% endblock %}
