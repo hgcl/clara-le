@@ -1,6 +1,7 @@
 [
   { "title": "Home", "url": "/" },
   { "title": "About", "url": "/about/" },
+  { "title": "Now", "url": "/now/" },
   { "title": "Musings", "url": "/posts/" },
   { "title": "Recipes", "url": "/recipes/" },
   { "title": "Media", "url": "/media/" },
