@@ -527,11 +527,9 @@ input[type="checkbox"] {
 /* Footnotes */
 
 .footnotes {
-  margin-top: var(--space-3xl);
   font-size: var(--font-xs);
 }
-a[id*="user-content-fnref"] {
-  padding: 0 2px 0 3px;
+.footnote-ref > a {
   text-decoration: none;
 }
 
@@ -687,30 +685,17 @@ a[id*="user-content-fnref"] {
 }
 
 @media only screen and (min-width: 1200px) {
-  .sidenote {
+  .footnote-item {
     position: absolute;
     right: 0;
     padding-right: var(--space-2xl);
     width: calc(var(--side-width) - var(--space-2xl));
-    max-width: calc(var(--article-width) / 2);
   }
-  .sidenote > * {
-    margin: 0;
+  .footnote-item > p {
+    /* Avoids misalignment of footnote */
+    margin-top: 0;
   }
-  .footnotes {
-    border: none;
-    color: var(--color-text-subtle);
-  }
-  #footnote-label {
-    /* Same as .sr-only */
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
+  .footnotes-sep {
+    display: none;
   }
 }
