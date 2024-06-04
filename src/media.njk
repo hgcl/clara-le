@@ -4,6 +4,7 @@ description: A curated and non-exhaustive list of books, movies and series I lov
 icon: /img/meta/drawing-camera.svg
 ---
 
+{% from 'macro/list-filter-selector.njk' import listFilterSelector %}
 {% extends "layout/base.njk" %} 
 
 {% block head %}
@@ -117,7 +118,8 @@ icon: /img/meta/drawing-camera.svg
     would recommend.
   </p>
 
-  {# TODO category filter #}
+  {# POST FILTER SELECTOR #}
+  {{ listFilterSelector(['movie','book','tv series']) }}
   
   {# POST LIST #}
   {% for yearCreated, posts in collections.media | groupby("data.yearCreated") | dictsort | reverse %}
@@ -137,5 +139,8 @@ icon: /img/meta/drawing-camera.svg
     </ul>
   {% endfor %}
 </section>
+{% endblock %}
 
+{% block script %}
+  {% include 'filter-notes-script.njk' %}
 {% endblock %}
