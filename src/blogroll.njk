@@ -8,6 +8,14 @@ pagination:
 ---
 
 {% extends "layout/base.njk" %} 
+{% block head %}
+<style>
+  #random-link {
+    margin: 0 auto;
+    display: block;
+  }
+</style>
+{% endblock %}
 
 {% block article %}
 <article class="center h-entry">
