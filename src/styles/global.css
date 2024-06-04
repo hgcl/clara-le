@@ -580,6 +580,9 @@ a[id*="user-content-fnref"] {
   align-items: baseline;
   gap: 1rem;
 }
+#posts .post-rows > li[hidden] {
+  display: none;
+}
 #posts .post-rows > li > .label {
   min-width: 5em;
   color: var(--color-text-subtle);
@@ -600,16 +603,6 @@ a[id*="user-content-fnref"] {
 }
 #search-dialog form #search-bar {
   width: 100%;
-}
-
-/* learning.html layout */
-
-#learning article::after {
-  /* \002B is a plus sign */
-  content: "\002B\00a0\002B\00a0\002B";
-  margin-top: 3rem;
-  justify-content: center;
-  display: flex;
 }
 
 /*--------------------------------------------------------*/

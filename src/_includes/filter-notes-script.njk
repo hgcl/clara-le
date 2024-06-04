@@ -11,8 +11,8 @@
     // update URL onclick
     updateURL(category);
     // remove previous filter (show all notes)
-    // TODO this display is not working for recipes
-    allNotes.forEach((note) => note.setAttribute("style", "display:flex"));
+    // TODO this display is not working for recipes or
+    allNotes.forEach((note) => note.hidden = false);
     // add hidden attributes to notes that don't have the chosen category in data-tag
     if (category) {
       selectElement.value = category;
@@ -21,7 +21,7 @@
         if (note.dataset.tag.split(",").includes(category)) {
           filteredNotes.push(note);
         } else {
-          note.setAttribute("style", "display:none");
+          note.hidden = true;
         }
       });
     }
