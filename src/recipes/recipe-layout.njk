@@ -74,7 +74,7 @@ eleventyComputed:
       {% if group.insTitle %}<h3>{{ group.insTitle }}</h3>{% endif %}
       <ol>
         {% for instruction in group.insSteps %}
-        <li>{{ instruction }}</li>
+        <li>{{ instruction | safe }}</li>
         {% endfor %}
       </ol>
       {% endfor %}
