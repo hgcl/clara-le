@@ -44,10 +44,11 @@ pagination:
 {% endblock %}
 
 {% block script %}
-{# TODO inject linkArray #}
 <script>
   // Remove no JS warning
   const jsMessage = document.getElementById("enable-js-message").remove();
+  {% set comma = joiner() %}
+  const linkArray = [{% for item in blogrollArray %}{{ comma() }} "{{ item }}"{% endfor %}]
 
   const el = document.getElementById("random-link");
   el.addEventListener("click", (el) => {
