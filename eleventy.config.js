@@ -5,11 +5,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require("./config/formatDate.js"));
   eleventyConfig.addPlugin(require("./config/formatDurationAttr.js"));
   eleventyConfig.addPlugin(require("./config/filterTags.js"));
+
   // 11ty official RSS plugin: https://www.11ty.dev/docs/plugins/rss/
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(require("./config/markdownItPlugin.js"));
+
   // Copy the following folders over to _site
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/img");
+
   return {
     // When a passthrough file is modified, rebuild the pages:
     passthroughFileCopy: true,

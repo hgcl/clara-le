@@ -50,10 +50,34 @@
 {# Microformats docs: https://microformats.org/wiki/h-entry #}
 <article class="center h-entry">
   {% include 'post-header.njk' %}
-  <div class="e-content">{{ content | safe }}</div>
+  <div class="e-content">{{ content | safe | replace("{end-key}", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
 </article>
 {% if directory === "posts" %}
   {% include 'comment-form.njk' %}
   {# TODO inject comments #}
 {% endif %}
+{% endblock %}
+
+{% block script %}
+<!-- FOOTNOTES TO SIDENOTES -->
+<script>
+  // Get footnotes box (ol element) and set up counter
+  const footnotes = document.querySelector(".footnotes-list");
+  let counter = 1;
+  window.onload = () => {
+    while (footnotes.childNodes.length >= counter) {
+      // Generate ids numbers
+      const footnoteId = "fn" + counter;
+      const refId = "fnref" + counter;
+      // Get footnote element (li element) + set class sidenote
+      const footnoteEl = document.getElementById(footnoteId);
+      // Get the reference sup element top position
+      const supEl = document.getElementById(refId).parentNode;
+      const topPos = supEl.offsetTop;
+      // Vertically position footnote
+      footnoteEl.style.top = topPos + "px";
+      counter++;
+    }
+  };
+</script>
 {% endblock %}
