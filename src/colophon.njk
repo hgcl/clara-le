@@ -14,7 +14,7 @@ icon: /img/meta/drawing-tool.svg
   <ul>
     <li>
       I built this website with the static site generator
-      <a href="https://brut.pages.dev/">Brut</a>.
+      <a href="https://github.com/11ty/eleventy">Eleventy</a>.
     </li>
     <li>It is hosted on Cloudflare.</li>
     <li>
@@ -34,16 +34,13 @@ icon: /img/meta/drawing-tool.svg
   <h2>Sitemap</h2>
   <p>I have a loose approach to creating and deleting pages on this website, so I'd understand if you get confused. Here's a look at the whole sitemap (not including the individual posts, or it would never end).</p>
   <ul>
-    <li><a href="/">Homepage</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/blogroll/">Blogroll</a></li>
-    <li><a href="/colophon/">Colophon</a></li>
-    <li><a href="/learning/">Learning</a> (links to posts)</li>
-    <li><a href="/media/">Media</a></li>
-    <li><a href="/now/">Now</a></li>
-    <li><a href="/posts/">Posts</a> (links to posts)</li>
-    <li><a href="/recipes/">Recipes</a> (links to posts)</li>
-    <li><a href="/uses/">Uses</a></li>
+    {% for item in navigationLinks %}
+    <li>
+      <a href="{{ item.url }}"
+        >{{ item.title }}</a
+      >
+    </li>
+    {% endfor %}
   </ul>
   </div>
 </article>
