@@ -1,0 +1,50 @@
+---
+title: Learning
+description: TODO
+icon: /img/meta/drawing-star.svg
+---
+
+{% from 'macro/list-filter-selector.njk' import listFilterSelector %}
+{% extends "layout/base.njk" %} 
+
+{% block head %}
+<style>
+  #learning article::after {
+    /* \002B is a plus sign */
+    content: "\002B\00a0\002B\00a0\002B";
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+<section class="center">
+  {% include 'post-header.njk' %}
+  <p class="intro">
+    This is where I document my learning adventures about various topics. Disclaimer: I sometimes (shamelessly) copy-paste strings of text, as I consider this to be a personal notebook.
+  </p>
+
+  {# POST FILTER SELECTOR #}
+  {{ listFilterSelector(['astronomy','climbing','cooking','diy','language','miscellaneous']) }}
+
+  {# POST LIST #}
+  <ul class="nobullet post-rows">
+    {% for post in collections.learning | reverse %}
+    <li data-tag="{{ post.data.tags }}">
+      <div class="post-header">
+        <h2>{{ post.data.title }}</h2>
+        <span class="label"><time class="dt-duration" datetime="{{ post.data.dateCreated }}">{{ post.data.dateCreated | formatDate("short") }} </time>/ {{ post.data.tags | filterTags }}</span>
+      </div>
+      <div>
+      {{ post.content | safe }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+
+{% block script %}
+  {% include 'filter-notes-script.njk' %}
+{% endblock %}
