@@ -16,6 +16,7 @@
   {% if (dateCreated) or (dateModified) %}
   <p class="label divide-list center">
     {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
+    {% if author %}<span>{{ author }}</span>{% endif %}
     {# Prioritize dateModifited over dateCreated #}
     {% if dateModified %}
       <span class="sr-only">Updated on</span><time datetime="{{ dateModified | formatDate }}" class="dt-updated">{{ dateModified | formatDate }}</time>
@@ -32,7 +33,6 @@
       {% endfor %}
     </span>
     {% endif %} 
-    {% if author %}<span>{{ author }}</span>{% endif %}
   </p>
   {% endif %}
 </div>
