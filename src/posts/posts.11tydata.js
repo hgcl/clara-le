@@ -5,4 +5,7 @@ module.exports = {
     // Generate post creation year automatically from dateCreated frontmatter
     yearCreated: (data) => new Date(data.dateCreated).getFullYear(),
   },
+  layout: "layout/post.njk",
+  tags: "posts",
+  directory: "posts",
 };
