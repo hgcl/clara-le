@@ -1,5 +1,5 @@
 ---
-title: "Test post"
+title: "Implementing static comments with Staticman"
 subtitle: "Living notes"
 dateCreated: "2022-07-13"
 tags: ["digital", "update"]
