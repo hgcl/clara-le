@@ -1,0 +1,72 @@
+<script>
+  // Attach a click handler to the search link
+  const btn = document.querySelector("#search-link");
+  btn.addEventListener(
+    "click",
+    function (event) {
+      // Don't navigate to that fallback page as Javascript is enabled
+      event.preventDefault();
+
+      // TODO complete search script https://github.com/philhawksworth/hawksworx.com/blob/3da71dc1fcb01238ee255f3db86228b27d7ab494/2021/js/search.js#L50
+      // Get the data
+      let searchIndex = null;
+      fetch("/search.json")
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (response) {
+          searchIndex = response.search;
+        });
+
+      const dialog = document.querySelector("#search-dialog");
+      const form = document.querySelector("#search-dialog form");
+      const searchInput = document.querySelector("#search-input");
+      const searchSubmit = dialog.querySelector("#search-submit");
+      const closeButton = dialog.querySelector(".close-button");
+      const resultsUI = dialog.querySelector("#search-results");
+
+      // Show search dialog and focus on search input direclty
+      dialog.showModal();
+      searchInput.focus();
+
+      searchSubmit.addEventListener("click", showResults);
+
+      // Search and display results
+      function showResults(ev) {
+        ev.preventDefault();
+        let str = searchInput.value;
+        str = str.toLowerCase();
+
+        // Look for matches in the search JSON and create a result array
+        let results = [];
+        for (let item in searchIndex) {
+          let found = searchIndex[item].text.indexOf(str);
+          if (found != -1) {
+            results.push(searchIndex[item]);
+          }
+        }
+
+        // Clear previous results (removing lastChild is faster)
+        while (resultsUI.firstChild) {
+          resultsUI.removeChild(resultsUI.lastChild);
+        }
+
+        // Generate result list HTML
+        for (let item in results) {
+          let listItem = document.createElement("li");
+          let link = document.createElement("a");
+          link.textContent = results[item].title;
+          link.setAttribute("href", results[item].url);
+          listItem.appendChild(link);
+          resultsUI.appendChild(listItem);
+        }
+      }
+
+      // Close dialog
+      closeButton.addEventListener("click", () => {
+        dialog.close();
+      });
+    },
+    false
+  );
+</script>

@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require("./config/formatDate.js"));
   eleventyConfig.addPlugin(require("./config/formatDurationAttr.js"));
   eleventyConfig.addPlugin(require("./config/filterTags.js"));
+  eleventyConfig.addPlugin(require("./config/squash.js"));
 
   // 11ty official RSS plugin: https://www.11ty.dev/docs/plugins/rss/
   eleventyConfig.addPlugin(pluginRss);

@@ -50,43 +50,21 @@
           </li>
           {% endif %}
           {% endfor %}
-          {# TODO Add search feature #}
-          {# <li>
-            <button id="show-search" class="secondary-link">
+          {# SEARCH BUTTON #}
+          <li>
+            <a id="search-link" href="/search" class="secondary-link">
               <div
                 aria-hidden="true"
                 class="icon"
                 style="mask-image: url('/img/meta/search-icon.svg')"
               ></div>
               Search
-            </button>
-          </li> #}
+            </a>
+          </li>
         </ul>
       </nav>
       <div class="deco-horiz-1 bg-deco" aria-hidden="true"></div>
-      {# TODO include search feature https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/ #}
-      {# SEARCH DIALOG #}
-      {# <dialog id="search-dialog" class="center">
-        <button class="close-button">
-          <span class="sr-only">Close</span
-          ><span aria-hidden="true">&#x2715;</span>
-        </button>
-        <form role="search">
-          <label for="search-bar">Search posts</label>
-          <div>
-            <input
-              type="search"
-              id="search-bar"
-              autocomplete="none"
-              autocorrect="none"
-              autocapitalize="none"
-              spellcheck="false"
-            />
-            <button id="search-submit">Submit</button>
-          </div>
-        </form>
-        <ul class="result-list nobullet post-rows"></ul>
-      </dialog> #}
+      {% include 'search-dialog.njk' %}
     </header>
     {# This main-section ID is used for the skip-to-content #}
     <main id="main-section">
@@ -107,6 +85,7 @@
       </footer>
   {# TODO do I need to add async or defer in the script tag? #}
   {% block script %}
+    {% include 'search-script.njk' %}
   {% endblock %}
   </body>
 </html>
