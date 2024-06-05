@@ -1,0 +1,6 @@
+{
+  "_id": "d1d235e0-16de-11ef-ade7-435f6c656177",
+  "name": "Greg",
+  "message": "I didn't look at the links you gave and the system you adopted. For my part, I had done something for an event registration, where I didn't want storage in a database — just a flat file.\r\nAll entries (also forms with POST) were stored in a single file, and displayed on the page. But I didn't have an approval system, of course, so not really with comments in mind.\r\nIn any case, the result is great :-)",
+  "date": 1716233173
+}
