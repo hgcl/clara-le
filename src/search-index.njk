@@ -2,13 +2,30 @@
 permalink: search.json
 ---
 {# Applied from https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/ #}
-
+{# TODO review squash and search-script so that they work better together #}
+{# TODO add recipes #}
 {"search" : [
 {% for item in collections.posts %}
   {
     "url" : "{{ item.url }}",
     "title" : "{{ item.data.title }}",
-    "text" : "{{ (item.data.title + " " + item.templateContent) | squash }}"
-  }{% if not loop.last %},{% else %}{% endif %}
+    "text" : "{{ (item.data.title + " " + item.data.subtitle + " " + item.templateContent) | squash | trim }}"
+  },
+{% endfor %}
+{% for item in collections.learning %}
+  {
+    "url" : "{{ item.url }}",
+    "title" : "{{ item.data.title }}",
+    "text" : "{{ (item.data.title + " " + item.templateContent) | squash | trim }}"
+  },
+{% endfor %}
+{% for item in collections.media %}
+  {
+    "url" : "{{ item.url }}",
+    "title" : "{{ item.data.title }}",
+    "text" : "{{ (item.data.title + " " + item.data.author + " " + item.templateContent) | squash | trim }}"
+  }
+  {# Do not add comma after last item #}
+  {% if not loop.last %},{% else %}{% endif %}
 {% endfor %}
 ]}
