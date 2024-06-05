@@ -42,11 +42,13 @@
         <ul id="menu">
           {# Automatically adds nav items with Nunjucks #}
           {% for item in navigationLinks %}
+          {% if item.show === true %}
           <li>
             <a class="secondary-link" href="{{ item.url }}"
               >{{ item.title }}</a
             >
           </li>
+          {% endif %}
           {% endfor %}
           {# TODO Add search feature #}
           {# <li>

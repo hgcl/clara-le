@@ -1,12 +1,12 @@
 [
-  { "title": "Home", "url": "/" },
-  { "title": "About", "url": "/about/" },
-  { "title": "Blogroll", "url": "/blogroll/" },
-  { "title": "Now", "url": "/now/" },
-  { "title": "Musings", "url": "/posts/" },
-  { "title": "Learning", "url": "/learning/" },
-  { "title": "Recipes", "url": "/recipes/" },
-  { "title": "Media", "url": "/media/" },
-  { "title": "Uses", "url": "/uses/" },
-  { "title": "Colophon", "url": "/colophon/" }
+  { "title": "Home", "url": "/", "show": true },
+  { "title": "About", "url": "/about/", "show": true },
+  { "title": "Blogroll", "url": "/blogroll/", "show": true },
+  { "title": "Now", "url": "/now/", "show": true },
+  { "title": "Musings", "url": "/posts/", "show": true },
+  { "title": "Learning", "url": "/learning/", "show": true },
+  { "title": "Recipes", "url": "/recipes/", "show": true },
+  { "title": "Media", "url": "/media/", "show": true },
+  { "title": "Uses", "url": "/uses/", "show": true },
+  { "title": "Colophon", "url": "/colophon/", "show": true }
 ]
