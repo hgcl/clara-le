@@ -1,0 +1,21 @@
+---
+title: Search
+description: TODO
+icon: /img/meta/drawing-search.svg
+---
+
+{% extends "layout/base.njk" %} 
+
+{# TODO style search page #}
+{% block head %}
+{% endblock%}
+
+{% block article %}
+{# TODO change to duckduckgo #}
+<form action="https://www.google.com/search" method="get" class="search">
+  <input type="hidden" name="q" id="q" value="site:clarale.com">
+  <label for="search-input">Search posts </label>
+  <input type="text" name="q" id="search-input">
+  <button type="submit">Search with Google</button>
+</form>
+{% endblock %}

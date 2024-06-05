@@ -1,0 +1,22 @@
+{# SEARCH DIALOG https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/ #}
+<dialog id="search-dialog" class="center">
+<button class="close-button">
+    <span class="sr-only">Close</span
+    ><span aria-hidden="true">&#x2715;</span>
+</button>
+<form role="search">
+    <label for="search-input">Search posts</label>
+    <div>
+    <input
+        type="search"
+        id="search-input"
+        autocomplete="none"
+        autocorrect="none"
+        autocapitalize="none"
+        spellcheck="false"
+    />
+    <button type="submit" id="search-submit">Submit</button>
+    </div>
+</form>
+<ul id="search-results" class="nobullet post-rows"></ul>
+</dialog>
