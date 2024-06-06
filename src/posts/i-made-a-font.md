@@ -7,7 +7,7 @@ tags: ["creative", "digital"]
 
 ## Sample of the _Eau de poisson_ font
 
-![Sample of the Eau de poisson font](/images/20230110-eaudepoisson-font-sample.webp)
+![Sample of the Eau de poisson font](/img/20230110-eaudepoisson-font-sample.webp)
 
 ## A bit of context
 
@@ -25,12 +25,12 @@ I don't really know if professionals could use Fontself. I somehow doubt it. Yet
 
 You first need to install the Fontself plugin in Illustrator or Photoshop (I have the Illustrator plugin). From there, you can use Fontself's character grid template, or you can also create your own.
 
-![Character grid template on Illustrator](/images/20230110-fontself-template.webp)
+![Character grid template on Illustrator](/img/20230110-fontself-template.webp)
 
 You then get into the heart of the process, either hand drawing your glyphs or using the pen tool for pixel perfect work. I drew mine with my graphic tablet, making sure to follow the guides.[^1]
 [^1]: Pay extra attention to the top (ascender) and bottom (descender) guides, not going beyond them, as it might ruin the final font line-height.
 
-![Horizontal font creation guides, from top to bottom: ascender, capital height, x height, baseline, and descender](/images/20230110-fontself-guides.webp)
+![Horizontal font creation guides, from top to bottom: ascender, capital height, x height, baseline, and descender](/img/20230110-fontself-guides.webp)
 
 ### 2. Optimize your work
 
@@ -44,7 +44,7 @@ Once you completed your character set, make sure to duplicate it to optimize it.
 
 You can then upload all your characters into the plugin. You will get an overview like this.
 
-![Overview of all characters in the Fontself plugin](/images/20230110-fontself-overview.webp)
+![Overview of all characters in the Fontself plugin](/img/20230110-fontself-overview.webp)
 
 In this first screen, you check that your characters are all on the same baseline, and that the ascender and descender are correctly positioned. You make these edits by dragging the characters and guides directly.
 
@@ -52,7 +52,7 @@ In this first screen, you check that your characters are all on the same baselin
 
 We now get to the cool part:
 
-![Fontself automatic smart spacing tool](/images/20230110-fontself-smart-spacing.webp)
+![Fontself automatic smart spacing tool](/img/20230110-fontself-smart-spacing.webp)
 
 In only one click, Fontself will go through your entire character set and do the base spacing / kerning work automatically. The letters g, j, or i usually have a smaller left-margin? The plugin will calculate and preset that margin for you. Of course, the result is by far not perfect, but it does save you a lot of time!
 
@@ -68,9 +68,9 @@ Fontself gives you control glyphs that define the rhythm of your font. Tradition
 
 Make sure you spend most of your time on the spacing before getting to kerning. The process should then be fairly similar. The only difference being that you adjust a space between two specific glyphs only.
 
-![Manual spacing in Fontself](/images/20230110-fontself-spacing.webp)
+![Manual spacing in Fontself](/img/20230110-fontself-spacing.webp)
 
-![Manual kerning in Fontself](/images/20230110-fontself-kerning.webp)
+![Manual kerning in Fontself](/img/20230110-fontself-kerning.webp)
 
 ---
 

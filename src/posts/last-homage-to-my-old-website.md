@@ -15,14 +15,14 @@ So as soon as the alpha version of brut was out, I proceeded to remake my entire
 
 Even though, my last website was terribly non-accessible, I did like it. So as a tribute to it, before it forever disappears in the that-was-my-website graveyard of the World Wide Web, I toast to it one last time:
 
-![Screenshot of the homepage](/images/20220403-old-website5.webp)
+![Screenshot of the homepage](/img/20220403-old-website5.webp)
 
-![Screenshot of the movies page](/images/20220403-old-website4.webp)
+![Screenshot of the movies page](/img/20220403-old-website4.webp)
 
-![Screenshot of the recipes page](/images/20220403-old-website2.webp)
+![Screenshot of the recipes page](/img/20220403-old-website2.webp)
 
-![Screenshot of the menu overlay](/images/20220403-old-website1.webp)
+![Screenshot of the menu overlay](/img/20220403-old-website1.webp)
 
-![Screenshot of a blog post](/images/20220403-old-website3.webp)
+![Screenshot of a blog post](/img/20220403-old-website3.webp)
 
 [^1]: As we all know this new website will only last until the next redesign craze comes around.

@@ -13,7 +13,7 @@ Get started, experiment, and welcome to the world of print design! (But try to a
 
 ## 1. Don't use RGB colors, design in CMYK.
 
-![Picture illustrating the concept](/images/20190527-design-for-print-1.webp)
+![Picture illustrating the concept](/img/20190527-design-for-print-1.webp)
 
 The RGB colors you've been using (almost) all your life on screen are based on light. Red, Green and Blue lights are added together to reproduce other colors.
 
@@ -25,7 +25,7 @@ Make sure to select the CMYK color mode, when creating your artwork. And if poss
 
 ## 2. Your images resolution is too low.
 
-![The same image: one blurry, one sharp](/images/20190527-design-for-print-2.webp)
+![The same image: one blurry, one sharp](/img/20190527-design-for-print-2.webp)
 
 Simply inserting "this super cool image you found on the web" into your print design can often lead to disaster. If you don't want to get a very pixelated result, your image resolution should always be between 300 ppi (pixels per inch) and 400 ppi.
 
@@ -35,7 +35,7 @@ Even if the image quality seems to look good on screen, it might not be the case
 
 ## 3. You haven't thought about the bleed and quiet borders.
 
-![Illustration of bleeds and quiet borders](/images/20190527-design-for-print-3.webp)
+![Illustration of bleeds and quiet borders](/img/20190527-design-for-print-3.webp)
 
 Need to print to the border very edge?
 
@@ -51,7 +51,7 @@ These limits should be adjusted to your printer and paper size. As a rule of thu
 
 ## 4. You don't really know how to use black.
 
-![Example of washed out black against rich black](/images/20190527-design-for-print-4.webp)
+![Example of washed out black against rich black](/img/20190527-design-for-print-4.webp)
 
 You are writing down your copy, selecting black ⬛ as a text fill color and are ready to print! Well, _maybe not_.
 
@@ -65,7 +65,7 @@ Use a crisp black C0-M0-Y0-K100 for small text, and a rich black for large black
 
 ## 5. Your characters are too thin.
 
-![Example of how characters that are too thin would print](/images/20190527-design-for-print-5.webp)
+![Example of how characters that are too thin would print](/img/20190527-design-for-print-5.webp)
 
 Depending on your printer capacities, your very small and thin characters might not be printed at all. So be careful with fine hairlines and tiny text!
 
@@ -79,7 +79,7 @@ When using small white text over black, choose a C0-M0-Y0-K100 simple black.
 
 ## 6. Haven't proofread your file?
 
-![Duh, I never make any speling mistake anyway.](/images/20190527-design-for-print-6.webp)
+![Duh, I never make any speling mistake anyway.](/img/20190527-design-for-print-6.webp)
 
 Yes, proofreading is boring.
 
@@ -91,7 +91,7 @@ Always and systematically proofread and review your artwork before sending it to
 
 ## 7. You haven’t embedded your graphics and text.
 
-![Embed your fonts. Please?](/images/20190527-design-for-print-7.webp)
+![Embed your fonts. Please?](/img/20190527-design-for-print-7.webp)
 
 Your artwork is looking good and ready for print. You are especially happy about this super fancy font that you’ve found on Creative Market! 💁‍♀️
 
@@ -105,7 +105,7 @@ Don’t forget to embed your fonts, outline your artwork strokes and flatten you
 
 ## 8. You forgot about ink coverage.
 
-![Example of how to view ink coverage in Adobe Reader](/images/20190527-design-for-print-8.webp)
+![Example of how to view ink coverage in Adobe Reader](/img/20190527-design-for-print-8.webp)
 
 To print an artwork using CMYK colors, your printer will use four plates of inks that combined together in dot patterns will make up an image.
 
@@ -119,7 +119,7 @@ Check with your printer what their ink coverage is, and make sure that the color
 
 ## 9. You’ve been using the wrong format.
 
-![Example of how a colorful photo would look like in JPG v. PNG](/images/20190527-design-for-print-9.webp)
+![Example of how a colorful photo would look like in JPG v. PNG](/img/20190527-design-for-print-9.webp)
 
 Are you about to export your artwork into PNG or GIF files for print? 😱
 
@@ -131,7 +131,7 @@ For best results, export your file into a PDF format before sending it to your p
 
 ## 10. You thought a hard-copy proof wasn’t necessary.
 
-![Hard-copy proofs](/images/20190527-design-for-print-10.webp)
+![Hard-copy proofs](/img/20190527-design-for-print-10.webp)
 
 Getting a hard-copy proof from your printer is not always necessary. But the bigger your project is, the more critical it becomes to see a physical example of your work before printing 10,000 other copies.
 

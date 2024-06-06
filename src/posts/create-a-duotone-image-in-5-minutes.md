@@ -14,7 +14,7 @@ You can easily use this effect to strengthen a brand visual identity based on a 
 Let's get started! 🚀
 
 <figure>
- <img src="/images/20190509-duotone-1.webp" alt="Before and after illustration" />
+ <img src="/img/20190509-duotone-1.webp" alt="Before and after illustration" />
  <figcaption>
  Before > after
  </figcaption>
@@ -25,7 +25,7 @@ Let's get started! 🚀
 Choose a super cool image and open the <code>Layers</code> panel (<code>Window > Layers</code>). Click on the <code>Adjustment Layer</code> icon — the black and white circle thingy — and select <code>Gradient Map…</code>
 
 <figure>
- <img src="/images/20190509-duotone-2.webp" alt="In the Layers panel, click on Adjustment Layer > Gradient Map…" />
+ <img src="/img/20190509-duotone-2.webp" alt="In the Layers panel, click on Adjustment Layer > Gradient Map…" />
  <figcaption>
 In the Layers panel, click on Adjustment Layer > Gradient Map…
  </figcaption>
@@ -36,7 +36,7 @@ In the Layers panel, click on Adjustment Layer > Gradient Map…
 A gradient preview appears, click on it to open the <code>Gradient Editor</code>. (The default gradient looks okay, but meh, it would just be waaay too easy 😘)
 
 <figure>
- <img src="/images/20190509-duotone-3.webp" alt="Click on the gradient preview." />
+ <img src="/img/20190509-duotone-3.webp" alt="Click on the gradient preview." />
  <figcaption>
  Click on the gradient preview.
  </figcaption>
@@ -51,12 +51,12 @@ Here comes the fun part. Double-click on the left Color Stop to change its color
 
 Feel free to move the stops around to control the color distribution 🎨
 
-![Position the color stops.](/images/20190509-duotone-4.webp)
+![Position the color stops.](/img/20190509-duotone-4.webp)
 
 And here is your duotone image! 🎉
 
 <figure>
- <img src="/images/20190509-duotone-5.webp" alt="Yay, you got your beautiful duotone image!" />
+ <img src="/img/20190509-duotone-5.webp" alt="Yay, you got your beautiful duotone image!" />
  <figcaption>
 Yay, you got your beautiful duotone image!
  </figcaption>
@@ -68,12 +68,12 @@ Wanna get a bit crazy and go _triotone_? Add additional Color Stops to your grad
 
 In this example, I've added a lighter blue in the middle of my gradient to give more definition to my picture.
 
-![Add a third color stop.](/images/20190509-duotone-6.webp)
+![Add a third color stop.](/img/20190509-duotone-6.webp)
 
 You did it! 💁‍♀️
 
 <figure>
- <img src="/images/20190509-duotone-7.webp" alt="Final result: Triotone power! 💜💙🧡" />
+ <img src="/img/20190509-duotone-7.webp" alt="Final result: Triotone power! 💜💙🧡" />
  <figcaption>
 Triotone power! 💜💙🧡 
 </figcaption>
