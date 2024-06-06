@@ -1,19 +1,21 @@
 <script>
 // COMMENT SCRIPT
-// Submits comment form if not spam
+// Submits comment form if not spam + alert about manual processing
 
   // Handle comment form submit
   const commentForm = document.getElementById("comment-form");
   commentForm.addEventListener("submit", (e) => {
+    // Avoids page reloading
+    e.preventDefault();
+
     const formData = new FormData(e.target);
     if (formData.get("name") !== "" || formData.get("email") !== "") {
       // Form submission is spam
-      e.preventDefault();
       return false;
     }
     // Form submission is valid, proceed with processing
     return alert(
-      "Your comment will be manually reviewed before being published."
+      "Your comment will be manually reviewed before being published. Please do not leave the page while your message is being sent."
     );
   });
 </script>
