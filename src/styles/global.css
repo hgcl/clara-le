@@ -82,8 +82,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  column-gap: var(--space-s);
-  margin: 0 var(--space-s);
 }
 #menu-button {
   margin: var(--space-xs);
@@ -120,7 +118,6 @@ nav {
   display: inline-block;
   position: relative;
   top: 0.1em;
-  margin-right: 0.25em;
 }
 
 /* Background decoration */

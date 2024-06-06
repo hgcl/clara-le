@@ -1,12 +1,12 @@
 [
   { "title": "Home", "url": "/", "show": true },
   { "title": "About", "url": "/about/", "show": true },
-  { "title": "Blogroll", "url": "/blogroll/", "show": true },
   { "title": "Now", "url": "/now/", "show": true },
   { "title": "Musings", "url": "/posts/", "show": true },
-  { "title": "Learning", "url": "/learning/", "show": true },
   { "title": "Recipes", "url": "/recipes/", "show": true },
   { "title": "Media", "url": "/media/", "show": true },
-  { "title": "Uses", "url": "/uses/", "show": true },
-  { "title": "Colophon", "url": "/colophon/", "show": true }
+  { "title": "Blogroll", "url": "/blogroll/", "show": true },
+  { "title": "Learning", "url": "/learning/", "show": false },
+  { "title": "Uses", "url": "/uses/", "show": false },
+  { "title": "Colophon", "url": "/colophon/", "show": false }
 ]
