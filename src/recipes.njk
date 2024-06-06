@@ -20,16 +20,15 @@ pagination:
     column-gap: var(--space-l);
   }
   #recipes .label {
-    margin-left: var(--space-s);
     color: var(--color-text-subtle);
   }
 </style>
 {% endblock %}
 
 {% block article %}
-<section class="center" id="posts">
+<section>
   {% include 'post-header.njk' %}
-  <p class="intro">
+  <p class="intro center">
     Here is a collection of recipes I have bookmarked. The original recipes are
     linked in the posts directly. Some of the steps and ingredients might differ
     from the original instructions to suit my preferences.
@@ -43,11 +42,11 @@ pagination:
   <ul id="recipes" class="nobullet">
     {% for item in pagination.pages %}
     <li data-tag="{{ item.dataTag }}">
-      <a href="{{ item.key }}">{{ item.title }}</a>
-      {% if item.duration %}<time class="label dt-duration" datetime="{{ item.duration | formatDurationAttr }}">{{ item.duration }}&nbsp;min</time>{% endif %}
+      <a href="{{ item.key }}">{{ item.title }}</a>{% if item.duration %}&nbsp;&nbsp;<time class="label dt-duration" datetime="{{ item.duration | formatDurationAttr }}">{{ item.duration }}&nbsp;min</time>{% endif %}
     </li>
     {% endfor %}
   </ul>
+</section>
 {% endblock %}
 
 {% block script %}
