@@ -1,0 +1,47 @@
+{
+  "title": "Tarte tatin",
+  "dateCreated": "2023-09-13",
+  "dataTag": ["dessert", "autumn"],
+  "intro": "",
+  "duration": "60",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 pâte à tarte (feuilletée de préférence)",
+        "90 g de sucre",
+        "1 c-à-s de miel",
+        "1 c-à-s de vinaigre de cidre ou citron",
+        "30 g de beurre",
+        "1 grosse pincée de sel",
+        "1 kg de pommes, coupées en quartiers",
+        "1 sachet de sucre vanillé",
+        "Cannelle"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Caramel",
+      "insSteps": [
+        "Déposer un peu de sucre dans le plat à tarte tatin directement. Remuer le plat par des mouvements circulaires pour former une couche uniforme. Ajouter le miel et le vinaigre, puis chauffer à feu doux.",
+        "Lorsque presque tout le sucre a fondu, verser plus de sucre petit à petit. Répéter jusqu'à avoir terminé le sucre. Toujours continuer à remuer le plat par des mouvements circulaires.",
+        "Laisser cuire à feu doux pendant 5–10 min, le caramel se fait tout seul. Il doit être ambré mais pas brûlé.",
+        "Lorsque le caramel est prêt, ajouter le beurre et la pincée de sel. Remuer le plat pour l'intéger."
+      ]
+    },
+    {
+      "insTitle": "Rassembler la tarte",
+      "insSteps": [
+        "Pocher les pommes dans le caramel pendant 5 minutes.",
+        "Saupoudrer les pommes de sucre vanillé et de cannelle.",
+        "Sortir le tout du feu et recouvrir de pâte feuilletée. Faire un petit trou au milieu de la pâte pour éviter que la tarte ne retienne trop d'humidité.",
+        "Mettre au four pendant 35 à 40 minutes à 180&nbsp;°C.",
+        "Sortir le plat du four et attendre qu'il refroidisse avant de retourner la tarte tatin."
+      ]
+    }
+  ],
+  "notes": [""],
+  "sourceUrl": "https://www.marmiton.org/recettes/recette_tarte-tatin_12456.aspx"
+}

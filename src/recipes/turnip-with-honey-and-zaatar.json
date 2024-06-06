@@ -1,0 +1,27 @@
+{
+  "title": "Turnips with honey and zaatar",
+  "dateCreated": "2023-03-06",
+  "dataTag": ["side", "ahead", "winter"],
+  "intro": "France's recipe: great as a side, can be eaten hot or cold.",
+  "duration": "50",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["1 turnip", "Honey", "Zaatar"],
+      "ingOpt": ["Flake salt"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Boil or steam the turnip until it is cooked through.",
+        "Roughly peel the turnip and slice it.",
+        "Add a tablespoon of olive oil in a pan and add the turnip slices. Fry them until they are golden on both sides.",
+        "Place the slices on a big plate, drizzle with honey, top with the salt and a generous amount of zaatar."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}

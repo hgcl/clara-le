@@ -1,0 +1,28 @@
+{
+  "title": "Miso butter",
+  "dateCreated": "2023-10-12",
+  "dataTag": ["side"],
+  "intro": "",
+  "duration": "10",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "6 tbsp butter, cut into pieces (at room temperature)",
+        "3 tbsp miso"
+      ],
+      "ingOpt": ["1.5 tbsp heavy cream or milk"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Homogeneously mix the butter and miso.",
+        "Optionally whip in cream or milk. You can add a teaspoon at a time until the desired texture is achieved."
+      ]
+    }
+  ],
+  "notes": [""],
+  "recipeUrl": ""
+}

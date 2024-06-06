@@ -1,0 +1,38 @@
+{
+  "title": "Bulgarian national salad (shopska)",
+  "dateCreated": "2022-11-12",
+  "dataTag": ["side", "ahead", "summer", "fall"],
+  "intro": "I was introduced to this super simple salad recipe when traveling in Eastern Europe. A similar recipe exists in multiple of those countries, and always stars three main ingredients: cucumbers, tomatoes and feta. From there, everything else is optional.",
+  "duration": "15",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 cucumber, diced",
+        "3 tomatoes, diced",
+        "1 feta cheese, diced"
+      ],
+      "ingOpt": [
+        "0.5 red bell pepper, diced",
+        "1 small red onion",
+        "1 tbsp sunflower oil",
+        "0.5 tbsp red wine vinegar",
+        "Fresh parsley, thinly chopped",
+        "Pepper and salt"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Dice the cucumber, feta cheese, tomatoes and bell pepper. Dice the onion in small pieces. Add everything to a big salad bowl.",
+        "Drizzle sunflower oil and vinegar over diced vegetables. Season with salt and pepper. Chop parsley and sprinkle on salad. Stir to coat evenly."
+      ]
+    }
+  ],
+  "notes": [
+    "Note: It is possible to omit everything except for the cucumber, tomatoes and feta cheese."
+  ],
+  "sourceUrl": "https://feasterneurope.com/shopska-salad-the-bulgarian-national-salad/"
+}

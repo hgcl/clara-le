@@ -1,0 +1,30 @@
+{
+  "title": "Fennel salad",
+  "dateCreated": "2022-06-06",
+  "dataTag": ["side"],
+  "intro": "",
+  "duration": "15",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1–2 fennel bulbs, thinly sliced",
+        "1 tbsp mustard",
+        "1 tbsp olive oil",
+        "2 tbsp balsamico vinegar (or replace half with apple cider vinegar)"
+      ],
+      "ingOpt": ["1 apple, thinly sliced", "1 tsp honey", "Salt and pepper"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Mix all the ingredients in a salad bowl.",
+        "Thinly slice the fennel bulbs and apple. Add to the bowl and mix."
+      ]
+    }
+  ],
+  "notes": [""],
+  "recipeUrl": ""
+}

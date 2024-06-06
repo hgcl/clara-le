@@ -1,0 +1,31 @@
+{
+  "title": "Pain perdu",
+  "dateCreated": "2022-11-09",
+  "dataTag": ["dessert"],
+  "intro": "",
+  "duration": "45",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "25 cl lait",
+        "50 g sucre",
+        "3 oeufs",
+        "6 épaisses tranches de pain"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Fouetter les oeufs avec le sucre et le lait.",
+        "Y tremper les tranches de pain.",
+        "Deux solutions pour la cuisson. Soit les cuire à la poêle dans du beurre en les faisant dorer de chaque côté. Ou les cuire au four : beurrer légèrement un plat à gratin, y répartir les tranches, verser le reste du mélange (ajouter du sucre si envie), laisser cuire à 180&nbsp;°C (thermostat 6) jusqu'à que les tranches soient dorées (environ 25 minutes)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.marmiton.org/recettes/recette_pain-perdu_10975.aspx"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Pie dough",
+  "dateCreated": "2021-01-21",
+  "dataTag": ["side"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Pour une tarte de 22&nbsp;cm",
+      "ingMand": [
+        "250 g farine T55 ou autre",
+        "50 g huile",
+        "80 g eau tiède",
+        "1 pincée de sel"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Dans un bol, versez la farine, l'huile, l'eau et une pincée de sel.",
+        "Malaxez rapidement jusqu'à l'obtention d'une boule de pâte homogène. Attention à malaxer le moins longtemps possible afin que la pâte ne soit pas trop dure et garde son croustillant, une pâte à tarte ne se pétrit pas.",
+        "Si la pâte est trop collante ajoutez un peu de farine, si elle est trop sèche ajoutez un peu d'huile et/ou d'eau.",
+        "Farinez légèrement votre plan de travail, étalez-la et placez-la dans le moule à tarte.",
+        "Il ne vous reste plus qu'à disposer votre garniture à faire cuire (généralement 50 minutes à 180&nbsp;°C)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://tangerinezest.com/pate-a-tarte-sans-beurre/"
+}

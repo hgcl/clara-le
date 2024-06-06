@@ -1,0 +1,32 @@
+{
+  "title": "Vietnamese đồ chua",
+  "dateCreated": "2023-02-25",
+  "dataTag": ["side", "ahead", "preserve"],
+  "intro": "",
+  "duration": "20",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Carrots, peeled and julienned",
+        "2 cups water",
+        "1 cup vinegar (can be a mix of rice, white or apple vinegar)",
+        "0.5 cup sugar"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Boil water in a pot.",
+        "Divide julienned carrots into a canning jar (500 mL).",
+        "Stir boiling water, vinegar and sugar until sugar is dissolved.",
+        "Pour mixture over carrots until covered. Screw on jar lids and store in fridge. You can use after 20 minutes of pickling. Store in fridge and use within a couple weeks."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://thevietvegan.com/do-chua-vietnamese-quick-pickled-carrots-and-daikon/"
+}

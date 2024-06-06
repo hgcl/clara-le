@@ -1,0 +1,27 @@
+{
+  "title": "Peach ice tea",
+  "dateCreated": "2023-08-08",
+  "dataTag": ["side"],
+  "intro": "",
+  "duration": "300",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["3+ peaches", "2 tbsp black tea leaves", "1 l water"],
+      "ingOpt": ["Sugar (to taste)"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Add the tea leaves and water in a jar. Let it cold brew overnight.",
+        "In the morning, peel and core the peaches.",
+        "Blend the peaches and mix them into your cold brew. Add sugar if necessary.",
+        "Serve it cold with or without ice cubes."
+      ]
+    }
+  ],
+  "notes": [""],
+  "sourceUrl": ""
+}
