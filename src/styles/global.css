@@ -14,7 +14,6 @@
   --font-xl: 2.827rem; /* 45px */
   --font-2xl: 3.998rem; /* 64px */
   /* Spacings */
-  --space-2xs: 4px; /* 0.25rem */
   --space-xs: 8px; /* 0.5rem */
   --space-s: 16px; /* 1rem */
   --space-m: 24px;
@@ -37,12 +36,13 @@
   /* Other */
   --screen-sm: 370px;
   --screen-md: 768px;
-  --screen-lg: 1024px;
+  --screen-lg: 1200px;
   --article-width: 600px;
   --side-width: calc((100vw - var(--article-width)) / 2);
   --line-thickness: 1px;
 }
 
+/* GENERAL TAGS */
 html {
   font-size: 16px;
   --font-mono: ui-monospace, "Source Code Pro", Menlo, Consolas,
@@ -53,7 +53,6 @@ html {
   --color-text-highlight: var(--yellow);
   --color-accent: var(--red);
 }
-
 body {
   position: relative;
   font-family: var(--font-mono);
@@ -65,18 +64,22 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 main {
   width: 100%;
   padding: var(--space-l) var(--space-m);
   flex: 1 0 auto; /* makes sure index.html main takes all available space */
 }
-
 header {
   width: 100%;
 }
+footer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: var(--space-m);
+}
 
-/* Nav */
+/* NAV */
 nav {
   display: flex;
   flex-direction: column;
@@ -120,8 +123,7 @@ nav {
   top: 0.1em;
 }
 
-/* Background decoration */
-
+/* BACKGROUND DECORATION: lines */
 .bg-deco {
   z-index: -100;
   background-color: var(--color-accent);
@@ -152,16 +154,7 @@ nav {
   transform: rotate(180deg);
 }
 
-/* Footer */
-
-footer {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  padding-top: var(--space-m);
-}
-
-/* Dialogs */
+/* DIALOGS */
 dialog {
   background: var(--color-bg);
   color: var(--color-text);
@@ -179,8 +172,8 @@ dialog .close-button {
   box-shadow: none;
 }
 
-/* Accessibility */
-
+/* ACCESSIBILITY */
+/* Not visible, but read by screen reader */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -192,7 +185,7 @@ dialog .close-button {
   white-space: nowrap;
   border-width: 0;
 }
-
+/* Skip to content button (before nav) */
 .skip-to-content {
   z-index: 2;
   position: absolute;
@@ -210,12 +203,14 @@ dialog .close-button {
 /*                   Shared components                    */
 /*--------------------------------------------------------*/
 
+/* Intro: centered paragraph at the top of a page */
 .intro {
   max-width: var(--article-width);
   margin-top: var(--space-xl);
   text-align: center;
 }
 
+/* Post header: page/post title and meta info */
 .post-header {
   display: flex;
   flex-direction: column;
@@ -228,10 +223,7 @@ dialog .close-button {
   margin-right: auto;
 }
 
-/* If .post-header is on the same tag as .headline-row, need to cancel previous CSS */
-.post-header.headline-row {
-  flex-direction: row;
-}
+/* Headline row: page H1 + optional icon */
 .headline-row {
   display: flex;
   align-items: center;
@@ -243,13 +235,14 @@ dialog .close-button {
   width: 3.5rem;
 }
 
+/* For list-filter-selector.njk */
 .posts-filter {
   margin: var(--space-2xl) 0;
   text-align: center;
 }
 
-/* Images */
-
+/* IMAGES */
+/* Image flow */
 figure, 
 p > img /* images not in <figure> that appear in Markdown files only (blog posts) */ {
   margin: 2rem 0;
@@ -265,8 +258,8 @@ figcaption {
   font-size: var(--font-2xs);
 }
 
-/* Typography */
-
+/* TYPOGRAPHY: general tags */
+/* Headings: size and flow */
 h1,
 h2,
 h3,
@@ -296,24 +289,24 @@ h3,
   line-height: 1.4;
   margin: 2rem 0 1rem 0;
 }
-
+/* Body text flow */
 p,
 ul,
 ol {
   margin: 1rem 0;
 }
-
 li {
   margin-bottom: 0.5rem;
+  /* Need to specify list-style-type or Learning page displays other bullet points */
   list-style-type: disc;
 }
-
+/* Small labels */
 .label {
   text-transform: uppercase;
   font-size: var(--font-2xs);
   letter-spacing: 0.1em;
 }
-
+/* Blockquotes */
 blockquote {
   position: relative;
   margin: 2rem 0 2rem 2rem;
@@ -327,11 +320,10 @@ blockquote > p::before {
   left: -2rem;
   top: 0;
 }
-
+/* Pre and code tags */
 pre {
   overflow: auto;
 }
-
 code,
 kbd {
   font-size: var(--font-xs);
@@ -344,13 +336,13 @@ kbd {
   padding: 0.05em 0.3em;
   border-radius: 2px;
 }
-
+/* Cite tag */
 cite {
   text-transform: uppercase;
   letter-spacing: -0.03em;
   font-size: 0.9em;
 }
-
+/* Divider */
 hr {
   color: var(--color-text);
   border: none;
@@ -364,7 +356,7 @@ hr::before {
   content: "\002B\00a0\002B\00a0\002B";
   color: var(--color-text-subtle);
 }
-
+/* Aside */
 aside {
   font-size: smaller;
   border: solid 1px var(--color-text-subtle);
@@ -378,9 +370,7 @@ aside :first-child {
 aside :last-child {
   margin-bottom: 0rem;
 }
-
 /* ~striked-through text~ styles and accessibility */
-
 del {
   text-decoration-thickness: var(--line-thickness);
 }
@@ -400,31 +390,17 @@ del::before {
 del::after {
   content: " [end of strikethrough text] ";
 }
-
-/* Lists */
-
+/* Lists without bullets (i.e. posts page) */
 .nobullet,
 .nobullet > li {
   padding: 0;
   list-style: none;
 }
-
 /* Details */
-
 details summary {
   cursor: pointer;
 }
-
-/* Completed task */
-
-.completed {
-  text-decoration: line-through;
-}
-.completed::after {
-  content: "\00A0\2714";
-}
-
-/* Hyperlinks and buttons */
+/* Buttons */
 button,
 .button {
   display: inline-block;
@@ -448,7 +424,7 @@ button:focus,
   box-shadow: 1px 1px;
   transform: translate(1px, 1px);
 }
-
+/* Normal links */
 a,
 .secondary-link {
   color: var(--color-text);
@@ -492,7 +468,7 @@ a:focus,
   box-shadow: none;
   transform: none;
 }
-
+/* Card link (i.e. media page) */
 .card-link {
   overflow: hidden;
   /* Reset link styles */
@@ -508,22 +484,16 @@ a:focus,
   mix-blend-mode: screen;
   filter: grayscale(100%) brightness(0.5) blur(1px);
 }
-
 /* External links */
-
 a[href*="//"]:not([href*="clarale.com"])::after, .external-link::after
 {
   content: "\00A0\2197";
 }
-
 /* Forms */
-
 input[type="checkbox"] {
   margin-right: 0.25rem;
 }
-
 /* Footnotes */
-
 .footnotes {
   font-size: var(--font-xs);
 }
@@ -531,27 +501,31 @@ input[type="checkbox"] {
   text-decoration: none;
 }
 
-/* Utils */
-
+/* UTILS */
+/* Hide visibly and from screen-reader */
 .hide {
   display: none;
 }
+/* Limit content width and make smaller (i.e. for articles) */
 .center {
   margin-left: auto;
   margin-right: auto;
   max-width: var(--article-width);
 }
+/* Make text smaller */
 .subtle {
   /* font styles smaller than body */
   font-size: var(--font-xs);
-}
-.capitalize {
-  text-transform: capitalize;
 }
 .post-rows > li .subtle {
   display: block;
   margin-top: 0.25rem;
 }
+/* Capitalize text */
+.capitalize {
+  text-transform: capitalize;
+}
+/* Highlight text (reverse colors) */
 .highlight {
   background: var(--color-text);
   color: var(--color-bg);
@@ -559,6 +533,7 @@ input[type="checkbox"] {
   font-size: var(--font-xs);
   vertical-align: text-bottom;
 }
+/* Divide list: add subtle divider slash between items */
 .divide-list > *:not(:last-child)::after {
   content: " / ";
   color: var(--color-text-subtle);
@@ -568,8 +543,8 @@ input[type="checkbox"] {
 /*               Custom pages or elements                 */
 /*--------------------------------------------------------*/
 
-/* posts.html layout */
-
+/* POSTS */
+/* TODO review these styles */
 #posts .post-rows > li,
 #search-dialog .post-rows > li {
   display: flex;
@@ -588,8 +563,7 @@ input[type="checkbox"] {
   color: var(--color-text-subtle);
 }
 
-/* search.html layout */
-
+/* SEARCH-DIALOG */
 #search-dialog form {
   margin-bottom: var(--space-2xl);
 }
@@ -605,7 +579,7 @@ input[type="checkbox"] {
 /*                     Media-queries                      */
 /*--------------------------------------------------------*/
 
-/* Dark mode */
+/* DARK MODE */
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -630,30 +604,36 @@ input[type="checkbox"] {
   }
 }
 
-/* Bigger than mobile */
+/* BIGGER THAN MOBILE */
 
 @media only screen and (min-width: 370px) {
+  /* GENERAL TAGS */
   html {
     font-size: 18px;
   }
-  nav {
-    margin: 0 var(--space-l);
+  main {
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
   }
+  footer {
+    padding-bottom: var(--space-s);
+  }
+  /* BACKGROUND DECORATION */
   .deco-vert-1 {
     left: var(--space-s);
   }
   .deco-vert-2 {
     right: var(--space-s);
   }
-  footer {
-    padding-bottom: var(--space-s);
-  }
+}
+@media only screen and (min-width: 768px) {
+  /* GENERAL TAGS */
   main {
     padding-left: var(--space-2xl);
     padding-right: var(--space-2xl);
   }
-}
-@media only screen and (min-width: 768px) {
+  /* NAV */
+  /* On bigger screens, do not hide menu items */
   nav {
     flex-direction: row;
   }
@@ -664,14 +644,13 @@ input[type="checkbox"] {
   #menu.expanded {
     display: unset;
   }
+  /* DIALOGS */
+  /* Add extra margins of bigger screens */
   dialog {
     margin-top: var(--space-s);
     margin-bottom: var(--space-s);
   }
-  main {
-    padding-left: var(--space-2xl);
-    padding-right: var(--space-2xl);
-  }
+  /* TYPOGRAPHY */
   h1,
   .h1 {
     font-size: var(--font-2xl);
@@ -681,8 +660,9 @@ input[type="checkbox"] {
     font-size: var(--font-xs);
   }
 }
-
 @media only screen and (min-width: 1200px) {
+  /* FOOTNOTES */
+  /* Display at the bottom of the page on desktop */
   .footnote-item {
     position: absolute;
     right: 0;
