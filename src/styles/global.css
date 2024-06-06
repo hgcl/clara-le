@@ -297,8 +297,6 @@ ol {
 }
 li {
   margin-bottom: 0.5rem;
-  /* Need to specify list-style-type or Learning page displays other bullet points */
-  list-style-type: disc;
 }
 /* Small labels */
 .label {
