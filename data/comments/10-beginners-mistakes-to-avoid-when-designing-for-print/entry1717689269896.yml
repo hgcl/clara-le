@@ -1,0 +1,4 @@
+_id: 0f065720-241d-11ef-b23b-f58ece97c47f
+name: Test person
+message: "So this is a test.\r\n\r\nLet's see if it supports line breaks.\r\n\r\n```\r\n<ul>\r\n  <li>A</li>\r\n  <li>B</li>\r\n  <li>C</li>\r\n</ul>\r\n```\r\n\r\n*asterisk bold* or _underscore bold_\r\n*em* or _em_\r\n\r\n> How about some kind of blockquote?  \r\n> Yay!\r\n>\r\n> Signed me"
+date: 1717689269
