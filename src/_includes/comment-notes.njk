@@ -1,0 +1,20 @@
+{# COMMENT NOTES #}
+{# Show {{ comments | log }} to view comments JSON #}
+{# CSS note: this is styled in _includes/layout/post.njk #}
+<section id="comments" class="center">
+{% for key, entries in comments %}
+  {% if key == page.fileSlug %}
+    <h2>Comments</h2>
+    {% for filename, entry in entries | dictsort | reverse %}
+    <article>
+      <p class="label divide-list">
+        <span>{{ entry.name }}</span>
+        <time datetime="{{ (entry.date * 1000) | formatDate }}" class="dt-published">{{ (entry.date * 1000) | formatDate }}</time>
+      </p>
+      {# TODO how to include line breaks? #}
+      <p class="comment-message">{{ entry.message }}</p>
+    </article>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</section>
