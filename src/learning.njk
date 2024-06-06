@@ -20,7 +20,7 @@ icon: /img/meta/drawing-star.svg
 {% endblock %}
 
 {% block article %}
-<section class="center">
+<section id="learning" class="center">
   {% include 'post-header.njk' %}
   <p class="intro">
     This is where I document my learning adventures about various topics. Disclaimer: I sometimes (shamelessly) copy-paste strings of text, as I consider this to be a personal notebook.
@@ -30,24 +30,24 @@ icon: /img/meta/drawing-star.svg
   {{ listFilterSelector(['astronomy','climbing','cooking','diy','language','miscellaneous']) }}
 
   {# POST LIST #}
-  <ul class="nobullet post-rows">
-    {% for post in collections.learning | reverse %}
-    <li data-tag="{{ post.data.tags }}">
-      <div class="post-header">
-        <h2>{{ post.data.title }}</h2>
-        <span class="label"><time class="dt-duration" datetime="{{ post.data.dateCreated }}">{{ post.data.dateCreated }} </time>/ 
-          {% set comma = joiner() %}
-          {% for tag in post.data.tags | filterTags %}
-          {{ comma() }} <a href="/{{ post.data.directory }}/?q={{ tag }}">{{ tag }}</a>
-          {% endfor %}
-        </span>
-      </div>
-      <div>
-      {{ post.content | safe }}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
+  {% for post in collections.learning | reverse %}
+  {# TODO remove manual id and make it automatic for all headings #}
+  <article data-tag="{{ post.data.tags }}" id="{{ post.fileSlug }}">
+    <div class="post-header">
+      <h2>{{ post.data.title }}</h2>
+      <span class="label"><time class="dt-duration" datetime="{{ post.data.dateCreated }}">{{ post.data.dateCreated }} </time>/ 
+        {% set comma = joiner() %}
+        {% for tag in post.data.tags | filterTags %}
+        {{ comma() }} <a href="/{{ post.data.directory }}/?q={{ tag }}">{{ tag }}</a>
+        {% endfor %}
+      </span>
+    </div>
+    <div>
+    {{ post.content | safe }}
+    {% if post.data.sourceUrl %}<p class="subtle"><em>Go to the <a href="{{ post.data.sourceUrl }}">original source</a></em></p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
 {% endblock %}
 
 {% block script %}
