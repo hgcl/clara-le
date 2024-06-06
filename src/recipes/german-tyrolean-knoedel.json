@@ -1,0 +1,41 @@
+{
+  "title": "German Tyrolean Knödel",
+  "dateCreated": "2022-12-04",
+  "dataTag": ["main", "ahead"],
+  "intro": "",
+  "duration": "60",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "200 g dry bread cubes (white part only)",
+        "2 eggs",
+        "180 g milk (or water)",
+        "180 g spicy mountain cheese",
+        "150 g butter",
+        "Salt, pepper, nutmeg"
+      ],
+      "ingOpt": [
+        "Bread crumbs and flour",
+        "250 g fresh spinach",
+        "1 bunch fresh mint",
+        "1 tsp lime zest",
+        "1 bunch sage"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a medium size pot bring salted water to a boil and blanch fresh spinach for about 1 minute. Drain under cold water and pad dry. Chop spinach into small pieces.",
+        "In a small pot bring milk to a boil. Put dry bread cubes into a big bowl and pour hot milk over it. Let it rest for about 5 minutes. Add eggs, spinach, nutmeg, salt, pepper, 2/3 of the grated mountain cheese, chopped mint and lime zest to the bread cubes. Mix together until you have a smooth dumpling dough. If the dough is too wet add bread crumbs or flour, if it's too dry add more milk or water. Let it rest for 10 minutes.",
+        "Take a handful of dumpling dough and roll balls in your wet hands. The dumpling should be smooth and hold together.",
+        "Bring salted water in a big pot to a boil and add your dumplings. Turn down the heat to a gentle simmer and let them cook for about 15–20 minutes.",
+        "Meanwhile put your butter into a small pan add the sage and let it melt slowly. Take out your dumplings and arrange them on the plates. Drizzle some nutty sage butter over them, sprinkle with grated cheese and serve quickly! Enjoy!"
+      ]
+    }
+  ],
+  "notes": ["Tip: Serve your knödel with a side of salad and sauerkraut."],
+  "sourceUrl": "http://www.fifthfloor.kitchen/recipes/main/delicious-tyrolean-spinach-cheese-dumplings/"
+}

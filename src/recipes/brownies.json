@@ -1,0 +1,41 @@
+{
+  "title": "Brownies",
+  "dateCreated": "2021-03-24",
+  "dataTag": ["dessert", "ahead"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "110 g butter melted and cooled",
+        "200 g sugar",
+        "2 large eggs",
+        "25 g all-purpose flour",
+        "60 g cocoa powder",
+        "1 pinch salt",
+        "1 pinch baking powder"
+      ],
+      "ingOpt": ["1 tsp vanilla sidect"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Melt the butter, then allow it to cool so that it is no longer hot, but is still liquid. I usually melt the butter first, then place it in the freezer while I'm working on everything else.",
+        "Preheat oven to 160&nbsp;°C. Line a 20 x 20&nbsp;cm pan with parchment paper so that the paper is coming up over the sides.",
+        "Add the eggs and sugar to a big bowl and beat until the mixture is light yellow and thick, about 5–7 minutes.",
+        "Mix in the vanilla until just combined.",
+        "In a medium-sized bowl, whisk together the dried ingredients: the flour, cocoa powder, salt, and baking powder.",
+        "Slowly mix the dried flour mixture into the egg mixture until just combined.",
+        "Then, still on low speed, slowly pour in cooled butter until just combined.",
+        "Spread evenly in prepared baking pan.",
+        "Bake for 30–32 minutes, or until toothpick inserted into center of pan comes out with just a few crumbs. Do not over bake.",
+        "Allow to cool in pan for 2 minutes, then use parchment paper to lift brownies out of pan and let cool on rack."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://sugarspiceslife.com/2018/05/22/crispy-top-fudgy-brownies-recipe/"
+}

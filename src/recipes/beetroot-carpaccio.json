@@ -1,0 +1,29 @@
+{
+  "title": "Beetroot carpaccio",
+  "dateCreated": "2023-03-09",
+  "dataTag": ["side", "ahead", "fall", "winter"],
+  "intro": "",
+  "duration": "30",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["1 beetroot", "Olive oil", "Flaked salt"],
+      "ingOpt": ["Zataar", "Balsamico vinegar"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Boil or steam the beetroot until cooked through.",
+        "Remove the beetroot skin or its hard extremeties only.",
+        "Very thinly slice the beetroot and place the pieces on a place.",
+        "Top with some olive oil, flaked salt, balsamico vinegar and zataar."
+      ]
+    }
+  ],
+  "notes": [
+    "Note: it is also possible to use the same recipe with raw beetroots instead."
+  ],
+  "sourceUrl": ""
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Lemon pie",
+  "dateCreated": "2022-03-14",
+  "dataTag": ["dessert", "fall"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Crème au citron",
+      "ingMand": [
+        "Pâte brisée précuite",
+        "4 gros citrons bio (pour obtenir 150 ml de jus)",
+        "3 oeufs",
+        "115 g de sucre",
+        "30 g de beurre doux",
+        "1 cuillère à soupe de maïzena"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Crème Au Citron",
+      "insSteps": [
+        "Prélever le zeste des citrons et le placer dans une casserole.",
+        "Presser les citrons pour obtenir 150 ml de jus et le verser dans la casserole.",
+        "Faire chauffer à feu doux.",
+        "Dans un saladier, fouetter vivement les oeufs avec le sucre en poudre. Ajouter la Maïzena, bien mélanger.",
+        "Verser petit à petit le jus de citron chaud tout en fouettant le mélange.",
+        "Reverser la préparation dans la casserole. Mélanger au fouet, à feu moyen, jusqu'à ce que la crème au citron épaississe et devienne onctueuse. Ajouter le beurre.",
+        "Débarrasser dans un plat et filmer au contact. Laisser refroidir à température ambiante.",
+        "Si trop épaisse, diluer la crème au citron avec de l'eau froide.",
+        "Garnir la base précuite avec la crème au citron. Lisser et placer au frais jusq'au moment du service."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://danslacuisinedesophie.fr/2020/09/tartelettes-au-citron-facile.html"
+}

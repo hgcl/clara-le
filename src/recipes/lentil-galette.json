@@ -1,0 +1,33 @@
+{
+  "title": "Lentil galette",
+  "dateCreated": "2023-10-12",
+  "dataTag": ["side"],
+  "intro": "",
+  "duration": "150",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 cup red lentils",
+        "1 cup water (+ more for soaking lentils)",
+        "1 tbsp oil",
+        "Salt"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Soak the lentils overnight or for a few hours. If you don't have time, cook the lentils with little water until almost cooked but with a bite to them.",
+        "Blend the lentils with enough water to achieve the same texture as pancake dough. Add the salt and oil, mix well.",
+        "Place a pizza stone in the oven and preheat it at 210&nbsp;°C.",
+        "Lay a thin layer of lentil dough on some parchment paper (lightly oiled).",
+        "Bake in the oven for 5 minutes or until the galette top seems dry. Delicately place the galette on a plate. Repeat for all the remaining dough."
+      ]
+    }
+  ],
+  "notes": [""],
+  "recipeUrl": ""
+}

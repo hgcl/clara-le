@@ -1,0 +1,43 @@
+{
+  "title": "Sourdough burger buns",
+  "dateCreated": "2021-01-22",
+  "dataTag": ["side"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "200 g levain",
+        "300 g farine T45",
+        "200 g farine semi-complète T110",
+        "8 g sel",
+        "16 g sucre",
+        "200 g lait à température ambiante (ou eau)",
+        "60 g beurre mou",
+        "1 oeuf"
+      ],
+      "ingOpt": ["1 jaune d'oeuf", "Graines de sésame"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Pétrissez grossièrement à la main les farines, le lait, l'oeuf, le sucre, le sel et levain en veillant à ce le levain n'entre pas en contact direct avec le sel",
+        "Au fur et à mesure, ajoutez les dés de beurre mou",
+        "Pétrissez le tout 15 à 20 minutes jusqu'à ce que la pâte se décolle des parois de votre bol, qu'elle soit souple et ferme",
+        "Réservez une nuit dans un grand bol recouvert d'un linge sec et propre, celui-ci va pousser et doubler de volume",
+        "Dégazez la pâte en chassant l'air à la main et en pétrissant brièvement à la main puis divisez-la en 8 pâtons de 100g environ",
+        "Formez des boules avec les pâtons en les roulant sur le plan de travail et laissez-les de nouveau doubler de volume sur une plaque allant au four, chemisé de papier cuisson, couvert d'un linge",
+        "Préchauffez le four à 200&nbsp;°C",
+        "Badigeonnez vos buns de jaune d'oeuf (mélangé à un peu d'eau), saupoudrez-les de graines de sésame et enfournez pour 13-15 minutes. Laissez refroidir sur une grille, c'est prêt!"
+      ]
+    }
+  ],
+  "notes": [
+    "Note: cette recette nécessite 6–8 heures de \"bulk rising\".",
+    "Tip: la deuxième montée des pains individuellement est plus importante que la première. Mieux vaut racourcir la première durée de montée plutôt que la deuxième."
+  ],
+  "sourceUrl": "http://www.grainedefaimkely.com/2020/04/pain-burger-au-levain.html"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Korean side-spinach (sigeumchi namul)",
+  "dateCreated": "2020-11-15",
+  "dataTag": ["main", "spring", "summer", "fall"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "8 ounces spinach, cleaned and washed",
+        "1 garlic clove, minced",
+        "1 green onion, chopped",
+        "1.5 tsp soy sauce",
+        "1.5 tsp toasted sesame oil",
+        "2 tsp toasted sesame seeds"
+      ],
+      "ingOpt": ["Silgochu, Korean dried shredded red pepper"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Blanch the spinach for 30 seconds to 1 minute with lid off, stirring with a wooden spoon.",
+        "Strain the spinach and rinse in cold water a couple of times to remove any residual dirt.",
+        "Squeeze out excess water and cut a few times into bite size pieces.",
+        "Mix the spinach with garlic, green onion, soy sauce, toasted sesame oil, and sesame seeds in a mixing bowl by hand.",
+        "Transfer to a bowl or plate and garnish with silgochu, if used.",
+        "Serve with rice."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.maangchi.com/recipe/sigumchi-namul/"
+}

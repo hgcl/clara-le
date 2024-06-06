@@ -1,0 +1,32 @@
+{
+  "title": "Italian arancini",
+  "dateCreated": "2022-12-08",
+  "dataTag": ["main", "ahead"],
+  "intro": "",
+  "duration": "50",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["Pre-cooked risotto, ideally from the day before"],
+      "ingOpt": ["Filling", "Egg"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Shape your rice balls, filling them if you want to.",
+        "When all of your arancini have been formed, whisk together the flour, eggs, 1/2 cup of water, and a pinch of salt in a shallow bowl until smooth.",
+        "Spread the breadcrumbs in a plate or baking dish.",
+        "Gently roll each ball first in the egg-flour-water-salt mixture, letting any excess drip off.",
+        "Then roll them in the breadcrumbs until evenly coated.",
+        "At this point, you can refrigerate your arancini for 20 to 30 minutes to let them firm up if they seem a bit too loose or liquidy. If not, you can go directly to frying.",
+        "Heat about 5&nbsp;cm of neutral frying oil to 180&nbsp;°C.",
+        "Fry your arancini in batches of just 2 to 3 at a time, being careful not to overcrowd the pot until they are evenly golden brown, about 3 minutes.",
+        "Transfer them to a paper-towel-lined plate to drain."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.thespruceeats.com/classic-sicilian-arancini-rice-balls-3998136"
+}

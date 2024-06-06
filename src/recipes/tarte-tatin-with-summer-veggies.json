@@ -1,0 +1,33 @@
+{
+  "title": "Tarte tatin with summer veggies",
+  "dateCreated": "2023-07-24",
+  "dataTag": ["main", "ahead"],
+  "intro": "",
+  "duration": "80",
+  "ingredients": [
+    {
+      "ingTitle": "For one pie:",
+      "ingMand": [
+        "Pie dough",
+        "2 tomatoes",
+        "1 zucchini, thinly sliced",
+        "1 onion, thinly sliced"
+      ],
+      "ingOpt": ["Spinach leaves"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Cut the tomatoes into four and remove the seeds.",
+        "In a pie pan, lay the tomatoes and sliced zucchini. Cook in the oven at 180&nbsp;°C for 30 minutes.",
+        "In the meantime, prepare a <a href=\"/recipes/pie-dough/\">pie dough</a> and set it aside in the fridge.",
+        "After 30 minutes in the oven, the veggies should come out caramelized. Push them aside so that you can add a layer of sliced onions on the bottom of the pan. On the top, add the spinach leaves and the rolled out the dough as a last layer. Make sure the dough is pierced through with a fork to avoid air bubbles.",
+        "Bake the pie for 30 side minutes."
+      ]
+    }
+  ],
+  "notes": [""],
+  "sourceUrl": ""
+}

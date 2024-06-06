@@ -1,0 +1,31 @@
+{
+  "title": "Indian ghee",
+  "dateCreated": "2026-01-01",
+  "dataTag": ["ahead", "preserve"],
+  "intro": "Love the nutty taste and flavor! Bonus points as it can be made out of stale butter.",
+  "duration": "40",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["1 kg beurre à température ambiante"],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Lavez et ébouillantez le pot et son couvercle comme pour les confitures.",
+        "Coupez le beurre en gros morceaux et placez-les dans une casserole à fond épais (pour une meilleure répartition de la chaleur).",
+        "Faites fondre les morceaux de beurre à feu très doux sans remuer. Ne mettez jamais de couvercle.",
+        "Une fois le beurre fondu (au bout de 25 minutes à peu près), une mousse se forme à la surface. Ce sont les impuretés du beurre. Il vous suffit de l’enlever à l’aide d’une cuillère.",
+        "Vous pouvez arrêter la cuisson lorsque vous obtenez le degré de clarification désiré. Plus il sera transparent et clair, plus il se conservera longtemps.",
+        "Le petit lait que l’on souhaite éliminer, apparaît sous forme de couche blanchâtre au fond la casserole. Versez le liquide jaune or en prenant soin de laisser derrière la pellicule blanche du fond.",
+        "Laissez le pot ouvert et couvert d'un linge à refroidir à température ambiante.",
+        "Vous pouvez conserver le ghee à température ambiante pendant plusieurs mois."
+      ]
+    }
+  ],
+  "notes": [""],
+  "sourceUrl": "https://www.youtube.com/watch?v=XneEzaG3nbI"
+}

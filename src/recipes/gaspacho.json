@@ -1,0 +1,37 @@
+{
+  "title": "Gaspacho",
+  "dateCreated": "2023-07-30",
+  "dataTag": ["main", "summer"],
+  "intro": "",
+  "duration": "30",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "6 tomates mûres",
+        "2 poivrons",
+        "2 oignons",
+        "1 concombre",
+        "1 gousse d'ail",
+        "6 c.à.s de vinaigre",
+        "1/2 verre d'huile d'olive",
+        "piment en poudre",
+        "poivre et sel"
+      ],
+      "ingOpt": ["1/2 citron (jus)", "basilic"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Ôter la peau du concombre et épepiner les poivrons.",
+        "Mixer en une ou plusieurs fois (selon la capacité de votre mixeur) tous les ingrédients, en prenant bien soin de réduire en purée l'ail et l'oignon.",
+        "Ajouter de l'eau si la mixture est trop épaisse, l'huile, le vinaigre et le jus de citron et le basilic puis assaisonner.",
+        "Bien mélanger et mettre au frigo au moins une heure, avec ou sans glaçons."
+      ]
+    }
+  ],
+  "notes": [""],
+  "sourceUrl": "https://www.marmiton.org/recettes/recette_gaspacho_92502.aspx"
+}

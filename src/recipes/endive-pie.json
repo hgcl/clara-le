@@ -1,0 +1,38 @@
+{
+  "title": "Endive pie",
+  "dateCreated": "2022-11-12",
+  "dataTag": ["main", "ahead", "fall"],
+  "intro": "",
+  "duration": "50",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Dough for one pie",
+        "3–4 endives",
+        "1 apple, thinly sliced",
+        "1 tsp sugar",
+        "20 cl. milk",
+        "1 egg"
+      ],
+      "ingOpt": ["Pignons de pin", "Butter"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Préparer la pâte brisée.",
+        "Couper les endives en quatre.",
+        "Dans une grande sauteuse, fondre le beurre puis ajouter les endives. Saler, poivrer, saupoudrer de la cuillère à soupe de sucre puis laisser cuire à feu moyen-vif (à découvert !) pendant 5 minutes (retourner les endives à mi-cuisson). Les endives doivent légèrement caraméliser et être bien fondantes.",
+        "Dans un bol, fouetter le lait avec l'oeuf, assaisonner.",
+        "Préchauffer le four à 180&nbsp;°C, chaleur tournante.",
+        "Etaler la pâte brisée sur un papier sulfurisé et foncer un moule à tarte (de 26&nbsp;cm de diamètre environ).",
+        "Disposer les morceaux de pomme sur le fond de tarte, puis ajouter les endives. Recouvrir de la préparation au lait. Parsemer de pignons de pin.",
+        "Enfourner 30 minutes."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}

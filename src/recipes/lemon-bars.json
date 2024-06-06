@@ -1,0 +1,45 @@
+{
+  "title": "Lemon bars",
+  "dateCreated": "2021-01-21",
+  "dataTag": ["dessert", "ahead"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Shortbread base",
+      "ingMand": ["250 g flour", "100 g sugar", "230 g butter (diced)"],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Lemon custard",
+      "ingMand": [
+        "170 g lemon juice (around 4–5 small lemons)",
+        "lemon zest",
+        "30 g flour",
+        "230 g sugar",
+        "4 eggs"
+      ],
+      "ingOpt": ["80 g cream cheese"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Shortbread Base",
+      "insSteps": [
+        "Using a pastry cutter or in a food processor blend together the butter sugar and flour.",
+        "Press evenly into the bottom of a greased and parchment paper lined 20x30&nbsp;cm baking pan.",
+        "Bake for 20 to 25 minutes at 175&nbsp;°C."
+      ]
+    },
+    {
+      "insTitle": "Lemon Custard",
+      "insSteps": [
+        "Simply whisk together the sugar, flour, eggs, zest and lemon juice until the sugar is dissolved.",
+        "Allow the topping to sit for about 10 minutes before whisking together well again and pouring over the baked shortbread base.",
+        "Bake at 175&nbsp;°C for about another 20–25 minutes, or until the top is slightly browned and the custard appears to be set. The bottom should just be beginning to brown slightly at the top edges. Cool completely. Sprinkle with icing sugar when cool or try adding a meringue topping."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.rockrecipes.com/lime-bars-super-easy/"
+}

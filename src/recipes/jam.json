@@ -1,0 +1,50 @@
+{
+  "title": "Jam",
+  "dateCreated": "2023-07-31",
+  "dataTag": ["side", "preserve"],
+  "intro": "I love Robin's family jam recipe. The result is not too sweet, syrupy with big pieces of fruits left.",
+  "duration": "240",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "5 kg fruit (e.g. apricots, prunes, cherries, etc.)",
+        "2.5 kg brown sugar"
+      ],
+      "ingOpt": ["1 lemon (juiced)"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Prep the fruits",
+      "insSteps": [
+        "Pit the fruits and cut them into bite-size pieces.",
+        "Add the fruits to a big pot, cover them with sugar.",
+        "Turn on the heat until the sugar dissolves into a syrup (this should only take a couple of minutes).",
+        "Let the pot rest for the night."
+      ]
+    },
+    {
+      "insTitle": "Make the jam",
+      "insSteps": [
+        "Bring to a boil while stirring frequently, add lemon juice.",
+        "In another pot, start boiling some water with the empty jam containers and lids.",
+        "When the fruits are soft enough, take out 3/4 of the fruits and set aside in a big bowl. Keep on cooking the rest of the jam until the mixture clings to a spoon but falls off in clumps.",
+        "Skim foam from top.",
+        "Add the fruits back into the mixture and cook a few more minutes for it to heat up."
+      ]
+    },
+    {
+      "insTitle": "Fill and seal your jam containers",
+      "insSteps": [
+        "The pot with jam containers and lids should be boiling at this point.",
+        "With a long wooden spoon or fork, take out a container and lid.",
+        "Pour jam into it, leaving 1 cm from the top. Make sure to pour enough syrup for the fruits to be submerged. Quickly close the container and turn it around so that the container is now \"sitting on its head\".",
+        "Repeat the process until all the jam is in containers. Let them cool down at room temperature.",
+        "When cool, make sure to label the containers with the year. They can be kept for a few years."
+      ]
+    }
+  ],
+  "notes": [""],
+  "sourceUrl": ""
+}

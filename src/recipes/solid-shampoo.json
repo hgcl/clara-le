@@ -1,0 +1,39 @@
+{
+  "title": "Solid shampoo",
+  "dateCreated": "2023-10-15",
+  "dataTag": ["diy"],
+  "intro": "",
+  "duration": "30",
+  "ingredients": [
+    {
+      "ingTitle": "Pour une barre de 100 g :",
+      "ingMand": [
+        "50 g de SCI (Sodium Cocoyl Isethionate)",
+        "15 g  de poudre de plante adaptée à vos cheveux (ex : poudre de bhringaraj)",
+        "17 g de phase huileuse (huiles végétales ou beurres végétaux, ex : huile de coco)",
+        "15 g de phase aqueuse (hydrolat, infusion, macérat aqueux ou eau, ex : hydrolat de romarin à verbénone)",
+        "2 g d'acide citrique"
+      ],
+      "ingOpt": [
+        "20 gouttes d'huiles essentielles de votre choix (ex : tea tree, lavande, citron)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Préparer tous les ingrédients préalablement pour ne pas à avoir à les chercher le moment venu. Faire fondre l'acide citrique dans la phase aqueuse.",
+        "Dans un récipient pour bain-marie, placer votre phase huileuse, votre phase aqueuse, puis le SCI et la poudre de plante — donc tout sauf les huiles essentielles. Manipuler les poudres avec soin pour éviter qu'elles ne s'envolent et irritent vos poumons (porter un masque si nécessaire).",
+        "Faire chauffer doucement les ingrédients au bain-marie, pour ne pas altérer les actifs. Remuer en permanence avec une cuillère solide ou un pilon (pour que les grains de SCI fondent un maximum).",
+        "Préalablement, ouvrir les récipients d'huiles essentielles pour ne pas à avoir à le faire plus tard lorsque vos mains seront sales.",
+        "Lorsque la pâte est plus ou moins homogène, la retirer du bain-marie et la malaxer doucement (attention, ça colle aux doigts).",
+        "Lorsque la pâte n'est plus trop chaude, faire un puit et ajouter les huiles essentielles en son milieu. Pétrir quelques minutes pour répartir les huiles.",
+        "Former un shampoing du format de votre choix en essayant de le rendre aussi dense que possible entre vos mains.",
+        "Optionnel : Si vous voulez pouvoir accrocher votre shampoing dans votre salle de bain par la suite, percer le lorsqu'il est encore mou."
+      ]
+    }
+  ],
+  "notes": [""],
+  "recipeUrl": "https://dimensionflo.com/la-recette-de-base-pour-un-shampoing-solide-sans-tensioactifs-agressifs/"
+}

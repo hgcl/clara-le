@@ -1,0 +1,54 @@
+{
+  "title": "Cold spicy noodles",
+  "dateCreated": "2023-08-25",
+  "dataTag": ["main"],
+  "intro": "",
+  "duration": "30",
+  "ingredients": [
+    {
+      "ingTitle": "For 3 portions",
+      "ingMand": [
+        "Wheat noodles",
+        "4–6 tbsp oil",
+        "2–3 tbsp gochugaru",
+        "2 tbsp sesame seeds",
+        "2 garlic cloves, cut small",
+        "2 tsp honey",
+        "2–3 tbsp soy sauce",
+        "2 tbsp white vinegar",
+        "3–4 tbsp sesame or peanut paste",
+        "2+ tbsp water",
+        "Cucumber, fresh out of the fridge and julienned"
+      ],
+      "ingOpt": ["0.5 inch ginger, cut small", "Dried seaweed, cut small"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Sauce",
+      "insSteps": [
+        "Mix the gochugaru, sesame seeds, garlic, and ginger in a heat-proof bowl.",
+        "Add the oil to a pan and heat it. When hot, gently pour it over the spices bowl and mix.",
+        "Add the rest of the ingredients and mix to combine. Add as much water as needed to obtain a silky sauce, the texture of cream."
+      ]
+    },
+    {
+      "insTitle": "Noodles",
+      "insSteps": [
+        "Cook noodles until al dente.",
+        "When the noodles are cooked, drain and immediately plunge them into cold water.",
+        "Renew the cold water until the noodles are cold.",
+        "Drain and set aside."
+      ]
+    },
+    {
+      "insTitle": "Serve",
+      "insSteps": [
+        "To serve, add some noodles in a deep plate and top it with some sauce. You can do this in two layers, so that the sauce is more evenly distributed.",
+        "Top with some julienned cucumber, sesame seeds and dried seaweed."
+      ]
+    }
+  ],
+  "notes": [""],
+  "sourceUrl": ""
+}
