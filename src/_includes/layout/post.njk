@@ -41,6 +41,12 @@
   .boxed-content > button:focus {
     color: var(--blue);
   }
+
+  /* Comments */
+  #comments article {
+    border-bottom: solid 1px var(--color-text-subtle);
+    padding: 0.5rem 0;
+  }
 </style>
 {% endblock %}
 
@@ -54,7 +60,7 @@
 </article>
 {% if directory === "posts" %}
   {% include 'comment-form.njk' %}
-  {# TODO inject comments #}
+  {% include 'comment-notes.njk' %}
 {% endif %}
 {% endblock %}
 
