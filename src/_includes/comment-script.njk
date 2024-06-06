@@ -1,7 +1,6 @@
 <script>
 // COMMENT SCRIPT
 // Submits comment form if not spam + alert about manual processing
-// To avoid reload: https://stephenweiss.dev/better-form-submissions-with-event-prevent-default-and-html-form-element-reset
 
 const commentForm = document.getElementById("comment-form");
 
@@ -14,12 +13,10 @@ function submitForm (e) {
       return false;
     }
 
-    event.preventDefault();
-    console.log(`Form submitted!`);
-    alert(
+    // TODO how to avoid page redirect?
+    return alert(
       "Your comment will be manually reviewed before being published. Please do not leave the page while your message is being sent."
     );
-    commentForm.reset();
   }
 
   commentForm.addEventListener('submit', submitForm);
