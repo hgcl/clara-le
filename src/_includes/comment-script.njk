@@ -8,14 +8,21 @@
   const commentForm = document.getElementById("comment-form");
   commentForm.addEventListener("submit", (e) => {
     const formData = new FormData(e.target);
+    // if form submission is spam
     if (formData.get("name") !== "" || formData.get("email") !== "") {
-      // Form submission is spam
       e.preventDefault();
       return false;
     }
-    // Form submission is valid, proceed with processing
+    // if form submission is valid, proceed with processing
+    // outsourcing sending form and returning false prevents page reload
+    sendForm();
+    e.preventDefault()
+    return false;
+  });
+
+  function sendForm() {
     return alert(
       "Your comment will be manually reviewed before being published. Please do not leave the page while your message is being sent."
     );
-  });
+  }
 </script>
