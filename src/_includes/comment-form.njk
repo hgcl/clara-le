@@ -8,7 +8,7 @@
 >
   <h2 class="label">Leave a comment</h2>
   <input name="options[redirect]" type="hidden" value="https://clarale.com" />
-  <input id="slug" name="options[slug]" type="hidden" value="" />
+  <input id="slug" name="options[slug]" type="hidden" value="{{ page.fileSlug }}" />
   <div>
     <label for="abcnamehjk">Your name</label
     ><input
@@ -19,6 +19,7 @@
       required
     />
   </div>
+  {# TODO integrate email / notification support #}
   {# <div>
     <label for="abcemailhjk">Email (optional)</label
     ><input id="abcemailhjk" name="fields[email]" type="email" />
