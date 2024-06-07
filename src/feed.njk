@@ -27,7 +27,7 @@
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
-      <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
+      <description>{{ post.templateContent | replace("{end-key}","⊙") | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
       <pubDate>{{ post.data.dateCreated | dateToRfc822 }}</pubDate>
       <dc:creator>{{ metadata.author.name }}</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>
