@@ -2,7 +2,7 @@
 title: "Where the mountain meets the moon"
 author: ["Grace Lin"]
 cover: "https://covers.openlibrary.org/b/id/14561336-L.jpg"
-dateCreated: "2024-03-13"
+date: "2024-03-13"
 tags: ["book"]
 year: "2009"
 ---

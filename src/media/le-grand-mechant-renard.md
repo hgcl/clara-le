@@ -2,7 +2,7 @@
 title: "Le Grand Méchant Renard"
 author: ["Benjamin Renner"]
 cover: "https://covers.openlibrary.org/b/id/10867922-L.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["book"]
 year: "2015"
 ---

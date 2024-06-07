@@ -1,7 +1,7 @@
 ---
 title: "#18 Friendsgiving and D&D"
 subtitle: "Update #18"
-dateCreated: "2022-11-28"
+date: "2022-11-28"
 tags: ["update"]
 ---
 

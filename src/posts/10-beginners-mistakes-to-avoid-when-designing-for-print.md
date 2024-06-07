@@ -1,7 +1,7 @@
 ---
 title: "10 beginners mistakes to avoid when designing for print"
 subtitle: "I made them too and will probably make them again"
-dateCreated: "2019-05-27"
+date: "2019-05-27"
 tags: ["creative"]
 ---
 

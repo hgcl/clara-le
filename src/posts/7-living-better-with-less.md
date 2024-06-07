@@ -1,7 +1,7 @@
 ---
 title: "#7 Living better with less"
 subtitle: "Update #7"
-dateCreated: "2020-12-19"
+date: "2020-12-19"
 tags: ["update"]
 ---
 

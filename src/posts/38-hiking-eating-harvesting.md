@@ -1,7 +1,7 @@
 ---
 title: "#38 Hiking, eating, harvesting"
 subtitle: "Update #38"
-dateCreated: "2023-09-27"
+date: "2023-09-27"
 tags: ["update"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a duotone image in 5 minutes"
 subtitle: "An Adobe Photoshop CC tutorial"
-dateCreated: "2019-05-09"
+date: "2019-05-09"
 tags: ["creative", "digital"]
 ---
 

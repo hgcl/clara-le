@@ -1,7 +1,7 @@
 ---
 title: "IndieWeb browsing"
 subtitle: "How I lost myself in the webring"
-dateCreated: "2022-04-16"
+date: "2022-04-16"
 tags: ["digital"]
 ---
 

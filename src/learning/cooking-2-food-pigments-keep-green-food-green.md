@@ -1,6 +1,6 @@
 ---
 title: "Food pigments: Keep green food green"
-dateCreated: "2023-09-30"
+date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://foodcrumbles.com/how-to-keep-green-food-green-controlling-chlorophyll/"
 ---

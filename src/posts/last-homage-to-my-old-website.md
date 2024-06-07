@@ -1,7 +1,7 @@
 ---
 title: "Last homage to my old website"
 subtitle: "A toast to all lost websites"
-dateCreated: "2022-04-03"
+date: "2022-04-03"
 tags: ["thought"]
 ---
 

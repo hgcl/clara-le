@@ -2,7 +2,7 @@
 title: "Kill Bill"
 author: ["Quentin Tarantino"]
 cover: "https://image.tmdb.org/t/p/w1280/zomX76Pf3nUaTzRBk5BveLk1QPu.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2003"
 ---

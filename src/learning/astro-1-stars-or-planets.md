@@ -1,6 +1,6 @@
 ---
 title: "Stars or planets?"
-dateCreated: "2023-11-15"
+date: "2023-11-15"
 tags: ["astronomy"]
 sourceUrl: "https://archive.org/details/fieldguidetostar00menz_0/mode/1up"
 ---

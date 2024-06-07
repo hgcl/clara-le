@@ -2,7 +2,7 @@
 title: "Life of Pi"
 author: ["Ang Lee"]
 cover: "https://image.tmdb.org/t/p/w1280/mYDKm9HxImm8PRru3KbkHAe1cmk.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2012"
 ---

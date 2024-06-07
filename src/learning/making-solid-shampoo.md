@@ -1,6 +1,6 @@
 ---
 title: "Making solid shampoo"
-dateCreated: "2023-10-16"
+date: "2023-10-16"
 tags: ["diy"]
 sourceUrl: ""
 ---

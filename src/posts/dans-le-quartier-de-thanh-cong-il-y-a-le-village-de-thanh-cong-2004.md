@@ -1,7 +1,7 @@
 ---
 title: "Dans le quartier de Thanh Công il y a le village de Thanh Công (2004)"
 subtitle: "A tiny note about the short"
-dateCreated: "2023-04-02"
+date: "2023-04-02"
 tags: ["review"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Digital doodling"
 subtitle: "Trying out Tayasui Sketches"
-dateCreated: "2021-12-25"
+date: "2021-12-25"
 tags: ["creative"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Food pigments: Red beets"
-dateCreated: "2023-09-30"
+date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://niksharmacooks.com/the-flavor-equation/"
 ---

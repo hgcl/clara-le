@@ -1,6 +1,6 @@
 ---
 title: "How to cut open a pomegranate"
-dateCreated: "2023-10-15"
+date: "2023-10-15"
 tags: ["cooking"]
 sourceUrl: ""
 ---

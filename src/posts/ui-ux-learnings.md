@@ -1,7 +1,7 @@
 ---
 title: "UI/UX Learnings"
 subtitle: "Living notes"
-dateCreated: "2022-07-13"
+date: "2022-07-13"
 tags: ["digital"]
 ---
 

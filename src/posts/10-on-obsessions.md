@@ -1,7 +1,7 @@
 ---
 title: "#10 On obsessions"
 subtitle: "Update #10"
-dateCreated: "2021-01-10"
+date: "2021-01-10"
 tags: ["update"]
 ---
 

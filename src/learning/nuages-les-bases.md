@@ -1,6 +1,6 @@
 ---
 title: "Nuages: Les bases"
-dateCreated: "2023-11-27"
+date: "2023-11-27"
 tags: ["miscellaneous"]
 sourceUrl: "https://www.youtube.com/watch?v=QytVOC1VVOM"
 ---

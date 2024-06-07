@@ -2,7 +2,7 @@
 title: "Ali and Nino"
 author: ["Kurban Said"]
 cover: "https://covers.openlibrary.org/b/id/6927843-L.jpg"
-dateCreated: "2024-02-20"
+date: "2024-02-20"
 tags: ["book"]
 year: "1937"
 ---

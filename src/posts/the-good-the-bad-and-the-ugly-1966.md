@@ -1,7 +1,7 @@
 ---
 title: "The Good, the Bad and the Ugly (1966)"
 subtitle: "A tiny note about the movie"
-dateCreated: "2020-12-05"
+date: "2020-12-05"
 tags: ["review"]
 ---
 

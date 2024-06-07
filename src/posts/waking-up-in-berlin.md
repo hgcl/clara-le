@@ -1,7 +1,7 @@
 ---
 title: "Waking up in Berlin"
 subtitle: "A last note"
-dateCreated: "2023-01-29"
+date: "2023-01-29"
 tags: ["thought"]
 ---
 

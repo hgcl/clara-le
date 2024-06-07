@@ -2,7 +2,7 @@
 title: "Our flag means death"
 author: ["David Jenkins"]
 cover: "https://image.tmdb.org/t/p/w1280/mP9OYUoZWod61G8gnsZ5TX1qft.jpg"
-dateCreated: "2022-09-01"
+date: "2022-09-01"
 tags: ["tv series"]
 year: "2022"
 ---

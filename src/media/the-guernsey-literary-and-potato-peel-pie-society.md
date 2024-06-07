@@ -2,7 +2,7 @@
 title: "The Guernsey Literary and Potato Peel Pie Society"
 author: ["Mary Ann Shaffer", "Annie Barrows"]
 cover: "https://covers.openlibrary.org/b/id/10159827-L.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["book"]
 year: "2008"
 ---

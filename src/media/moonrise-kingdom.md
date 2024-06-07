@@ -2,7 +2,7 @@
 title: "Moonrise Kingdom"
 author: ["Wes Anderson"]
 cover: "https://image.tmdb.org/t/p/w1280/xrziXRHRQ7c7YLIehgSJY8GQBsx.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2012"
 ---

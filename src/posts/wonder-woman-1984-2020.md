@@ -1,7 +1,7 @@
 ---
 title: "Wonder Woman 1984 (2020)"
 subtitle: "A tiny note about the movie"
-dateCreated: "2020-12-26"
+date: "2020-12-26"
 tags: ["review"]
 ---
 

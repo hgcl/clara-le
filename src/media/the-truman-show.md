@@ -2,7 +2,7 @@
 title: "The Truman Show"
 author: ["Peter Weir"]
 cover: "https://image.tmdb.org/t/p/w1280/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "1998"
 ---

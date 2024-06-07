@@ -1,7 +1,7 @@
 ---
 title: "Sicilian notes"
 subtitle: "A tiny note about our trip in Sicily"
-dateCreated: "2023-06-02"
+date: "2023-06-02"
 tags: ["thought"]
 ---
 

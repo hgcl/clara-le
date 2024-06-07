@@ -1,6 +1,6 @@
 ---
 title: "Grande-voie: Le matériel"
-dateCreated: "2023-10-01"
+date: "2023-10-01"
 tags: ["climbing"]
 ---
 

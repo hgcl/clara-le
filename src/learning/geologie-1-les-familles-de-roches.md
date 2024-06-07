@@ -1,6 +1,6 @@
 ---
 title: "Géologie: Les familles de roches"
-dateCreated: "2023-12-09"
+date: "2023-12-09"
 tags: ["miscellaneous"]
 sourceUrl: "https://www.unilim.fr/musee_geologique_de_plein_air/les-roches-presentees-2/il-existe-quatre-grandes-familles-de-roches/"
 ---

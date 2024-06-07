@@ -2,7 +2,7 @@
 title: "Mulholland Drive"
 author: ["David Lynch"]
 cover: "https://image.tmdb.org/t/p/w1280/czJ71FeOCyDhpXp0WtqYIyZf3kZ.jpg"
-dateCreated: "2024-05-12"
+date: "2024-05-12"
 tags: ["movie"]
 year: "2001"
 ---

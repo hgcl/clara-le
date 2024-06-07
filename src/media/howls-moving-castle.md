@@ -2,7 +2,7 @@
 title: "Howl's Moving Castle"
 author: ["Hayao Miyazaki"]
 cover: "https://image.tmdb.org/t/p/w1280/2KvuvaIBDxrafatQHX4hoj4FcI6.jpg"
-dateCreated: "2023-06-29"
+date: "2023-06-29"
 tags: ["movie"]
 year: "2004"
 ---

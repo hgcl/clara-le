@@ -2,7 +2,7 @@
 title: "Memento"
 author: ["Christopher Nolan"]
 cover: "https://image.tmdb.org/t/p/w1280/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2000"
 ---

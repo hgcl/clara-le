@@ -1,7 +1,7 @@
 ---
 title: "A list of Berlin things"
 subtitle: "A non-comprehensive list of things I'll miss from Berlin"
-dateCreated: "2022-12-31"
+date: "2022-12-31"
 tags: ["thought"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "City kids going cottagecore"
 subtitle: "Moving to the countryside"
-dateCreated: "2022-12-15"
+date: "2022-12-15"
 tags: ["thought"]
 ---
 

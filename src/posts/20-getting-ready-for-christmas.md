@@ -1,7 +1,7 @@
 ---
 title: "#20 Getting ready for Christmas"
 subtitle: "Update #20"
-dateCreated: "2022-12-16"
+date: "2022-12-16"
 tags: ["update"]
 ---
 

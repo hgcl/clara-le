@@ -2,7 +2,7 @@
 title: "The Matrix"
 author: ["Lana Wachowski", "Lilly Wachowski"]
 cover: "https://image.tmdb.org/t/p/w1280/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "1999"
 ---

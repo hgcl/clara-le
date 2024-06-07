@@ -2,7 +2,7 @@
 title: "Spotlight"
 author: ["Tom McCarthy"]
 cover: "https://image.tmdb.org/t/p/w1280/gWkgMnIsd8Od7iyhEEKL5G4Qq6J.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2015"
 ---

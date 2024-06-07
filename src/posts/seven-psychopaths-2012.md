@@ -1,7 +1,7 @@
 ---
 title: "Seven Psychopaths (2012)"
 subtitle: "A tiny note about the movie"
-dateCreated: "2020-11-26"
+date: "2020-11-26"
 tags: ["review"]
 ---
 

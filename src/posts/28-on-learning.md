@@ -1,7 +1,7 @@
 ---
 title: "#28 On learning"
 subtitle: "Update #28"
-dateCreated: "2023-03-24"
+date: "2023-03-24"
 tags: ["update"]
 ---
 

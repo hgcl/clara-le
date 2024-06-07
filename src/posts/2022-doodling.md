@@ -1,7 +1,7 @@
 ---
 title: "2022 doodling"
 subtitle: "Playing around with my graphics tablet"
-dateCreated: "2022-12-29"
+date: "2022-12-29"
 tags: ["creative"]
 ---
 

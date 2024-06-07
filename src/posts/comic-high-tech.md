@@ -1,7 +1,7 @@
 ---
 title: "High tech"
 subtitle: "Comic strip #1"
-dateCreated: "2021-10-19"
+date: "2021-10-19"
 tags: ["creative"]
 ---
 

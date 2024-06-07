@@ -2,7 +2,7 @@
 title: "Everything Everywhere All At Once"
 author: ["Daniel Scheinert", "Daniel Kwan"]
 cover: "https://image.tmdb.org/t/p/w1280/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
-dateCreated: "2022-12-01"
+date: "2022-12-01"
 tags: ["movie"]
 year: "2022"
 ---

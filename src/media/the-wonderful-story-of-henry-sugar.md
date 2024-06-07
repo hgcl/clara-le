@@ -2,7 +2,7 @@
 title: "The Wonderful Story of Henry Sugar"
 author: ["Wes Anderson"]
 cover: "https://image.tmdb.org/t/p/w1280/fGqiDeb1KCVH5a1y9Nd8SfpZmvm.jpg"
-dateCreated: "2023-10-05"
+date: "2023-10-05"
 tags: ["movie"]
 year: "2023"
 ---

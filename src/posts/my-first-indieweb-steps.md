@@ -1,7 +1,7 @@
 ---
 title: "Peeking into the IndieWeb world"
 subtitle: "My first baby steps"
-dateCreated: "2022-04-10"
+date: "2022-04-10"
 tags: ["digital"]
 ---
 

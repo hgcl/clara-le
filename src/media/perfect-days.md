@@ -2,7 +2,7 @@
 title: "Perfect Days"
 author: ["Wim Wenders"]
 cover: "https://image.tmdb.org/t/p/w1280/tvUHVSTJV9ITON3oyHaWp7oaAc8.jpg"
-dateCreated: "2023-12-03"
+date: "2023-12-03"
 tags: ["movie"]
 year: "2023"
 ---

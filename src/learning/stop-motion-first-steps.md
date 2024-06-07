@@ -1,6 +1,6 @@
 ---
 title: "Stop motion: First steps"
-dateCreated: "2022-02-13"
+date: "2022-02-13"
 tags: ["miscellaneous"]
 ---
 

@@ -2,7 +2,7 @@
 title: "The Great Escape"
 author: ["John Sturges"]
 cover: "https://image.tmdb.org/t/p/w1280/gBH4H8UMFxl139HaLz6lRuvsel8.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "1963"
 ---

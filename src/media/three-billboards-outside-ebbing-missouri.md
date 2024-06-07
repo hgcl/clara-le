@@ -2,7 +2,7 @@
 title: "Three Billboards Outside Ebbing, Missouri"
 author: ["Martin McDonagh"]
 cover: "https://image.tmdb.org/t/p/w1280/pZRhqJj0DBy4ghB7g6pU7MGHsWJ.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2017"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "#3 Friends and digital gardening"
 subtitle: "Update #3"
-dateCreated: "2020-11-24"
+date: "2020-11-24"
 tags: ["update"]
 ---
 
