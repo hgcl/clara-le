@@ -7,23 +7,18 @@
   action="https://clarale-staticman.adaptable.app/v2/entry/hgcl/clara-le/main/comments"
 >
   <h2 class="label">Leave a comment</h2>
-  <input name="options[redirect]" type="hidden" value="https://clarale.com" />
-  <input id="slug" name="options[slug]" type="hidden" value="{{ page.fileSlug }}" />
+  {# HIDDEN METADATA sent with form #}
+  <input type="hidden" name="options[redirect]" value="https://clarale.com" />
+  <input type="hidden" id="slug" name="options[slug]" value="{{ page.fileSlug }}" />
+  <input type="hidden" id="comment-replying-to" name="options[parent]" value="TODO parent comment" />
   <div>
     <label for="abcnamehjk">Your name</label
-    ><input
-      id="abcnamehjk"
-      name="fields[name]"
-      type="text"
-      maxlength="100"
-      required
-    />
+    ><input id="abcnamehjk" name="fields[name]" type="text" maxlength="100" required spellcheck="false" />
   </div>
-  {# TODO integrate email / notification support #}
-  {# <div>
+  <div>
     <label for="abcemailhjk">Email (optional)</label
-    ><input id="abcemailhjk" name="fields[email]" type="email" />
-  </div> #}
+    ><input id="abcemailhjk" name="fields[email]" type="email" name="fields[email]" spellcheck="false" />
+  </div>
   <div>
     <label for="abcmessagehjk">Message</label
     ><textarea
