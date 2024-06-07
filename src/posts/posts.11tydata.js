@@ -3,9 +3,7 @@
 module.exports = {
   eleventyComputed: {
     // Generate post creation year automatically from dateCreated frontmatter
-    yearCreated: (data) => new Date(data.dateCreated).getFullYear(),
-    // Publishing date, recognized as a real date for RSS
-    dateCreated: (data) => new Date(data.dateCreated),
+    yearCreated: (data) => new Date(data.date).getFullYear(),
   },
   layout: "layout/post.njk",
   tags: "posts",
