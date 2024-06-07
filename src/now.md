@@ -2,7 +2,7 @@
 layout: "layout/post.njk"
 title: "Now"
 subtitle: "Chilling mode"
-dateCreated: "2024-04-30"
+date: "2024-04-30"
 tags: ["now"]
 icon: /img/meta/drawing-location.svg
 directory: "posts"

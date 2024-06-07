@@ -1,7 +1,7 @@
 ---
 title: "#6 Bringing home some old records"
 subtitle: "Update #6"
-dateCreated: "2020-12-12"
+date: "2020-12-12"
 tags: ["update"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "#23 Galette des rois and IndieWeb nuggets"
 subtitle: "Update #23"
-dateCreated: "2023-01-09"
+date: "2023-01-09"
 tags: ["update"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Obstacle"
 subtitle: "Comic strip #2"
-dateCreated: "2021-10-21"
+date: "2021-10-21"
 tags: ["creative"]
 ---
 

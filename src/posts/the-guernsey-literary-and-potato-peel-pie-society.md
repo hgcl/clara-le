@@ -1,7 +1,7 @@
 ---
 title: "The Guernsey Literary and Potato Peel Pie Society"
 subtitle: "A review of the audiobook"
-dateCreated: "2022-04-09"
+date: "2022-04-09"
 tags: ["review"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Three years blogging"
 subtitle: "And apparently still going"
-dateCreated: "2023-11-26"
+date: "2023-11-26"
 tags: ["thought"]
 ---
 

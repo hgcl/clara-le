@@ -1,7 +1,7 @@
 ---
 title: "My quest for true small caps"
 subtitle: "A web design adventure"
-dateCreated: "2021-01-07"
+date: "2021-01-07"
 tags: ["digital"]
 ---
 

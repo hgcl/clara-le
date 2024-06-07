@@ -1,7 +1,7 @@
 ---
 title: "#25 Unpacking and wood stove fires"
 subtitle: "Update #25"
-dateCreated: "2023-02-04"
+date: "2023-02-04"
 tags: ["update"]
 ---
 

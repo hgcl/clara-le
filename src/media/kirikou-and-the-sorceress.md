@@ -2,7 +2,7 @@
 title: "Kirikou and the Sorceress"
 author: ["Michel Ocelot"]
 cover: "https://image.tmdb.org/t/p/w1280/oYM8Gz1JYLYpokgVjiBfIWdr4Ns.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "1998"
 ---

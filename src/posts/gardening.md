@@ -1,7 +1,7 @@
 ---
 title: "Gardening"
 subtitle: "Another try at knowledge management"
-dateCreated: "2021-10-24"
+date: "2021-10-24"
 tags: ["thought"]
 ---
 

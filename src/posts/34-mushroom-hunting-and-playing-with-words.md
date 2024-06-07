@@ -1,7 +1,7 @@
 ---
 title: "#34 Mushroom hunting and playing with words"
 subtitle: "Update #34"
-dateCreated: "2023-06-19"
+date: "2023-06-19"
 tags: ["update"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Food pigments: Purple, blue or red blueberries"
-dateCreated: "2023-09-30"
+date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://niksharmacooks.com/the-flavor-equation/"
 ---

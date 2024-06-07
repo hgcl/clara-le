@@ -1,7 +1,7 @@
 ---
 title: "#39 A week in Hérault"
 subtitle: "Update #39"
-dateCreated: "2023-10-10"
+date: "2023-10-10"
 tags: ["update"]
 ---
 

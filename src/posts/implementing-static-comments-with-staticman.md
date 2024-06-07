@@ -1,7 +1,7 @@
 ---
 title: "Implementing static comments with Staticman"
 subtitle: "Back on the coding train"
-dateCreated: "2024-05-20"
+date: "2024-05-20"
 tags: ["digital"]
 ---
 

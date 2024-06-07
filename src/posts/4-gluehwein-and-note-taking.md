@@ -1,7 +1,7 @@
 ---
 title: "#4 Glühwein and note-taking"
 subtitle: "Update #4"
-dateCreated: "2020-11-28"
+date: "2020-11-28"
 tags: ["update"]
 ---
 

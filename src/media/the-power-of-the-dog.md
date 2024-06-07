@@ -2,7 +2,7 @@
 title: "The Power of the Dog"
 author: ["Jane Campion"]
 cover: "https://image.tmdb.org/t/p/w1280/epb8WAquLI1S38HWLaHwSdKvxHm.jpg"
-dateCreated: "2021-12-01"
+date: "2021-12-01"
 tags: ["movie"]
 year: "2021"
 ---

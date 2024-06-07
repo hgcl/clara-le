@@ -2,7 +2,7 @@
 title: "Joker"
 author: ["Todd Phillips"]
 cover: "https://image.tmdb.org/t/p/w1280/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2019"
 ---

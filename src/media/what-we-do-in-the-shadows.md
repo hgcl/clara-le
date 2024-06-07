@@ -2,7 +2,7 @@
 title: "What We Do in the Shadows"
 author: "Taika Waititi"
 cover: "https://image.tmdb.org/t/p/w1280/32QNWU2RoB7El5m2cjo3TnmvUxJ.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2014"
 ---

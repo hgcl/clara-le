@@ -1,7 +1,7 @@
 ---
 title: "Words I'm growing suspicious of"
 subtitle: "Ranting (in a list format)"
-dateCreated: "2023-12-12"
+date: "2023-12-12"
 tags: ["thought"]
 ---
 

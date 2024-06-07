@@ -1,7 +1,7 @@
 ---
 title: "Fermentation: behind-the-scenes"
 subtitle: "Biochemistry stuff I barely understand"
-dateCreated: "2023-07-27"
+date: "2023-07-27"
 tags: ["thought"]
 ---
 

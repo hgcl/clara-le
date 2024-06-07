@@ -1,6 +1,6 @@
 ---
 title: "Middle dot"
-dateCreated: "2023-10-21"
+date: "2023-10-21"
 tags: ["miscellaneous"]
 sourceUrl: ""
 ---

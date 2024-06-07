@@ -1,7 +1,7 @@
 ---
 title: "#19 Sprained ankle and interactive fiction"
 subtitle: "Update #19"
-dateCreated: "2022-12-05"
+date: "2022-12-05"
 tags: ["update"]
 ---
 

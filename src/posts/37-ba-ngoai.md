@@ -1,7 +1,7 @@
 ---
 title: "#37 Bà ngoại"
 subtitle: "Update #37"
-dateCreated: "2023-09-20"
+date: "2023-09-20"
 tags: ["update"]
 ---
 

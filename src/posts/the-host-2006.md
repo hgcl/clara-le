@@ -1,7 +1,7 @@
 ---
 title: "The Host (2006)"
 subtitle: "A tiny note about the movie"
-dateCreated: "2020-12-12"
+date: "2020-12-12"
 tags: ["review"]
 ---
 

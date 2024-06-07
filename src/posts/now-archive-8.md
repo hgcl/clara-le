@@ -1,7 +1,7 @@
 ---
 title: "Now archive #8"
 subtitle: "A snapshot in time"
-dateCreated: "2023-07-12"
+date: "2023-07-12"
 tags: ["now"]
 ---
 

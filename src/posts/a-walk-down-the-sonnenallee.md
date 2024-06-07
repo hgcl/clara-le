@@ -1,7 +1,7 @@
 ---
 title: "A walk down the Sonnenallee"
 subtitle: "Along the Arab street, from Hermannplatz to Sonnenallee station"
-dateCreated: "2023-11-07"
+date: "2023-11-07"
 tags: ["thought"]
 ---
 

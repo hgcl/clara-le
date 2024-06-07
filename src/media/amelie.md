@@ -2,7 +2,7 @@
 title: "Amélie"
 author: ["Jean-Pierre Jeunet"]
 cover: "https://image.tmdb.org/t/p/w1280/vZ9NhNbQQ3yhtiC5sbhpy5KTXns.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2001"
 ---

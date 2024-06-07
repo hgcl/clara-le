@@ -1,7 +1,7 @@
 ---
 title: "I made a font"
 subtitle: "Or how I created a simple font as a complete typography-noob"
-dateCreated: "2023-01-10"
+date: "2023-01-10"
 tags: ["creative", "digital"]
 ---
 

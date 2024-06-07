@@ -1,7 +1,7 @@
 ---
 title: "In Bruges (2008)"
 subtitle: "A tiny note about the movie"
-dateCreated: "2020-12-19"
+date: "2020-12-19"
 tags: ["review"]
 ---
 

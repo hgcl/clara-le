@@ -2,7 +2,7 @@
 title: "Shutter Island"
 author: ["Martin Scorsese"]
 cover: "https://image.tmdb.org/t/p/w1280/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2010"
 ---

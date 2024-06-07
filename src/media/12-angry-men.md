@@ -2,7 +2,7 @@
 title: "12 Angry Men"
 author: ["Reginald Rose"]
 cover: "https://image.tmdb.org/t/p/w1280/ppd84D2i9W8jXmsyInGyihiSyqz.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "1957"
 ---

@@ -2,7 +2,7 @@
 title: "Jumanji"
 author: ["Jake Kasdan"]
 cover: "https://image.tmdb.org/t/p/w1280/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2017"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Just the two of us"
 subtitle: "A tiny note about life stuff"
-dateCreated: "2023-05-29"
+date: "2023-05-29"
 tags: ["thought"]
 ---
 

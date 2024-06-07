@@ -1,7 +1,7 @@
 ---
 title: "Styling animated rainbow links"
 subtitle: "With CSS only"
-dateCreated: "2022-04-15"
+date: "2022-04-15"
 tags: ["digital"]
 ---
 

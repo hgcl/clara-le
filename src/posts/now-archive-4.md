@@ -1,7 +1,7 @@
 ---
 title: "Now archive #4"
 subtitle: "A snapshot in time"
-dateCreated: "2022-06-25"
+date: "2022-06-25"
 tags: ["now"]
 ---
 

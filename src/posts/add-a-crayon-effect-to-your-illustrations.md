@@ -1,7 +1,7 @@
 ---
 title: "Add a crayon effect to your illustrations"
 subtitle: "An Adobe Illustrator CC tutorial"
-dateCreated: "2019-04-30"
+date: "2019-04-30"
 tags: ["creative", "digital"]
 ---
 

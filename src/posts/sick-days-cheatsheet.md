@@ -1,7 +1,7 @@
 ---
 title: "Sick days cheatsheet"
 subtitle: "Or how to help my tired cloudy mind"
-dateCreated: "2022-11-30"
+date: "2022-11-30"
 tags: ["thought"]
 ---
 

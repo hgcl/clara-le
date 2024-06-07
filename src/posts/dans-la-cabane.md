@@ -1,7 +1,7 @@
 ---
 title: "Dans la cabane"
 subtitle: "Un exercise de poésie"
-dateCreated: "2023-06-16"
+date: "2023-06-16"
 tags: ["creative", "french"]
 ---
 

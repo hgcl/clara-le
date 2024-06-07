@@ -2,7 +2,7 @@
 title: "Do the Right Thing"
 author: ["Spike Lee"]
 cover: "https://image.tmdb.org/t/p/w1280/oAeLEyWYObkLmYbRnPQAKBUAQw3.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "1989"
 ---

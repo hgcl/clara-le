@@ -2,7 +2,7 @@
 title: "Ex Machina"
 author: ["Alex Garland"]
 cover: "https://image.tmdb.org/t/p/w1280/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg"
-dateCreated: "2021-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2015"
 ---

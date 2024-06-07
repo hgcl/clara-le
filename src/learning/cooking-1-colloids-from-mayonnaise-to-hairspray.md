@@ -1,6 +1,6 @@
 ---
 title: "Colloids: From mayonnaise to hairspray"
-dateCreated: "2023-09-30"
+date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://en.wikipedia.org/wiki/Colloid"
 ---

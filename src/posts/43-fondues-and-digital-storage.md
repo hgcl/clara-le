@@ -1,7 +1,7 @@
 ---
 title: "#43 Fondues and digital storage"
 subtitle: "Update #43"
-dateCreated: "2023-12-08"
+date: "2023-12-08"
 tags: ["update"]
 ---
 
