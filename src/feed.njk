@@ -21,14 +21,17 @@
     <link>{{ metadata.url }}</link>
     <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
     <description>{{ metadata.subtitle }}</description>
+    {% set sortedPostList = collections.posts | reverse %}
+    <lastBuildDate>{{ sortedPostList[0].date | dateToRfc822 }}</lastBuildDate>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <generator>https://github.com/11ty/eleventy-plugin-rss</generator>
     <language>{{ metadata.language }}</language>
-    {%- for post in collections.posts | reverse %}
-    {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+    {%- for post in sortedPostList.slice(0,20) %} {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
       <description>{{ post.templateContent | replace("{end-key}","⊙") | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
-      <pubDate>{{ post.data.dateCreated | dateToRfc822 }}</pubDate>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
       <dc:creator>{{ metadata.author.name }}</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>
     </item>
