@@ -35,7 +35,7 @@ icon: /img/meta/drawing-star.svg
   <article data-tag="{{ post.data.tags }}" id="{{ post.fileSlug }}">
     <div class="post-header">
       <h2>{{ post.data.title }}</h2>
-      <span class="label"><time class="dt-duration" datetime="{{ post.data.dateCreated }}">{{ post.data.dateCreated }} </time>/ 
+      <span class="label"><time class="dt-duration" datetime="{{ post.date | formatDate }}">{{ post.date | formatDate}} </time>/ 
         {% set comma = joiner() %}
         {% for tag in post.data.tags | filterTags %}
         {{ comma() }} <a href="/{{ post.data.directory }}/?q={{ tag }}">{{ tag }}</a>
