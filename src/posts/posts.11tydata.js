@@ -2,7 +2,7 @@
 // Source docs: https://www.11ty.dev/docs/data-computed/
 module.exports = {
   eleventyComputed: {
-    // Generate post creation year automatically from dateCreated frontmatter
+    // Generate post creation year automatically from date frontmatter
     yearCreated: (data) => new Date(data.date).getFullYear(),
   },
   layout: "layout/post.njk",
