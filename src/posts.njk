@@ -32,7 +32,7 @@ icon: /img/meta/drawing-face.svg
   <ul class="nobullet post-rows">
     {% for post in posts | reverse %}
     <li data-tag="{{ post.data.tags }}">
-      <time class="label dt-duration" datetime="{{ post.data.dateCreated }}">{{ post.data.dateCreated | formatDate("short") }}</time>
+      <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>
       <span class="details">
         <a href="{{ post.url }}">{{ post.data.title }}</a>
         <span class="subtle">{{ post.data.subtitle }}</span>
