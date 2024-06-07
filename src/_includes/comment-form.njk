@@ -10,16 +10,16 @@
   {# HIDDEN METADATA sent with form #}
   <input type="hidden" name="options[redirect]" value="https://clarale.com" />
   <input type="hidden" id="slug" name="options[slug]" value="{{ page.fileSlug }}" />
-  <input type="hidden" id="comment-replying-to" name="options[parent]" value="TODO parent comment" />
-  <div>
+  <input type="hidden" id="comment-replying-to" name="options[parent]" value="" />
+  <div id="reply-to-parent" hidden >
+    <span class="label">Replying to <span id="parent-name"></span></span>
+    <button type="button" id="cancel-reply-button" class="secondary-link">(Cancel reply)</button>
+  </div>
+  <div id="inputs">
     <label for="abcnamehjk">Your name</label
     ><input id="abcnamehjk" name="fields[name]" type="text" maxlength="100" required spellcheck="false" />
-  </div>
-  <div>
     <label for="abcemailhjk">Email (optional)</label
     ><input id="abcemailhjk" name="fields[email]" type="email" name="fields[email]" spellcheck="false" />
-  </div>
-  <div>
     <label for="abcmessagehjk">Message</label
     ><textarea
       id="abcmessagehjk"
@@ -51,5 +51,5 @@
       placeholder="Your e-mail here"
     />
   </div>
-  <button type="submit">Submit message</button>
+  <button id="submit-button" type="submit">Submit message</button>
 </form>

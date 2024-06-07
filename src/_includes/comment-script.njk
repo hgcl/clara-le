@@ -1,9 +1,14 @@
 <script>
 // COMMENT SCRIPT
-// Submits comment form if not spam + alert about manual processing
 
 const commentForm = document.getElementById("comment-form");
+const cancelButton = document.getElementById("cancel-reply-button");
+const commentParent = document.getElementById("comment-replying-to");
+const replyToParent = document.getElementById("reply-to-parent");
+const parentName = document.getElementById("parent-name");
 
+// SUBMIT COMMENT
+// Submits comment form if not spam + alert about manual processing
 function submitForm (e) {
     const formData = new FormData(e.target);
     
@@ -18,6 +23,25 @@ function submitForm (e) {
       "Your comment will be manually reviewed before being published. Please do not leave the page while your message is being sent."
     );
   }
-
   commentForm.addEventListener('submit', submitForm);
+
+  // REPLY TO EXISTING COMMENT
+  // parent-id passed as "id-xxx", where xxx are the rest of the id
+  function replyToComment(parentId, authorName) {
+    // Set parent input as parent comment id
+    commentParent.value = parentId.slice(7);
+    // Show name of the person you are replying to
+    parentName.textContent = authorName;
+    // Unhide reply to parent text
+    replyToParent.hidden = false;
+  }
+
+  // CANCEL CURRENT REPLY
+  function cancelReply () {
+    // Reset parent input
+    commentParent.value = "";
+    // Hide reply to parent text
+    replyToParent.hidden = true;
+  }
+  cancelButton.addEventListener('click', cancelReply);
 </script>

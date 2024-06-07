@@ -6,13 +6,14 @@
   {% if key == page.fileSlug %}
     <h2>Comments</h2>
     {% for filename, entry in entries | dictsort | reverse %}
-    <article>
-      <p class="label divide-list">
+    <article id="{{ entry._id }}">
+      <span class="label divide-list">
         <span>{{ entry.name }}</span>
         <time datetime="{{ (entry.date * 1000) | formatDate }}" class="dt-published">{{ (entry.date * 1000) | formatDate }}</time>
-      </p>
+      </span>
       {# TODO how to include line breaks? #}
       <p class="comment-message">{{ entry.message }}</p>
+      <a id="reply-link" class="label" rel="nofollow" href="#comment-form" onclick="replyToComment('parent-{{ entry._id }}', '{{ entry.name }}')">Reply</a>
     </article>
     {% endfor %}
   {% endif %}
