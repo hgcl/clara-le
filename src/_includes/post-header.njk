@@ -12,16 +12,17 @@
     ></div>
     {% endif %}
   </div>
-  {# Only show subtitles, dates, etc. in post-header if the page includes dateCreated #}
-  {% if (dateCreated) or (dateModified) %}
+  {# Only show these metadata if there is a date #}
+  {% if date %}
   <p class="label divide-list center">
     {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
     {% if author %}<span>{{ author }}</span>{% endif %}
-    {# Prioritize dateModifited over dateCreated #}
+    {# Prioritize dateModifited over date #}
+    {# dateModified needs to be formatted as it was manually added #}
     {% if dateModified %}
       <span class="sr-only">Updated on</span><time datetime="{{ dateModified | formatDate }}" class="dt-updated">{{ dateModified | formatDate }}</time>
-    {%- else -%}
-      <span class="sr-only">Published on</span><time datetime="{{ dateCreated | formatDate }}" class="dt-published">{{ dateCreated | formatDate }}</time>
+    {% elif date %}
+      <span class="sr-only">Published on</span><time datetime="{{ date }}" class="dt-published">{{ date }}</time>
     {% endif %}
     {% if duration %}<span>{{ duration }}&nbsp;min</span>{% endif %}
     {% if tags %} 
