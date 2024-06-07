@@ -6,10 +6,11 @@ const commentForm = document.getElementById("comment-form");
 
 function submitForm (e) {
     const formData = new FormData(e.target);
-    
+
     // if form submission is spam
-    if (formData.get("name") !== "" || formData.get("email") !== "") {
+    if (formData.get("name") !== "" || formData.get("email") !== "" || formData.get("fields[secret]").toLowerCase() !== "clara") {
       e.preventDefault();
+      console.log("nope");
       return false;
     }
 
