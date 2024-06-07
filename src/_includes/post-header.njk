@@ -18,11 +18,10 @@
     {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
     {% if author %}<span>{{ author }}</span>{% endif %}
     {# Prioritize dateModifited over date #}
-    {# dateModified needs to be formatted as it was manually added #}
     {% if dateModified %}
       <span class="sr-only">Updated on</span><time datetime="{{ dateModified | formatDate }}" class="dt-updated">{{ dateModified | formatDate }}</time>
     {% elif date %}
-      <span class="sr-only">Published on</span><time datetime="{{ date }}" class="dt-published">{{ date }}</time>
+      <span class="sr-only">Published on</span><time datetime="{{ date | formatDate }}" class="dt-published">{{ date | formatDate }}</time>
     {% endif %}
     {% if duration %}<span>{{ duration }}&nbsp;min</span>{% endif %}
     {% if tags %} 
