@@ -13,7 +13,7 @@
     {% endif %}
   </div>
   {# Only show these metadata if there is a date #}
-  {% if date %}
+  {% if (date) or (dateModified) %}
   <p class="label divide-list center">
     {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}
     {% if author %}<span>{{ author }}</span>{% endif %}
