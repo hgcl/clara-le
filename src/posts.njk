@@ -30,6 +30,7 @@ icon: /img/meta/drawing-face.svg
 {% for yearCreated, posts in collections.posts | groupby("data.yearCreated") | dictsort | reverse %}
   <h2>{{ yearCreated }}</h2>
   <ul class="nobullet post-rows">
+    {# 11ty sorts collections by date by default, just need to reverse to display as LIFO #}
     {% for post in posts | reverse %}
     <li data-tag="{{ post.data.tags }}">
       <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>
