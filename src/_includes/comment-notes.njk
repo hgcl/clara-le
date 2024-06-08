@@ -2,19 +2,30 @@
 {# Show {{ comments | log }} to view comments JSON #}
 {# CSS note: this is styled in _includes/layout/post.njk #}
 <section id="comments" class="center">
-{% for key, entries in comments %}
-  {% if key == page.fileSlug %}
-    <h2>Comments</h2>
-    {% for filename, entry in entries | dictsort | reverse %}
-    <article id="{{ entry._id }}">
-      <span class="label divide-list">
-        <span>{{ entry.name }}</span>
-        <time datetime="{{ (entry.date * 1000) | formatDate }}" class="dt-published">{{ (entry.date * 1000) | formatDate }}</time>
-      </span>
-      {# TODO how to include line breaks? #}
-      <p class="comment-message">{{ entry.message }}</p>
-      <a id="reply-link" class="label" rel="nofollow" href="#comment-form" onclick="replyToComment('parent-{{ entry._id }}', '{{ entry.name }}')">Reply</a>
-    </article>
+{% for filename, entry in entries | dictsort | reverse %}
+    {% if entry._parent == "" %}
+      <article id="{{ entry._id }}">
+        <span class="label divide-list">
+          <span>{{ entry.name }}</span>
+          <time datetime="{{ (entry.date * 1000) | formatDate }}" class="dt-published">{{ (entry.date * 1000) | formatDate }}</time>
+        </span>
+        {# TODO how to include line breaks? #}
+        <p class="comment-message">{{ entry.message }}</p>
+        <a id="reply-link" class="label" rel="nofollow" href="#comment-form" onclick="replyToComment('parent-{{ entry._id }}', '{{ entry.name }}')">Reply</a>
+      </article>
+      {% endif %}
+      {# Loop through all comments and only show the replies that contain the parent id #}
+      {% for name, reply in entries %}
+        {% if reply._parent == entry._id %}
+          <article id="{{ reply._id }}" class="reply-note">
+            <span class="label divide-list">
+              <span>{{ reply.name }}</span>
+              <time datetime="{{ (reply.date * 1000) | formatDate }}" class="dt-published">{{ (reply.date * 1000) | formatDate }}</time>
+            </span>
+            <p class="comment-message">{{ reply.message }}</p>
+          </article>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   {% endif %}
 {% endfor %}
