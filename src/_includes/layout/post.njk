@@ -32,13 +32,19 @@
   }
   .boxed-content #cancel-reply-button {
     padding: 0;
+    /* Review colors on blue bg */
+    color: var(--white);
   }
   .boxed-content > #submit-button {
-    border-color: var(--white);
-    color: var(--white);
     display: block;
     margin: 1rem auto 0 auto;
+    /* Review colors on blue bg */
+    border-color: var(--white);
+    color: var(--white);
   }
+  /* Review links/buttons color on blue background */
+  .boxed-content #cancel-reply-button:hover, 
+  .boxed-content #cancel-reply-button:focus,
   .boxed-content > #submit-button:hover,
   .boxed-content > #submit-button:focus {
     color: var(--blue);
@@ -49,8 +55,8 @@
     border-bottom: solid 1px var(--color-text-subtle);
     padding: 1rem 0;
   }
-  #comments #reply-link {
-    text-align: right;
+  #comments article.reply-note {
+    padding-left: 2rem;
   }
 </style>
 {% endblock %}
