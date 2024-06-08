@@ -17,7 +17,7 @@ commentForm.setAttribute('action', 'https://clarale-staticman.adaptable.app/v2/e
 // SUBMIT COMMENT + CHECK SPAM
 function submitForm (e) {
     const formData = new FormData(e.target);
-    
+
     // Is submission spam?
     // Inputs that should be empty or incorrect secret question
     if (formData.get("name") !== "" || formData.get("email") !== "" || formData.get("fields[secret]").toLowerCase() !== "clara") {
