@@ -10,24 +10,21 @@
   <p id="enable-js-message" class="subtle">
     <em>Enable JavaScript to submit comments.</em>
   </p>
-  <input name="options[redirect]" type="hidden" value="https://clarale.com" />
-  <input id="slug" name="options[slug]" type="hidden" value="{{ page.fileSlug }}" />
-  <div>
-    <label for="abcnamehjk">Your name</label
-    ><input
-      id="abcnamehjk"
-      name="fields[name]"
-      type="text"
-      maxlength="100"
-      required
-    />
+  {# HIDDEN METADATA sent with form #}
+  <input type="hidden" name="options[redirect]" value="https://clarale.com" />
+  <input type="hidden" id="slug" name="options[slug]" value="{{ page.fileSlug }}" />
+  <input type="hidden" id="comment-replying-to" name="options[parent]" value="" />
+  {# REPLY WARNING #}
+  <div id="reply-to-parent" hidden >
+    <span class="label">Replying to <span id="parent-name"></span></span>
+    <button type="button" id="cancel-reply-button" class="secondary-link">(Cancel reply)</button>
   </div>
-  {# TODO integrate email / notification support #}
-  {# <div>
+  {# FORM INPUTS #}
+  <div id="inputs">
+    <label for="abcnamehjk">Your name</label
+    ><input id="abcnamehjk" name="fields[name]" type="text" maxlength="100" required spellcheck="false" />
     <label for="abcemailhjk">Email (optional)</label
-    ><input id="abcemailhjk" name="fields[email]" type="email" />
-  </div> #}
-  <div>
+    ><input id="abcemailhjk" name="fields[email]" type="email" name="fields[email]" spellcheck="false" />
     <label for="abcmessagehjk">Message</label
     ><textarea
       id="abcmessagehjk"
@@ -35,6 +32,8 @@
       rows="5"
       required
     ></textarea>
+    <label for="secret">Hooman test: whose website is this (first name)?</label
+    ><input id="secret" name="fields[secret]" type="text" />
   </div>
   <div>
   <label for="secret">Hooman test: what's my first name?</label
@@ -63,5 +62,5 @@
       placeholder="Your e-mail here"
     />
   </div>
-  <button type="submit">Submit message</button>
+  <button id="submit-button" type="submit">Submit message</button>
 </form>

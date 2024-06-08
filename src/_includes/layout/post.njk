@@ -13,39 +13,50 @@
     z-index: -1;
   }
   .boxed-content {
-    text-align: center;
-    font-size: var(--font-xs);
     background-color: var(--blue);
     color: var(--white);
-    padding: var(--space-s) var(--space-l);
+    padding: var(--space-l);
     margin-top: var(--space-3xl);
   }
   .boxed-content h2 {
-    margin-top: 1rem;
+    text-align: center;
+    /* cancels default margin */
+    margin-top: 0;
   }
-  .boxed-content > div {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-bottom: 1rem;
-  }
-  .boxed-content > div > * {
+  .boxed-content #inputs > * {
     width: 100%;
+    font-size: var(--font-xs);
   }
-  .boxed-content > button {
-    margin: 1rem;
+  .boxed-content #reply-to-parent {
+    margin: 2rem 0;
+  }
+  .boxed-content #cancel-reply-button {
+    padding: 0;
+    /* Review colors on blue bg */
+    color: var(--white);
+  }
+  .boxed-content > #submit-button {
+    display: block;
+    margin: 1rem auto 0 auto;
+    /* Review colors on blue bg */
     border-color: var(--white);
     color: var(--white);
   }
-  .boxed-content > button:hover,
-  .boxed-content > button:focus {
+  /* Review links/buttons color on blue background */
+  .boxed-content #cancel-reply-button:hover, 
+  .boxed-content #cancel-reply-button:focus,
+  .boxed-content > #submit-button:hover,
+  .boxed-content > #submit-button:focus {
     color: var(--blue);
   }
 
   /* Comments */
   #comments article {
     border-bottom: solid 1px var(--color-text-subtle);
-    padding: 0.5rem 0;
+    padding: 1rem 0;
+  }
+  #comments article.reply-note {
+    padding-left: 2rem;
   }
 </style>
 {% endblock %}
