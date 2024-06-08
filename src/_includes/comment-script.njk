@@ -1,13 +1,18 @@
 <script>
 // COMMENT SCRIPT
 // Submits comment form if not spam + alert about manual processing
-
 const commentForm = document.getElementById("comment-form");
+
+// Make javascript mandatory to submit form (anti bot)
+// Remove no JS warning
+const jsMessage = document.getElementById("enable-js-message").remove();
+commentForm.setAttribute('action', 'https://clarale-staticman.adaptable.app/v2/entry/hgcl/clara-le/main/comments');
 
 function submitForm (e) {
     const formData = new FormData(e.target);
 
-    // if form submission is spam
+    // Is submission spam?
+    // Inputs that should be empty or incorrect secret question
     if (formData.get("name") !== "" || formData.get("email") !== "" || formData.get("fields[secret]").toLowerCase() !== "clara") {
       e.preventDefault();
       console.log("nope");
