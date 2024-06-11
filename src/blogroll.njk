@@ -39,14 +39,14 @@ pagination:
       Open a random link
     </a>
     {# LINK LIST #}
-    <ul class="post-rows">
-      {% for category, items in pagination.pages | groupby("category") | dictsort %}
+    {% for category, items in pagination.pages | groupby("category") | dictsort %}
       <h2>{{ category }}</h2>
+      <ul class="post-rows">
         {% for item in items %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a><span class="subtle">{{ item.description }}</span></li>
+          <li><a href="{{ item.url }}">{{ item.title }}</a><span class="subtle">{{ item.description }}</span></li>
         {% endfor %}
-      {% endfor %}
-    </ul>
+      </ul>
+    {% endfor %}
   </div>
 </article>
 {% endblock %}
