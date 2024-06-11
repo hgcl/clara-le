@@ -4,7 +4,7 @@ title: "Now"
 subtitle: "Chilling mode"
 date: "2024-04-30"
 tags: ["now"]
-icon: /img/meta/drawing-location.svg
+icon: /public/img/meta/drawing-location.svg
 directory: "posts"
 ---
 

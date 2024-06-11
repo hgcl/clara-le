@@ -131,7 +131,7 @@ nav {
 .deco-vert-1,
 .deco-vert-2 {
   position: fixed;
-  mask: no-repeat url("/img/meta/20231127-vertical-line.svg");
+  mask: no-repeat url("/public/img/meta/20231127-vertical-line.svg");
   width: 9px;
   height: 100%;
 }
@@ -145,7 +145,7 @@ nav {
 .deco-horiz-1,
 .deco-horiz-2 {
   position: relative;
-  mask: no-repeat url("/img/meta/horizontal-line.svg");
+  mask: no-repeat url("/public/img/meta/horizontal-line.svg");
   width: 100%;
   height: 15px;
 }
