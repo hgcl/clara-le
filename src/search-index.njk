@@ -9,6 +9,7 @@ permalink: search.json
   {
     "url" : "{{ item.url }}",
     "title" : "{{ item.data.title }}",
+    "directory" : "{{ item.data.directory }}",
     "text" : "{{ (item.data.title + " " + item.data.subtitle + " " + item.templateContent) | squash | trim }}"
   },
 {% endfor %}
@@ -16,6 +17,7 @@ permalink: search.json
   {
     "url" : "{{ item.url }}",
     "title" : "{{ item.data.title }}",
+    "directory" : "{{ item.data.directory }}",
     "text" : "{{ (item.data.title + " " + item.templateContent) | squash | trim }}"
   },
 {% endfor %}
@@ -23,6 +25,7 @@ permalink: search.json
   {
     "url" : "{{ item.url }}",
     "title" : "{{ item.data.title }}",
+    "directory" : "{{ item.data.directory }}",
     "text" : "{{ (item.data.title + " " + item.data.author + " " + item.templateContent) | squash | trim }}"
   }
   {# Do not add comma after last item #}

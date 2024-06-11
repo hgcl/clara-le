@@ -58,9 +58,13 @@
         for (let item in results) {
           let listItem = document.createElement("li");
           let link = document.createElement("a");
+          let directory = document.createElement("span");
           link.textContent = results[item].title;
           link.setAttribute("href", results[item].url);
+          directory.textContent = results[item].directory;
+          directory.setAttribute("class", "label subtle");
           listItem.appendChild(link);
+          listItem.appendChild(directory);
           resultsUI.appendChild(listItem);
         }
       }
