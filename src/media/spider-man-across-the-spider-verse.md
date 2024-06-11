@@ -1,5 +1,5 @@
 ---
-title: "Spider-man: across the spider-verse"
+title: "Spider-Man: Across the Spider-Verse"
 author: ["Kemp Powers", "Joaquim Dos Santos", "Justin K. Thompson"]
 cover: "https://image.tmdb.org/t/p/w1280/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
 date: "2023-02-01"
