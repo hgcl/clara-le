@@ -1,6 +1,8 @@
 {% extends "layout/base.njk" %}
 
 {% block head %}
+{# Do not show comments for Now page (this condition is applied 3 times in this layout) #}
+{% if (directory === "posts") and (title !== "Now") %}
 {# COMMENT STYLES #}
 <style>
   .ohsomehoney {
@@ -59,6 +61,7 @@
     padding-left: 2rem;
   }
 </style>
+{% endif %}
 {% endblock %}
 
 {% block article %}
@@ -69,7 +72,7 @@
   {% include 'post-header.njk' %}
   <div class="e-content">{{ content | safe | replace("{end-key}", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
 </article>
-{% if directory === "posts" %}
+{% if (directory === "posts") and (title !== "Now") %}
   {% include 'comment-form.njk' %}
   {% include 'comment-notes.njk' %}
 {% endif %}
@@ -97,5 +100,7 @@
     }
   };
 </script>
+{% if (directory === "posts") and (title !== "Now") %}
   {% include 'comment-script.njk' %}
+{% endif %}
 {% endblock %}
