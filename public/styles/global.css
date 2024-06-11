@@ -515,7 +515,8 @@ input[type="checkbox"] {
   /* font styles smaller than body */
   font-size: var(--font-xs);
 }
-.post-rows > li .subtle {
+.post-rows > li .subtle,
+.post-rows-complex > li .subtle {
   display: block;
   margin-top: 0.25rem;
 }
@@ -543,21 +544,16 @@ input[type="checkbox"] {
 
 /* POSTS */
 /* TODO review these styles */
-#posts .post-rows > li,
-#search-dialog .post-rows > li {
+.post-rows-complex > li {
   display: flex;
   align-items: baseline;
   gap: 1rem;
 }
-#posts .post-rows > li[hidden] {
+.post-rows-complex > li[hidden] {
   display: none;
 }
-#posts .post-rows > li > .label {
+.post-rows-complex > li > .label {
   min-width: 5em;
-  color: var(--color-text-subtle);
-}
-#search-dialog .post-rows > li > .label {
-  min-width: 6em;
   color: var(--color-text-subtle);
 }
 
