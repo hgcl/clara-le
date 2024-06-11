@@ -19,6 +19,9 @@ icon: /public/img/meta/drawing-v-sign.svg
     max-width: var(--article-width);
     margin: 2rem 0 0 0;
   }
+  #index #latest-posts { 
+    width: 100%;
+  }
 </style>
 {# INDIEWEB AUTH #}
 <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
@@ -27,7 +30,7 @@ icon: /public/img/meta/drawing-v-sign.svg
 {% endblock %}
 
 {% block article %}
-<section id="index">
+<div id="index">
   <h1 class="sr-only">{{ title }}</h1>
   {# This div is the same as in 'post-header.njk', but with a different visible H1 #}
   <div class="post-header">
@@ -46,22 +49,23 @@ icon: /public/img/meta/drawing-v-sign.svg
     <a href="/blogroll/">bookmark links</a>, and do anything I feel like doing
     here.
   </p>
-  <p>
-    P.S. I'm always on the lookout for a cool book or movie,
-    <a href="/about#contact">drop me a message</a> if you have any
-    recommendation!
-  </p>
-  {# H-CARD (hidden, for Indieweb) #}
-  <div class="hide h-card">
-    <a class="u-url" href="https://clarale.com/"></a>
-    <img class="u-photo" src="/public/img/meta/clara.svg" />
-    <div class="p-note">
-      Hey, I'm
-      <span class="p-name p-given-name">Clara</span> — a tinkerer lost in the
-      middle of the French countryside. My website is my sandbox where I
-      document some of my experiments, both digital and analog.
-    </div>
-  </div>
+  {# LATEST POSTS #}
+  <section id="latest-posts">
+    <h2>Latest musings</h2>
+    <ul class="nobullet post-rows-complex">
+      {% set sortedPostList = collections.posts | reverse %}
+      {% for post in sortedPostList.slice(0,3) %}
+        <li>
+          <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>
+          <span class="details">
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            <span class="subtle">{{ post.data.subtitle }}</span>
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {# WEBRING BUTTON #}
   <div id="webring">
     <a class="hide" href="https://xn--sr8hvo.ws/previous"
       >Shuffle IndieWeb Webring</a
@@ -74,7 +78,18 @@ icon: /public/img/meta/drawing-v-sign.svg
       >Shuffle IndieWeb Webring</a
     >
   </div>
-</section>
+  {# H-CARD (hidden, for Indieweb) #}
+  <div class="hide h-card">
+    <a class="u-url" href="https://clarale.com/"></a>
+    <img class="u-photo" src="/public/img/meta/clara.svg" />
+    <div class="p-note">
+      Hey, I'm
+      <span class="p-name p-given-name">Clara</span> — a tinkerer lost in the
+      middle of the French countryside. My website is my sandbox where I
+      document some of my experiments, both digital and analog.
+    </div>
+  </div>
+</div>
 {% endblock %}
 
 {% block backtotop %}
