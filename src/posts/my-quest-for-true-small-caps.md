@@ -25,10 +25,10 @@ I knew I wanted a simple sans serif typeface to complement the quirky Vesper Lib
 
 Mmh... are those true small caps or fake ones? Honestly, I wasn't sure. Red flag: the supposedly small caps did look thinner than the regular letters.
 
-![Before: example of fake small caps](/img/20210107-smallcaps-before.webp)
+![Before: example of fake small caps](/public/img/20210107-smallcaps-before.webp)
 _Before: fake small caps_
 
-![After: example of true small caps](/img/20210107-smallcaps-after.webp)
+![After: example of true small caps](/public/img/20210107-smallcaps-after.webp)
 _After: true small caps_
 
 What saved me was this (amazing looking) [blog post on small caps](https://www.jkorpela.fi/small-caps.html). I didn't go through everything explained there, but I learned that small caps actually have Unicode characters. I could now have "[actual true small caps](https://en.wikipedia.org/wiki/Small_caps#Unicode)" next to my "maybe true small caps" and see if they differed. They did. _Shoot_.
