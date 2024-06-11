@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Get JSON files from recipes directory
-const recipesDir = path.resolve(__dirname, "../recipes");
+const recipesDir = path.resolve(__dirname, "../src/recipes");
 
 const recipes = fs
   .readdirSync(recipesDir)
