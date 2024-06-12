@@ -515,10 +515,27 @@ input[type="checkbox"] {
   /* font styles smaller than body */
   font-size: var(--font-xs);
 }
+/* .post-rows and .post-rows-complex (with date) */
 .post-rows > li .subtle,
 .post-rows-complex > li .subtle {
   display: block;
   margin-top: 0.25rem;
+}
+.post-rows-complex > li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.post-rows-complex > li > .label {
+  min-width: 5em;
+  color: var(--color-text-subtle);
+}
+/* To make filters work */
+.post-rows-complex > li[hidden],
+.post-rows > li[hidden] {
+  display: none;
 }
 /* Capitalize text */
 .capitalize {
@@ -541,21 +558,6 @@ input[type="checkbox"] {
 /*--------------------------------------------------------*/
 /*               Custom pages or elements                 */
 /*--------------------------------------------------------*/
-
-/* POSTS */
-/* TODO review these styles */
-.post-rows-complex > li {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-}
-.post-rows-complex > li[hidden] {
-  display: none;
-}
-.post-rows-complex > li > .label {
-  min-width: 5em;
-  color: var(--color-text-subtle);
-}
 
 /* SEARCH-DIALOG */
 #search-dialog form {
@@ -618,6 +620,10 @@ input[type="checkbox"] {
   }
   .deco-vert-2 {
     right: var(--space-s);
+  }
+  /* UTILS */
+  .post-rows-complex > li {
+    flex-direction: row;
   }
 }
 @media only screen and (min-width: 768px) {
