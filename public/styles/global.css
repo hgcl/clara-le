@@ -515,25 +515,25 @@ input[type="checkbox"] {
   /* font styles smaller than body */
   font-size: var(--font-xs);
 }
-/* .post-rows and .post-rows-complex (with date) */
+/* .post-rows and .post-rows-with-label (with date) */
 .post-rows > li .subtle,
-.post-rows-complex > li .subtle {
+.post-rows-with-label > li .subtle {
   display: block;
   margin-top: 0.25rem;
 }
-.post-rows-complex > li {
+.post-rows-with-label > li {
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
   flex-direction: column;
   margin-bottom: 1.5rem;
 }
-.post-rows-complex > li > .label {
+.post-rows-with-label > li > .label {
   min-width: 5em;
   color: var(--color-text-subtle);
 }
 /* To make filters work */
-.post-rows-complex > li[hidden],
+.post-rows-with-label > li[hidden],
 .post-rows > li[hidden] {
   display: none;
 }
@@ -622,7 +622,7 @@ input[type="checkbox"] {
     right: var(--space-s);
   }
   /* UTILS */
-  .post-rows-complex > li {
+  .post-rows-with-label > li {
     flex-direction: row;
   }
 }

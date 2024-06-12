@@ -29,7 +29,7 @@ icon: /public/img/meta/drawing-face.svg
 {# Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ #}
 {% for yearCreated, posts in collections.posts | groupby("data.yearCreated") | dictsort | reverse %}
   <h2>{{ yearCreated }}</h2>
-  <ul class="nobullet post-rows-complex">
+  <ul class="nobullet post-rows-with-label">
     {# 11ty sorts collections by date by default, just need to reverse to display as LIFO #}
     {% for post in posts | reverse %}
     <li data-tag="{{ post.data.tags }}">

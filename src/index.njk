@@ -52,7 +52,7 @@ icon: /public/img/meta/drawing-v-sign.svg
   {# LATEST POSTS #}
   <section id="latest-posts">
     <h2>Latest musings</h2>
-    <ul class="nobullet post-rows-complex">
+    <ul class="nobullet post-rows-with-label">
       {% set sortedPostList = collections.posts | reverse %}
       {% for post in sortedPostList.slice(0,3) %}
         <li>
