@@ -52,13 +52,17 @@
     color: var(--blue);
   }
 
-  /* Comments */
+  /* COMMENT LIST */
   #comments article {
     border-bottom: solid 1px var(--color-text-subtle);
     padding: 1rem 0;
   }
   #comments article.reply-note {
     padding-left: 2rem;
+  }
+  /* Support line breaks in comments */
+  #comments article .comment-message {
+    white-space: pre-line;
   }
 </style>
 {% endif %}

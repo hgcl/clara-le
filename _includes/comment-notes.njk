@@ -12,7 +12,7 @@
           <span>{{ entry.name }}</span>
           <time datetime="{{ (entry.date * 1000) | formatDate }}" class="dt-published">{{ (entry.date * 1000) | formatDate }}</time>
         </span>
-        {# TODO how to include line breaks? #}
+        {# TODO how to include line break spaces? #}
         <p class="comment-message">{{ entry.message }}</p>
         <a id="reply-link" class="label" rel="nofollow" href="#comment-form" onclick="replyToComment('parent-{{ entry._id }}', '{{ entry.name }}')">Reply</a>
       </article>
