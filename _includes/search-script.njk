@@ -62,9 +62,9 @@
           link.textContent = results[item].title;
           link.setAttribute("href", results[item].url);
           directory.textContent = results[item].directory;
-          directory.setAttribute("class", "label subtle");
-          listItem.appendChild(link);
+          directory.setAttribute("class", "label");
           listItem.appendChild(directory);
+          listItem.appendChild(link);
           resultsUI.appendChild(listItem);
         }
       }
