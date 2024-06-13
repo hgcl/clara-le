@@ -237,20 +237,34 @@ dialog .close-button {
 
 /* For list-filter-selector.njk */
 .posts-filter {
-  margin: var(--space-2xl) 0;
+  margin-block: var(--space-2xl);
   text-align: center;
 }
 
-/* IMAGES */
-/* Image flow */
+/* TYPOGRAPHY & CONTENT FLOW */
+/* Regular vertical margins */
+p,
+ul,
+ol,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-block: 1rem;
+}
+/* Bigger vertical margins */
+aside,
+blockquote,
+pre,
 figure, 
 p > img /* images not in <figure> that appear in Markdown files only (blog posts) */ {
   margin-block: 2rem;
 }
+
+/* Image flow */
 img + img {
   margin-top: 1rem;
 }
-
 figcaption {
   margin-top: var(--space-xs);
   font-style: italic;
@@ -258,7 +272,6 @@ figcaption {
   font-size: var(--font-2xs);
 }
 
-/* TYPOGRAPHY: general tags */
 /* Headings: size and flow */
 h1,
 h2,
@@ -280,21 +293,16 @@ h2,
 .h2 {
   font-size: var(--font-m);
   line-height: 1.2;
-  margin-block: 3rem 1rem;
+  margin-top: 3rem;
   text-transform: uppercase;
 }
 h3,
 .h3 {
   font-size: var(--font-s);
   line-height: 1.4;
-  margin-block: 2rem 1rem;
+  margin-top: 2rem;
 }
 /* Body text flow */
-p,
-ul,
-ol {
-  margin-block: 1rem;
-}
 li {
   margin-bottom: 0.5rem;
 }
@@ -307,7 +315,8 @@ li {
 /* Blockquotes */
 blockquote {
   position: relative;
-  margin: 2rem 0 2rem 2rem;
+  margin-right: 0;
+  margin-left: 2rem;
   font-size: var(--font-xs);
 }
 blockquote > p::before {
@@ -324,7 +333,6 @@ pre {
   padding: var(--space-m);
   background-color: var(--black);
   color: var(--white);
-  margin-block: 2rem;
 }
 code,
 kbd {
@@ -363,7 +371,6 @@ aside {
   font-size: smaller;
   border: solid 1px var(--color-text-subtle);
   padding: 2rem;
-  margin-block: 2rem;
 }
 /* cancels normal typography margins */
 aside :first-child {
