@@ -8,7 +8,6 @@ icon: /public/img/meta/drawing-camera.svg
 {% extends "layout/base.njk" %} 
 
 {% block head %}
-{# TODO: avoid images slowly loading and shifting page, set height #}
 <style>
   #media ul {
     display: grid;
@@ -53,6 +52,7 @@ icon: /public/img/meta/drawing-camera.svg
     height: 100%;
     min-width: 100%;
     object-fit: cover;
+    aspect-ratio: 3/4;
   }
   #media li .label {
     /* align with posts.html */
