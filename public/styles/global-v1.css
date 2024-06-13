@@ -24,9 +24,9 @@
   --space-4xl: 64px; /* 4rem */
   --space-5xl: 80px; /* 5rem */
   /* Colors */
-  --white: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 93%);
   --white-blue: hsl(235, 31%, 76%); /* --white on --blue-dark, opacity 70% */
-  --black: hsl(0, 0%, 3%);
+  --black: hsl(236, 100%, 10%);
   --red: hsl(0, 100%, 46%);
   --red-light: hsl(0, 100%, 66%);
   --blue: hsl(236, 100%, 47%);
@@ -321,6 +321,10 @@ blockquote > p::before {
 /* Pre and code tags */
 pre {
   overflow: auto;
+  padding: var(--space-m);
+  background-color: var(--black);
+  color: var(--white);
+  margin-block: 2rem;
 }
 code,
 kbd {
