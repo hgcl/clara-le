@@ -344,7 +344,6 @@ kbd {
   background-color: var(--color-text);
   color: var(--color-bg);
   padding: 0.05em 0.3em;
-  border-radius: 2px;
 }
 /* Cite tag */
 cite {
