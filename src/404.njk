@@ -1,0 +1,18 @@
+---
+title: Page not found
+permalink: 404.html
+---
+
+{# Cloudflare pages detect this page automatically. 
+Docs: https://developers.cloudflare.com/pages/configuration/serving-pages/#not-found-behavior #}
+
+{% extends "layout/base.njk" %} 
+
+{% block article %}
+<div class="center">
+  <h1 class="post-header">{{ title }}</h1>
+  <p class="intro">
+    This page doesn't exist. Go back to the <a href="/">homepage</a>.
+  </p>
+</div>
+{% endblock %}
