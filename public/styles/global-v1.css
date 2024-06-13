@@ -245,7 +245,7 @@ dialog .close-button {
 /* Image flow */
 figure, 
 p > img /* images not in <figure> that appear in Markdown files only (blog posts) */ {
-  margin: 2rem 0;
+  margin-block: 2rem;
 }
 img + img {
   margin-top: 1rem;
@@ -280,20 +280,20 @@ h2,
 .h2 {
   font-size: var(--font-m);
   line-height: 1.2;
-  margin: 3rem 0 1rem 0;
+  margin-block: 3rem 1rem;
   text-transform: uppercase;
 }
 h3,
 .h3 {
   font-size: var(--font-s);
   line-height: 1.4;
-  margin: 2rem 0 1rem 0;
+  margin-block: 2rem 1rem;
 }
 /* Body text flow */
 p,
 ul,
 ol {
-  margin: 1rem 0;
+  margin-block: 1rem;
 }
 li {
   margin-bottom: 0.5rem;
@@ -348,7 +348,7 @@ cite {
 hr {
   color: var(--color-text);
   border: none;
-  margin: 3rem 0;
+  margin-block: 3rem;
   display: flex;
   justify-content: center;
   font-size: 1rem;
@@ -363,7 +363,7 @@ aside {
   font-size: smaller;
   border: solid 1px var(--color-text-subtle);
   padding: 2rem;
-  margin: 2rem 0;
+  margin-block: 2rem;
 }
 /* cancels normal typography margins */
 aside :first-child {
