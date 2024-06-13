@@ -47,8 +47,10 @@ Other special cases:
 
 ## `public` directory
 
-- `src/img`: stores all images
-- `src/styles`: stores all CSS files
+The `public` directory is published as-is and can be accessed from the client.
+
+- `public/img`: stores all images
+- `public/styles`: stores all CSS files
 
 ## `_data` and `_config` directories
 
