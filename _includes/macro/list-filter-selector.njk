@@ -1,18 +1,37 @@
-{% macro listFilterSelector(values=[]) %}
+{% macro listFilterSelector(filterOne=[], filterTwo=[]) %}
 <div class="posts-filter">
-  <label for="category-select">Filter by category</label>
-  <select
-    id="category-select"
-    aria-describedby="notes-filter-js-warning"
-    onchange="filterNotes(this.value)"
-    class="capitalize"
-  >
-      <option value="">All</option>
-    {% for item in values %}
-      {# `title` filter capitalizes the first letter of the variable #}
-      <option value="{{ item }}">{{ item | title }}</option>
-    {% endfor %}
-  </select>
+  <div>
+    <label for="filter-one-select">Filter by category</label>
+    <select
+      id="filter-one-select"
+      aria-describedby="notes-filter-js-warning"
+      onchange="filterNotes(this.value, this.id)"
+      class="capitalize"
+    >
+        <option value="">All</option>
+      {% for item in filterOne %}
+        {# `title` filter capitalizes the first letter of the variable #}
+        <option value="{{ item }}">{{ item | title }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  {% if filterTwo.length %}
+  <div>
+    <label for="filter-two-select">Filter by language</label>
+    <select
+      id="filter-two-select"
+      aria-describedby="notes-filter-js-warning"
+      onchange="filterNotes(this.value, this.id)"
+      class="capitalize"
+    >
+        <option value="">All</option>
+      {% for item in filterTwo %}
+        {# `title` filter capitalizes the first letter of the variable #}
+        <option value="{{ item }}">{{ item | title }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  {% endif %}
   <p id="notes-filter-js-warning" class="subtle">
     <em>Enable JavaScript to use filters.</em>
   </p>
