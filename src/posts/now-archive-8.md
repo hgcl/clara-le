@@ -3,6 +3,7 @@ title: "Now archive #8"
 subtitle: "A snapshot in time"
 date: "2023-07-12"
 tags: ["now"]
+lang: "en"
 ---
 
 I am currently [slow living](/posts/29-time-for-a-break/) in Ardèche and spending my days following my heart desires.

@@ -3,6 +3,7 @@ title: "Now archive #1"
 subtitle: "A snapshot in time"
 date: "2021-08-21"
 tags: ["now"]
+lang: "en"
 ---
 
 Now in Berlin for more than two years with my partner [Robin](https://robinmetral.com/).

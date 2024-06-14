@@ -3,6 +3,7 @@ title: "#44 Family gatherings"
 subtitle: "Update #44"
 date: "2023-12-24"
 tags: ["update"]
+lang: "en"
 ---
 
 December 24th, early hours, we are finally setting off on our Silk Road journey.

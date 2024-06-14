@@ -3,6 +3,7 @@ title: "Just the two of us"
 subtitle: "A tiny note about life stuff"
 date: "2023-05-29"
 tags: ["thought"]
+lang: "en"
 ---
 
 Robin and I just realized that this is the first time in a month that we are back to being just the two of us.

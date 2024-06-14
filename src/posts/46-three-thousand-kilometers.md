@@ -3,6 +3,7 @@ title: "#46 Three thousand kilometers"
 subtitle: "Update #46"
 date: "2024-01-27"
 tags: ["update"]
+lang: "en"
 ---
 
 This is day 35 of our Silk Road journey. Looking at [our itinerary](https://eaudepoisson.com/routes-de-la-soie/), we have covered approximately half the distance from France to China — hard to believe.

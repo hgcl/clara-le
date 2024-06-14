@@ -3,6 +3,7 @@ title: "#36 Keeping up with the fruits and veggies"
 subtitle: "Update #36"
 date: "2023-08-08"
 tags: ["update"]
+lang: "en"
 ---
 
 So, it's been a month since the last [weeknote](/posts/35-from-one-project-to-the-next). I should rename these weeknotes into something like "updates" to feel less guilty anytime I skip writing these short entries.[^1]

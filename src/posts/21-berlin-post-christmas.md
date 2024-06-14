@@ -3,6 +3,7 @@ title: "#21 Berlin post-Christmas"
 subtitle: "Update #21"
 date: "2022-12-27"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

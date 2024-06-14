@@ -3,6 +3,7 @@ title: "My quest for true small caps"
 subtitle: "A web design adventure"
 date: "2021-01-07"
 tags: ["digital"]
+lang: "en"
 ---
 
 _Note: this article is based on the previous design of my website._

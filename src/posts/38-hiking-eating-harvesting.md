@@ -3,6 +3,7 @@ title: "#38 Hiking, eating, harvesting"
 subtitle: "Update #38"
 date: "2023-09-27"
 tags: ["update"]
+lang: "en"
 ---
 
 A lot has happened in the last two weeks. To begin with, Robin's otitis evolved into a semi-facial paralysis. That was super scary. Thankfully, we now know for sure that the condition is benign and should pass with time. With that diagnosis in the background, we tried to go on with life and our regular activities.

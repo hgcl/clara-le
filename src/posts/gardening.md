@@ -3,6 +3,7 @@ title: "Gardening"
 subtitle: "Another try at knowledge management"
 date: "2021-10-24"
 tags: ["thought"]
+lang: "en"
 ---
 
 For many years, I have struggled with knowledge management — as I still do.

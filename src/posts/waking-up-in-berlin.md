@@ -3,6 +3,7 @@ title: "Waking up in Berlin"
 subtitle: "A last note"
 date: "2023-01-29"
 tags: ["thought"]
+lang: "en"
 ---
 
 6.20 AM

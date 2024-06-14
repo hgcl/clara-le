@@ -3,6 +3,7 @@ title: "IndieWeb browsing"
 subtitle: "How I lost myself in the webring"
 date: "2022-04-16"
 tags: ["digital"]
+lang: "en"
 ---
 
 This weekend, I spent a lot of time jumping from site to site through the IndieWeb webring — [check my homepage footer to start browsing](/#webring).

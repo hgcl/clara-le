@@ -3,6 +3,7 @@ title: "Last homage to my old website"
 subtitle: "A toast to all lost websites"
 date: "2022-04-03"
 tags: ["thought"]
+lang: "en"
 ---
 
 I realized that I change my website more often than I go shopping. I can't decide if it's a good or bad thing.

@@ -3,6 +3,7 @@ title: "#20 Getting ready for Christmas"
 subtitle: "Update #20"
 date: "2022-12-16"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

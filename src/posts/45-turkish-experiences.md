@@ -3,6 +3,7 @@ title: "#45 Turkish experiences"
 subtitle: "Update #45"
 date: "2024-01-07"
 tags: ["update"]
+lang: "en"
 ---
 
 We have now been on the road for about two weeks.[^1] As we planned it, we are speeding through the first few destinations: Vienna, Bucharest, Istanbul.

@@ -3,6 +3,7 @@ title: "#41 Chestnut time"
 subtitle: "Update #41"
 date: "2023-10-27"
 tags: ["update"]
+lang: "en"
 ---
 
 I'll keep this update short as we have many guests at home at the moment. Robin's parents, brother and aunt are visiting us just at the right time: chestnut season!

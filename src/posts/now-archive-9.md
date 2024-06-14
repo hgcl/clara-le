@@ -3,6 +3,7 @@ title: "Now archive #9"
 subtitle: "A snapshot in time"
 date: "2023-11-17"
 tags: ["now"]
+lang: "en"
 ---
 
 I am probably eating roasted chestnuts (with salted butter) and sitting by the fire to not freeze to death.

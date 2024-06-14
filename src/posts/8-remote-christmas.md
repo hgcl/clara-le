@@ -3,6 +3,7 @@ title: "#8 Remote Christmas"
 subtitle: "Update #8"
 date: "2020-12-26"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

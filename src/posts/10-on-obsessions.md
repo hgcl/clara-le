@@ -3,6 +3,7 @@ title: "#10 On obsessions"
 subtitle: "Update #10"
 date: "2021-01-10"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

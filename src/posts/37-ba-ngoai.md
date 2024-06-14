@@ -3,6 +3,7 @@ title: "#37 Bà ngoại"
 subtitle: "Update #37"
 date: "2023-09-20"
 tags: ["update"]
+lang: "en"
 ---
 
 I went back to Switzerland a few weeks ago. For these trips, I usually stay at my mother's place. This time, I stayed with my grandma (_bà ngoại_[^1] as I call her).

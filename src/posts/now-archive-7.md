@@ -3,6 +3,7 @@ title: "Now archive #7"
 subtitle: "A snapshot in time"
 date: "2023-05-17"
 tags: ["now"]
+lang: "en"
 ---
 
 I am just starting my [early retirement parenthesis](/posts/29-time-for-a-break/) — a.k.a, I am unemployed for the first time in four years. I do have a few productive plans for these next few months, but to be honest, I mostly want to slow down a bit and enjoy life differently.

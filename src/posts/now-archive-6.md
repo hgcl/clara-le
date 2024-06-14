@@ -3,6 +3,7 @@ title: "Now archive #6"
 subtitle: "A snapshot in time"
 date: "2023-02-06"
 tags: ["now"]
+lang: "en"
 ---
 
 Still trying to find my marks in this new countryside life. I spend my free time:

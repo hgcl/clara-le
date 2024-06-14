@@ -3,6 +3,7 @@ title: "The Good, the Bad and the Ugly (1966)"
 subtitle: "A tiny note about the movie"
 date: "2020-12-05"
 tags: ["review"]
+lang: "en"
 ---
 
 _Directed by Sergio Leone_

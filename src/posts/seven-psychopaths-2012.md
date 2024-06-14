@@ -3,6 +3,7 @@ title: "Seven Psychopaths (2012)"
 subtitle: "A tiny note about the movie"
 date: "2020-11-26"
 tags: ["review"]
+lang: "en"
 ---
 
 _Directed by Martin McDonagh_

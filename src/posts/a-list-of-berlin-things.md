@@ -3,6 +3,7 @@ title: "A list of Berlin things"
 subtitle: "A non-comprehensive list of things I'll miss from Berlin"
 date: "2022-12-31"
 tags: ["thought"]
+lang: "en"
 ---
 
 It's the last day of 2022, 5.40 AM, and I can't seem to sleep anymore. A lot of thoughts are going through my mind. Most of them relate to our [move to France](/posts/city-kids-going-cottagecore/) in less than a month. I won't dive into the list of logistical to-dos that is keeping me awake. I'll go the other way around and take a snapshot in time. A snapshot of our time spent in Berlin and the things I'll miss from here.

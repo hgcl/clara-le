@@ -3,6 +3,7 @@ title: "#34 Mushroom hunting and playing with words"
 subtitle: "Update #34"
 date: "2023-06-19"
 tags: ["update"]
+lang: "en"
 ---
 
 I haven't been super consistent with these updates for the past few weeks. One specific highlight since we got home: we went mushroom hunting for the first time with Cricri! When we came back, it had been raining for a week straight, so the chanterelles and ceps were just _waiting for us_ to be gathered.

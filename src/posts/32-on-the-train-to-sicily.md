@@ -3,6 +3,7 @@ title: "#32 On the train to Sicily"
 subtitle: "Update #32"
 date: "2023-05-21"
 tags: ["update"]
+lang: "en"
 ---
 
 Just like the last weeknote, I am writing from a long train ride. My days and mind are so busy lately, that it seems to be the only extended length of time I have with "nothing" going on. _Nothing_ is actually not very accurate, as these long travels always come with a decent amount of stress, fatigue and attention-grabbing things.

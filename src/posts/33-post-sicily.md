@@ -3,6 +3,7 @@ title: "#33 Post-Sicily"
 subtitle: "Update #33"
 date: "2023-06-05"
 tags: ["update"]
+lang: "en"
 ---
 
 Our first trip to Sicily came to an end yesterday, as we took a 13-hour ferry from Palermo (Sicily) to Cagliari (Sardinia). The two last weeks in Sicily were [full of discoveries](/posts/sicilian-notes). We are bringing back home some new recipes — _caponata, pasta alla Trapanese, panelle, pistacchio pesto_ — and also many bottles of local specialties[^1].

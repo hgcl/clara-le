@@ -3,6 +3,7 @@ title: "#42 The never-ending to-do list"
 subtitle: "Update #42"
 date: "2023-11-23"
 tags: ["update"]
+lang: "en"
 ---
 
 ## Life peek

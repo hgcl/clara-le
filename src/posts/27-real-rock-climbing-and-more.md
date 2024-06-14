@@ -3,6 +3,7 @@ title: "#27 (Real) rock climbing and more"
 subtitle: "Update #27"
 date: "2023-03-06"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

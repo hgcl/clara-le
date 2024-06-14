@@ -3,6 +3,7 @@ title: "#12 Culinary experiments"
 subtitle: "Update #12"
 date: "2021-01-23"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

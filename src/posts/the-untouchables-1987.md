@@ -3,6 +3,7 @@ title: "The Untouchables (1987)"
 subtitle: "A tiny note about the movie"
 date: "2020-12-11"
 tags: ["review"]
+lang: "en"
 ---
 
 _Directed by Brian De Palma_

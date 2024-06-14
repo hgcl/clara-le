@@ -3,6 +3,7 @@ title: "10 beginners mistakes to avoid when designing for print"
 subtitle: "I made them too and will probably make them again"
 date: "2019-05-27"
 tags: ["creative"]
+lang: "en"
 ---
 
 If you are an innocent graphic designer (a.k.a. mostly used to the web), print design might seem like a super scary and intimidating world. It is.

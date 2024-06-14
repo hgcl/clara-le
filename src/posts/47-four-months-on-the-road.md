@@ -3,6 +3,7 @@ title: "#47 Four months on the road"
 subtitle: "Update #47"
 date: "2024-04-30"
 tags: ["update"]
+lang: "en"
 ---
 
 We left Switzerland on December 24th, 2023. Exactly four months later, we are completing the first leg of our journey. We have arrived in Hanoi (Vietnam) and we'll settle down here for a month or two.

@@ -3,6 +3,7 @@ title: "#29 Time for a break"
 subtitle: "Update #29"
 date: "2023-04-04"
 tags: ["update"]
+lang: "en"
 ---
 
 It's official: I am leaving my job of almost four years by the end of May. Many feelings are battling inside my head — excitement, anxiety (a lot of it), wonder, a bit of nostalgia.
