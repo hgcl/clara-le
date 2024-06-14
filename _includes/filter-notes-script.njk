@@ -1,23 +1,26 @@
 <script>
   const allNotes = document.querySelectorAll(`[data-tag]`);
-  const selectElement = document.getElementById("category-select");
-  // remove no JS warning
+  const filterOneSelectId = "filter-one-select";
+  const filterTwoSelectId = "filter-two-select";
+  const filterOneSelect = document.getElementById(filterOneSelectId);
+  const filterTwoSelect = document.getElementById(filterTwoSelectId);
+  // remove no JS warning if javascript is enabled
   document.getElementById("notes-filter-js-warning").remove();
 
   /**
    * This function is called when a user changes the value of the select
    */
-  function filterNotes(category) {
+  function filterNotes(selectedOption, filterId) {
     // update URL onclick
-    updateURL(category);
+    updateURL(selectedOption);
     // remove previous filter (show all notes)
     allNotes.forEach((note) => note.hidden = false);
     // add hidden attributes to notes that don't have the chosen category in data-tag
-    if (category) {
-      selectElement.value = category;
+    if (selectedOption) {
+      filterOneSelect.value = selectedOption;
       let filteredNotes = [];
       allNotes.forEach((note) => {
-        if (note.dataset.tag.split(",").includes(category)) {
+        if (note.dataset.tag.split(",").includes(selectedOption)) {
           filteredNotes.push(note);
         } else {
           note.hidden = true;
@@ -35,9 +38,9 @@
   }
 
   // align selected category with URL
-  function updateURL(category) {
-    if (category) {
-      currentUrl.searchParams.set("q", category);
+  function updateURL(selectedOption) {
+    if (selectedOption) {
+      currentUrl.searchParams.set("q", selectedOption);
     } else {
       // delete current query to support "All" filter
       currentUrl.searchParams.delete("q");
