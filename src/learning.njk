@@ -31,7 +31,6 @@ icon: /public/img/meta/drawing-star.svg
 
   {# POST LIST #}
   {% for post in collections.learning | reverse %}
-  {# TODO remove manual id and make it automatic for all headings #}
   <article data-tag="{{ post.data.tags }}" id="{{ post.fileSlug }}">
     <div class="post-header">
       <h2>{{ post.data.title }}</h2>
