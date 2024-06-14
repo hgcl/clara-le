@@ -3,6 +3,7 @@ title: "Food pigments: Red beets"
 date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://niksharmacooks.com/the-flavor-equation/"
+lang: "en"
 ---
 
 Betalain is the red pigment of your beet, amaranth, rhubarb or Swiss chard.

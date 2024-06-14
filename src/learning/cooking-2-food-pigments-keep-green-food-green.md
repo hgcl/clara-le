@@ -3,6 +3,7 @@ title: "Food pigments: Keep green food green"
 date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://foodcrumbles.com/how-to-keep-green-food-green-controlling-chlorophyll/"
+lang: "en"
 ---
 
 A group of molecules called chlorophyll is at the basis of photosynthesis. It enables plants to absorb light to power the plant. It also has a side effect: it gives the plant its green color.

@@ -3,6 +3,7 @@ title: "Food pigments: Purple, blue or red blueberries"
 date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://niksharmacooks.com/the-flavor-equation/"
+lang: "en"
 ---
 
 Anthocyanins give their purple color to fruits and vegetables such as blueberries, pomegrenates, grapes or purple beans.

@@ -3,6 +3,7 @@ title: "Making solid shampoo"
 date: "2023-10-16"
 tags: ["diy"]
 sourceUrl: ""
+lang: "en"
 ---
 
 Yesterday, I tried making solid shampoo for the first time. Here is the rough recipe I followed.

@@ -3,6 +3,7 @@ title: "Data viz: Introduction"
 date: "2022-05-05"
 tags: ["miscellaneous"]
 sourceUrl: "https://www.datavizhandbook.com/"
+lang: "en"
 ---
 
 ### Text v. data visualization
