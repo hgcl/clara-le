@@ -89,7 +89,7 @@ icon: /public/img/meta/drawing-camera.svg
     {# POST LIST #}
     {% for yearCreated, posts in collections.media | groupby("data.yearCreated") | dictsort | reverse %}
       <h2>{{ yearCreated | replace("2021","prior") }}</h2>
-      <ul class="nobullet post-rows">
+      <ul class="nobullet post-rows filtered-list">
         {% for post in posts | reverse %}
           <li data-tag="{{ post.data.tags }}" class="card">
             <a class="card-link" href="{{ post.url }}">
