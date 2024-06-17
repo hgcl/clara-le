@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/public/styles/global-v2.css" type="text/css" />
-    {% block head %}
-    {% endblock %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:site_name" content="Clara Le" />
-    <meta property="og:title" content="{{ title }}" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="/public/styles/global-v3.css" type="text/css"/> {% block head %}{% endblock %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:site_name" content="Clara Le"/>
+    <meta property="og:title" content="{{ title }}"/>
     {% if description %}
-    <meta name="description" content="{{ description }}" />
+      <meta name="description" content="{{ description }}"/>
     {% endif %}
     <title>{{ title }} | Clara Le</title>
     {# FAVICON  #}
     <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬜</text></svg>"
-    />
-    {# RSS #}
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      href="/feed.xml"
-      title="Clara Le"
-    />
+    rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22
+        font-size=%2290%22>⬜</text></svg>"/> {# RSS #}
+    <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Clara Le"/>
   </head>
   <body>
     <div class="deco-vert-1 bg-deco" aria-hidden="true"></div>
@@ -32,30 +24,21 @@
     <header>
       <a class="skip-to-content button" href="#main-section">Skip to content</a>
       <nav>
-        <button
-          class="secondary-link hide"
-          id="menu-button"
-          aria-haspopup="true"
-        >Menu</button>
-        <ul id="menu">
+        <button class="secondary-link hide" id="menu-button" aria-haspopup="true">Menu</button>
+        <ul
+          id="menu">
           {# Automatically adds nav items with Nunjucks #}
           {% for item in navigationLinks %}
-          {% if item.show === true %}
-          <li>
-            <a class="secondary-link" href="{{ item.url }}"
-              >{{ item.title }}</a
-            >
-          </li>
-          {% endif %}
+            {% if item.show === true %}
+              <li>
+                <a class="secondary-link" href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+            {% endif %}
           {% endfor %}
           {# SEARCH BUTTON #}
           <li>
             <a id="search-link" href="/search" class="secondary-link">
-              <div
-                aria-hidden="true"
-                class="icon"
-                style="mask-image: url('/public/img/meta/search-icon.svg')"
-              ></div>
+              <div aria-hidden="true" class="icon" style="mask-image: url('/public/img/meta/search-icon.svg')"></div>
               Search
             </a>
           </li>
@@ -68,23 +51,21 @@
     <main id="main-section">
       {# Grab the content from the page data, dump it here, and mark it as safe #}
       {# Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe #}
-      {% block article %}
+        {% block article %}
       {{ content | safe }}
-      {% endblock %}
+    {% endblock %}
     </main>
     {# TODO get decoration line out of footer #}
       <footer>
-        {% block backtotop %}
-        <a href="#main-section"
-          >Back to top<span aria-hidden="true">&nbsp;&uarr;</span></a
-        >
-        {% endblock %}
-        <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
-      </footer>
-  {# TODO do I need to add async or defer in the script tag? #}
-  {% block script %}
-    {% include 'search-script.njk' %}
-    {% include 'nav-script.njk' %}
-  {% endblock %}
+        {% block backtotop %}<a href="#main-section">Back to top<span aria-hidden="true">&nbsp;&uarr;</span>
+        </a>
+      {% endblock %}
+      <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
+    </footer>
+    {# TODO do I need to add async or defer in the script tag? #}
+    {% block script %}
+      {% include 'search-script.njk' %}
+      {% include 'nav-script.njk' %}
+    {% endblock %}
   </body>
 </html>
