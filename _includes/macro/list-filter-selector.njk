@@ -1,7 +1,7 @@
-{% macro listFilterSelector(filterOne=[], filterTwo=[]) %}
+{% macro listFilterSelector(filterOneName='', filterOne=[], filterTwoName='', filterTwo=[]) %}
   <div class="posts-filter">
     <div>
-      <label for="filter-one-select">Filter by category</label>
+      <label for="filter-one-select">Filter by {{ filterOneName }}</label>
       <select id="filter-one-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()" class="capitalize">
         <option value="">All</option>
         {% for item in filterOne %}
@@ -12,7 +12,7 @@
     </div>
     {% if filterTwo.length %}
       <div>
-        <label for="filter-two-select">Filter by language</label>
+        <label for="filter-two-select">Filter by {{ filterTwoName }}</label>
         <select id="filter-two-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()" class="capitalize">
           <option value="">All</option>
           {% for item in filterTwo %}
