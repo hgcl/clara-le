@@ -550,10 +550,6 @@ input[type="checkbox"] {
 .post-rows > li[hidden] {
   display: none;
 }
-/* Capitalize text */
-.capitalize {
-  text-transform: capitalize;
-}
 /* Highlight text (reverse colors) */
 .highlight {
   background: var(--color-text);

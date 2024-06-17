@@ -2,7 +2,7 @@
   <div class="posts-filter">
     <div>
       <label for="filter-one-select">Filter by {{ filterOneName }}</label>
-      <select id="filter-one-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()" class="capitalize">
+      <select id="filter-one-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()">
         <option value="">All</option>
         {% for item in filterOne %}
           {# `lower` filter makes entire sting lowercase #}
@@ -13,7 +13,7 @@
     {% if filterTwo.length %}
       <div>
         <label for="filter-two-select">Filter by {{ filterTwoName }}</label>
-        <select id="filter-two-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()" class="capitalize">
+        <select id="filter-two-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()">
           <option value="">All</option>
           {% for item in filterTwo %}
             <option value="{{ item | lower }}">{{ item }}</option>
