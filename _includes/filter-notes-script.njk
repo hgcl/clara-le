@@ -1,59 +1,65 @@
 <script>
+  // For the script to work, make sure the items container has the "filtered-list" class
   const allNotes = document.querySelectorAll(".filtered-list  >  *");
-  const filterOneSelectId = "filter-one-select";
-  const filterTwoSelectId = "filter-two-select";
-  const filterOneSelect = document.getElementById(filterOneSelectId);
-  const filterTwoSelect = document.getElementById(filterTwoSelectId);
+  const filterOneSelect = document.getElementById("filter-one-select");
+  const filterTwoSelect = document.getElementById("filter-two-select");
   // remove no JS warning if javascript is enabled
   document.getElementById("notes-filter-js-warning").remove();
 
-  // TODO review script
-  // 1. If filterTwo exists, get value of filterOne + value of filterTwo
-  // 2. Remove previous filter (show all notes) before applying filters
-  // 3. Create empty filteredNotes array and add notes that have filterOne OR filterTwo
+  // TODO clean up and simplify this script...
 
   /**
   * This function is called when a user changes the value of the select
   */
-  function filterNotes() { // remove previous filter (show all notes)
-    allNotes.forEach((note) => note.hidden = false);
+  function filterNotes() { // remove previous filter (hide all notes)
+    allNotes.forEach((note) => note.hidden = true);
 
     // Take into account "All" options
     let emptyFilterOne = false;
-    let emptyFilterTwo = false;
     if (filterOneSelect.value == "") {
       emptyFilterOne = true;
     }
-    console.log(emptyFilterOne);
-    if (filterTwoSelect.value == "") {
-      emptyFilterTwo = true;
+
+    /* There is only one filter */
+    if (! filterTwoSelect) {
+      allNotes.forEach((note) => {
+        if (note
+            .getAttribute("data-tag")
+            .split(",")
+            .includes(filterOneSelect.value) || emptyFilterOne) {
+          note.hidden = false
+        }
+      });
     }
-
-    // add hidden attributes to notes that don't have the chosen category in data-tag
-    allNotes.forEach((note) => { // equals true if note includes filter 1
-      const includesFilterOne = note
-        .getAttribute("data-tag")
-        .split(',')
-        .includes(filterOneSelect.value);
-
-      // equals true is note includes filter 2
-      const includesFilterTwo = note
-        .getAttribute("data-tag-two")
-        .split(',')
-        .includes(filterTwoSelect.value);
-
-      if (includesFilterOne && includesFilterTwo) {
-        note.hidden = false;
-      } else if (emptyFilterOne && includesFilterTwo) {
-        note.hidden = false;
-      } else if (includesFilterOne && emptyFilterTwo) {
-        note.hidden = false;
-      } else if (emptyFilterOne && emptyFilterTwo) {
-        note.hidden = false;
-      } else {
-        note.hidden = true;
-
+    /* There are two filters */ else { // Take into account "All" options for 2nd filter
+      let emptyFilterTwo = false;
+      if (filterTwoSelect.value == "") {
+        emptyFilterTwo = true;
       }
-    });
+
+      // add hidden attributes to notes that don't have the chosen category in data-tag
+      allNotes.forEach((note) => { // equals true if note includes filter 1
+        const includesFilterOne = note
+          .getAttribute("data-tag")
+          .split(',')
+          .includes(filterOneSelect.value);
+
+        // equals true is note includes filter 2
+        const includesFilterTwo = note
+          .getAttribute("data-tag-two")
+          .split(',')
+          .includes(filterTwoSelect.value);
+
+        if (filterTwoSelect && includesFilterOne && includesFilterTwo) {
+          note.hidden = false;
+        } else if (filterTwoSelect && emptyFilterOne && includesFilterTwo) {
+          note.hidden = false;
+        } else if (filterTwoSelect && includesFilterOne && emptyFilterTwo) {
+          note.hidden = false;
+        } else if (filterTwoSelect && emptyFilterOne && emptyFilterTwo) {
+          note.hidden = false;
+        }
+      });
+    }
   }
 </script>
