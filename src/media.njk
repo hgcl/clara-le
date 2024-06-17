@@ -5,110 +5,113 @@ icon: /public/img/meta/drawing-camera.svg
 ---
 
 {% from 'macro/list-filter-selector.njk' import listFilterSelector %}
-{% extends "layout/base.njk" %} 
+{% extends "layout/base.njk" %}
 
 {% block head %}
-<style>
-  #media ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: var(--space-2xl);
-    grid-column-gap: var(--space-s);
-  }
-  #media li {
-    position: relative;
-    margin-bottom: 1rem;
-    width: 100%; /* makes sure that rows stack vertically only */
-  }
-  #media li a {
-    height: 100%;
-  }
-  #media li .list-title {
-    /* show h3 only */
-    display: none;
-  }
-  #media li .post-title {
-    opacity: 0;
-    /* overlay on image */
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    padding: var(--space-m);
-    color: var(--white);
-    /* center vertically */
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;
-  }
-  #media li > a:hover .post-title,
-  #media li > a:focus .post-title,
-  #media li > a:active .post-title {
-    opacity: 1;
-  }
-  #media li > a {
-    display: block;
-  }
-  #media li > a img {
-    height: 100%;
-    min-width: 100%;
-    object-fit: cover;
-    aspect-ratio: 3/4;
-  }
-  #media li .label {
-    /* align with posts.html */
-    display: block;
-    margin-top: 0.25rem;
-  }
-  #media li .label .author {
-    width: 210px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  @media only screen and (min-width: 768px) {
+  <style type="text/css">
+    #media ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: var(--space-2xl);
+      grid-column-gap: var(--space-s);
+    }
+    #media li {
+      position: relative;
+      margin-bottom: 1rem;
+      width: 100%; /* makes sure that rows stack vertically only */
+    }
+    #media li a {
+      height: 100%;
+    }
+    #media li .list-title {
+      /* show h3 only */
+      display: none;
+    }
+    #media li .post-title {
+      opacity: 0;
+      /* overlay on image */
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      padding: var(--space-m);
+      color: var(--white);
+      /* center vertically */
+      top: 50%;
+      transform: translateY(-50%);
+      margin: 0;
+    }
+    #media li > a:hover .post-title,
+    #media li > a:focus .post-title,
+    #media li > a:active .post-title {
+      opacity: 1;
+    }
+    #media li > a {
+      display: block;
+    }
+    #media li > a img {
+      height: 100%;
+      min-width: 100%;
+      object-fit: cover;
+      aspect-ratio: 3 / 4;
+    }
+    #media li .label {
+      /* align with posts.html */
+      display: block;
+      margin-top: 0.25rem;
+    }
+    #media li .label .author {
+      width: 210px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+  <style media="only screen and (min-width: 768px)">
     #media ul {
       grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
       grid-row-gap: var(--space-5xl);
       grid-column-gap: var(--space-xl);
     }
   }
-</style>
+  </style>
 {% endblock %}
 
 {% block article %}
-<section id="media">
-  {% include 'post-header.njk' %}
-  <p class="intro center">
-    A curated and non-exhaustive list of books, movies and series I loved and
-    would recommend.
-  </p>
+  <section id="media">
+    {% include 'post-header.njk' %}
+    <p class="intro center">
+      A curated and non-exhaustive list of books, movies and series I loved and would recommend.
+    </p>
 
-  {# POST FILTER SELECTOR #}
-  {{ listFilterSelector(['movie','book','tv series']) }}
-  
-  {# POST LIST #}
-  {% for yearCreated, posts in collections.media | groupby("data.yearCreated") | dictsort | reverse %}
-    <h2>{{ yearCreated | replace("2021","prior") }}</h2>
-    <ul class="nobullet post-rows">
-      {% for post in posts | reverse %}
-      <li data-tag="{{ post.data.tags }}" class="card">
-        <a class="card-link" href="{{ post.url }}">
-          <div><img loading="lazy" alt="" src="{{ post.data.cover }}"></div><span class="post-title">{{ post.data.title }}</span>
-        </a>
-        <div class="label divide-list">
-          <span class="author">{{ post.data.author[0] }}
-          {% if post.data.author.length > 1 %} & co{% endif %}
-          </span>
-          <span>{{ post.data.tags | filterTags }}</span>
-          <span>{{ post.data.year }}</span>
-        </div>
-      </li>
+    {# POST FILTER SELECTOR #}
+    {{ listFilterSelector('category',['movie','book','tv series']) }}
+
+    {# POST LIST #}
+    {% for yearCreated, posts in collections.media | groupby("data.yearCreated") | dictsort | reverse %}
+      <h2>{{ yearCreated | replace("2021","prior") }}</h2>
+      <ul class="nobullet post-rows">
+        {% for post in posts | reverse %}
+          <li data-tag="{{ post.data.tags }}" class="card">
+            <a class="card-link" href="{{ post.url }}">
+              <div>
+                <img loading="lazy" alt="" src="{{ post.data.cover }}"></div>
+                <span class="post-title">{{ post.data.title }}</span>
+              </a>
+              <div class="label divide-list">
+                <span class="author">{{ post.data.author[0] }}
+                  {% if post.data.author.length > 1 %}
+                    & co{% endif %}
+                </span>
+                <span>{{ post.data.tags | filterTags }}</span>
+                <span>{{ post.data.year }}</span>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
       {% endfor %}
-    </ul>
-  {% endfor %}
-</section>
-{% endblock %}
+    </section>
+  {% endblock %}
 
-{% block script %}
-  {% include 'filter-notes-script.njk' %}
-{% endblock %}
+  {% block script %}
+    {% include 'filter-notes-script.njk' %}
+  {% endblock %}
