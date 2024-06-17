@@ -19,8 +19,11 @@ pagination:
       text-transform: capitalize;
       column-gap: var(--space-l);
     }
-    #recipes .label {
+    #recipes li .label {
       color: var(--color-text-subtle);
+    }
+    #recipes li a {
+      margin-right: var(--space-xs);
     }
   </style>
 {% endblock %}
@@ -42,7 +45,8 @@ pagination:
       {% for item in pagination.pages %}
         <li data-tag="{{ item.dataTag }}" data-tag-two="{{ item.dataTag }}">
           <a href="{{ item.key }}">{{ item.title }}</a>
-          {% if item.duration %}&nbsp;&nbsp;<time class="label dt-duration" datetime="{{ item.duration | formatDurationAttr }}">{{ item.duration }}&nbsp;min</time>
+          {% if item.duration %}
+            <time class="label dt-duration" datetime="{{ item.duration | formatDurationAttr }}">{{ item.duration }}&nbsp;min</time>
           {% endif %}
         </li>
       {% endfor %}
