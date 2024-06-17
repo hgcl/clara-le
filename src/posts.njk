@@ -5,44 +5,47 @@ icon: /public/img/meta/drawing-face.svg
 ---
 
 {% from 'macro/list-filter-selector.njk' import listFilterSelector %}
-{% extends "layout/base.njk" %} 
+{% extends "layout/base.njk" %}
 
 {% block article %}
-<section class="center" id="posts">
-  {% include 'post-header.njk' %}
-  {# WORD COUNT CALCULATION #}
-  {% set wordCount = null %}
-  {% for post in collections.posts %}
-    {% set fixedContent = post.content | striptags %}
-    {% set postWordCount = fixedContent | wordcount %}
-    {% set wordCount = wordCount + postWordCount %}
-  {% endfor %}
-  <p class="intro">
-    Expect half-formed thoughts, doodles, full-fledged posts or anything in between. All ramblings can be followed through my <a href="/feed.xml">RSS feed</a>. So far, I've written 
-    {{ collections.posts.length }} posts, totaling {{ wordCount }} words (oh my).
-  </p>
-  
-  {# POST FILTER SELECTOR #}
-  {{ listFilterSelector(['creative','digital','now','review','thought','update']) }}
-
-{# POST LIST #}
-{# Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ #}
-{% for yearCreated, posts in collections.posts | groupby("data.yearCreated") | dictsort | reverse %}
-  <h2>{{ yearCreated }}</h2>
-  <ul class="nobullet post-rows-with-label">
-    {# 11ty sorts collections by date by default, just need to reverse to display as LIFO #}
-    {% for post in posts | reverse %}
-    <li data-tag="{{ post.data.tags }}">
-      <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>
-      <span class="details">
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
-        <span class="subtle">{{ post.data.subtitle }}</span>
-      </span>
-    </li>
+  <section class="center" id="posts">
+    {% include 'post-header.njk' %}
+    {# WORD COUNT CALCULATION #}
+    {% set wordCount = null %}
+    {% for post in collections.posts %}
+      {% set fixedContent = post.content | striptags %}
+      {% set postWordCount = fixedContent | wordcount %}
+      {% set wordCount = wordCount + postWordCount %}
     {% endfor %}
-  </ul>
-{% endfor %}
-</section>
+    <p class="intro">
+      Expect half-formed thoughts, doodles, full-fledged posts or anything in between. All ramblings can be followed through
+      my
+      <a href="/feed.xml">RSS feed</a>. So far, I've written {{ collections.posts.length }} posts, totaling {{ wordCount }} words (oh my).
+    </p>
+
+    {# POST FILTER SELECTOR #}
+    {{ listFilterSelector('category', ['creative','digital','now','review','thought','update'], 'language', ['en','fr']) }}
+
+    {# POST LIST #}
+    {# Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ #}
+      {% for yearCreated, posts in collections.posts | groupby("data.yearCreated") | dictsort | reverse %}
+        <h2>
+      {{ yearCreated }}
+      </h2>
+        <ul
+        class="nobullet post-rows-with-label filtered-list"> {# 11ty sorts collections by date by default, just need to reverse to display as LIFO #}
+        {% for post in posts | reverse %}
+          <li data-tag="{{ post.data.tags }}">
+            <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>
+            <span class="details">
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+              <span class="subtle">{{ post.data.subtitle }}</span>
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
 {% endblock %}
 
 {% block script %}

@@ -28,7 +28,7 @@ icon: /public/img/meta/drawing-star.svg
     </p>
 
     {# POST FILTER SELECTOR #}
-    {{ listFilterSelector(['astronomy','climbing','cooking','diy','language','miscellaneous'], ['en','fr']) }}
+    {{ listFilterSelector('category', ['astronomy','climbing','cooking','diy','language','miscellaneous'], 'language', ['en','fr']) }}
 
     {# POST LIST #}
     <div class="filtered-list">
