@@ -1,5 +1,5 @@
 <script>
-  const allNotes = document.querySelectorAll(`[data-tag]`);
+  const allNotes = document.querySelectorAll(".filtered-list  >  *");
   const filterOneSelectId = "filter-one-select";
   const filterTwoSelectId = "filter-two-select";
   const filterOneSelect = document.getElementById(filterOneSelectId);
@@ -7,44 +7,53 @@
   // remove no JS warning if javascript is enabled
   document.getElementById("notes-filter-js-warning").remove();
 
+  // TODO review script
+  // 1. If filterTwo exists, get value of filterOne + value of filterTwo
+  // 2. Remove previous filter (show all notes) before applying filters
+  // 3. Create empty filteredNotes array and add notes that have filterOne OR filterTwo
+
   /**
-   * This function is called when a user changes the value of the select
-   */
-  function filterNotes(selectedOption, filterId) {
-    // update URL onclick
-    updateURL(selectedOption);
-    // remove previous filter (show all notes)
+  * This function is called when a user changes the value of the select
+  */
+  function filterNotes() { // remove previous filter (show all notes)
     allNotes.forEach((note) => note.hidden = false);
+
+    // Take into account "All" options
+    let emptyFilterOne = false;
+    let emptyFilterTwo = false;
+    if (filterOneSelect.value == "") {
+      emptyFilterOne = true;
+    }
+    console.log(emptyFilterOne);
+    if (filterTwoSelect.value == "") {
+      emptyFilterTwo = true;
+    }
+
     // add hidden attributes to notes that don't have the chosen category in data-tag
-    if (selectedOption) {
-      filterOneSelect.value = selectedOption;
-      let filteredNotes = [];
-      allNotes.forEach((note) => {
-        if (note.dataset.tag.split(",").includes(selectedOption)) {
-          filteredNotes.push(note);
-        } else {
-          note.hidden = true;
-        }
-      });
-    }
-  }
+    allNotes.forEach((note) => { // equals true if note includes filter 1
+      const includesFilterOne = note
+        .getAttribute("data-tag")
+        .split(',')
+        .includes(filterOneSelect.value);
 
-  // get current URL
-  let currentUrl = new URL(window.location.href);
-  const searchParams = new URLSearchParams(currentUrl.search);
-  // apply URL filter to open page if not "All" filter selected
-  if (searchParams.get("q")) {
-    filterNotes(searchParams.get("q"));
-  }
+      // equals true is note includes filter 2
+      const includesFilterTwo = note
+        .getAttribute("data-tag-two")
+        .split(',')
+        .includes(filterTwoSelect.value);
 
-  // align selected category with URL
-  function updateURL(selectedOption) {
-    if (selectedOption) {
-      currentUrl.searchParams.set("q", selectedOption);
-    } else {
-      // delete current query to support "All" filter
-      currentUrl.searchParams.delete("q");
-    }
-    history.pushState({}, "", currentUrl);
+      if (includesFilterOne && includesFilterTwo) {
+        note.hidden = false;
+      } else if (emptyFilterOne && includesFilterTwo) {
+        note.hidden = false;
+      } else if (includesFilterOne && emptyFilterTwo) {
+        note.hidden = false;
+      } else if (emptyFilterOne && emptyFilterTwo) {
+        note.hidden = false;
+      } else {
+        note.hidden = true;
+
+      }
+    });
   }
 </script>
