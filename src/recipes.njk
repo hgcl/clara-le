@@ -35,12 +35,12 @@ pagination:
 
     {# POST FILTER SELECTOR #}
     {# TODO review some tag names #}
-    {{ listFilterSelector('category',['main','dessert','side','ahead','preserve','diy','spring','summer','fall','winter']) }}
+    {{ listFilterSelector('category',['main','dessert','side','ahead','preserve','diy'],'season',['spring','summer','fall','winter']) }}
 
     {# RECIPE LIST #}
     <ul id="recipes" class="nobullet filtered-list">
       {% for item in pagination.pages %}
-        <li data-tag="{{ item.dataTag }}">
+        <li data-tag="{{ item.dataTag }}" data-tag-two="{{ item.dataTag }}">
           <a href="{{ item.key }}">{{ item.title }}</a>
           {% if item.duration %}&nbsp;&nbsp;<time class="label dt-duration" datetime="{{ item.duration | formatDurationAttr }}">{{ item.duration }}&nbsp;min</time>
           {% endif %}
