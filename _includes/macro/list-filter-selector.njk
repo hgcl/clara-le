@@ -5,8 +5,8 @@
       <select id="filter-one-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()" class="capitalize">
         <option value="">All</option>
         {% for item in filterOne %}
-          {# `title` filter capitalizes the first letter of the variable #}
-          <option value="{{ item }}">{{ item | title }}</option>
+          {# `lower` filter makes entire sting lowercase #}
+          <option value="{{ item | lower }}">{{ item }}</option>
         {% endfor %}
       </select>
     </div>
@@ -16,8 +16,7 @@
         <select id="filter-two-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()" class="capitalize">
           <option value="">All</option>
           {% for item in filterTwo %}
-            {# `title` filter capitalizes the first letter of the variable #}
-            <option value="{{ item }}">{{ item | title }}</option>
+            <option value="{{ item | lower }}">{{ item }}</option>
           {% endfor %}
         </select>
       </div>
