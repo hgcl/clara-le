@@ -35,7 +35,7 @@ icon: /public/img/meta/drawing-face.svg
         <ul
         class="nobullet post-rows-with-label filtered-list"> {# 11ty sorts collections by date by default, just need to reverse to display as LIFO #}
         {% for post in posts | reverse %}
-          <li data-tag="{{ post.data.tags }}">
+          <li data-tag="{{ post.data.tags }}" data-tag-two="{{ post.data.lang }}">
             <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>
             <span class="details">
               <a href="{{ post.url }}">{{ post.data.title }}</a>
