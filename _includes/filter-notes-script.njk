@@ -9,14 +9,15 @@
   // TODO clean up and simplify this script...
 
   /**
-  * TODO Add URL change
-  */
+   * TODO Add URL change
+   */
 
   /**
-  * This function is called when a user changes the value of the select
-  */
-  function filterNotes() { // remove previous filter (hide all notes)
-    allNotes.forEach((note) => note.hidden = true);
+   * This function is called when a user changes the value of the select
+   */
+  function filterNotes() {
+    // update URL onclick remove previous filter (hide all notes)
+    allNotes.forEach((note) => (note.hidden = true));
 
     // Take into account "All" options
     let emptyFilterOne = false;
@@ -25,25 +26,41 @@
     }
 
     /* There is only one filter */
-    if (! filterTwoSelect) {
+    if (!filterTwoSelect) {
+      updateURL(filterOneSelect.value);
+
       allNotes.forEach((note) => {
-        if (isInArray(note, "data-tag", filterOneSelect.value || emptyFilterOne)) {
-          note.hidden = false
+        if (
+          isInArray(note, "data-tag", filterOneSelect.value || emptyFilterOne)
+        ) {
+          note.hidden = false;
         }
       });
-    }
-    /* There are two filters */ else { // Take into account "All" options for 2nd filter
+    } else {
+      /* There are two filters */
+      updateURL(filterOneSelect.value, filterTwoSelect.value);
+
+      // Take into account "All" options for 2nd filter
       let emptyFilterTwo = false;
       if (filterTwoSelect.value == "") {
         emptyFilterTwo = true;
       }
 
       // add hidden attributes to notes that don't have the chosen category in data-tag
-      allNotes.forEach((note) => { // equals true if note includes filter 1
-        const includesFilterOne = isInArray(note, "data-tag", filterOneSelect.value);
+      allNotes.forEach((note) => {
+        // equals true if note includes filter 1
+        const includesFilterOne = isInArray(
+          note,
+          "data-tag",
+          filterOneSelect.value
+        );
 
         // equals true is note includes filter 2
-        const includesFilterTwo = isInArray(note, "data-tag-two", filterTwoSelect.value);
+        const includesFilterTwo = isInArray(
+          note,
+          "data-tag-two",
+          filterTwoSelect.value
+        );
 
         if (filterTwoSelect && includesFilterOne && includesFilterTwo) {
           note.hidden = false;
@@ -60,9 +77,22 @@
 
   // returns true if the 'array' selected under 'attribute' contains the 'value'
   function isInArray(array, attribute, value) {
-    return array
-      .getAttribute(attribute)
-      .split(',')
-      .includes(value);
+    return array.getAttribute(attribute).split(",").includes(value);
+  }
+
+  // get current URL
+  let currentUrl = new URL(window.location.href);
+  const searchParams = new URLSearchParams(currentUrl.search);
+  // apply URL filter to open page if specific filters are selected
+  if (searchParams.get("q")) {
+    filterNotes();
+    console.log(searchParams.getAll("q"));
+  }
+
+  // align selected category with URL
+  function updateURL(filterOne, filterTwo) {
+    currentUrl.searchParams.set("q", filterOne);
+    currentUrl.searchParams.append("q", filterTwo);
+    history.pushState({}, "", currentUrl);
   }
 </script>
