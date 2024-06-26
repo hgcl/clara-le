@@ -1,0 +1,14 @@
+{
+  // Nunjucks extension https://github.com/eseom/nunjucks-template
+  "files.associations": {
+    "*.html": "njk"
+  },
+  "[njk]": {
+    "editor.defaultFormatter": "eseom.nunjucks-template",
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "bounded"
+  },
+  "nunjucksTemplate.preserveEmptyLine": 1,
+  // Language tool spell checker
+  "languageToolLinter.languageTool.motherTongue": "en-US"
+}
