@@ -1,62 +1,36 @@
 {# COMMENT FORM #}
 {# CSS note: this is styled in _includes/layout/post.njk #}
-<form
-  id="comment-form"
-  class="boxed-content center"
-  method="POST"
-  action="#"
->
-  <h2 class="label">Leave a comment</h2>
+  <form id="comment-form" class="boxed-content center" method="POST" action="#"> <h2 class="label">Leave a comment</h2>
   <p id="enable-js-message" class="subtle">
     <em>Enable JavaScript to submit comments.</em>
   </p>
   {# HIDDEN METADATA sent with form #}
-  <input type="hidden" name="options[redirect]" value="https://clarale.com" />
-  <input type="hidden" id="slug" name="options[slug]" value="{{ page.fileSlug }}" />
-  <input type="hidden" id="comment-replying-to" name="options[parent]" value="" />
+  <input type="hidden" name="options[redirect]" value="https://clarale.com"/>
+  <input type="hidden" id="slug" name="options[slug]" value="{{ page.fileSlug }}"/>
+  <input
+  type="hidden" id="comment-replying-to" name="options[parent]" value=""/>
   {# REPLY WARNING #}
-  <div id="reply-to-parent" hidden >
-    <span class="label">Replying to <span id="parent-name"></span></span>
+  <div id="reply-to-parent" hidden>
+    <span class="label">Replying to
+      <span id="parent-name"></span>
+    </span>
     <button type="button" id="cancel-reply-button" class="secondary-link">(Cancel reply)</button>
   </div>
   {# FORM INPUTS #}
   <div id="inputs">
-    <label for="abcnamehjk">Your name</label
-    ><input id="abcnamehjk" name="fields[name]" type="text" maxlength="100" required spellcheck="false" />
-    <label for="abcemailhjk">Email (optional)</label
-    ><input id="abcemailhjk" name="fields[email]" type="email" name="fields[email]" spellcheck="false" />
-    <label for="abcmessagehjk">Message</label
-    ><textarea
-      id="abcmessagehjk"
-      name="fields[message]"
-      rows="5"
-      required
-    ></textarea>
-    <label for="secret">Hooman test: whose website is this (first name)?</label
-    ><input id="secret" name="fields[secret]" type="text" />
+    <label for="abcnamehjk">Name</label><input id="abcnamehjk" name="fields[name]" type="text" maxlength="100" required spellcheck="false"/>
+    <label for="abcemailhjk">Email (optional)</label><input id="abcemailhjk" name="fields[email]" type="email" name="fields[email]" spellcheck="false"/>
+    <label for="abcmessagehjk">Message</label>
+    <textarea id="abcmessagehjk" name="fields[message]" rows="5" required></textarea>
   </div>
   {# H O N E Y P O T #}
   <div class="ohsomehoney" aria-hidden="true">
     <label for="name"></label>
-    <input
-      autocomplete="false"
-      type="text"
-      id="name"
-      name="name"
-      tabindex="-1"
-      placeholder="Your name here"
-    />
+    <input autocomplete="false" type="text" id="name" name="name" tabindex="-1" placeholder="Your name here"/>
   </div>
   <div class="ohsomehoney" aria-hidden="true">
     <label for="email"></label>
-    <input
-      autocomplete="false"
-      type="email"
-      id="email"
-      name="email"
-      tabindex="-1"
-      placeholder="Your e-mail here"
-    />
+    <input autocomplete="false" type="email" id="email" name="email" tabindex="-1" placeholder="Your e-mail here"/>
   </div>
   <button id="submit-button" type="submit">Submit message</button>
 </form>

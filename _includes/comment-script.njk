@@ -1,26 +1,23 @@
 <script>
-// COMMENT SCRIPT
-// Make form submittable, detect spam, alert about manual review of comment
-// More anti spam ideas: https://www.mullie.eu/how-to-prevent-form-spam/
+  // COMMENT SCRIPT Make form submittable, detect spam, alert about manual review of comment More anti spam ideas:
+  // https://www.mullie.eu/how-to-prevent-form-spam/
 
-const commentForm = document.getElementById("comment-form");
-const cancelButton = document.getElementById("cancel-reply-button");
-const commentParent = document.getElementById("comment-replying-to");
-const replyToParent = document.getElementById("reply-to-parent");
-const parentName = document.getElementById("parent-name");
+  const commentForm = document.getElementById("comment-form");
+  const cancelButton = document.getElementById("cancel-reply-button");
+  const commentParent = document.getElementById("comment-replying-to");
+  const replyToParent = document.getElementById("reply-to-parent");
+  const parentName = document.getElementById("parent-name");
 
-// Make javascript mandatory to submit form (anti bot)
-// Remove no JS warning
-const jsMessage = document.getElementById("enable-js-message").remove();
-commentForm.setAttribute('action', 'https://clarale-staticman.adaptable.app/v2/entry/hgcl/clara-le/main/comments');
+  // Make javascript mandatory to submit form (anti bot) Remove no JS warning
+  const jsMessage = document.getElementById("enable-js-message").remove();
+  commentForm.setAttribute('action', 'https://clarale-staticman.adaptable.app/v2/entry/hgcl/clara-le/main/comments');
 
-// SUBMIT COMMENT + CHECK SPAM
-function submitForm (e) {
+  // SUBMIT COMMENT + CHECK SPAM
+  function submitForm(e) {
     const formData = new FormData(e.target);
 
-    // Is submission spam?
-    // Inputs that should be empty or incorrect secret question
-    if (formData.get("name") !== "" || formData.get("email") !== "" || formData.get("fields[secret]").toLowerCase() !== "clara") {
+    // Is submission spam? Inputs that should be empty
+    if (formData.get("name") !== "" || formData.get("email") !== "") {
       e.preventDefault();
       console.log("nope");
       return false;
@@ -28,15 +25,14 @@ function submitForm (e) {
 
     // TODO how to avoid page redirect?
     return alert(
-      "Your comment will be manually reviewed before being published. Please do not leave the page while your message is being sent."
+      "Your comment will be manually reviewed before being published. Please do not leave the page while your message is being " +
+      "sent."
     );
   }
   commentForm.addEventListener('submit', submitForm);
 
-  // REPLY TO EXISTING COMMENT
-  // parent-id passed as "id-xxx", where xxx are the rest of the id
-  function replyToComment(parentId, authorName) {
-    // Set parent input as parent comment id (slice method is to remove the "parent-" prefix)
+  // REPLY TO EXISTING COMMENT parent-id passed as "id-xxx", where xxx are the rest of the id
+  function replyToComment(parentId, authorName) { // Set parent input as parent comment id (slice method is to remove the "parent-" prefix)
     commentParent.value = parentId.slice(7);
     // Show name of the person you are replying to
     parentName.textContent = authorName;
@@ -45,8 +41,7 @@ function submitForm (e) {
   }
 
   // CANCEL CURRENT REPLY
-  function cancelReply () {
-    // Reset parent input
+  function cancelReply() { // Reset parent input
     commentParent.value = "";
     // Hide reply to parent text
     replyToParent.hidden = true;
