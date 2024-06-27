@@ -1,110 +1,104 @@
 {% extends "layout/base.njk" %}
 
 {% block head %}
-{# Do not show comments for Now page (this condition is applied 3 times in this layout) #}
-{% if (directory === "posts") and (title !== "Now") %}
-{# COMMENT STYLES #}
-<style>
-  .ohsomehoney {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    width: 0;
-    z-index: -1;
-  }
-  .boxed-content {
-    background-color: var(--blue);
-    color: var(--white);
-    padding: var(--space-l) var(--space-m);
-    margin-top: var(--space-3xl);
-  }
-  .boxed-content h2 {
-    text-align: center;
-    /* cancels default margin */
-    margin-top: 0;
-  }
-  .boxed-content #inputs > * {
-    width: 100%;
-    font-size: var(--font-xs);
-  }
-  .boxed-content #reply-to-parent {
-    margin: 2rem 0;
-  }
-  .boxed-content #cancel-reply-button {
-    padding: 0;
-    /* Review colors on blue bg */
-    color: var(--white);
-  }
-  .boxed-content > #submit-button {
-    display: block;
-    margin: 1rem auto 0 auto;
-    /* Review colors on blue bg */
-    border-color: var(--white);
-    color: var(--white);
-  }
-  /* Review links/buttons color on blue background */
-  .boxed-content #cancel-reply-button:hover, 
-  .boxed-content #cancel-reply-button:focus,
-  .boxed-content > #submit-button:hover,
-  .boxed-content > #submit-button:focus {
-    color: var(--blue);
-  }
+  {# Do not show comments for Now page (this condition is applied 3 times in this layout) #}
+  {% if (directory === "posts") and (title !== "Now") %}
+    {# COMMENT STYLES #}
+    <style>
+      .ohsomehoney {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
+      }
+      .boxed-content {
+        background-color: var(--blue);
+        color: var(--white);
+        padding: var(--space-l) var(--space-m);
+        margin-top: var(--space-3xl);
+      }
+      .boxed-content h2 {
+        text-align: center;
+        /* cancels default margin */
+        margin-top: 0;
+      }
+      .boxed-content #inputs > * {
+        width: 100%;
+        font-size: var(--font-xs);
+      }
+      .boxed-content #reply-to-parent {
+        margin: 2rem 0;
+      }
+      .boxed-content #cancel-reply-button {
+        padding: 0;
+        /* Review colors on blue bg */
+        color: var(--white);
+      }
+      .boxed-content > #submit-button {
+        display: block;
+        margin: 1rem auto 0;
+        /* Review colors on blue bg */
+        border-color: var(--white);
+        color: var(--white);
+      }
+      /* Review links/buttons color on blue background */
+      .boxed-content #cancel-reply-button:hover,
+      .boxed-content #cancel-reply-button:focus,
+      .boxed-content > #submit-button:hover,
+      .boxed-content > #submit-button:focus {
+        color: var(--blue);
+      }
 
-  /* COMMENT LIST */
-  #comments article {
-    border-bottom: solid 1px var(--color-text-subtle);
-    padding: 1rem 0;
-  }
-  #comments article.reply-note {
-    padding-left: 2rem;
-  }
-  /* Support line breaks in comments */
-  #comments article .comment-message {
-    white-space: pre-line;
-  }
-</style>
-{% endif %}
+      /* COMMENT LIST */
+      #comments article {
+        border-bottom: solid 1px var(--color-text-subtle);
+        padding: 1rem 0;
+      }
+      #comments article.reply-note {
+        padding-left: 2rem;
+      }
+    </style>
+  {% endif %}
 {% endblock %}
 
 {% block article %}
-{# TODO add article tag and e-content in a reusable wrapper, macro? #}
-{# h-entry, e-content are microformats. Don't use for styling! #}
-{# Microformats docs: https://microformats.org/wiki/h-entry #}
-<article class="center h-entry">
-  {% include 'post-header.njk' %}
-  <div class="e-content">{{ content | safe | replace("{end-key}", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
-</article>
-{% if (directory === "posts") and (title !== "Now") %}
-  {% include 'comment-form.njk' %}
-  {% include 'comment-notes.njk' %}
-{% endif %}
+  {# TODO add article tag and e-content in a reusable wrapper, macro? #}
+  {# h-entry, e-content are microformats. Don't use for styling! #}
+  {# Microformats docs: https://microformats.org/wiki/h-entry #}
+    <article class="center h-entry"> {% include 'post-header.njk' %}
+    <div class="e-content">{{ content | safe | replace("{end-key}", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
+  </article>
+  {% if (directory === "posts") and (title !== "Now") %}
+    {% include 'comment-form.njk' %}
+    {% include 'comment-notes.njk' %}
+  {% endif %}
 {% endblock %}
 
 {% block script %}
-<!-- FOOTNOTES TO SIDENOTES -->
-<script>
-  // Get footnotes box (ol element) and set up counter
-  const footnotes = document.querySelector(".footnotes-list");
-  let counter = 1;
-  window.onload = () => {
-    while (footnotes.childNodes.length >= counter) {
-      // Generate ids numbers
-      const footnoteId = "fn" + counter;
-      const refId = "fnref" + counter;
-      // Get footnote element (li element) + set class sidenote
-      const footnoteEl = document.getElementById(footnoteId);
-      // Get the reference sup element top position
-      const supEl = document.getElementById(refId).parentNode;
-      const topPos = supEl.offsetTop;
-      // Vertically position footnote
-      footnoteEl.style.top = topPos + "px";
-      counter++;
-    }
-  };
-</script>
-{% if (directory === "posts") and (title !== "Now") %}
-  {% include 'comment-script.njk' %}
-{% endif %}
+  <!-- FOOTNOTES TO SIDENOTES -->
+  <script>
+    // Get footnotes box (ol element) and set up counter
+    const footnotes = document.querySelector(".footnotes-list");
+    let counter = 1;
+    window.onload = () => {
+      while (footnotes.childNodes.length >= counter) { // Generate ids numbers
+        const footnoteId = "fn" + counter;
+        const refId = "fnref" + counter;
+        // Get footnote element (li element) + set class sidenote
+        const footnoteEl = document.getElementById(footnoteId);
+        // Get the reference sup element top position
+        const supEl = document.getElementById(refId).parentNode;
+        const topPos = supEl.offsetTop;
+        // Vertically position footnote
+        footnoteEl.style.top = topPos + "px";
+        counter++;
+      }
+    };
+  </script>
+  {% if (directory === "posts") and (title !== "Now") %}
+    {% include 'comment-script.njk' %}
+  {% endif %}
 {% endblock %}
