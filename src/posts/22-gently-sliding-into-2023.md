@@ -3,6 +3,7 @@ title: "#22 Gently sliding into 2023"
 subtitle: "Update #22"
 date: "2023-01-02"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

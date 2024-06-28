@@ -3,6 +3,7 @@ title: "Now archive #3"
 subtitle: "A snapshot in time"
 date: "2022-02-20"
 tags: ["now"]
+lang: "en"
 ---
 
 I have now been in Berlin for more than three years — kinda crazy.

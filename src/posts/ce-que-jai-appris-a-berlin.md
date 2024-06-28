@@ -2,7 +2,8 @@
 title: "Choses que j'ai apprises à Berlin"
 subtitle: "Un exercise de poésie"
 date: "2023-08-20"
-tags: ["creative", "french"]
+tags: ["creative"]
+lang: "fr"
 ---
 
 À assumer ma singularité en m'habillant tout de noir

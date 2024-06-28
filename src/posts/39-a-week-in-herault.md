@@ -3,6 +3,7 @@ title: "#39 A week in Hérault"
 subtitle: "Update #39"
 date: "2023-10-10"
 tags: ["update"]
+lang: "en"
 ---
 
 I had my 31st birthday last week. It still feels a bit weird being completely past my twenties. Here, I am just still flailing around, trying to figure out life as I go. At least it's exciting.

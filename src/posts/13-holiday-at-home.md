@@ -3,6 +3,7 @@ title: "#13 Holiday at home"
 subtitle: "Update #13"
 date: "2021-01-30"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

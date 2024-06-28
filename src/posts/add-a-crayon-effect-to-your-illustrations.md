@@ -3,6 +3,7 @@ title: "Add a crayon effect to your illustrations"
 subtitle: "An Adobe Illustrator CC tutorial"
 date: "2019-04-30"
 tags: ["creative", "digital"]
+lang: "en"
 ---
 
 I love the cleanliness and flexibility of vector illustration. But sometimes, it just feels… _too perfect_. The grit and texture that come with raw sketches usually get lost translation.

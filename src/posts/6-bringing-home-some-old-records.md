@@ -3,6 +3,7 @@ title: "#6 Bringing home some old records"
 subtitle: "Update #6"
 date: "2020-12-12"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

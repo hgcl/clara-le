@@ -3,6 +3,7 @@ title: "Destination"
 subtitle: "A stop motion experiment"
 date: "2022-02-13"
 tags: ["creative"]
+lang: "en"
 ---
 
 So yep, I finally got the _disease_. In the last few days of quarantine, I was feeling 100% recovered and had way too much time on my hands. This is what happened.

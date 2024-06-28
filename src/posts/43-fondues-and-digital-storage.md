@@ -3,6 +3,7 @@ title: "#43 Fondues and digital storage"
 subtitle: "Update #43"
 date: "2023-12-08"
 tags: ["update"]
+lang: "en"
 ---
 
 We are less than a week away from the Big Trip. Ok, that's not entirely true as we are going to stop in Switzerland for a week first — Christmas, yay! _Anyway_, who cares, it feels like everything starts in six days.

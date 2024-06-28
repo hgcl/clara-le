@@ -3,6 +3,7 @@ title: "Digital doodling"
 subtitle: "Trying out Tayasui Sketches"
 date: "2021-12-25"
 tags: ["creative"]
+lang: "en"
 ---
 
 ![Black and white doodling of myself surrounded by things I like](/public/img/20211225_me-patchwork.webp)

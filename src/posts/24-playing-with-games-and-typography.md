@@ -3,6 +3,7 @@ title: "#24 Playing with games and typography"
 subtitle: "Update #24"
 date: "2023-01-19"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

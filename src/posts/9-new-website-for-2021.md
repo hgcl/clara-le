@@ -3,6 +3,7 @@ title: "#9 New website for 2021"
 subtitle: "Update #9"
 date: "2021-01-02"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

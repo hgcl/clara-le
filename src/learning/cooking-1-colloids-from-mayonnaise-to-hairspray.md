@@ -3,6 +3,7 @@ title: "Colloids: From mayonnaise to hairspray"
 date: "2023-09-30"
 tags: ["cooking"]
 sourceUrl: "https://en.wikipedia.org/wiki/Colloid"
+lang: "en"
 ---
 
 A colloid is a mixture where dispersed insoluble particles is suspended throughout another substance. This two-phase mixture has a dispersed phase (the suspended particles) and a continuous phase (the medium of suspension).

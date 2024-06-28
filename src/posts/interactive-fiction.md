@@ -3,6 +3,7 @@ title: "Interactive fiction"
 subtitle: "So I got into text adventure games"
 date: "2022-04-06"
 tags: []
+lang: "en"
 ---
 
 A bit more than a month ago, I rediscovered the very niche game subgenre of interactive fiction — or IF for the initiated.

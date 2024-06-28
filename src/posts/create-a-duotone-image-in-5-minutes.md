@@ -3,6 +3,7 @@ title: "Create a duotone image in 5 minutes"
 subtitle: "An Adobe Photoshop CC tutorial"
 date: "2019-05-09"
 tags: ["creative", "digital"]
+lang: "en"
 ---
 
 There is a new kid in town and its name is _duotone_.

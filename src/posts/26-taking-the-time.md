@@ -3,6 +3,7 @@ title: "#26 Taking the time"
 subtitle: "Update #26"
 date: "2023-02-26"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

@@ -3,6 +3,7 @@ title: "Implementing static comments with Staticman"
 subtitle: "Back on the coding train"
 date: "2024-05-20"
 tags: ["digital"]
+lang: "en"
 ---
 
 It had been forever I hadn't been properly coding. My environment[^1] of the last few months wasn't really helping. But now that we are staying in Hanoi (and spending most of our time in coffee shops), I am finding the time to code again.

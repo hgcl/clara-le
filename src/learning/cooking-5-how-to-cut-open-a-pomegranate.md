@@ -3,6 +3,7 @@ title: "How to cut open a pomegranate"
 date: "2023-10-15"
 tags: ["cooking"]
 sourceUrl: ""
+lang: "en"
 ---
 
 1. Cut through "the hat" of a pomegranate (at about a quarter from its tip), making sure not to cut through the seeds. Empty the had from its seeds and set aside in a bowl.

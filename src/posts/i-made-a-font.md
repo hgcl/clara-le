@@ -3,6 +3,7 @@ title: "I made a font"
 subtitle: "Or how I created a simple font as a complete typography-noob"
 date: "2023-01-10"
 tags: ["creative", "digital"]
+lang: "en"
 ---
 
 ## Sample of the _Eau de poisson_ font

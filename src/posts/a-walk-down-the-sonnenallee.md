@@ -3,6 +3,7 @@ title: "A walk down the Sonnenallee"
 subtitle: "Along the Arab street, from Hermannplatz to Sonnenallee station"
 date: "2023-11-07"
 tags: ["thought"]
+lang: "en"
 ---
 
 Robin and I are back for a week in Berlin. Among many things, we went back to North Neukölln — one of our favorite neighborhoods in Berlin.

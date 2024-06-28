@@ -238,7 +238,10 @@ dialog .close-button {
 /* For list-filter-selector.njk */
 .posts-filter {
   margin-block: var(--space-2xl);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 /* TYPOGRAPHY & CONTENT FLOW */
@@ -546,10 +549,6 @@ input[type="checkbox"] {
 .post-rows-with-label > li[hidden],
 .post-rows > li[hidden] {
   display: none;
-}
-/* Capitalize text */
-.capitalize {
-  text-transform: capitalize;
 }
 /* Highlight text (reverse colors) */
 .highlight {

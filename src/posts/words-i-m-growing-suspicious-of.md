@@ -3,6 +3,7 @@ title: "Words I'm growing suspicious of"
 subtitle: "Ranting (in a list format)"
 date: "2023-12-12"
 tags: ["thought"]
+lang: "en"
 ---
 
 The other day, I stumbled upon the website of company XYZ. And once again, I got frustrated at their use of superlatives. So, I started a list of words.

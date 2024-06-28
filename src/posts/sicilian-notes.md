@@ -3,6 +3,7 @@ title: "Sicilian notes"
 subtitle: "A tiny note about our trip in Sicily"
 date: "2023-06-02"
 tags: ["thought"]
+lang: "en"
 ---
 
 A list of things noticed during our 2-week trip in Sicily:

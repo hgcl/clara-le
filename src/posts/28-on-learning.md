@@ -3,6 +3,7 @@ title: "#28 On learning"
 subtitle: "Update #28"
 date: "2023-03-24"
 tags: ["update"]
+lang: "en"
 ---
 
 Since we arrived in Ardèche, I find it hard to keep up with this weeknote. I think that one of the reasons is that I invest more time on [Eau de poisson](https://eaudepoisson.com/) — the blog I share with Robin.

@@ -3,6 +3,7 @@ title: "#7 Living better with less"
 subtitle: "Update #7"
 date: "2020-12-19"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

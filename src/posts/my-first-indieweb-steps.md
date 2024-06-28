@@ -3,6 +3,7 @@ title: "Peeking into the IndieWeb world"
 subtitle: "My first baby steps"
 date: "2022-04-10"
 tags: ["digital"]
+lang: "en"
 ---
 
 Robin introduced me to the IndieWeb about a year ago. And as it usually happens, I dived head first into it before he even had time to close his tabs.

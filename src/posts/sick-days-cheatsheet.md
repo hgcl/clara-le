@@ -3,6 +3,7 @@ title: "Sick days cheatsheet"
 subtitle: "Or how to help my tired cloudy mind"
 date: "2022-11-30"
 tags: ["thought"]
+lang: "en"
 ---
 
 I am not sure what is happening to me, but since about a year, I get sick much more severely than before. A common cold can lead to exhaustion, strong headaches and nausea.

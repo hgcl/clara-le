@@ -3,6 +3,7 @@ title: "#30 Slow start"
 subtitle: "Update #30"
 date: "2023-04-20"
 tags: ["update"]
+lang: "en"
 ---
 
 After a week of holiday with family coming over to visit, I am back to my routine. Getting back to work felt intense. The things I am currently working on are quite interesting, but I felt exhausted at the end of each day. I'm not complaining though, I only have 3-day-work weeks from now on until the end of my contract.

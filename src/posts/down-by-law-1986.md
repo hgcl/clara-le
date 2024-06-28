@@ -3,6 +3,7 @@ title: "Down By Law (1986)"
 subtitle: "A tiny note about the movie"
 date: "2020-11-26"
 tags: ["review"]
+lang: "en"
 ---
 
 _Directed by Jim Jarmusch_

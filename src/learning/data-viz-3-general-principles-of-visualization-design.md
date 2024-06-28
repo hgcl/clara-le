@@ -3,6 +3,7 @@ title: "Data viz: General principles of visualization design"
 date: "2022-05-05"
 tags: ["miscellaneous"]
 sourceUrl: "https://www.datavizhandbook.com/"
+lang: "en"
 ---
 
 ### Focal points guide the eyes

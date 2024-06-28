@@ -3,6 +3,7 @@ title: "Stars or planets?"
 date: "2023-11-15"
 tags: ["astronomy"]
 sourceUrl: "https://archive.org/details/fieldguidetostar00menz_0/mode/1up"
+lang: "en"
 ---
 
 Here are three quick ways to differentiate a planet from a star.

@@ -3,6 +3,7 @@ title: "#3 Friends and digital gardening"
 subtitle: "Update #3"
 date: "2020-11-24"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

@@ -3,6 +3,7 @@ title: "#31 Friends, sci-fi and Coppola"
 subtitle: "Update #31"
 date: "2023-05-14"
 tags: ["update"]
+lang: "en"
 ---
 
 These past two weeks, Jillian and Connor came to visit us in Joux! We have now been in the area long enough to have developed a few routines. It was great being able to share some parts of this new life with friends from Berlin. Nothing fancy, but heartwarming nonetheless: a lot of gardening, reading, outdoor climbing, village hopping, wine drinking, cheese, sandwiches and cheese-sandwiches eating.

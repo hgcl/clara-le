@@ -3,6 +3,7 @@ title: "Three years blogging"
 subtitle: "And apparently still going"
 date: "2023-11-26"
 tags: ["thought"]
+lang: "en"
 ---
 
 As I was browsing (a.k.a. overengineering) my website again, I realized that last Friday marked the three-year anniversary of my blogging adventure. On November 24, 2020[^1], I wrote my first update: [#3 Friends and digital gardening](/posts/3-friends-and-digital-gardening/).

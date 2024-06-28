@@ -3,6 +3,7 @@ title: "Data viz: Data visualization handbook"
 date: "2022-05-05"
 tags: ["miscellaneous"]
 sourceUrl: "https://www.datavizhandbook.com/"
+lang: "en"
 ---
 
 It's been a while <cite>Data visualization handbook</cite> by Juuso Koponen and Jonatan Hildén has been waiting on my book shelf. I started to go through it about a week ago and here are a few quotes that stayed with me.

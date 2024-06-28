@@ -2,7 +2,8 @@
 title: "Dans la cabane"
 subtitle: "Un exercise de poésie"
 date: "2023-06-16"
-tags: ["creative", "french"]
+tags: ["creative"]
+lang: "fr"
 ---
 
 Ça fait un moment que j'essaie de faire plus de projets créatifs. Il y a maintenant un an, j'étais tombée sur le Twitter de Kate Clanchy, une poète et enseignante anglaise. Elle a une approche à la poésie très vulgarisante, permettant à ses élèves de tout milieu de s'y mettre. J'ai commencé son livre <cite>How to grow a poem</cite> il y a quelques jours. Chaque chapitre est composé d'exercices très pratiques pour écrire différents poèmes.

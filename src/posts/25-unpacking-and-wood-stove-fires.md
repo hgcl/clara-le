@@ -3,6 +3,7 @@ title: "#25 Unpacking and wood stove fires"
 subtitle: "Update #25"
 date: "2023-02-04"
 tags: ["update"]
+lang: "en"
 ---
 
 <figure>

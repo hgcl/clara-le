@@ -3,6 +3,7 @@ title: "Nuages: Les bases"
 date: "2023-11-27"
 tags: ["miscellaneous"]
 sourceUrl: "https://www.youtube.com/watch?v=QytVOC1VVOM"
+lang: "fr"
 ---
 
 ### Qu'est-ce qu'un nuage ?

@@ -3,6 +3,7 @@ title: "City kids going cottagecore"
 subtitle: "Moving to the countryside"
 date: "2022-12-15"
 tags: ["thought"]
+lang: "en"
 ---
 
 So, Robin and I are moving to the countryside in France pretty soon. End of next month actually[^1]. The thing is that I am a city kid. Okay, sure, my hometown in Switzerland is really not that big. In all fairness, you could actually say that it's tiny (whooping population of 12,000+ people). _But_, it is still a town. It has public transports, libraries, grocery stores, fancy or dirt-cheap restaurants, all the conveniences of every day life.

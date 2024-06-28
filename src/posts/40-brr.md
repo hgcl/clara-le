@@ -3,6 +3,7 @@ title: "#40 Brr"
 subtitle: "Update #40"
 date: "2023-10-17"
 tags: ["update"]
+lang: "en"
 ---
 
 ## Winter is coming (brr)

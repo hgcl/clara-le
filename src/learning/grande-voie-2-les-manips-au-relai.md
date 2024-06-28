@@ -3,6 +3,7 @@ title: "Grande-voie: Les manips au relai"
 date: "2023-10-01"
 tags: ["climbing"]
 sourceUrl: "https://www.youtube.com/watch?v=Pm60skIwN4s"
+lang: "fr"
 ---
 
 ### Se sécuriser soi-même
