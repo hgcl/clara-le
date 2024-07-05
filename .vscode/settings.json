@@ -8,7 +8,5 @@
     "editor.wordWrapColumn": 100,
     "editor.wordWrap": "bounded"
   },
-  "nunjucksTemplate.preserveEmptyLine": 1,
-  // Language tool spell checker
-  "languageToolLinter.languageTool.motherTongue": "en-US"
+  "nunjucksTemplate.preserveEmptyLine": 1
 }
