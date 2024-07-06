@@ -28,4 +28,4 @@ Some words were included because they are too big, overused, overselling. Others
 - carbon neutral / offsets
 - sustainable growth
 
-(This list is still WIP.) Anyway. {end-key}
+(This list is still WIP.) Anyway. **ENDCHAR**

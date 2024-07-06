@@ -64,6 +64,6 @@ At first, this kitchen seemed small and unfamiliar. With time, I learned to use 
 
 I think I'll miss these broken pots and pan when we leave Hanoi. It's amazing how quickly a place can become home.
 
-Until then {end-key}
+Until then **ENDCHAR**
 
 [^1]: Disclaimer: Most of these dishes were heavily simplified from the original recipes, as we didn't want to buy too many ingredients.

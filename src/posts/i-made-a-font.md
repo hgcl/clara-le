@@ -77,4 +77,4 @@ Make sure you spend most of your time on the spacing before getting to kerning. 
 
 And that's it! It took me a day and a half to finish, even though I made the simplest font I could think of. I am really happy with the result, even though it doesn't produce the most legible body text — but who cares, I only use it for headings.
 
-Anyway. {end-key}
+Anyway. **ENDCHAR**

@@ -40,4 +40,4 @@ If you are still confused after reading the many wikis and articles, feel free t
 
 Another good link to have open on the side at all times is [IndieWebify.me](https://indiewebify.me/) that will give you a few starting tips and allow you to test some of your setups.
 
-Now that everything _seems_ to be technically viable, the question that remains is: "How do I really want to use these tools?" {end-key}
+Now that everything _seems_ to be technically viable, the question that remains is: "How do I really want to use these tools?" **ENDCHAR**

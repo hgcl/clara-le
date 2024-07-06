@@ -41,4 +41,4 @@ _Werewolf by night_ is a short-ish movie (53 minutes) that came out this year. I
 
 For my friend's Thanksgiving dinner, I prepared a green bean casserole — even though I had never tried one and didn't know what it was supposed to taste like.
 
-Reading through [the recipe](https://www.mccormick.com/frenchs/recipes/salads-sides/frenchs-green-bean-casserole), it looked simple enough and surprisingly close to... a green bean grâtin? I guess that might just be my French upbringing lense distortion, but the recipe felt a lot more approachable once I made this connection in my mind. I would definitely try to make more of these veggie-heavy casseroles / grâtins in the future! {end-key}
+Reading through [the recipe](https://www.mccormick.com/frenchs/recipes/salads-sides/frenchs-green-bean-casserole), it looked simple enough and surprisingly close to... a green bean grâtin? I guess that might just be my French upbringing lense distortion, but the recipe felt a lot more approachable once I made this connection in my mind. I would definitely try to make more of these veggie-heavy casseroles / grâtins in the future! **ENDCHAR**

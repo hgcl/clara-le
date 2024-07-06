@@ -23,4 +23,4 @@ Here are some highlights:
 
 ---
 
-We met several people on the way — always open, and friendly, often creative. From this short trip, I come back with the renewed motivation to make my own soap, knit something from A to Z, paint some more. Good thing that these are all winter-friendly activities. {end-key}
+We met several people on the way — always open, and friendly, often creative. From this short trip, I come back with the renewed motivation to make my own soap, knit something from A to Z, paint some more. Good thing that these are all winter-friendly activities. **ENDCHAR**

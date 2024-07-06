@@ -57,6 +57,6 @@ This weekend, I tried baking some banana bread, following [the recipe](/recipes/
 
 November last year, I gave into the Cyber Week craze and got a discounted version of the [D3.js & Firebase](https://www.udemy.com/course/build-data-uis-with-d3-firebase/) MOOC. For context, I knew almost nothing about JavaScript at that time and realized that the course was way above my level.
 
-I started the course this last week and now understand all of it without much difficulty. It is incredible to see how far I've come since the end of 2020. I am quite excited to finally learn more about creating dynamic and interactive data visualizations! {end-key}
+I started the course this last week and now understand all of it without much difficulty. It is incredible to see how far I've come since the end of 2020. I am quite excited to finally learn more about creating dynamic and interactive data visualizations! **ENDCHAR**
 
 [^1]: More about it in the [Read & Watched](#read-and-watched) section below.

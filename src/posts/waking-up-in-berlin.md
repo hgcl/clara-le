@@ -12,4 +12,4 @@ The last days were spent sorting four years of stuff, painting walls, and deep c
 
 These few morning hours (or minutes) awake will probably be the last we spend in Berlin as residents. So many memories, so many feelings — what a grand adventure it was!
 
-Next time I write will be from France. See you there! {end-key}
+Next time I write will be from France. See you there! **ENDCHAR**

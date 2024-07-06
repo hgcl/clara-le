@@ -12,4 +12,4 @@ It feels great to spend long stretches of time with friends and create a new sor
 
 However, the rhythm we are used to is also completely disrupted. We don't have as much time to talk or share the little things we usually do.
 
-After some time, it feels right to get back to our own little world. {end-key}
+After some time, it feels right to get back to our own little world. **ENDCHAR**

@@ -22,4 +22,4 @@ Between two tasks, we also found time to harvest our olives, harvest some more c
 
 When in Berlin, I stumbled upon a second-hand copy of one of my favorite books of all time: <cite><a href="https://openlibrary.org/works/OL17363125W/The_Fifth_Season">The Fifth Season</a></cite> by N. K. Jemisin. It is the first volume of the <cite>Broken Earth</cite> trilogy, a sci-fi / fantasy adventure with incredible world building, beautiful poetic writing, and an epic storyline. Bonus points: the three volumes won the Hugo Award _three years in a row_.
 
-For the last few days, I have been rereading the series — and yes, it is still as good. {end-key}
+For the last few days, I have been rereading the series — and yes, it is still as good. **ENDCHAR**

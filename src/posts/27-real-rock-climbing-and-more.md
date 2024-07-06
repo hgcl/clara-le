@@ -40,4 +40,4 @@ The second week after our arrival in France, we subscribed to the big library in
 
 <p class="label">By Marion Montaigne</p>
 
-In the same vibe as her other scientific vulgarization graphic novels, Montaigne does a great job explaining the astronaut life in <cite>Dans la combi de Thomas Pesquet</cite>. We quickly realize that being an astronaut is not as glamourous as we may think. Reading this book makes you feel like you are visiting the secret NASA backstage — worth it! {end-key}
+In the same vibe as her other scientific vulgarization graphic novels, Montaigne does a great job explaining the astronaut life in <cite>Dans la combi de Thomas Pesquet</cite>. We quickly realize that being an astronaut is not as glamourous as we may think. Reading this book makes you feel like you are visiting the secret NASA backstage — worth it! **ENDCHAR**

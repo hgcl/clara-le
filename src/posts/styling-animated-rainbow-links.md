@@ -51,7 +51,7 @@ a:focus {
 }
 ```
 
-{end-key}
+**ENDCHAR**
 
 [^1]: Please don't answer to that, this is a rhetorical question.
 [^2]: Accessibility note: If your links are not underlined, you have to make sure [they contrast enough with your body text](https://webaim.org/resources/linkcontrastchecker/).

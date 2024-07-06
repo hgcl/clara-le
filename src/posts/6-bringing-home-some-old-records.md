@@ -47,4 +47,4 @@ I currently use Foam and Obsidian for my Zettelkasten. They both work great on d
 >
 > — Brandon Toner on Twitter
 
-{end-key}
+**ENDCHAR**

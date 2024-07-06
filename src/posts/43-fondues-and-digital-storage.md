@@ -18,6 +18,6 @@ That third question made up our minds. We are going for a more low-tech approach
 
 2. Every few months, sort the pictures, only keeping a subselection. Upload everything on two separate hard drives (for backups).
 
-It's decided then, we'll leave for our trip with a clean Nextcloud instance, [phones taking good pictures](/posts/40-brr/) and a portable hard drive for backups. {end-key}
+It's decided then, we'll leave for our trip with a clean Nextcloud instance, [phones taking good pictures](/posts/40-brr/) and a portable hard drive for backups. **ENDCHAR**
 
 [^1]: We managed to eat three fondues in the past week, and that wasn't even planned — surprising, I know.

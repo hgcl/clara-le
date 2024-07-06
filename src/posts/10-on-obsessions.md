@@ -53,4 +53,4 @@ This website simulates the reading experience of a person with dyslexia. The let
 >
 > — Tatiana Mac
 
-{end-key}
+**ENDCHAR**

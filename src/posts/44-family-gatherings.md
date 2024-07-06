@@ -22,6 +22,6 @@ Third, we play games with passion. As far as I can remember, my cousins and I ha
 
 Finally, everything seems to be happening at the same time. One person will still be eating appetizers, as someone else is mixing main dishes, people stand up, change seats, ~shout~ talk across the table, put something in your plate because-it's-good-you-should-try-it, clear plates, bring desserts, pour drinks, start games.
 
-Yesterday gathering was no exception. I went to bed, ears ringing and eyes shining. Today, my eyes feel tired, but my belly, heart (and backpack) are full. {end-key}
+Yesterday gathering was no exception. I went to bed, ears ringing and eyes shining. Today, my eyes feel tired, but my belly, heart (and backpack) are full. **ENDCHAR**
 
 [^1]: To be specific, these breathtaking views can be seen along the _Walensee_ between Zurich and Buchs.

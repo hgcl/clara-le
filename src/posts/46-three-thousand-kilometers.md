@@ -27,6 +27,6 @@ Thankfully, we stumbled upon the [Caravanistan forum](https://caravanistan.com/f
 
 In a nutshell, this means that we can happily slow down our traveling pace. We'll try to stay longer in different locations, get a sense of the place and see if we want to go through faster or slower.
 
-The second half of this journey might be quite different from the first. Let's see what it brings. {end-key}
+The second half of this journey might be quite different from the first. Let's see what it brings. **ENDCHAR**
 
 [^1]: This stretch of traveling on land unfortunately stops here, as we will need to fly into Baku in a week. The land borders of Azerbaijan are all closed since COVID and show no sign of opening anytime soon.

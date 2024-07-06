@@ -47,7 +47,7 @@ The Movies page looks pretty much like the existing Books page. The difference? 
 
 ### To make a sourdough pizza
 
-Robin and I decided that this past week was going to be _Pizza Week_. We tried lots of good pizzas, made some pizza-related powerpoints and also learned to make our own with Andrew Janjigian's [sourdough recipe](https://wordloaf.substack.com/p/sourdough-thin-crust-pizza-dough)[^2]. The result was delicious but it could definitely be improved — even with our tiny microwave oven. {end-key}
+Robin and I decided that this past week was going to be _Pizza Week_. We tried lots of good pizzas, made some pizza-related powerpoints and also learned to make our own with Andrew Janjigian's [sourdough recipe](https://wordloaf.substack.com/p/sourdough-thin-crust-pizza-dough)[^2]. The result was delicious but it could definitely be improved — even with our tiny microwave oven. **ENDCHAR**
 
 [^1]: Like that night I couldn't sleep and coded until 1am.
 [^2]: Janjigian is one of these “cooking creators” who don't just give you a flat recipe — but also the story or science behind it. I just love these new cooking channels and blogs that go further than necessary.

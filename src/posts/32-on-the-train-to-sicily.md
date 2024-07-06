@@ -22,4 +22,4 @@ Wow, we actually just learned that the Etna just erupted less than an hour ago. 
 
 There is such a special atmosphere in the air: the grey cloudy sky, the dark opaque and ink-like sea, the fresh breeze. It feels a bit like the ominous start of an apocalyptic movie.
 
-Hopefully, we'll still be able to eat some good Sicilian food in that post-apocalytic story. {end-key}
+Hopefully, we'll still be able to eat some good Sicilian food in that post-apocalytic story. **ENDCHAR**

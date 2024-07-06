@@ -18,4 +18,4 @@ Currently, I spend most of my days:
 - exploring new recipes
 - doing small creative projects
 - learning Typescript
-- drinking wine with France {end-key}
+- drinking wine with France **ENDCHAR**

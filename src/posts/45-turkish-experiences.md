@@ -22,7 +22,7 @@ When we were in Ankara, we watched <cite>Love, Deutschmarks and Death (2022)</ci
 
 We also watched a couple other Turkish movies (in buses, while on the road). I love how it adds context and depth to the experience here. I am learning new words, new non-verbal cues and social interactions.
 
-I will definitely continue doing so whenever possible — preferably during a long bus ride of 8 hours. {end-key}
+I will definitely continue doing so whenever possible — preferably during a long bus ride of 8 hours. **ENDCHAR**
 
 [^1]: Btw, we keep a [daily log](https://eaudepoisson.com/routes-de-la-soie/) on our travel blog (in French).
 [^2]: It's kind of complicated, but we basically have a plane that we can't miss then.
