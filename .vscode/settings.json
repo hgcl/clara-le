@@ -1,12 +1,14 @@
 {
-  // Nunjucks extension https://github.com/eseom/nunjucks-template
+  // Nunjucks
+  "html.suggest.html5": true,
+  "emmet.includeLanguages": {
+    "njk": "html"
+  },
   "files.associations": {
-    "*.html": "njk"
+    "*.njk": "njk"
   },
   "[njk]": {
-    "editor.defaultFormatter": "eseom.nunjucks-template",
     "editor.wordWrapColumn": 100,
     "editor.wordWrap": "bounded"
-  },
-  "nunjucksTemplate.preserveEmptyLine": 1
+  }
 }
