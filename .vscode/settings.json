@@ -1,12 +1,12 @@
 {
   // Nunjucks
-  "html.suggest.html5": true,
+  "files.associations": {
+    "*.html": "njk"
+  },
   "emmet.includeLanguages": {
     "njk": "html"
   },
-  "files.associations": {
-    "*.njk": "njk"
-  },
+  "nunjucksTemplate.preserveEmptyLine": 1,
   "[njk]": {
     "editor.wordWrapColumn": 100,
     "editor.wordWrap": "bounded"
