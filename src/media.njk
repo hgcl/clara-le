@@ -18,7 +18,6 @@ icon: /public/img/meta/drawing-camera.svg
     #media li {
       position: relative;
       margin-bottom: 1rem;
-      width: 100%; /* makes sure that rows stack vertically only */
     }
     #media li a {
       height: 100%;
@@ -49,6 +48,7 @@ icon: /public/img/meta/drawing-camera.svg
       display: block;
     }
     #media li > a img {
+      ;
       height: 100%;
       min-width: 100%;
       object-fit: cover;
@@ -60,10 +60,7 @@ icon: /public/img/meta/drawing-camera.svg
       margin-top: 0.25rem;
     }
     #media li .label .author {
-      width: 210px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      display: none;
     }
   </style>
   <style media="only screen and (min-width: 768px)">
@@ -72,11 +69,14 @@ icon: /public/img/meta/drawing-camera.svg
       grid-row-gap: var(--space-5xl);
       grid-column-gap: var(--space-xl);
     }
-  }
+    #media li .label .author {
+      display: unset;
+    }
   </style>
 {% endblock %}
 
 {% block article %}
+
   <section id="media">
     {% include 'post-header.njk' %}
     <p class="intro center">
@@ -94,24 +94,26 @@ icon: /public/img/meta/drawing-camera.svg
           <li data-tag="{{ post.data.tags }}" class="card">
             <a class="card-link" href="{{ post.url }}">
               <div>
-                <img loading="lazy" alt="" src="{{ post.data.cover }}"></div>
-                <span class="post-title">{{ post.data.title }}</span>
-              </a>
-              <div class="label divide-list">
-                <span class="author">{{ post.data.author[0] }}
-                  {% if post.data.author.length > 1 %}
-                    & co{% endif %}
-                </span>
-                <span>{{ post.data.tags | filterTags }}</span>
-                <span>{{ post.data.year }}</span>
+                <img loading="lazy" alt="" src="{{ post.data.cover }}"/>
               </div>
-            </li>
-          {% endfor %}
-        </ul>
-      {% endfor %}
-    </section>
-  {% endblock %}
+              <span class="post-title">{{ post.data.title }}</span>
+            </a>
+            <div class="label divide-list">
+              <span class="author">{{ post.data.author[0] }}
+                {% if post.data.author.length > 1 %}
+                  & co{% endif %}
+              </span>
+              <span>{{ post.data.tags | filterTags }}</span>
+              <span>{{ post.data.year }}</span>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
 
-  {% block script %}
-    {% include 'filter-notes-script.njk' %}
-  {% endblock %}
+{% endblock %}
+
+{% block script %}
+  {% include 'filter-notes-script.njk' %}
+{% endblock %}

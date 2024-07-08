@@ -242,6 +242,7 @@ dialog .close-button {
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
+  text-align: center; /* ensures that centered in mobile as well */
 }
 
 /* TYPOGRAPHY & CONTENT FLOW */
