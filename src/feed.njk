@@ -1,7 +1,9 @@
--- -json {
-  "permalink" : "feed.xml",
-  "eleventyExcludeFromCollections" : true,
-  "metadata" : {
+/* prettier-ignore */
+---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
     "title": "Clara Le",
     "subtitle": "Clara's ramblings",
     "language": "en",
@@ -12,79 +14,28 @@
     }
   }
 }
--- - <?xml version="1.0" encoding="utf-8"?>
+---
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.url }}" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> {
-      {
-        metadata.title
-      }
-    }</title>
-    <link> {
-      {
-        metadata.url
-      }
-    }</link>
-    <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml"/>
-    <description> {
-      {
-        metadata.subtitle
-      }
-    }</description>
-    {
-    % set sortedPostList = collections.posts | reverse %
-  }
-    <lastBuildDate> {
-      {
-        sortedPostList [0].date | dateToRfc822
-      }
-    }</lastBuildDate>
+    <title>{{ metadata.title }}</title>
+    <link>{{ metadata.url }}</link>
+    <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
+    <description>{{ metadata.subtitle }}</description>
+    {% set sortedPostList = collections.posts | reverse %}
+    <lastBuildDate>{{ sortedPostList[0].date | dateToRfc822 }}</lastBuildDate>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <generator>https://github.com/11ty/eleventy-plugin-rss</generator>
-    <language> {
-      {
-        metadata.language
-      }
-    }</language>
-    {
-    % -for post in sortedPostList.slice(0, 20) %
-  }
-    {
-    % -set absolutePostUrl = post.url | absoluteUrl(metadata.url) %
-  }
+    <language>{{ metadata.language }}</language>
+    {%- for post in sortedPostList.slice(0,20) %} {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <item>
-      <title> {
-        {
-          post.data.title
-        }
-      }</title>
-      <link> {
-        {
-          absolutePostUrl
-        }
-      }</link>
-      <description> {
-        {
-          post.templateContent | replace("--ENDCHAR--", "⊙") | htmlToAbsoluteUrls(absolutePostUrl)
-        }
-      }</description>
-      <pubDate> {
-        {
-          post.date | dateToRfc822
-        }
-      }</pubDate>
-      <dc:creator> {
-        {
-          metadata.author.name
-        }
-      }</dc:creator>
-      <guid> {
-        {
-          absolutePostUrl
-        }
-      }</guid>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <description>{{ post.templateContent | replace("--ENDCHAR--","⊙") | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <dc:creator>{{ metadata.author.name }}</dc:creator>
+      <guid>{{ absolutePostUrl }}</guid>
     </item>
-    {
-    % -endfor %
-  } </channel>
+    {%- endfor %}
+  </channel>
 </rss>
