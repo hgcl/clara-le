@@ -17,4 +17,4 @@ Below is an unordered list of newly discovered websites that I liked for one rea
 - [tommi.space](https://tommi.space/)
 - [kandr3s.co](https://kandr3s.co/)
 - [www.zinzy.website](https://www.zinzy.website/)
-- [prtksxna.com](https://prtksxna.com/) **ENDCHAR**
+- [prtksxna.com](https://prtksxna.com/) --ENDCHAR--

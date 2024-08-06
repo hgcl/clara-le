@@ -10,4 +10,4 @@ _Directed by Jim Jarmusch_
 
 Not so much about the prison and crimes, than the encounter of three very different men that become friends.
 
-Rating: 4/5 **ENDCHAR**
+Rating: 4/5 --ENDCHAR--

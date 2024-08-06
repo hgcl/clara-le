@@ -10,4 +10,4 @@ _Directed by Patty Jenkins_
 
 Needed to close my eyes from time to time because it was just too cheesy to witness. Entertaining anyway.
 
-Rating: 2.5/5 **ENDCHAR**
+Rating: 2.5/5 --ENDCHAR--

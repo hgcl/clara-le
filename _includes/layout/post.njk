@@ -61,7 +61,8 @@
         padding-left: 2rem;
       }
     </style>
-    <style media="all and (min-width: 768px)">
+    <style>
+      media="all and (min-width: 768px)"
       /* Give more space to H1 when font-size becomes bigger */
       .post-header h1 {
         margin: 0 -3rem;
@@ -74,9 +75,8 @@
   {# TODO add article tag and e-content in a reusable wrapper, macro? #}
   {# h-entry, e-content are microformats. Don't use for styling! #}
   {# Microformats docs: https://microformats.org/wiki/h-entry #}
-  <article class="center h-entry">
-    {% include 'post-header.njk' %}
-    <div class="e-content">{{ content | safe | replace("__ENDCHAR__", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
+    <article class="center h-entry"> {% include 'post-header.njk' %}
+    <div class="e-content">{{ content | safe | replace("--ENDCHAR--", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
   </article>
   {% if (directory === "posts") and (title !== "Now") %}
     {% include 'comment-form.njk' %}
@@ -97,9 +97,7 @@
         // Get footnote element (li element) + set class sidenote
         const footnoteEl = document.getElementById(footnoteId);
         // Get the reference sup element top position
-        const supEl = document
-          .getElementById(refId)
-          .parentNode;
+        const supEl = document.getElementById(refId).parentNode;
         const topPos = supEl.offsetTop;
         // Vertically position footnote
         footnoteEl.style.top = topPos + "px";

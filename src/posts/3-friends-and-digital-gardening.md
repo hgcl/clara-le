@@ -33,4 +33,4 @@ It is also true the other way around. I am usually quite reserved, but feel like
 
 Middle of the week, I did it. I completely resetted my digital garden. I had first started it without much of a system. It rapidly got out of hands and began to feel chaotic and a bit overwhelming — far from the thinking-buddy-second-brain-thingy I had imagined.
 
-I started it again following [The Zettelkasten Method: Examples to help you get started](https://medium.com/@rebeccawilliams9941/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6) by Rebecca Williams to the letter. It felt great to work on a blank slate with a clear system in mind, knowing where I was headed. **ENDCHAR**
+I started it again following [The Zettelkasten Method: Examples to help you get started](https://medium.com/@rebeccawilliams9941/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6) by Rebecca Williams to the letter. It felt great to work on a blank slate with a clear system in mind, knowing where I was headed. --ENDCHAR--

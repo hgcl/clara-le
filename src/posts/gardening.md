@@ -18,4 +18,4 @@ Currently, I am trying to not focus so much on the tool and its features, but on
 
 So far, I try to not over-engineer it and not censor myself too much. No back-linking, predefined categories, or other "must-have" fancy features. I want to — will — build a solid habit first and add on top of it later.
 
-Anyway. **ENDCHAR**
+Anyway. --ENDCHAR--

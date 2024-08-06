@@ -29,4 +29,4 @@ Last week, we tried our first multi-pitch climbing ([Alien vs Predators](https:/
 
 Multi-pitch climbing adds a thick layer of new techniques to "regular" sport climbing. Suddenly, you have to be extremely organized with how you manage your rope and tools to make it to the top (and back to the bottom). It is not that much about performance climbing anymore, but more about planning and technicalities.
 
-I love how rich the world of climbing is and how far you can potentially go, if you are motivated enough. Let's see how far we'll dare to go. **ENDCHAR**
+I love how rich the world of climbing is and how far you can potentially go, if you are motivated enough. Let's see how far we'll dare to go. --ENDCHAR--

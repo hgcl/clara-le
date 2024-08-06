@@ -41,4 +41,4 @@ Biang Biang noodles come from the Shaanxi province in China. They are deliciousl
 
 After the noodles, we needed a dessert. A friend had recommended [this recipe](/recipes/pasteis-de-nata) to me by _Babish Culinary Universe_. I like how he goes through the extra effort of making the [laminated dough](https://en.wikipedia.org/wiki/Laminated_dough) — just learned that English word — from scratch.
 
-The result was much better than I had expected. It was maybe slightly too sweet for me (and let's not even talk about how my microwave-oven stops at 230&nbsp;°C only). **ENDCHAR**
+The result was much better than I had expected. It was maybe slightly too sweet for me (and let's not even talk about how my microwave-oven stops at 230&nbsp;°C only). --ENDCHAR--

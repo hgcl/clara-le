@@ -64,7 +64,7 @@ I didn't really want the full reCAPTCHA shenanigan. This is an MVP, so I just we
 
 All in all, I now have a working (_fingers crossed_) comment feature. It is still quite minimal, not allowing for replies or notifications.[^4] If you notice anything breaking, please let me know!
 
-Until then **ENDCHAR**
+Until then --ENDCHAR--
 
 [^1]: (1) Being constantly on the move, and (2) my laptop being unusable for a few months.
 [^2]: (1) It is not actively maintained anymore, but still working for many. (2) It seems overcomplicated / resource intensive for something that could be done with Cloudflare workers. The problem is I need to learn how to use these first.

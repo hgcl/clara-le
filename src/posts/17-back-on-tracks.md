@@ -42,4 +42,4 @@ A few weeks ago, we invited over some Italian friends for a wine-tasting and car
 
 ### To lead-climb
 
-Last weekend, Robin and I completed our lead climbing course at _Magic Mountain_. It is actually not that complicated, but we did learn a number of safety habits that we'll need to integrate in the long term. The weight difference between Robin and I (about 40 kg) was also totally fine, as we learned to use the Ohm that was made for this specific reason. We'll go back to lead climbing by ourselves on Monday to keep practicing. **ENDCHAR**
+Last weekend, Robin and I completed our lead climbing course at _Magic Mountain_. It is actually not that complicated, but we did learn a number of safety habits that we'll need to integrate in the long term. The weight difference between Robin and I (about 40 kg) was also totally fine, as we learned to use the Ohm that was made for this specific reason. We'll go back to lead climbing by ourselves on Monday to keep practicing. --ENDCHAR--

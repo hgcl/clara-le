@@ -20,4 +20,4 @@ Travel burnout seems to be a thing. Everyone has their own threshold. For us, it
 
 During this parenthesis, I'd love to take the time to process the last hectic months, look back on the places and experiences we have been through. Documenting it on [eaudepoisson.com](https://eaudepoisson.com/) (for memories) and maybe even creating a small analog zine out of it (for fun!). Of course, there will also be plenty of planning and decision-making for the rest of the journey. But let's not get ahead of ourselves.
 
-Until then **ENDCHAR**
+Until then --ENDCHAR--

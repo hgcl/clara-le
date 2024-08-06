@@ -25,6 +25,6 @@ As the weather is getting better, we are doing more and more sporty outdoorsy ac
 
 ### Gardening
 
-Robin did a lot of gardening work these last few weeks —  and I helped him here and there. I can already see that he is going to be the gardening-person out of us two. I do like it, but prefer the cooking-and-eating-the-veggies part. So far, we have a few strawberry and arugula plants on our terrace, six zucchini plants in the lower garden, 12 salads in the greenhouse. There are some more plants in France's garden that we are helping with as well. **ENDCHAR**
+Robin did a lot of gardening work these last few weeks —  and I helped him here and there. I can already see that he is going to be the gardening-person out of us two. I do like it, but prefer the cooking-and-eating-the-veggies part. So far, we have a few strawberry and arugula plants on our terrace, six zucchini plants in the lower garden, 12 salads in the greenhouse. There are some more plants in France's garden that we are helping with as well. --ENDCHAR--
 
 [^3]: Basically, you just need to use granola ingredients.

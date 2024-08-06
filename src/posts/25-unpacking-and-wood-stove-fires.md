@@ -64,6 +64,6 @@ I haven't had time to find a practical use for this tool yet. But well, I am a s
 
 ### That you can use ashes to clean stuff
 
-As explained above, we need to heat our main living room with a stove. This means that we produce a lot of ashes. Robin's grandma — France — usually uses it for the garden. However, we now have too much of it and need to find other uses. Well, lucky us, ashes can be used — a bit like baking soda — to do practically anything! Some of these uses include: cleaning anything kitchen-related (an oven, a pot, a kitchen plate), making washing liquid, repelling insects.[^2] **ENDCHAR**
+As explained above, we need to heat our main living room with a stove. This means that we produce a lot of ashes. Robin's grandma — France — usually uses it for the garden. However, we now have too much of it and need to find other uses. Well, lucky us, ashes can be used — a bit like baking soda — to do practically anything! Some of these uses include: cleaning anything kitchen-related (an oven, a pot, a kitchen plate), making washing liquid, repelling insects.[^2] --ENDCHAR--
 
 [^2]: [Source (in French)](https://www.toutpratique.com/248-nettoyant-naturel/6666-quoi-faire-avec-les-cendres-de-la-cheminee-30-astuces-avec-la-cendre-de-bois.php)

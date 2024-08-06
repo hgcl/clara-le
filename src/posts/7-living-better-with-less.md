@@ -61,4 +61,4 @@ If you have enough of small-talk leading nowhere, this web-app is made for you. 
 >
 > — Stephen M.R. Covey
 
-**ENDCHAR**
+--ENDCHAR--

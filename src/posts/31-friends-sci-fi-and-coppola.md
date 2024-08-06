@@ -50,4 +50,4 @@ We also gathered some elderflowers from the garden. I tried to make an elderflow
 
 ## T(W)IL
 
-I started to follow the [Typescript course by the codecademy](https://www.codecademy.com/learn/learn-typescript). I feel like I have reached a comfortable level in JavaScript — at least, comfortable for what I usually need to do with it. Hopefully, this course will help me feel a little bit less lost when needing to read some Typescript files. I'm also entertaining the idea of migrating my website to Typescript for practice. (Well, now that I've written that sentence, I will do it for certain.) **ENDCHAR**
+I started to follow the [Typescript course by the codecademy](https://www.codecademy.com/learn/learn-typescript). I feel like I have reached a comfortable level in JavaScript — at least, comfortable for what I usually need to do with it. Hopefully, this course will help me feel a little bit less lost when needing to read some Typescript files. I'm also entertaining the idea of migrating my website to Typescript for practice. (Well, now that I've written that sentence, I will do it for certain.) --ENDCHAR--

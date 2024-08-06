@@ -44,4 +44,4 @@ I love this abundance. Having too much of these fruits and veggies lead me to di
 
 Otherwise, I'm thinking of redesigning my website (once again). I am getting bored of this minimalist black and white style. And — let's be honest — I just want to redesign it because it's fun.
 
-Until next time! **ENDCHAR**
+Until next time! --ENDCHAR--

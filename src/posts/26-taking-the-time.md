@@ -26,4 +26,4 @@ Surprise, surprise: we started bouldering again by joining a local club. It was 
 
 One last big change is that I have been spending my free time much more offline. It is quite invigorating to step away from the online world a bit.
 
-On that note, I'll keep this weeknote short and stop it here. **ENDCHAR**
+On that note, I'll keep this weeknote short and stop it here. --ENDCHAR--

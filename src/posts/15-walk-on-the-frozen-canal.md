@@ -49,4 +49,4 @@ I have just started his book <cite>The Power of Ritual</cite>. In it, Casper exp
 
 ### To use D3.js with React
 
-This last week, I tried to integrate what I first learned of D3.js with React. Here is the [example of a treemap](/playground/react-d3-movie-genres) I created using my movies data. Each box represents a movie genre. It is obviously still a work in progress, but I am already quite pleased with the first results. **ENDCHAR**
+This last week, I tried to integrate what I first learned of D3.js with React. Here is the [example of a treemap](/playground/react-d3-movie-genres) I created using my movies data. Each box represents a movie genre. It is obviously still a work in progress, but I am already quite pleased with the first results. --ENDCHAR--

@@ -10,4 +10,4 @@ _Directed by Sebastian Schipper_
 
 Tensed film, irritating main character. The "amateur camera" style literally gave me a headache.
 
-Rating: 3.5/5 **ENDCHAR**
+Rating: 3.5/5 --ENDCHAR--

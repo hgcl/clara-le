@@ -52,6 +52,6 @@ Yesterday, we went to one of our favorite coffee shops in Berlin. We usually go 
 
 Even though Robin is a big chess fan, I am quite reluctant to play with him. On one hand because I don't like to lose[^3], and on the other hand because I just feel lost most of the time.
 
-For once, I agreed to play a game with him (and did feel a bit crappy losing badly at the end). However, as we went back home and played some more on [lichess.org](https://lichess.org/), I started to enjoy the puzzles, post-game analysis and trainings available on the platform. Losing hard still leave me quite sore. But seeing it more like a competition with my own abilities (a.k.a. my chess rating), rather than a competitive game against another player, makes me feel much better and excited about the whole thing. **ENDCHAR**
+For once, I agreed to play a game with him (and did feel a bit crappy losing badly at the end). However, as we went back home and played some more on [lichess.org](https://lichess.org/), I started to enjoy the puzzles, post-game analysis and trainings available on the platform. Losing hard still leave me quite sore. But seeing it more like a competition with my own abilities (a.k.a. my chess rating), rather than a competitive game against another player, makes me feel much better and excited about the whole thing. --ENDCHAR--
 
 [^3]: One on one competitive games often make me feel crappy if I am losing or even winning too much.

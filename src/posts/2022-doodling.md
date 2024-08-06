@@ -24,4 +24,4 @@ In any case, here are already a few experimental drawings.
 
 ![Minimalist side portrait of a woman](/public/img/20221229-woman.webp)
 
-**ENDCHAR**
+--ENDCHAR--

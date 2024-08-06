@@ -23,7 +23,7 @@ Another thing I am bringing back home is inspiration from people I've met and th
 
 Even though we will only be home in a few days[^2], it already feels like the end of a vacation. I am both anxious and excited to be back in our little Ardèche corner.
 
-I am looking forward to seeing friends, climbing, cooking, and gardening again. I am however a bit anxious about being jobless _for real_ and having days full of _nothing planned_ for the first time in years. In the end, I guess it all comes down to taking responsibility for how I choose to spend my days and how I live my life.[^3] **ENDCHAR**
+I am looking forward to seeing friends, climbing, cooking, and gardening again. I am however a bit anxious about being jobless _for real_ and having days full of _nothing planned_ for the first time in years. In the end, I guess it all comes down to taking responsibility for how I choose to spend my days and how I live my life.[^3] --ENDCHAR--
 
 [^1]: alcoholic ones, that is
 [^2]: We are crossing Sardinia to get a ferry to France in three days.

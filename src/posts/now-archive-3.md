@@ -13,4 +13,4 @@ My routine mostly consists of bouldering a few times a week, meeting with friend
 A few current side-projects:
 
 - Nurturing my planner shop _[Life Under Control](https://www.etsy.com/shop/LifeUnderControl/)_
-- Building my website from scratch — yes, _again_ — with [brut](https://github.com/robinmetral/brut/) **ENDCHAR**
+- Building my website from scratch — yes, _again_ — with [brut](https://github.com/robinmetral/brut/) --ENDCHAR--
