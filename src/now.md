@@ -1,14 +1,18 @@
 ---
 layout: "layout/post.njk"
 title: "Now"
-subtitle: "Chilling mode"
-date: "2024-04-30"
+subtitle: "Probably in a coffee shop"
+date: "2024-08-16"
 tags: ["now"]
 icon: /public/img/meta/drawing-location.svg
 directory: "posts"
 ---
 
-Robin and I are on a slow journey, having traveled from Europe to Asia overland. We are now taking a break in Hanoi (Vietnam), drinking cà phê muối and bia hơi, eating at street food stalls, becoming regulars in a local gym, practicing Vietnamese, catching up with blog posts for [Eau de poisson](https://eaudepoisson.com/), working on side projects. --ENDCHAR--
+Robin and I are on a slow journey, having traveled from Europe to Asia overland.
+
+We are now exploring Malaysia through diverse Workaways and long quiet stays, two weeks at a time. We spend a lot of time in coffee shops, fleeing the heat and working on a big restructuring of our travel blog ([Eau de poisson](https://eaudepoisson.com/)).
+
+Being slightly food-obsessed, we are happily discovering new dishes on a daily basis! With its Malay, Indian and Chinese communities, Malaysia's rich food scene is good to us. Favorites of the moment: roti canai, char kway teow, nasi kerabu kelantan, kuih seri muka. --ENDCHAR--
 
 ---
 
@@ -16,6 +20,7 @@ This is a [Now page](https://nownownow.com/). I update mine every few months wit
 
 ## Archive
 
+- [April 30, 2024](/posts/now-archive-10/)
 - [November 17, 2023](/posts/now-archive-9/)
 - [July 12, 2023](/posts/now-archive-8/)
 - [May 17, 2023](/posts/now-archive-7/)
