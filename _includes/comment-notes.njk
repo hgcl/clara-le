@@ -5,7 +5,7 @@
     {% if key == page.fileSlug %}
       <h2>Comments</h2>
       {% for filename, entry in entries | dictsort | reverse %}
-        {% if entry._parent == "" %}
+        {% if entry._parent|length == 0 %}
           <article id="{{ entry._id }}">
             <span class="label divide-list">
               <span>{{ entry.name }}</span>
