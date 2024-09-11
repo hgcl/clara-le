@@ -61,12 +61,14 @@ I am reigning in my impatience and postponing these experiments to later. In the
 
 ## Malaysia
 
-- Laksa: noodle soup with curry and fish
-- Tea-based gelato: not my first tea-based ice cream, but Malays take it to another level (Matcha, Hojicha, Earl Grey, and many more!)
+- Laksa: sour noodle soup with curry and fish, never have I tasted a soup that is as _bold_ as laksa
+- Tea-based gelato: not my first tea-based ice cream, but they take it here to another level (Matcha, Hojicha, Earl Grey, and many more!)
 - Ayam masak merah: "red-cooked chicken", chicken braised in a sweet and spicy tomato sauce (amazing with cheese naan)
+- Roti canai: this might be one of my favorite breakfasts in Malaysia, I love the chewiness of the bread and how it perfectly combines with a dal soup
+- Kuih bingka ubi: I love these small bite-sized desserts, the bingka ubi version (baked tapioca with coconut milk) is by far my favorite, perfect with tea
 
 ## Thailand
 
 - Tom kha gai: spicy, sour, coconuty hot soup (and so easy to make if you get the ingredients!)
 
---ENDCHAR--
+_To be continued..._ --ENDCHAR--
