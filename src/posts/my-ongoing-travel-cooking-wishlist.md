@@ -13,7 +13,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 ## Türkiye
 
 - Ayran: cold savory yogurt-based beverage
-- Barbunya: beans in tomato sauce (love the version with a lot of tomato paste for a richer result)
+- Kuru fasulye: beans in tomato sauce (love the version with a lot of tomato paste for a richer result)
 - Çig köfte: fresh bulgur-based wrap, great for summer
 
 ## Georgia
@@ -61,6 +61,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 
 ## Malaysia
 
+- Sambal: a chili-based sauce that can be more or less hot/sour/sweet (great to accompany rice or meat)
 - Laksa: sour noodle soup with curry and fish, never have I tasted a soup that is as _bold_ as laksa
 - Tea-based gelato: not my first tea-based ice cream, but they take it here to another level (Matcha, Hojicha, Earl Grey, and many more!)
 - Ayam masak merah: "red-cooked chicken", chicken braised in a sweet and spicy tomato sauce (amazing with cheese naan)
