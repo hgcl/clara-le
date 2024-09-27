@@ -42,7 +42,6 @@ eleventyComputed:
       position: sticky;
       top: 0;
     }
-  }
   </style>
 {% endblock %}
 
@@ -86,11 +85,13 @@ eleventyComputed:
             {% endfor %}
           </ol>
         {% endfor %}
+        {% if recipe.sourceUrl %}
         <p class="subtle">
           <em>Adapted from this
             <a href="{{ recipe.sourceUrl }}">original recipe</a>
           </em>
         </p>
+        {% endif %}
       </section>
     </div>
   </article>
