@@ -79,7 +79,7 @@
     <div class="e-content">{{ content | safe | replace("--ENDCHAR--", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
   </article>
   {% if (directory === "posts") and (title !== "Now") %}
-    {% include 'comment-form.njk' %}
+    {% include 'comment-form-disable.njk' %}
     {% include 'comment-notes.njk' %}
   {% endif %}
 {% endblock %}
@@ -105,7 +105,4 @@
       }
     };
   </script>
-  {% if (directory === "posts") and (title !== "Now") %}
-    {% include 'comment-script.njk' %}
-  {% endif %}
 {% endblock %}
