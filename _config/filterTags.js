@@ -5,7 +5,6 @@ module.exports = function (eleventyConfig) {
     const wordsRemoved = [
       "posts",
       "media",
-      "learning",
       "fall",
       "summer",
       "winter",
