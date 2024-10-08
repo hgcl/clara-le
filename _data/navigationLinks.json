@@ -6,7 +6,6 @@
   { "title": "Recipes", "url": "/recipes/", "show": true },
   { "title": "Media", "url": "/media/", "show": true },
   { "title": "Blogroll", "url": "/blogroll/", "show": true },
-  { "title": "Learning", "url": "/learning/", "show": false },
   { "title": "Uses", "url": "/uses/", "show": false },
   { "title": "Colophon", "url": "/colophon/", "show": false }
 ]

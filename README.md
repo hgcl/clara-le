@@ -25,7 +25,6 @@ Nav-related:
 - `src/blogroll.njk`: paginates data in `_data/blogrollData.js` as one final page
 - `src/colophon.njk`
 - `src/index.njk`: homepage
-- `src/learning.njk`: shows all learning posts as one final page
 - `src/media.njk`
 - `src/now.njk`
 - `src/posts.njk`
@@ -40,7 +39,6 @@ Other special cases:
 
 ### Subdirectories of `src`
 
-- `src/learning`: includes all learning posts that make up `clarale.com/learning/`
 - `src/media`: includes all media posts that are linked in `clarale.com/media/`
 - `src/posts`: includes all blog posts that are linked in `clarale.com/posts/`
 - `src/recipes`: includes all recipe posts that are linked in `clarale.com/recipes/`. The original files are in JSON. They are read by `_data/recipeData.js` and paginated through the `src/recipes/recipe-layout.njk` template.

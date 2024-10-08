@@ -13,14 +13,6 @@ permalink: search.json
     "text" : "{{ (item.data.title + " " + item.data.subtitle + " " + item.templateContent) | squash | trim }}"
   },
 {% endfor %}
-{% for item in collections.learning %}
-  {
-    "url" : "{{ item.url }}",
-    "title" : "{{ item.data.title }}",
-    "directory" : "{{ item.data.directory }}",
-    "text" : "{{ (item.data.title + " " + item.templateContent) | squash | trim }}"
-  },
-{% endfor %}
 {% for item in collections.media %}
   {
     "url" : "{{ item.url }}",
