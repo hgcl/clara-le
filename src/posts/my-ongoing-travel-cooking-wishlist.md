@@ -71,5 +71,8 @@ I am reigning in my impatience and postponing these experiments to later. In the
 ## Thailand
 
 - Tom kha gai: spicy, sour, coconuty hot soup (and so easy to make if you get the ingredients!)
+- Bua loi: dessert of rice flour rolled into chewy small balls and cooked in sweet coconut milk, add some coconut ice cream for a great cold/hot contrast
+- Perfect sunny-side-up egg: separate the white from the yolk, cook the white first and add the yolk close to the end (greatest egg ever)
+- Laab: minced meat salad, love the Isan version that is more sour
 
 _To be continued..._ --ENDCHAR--
