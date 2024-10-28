@@ -2,7 +2,7 @@
 title: "Coco"
 author: ["Lee Unkrich"]
 cover: "https://www.themoviedb.org/t/p/w1280/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg"
-date: "2020-01-01"
+date: "2021-01-01"
 tags: ["movie"]
 year: "2017"
 ---
