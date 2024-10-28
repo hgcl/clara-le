@@ -1,7 +1,7 @@
 ---
 title: "Nimona"
 author: ["Nick Bruno", "Troy Quane"]
-cover: "https://image.tmdb.org/t/p/w1280/2NQljeavtfl22207D1kxLpa4LS3.jpg"
+cover: "nimona.webp"
 date: "2024-05-27"
 tags: ["movie"]
 year: "2023"

@@ -1,7 +1,7 @@
 ---
 title: "Django Unchained"
 author: ["Quentin Tarantino"]
-cover: "https://image.tmdb.org/t/p/w1280/mgp4F0jQfixmgQtrn7QfrswRZK4.jpg"
+cover: "django-unchained.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2012"

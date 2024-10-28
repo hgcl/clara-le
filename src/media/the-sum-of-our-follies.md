@@ -1,7 +1,7 @@
 ---
 title: "The Sum of Our Follies"
 author: ["Shih-Li Kow"]
-cover: "xxx"
+cover: "the-sum-of-our-follies.webp"
 date: "2024-10-10"
 tags: ["book"]
 year: "2014"

@@ -1,7 +1,7 @@
 ---
 title: "Soul"
 author: ["Pete Docter"]
-cover: "https://image.tmdb.org/t/p/w1280/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
+cover: "soul.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2020"

@@ -1,7 +1,7 @@
 ---
 title: "La La Land"
 author: ["Damien Chazelle"]
-cover: "https://image.tmdb.org/t/p/w1280/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+cover: "la-la-land.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2016"

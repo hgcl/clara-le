@@ -1,7 +1,7 @@
 ---
 title: "Subaru series"
 author: ["Masahito Soda"]
-cover: "https://covers.openlibrary.org/b/id/10971827-L.jpg"
+cover: "subaru.webp"
 date: "2021-01-01"
 tags: ["book"]
 year: "2006"

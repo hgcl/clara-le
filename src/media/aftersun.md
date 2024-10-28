@@ -1,7 +1,7 @@
 ---
 title: "Aftersun"
 author: "Charlotte Wells"
-cover: "https://image.tmdb.org/t/p/w1280/jeXmhP2zbUkREMRqFOYIwQOk49T.jpg"
+cover: "aftersun.webp"
 date: "2022-12-01"
 tags: ["movie"]
 year: "2022"

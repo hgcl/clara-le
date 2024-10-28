@@ -1,7 +1,7 @@
 ---
 title: "The Omnivore's Dilemma"
 author: ["Michael Pollan"]
-cover: "https://covers.openlibrary.org/b/id/8596711-L.jpg"
+cover: "the-omnivores-dilemma.webp"
 date: "2021-01-01"
 tags: ["book"]
 year: "2006"

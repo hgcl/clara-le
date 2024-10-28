@@ -1,7 +1,7 @@
 ---
 title: "Triangle of Sadness"
 author: ["Ruben Östlund"]
-cover: "https://image.tmdb.org/t/p/w1280/k9eLozCgCed5FGTSdHu0bBElAV8.jpg"
+cover: "triangle-of-sadness.webp"
 date: "2022-12-01"
 tags: ["movie"]
 year: "2022"

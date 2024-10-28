@@ -1,7 +1,7 @@
 ---
 title: "Reservation Dogs"
 author: ["Taika Waititi", "Sterlin Harjo"]
-cover: "https://image.tmdb.org/t/p/w1280/ApzExFmLWANlp0BJUHmtDZRKyCA.jpg"
+cover: "reservation-dogs.webp"
 date: "2022-12-01"
 tags: ["tv series"]
 year: "2021"

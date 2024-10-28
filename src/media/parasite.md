@@ -1,7 +1,7 @@
 ---
 title: "Parasite"
 author: ["Bong Joon-ho"]
-cover: "https://image.tmdb.org/t/p/w1280/tNJB14t2lqZ9L4oyEKoN6DT2ou8.jpg"
+cover: "parasite.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2019"

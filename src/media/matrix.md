@@ -1,7 +1,7 @@
 ---
 title: "Matrix"
 author: ["Lauren Groff"]
-cover: "https://covers.openlibrary.org/b/id/10831680-L.jpg"
+cover: "matrix.webp"
 date: "2024-02-01"
 tags: ["book"]
 year: "2021"

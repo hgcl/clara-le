@@ -1,7 +1,7 @@
 ---
 title: "The Artist"
 author: ["Michel Hazanavicius"]
-cover: "https://image.tmdb.org/t/p/w1280/z68py0ZqPgeacGPG54AGVRbNBS7.jpg"
+cover: "the-artist.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2011"

@@ -1,7 +1,7 @@
 ---
 title: "Inception"
 author: ["Christopher Nolan"]
-cover: "https://image.tmdb.org/t/p/w1280/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+cover: "inception.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2010"

@@ -1,7 +1,7 @@
 ---
 title: "Astérix & Obélix : Mission Cléopâtre"
 author: ["Alain Chabat"]
-cover: "https://www.themoviedb.org/t/p/w1280/sDrF8Z2GaRQjYzDuusEABohmMir.jpg"
+cover: "asterix-et-obelix-mission-cleopatre.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2002"

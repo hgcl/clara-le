@@ -1,7 +1,7 @@
 ---
 title: "Harry Potter series"
 author: ["J. K. Rowling"]
-cover: "https://covers.openlibrary.org/b/id/12902949-L.jpg"
+cover: "harry-potter.webp"
 date: "2021-01-01"
 tags: ["book"]
 year: "1998"

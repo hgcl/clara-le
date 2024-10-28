@@ -1,7 +1,7 @@
 ---
 title: "Paris, Texas"
 author: ["Wim Wenders"]
-cover: "https://www.themoviedb.org/t/p/w1280/7G6ea5djDvCxfqfoMAX8479T4UB.jpg"
+cover: "paris-texas.webp"
 date: "2023-08-01"
 tags: ["movie"]
 year: "1984"

@@ -1,7 +1,7 @@
 ---
 title: "Years and Years"
 author: ["Simon Cellan Jones", "Lisa Mulcahy"]
-cover: "https://image.tmdb.org/t/p/w1280/u1FBsyMH9Tx7K5yzMnJsYRvNEKQ.jpg"
+cover: "years-and-years.webp"
 date: "2021-01-01"
 tags: ["tv series"]
 year: "2019"

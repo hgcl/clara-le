@@ -1,7 +1,7 @@
 ---
 title: "Pendatang"
 author: ["Ken Kin"]
-cover: "https://www.themoviedb.org/t/p/w1280/3bFEokNJvkXKr6o06OorECaulXV.jpg"
+cover: "pendatang.webp"
 date: "2024-07-07"
 tags: ["movie"]
 year: "2023"

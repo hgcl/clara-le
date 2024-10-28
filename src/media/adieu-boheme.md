@@ -1,7 +1,7 @@
 ---
 title: "Adieu Bohème"
 author: ["Jeanne Frenkel"]
-cover: "https://image.tmdb.org/t/p/w1280/qXQPjOZW6lMJMWlO94ki2jc1o9B.jpg"
+cover: "adieu-boheme.webp"
 date: "2022-01-01"
 tags: ["movie"]
 year: "2017"

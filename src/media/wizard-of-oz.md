@@ -1,7 +1,7 @@
 ---
 title: "Wizard of Oz"
 author: ["Victor Fleming"]
-cover: "https://image.tmdb.org/t/p/w1280/bSA6DbAC5gdkaooU164lQUX6rVs.jpg"
+cover: "wizard-of-oz.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "1939"

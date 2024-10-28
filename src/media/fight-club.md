@@ -1,7 +1,7 @@
 ---
 title: "Fight Club"
 author: ["David Fincher"]
-cover: "https://image.tmdb.org/t/p/w1280/rtEZ3JH8RjFS1b8z2pwyh9YI9WX.jpg"
+cover: "fight-club.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "1999"

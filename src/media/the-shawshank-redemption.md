@@ -1,7 +1,7 @@
 ---
 title: "The Shawshank Redemption"
 author: ["Frank Darabont"]
-cover: "https://image.tmdb.org/t/p/w1280/lyQBXzOQSuE59IsHyhrp0qIiPAz.jpg"
+cover: "the-shawshank-redemption.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "1994"

@@ -1,7 +1,7 @@
 ---
 title: "Sherlock"
 author: ["Mark Gatiss"]
-cover: "https://image.tmdb.org/t/p/w1280/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg"
+cover: "sherlock.webp"
 date: "2021-01-01"
 tags: ["tv series"]
 year: "2010"
