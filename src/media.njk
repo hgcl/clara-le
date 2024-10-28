@@ -84,7 +84,7 @@ icon: /public/img/meta/drawing-camera.svg
     </p>
 
     {# POST FILTER SELECTOR #}
-    {{ listFilterSelector('category',['Movie','Book','TV series']) }}
+    {{ listFilterSelector('category', ['Movie','Book','TV series','Game']) }}
 
     {# POST LIST #}
     {% for yearCreated, posts in collections.media | groupby("data.yearCreated") | dictsort | reverse %}
