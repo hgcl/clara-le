@@ -1,7 +1,7 @@
 ---
 title: "Yotsuba&! series"
 author: ["Kiyohiko Azuma"]
-cover: "https://covers.openlibrary.org/b/id/14353841-L.jpg"
+cover: "yotsuba.webp"
 date: "2021-01-01"
 tags: ["book"]
 year: "2018"

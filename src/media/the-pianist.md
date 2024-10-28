@@ -1,7 +1,7 @@
 ---
 title: "The Pianist"
 author: ["Roman Polanski"]
-cover: "https://image.tmdb.org/t/p/w1280/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+cover: "the-pianist.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2002"

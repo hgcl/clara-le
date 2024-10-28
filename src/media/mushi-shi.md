@@ -1,7 +1,7 @@
 ---
 title: "Mushi-Shi"
 author: ["Hiroshi Nagahama"]
-cover: "https://image.tmdb.org/t/p/w1280/6hcZcirYerZzLJbl658xn1KHr6d.jpg"
+cover: "mushi-shi.webp"
 date: "2021-01-01"
 tags: ["tv series"]
 year: "2005"

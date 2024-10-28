@@ -1,7 +1,7 @@
 ---
 title: "In the Mood for Love"
 author: ["Wong Kar-wai"]
-cover: "https://image.tmdb.org/t/p/w1280/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg"
+cover: "in-the-mood-for-love.webp"
 date: "2023-09-20"
 tags: ["movie"]
 year: "2000"

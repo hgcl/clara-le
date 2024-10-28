@@ -1,7 +1,7 @@
 ---
 title: "Her"
 author: ["Spike Jonze"]
-cover: "https://image.tmdb.org/t/p/w1280/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg"
+cover: "her.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2013"

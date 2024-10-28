@@ -1,7 +1,7 @@
 ---
 title: "Dune"
 author: ["Eric Roth"]
-cover: "https://image.tmdb.org/t/p/w1280/8hoD5BQuUV9dDecAbiyVIxLjzZ9.jpg"
+cover: "dune.webp"
 date: "2021-12-01"
 tags: ["movie"]
 year: "2021"

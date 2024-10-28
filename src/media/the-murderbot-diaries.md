@@ -1,7 +1,7 @@
 ---
 title: "The Murderbot Diaries"
 author: "Martha Wells"
-cover: "https://covers.openlibrary.org/b/id/8478857-L.jpg"
+cover: "the-murderbot-diaries.webp"
 date: "2021-01-01"
 tags: ["book"]
 year: "2017"

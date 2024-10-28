@@ -1,7 +1,7 @@
 ---
 title: "The Sixth Sense"
 author: ["M. Night Shyamalan"]
-cover: "https://www.themoviedb.org/t/p/w1280/fIssD3w3SvIhPPmVo4WMgZDVLID.jpg"
+cover: "the-sixth-sense.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "1999"

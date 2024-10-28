@@ -1,7 +1,7 @@
 ---
 title: "Free Solo"
 author: ["Elizabeth Chai Vasarhelyi", "Jimmy Chin"]
-cover: "https://image.tmdb.org/t/p/w1280/v4QfYZMACODlWul9doN9RxE99ag.jpg"
+cover: "free-solo.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2018"

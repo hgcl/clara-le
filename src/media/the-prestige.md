@@ -1,7 +1,7 @@
 ---
 title: "The Prestige"
 author: ["Christopher Nolan"]
-cover: "https://image.tmdb.org/t/p/w1280/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg"
+cover: "the-prestige.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2006"

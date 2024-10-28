@@ -1,7 +1,7 @@
 ---
 title: "Mon Oncle"
 author: ["Jacques Tati"]
-cover: "https://www.themoviedb.org/t/p/w1280/wH6RyPiXFy8INLbViVkchLVOmBc.jpg"
+cover: "mon-oncle.webp"
 date: "2024-05-13"
 tags: ["movie"]
 year: "1958"

@@ -1,7 +1,7 @@
 ---
 title: "The Handmaiden"
 author: ["Park Chan-wook"]
-cover: "https://image.tmdb.org/t/p/w1280/oZrLMir5kxqErMoLQTG9gP4NCyk.jpg"
+cover: "the-handmaiden.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2016"

@@ -1,7 +1,7 @@
 ---
 title: "Hunt for the Wilderpeople"
 author: ["Taika Waititi"]
-cover: "https://image.tmdb.org/t/p/w1280/QKVexLBGxjLYfgV2WBH90VzAHt.jpg"
+cover: "hunt-for-the-wilderpeople.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2016"

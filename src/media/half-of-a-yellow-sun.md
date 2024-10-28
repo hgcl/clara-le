@@ -1,7 +1,7 @@
 ---
 title: "Half of a Yellow Sun"
 author: ["Chimamanda Ngozi Adichie"]
-cover: "https://covers.openlibrary.org/b/id/11325154-L.jpg"
+cover: "half-of-a-yellow-sun.webp"
 date: "2021-01-01"
 tags: ["book"]
 year: "2006"

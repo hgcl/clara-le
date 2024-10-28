@@ -1,7 +1,7 @@
 ---
 title: "The Books of Earthsea"
 author: ["Ursula K. Le Guin"]
-cover: "https://covers.openlibrary.org/b/id/10237978-L.jpg"
+cover: "the-books-of-earthsea.webp"
 date: "2024-08-03"
 tags: ["book"]
 year: "1968"

@@ -1,7 +1,7 @@
 ---
 title: "WALL·E"
 author: ["Andrew Stanton"]
-cover: "https://image.tmdb.org/t/p/w1280/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+cover: "wall-e.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2008"

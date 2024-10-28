@@ -1,7 +1,7 @@
 ---
 title: "The Others"
 author: ["Alejandro Amenábar"]
-cover: "https://image.tmdb.org/t/p/w1280/AdTFzlJmQ3rTtTpoyS9rqU17qN7.jpg"
+cover: "the-others.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2001"

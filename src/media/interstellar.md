@@ -1,7 +1,7 @@
 ---
 title: "Interstellar"
 author: ["Christopher Nolan"]
-cover: "https://image.tmdb.org/t/p/w1280/mS4EvhsrT0SQZOlWrQEzWI5KiUa.jpg"
+cover: "interstellar.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2014"

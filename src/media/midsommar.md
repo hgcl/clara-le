@@ -1,7 +1,7 @@
 ---
 title: "Midsommar"
 author: ["Ari Aster"]
-cover: "https://image.tmdb.org/t/p/w1280/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg"
+cover: "midsommar.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "2019"

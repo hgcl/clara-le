@@ -1,7 +1,7 @@
 ---
 title: "Hocus Pocus"
 author: ["Kenny Ortega"]
-cover: "https://image.tmdb.org/t/p/w1280/9Y5AEhIuMuONTXXylAmg4sgRLPB.jpg"
+cover: "hocus-pocus.webp"
 date: "2021-01-01"
 tags: ["movie"]
 year: "1993"

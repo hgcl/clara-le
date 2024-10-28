@@ -1,7 +1,7 @@
 ---
 title: "Can't We Talk About Something More Pleasant?"
 author: ["Roz Chast"]
-cover: "https://covers.openlibrary.org/b/id/7312632-L.jpg"
+cover: "cant-we-talk-about-something-more-pleasant.webp"
 date: "2023-07-31"
 tags: ["book"]
 year: "2014"
