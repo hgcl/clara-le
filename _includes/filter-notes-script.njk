@@ -88,25 +88,30 @@
     return array.getAttribute(attribute).split(",").includes(value);
   }
 
-  // get current URL
+  // 1. Get current URL
   let currentUrl = new URL(window.location.href);
   const searchParams = new URLSearchParams(currentUrl.search);
-  // apply URL filter to open page if specific filters are selected
+
+  // 2a. If there are filters 1 and 2 in URL
   if (searchParams.get("r")) {
+    // 3. Apply filters to open page with preselected filters in URL
     filterNotes(searchParams.get("q"), searchParams.get("r"));
-    // Set selector values
-    filterOneSelect.value = "";
+    // 4. Set selector values
+    filterOneSelect.value = ""; // Makes sure "All" is selected by default and not empty
     if (searchParams.get("q")) {
       filterOneSelect.value = searchParams.get("q");
     }
     filterTwoSelect.value = searchParams.get("r");
+    // 2b. If there is only filter 1 in URL
   } else if (searchParams.get("q")) {
     filterNotes(searchParams.get("q"));
     filterOneSelect.value = searchParams.get("q");
   }
 
-  // align selected category with URL
+  // Align selected filters with written URL
   function updateURL(filterOne, filterTwo) {
+    currentUrl.searchParams.delete("q");
+    currentUrl.searchParams.delete("r");
     currentUrl.searchParams.set("q", filterOne);
     if (filterTwo) {
       currentUrl.searchParams.set("r", filterTwo);
