@@ -11,59 +11,72 @@
   /**
    * This function is called when a user changes the value of the select
    */
-  function filterNotes(filterOne, filterTwo) { // Use filterOneSelect.value if nothing is specified when calling filterNotes()
+  function filterNotes(filterOne, filterTwo) {
+    // Use filterOneSelect.value if nothing is specified when calling filterNotes()
     let filterOneValue = filterOneSelect.value;
     if (filterOne) {
       filterOneValue = filterOne;
     }
 
-    // update URL onclick remove previous filter (hide all notes)
+    // 1. Update URL onclick remove previous filter (hide all notes)
     allNotes.forEach((note) => (note.hidden = true));
 
     // Take into account "All" options
     let emptyFilterOne = false;
-    if (filterOneValue == "") {
+    if (filterOneValue === "") {
       emptyFilterOne = true;
     }
 
-    /* There is only one filter */
-    if (! filterTwoSelect) { // Update URL on filter select
+    /* 2. If there is only one filter */
+    if (filterTwoSelect === null) {
+      // 2a. Update URL on selection of filter 1
       updateURL(filterOneValue);
 
       allNotes.forEach((note) => {
-        if (isInArray(note, "data-tag", filterOneValue || emptyFilterOne)) {
+        // 2b. Unhide notes that are tagged as the selected value of filter 1 (or no filter 1 selected)
+        if (isInArray(note, "data-tag", filterOneValue) || emptyFilterOne) {
           note.hidden = false;
         }
       });
-    } else { /* There are two filters */
+    } else {
+      /* 3. If there are two filters */
       let filterTwoValue = filterTwoSelect.value;
       if (filterTwo) {
         filterTwoValue = filterTwo;
       }
 
-      // Update URL on filter select
+      // 3a. Update URL on selection of filter 2
       updateURL(filterOneValue, filterTwoValue);
 
-      // Take into account "All" options for 2nd filter
+      // 3b. Take into account "All" options for 2nd filter
       let emptyFilterTwo = false;
-      if (filterTwoValue == "") {
+      if (filterTwoValue === "") {
         emptyFilterTwo = true;
       }
 
-      // add hidden attributes to notes that don't have the chosen category in data-tag
-      allNotes.forEach((note) => { // equals true if note includes filter 1
+      // 3c. Add hidden attributes to notes that don't have the chosen category in data-tag
+      allNotes.forEach((note) => {
+        // equals true if note includes filter 1
         const includesFilterOne = isInArray(note, "data-tag", filterOneValue);
-
         // equals true is note includes filter 2
-        const includesFilterTwo = isInArray(note, "data-tag-two", filterTwoValue);
+        const includesFilterTwo = isInArray(
+          note,
+          "data-tag-two",
+          filterTwoValue
+        );
 
-        if (filterTwoSelect && includesFilterOne && includesFilterTwo) {
-          note.hidden = false;
-        } else if (filterTwoSelect && emptyFilterOne && includesFilterTwo) {
-          note.hidden = false;
-        } else if (filterTwoSelect && includesFilterOne && emptyFilterTwo) {
-          note.hidden = false;
-        } else if (filterTwoSelect && emptyFilterOne && emptyFilterTwo) {
+        // 3d. Unhide notes that are tagged as the selected value of filters 1 and 2
+        if (
+          // Following conditions respectively:
+          // - Note has tags similar to selected filters 1 and 2
+          // - Note has tag similar to selected filter 2 (no filter 1 selected)
+          // - Note has tag similar to selected filter 1 (no filter 2 selected)
+          // - No filter 1 or 2 selected
+          (includesFilterOne && includesFilterTwo) ||
+          (emptyFilterOne && includesFilterTwo) ||
+          (includesFilterOne && emptyFilterTwo) ||
+          (emptyFilterOne && emptyFilterTwo)
+        ) {
           note.hidden = false;
         }
       });
@@ -72,10 +85,7 @@
 
   // returns true if the 'array' selected under 'attribute' contains the 'value'
   function isInArray(array, attribute, value) {
-    return array
-      .getAttribute(attribute)
-      .split(",")
-      .includes(value);
+    return array.getAttribute(attribute).split(",").includes(value);
   }
 
   // get current URL
