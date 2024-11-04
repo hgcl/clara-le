@@ -7,7 +7,7 @@ tags: ["book"]
 year: "1969"
 ---
 
-Ursula K. Le Guin first introduced the Hainish universe through three very short novels: _Rocannon's World_, _Planet of Exile_, and _City of Illusions_. They paint the first strokes of this universe, where all kinds of aliens collaborate through the League.
+Ursula K. Le Guin first introduced the Hainish universe through three very short novels: <cite>Rocannon's World</cite>, <cite>Planet of Exile</cite>, and <cite>City of Illusions</cite>. They paint the first strokes of this universe, where all kinds of aliens collaborate through the League.
 
 In this universe, we follow Genly Ai, an envoy from the League, whose mission is to invite a new world to this interplanetary club.
 
@@ -15,4 +15,4 @@ Le Guin is brilliant at hinting at an entire universe, while focusing her story 
 
 Some aspects of the book feel a bit dated: the gender-related images Genly refers to seem to come straight from Earth in the sixties – which they do. But the wonder of discovering this new world is timeless.
 
-I liked the first three books, but can only agree with everyone: _The Left Hand of Darkness_ is the culminating point, the jewel in the box.
+I liked the first three books, but can only agree with everyone: <cite>The Left Hand of Darkness</cite> is the culminating point, the jewel in the box.
