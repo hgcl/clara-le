@@ -345,7 +345,7 @@ const blogrollData = [
     url: `https://modernfontstacks.com/`,
     title: `Modern font stacks`,
     description: `System font stack CSS organized by typeface classification for every modern OS. What a lifesaver.`,
-    category: [categories.typography.anchor, categories.coding.anchor],
+    category: [categories.typography.anchor],
     best: true,
   },
   {
