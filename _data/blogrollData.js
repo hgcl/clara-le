@@ -3,6 +3,10 @@ const categories = {
     title: `Blogs`,
     anchor: `blog`,
   },
+  coding: {
+    title: `Coding`,
+    anchor: `coding`,
+  },
   cooking: {
     title: `Cooking`,
     anchor: `cooking`,
@@ -23,9 +27,9 @@ const categories = {
     title: `Newsletters`,
     anchor: `newsletter`,
   },
-  article: {
-    title: `Articles`,
-    anchor: `article`,
+  post: {
+    title: `Posts`,
+    anchor: `post`,
   },
   reading: {
     title: `Reading`,
@@ -91,8 +95,8 @@ const blogrollData = [
   {
     url: `https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/`,
     title: `Brain Baking: Cool things people do with their blogs`,
-    description: `In this article, Wouter lists the cool things people did with their personal websites — very inspiring.`,
-    category: [categories.article.anchor],
+    description: `In this post, Wouter lists the cool things people did with their personal websites — very inspiring.`,
+    category: [categories.post.anchor],
     best: false,
   },
   {
@@ -190,6 +194,13 @@ const blogrollData = [
     category: [categories.typography.anchor],
     best: false,
   },
+  {
+    url: `https://www.freecodecamp.org/`,
+    title: `freeCodeCamp`,
+    description: `Really well-made free coding courses`,
+    category: [categories.coding.anchor],
+    best: false,
+  },
   // >G
   {
     url: `https://garticphone.com/`,
@@ -217,7 +228,7 @@ const blogrollData = [
     url: `https://dev.w3.org/html5/html-author/charref`,
     title: `HTML Character Reference Chart`,
     description: `Ever wondered how to write a character in HTML? Here is a full list of them that I just can't stop looking at.`,
-    category: [categories.technology.anchor],
+    category: [categories.coding.anchor],
     best: false,
   },
   {
@@ -334,7 +345,7 @@ const blogrollData = [
     url: `https://modernfontstacks.com/`,
     title: `Modern font stacks`,
     description: `System font stack CSS organized by typeface classification for every modern OS. What a lifesaver.`,
-    category: [categories.typography.anchor],
+    category: [categories.typography.anchor, categories.coding.anchor],
     best: true,
   },
   {
@@ -437,6 +448,13 @@ const blogrollData = [
   },
   // >T
   {
+    url: `https://javascript.info/`,
+    title: `The Modern JavaScript Tutorial`,
+    description: `Clear and short JavaScript tutorials that can be read like a course`,
+    category: [categories.coding.anchor],
+    best: false,
+  },
+  {
     url: `https://www.theydrawandtravel.com/`,
     title: `They draw and travel`,
     description: `Collection of illustrated travel map created by artists from around the world`,
@@ -460,6 +478,13 @@ const blogrollData = [
   // >U
   // >V
   // >W
+  {
+    url: `https://www.w3.org/WAI/tips/developing/`,
+    title: `W3C`,
+    description: `Basic considerations to get started developing web content that is more accessible. Browse the website some more to learn more about accessibilty best practices.`,
+    category: [categories.coding.anchor],
+    best: false,
+  },
   {
     url: `https://waitbutwhy.com/`,
     title: `Wait But Why`,
