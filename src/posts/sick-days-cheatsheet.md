@@ -38,6 +38,10 @@ As it is happening more and more often, here is a list of the things I personall
 - To test: wrist acupressure to [point Neiguan (P-6)](https://www.youtube.com/watch?v=XNDoQm8wxHg&t=25s)
 - To test: candied ginger or fennel tea
 
+## For a bloated belly
+
+- Belly self massage: lie down on the back, a pillow under the knees, gently massage your belly with clockwise circular motions.
+
 ## To prevent sinusitis
 
 I have a sensitive nose that easily transforms an inoffensive cold into full-fledged sinusitis. Here are ways to prevent it:
@@ -48,7 +52,7 @@ I have a sensitive nose that easily transforms an inoffensive cold into full-fle
 - Avoid dry environments
 - Sleep with your head elevated
 - Blow your nose gently, one nostril at a time. Forceful blowing can irritate the nasal passages and propel bacteria-laden mucus back up into your sinuses.
-- Try these [acupressure methods](https://ascentchiropractic.com/how-to-use-acupressure-points-to-clear-congested-sinuses-in-30-seconds/) 
+- Try these [acupressure methods](https://ascentchiropractic.com/how-to-use-acupressure-points-to-clear-congested-sinuses-in-30-seconds/)
 
 --ENDCHAR--
 
