@@ -70,9 +70,16 @@ I am reigning in my impatience and postponing these experiments to later. In the
 
 ## Thailand
 
-- Tom kha gai: spicy, sour, coconuty hot soup (and so easy to make if you get the ingredients!)
-- Bua loi: dessert of rice flour rolled into chewy small balls and cooked in sweet coconut milk, add some coconut ice cream for a great cold/hot contrast
+- Tom kha gai (ต้มข่าไก่): spicy, sour, coconuty hot soup (and so easy to make if you get the ingredients!)
+- Bua loi (บัวลอย): dessert of rice flour rolled into chewy small balls and cooked in sweet coconut milk, add some coconut ice cream for a great cold/hot contrast
 - Perfect sunny-side-up egg: separate the white from the yolk, cook the white first and add the yolk close to the end (greatest egg ever)
-- Laab: minced meat salad, love the Isan version that is more sour
+- Laab (ลาบ): minced meat salad, love the Isan version that is more sour
+
+## Cambodia
+
+- Num banhchok (ំបញ្ចុក): lightly fermented rice noodles served in fish curry, better when topped with tons of fresh herbs (perfect summer noodle-dish)
+- Amok trei (អាម៉ុកត្រី): steamed fish curry that has a mousse-like consistency
+- Chha trob (ឆាត្រប់): chargrilled eggplants mixed with minced pork, deliciously charred flavor
+- Coconut fish-sauce: a regular dip made with fish-sauce, but with an extra splash of coconut milk
 
 _To be continued..._ --ENDCHAR--
