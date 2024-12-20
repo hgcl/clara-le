@@ -70,6 +70,10 @@ I am reigning in my impatience and postponing these experiments to later. In the
 
 ## Thailand
 
+- Pad thai: already tried making this Thai classic dish, but need to perfect the recipe
+- Kaeng hang le (แกงฮังเล): rich Northern Thai pork curry, used dried spices and tamarind
+- Khao soi (ข้าวซอย): Northern Thai curry noodle soup, served with tender chicken and crispy noodles on top
+- Khao niao mamuang (ข้าวเหนียวมะม่วง): the popular mango sticky rice, could maybe make it at home with peaches instead of mangoes?
 - Tom kha gai (ต้มข่าไก่): spicy, sour, coconuty hot soup (and so easy to make if you get the ingredients!)
 - Bua loi (บัวลอย): dessert of rice flour rolled into chewy small balls and cooked in sweet coconut milk, add some coconut ice cream for a great cold/hot contrast
 - Perfect sunny-side-up egg: separate the white from the yolk, cook the white first and add the yolk close to the end (greatest egg ever)
@@ -79,7 +83,9 @@ I am reigning in my impatience and postponing these experiments to later. In the
 
 - Num banhchok (ំបញ្ចុក): lightly fermented rice noodles served in fish curry, better when topped with tons of fresh herbs (perfect summer noodle-dish)
 - Amok trei (អាម៉ុកត្រី): steamed fish curry that has a mousse-like consistency
+- Num kochay: savory pancake made with glutinous rice and filled with chives, pan-fried to be crispy, and served in a delicious fish sauce dip
 - Chha trob (ឆាត្រប់): chargrilled eggplants mixed with minced pork, deliciously charred flavor
 - Coconut fish-sauce: a regular dip made with fish-sauce, but with an extra splash of coconut milk
+- Peanut snack: delicious when served with beer, roasted peanuts with garlic, kefir leaves, ginger and chili
 
 _To be continued..._ --ENDCHAR--
