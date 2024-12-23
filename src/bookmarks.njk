@@ -1,0 +1,38 @@
+---
+title: Bookmarks
+description: My collection of bookmarks
+icon: /public/img/meta/drawing-list.svg
+pagination:
+    data: "bookmarksData"
+    size: 1
+---
+
+{% extends "layout/base.njk" %} 
+{% block head %}
+<style>
+  #random-link {
+    margin: 0 auto;
+    display: block;
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+<article class="center h-entry">
+  <div class="e-content">
+  {% include 'post-header.njk' %}
+    <p class="intro">
+      My collection of bookmarks of specific blog posts, articles, essays — spanning the web. 
+    </p>
+    {# LINK LIST #}
+    {% for category, items in pagination.pages | groupby("category") | dictsort %}
+      <h2 id="{{ category | slugify }}">{{ category }}</h2>
+      <ul class="post-rows">
+        {% for item in items %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a><span class="subtle">{{ item.description }}</span></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}
