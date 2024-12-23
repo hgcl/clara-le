@@ -40,7 +40,7 @@ pagination:
     </a>
     {# LINK LIST #}
     {% for category, items in pagination.pages | groupby("category") | dictsort %}
-      <h2>{{ category }}</h2>
+      <h2 id="{{ category | slugify }}">{{ category }}</h2>
       <ul class="post-rows">
         {% for item in items %}
           <li><a href="{{ item.url }}">{{ item.title }}</a><span class="subtle">{{ item.description }}</span></li>
