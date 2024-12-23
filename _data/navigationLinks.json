@@ -7,5 +7,6 @@
   { "title": "Media", "url": "/media/", "show": true },
   { "title": "Blogroll", "url": "/blogroll/", "show": true },
   { "title": "Uses", "url": "/uses/", "show": false },
-  { "title": "Colophon", "url": "/colophon/", "show": false }
+  { "title": "Colophon", "url": "/colophon/", "show": false },
+  { "title": "Bookmarks", "url": "/bookmarks/", "show": false }
 ]
