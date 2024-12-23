@@ -20,9 +20,6 @@ const categories = {
   newsletter: {
     title: `Newsletters`,
   },
-  post: {
-    title: `Posts`,
-  },
   reading: {
     title: `Reading`,
   },
@@ -75,13 +72,6 @@ const blogrollData = [
     title: `Blogroll`,
     description: `Ray is taking the blogroll concept to the next level.`,
     category: [categories.exploring.title],
-    best: false,
-  },
-  {
-    url: `https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/`,
-    title: `Brain Baking: Cool things people do with their blogs`,
-    description: `In this post, Wouter lists the cool things people did with their personal websites — very inspiring.`,
-    category: [categories.post.title],
     best: false,
   },
   {
