@@ -36,7 +36,7 @@ const categories = {
     title: `Typography`,
   },
   ux: {
-    title: `UX`,
+    title: `Accessibility & UX`,
   },
   writing: {
     title: `Writing`,
@@ -352,6 +352,20 @@ const blogrollData = [
     category: [categories.exploring.title],
     best: false,
   },
+  {
+    url: `https://npmtrends.com/`,
+    title: `npm trends`,
+    description: `Compare npm package download counts over time`,
+    category: [categories.coding.title],
+    best: false,
+  },
+  {
+    url: `https://validator.w3.org/nu/`,
+    title: `Nu Html Checker`,
+    description: `An HTML validator`,
+    category: [categories.coding.title],
+    best: false,
+  },
   // >O
   {
     url: `https://omglord.com/`,
@@ -454,10 +468,10 @@ const blogrollData = [
   // >V
   // >W
   {
-    url: `https://www.w3.org/WAI/tips/developing/`,
-    title: `W3C`,
-    description: `Basic considerations to get started developing web content that is more accessible. Browse the website some more to learn more about accessibilty best practices.`,
-    category: [categories.coding.title],
+    url: `https://www.w3.org/WAI/WCAG22/quickref/`,
+    title: `W3C | How to Meet WCAG (Quick Reference)`,
+    description: `A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria) and techniques.`,
+    category: [categories.ux.title],
     best: false,
   },
   {
