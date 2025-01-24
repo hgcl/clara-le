@@ -62,7 +62,7 @@ Some of our go-tos[^1]:
 
 At first, this kitchen seemed small and unfamiliar. With time, I learned to use whatever was available and even tried new recipes for the first time!
 
-I think I'll miss these broken pots and pan when we leave Hanoi. It's amazing how quickly a place can become home.
+It's amazing how quickly a place can become home. I think I'll miss these broken pots and pan when we leave Hanoi.
 
 Until then --ENDCHAR--
 
