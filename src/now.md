@@ -1,8 +1,8 @@
 ---
 layout: "layout/post.njk"
 title: "Now"
-subtitle: "Probably in a coffee shop"
-date: "2024-08-16"
+subtitle: "On the road"
+date: "2025-02-01"
 tags: ["now"]
 icon: /public/img/meta/drawing-location.svg
 directory: "posts"
@@ -10,9 +10,7 @@ directory: "posts"
 
 Robin and I are on a slow journey, having traveled from Europe to Asia overland.
 
-We are now exploring Malaysia through diverse Workaways and long quiet stays, two weeks at a time. We spend a lot of time in coffee shops, fleeing the heat and working on a big restructuring of our travel blog ([Eau de poisson](https://eaudepoisson.com/)).
-
-Being slightly food-obsessed, we are happily discovering new dishes on a daily basis! With its Malay, Indian and Chinese communities, Malaysia's rich food scene is good to us. Favorites of the moment: roti canai, char kway teow, nasi kerabu kelantan, kuih seri muka. --ENDCHAR--
+We are now in Vietnam for a few months, back in our comfort zone. Between street food discoveries, air-coned coffee shops, and motorbike loops, we are stopping at small towns in our search for a "less visited Vietnam". --ENDCHAR--
 
 ---
 
@@ -20,6 +18,7 @@ This is a [Now page](https://nownownow.com/). I update mine every few months wit
 
 ## Archive
 
+- [August 16, 2024](/posts/now-archive-11/)
 - [April 30, 2024](/posts/now-archive-10/)
 - [November 17, 2023](/posts/now-archive-9/)
 - [July 12, 2023](/posts/now-archive-8/)
