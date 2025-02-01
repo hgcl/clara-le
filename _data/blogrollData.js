@@ -310,6 +310,13 @@ const blogrollData = [
     best: false,
   },
   {
+    url: `https://developer.mozilla.org/en-US/curriculum/`,
+    title: `MDN Curriculum`,
+    description: `MDN needs no introduction. In 2024, they launched a really well made guide going over the essential foundations needed by a frontend dev.`,
+    category: [categories.coding.title],
+    best: true,
+  },
+  {
     url: `https://mindmeld.url/`,
     title: `Mindmeld`,
     description: `Wavelength is a social party game that fosters conversations. Mindmeld is its free online spin-off.`,
