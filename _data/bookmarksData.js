@@ -57,6 +57,13 @@ const bookmarksData = [
   // >Q
   // >R
   // >S
+  {
+    url: `https://github.com/jackyzha0/sunlit`,
+    title: `Sunlit`,
+    description: `A pure CSS implementation of some sunlight streaming in through the window.`,
+    category: [categories.misc.title],
+    best: false,
+  },
   // >T
   // >U
   // >V
