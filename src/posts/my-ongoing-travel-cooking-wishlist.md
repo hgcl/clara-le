@@ -58,6 +58,11 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Hủ tiếu: noodle soup with a sweet broth made from pork bones, onion, daikon, and dried shrimp
 - Bún thịt nướng: refreshing bowl of rice noodle, grilled meat, sweet and sour carrots, cucumber, herbs (so easy to prep-ahead)
 - Xôi: sticky rice served with sides, perfect for breakfast (love it with mung beans and peanuts)
+- Muối ớt xanh: spicy, sour, sweet dip (incredible with seafood)
+- Canh chua: sour soup made with pineapple and tomato (love it)
+- Thịt kho: braised pork and hard-boiled eggs in a savory sauce
+- Cá kho: caramelized braised fish, sweet and salty
+- Chè bắp: dessert that is sweet and creamy, made with glutinous rice, corn and coconut milk
 
 ## Malaysia
 
