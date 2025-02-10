@@ -47,6 +47,7 @@ eleventyComputed:
 
 {% block article %}
   <article
+    lang="{{ recipe.lang }}"
     class="h-recipe">
     {# Pass tag data to post-header.njk #}
     {% set tags = recipe.dataTag %}
