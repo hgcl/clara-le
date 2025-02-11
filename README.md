@@ -23,6 +23,7 @@ Nav-related:
 
 - `src/about.njk`
 - `src/blogroll.njk`: paginates data in `_data/blogrollData.js` as one final page
+- `src/bookmarks.njk`: paginates individual files in `src/bookmarks` as one final page
 - `src/colophon.njk`
 - `src/index.njk`: homepage
 - `src/media.njk`
@@ -42,6 +43,7 @@ Other special cases:
 - `src/media`: includes all media posts that are linked in `clarale.com/media/`
 - `src/posts`: includes all blog posts that are linked in `clarale.com/posts/`
 - `src/recipes`: includes all recipe posts that are linked in `clarale.com/recipes/`. The original files are in JSON. They are read by `_data/recipeData.js` and paginated through the `src/recipes/recipe-layout.njk` template.
+- `src/bookmarks`: includes all bookmarks files that are linked in `clarale.com/bookmarks/`. The original files are in JSON. They are read by `_data/bookmarkData.js` and paginated through the `src/bookmarks` page.
 
 ## `public` directory
 
