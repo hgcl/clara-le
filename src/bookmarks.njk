@@ -3,7 +3,7 @@ title: Bookmarks
 description: My collection of bookmarks
 icon: /public/img/meta/drawing-list.svg
 pagination:
-    data: "bookmarksData"
+    data: "bookmarkData"
     size: 1
 ---
 
@@ -28,8 +28,11 @@ pagination:
     {% for category, items in pagination.pages | groupby("category") | dictsort %}
       <h2 id="{{ category | slugify }}">{{ category }}</h2>
       <ul class="post-rows">
-        {% for item in items %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a><span class="subtle">{{ item.description }}</span></li>
+        {% for item in items | sort(attribute="date") %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            <div class="subtle divide-list"><span>{{ item.author }}</span><span>{{ item.description }}</span></div>
+          </li>
         {% endfor %}
       </ul>
     {% endfor %}
