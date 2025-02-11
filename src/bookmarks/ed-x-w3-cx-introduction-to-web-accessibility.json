@@ -4,6 +4,6 @@
   "title": "W3Cx: Introduction to Web Accessibility",
   "date": "2024-11-01",
   "description": "A free course by W3C to gain a strong foundation in digital accessibility.",
-  "category": ["accessibility"],
+  "tags": ["accessibility"],
   "best": false
 }

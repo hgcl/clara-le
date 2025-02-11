@@ -25,8 +25,8 @@ pagination:
       My collection of bookmarks of specific blog posts, articles, essays — spanning the web. 
     </p>
     {# LINK LIST #}
-    {% for category, items in pagination.pages | groupby("category") | dictsort %}
-      <h2 id="{{ category | slugify }}">{{ category }}</h2>
+    {% for tags, items in pagination.pages | groupby("tags") | dictsort %}
+      <h2 id="{{ tags | slugify }}">{{ tags }}</h2>
       <ul class="post-rows">
         {% for item in items | sort(attribute="date") %}
           <li>
