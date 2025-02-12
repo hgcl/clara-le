@@ -1,5 +1,5 @@
 ---
-title: "A Reat Pain"
+title: "A Real Pain"
 author: ["Jesse Eisenberg"]
 cover: "a-real-pain.webp"
 date: "2025-01-25"
