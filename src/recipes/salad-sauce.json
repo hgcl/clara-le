@@ -1,0 +1,32 @@
+{
+  "title": "Salad sauce",
+  "date": "2025-02-13",
+  "lang": "fr",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "Je tombe sur un vieux fichier Word de 2011, où j'avais enregistré cette recette d'une sauce salade à l'huile de sésame.",
+  "duration": "5",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "2-3 cuillères de vinaigre de riz (ou vinaigre blanc)",
+        "1 cuillère de sauce soja",
+        "1-2 cuillères de sucre",
+        "1 cuillère d'huile de sésame"
+      ],
+      "ingOpt": ["1 cuillère de graines de sésame"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Mélanger tous les ingrédients dans votre bol à salade préféré.",
+        "Rajouter votre salade préférée.",
+        "C'est prêt !"
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}

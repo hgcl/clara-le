@@ -1,0 +1,39 @@
+{
+  "title": "Waffles",
+  "date": "2025-02-13",
+  "lang": "fr",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "J'adorais me préparer des gaufres liégeoises durant mon adolescence. Je suis récemment tombée sur un vieux fichier Word de 2011, où j'avais enregistré la recette (bien mise-en-page et tout et tout). Voilà donc la recette originale de mes jeunes années !",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Pour 2 personnes",
+      "ingMand": [
+        "200 g de farine blanche",
+        "1 jaune d'œuf",
+        "1 blanc en neige",
+        "8 g de levure fraîche (boulanger)",
+        "1 dl de lait",
+        "60 g de beurre ramolli",
+        "20 g de sucre perlé ou sucre grain",
+        "8 g de sucre en poudre",
+        "Sel"
+      ],
+      "ingOpt": ["Cannelle en poudre"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Délayer la levure dans une petite quantité de lait.",
+        "Faire une pâte en y ajoutant tous les ingrédients à l'exception du sucre perlé.",
+        "Laisser lever la pâte 20 minutes.",
+        "Quand la pâte a au moins doublé de volume, incoporer le sucre perlé.",
+        "Vous pouvez cuire de suite les gaufres."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}
