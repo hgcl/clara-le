@@ -1,5 +1,5 @@
 ---
-title: "Subaru series"
+title: "Subaru (series)"
 author: ["Masahito Soda"]
 cover: "subaru.webp"
 date: "2021-01-01"

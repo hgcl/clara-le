@@ -1,5 +1,5 @@
 ---
-title: "Harry Potter series"
+title: "Harry Potter (series)"
 author: ["J. K. Rowling"]
 cover: "harry-potter.webp"
 date: "2021-01-01"

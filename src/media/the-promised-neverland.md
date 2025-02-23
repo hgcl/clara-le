@@ -1,5 +1,5 @@
 ---
-title: "The Promised Neverland"
+title: "The Promised Neverland (series)"
 author: ["Shuhei Miyazaki"]
 cover: "the-promised-neverland.webp"
 date: "2025-01-21"

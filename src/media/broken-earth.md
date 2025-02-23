@@ -1,5 +1,5 @@
 ---
-title: "Broken Earth trilogy"
+title: "Broken Earth (trilogy)"
 author: ["N. K. Jemisin"]
 cover: "the-broken-earth.webp"
 date: "2021-01-01"

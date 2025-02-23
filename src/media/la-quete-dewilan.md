@@ -1,5 +1,5 @@
 ---
-title: "La Quête d'Ewilan series"
+title: "La Quête d'Ewilan (series)"
 author: ["Pierre Bottero"]
 cover: "la-quete-dewilan.webp"
 date: "2021-01-01"

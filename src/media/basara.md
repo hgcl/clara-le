@@ -1,5 +1,5 @@
 ---
-title: "Basara series"
+title: "Basara (series)"
 author: ["Yumi Tamura"]
 cover: "basara.webp"
 date: "2021-01-01"
