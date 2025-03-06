@@ -296,13 +296,6 @@ const blogrollData = [
     best: false,
   },
   {
-    url: `https://mariovillalobos.com/`,
-    title: `Mario Villalobos`,
-    description: `Mario Villalobos's blog, where he writes notes about his life`,
-    category: [categories.blog.title],
-    best: false,
-  },
-  {
     url: `https://macwright.com/`,
     title: `Tom MacWright`,
     description: `Tom MacWright's personal blog is minimalism at its finest.`,
@@ -409,7 +402,7 @@ const blogrollData = [
   {
     url: `https://robweychert.com/`,
     title: `Robwey Chert`,
-    description: `Robwey Chert is a designer and artist that has been blogging since 2002.`,
+    description: `Robwey Chert is a designer and artist that has been blogging since 2002. He is (more often than not) redesigning his website in public, and I love it.`,
     category: [categories.blog.title],
     best: false,
   },
