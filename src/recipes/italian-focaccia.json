@@ -1,0 +1,57 @@
+{
+  "title": "Italian focaccia",
+  "date": "2025-03-11",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "In the capital of Vietnam, we learned to make... focaccia. (With Jade, Duc, and a bottle of Pinot Gris.)",
+  "duration": "180",
+  "ingredients": [
+    {
+      "ingTitle": "For two focaccia",
+      "ingMand": [
+        "220 ml water",
+        "250 g flour",
+        "2 g salt",
+        "4 tsp olive oil",
+        "3.5 g yeast",
+        "1 tsp honey"
+      ],
+      "ingOpt": ["1 g origano"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Mixing",
+      "insSteps": [
+        "In a small recipient, mix the yeast, honey, and a bit of the water.",
+        "In a big bowl, combine the flour, salt, origano (and other seasonings).",
+        "Add the yeast mixture and the rest of the water to the bowl. Very roughly mix the dough to be homogenous and smooth (no dry parts)."
+      ]
+    },
+    {
+      "insTitle": "Folding",
+      "insSteps": [
+        "Add 3 tsp of olive oil to the mix, and 1 tsp on your right hand fingers.",
+        "While rotating the bowl with your left hand, fold in the dough from the outside (bottom) to the center (top) of the dough with your right hand. Do one full circle (or a bit more). Don't overdo it.",
+        "Wait for at least 15 minutes before starting the next fold.",
+        "Before folding, wet your hands and unstick the dough borders from the bowl. Delicately put two fingers (or hands) underneath the dough to bring it up in the air. Fold back the dough, bringing the extremity opposite you towards the middle, hiding it underneath. Rotate the bowl 90 degrees, and repeat the process. Do so until you have completed one full circle. The dough should feel bouncier and more elastic at the end of the fold.",
+        "Repeat the two last steps (wait and fold) two more times. Be careful not to burst the gas bubbles.",
+        "Wait 15 minutes after the last fold, and delicately make a bowl with the dough. Keep the dough \"opening\" at the bottom and put it in a greased mould. Let it rest for at least 15 minutes."
+      ]
+    },
+    {
+      "insTitle": "Baking",
+      "insSteps": [
+        "Using the tips of your fingers, make holes in your dough while spreading it. Be careful to preserve the gas bubbles.",
+        "Optional: add the toppings and some more olive oil at the top.",
+        "Preheat the over at 265 °C and bake for 13 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "You can use the quiet times between folds to prep the toppings. During the workshop, we did two versions.",
+    "Topping 1: garlic, bacon, mushrooms, all stir-fried with olive oil until fragant",
+    "Topping 2: sliced and boiled potatoes, rosemary, lots of grated cheese"
+  ],
+  "sourceUrl": ""
+}
