@@ -48,4 +48,37 @@
     ],
     "description": "New empty blog post"
   }
+
+  "New recipe post": {
+    "scope": "json",
+    "prefix": "new-recipe-post",
+    "body": [
+      "{",
+      "\"title\": \"${1:TODO}\",",
+      "\"date\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
+      "\"lang\": \"${2:en}\",",
+      "\"dataTag\": [\"${3:main}\", \"spring\", \"summer\", \"fall\", \"winter\"],",
+      "\"intro\": \"${4:TODO}\",",
+      "\"duration\": \"${5:00}\",",
+      "\"ingredients\": [",
+      "{",
+      "\"ingTitle\": \"\",",
+      "\"ingMand\": [\"${6:TODO}\"],",
+      "\"ingOpt\": []",
+      "}",
+      "],",
+      "\"instructions\": [",
+      "{",
+        "\"insTitle\": \"\",",
+      "\"insSteps\": [",
+      "\"${7:TODO}\"",
+      "]",
+      "}",
+      "],",
+      "\"notes\": [\"\"],",
+      "\"sourceUrl\": \"\"",
+      "}"
+      ],
+    "description": "New empty blog post"
+  }
 }
