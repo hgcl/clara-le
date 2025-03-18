@@ -1,7 +1,7 @@
 ---
 title: "#49 Online Writing"
 subtitle: "Update #49"
-date: "2025-03-19"
+date: "2025-03-18"
 tags: ["update"]
 lang: "en"
 ---
@@ -34,7 +34,7 @@ There are more, but here are some that inspired me to get back to my own blog:
 ## Miscellaneous 
 
 - Discovered a new tree: the bombax.[^1] Its bright red flowers on leafless(!) trees really pop in the green/brown landscapes of North Vietnam.
-- First time eating the Cao Bằng version of bánh cuốn. It is served with the usual rice steamed rolls, but also with an extra poached egg roll in a broth. (The broth replaces the fish sauce entirely in this version.) Good, but I prefer the classic version. 
+- First time eating the Cao Bằng version of bánh cuốn. It is served with the usual rice steamed rolls, but also with an extra poached egg roll in a broth. (The broth entirely replaces the fish sauce in this version.) Good, but I prefer the classic version. 
 
 Until next time --ENDCHAR--
 
