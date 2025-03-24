@@ -10,6 +10,9 @@ pagination:
 {% extends "layout/base.njk" %} 
 {% block head %}
 <style>
+  .intro { 
+    margin-bottom: 3rem;
+  }
   #random-link {
     margin: 0 auto;
     display: block;
@@ -25,17 +28,19 @@ pagination:
       My collection of bookmarks of specific blog posts, articles, essays — spanning the web. 
     </p>
     {# LINK LIST #}
-    {% for tags, items in pagination.pages | groupby("tags") | dictsort %}
-      <h2 id="{{ tags | slugify }}">{{ tags }}</h2>
-      <ul class="post-rows">
-        {% for item in items | sort(attribute="date") %}
+      <ul
+        class="nobullet post-rows-with-label">
+        {% for item in pagination.pages | reverse %}
           <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            <div class="subtle divide-list">{% if item.author|length %}<span>{{ item.author }}</span>{% endif %}<span>{{ item.description }}</span></div>
+            <time class="label dt-duration" datetime="{{ item.date }}">{{ item.date | formatDate("short") }}</time>
+            <span class="details">
+              <a href="{{ item.url }}">{{ item.title }}</a>
+              <span class="subtle">{{ item.description }}</span>
+              <span class="label">#{{ item.tags }}</span>
+            </span>
           </li>
         {% endfor %}
       </ul>
-    {% endfor %}
   </div>
 </article>
 {% endblock %}

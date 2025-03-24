@@ -1,10 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-// Get JSON files from recipes directory
+// Get JSON files from bookmarks directory
 const bookmarkDir = path.resolve(__dirname, "../src/bookmarks");
 
-const recipes = fs
+const bookmarks = fs
   .readdirSync(bookmarkDir)
   .filter((name) => path.extname(name) === ".json")
   .map((name) => ({
@@ -12,4 +12,4 @@ const recipes = fs
     ...require(path.join(bookmarkDir, name)),
   }));
 
-module.exports = recipes;
+module.exports = bookmarks;
