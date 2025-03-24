@@ -1,6 +1,5 @@
 {
   "url": "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/",
-  "author": "W3C",
   "title": "No ARIA is better than Bad ARIA",
   "date": "2024-01-01",
   "description": "Why the first rule of ARIA is to avoid using ARIA.",
