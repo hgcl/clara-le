@@ -1,0 +1,7 @@
+{
+  "url": "https://npmtrends.com/",
+  "title": "npm trends",
+  "description": "Compare npm package download counts over time",
+  "tags": ["coding"],
+  "best": false
+}
