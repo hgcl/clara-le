@@ -20,13 +20,13 @@
     "scope": "json",
     "prefix": "new-bookmark",
     "body": [
-      "{\"url\": \"${1:TODO url}\",",
-      "\"author\": \"${2:TODO author}\",",
+      "{",
+      "\"url\": \"${1:TODO url}\",",
       "\"title\": \"${3:TODO post title}\",",
       "\"date\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
       "\"description\": \"$4\",",
       "\"tags\": [\"${5:miscellaneous}\"],",
-      "\"best\": \"${6:false}\",",
+      "\"best\": \"${6:false}\"",
       "}"
     ],
     "description": "New empty bookmark"
