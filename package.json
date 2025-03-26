@@ -1,14 +1,16 @@
 {
-  "name": "eleventy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "clara-le",
+  "version": "2.0.0",
+  "description": "Clara Le's personal website",
+  "main": "index.html",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "personal blog"
+  ],
   "author": {
     "name": "Clara Le",
     "url": "https://clarale.com/"
@@ -20,5 +22,11 @@
     "markdown-it": "^14.1.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-anchor": "^9.0.1"
+  },
+  "repository": {
+    "url": "https://github.com/hgcl/clara-le"
+  },
+  "bugs": {
+    "url": "https://github.com/hgcl/clara-le/issues"
   }
 }
