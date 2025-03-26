@@ -1,6 +1,6 @@
 // Make search index JSON cleaner:
 // Make lower case, remove useless spaces, remove duplicates, remove less meaningful words
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addFilter("squash", function (text) {
     let content = new String(text);
 
@@ -28,4 +28,4 @@ module.exports = function (eleventyConfig) {
 
     return result;
   });
-};
+}

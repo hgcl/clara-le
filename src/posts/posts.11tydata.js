@@ -1,6 +1,6 @@
 // Applies to all files in this posts directory
 // Source docs: https://www.11ty.dev/docs/data-computed/
-module.exports = {
+const postsData = {
   eleventyComputed: {
     // Generate post creation year automatically from date frontmatter
     yearCreated: (data) => new Date(data.date).getFullYear(),
@@ -9,3 +9,4 @@ module.exports = {
   tags: "posts",
   directory: "posts",
 };
+export default postsData;

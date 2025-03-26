@@ -1,15 +1,22 @@
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+// Local plugins
+import formatDate from "./_config/formatDate.js";
+import formatDurationAttr from "./_config/formatDurationAttr.js";
+import filterTags from "./_config/filterTags.js";
+import squash from "./_config/squash.js";
+// Other plugins
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import markdownItPlugin from "./_config/markdownItPlugin.js";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   // LOCAL PLUGINS, see docs: https://www.11ty.dev/docs/quicktips/local-plugin/
-  eleventyConfig.addPlugin(require("./_config/formatDate.js"));
-  eleventyConfig.addPlugin(require("./_config/formatDurationAttr.js"));
-  eleventyConfig.addPlugin(require("./_config/filterTags.js"));
-  eleventyConfig.addPlugin(require("./_config/squash.js"));
+  eleventyConfig.addPlugin(formatDate);
+  eleventyConfig.addPlugin(formatDurationAttr);
+  eleventyConfig.addPlugin(filterTags);
+  eleventyConfig.addPlugin(squash);
 
   // 11ty official RSS plugin: https://www.11ty.dev/docs/plugins/rss/
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(require("./_config/markdownItPlugin.js"));
+  eleventyConfig.addPlugin(markdownItPlugin);
 
   // Copy the following folders over to _site
   eleventyConfig.addPassthroughCopy("public");
@@ -25,4 +32,4 @@ module.exports = function (eleventyConfig) {
       output: "_site",
     },
   };
-};
+}

@@ -1,6 +1,6 @@
 // Filter out all nav tags from displayed tag lists
 // Filter docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addFilter("filterTags", function (array, onlyTagsTwo) {
     const wordsRemoved = [
       "posts",
@@ -19,4 +19,4 @@ module.exports = function (eleventyConfig) {
     // Remove "wordsRemoved" list in final array
     return array.filter((el) => !wordsRemoved.includes(el));
   });
-};
+}

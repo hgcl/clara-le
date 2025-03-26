@@ -1,6 +1,6 @@
 // Format dates into YYYY-MM-DD format
 // Filter docs: https://www.11ty.dev/docs/languages/nunjucks/#filters
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addFilter("formatDate", function (date, size) {
     let newDate = new Date(date);
     if (size === "short") {
@@ -13,4 +13,4 @@ module.exports = function (eleventyConfig) {
     }
     return newDate;
   });
-};
+}
