@@ -1,15 +1,7 @@
-const fs = require("fs");
-const path = require("path");
+import getJsonFiles from "../_functions/getJsonFiles.js";
 
-// Get JSON files from bookmarks directory
-const bookmarkDir = path.resolve(__dirname, "../src/bookmarks");
+// Get JSON files from relevant directory
+const directory = "./src/bookmarks/";
 
-const bookmarks = fs
-  .readdirSync(bookmarkDir)
-  .filter((name) => path.extname(name) === ".json")
-  .map((name) => ({
-    key: path.parse(name).name,
-    ...require(path.join(bookmarkDir, name)),
-  }));
-
-module.exports = bookmarks;
+const allPostsData = await getJsonFiles(directory);
+export default allPostsData;

@@ -1,15 +1,7 @@
-const fs = require("fs");
-const path = require("path");
+import getJsonFiles from "../_functions/getJsonFiles.js";
 
-// Get JSON files from blogroll directory
-const blogrollDir = path.resolve(__dirname, "../src/blogroll");
+// Get JSON files from relevant directory
+const directory = "./src/blogroll/";
 
-const blogroll = fs
-  .readdirSync(blogrollDir)
-  .filter((name) => path.extname(name) === ".json")
-  .map((name) => ({
-    key: path.parse(name).name,
-    ...require(path.join(blogrollDir, name)),
-  }));
-
-module.exports = blogroll;
+const allPostsData = await getJsonFiles(directory);
+export default allPostsData;

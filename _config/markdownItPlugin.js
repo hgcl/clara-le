@@ -1,13 +1,12 @@
 // Adds markdown extra support
 // Footnotes: https://www.alpower.com/tutorials/configuring-footnotes-with-eleventy
 // Automatic anchor on headings: https://11ty.rocks/eleventyjs/slugs-anchors/
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItFootnote from "markdown-it-footnote";
+import slugify from "slugify";
 
-module.exports = function (eleventyConfig) {
-  const markdownIt = require("markdown-it");
-  const markdownItAnchor = require("markdown-it-anchor");
-  const markdownItFootnote = require("markdown-it-footnote");
-  const slugify = require("slugify");
-
+export default function (eleventyConfig) {
   let markdownItOptions = {
     html: true, // Enable HTML tags in source
     breaks: true, // Convert '\n' in paragraphs into <br>
@@ -30,4 +29,4 @@ module.exports = function (eleventyConfig) {
     .use(markdownItFootnote);
   // set the library to process markdown files
   eleventyConfig.setLibrary("md", markdownLib);
-};
+}

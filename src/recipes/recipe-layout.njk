@@ -1,111 +1,97 @@
 ---
 pagination:
-    data: "recipeData"
-    size: 1
-    alias: "recipe"
+  data: "recipeData"
+  size: 1
+  alias: "recipe"
 permalink: "recipes/{{ recipe.key }}/"
 eleventyComputed:
-    title: "{{ recipe.title }}"
-    date: "{{ recipe.date }}"
-    duration: "{{ recipe.duration }}"
-    directory: "recipes"
+  title: "{{ recipe.title }}"
+  date: "{{ recipe.date }}"
+  duration: "{{ recipe.duration }}"
+  directory: "recipes"
 ---
 
-{# This is the recipe post layout. It needs to be out of the _includes folder as it is generated through pagination.
-   The original data (JSON files) are from the recipes directory.
-   The mapped data is generated in_data/recipeData.js #}
-
-{% extends "layout/base.njk" %}
-
-{% block head %}
-  <style>
-    #ingredients {
-      font-size: smaller;
-      color: var(--color-text);
-    }
-    #ingredients li span::before {
-      content: "\A\2003";
-    }
-    #recipe-instructions {
-      max-width: var(--screen-md);
-    }
-  </style>
-  <style media="only screen and (min-width: 768px)">
-    #recipe-content {
-      display: flex;
-      flex-direction: row;
-      gap: var(--space-2xl);
-    }
-    #ingredients {
-      flex: 1 0 250px;
-      align-self: flex-start;
-      position: sticky;
-      top: 0;
-    }
-  </style>
-{% endblock %}
-
-{% block article %}
-  <article
-    lang="{{ recipe.lang }}"
-    class="h-recipe">
-    {# Pass tag data to post-header.njk #}
-    {% set tags = recipe.dataTag %}
-    {% include 'post-header.njk' %}
-    {% if recipe.intro %}
-      <p class="intro center">{{ recipe.intro }}</p>
-    {% endif %}
-    <div id="recipe-content" class="e-content">
-      <section id="ingredients">
-        <h2>Ingredients</h2>
-        {% for group in recipe.ingredients %}
-          {% if group.ingTitle %}
-            <h3>{{ group.ingTitle }}</h3>
-          {% endif %}
-          <ul>
-            {% for ingredient in group.ingMand %}
-              <li class="p-ingredient">{{ ingredient }}</li>
-            {% endfor %}
-            {% for ingredient in group.ingOpt %}
-              <li class="p-ingredient">{{ ingredient }}
-                <span class="label">optional</span>
-              </li>
-            {% endfor %}
-          </ul>
+{# This is the recipe post layout. It needs to be out of the _includes folder as
+it is generated through pagination. The original data (JSON files) are from the
+recipes directory. The mapped data is generated in_data/recipeData.js #} {%
+extends "layout/base.njk" %} {% block head %}
+<style>
+  #ingredients {
+    font-size: smaller;
+    color: var(--color-text);
+  }
+  #ingredients li span::before {
+    content: "\A\2003";
+  }
+  #recipe-instructions {
+    max-width: var(--screen-md);
+  }
+</style>
+<style media="only screen and (min-width: 768px)">
+  #recipe-content {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-2xl);
+  }
+  #ingredients {
+    flex: 1 0 250px;
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+  }
+</style>
+{% endblock %} {% block article %}
+<article lang="{{ recipe.lang }}" class="h-recipe">
+  {# Pass tag data to post-header.njk #} {% set tags = recipe.dataTag %} {%
+  include 'post-header.njk' %} {% if recipe.intro %}
+  <p class="intro center">{{ recipe.intro }}</p>
+  {% endif %}
+  <div id="recipe-content" class="e-content">
+    <section id="ingredients">
+      <h2>Ingredients</h2>
+      {% for group in recipe.ingredients %} {% if group.ingTitle %}
+      <h3>{{ group.ingTitle }}</h3>
+      {% endif %}
+      <ul>
+        {% for ingredient in group.ingMand %}
+        <li class="p-ingredient">{{ ingredient }}</li>
+        {% endfor %} {% for ingredient in group.ingOpt %}
+        <li class="p-ingredient">
+          {{ ingredient }}
+          <span class="label">optional</span>
+        </li>
         {% endfor %}
-      </section>
-      <section id="recipe-instructions" class="e-instructions">
-        <h2>Instructions</h2>
-        {% for group in recipe.instructions %}
-          {% if group.insTitle %}
-            <h3>{{ group.insTitle }}</h3>
-          {% endif %}
-          <ol>
-            {% for instruction in group.insSteps %}
-              <li>{{ instruction | safe }}</li>
-            {% endfor %}
-          </ol>
+      </ul>
+      {% endfor %}
+    </section>
+    <section id="recipe-instructions" class="e-instructions">
+      <h2>Instructions</h2>
+      {% for group in recipe.instructions %} {% if group.insTitle %}
+      <h3>{{ group.insTitle }}</h3>
+      {% endif %}
+      <ol>
+        {% for instruction in group.insSteps %}
+        <li>{{ instruction | safe }}</li>
         {% endfor %}
-        {% if recipe.notes %}
-        <h3>Notes</h3>
-        <ul>
-          {% for note in recipe.notes %}
-            {% if note %}
-            <li>
-            {{ note }}
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-        {% endif %}
-        {% if recipe.sourceUrl %}
-        <p class="subtle">
-          <em>Adapted from this
-            <a href="{{ recipe.sourceUrl }}">original recipe</a>
-          </em>
-        </p>
-        {% endif %}
-      </section>
-    </div>
-  </article>
+      </ol>
+      {% endfor %} {% if recipe.notes.length %}
+      <h3>Notes</h3>
+      <ul>
+        {% for note in recipe.notes %} {% if note %}
+        <li>
+          {{ note }}
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+      {% endif %} {% if recipe.sourceUrl %}
+      <p class="subtle">
+        <em
+          >Adapted from this
+          <a href="{{ recipe.sourceUrl }}">original recipe</a>
+        </em>
+      </p>
+      {% endif %}
+    </section>
+  </div>
+</article>
 {% endblock %}

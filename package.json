@@ -3,8 +3,10 @@
   "version": "2.0.0",
   "description": "Clara Le's personal website",
   "main": "index.html",
+  "type": "module",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
+    "dryrun": "npx @11ty/eleventy --dryrun",
+    "start": "npx @11ty/eleventy --quiet --serve --incremental",
     "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +19,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "markdown-it": "^14.1.0",
     "markdown-it-footnote": "^4.0.0",

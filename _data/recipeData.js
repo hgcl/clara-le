@@ -1,15 +1,7 @@
-const fs = require("fs");
-const path = require("path");
+import getJsonFiles from "../_functions/getJsonFiles.js";
 
-// Get JSON files from recipes directory
-const recipesDir = path.resolve(__dirname, "../src/recipes");
+// Get JSON files from relevant directory
+const directory = "./src/recipes/";
 
-const recipes = fs
-  .readdirSync(recipesDir)
-  .filter((name) => path.extname(name) === ".json")
-  .map((name) => ({
-    key: path.parse(name).name,
-    ...require(path.join(recipesDir, name)),
-  }));
-
-module.exports = recipes;
+const allPostsData = await getJsonFiles(directory);
+export default allPostsData;

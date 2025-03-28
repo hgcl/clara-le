@@ -1,10 +1,10 @@
-const blogrollData = require("./blogrollData");
+import blogrollData from "./blogrollData.js";
 
 async function getBlogrollLinks() {
   return blogrollData;
 }
 
-module.exports = async function () {
+export default async function () {
   try {
     const dataArray = await getBlogrollLinks();
     let finalArray = [];
@@ -13,4 +13,4 @@ module.exports = async function () {
   } catch (error) {
     console.error(error);
   }
-};
+}
