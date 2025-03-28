@@ -8,7 +8,8 @@
       href="/public/styles/global-v8.css"
       type="text/css"
     />
-    {% block head %}{% endblock %}
+    {% block head %}
+    {% endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:site_name" content="Clara Le" />
     <meta property="og:title" content="{{ title }}" />
@@ -44,8 +45,9 @@
           Menu
         </button>
         <ul id="menu">
-          {# Automatically adds nav items with Nunjucks #} {% for item in
-          navigationLinks %} {% if item.show === true %}
+          {# Automatically adds nav items with Nunjucks #} 
+          {% for item in navigationLinks %} 
+          {% if item.show === true %}
           <li>
             <a class="secondary-link" href="{{ item.url }}">{{ item.title }}</a>
           </li>
@@ -76,13 +78,15 @@
     {# TODO get decoration line out of footer #}
     <footer>
       {% block backtotop %}<a href="#main-section"
-        >Back to top<span aria-hidden="true">&nbsp;&uarr;</span>
+        >Back to top<span aria-hidden="true"> ↑</span>
       </a>
       {% endblock %}
       <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
     </footer>
-    {# TODO do I need to add async or defer in the script tag? #} {% block
-    script %} {% include 'search-script.njk' %} {% include 'nav-script.njk' %}
+    {# TODO do I need to add async or defer in the script tag? #} 
+    {% block script %} 
+    {% include 'search-script.njk' %} 
+    {% include 'nav-script.njk' %}
     {% endblock %}
   </body>
 </html>
