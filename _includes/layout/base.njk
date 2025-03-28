@@ -51,7 +51,9 @@
           <li>
             <a class="secondary-link" href="{{ item.url }}">{{ item.title }}</a>
           </li>
-          {% endif %} {% endfor %} {# SEARCH BUTTON #}
+          {% endif %} 
+          {% endfor %} 
+          {# SEARCH BUTTON #}
           <li>
             <a id="search-link" href="/search" class="secondary-link">
               <div
@@ -69,15 +71,16 @@
     </header>
     {# This main-section ID is used for the skip-to-content #}
     <main id="main-section">
-      {# Grab the content from the page data, dump it here, and mark it as safe
-      #} {# Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe
-      #} {% block article %}
-      {{ content | safe }}
+      {# Grab the content from the page data, dump it here, and mark it as safe #} 
+      {# Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe #} 
+      {% block article %}
+        {{ content | safe }}
       {% endblock %}
     </main>
     {# TODO get decoration line out of footer #}
     <footer>
-      {% block backtotop %}<a href="#main-section"
+      {% block backtotop %}
+      <a href="#main-section"
         >Back to top<span aria-hidden="true"> ↑</span>
       </a>
       {% endblock %}
@@ -85,8 +88,8 @@
     </footer>
     {# TODO do I need to add async or defer in the script tag? #} 
     {% block script %} 
-    {% include 'search-script.njk' %} 
-    {% include 'nav-script.njk' %}
+      {% include 'search-script.njk' %} 
+      {% include 'nav-script.njk' %}
     {% endblock %}
   </body>
 </html>
