@@ -1,6 +1,6 @@
 <script>
-// SEARCH SCRIPT
-// If Javascript enabled: open dialog and fetch search index
+  // SEARCH SCRIPT
+  // If Javascript enabled: open dialog and fetch search index
 
   // Attach a click handler to the search link
   const btn = document.querySelector("#search-link");
@@ -11,13 +11,13 @@
       event.preventDefault();
 
       // Get the data
-      let searchIndex = null;
+      let searchData = null;
       fetch("/search.json")
         .then(function (response) {
           return response.json();
         })
         .then(function (response) {
-          searchIndex = response.search;
+          searchData = response.search;
         });
 
       const dialog = document.querySelector("#search-dialog");
@@ -41,10 +41,10 @@
 
         // Look for matches in the search JSON and create a result array
         let results = [];
-        for (let item in searchIndex) {
-          let found = searchIndex[item].text.indexOf(str);
+        for (let item in searchData) {
+          let found = searchData[item].text.indexOf(str);
           if (found != -1) {
-            results.push(searchIndex[item]);
+            results.push(searchData[item]);
           }
         }
 
