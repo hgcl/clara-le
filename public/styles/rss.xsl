@@ -10,9 +10,7 @@
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
-        <title>
-          <xsl:value-of select="/rss/channel/title"/>RSS Feed | Clara Le
-        </title>
+        <title>RSS Feed | <xsl:value-of select="/rss/channel/title"/></title>
         <meta charset="UTF-8" />
         <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
         <meta
@@ -23,6 +21,11 @@
           rel="stylesheet"
           href="public/styles/global-v8.css"
           type="text/css"
+        />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="public/img/meta/favicon-32x32.png"
         />
         <style>
           header {
