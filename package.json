@@ -5,7 +5,8 @@
   "main": "index.html",
   "type": "module",
   "scripts": {
-    "start": "npx @11ty/eleventy --quiet --serve",
+    "dryrun": "npx @11ty/eleventy --dryrun",
+    "start": "npx @11ty/eleventy --quiet --serve --incremental",
     "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
