@@ -1,19 +1,7 @@
-import fs from "fs/promises";
+import getJsonFiles from "../_functions/getJsonFiles.js";
 
 // Get JSON files from relevant directory
 const directory = "./src/blogroll/";
 
-const response = await fs.readdir(directory);
-
-// Only keep JSON files in list
-const allPostsArray = response.filter((name) => name.slice(-5) === ".json");
-
-// Add each post data to `allPostsData` array
-let allPostsData = [];
-for (let fileIndex in allPostsArray) {
-  const filename = allPostsArray[fileIndex];
-  let post = JSON.parse(await fs.readFile(directory + filename));
-  allPostsData.push({ key: filename.slice(0, -5), ...post });
-}
-
+const allPostsData = await getJsonFiles(directory);
 export default allPostsData;
