@@ -43,10 +43,11 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Qurt: dried goat or sheep cheese balls, hard, salty and long-lasting
 - Sesame honey bars: crunchy, nutty (perfect snack for long train rides)
 
-## China
+## West China
 
 - La mian (拉面): hand-pulled noodles because yum
 - Mapo tofu (麻婆豆腐): super spicy silk tofu from the Sichuan region
+- Tofu: not sure why I never made my own
 - Laocang vinegar rice noodle (老仓米线): noodle soup with ground sesame and vinegar
 - Tea: small tea pot that you refill with hot water and pour into another recipient to avoid steeping the leaves for too long (love the mindful process, perfect for conversation)
 
@@ -66,6 +67,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Chè bắp: chè dessert that is sweet and creamy, made with glutinous rice, corn and coconut milk
 - Chè bột lọc bọc dừa: another chè, crunchy coconut bits wrapepd inside of chewy tapioca flour
 - Chè trôi nước: very similar to the previous chè, the filling is mung beans, and the water part is _very_ gingerish
+- Coconut ice cream: because it seems too easy (and delicious) not to make my own
 
 ## Malaysia
 
@@ -95,5 +97,12 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Chha trob (ឆាត្រប់): chargrilled eggplants mixed with minced pork, deliciously charred flavor
 - Coconut fish-sauce: a regular dip made with fish-sauce, but with an extra splash of coconut milk
 - Peanut snack: delicious when served with beer, roasted peanuts with garlic, kefir leaves, ginger and chili
+- Fried banana cakes: also very popular elsewhere, but Cambodians make the best ones (crunchy, caramelized, with sesame seeds)
 
-_To be continued..._ --ENDCHAR--
+## East and South China
+
+- Soy milk: I grew up with the unreplicable taste of sweet soy milk, I should definitely learn to reproduce it
+- Egg tart: a custardy delight, best when the dough is crunchy and flaky
+- Chasiu bao: a soft bao, with a juicy meat filling that is both sweet and savory
+
+_Still ongoing..._ --ENDCHAR--
