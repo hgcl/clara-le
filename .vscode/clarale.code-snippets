@@ -40,14 +40,14 @@
       "title: \"${1:TODO}\"",
       "subtitle: \"${2:TODO}\"",
       "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
-      "tags: [\"${3:update}\"],",
+      "tags: [\"${3:update}\"]",
       "lang: \"${4:en}\"",
       "---",
       "",
       "${5:TODO}"
     ],
     "description": "New empty blog post"
-  }
+  },
 
   "New recipe post": {
     "scope": "json",
@@ -69,7 +69,7 @@
       "],",
       "\"instructions\": [",
       "{",
-        "\"insTitle\": \"\",",
+      "\"insTitle\": \"\",",
       "\"insSteps\": [",
       "\"${7:TODO}\"",
       "]",
@@ -78,7 +78,7 @@
       "\"notes\": [],",
       "\"sourceUrl\": \"\"",
       "}"
-      ],
+    ],
     "description": "New empty blog post"
   }
 }
