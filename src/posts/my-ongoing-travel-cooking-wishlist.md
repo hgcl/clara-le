@@ -97,12 +97,12 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Chha trob (ឆាត្រប់): chargrilled eggplants mixed with minced pork, deliciously charred flavor
 - Coconut fish-sauce: a regular dip made with fish-sauce, but with an extra splash of coconut milk
 - Peanut snack: delicious when served with beer, roasted peanuts with garlic, kefir leaves, ginger and chili
-- Fried banana cakes: also very popular elsewhere, but Cambodians make the best ones (crunchy, caramelized, with sesame seeds)
+- Fried banana fritter (នំចេកចៀន): also very popular elsewhere, but Cambodians make the best ones (crunchy, caramelized, with sesame seeds)
 
 ## East and South China
 
 - Soy milk: I grew up with the unreplicable taste of sweet soy milk, I should definitely learn to reproduce it
 - Egg tart: a custardy delight, best when the dough is crunchy and flaky
-- Chasiu bao: a soft bao, with a juicy meat filling that is both sweet and savory
+- Chāshāo bāo (叉烧包): a soft bao, with a juicy meat filling that is both sweet and savory
 
 _Still ongoing..._ --ENDCHAR--
