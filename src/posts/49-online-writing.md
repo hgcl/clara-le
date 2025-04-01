@@ -12,10 +12,10 @@ That's great, I love writing there. The only thing is that this tiny world is ge
 
 ## Media diet
 
-- Flow (movie by Gints Zilbalodis, 2024): wanted to love this so much, but just too anthropomorphic to my taste
-- A Complete Unknown (movie by James Mangold, 2024): so Dylan was apparently a genius AND an ass
-- Le Gala de Paul Mirabel (stand up comedy, 2021): entertaining and funny-ish, but no real made-me-laugh moments
-- Dix jours avant la fin du monde (book by Manon Fargetton, 2021): French apocalyptic novel, thought it took itself too seriously
+- **Flow** (movie by Gints Zilbalodis, 2024): wanted to love this so much, but just too anthropomorphic to my taste
+- **A Complete Unknown** (movie by James Mangold, 2024): so Dylan was apparently a genius AND an ass
+- **Le Gala de Paul Mirabel** (stand up comedy, 2021): entertaining and funny-ish, but no real made-me-laugh moments
+- **Dix jours avant la fin du monde** (book by Manon Fargetton, 2021): French apocalyptic novel, thought it took itself too seriously
 
 ## Hyperlinks
 
