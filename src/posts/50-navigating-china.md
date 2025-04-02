@@ -28,7 +28,6 @@ Having most of my search results hidden, I discovered some "new" refreshing webs
 - [This page is under construction](https://localghost.dev/blog/this-page-is-under-construction/): localghost's love letter to the personal website
 - [How to clean the bathroom](https://anniemueller.com/posts/how-to-clean-the-bathroom): Annie's random post about cleaning her bathroom, oddly poetic
 - [Color Culture blog](https://colorculture.org/category/cinematography/): this is a colorist[^2] business website, but Salik Waquas also blogs about cinematography in depth
-
 - [The useless web](https://theuselessweb.com/): how come I didn't know this GEM existed?
 
 ## Media diet
