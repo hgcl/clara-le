@@ -1,4 +1,5 @@
 // Local plugins
+import consoleLog from "./_config/consoleLog.js";
 import formatDate from "./_config/formatDate.js";
 import formatDurationAttr from "./_config/formatDurationAttr.js";
 import filterTags from "./_config/filterTags.js";
@@ -9,6 +10,7 @@ import markdownItPlugin from "./_config/markdownItPlugin.js";
 
 export default function (eleventyConfig) {
   // LOCAL PLUGINS, see docs: https://www.11ty.dev/docs/quicktips/local-plugin/
+  eleventyConfig.addPlugin(consoleLog);
   eleventyConfig.addPlugin(formatDate);
   eleventyConfig.addPlugin(formatDurationAttr);
   eleventyConfig.addPlugin(filterTags);
