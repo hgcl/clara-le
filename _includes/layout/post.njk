@@ -1,9 +1,11 @@
 {% extends "layout/base.njk" %}
 
 {% block head %}
-  {# Do not show comments for Now page (this condition is applied 3 times in this layout) #}
+  <!-- WEBMENTIONS SUPPORT (receiving endpoint) -->
+  <link rel="webmention" href="https://webmention.io/clarale.com/webmention" />  
+  <!-- Do not show comments for Now page (this condition is applied 3 times in this layout) -->
   {% if (directory === "posts") and (title !== "Now") %}
-    {# COMMENT STYLES #}
+     <!-- COMMENT STYLES -->
     <style>
       .ohsomehoney {
         opacity: 0;
@@ -71,9 +73,9 @@
 {% endblock %}
 
 {% block article %}
-  {# TODO add article tag and e-content in a reusable wrapper, macro? #}
-  {# h-entry, e-content are microformats. Don't use for styling! #}
-  {# Microformats docs: https://microformats.org/wiki/h-entry #}
+  <!-- TODO add article tag and e-content in a reusable wrapper, macro? -->
+  <!-- h-entry, e-content are microformats. Don't use for styling! -->
+  <!-- Microformats docs: https://microformats.org/wiki/h-entry -->
     <article class="center h-entry" lang="{{ lang }}"> {% include 'post-header.njk' %}
     <div class="e-content">{{ content | safe | replace("--ENDCHAR--", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
   </article>
