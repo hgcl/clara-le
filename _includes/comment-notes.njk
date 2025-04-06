@@ -1,9 +1,9 @@
-{# COMMENT NOTES #}
-{# Show {{ comments | log }} to view comments JSON #}
-{# CSS note: this is styled in _includes/layout/post.njk #}
-  <section id="comments" class="center"> {% for key, entries in comments %}
+<!-- COMMENT NOTES -->
+<!-- CSS note: this is styled in _includes/layout/post.njk -->
+<section id="comments" class="center"> 
+  {% for key, entries in comments %}
     {% if key == page.fileSlug %}
-      <h2>Comments</h2>
+    <h2>Comments</h2>
       {% for filename, entry in entries | dictsort | reverse %}
         {% if entry._parent|length == 0 %}
           <article id="{{ entry._id }}">
@@ -11,17 +11,18 @@
               <span>{{ entry.name }}</span>
               <time datetime="{{ (entry.date * 1000) | formatDate }}" class="dt-published">{{ (entry.date * 1000) | formatDate }}</time>
             </span>
-            {# TODO replace \r\n as well #}
+            <!-- TODO replace \r\n as well -->
             <p>{{ entry.message | escape | replace("\n\n","</p><p>") }}</p>
+            <!-- The "reply" button is hidden for now -->
             <a
               id="reply-link"
               class="label"
               rel="nofollow"
               href="#comment-form"
-              onclick="replyToComment('parent-{{ entry._id }}', '{{ entry.name }}')">Reply</a>
+              onclick="replyToComment('parent-{{ entry._id }}', '{{ entry.name }}')" hidden>Reply</a>
           </article>
         {% endif %}
-        {# Loop through all comments and only show the replies that contain the parent id #}
+        <!-- Loop through all comments and only show the replies that contain the parent id -->
         {% for name, reply in entries %}
           {% if reply._parent == entry._id %}
             <article id="{{ reply._id }}" class="reply-note">
