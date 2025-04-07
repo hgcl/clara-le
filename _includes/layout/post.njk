@@ -55,7 +55,7 @@
       }
 
       /* COMMENT LIST */
-      #comments article {
+      #comments article, #webmentions article {
         border-bottom: solid 1px var(--color-text-subtle);
         padding: 1rem 0;
       }
@@ -81,7 +81,7 @@
   </article>
   {% if (directory === "posts") and (title !== "Now") %}
     {% include 'comment-form-disable.njk' %}
-    {% include 'comment-notes.njk' %}
+    {% include 'comment-list.njk' %}
   {% endif %}
 {% endblock %}
 
