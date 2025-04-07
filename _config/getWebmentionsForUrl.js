@@ -11,11 +11,9 @@ export default function (eleventyConfig) {
       const { author, published, content } = entry;
       return author.name && published && content;
     };
-    const sanitize = (entry) => {
-      const { content } = entry;
-      if (content["content-type"] === "text/html") {
-        content.value = sanitizeHtml(content.value);
-      }
+    const truncate = (entry) => {
+      entry.content.text = entry.content.text.slice(0, 1000);
+      delete entry.content.html;
       return entry;
     };
 
@@ -27,12 +25,12 @@ export default function (eleventyConfig) {
       .filter((entry) => entry["wm-target"] === url)
       .filter((entry) => repost.includes(entry["wm-property"]))
       .filter(hasRequiredFields)
-      .map(sanitize);
+      .map(truncate);
     const messagesMapped = webmentions
       .filter((entry) => entry["wm-target"] === url)
       .filter((entry) => messages.includes(entry["wm-property"]))
       .filter(hasRequiredFields)
-      .map(sanitize);
+      .map(truncate);
 
     return {
       likes: likesMapped,
