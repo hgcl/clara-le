@@ -1,5 +1,13 @@
-<!-- COMMENT NOTES -->
+<!-- COMMENT LIST -->
 <!-- CSS note: this is styled in _includes/layout/post.njk -->
+<!-- WEBMENTIONS -->
+<section id="webmentions" class="center"> 
+  <h2>Webmentions</h2>
+  <div id="webmention-list">
+    <p>There is no webmention for this post. Leave the first one!</p>
+  </div>
+</section>
+<!-- NORMAL COMMENTS -->
 <section id="comments" class="center"> 
   {% for key, entries in comments %}
     {% if key == page.fileSlug %}
