@@ -10,7 +10,7 @@
     {% for webmention in mentions.likes %}
       <article class="webmention-like">
         <span class="label divide-list">
-          <span>{{ webmention.author.name }}</span>
+          <span><span class="sr-only">Liked by</span><span class="webmention-icon">♥</span> {{ webmention.author.name }}</span>
           <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
           <a 
           {% if webmention.url %}
@@ -22,9 +22,9 @@
     {% endfor %}
     <!-- Reposts (e.g. Twitter) -->
     {% for webmention in mentions.repost %}
-      <article class="webmention-like">
+      <article class="webmention-repost">
         <span class="label divide-list">
-          <span>{{ webmention.author.name }}</span>
+          <span><span class="sr-only">Reposted by</span><span class="webmention-icon">↳</span> {{ webmention.author.name }}</span>
           <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
           <a 
           {% if webmention.url %}
@@ -40,9 +40,15 @@
         <span class="label divide-list">
           <span>{{ webmention.author.name }}</span>
           <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
+          <a 
+          {% if webmention.url %}
+            href="{{ webmention.url }}"
+          {% endif %}
+          >Source</a>
         </span>
         <!-- TODO replace \r\n as well -->
-        <p>{{ webmention.content.text | escape | replace("\n\n","</p><p>")  }}</p>
+        <p>{{ webmention.content.text | escape | replace("\n\n","</p><p>")  }} [...]</p>
+        <p><a href="{{ webmention.url }}">Read the rest</a></p>
       </article>
     {% endfor %}
   </div>
