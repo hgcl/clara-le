@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-04-07T07:11:45.310Z",
+  "lastFetched": "2025-04-07T07:34:28.720Z",
   "children": [
     {
       "type": "entry",
@@ -43,15 +43,13 @@
       "wm-target": "https://clarale.com/posts/indieweb-browsing/",
       "wm-protocol": "webmention",
       "name": "👍‍ Liked a post on clarale.com",
-      "syndication": [
-        "https://twitter.com/kandr3s"
-      ],
+      "syndication": ["https://twitter.com/kandr3s"],
       "content": {
         "html": "<a class=\"u-like-of u-url\"></a>\n      \n\n\n<span><a href=\"https://clarale.com/posts/indieweb-browsing/\">IndieWeb browsing | Clara Le</a></span>\n    <p class=\"e-content\"><a href=\"https://clarale.com/posts/indieweb-browsing/\" class=\"p-uid u-url\"></a>Published on April 16, 2022...</p>",
         "text": "IndieWeb browsing | Clara Le\n    Published on April 16, 2022..."
       },
       "like-of": "https://clarale.com/posts/indieweb-browsing/",
-      "wm-property": "like-of",
+      "wm-property": "repost-of",
       "wm-private": false,
       "rels": {
         "canonical": "https://kandr3s.co/like/indieweb-browsing"
@@ -70,7 +68,7 @@
       "wm-received": "2022-04-10T07:10:01Z",
       "wm-id": 1377822,
       "wm-source": "https://robinmetral.com/notes/webmentions-part-1/",
-      "wm-target": "https://clarale.com/",
+      "wm-target": "https://clarale.com/posts/indieweb-browsing/",
       "wm-protocol": "webmention",
       "name": "Webmentions, part 1",
       "content": {

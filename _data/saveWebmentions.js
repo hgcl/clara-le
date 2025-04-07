@@ -115,4 +115,4 @@ async function saveWebmentions() {
   return cache;
 }
 
-await saveWebmentions();
+// await saveWebmentions();
