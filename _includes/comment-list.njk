@@ -1,25 +1,68 @@
 <!-- COMMENT LIST -->
 <!-- CSS note: this is styled in _includes/layout/post.njk -->
+
 <!-- WEBMENTIONS -->
+{% set mentions = webmentions.children | getWebmentionsForUrl(page.url) %}
 <section id="webmentions" class="center"> 
   <h2>Webmentions</h2>
   <div id="webmention-list">
-    <p>There is no webmention for this post. Leave the first one!</p>
+    <!-- Likes -->
+    {% for webmention in mentions.likes %}
+      <article class="webmention-like">
+        <span class="label divide-list">
+          <span>{{ webmention.author.name }}</span>
+          <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
+          <a 
+          {% if webmention.url %}
+            href="{{ webmention.url }}"
+          {% endif %}
+          >Source</a>
+        </span>
+      </article>
+    {% endfor %}
+    <!-- Reposts (e.g. Twitter) -->
+    {% for webmention in mentions.repost %}
+      <article class="webmention-like">
+        <span class="label divide-list">
+          <span>{{ webmention.author.name }}</span>
+          <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
+          <a 
+          {% if webmention.url %}
+            href="{{ webmention.url }}"
+          {% endif %}
+          >Source</a>
+        </span>
+      </article>
+    {% endfor %}
+    <!-- Mentions and replies -->
+    {% for webmention in mentions.messages %}
+      <article class="webmention-message">
+        <span class="label divide-list">
+          <span>{{ webmention.author.name }}</span>
+          <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
+        </span>
+        <!-- TODO replace \r\n as well -->
+        <p>{{ webmention.content.text | escape | replace("\n\n","</p><p>")  }}</p>
+      </article>
+    {% endfor %}
   </div>
 </section>
+
 <!-- NORMAL COMMENTS -->
 <section id="comments" class="center"> 
+  <!-- `key` returns the array keys -->
   {% for key, entries in comments %}
     {% if key == page.fileSlug %}
     <h2>Comments</h2>
       {% for filename, entry in entries | dictsort | reverse %}
-        {% if entry._parent|length == 0 %}
+        {% if entry._parent | length == 0 %}
           <article id="{{ entry._id }}">
             <span class="label divide-list">
               <span>{{ entry.name }}</span>
               <time datetime="{{ (entry.date * 1000) | formatDate }}" class="dt-published">{{ (entry.date * 1000) | formatDate }}</time>
             </span>
             <!-- TODO replace \r\n as well -->
+            <!-- TODO truncate message for max length -->
             <p>{{ entry.message | escape | replace("\n\n","</p><p>") }}</p>
             <!-- The "reply" button is hidden for now -->
             <a
