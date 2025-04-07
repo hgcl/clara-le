@@ -24,8 +24,7 @@
     "dotenv": "^16.4.7",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.0.1",
-    "markdown-it-footnote": "^4.0.0",
-    "sanitize-html": "^2.15.0"
+    "markdown-it-footnote": "^4.0.0"
   },
   "repository": {
     "url": "https://github.com/hgcl/clara-le"
