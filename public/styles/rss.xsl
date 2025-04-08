@@ -19,6 +19,11 @@
         />
         <link
           rel="stylesheet"
+          href="/public/styles/reset.css"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
           href="public/styles/global-v8.css"
           type="text/css"
         />
