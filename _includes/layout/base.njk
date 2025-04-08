@@ -17,20 +17,20 @@
     <meta name="description" content="{{ description }}" />
     {% endif %}
     <title>{{ title }} | Clara Le</title>
-    {# FAVICON #}
+    <!-- FAVICON -->
     <link
       rel="icon"
       type="image/x-icon"
       href="../public/img/meta/favicon-32x32.png"
     />
-    {# RSS #}
+    <!-- RSS -->
     <link
       rel="alternate"
       type="application/rss+xml"
       href="/feed.xml"
       title="Clara Le"
     />
-    {# WEBMENTIONS SUPPORT (receiving endpoint) #}
+    <!-- WEBMENTIONS SUPPORT (receiving endpoint) -->
     <link rel="webmention" href="https://webmention.io/clarale.com/webmention" />  
   </head>
   <body>
@@ -47,7 +47,7 @@
           Menu
         </button>
         <ul id="menu">
-          {# Automatically adds nav items with Nunjucks #} 
+          <!-- Automatically adds nav items with Nunjucks  -->
           {% for item in navigationLinks %} 
           {% if item.show === true %}
           <li>
@@ -55,7 +55,7 @@
           </li>
           {% endif %} 
           {% endfor %} 
-          {# SEARCH BUTTON #}
+          <!-- SEARCH BUTTON -->
           <li>
             <a id="search-link" href="/search" class="secondary-link">
               <div
@@ -71,15 +71,15 @@
       <div class="deco-horiz-1 bg-deco" aria-hidden="true"></div>
       {% include 'search-dialog.njk' %}
     </header>
-    {# This main-section ID is used for the skip-to-content #}
+    <!-- This main-section ID is used for the skip-to-content -->
     <main id="main-section">
-      {# Grab the content from the page data, dump it here, and mark it as safe #} 
-      {# Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe #} 
+      <!-- Grab the content from the page data, dump it here, and mark it as safe  -->
+      <!-- Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe  -->
       {% block article %}
         {{ content | safe }}
       {% endblock %}
     </main>
-    {# TODO get decoration line out of footer #}
+    <!-- TODO get decoration line out of footer -->
     <footer>
       {% block backtotop %}
       <a href="#main-section"
@@ -88,9 +88,10 @@
       {% endblock %}
       <div class="deco-horiz-2 bg-deco" aria-hidden="true"></div>
     </footer>
-    {# TODO do I need to add async or defer in the script tag? #} 
+    <!-- TODO do I need to add async or defer in the script tag?  -->
       {% include 'search-script.njk' %} 
       {% include 'nav-script.njk' %}
+      {% include 'css-naked-day-script.njk' %}
     {% block script %} 
     {% endblock %}
   </body>
