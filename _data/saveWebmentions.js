@@ -4,7 +4,7 @@ import "dotenv/config";
 // Define Cache Location and API Endpoint
 const CACHE_DIR = "_data";
 const API = "https://webmention.io/api";
-const TOKEN = process.env.WEBMENTION_IO_TOKEN;
+const TOKEN = "-NDGL2FFSCZ-A4OCkl58fg";
 const DOMAIN = "clarale.com";
 
 // WARNING: lodash replacement
