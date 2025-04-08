@@ -1,5 +1,3 @@
-import * as sanitizeHtml from "sanitize-html";
-
 export default function (eleventyConfig) {
   eleventyConfig.addFilter("getWebmentionsForUrl", function (webmentions, url) {
     url = `https://clarale.com${url}`;

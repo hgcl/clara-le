@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import "dotenv/config";
 
 // Define Cache Location and API Endpoint
 const CACHE_DIR = "_data";
