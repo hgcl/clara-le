@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-04-07T07:34:28.720Z",
+  "lastFetched": "2025-04-08T12:12:01.739Z",
   "children": [
     {
       "type": "entry",
@@ -43,13 +43,15 @@
       "wm-target": "https://clarale.com/posts/indieweb-browsing/",
       "wm-protocol": "webmention",
       "name": "👍‍ Liked a post on clarale.com",
-      "syndication": ["https://twitter.com/kandr3s"],
+      "syndication": [
+        "https://twitter.com/kandr3s"
+      ],
       "content": {
         "html": "<a class=\"u-like-of u-url\"></a>\n      \n\n\n<span><a href=\"https://clarale.com/posts/indieweb-browsing/\">IndieWeb browsing | Clara Le</a></span>\n    <p class=\"e-content\"><a href=\"https://clarale.com/posts/indieweb-browsing/\" class=\"p-uid u-url\"></a>Published on April 16, 2022...</p>",
         "text": "IndieWeb browsing | Clara Le\n    Published on April 16, 2022..."
       },
       "like-of": "https://clarale.com/posts/indieweb-browsing/",
-      "wm-property": "repost-of",
+      "wm-property": "like-of",
       "wm-private": false,
       "rels": {
         "canonical": "https://kandr3s.co/like/indieweb-browsing"
@@ -68,12 +70,12 @@
       "wm-received": "2022-04-10T07:10:01Z",
       "wm-id": 1377822,
       "wm-source": "https://robinmetral.com/notes/webmentions-part-1/",
-      "wm-target": "https://clarale.com/posts/indieweb-browsing/",
+      "wm-target": "https://clarale.com/",
       "wm-protocol": "webmention",
       "name": "Webmentions, part 1",
       "content": {
         "html": "<p>Although I've known about <a href=\"https://www.w3.org/TR/webmention/\">webmentions</a> for years, I never actually set them up before.</p><p>But with encouragement from <a href=\"https://clarale.com/\">Clara</a> who shared a good intro article by Rowan Manning, <em><a href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\">Webmentions for your Static Site</a></em>, I think now's the time!</p><p>I have no intention of listing the hoops through which one has to jump in order to set up webmentions. It was painful enough to wrap my head around all the components and quirks of the standard—I'm not surprised that webmentions haven't really been picking up speed.</p><p>This note is little more than a test of my setup: if it shows up as a reaction to Rowan's post linked above, it worked.</p><p>At this point, this website should be set up for:</p><ul><li>\n<a href=\"https://indieweb.org/Web_sign-in\">Web sign-in</a> using <a href=\"https://microformats.org/wiki/RelMeAuth\">RelMeAuth</a>, basically it has a link with <code>rel=\"me\"</code> so I can log into services using my domain</li>\n<li>Receiving webmentions using the popular <a href=\"https://webmention.io/\">Webmention.io</a> service<a href=\"https://robinmetral.com/notes/webmentions-part-1/#user-content-fn-1\">1</a>. This <em>just works</em> with a couple <code>&lt;link&gt;</code> tags in my <code>&lt;head&gt;</code>, Webmention.io handles the complexity (thank you!)</li>\n<li>Microformats in notes so that other people's websites can receive webmentions from me. This uses the (badly documented, let's be honest) <a href=\"http://microformats.org/wiki/h-entry\"><code>h-entry</code> microformat</a>\n</li>\n</ul><p>Next up (for part 2):</p><ul><li>Display webmentions from others at the bottom of notes (provided by Webmention.io)</li>\n<li>Dispatch webmentions automatically in CI. Right now, I'm using yet another service called <a href=\"https://telegraph.p3k.io/\">Telegraph</a> to manually send webmentions from a web UI (a.k.a. to make a POST request that tells a target website that my note mentions it)</li>\n<li>Fix things after trial and error: it looks like this is how it's done!</li>\n</ul><p>I find the concept of webmentions really cool and I wish they weren't as complicated to understand/set up. Is it a design problem or a documentation problem? Maybe both?</p><h2>Footnotes</h2>\n<ol><li><p>Using this service is why I needed RelMeAuth in the first place. <a href=\"https://robinmetral.com/notes/webmentions-part-1/#user-content-fnref-1\">↩</a></p></li></ol>",
-        "text": "Although I've known \n\nabout webmentions for years, I never actually set them up before.But with encouragement from Clara who shared a good intro article by Rowan Manning, Webmentions for your Static Site, I think now's the time!I have no intention of listing the hoops through which one has to jump in order to set up webmentions. It was painful enough to wrap my head around all the components and quirks of the standard—I'm not surprised that webmentions haven't really been picking up speed.This note is little more than a test of my setup: if it shows up as a reaction to Rowan's post linked above, it worked.At this point, this website should be set up for:\nWeb sign-in using RelMeAuth, basically it has a link with rel=\"me\" so I can log into services using my domain\nReceiving webmentions using the popular Webmention.io service1. This just works with a couple <link> tags in my <head>, Webmention.io handles the complexity (thank you!)\nMicroformats in notes so that other people's websites can receive webmentions from me. This uses the (badly documented, let's be honest) h-entry microformat\n\nNext up (for part 2):Display webmentions from others at the bottom of notes (provided by Webmention.io)\nDispatch webmentions automatically in CI. Right now, I'm using yet another service called Telegraph to manually send webmentions from a web UI (a.k.a. to make a POST request that tells a target website that my note mentions it)\nFix things after trial and error: it looks like this is how it's done!\nI find the concept of webmentions really cool and I wish they weren't as complicated to understand/set up. Is it a design problem or a documentation problem? Maybe both?Footnotes\nUsing this service is why I needed RelMeAuth in the first place. ↩"
+        "text": "Although I've known about webmentions for years, I never actually set them up before.But with encouragement from Clara who shared a good intro article by Rowan Manning, Webmentions for your Static Site, I think now's the time!I have no intention of listing the hoops through which one has to jump in order to set up webmentions. It was painful enough to wrap my head around all the components and quirks of the standard—I'm not surprised that webmentions haven't really been picking up speed.This note is little more than a test of my setup: if it shows up as a reaction to Rowan's post linked above, it worked.At this point, this website should be set up for:\nWeb sign-in using RelMeAuth, basically it has a link with rel=\"me\" so I can log into services using my domain\nReceiving webmentions using the popular Webmention.io service1. This just works with a couple <link> tags in my <head>, Webmention.io handles the complexity (thank you!)\nMicroformats in notes so that other people's websites can receive webmentions from me. This uses the (badly documented, let's be honest) h-entry microformat\n\nNext up (for part 2):Display webmentions from others at the bottom of notes (provided by Webmention.io)\nDispatch webmentions automatically in CI. Right now, I'm using yet another service called Telegraph to manually send webmentions from a web UI (a.k.a. to make a POST request that tells a target website that my note mentions it)\nFix things after trial and error: it looks like this is how it's done!\nI find the concept of webmentions really cool and I wish they weren't as complicated to understand/set up. Is it a design problem or a documentation problem? Maybe both?Footnotes\nUsing this service is why I needed RelMeAuth in the first place. ↩"
       },
       "mention-of": "https://clarale.com/",
       "wm-property": "mention-of",
