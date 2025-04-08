@@ -32,7 +32,11 @@ export default function (eleventyConfig) {
       .filter(hasRequiredFields)
       .map(truncate);
 
+    const webmentionCount =
+      likesMapped.length + repostMapped.length + messagesMapped.length;
+
     return {
+      count: webmentionCount,
       likes: likesMapped,
       repost: repostMapped,
       messages: messagesMapped,

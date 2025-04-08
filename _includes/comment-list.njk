@@ -3,6 +3,8 @@
 
 <!-- WEBMENTIONS -->
 {% set mentions = webmentions.children | getWebmentionsForUrl(page.url) %}
+<!-- Check that there are webmentions for this URL -->
+{% if mentions.count > 0 %}
 <section id="webmentions" class="center"> 
   <h2>Webmentions</h2>
   <div id="webmention-list">
@@ -53,6 +55,7 @@
     {% endfor %}
   </div>
 </section>
+{% endif %}
 
 <!-- NORMAL COMMENTS -->
 <section id="comments" class="center"> 
