@@ -4,10 +4,12 @@
 <!-- WEBMENTIONS -->
 {% set mentions = webmentions.children | getWebmentionsForUrl(page.url) %}
 <!-- Check that there are webmentions for this URL -->
-{% if mentions.count > 0 %}
 <section id="webmentions" class="center"> 
   <h2>Webmentions</h2>
   <div id="webmention-list">
+    {% if mentions.count === 0 %}
+      <p>There is no webmention for this post, send the first one!</p>
+    {% endif %}
     <!-- Likes -->
     {% for webmention in mentions.likes %}
       <article class="webmention-like">
@@ -55,7 +57,6 @@
     {% endfor %}
   </div>
 </section>
-{% endif %}
 
 <!-- NORMAL COMMENTS -->
 <section id="comments" class="center"> 
