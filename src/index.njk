@@ -23,7 +23,7 @@ icon: /public/img/meta/drawing-v-sign.svg
       width: 100%;
     }
   </style>
-  {# INDIEWEB AUTH #}
+  <!-- INDIEWEB AUTH -->
   <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
   <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
   <link href="https://github.com/hgcl" rel="me"/>
@@ -32,7 +32,7 @@ icon: /public/img/meta/drawing-v-sign.svg
 {% block article %}
   <div id="index">
     <h1 class="sr-only">{{ title }}</h1>
-    {# This div is the same as in 'post-header.njk', but with a different visible H1 #}
+    <!-- This div is the same as in 'post-header.njk', but with a different visible H1 -->
     <div class="post-header">
       <div class="headline-row">
         <span class="h1">Hello</span>
@@ -46,7 +46,7 @@ icon: /public/img/meta/drawing-v-sign.svg
       <a href="/blogroll/">bookmark links</a>, and do anything I feel like doing
             here.
     </p>
-    {# LATEST POSTS #}
+    <!-- LATEST POSTS -->
     <section id="latest-posts">
       <h2>Latest musings</h2>
       <ul class="nobullet post-rows-with-label">
@@ -62,25 +62,15 @@ icon: /public/img/meta/drawing-v-sign.svg
         {% endfor %}
       </ul>
     </section>
-    {# WEBRING BUTTON #}
+    <!-- WEBRING BUTTON -->
     <div id="webring">
       <a class="hide" href="https://xn--sr8hvo.ws/previous">Shuffle IndieWeb Webring</a>
       <a class="button" href="https://xn--sr8hvo.ws/next" target="_blank" rel="noopener noreferrer">Shuffle IndieWeb Webring</a>
     </div>
-    {# H-CARD (hidden, for Indieweb) #}
-    <div class="hide h-card">
-      <a class="u-url" href="https://clarale.com/"></a>
-      <img class="u-photo" loading="lazy" src="/public/img/meta/clara.svg"/>
-      <div class="p-note">
-        Hey, I'm
-        <span class="p-name p-given-name">Clara</span>
-        — a tinkerer lost in the middle of the French countryside. My website is my sandbox where I document some of my
-        experiments, both digital and analog.
-      </div>
-    </div>
+    {% include 'h-card.njk' %} 
   </div>
 {% endblock %}
 
 {% block backtotop %}
-  {# Empty block, do not show back-to-top link #}
+  <!-- Empty block, do not show back-to-top link -->
 {% endblock %}

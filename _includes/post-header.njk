@@ -6,7 +6,7 @@
       {% endif %}
     </h1>
     <!-- MICROFORMATS -->
-    <a rel="author" class="p-author h-card hide" href="https://clarale.com">Clara Le</a>
+    {% include 'h-card.njk' %} 
     <!-- in-reply-to: https://indieweb.org/in-reply-to -->
     <a class="u-in-reply-to h-cite hide" rel="in-reply-to" href="{{ inReplyTo }}">Replied to</a>
     {% if icon %}
