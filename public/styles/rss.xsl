@@ -42,7 +42,7 @@
         <div class="deco-vert-1 bg-deco" aria-hidden="true"></div>
         <div class="deco-vert-2 bg-deco" aria-hidden="true"></div>
         <header>
-          <a class="skip-to-content button" href="#main-section"
+          <a id="skip-to-content" class="button" href="#main-section"
             >Skip to content</a
           >
           <div class="deco-horiz-1 bg-deco" aria-hidden="true"></div>

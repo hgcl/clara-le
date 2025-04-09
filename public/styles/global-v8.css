@@ -184,7 +184,7 @@ dialog .close-button {
   border-width: 0;
 }
 /* Skip to content button (before nav) */
-.skip-to-content {
+#skip-to-content {
   z-index: 2;
   position: absolute;
   transform: translateY(-280%);
@@ -193,7 +193,7 @@ dialog .close-button {
   /* Removes default link styles */
   border: none;
 }
-.skip-to-content:focus {
+#skip-to-content:focus {
   transform: translateY(20%);
 }
 
