@@ -3,7 +3,7 @@ title: "Testing webmentions"
 date: "2000-07-05"
 tags: [""]
 lang: "en"
-inReplyTo: "https://webmention.rocks/test/1"
+inReplyTo: "https://webmention.rocks/test/12"
 ---
 
 https://webmention.rocks/test/1
