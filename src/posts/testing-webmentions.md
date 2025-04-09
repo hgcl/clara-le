@@ -5,8 +5,6 @@ tags: [""]
 lang: "en"
 ---
 
-https://webmention.rocks/update/1
-
-https://webmention.rocks/update/1/part/2
+https://webmention.rocks/delete/1
 
 (Webmentions sent with https://telegraph.p3k.io)
