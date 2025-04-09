@@ -3,8 +3,11 @@
   <a class="u-url p-name" href="https://clarale.com/">Clara</a>
   <span class="p-name p-given-name"></span>
   <img class="u-photo" loading="lazy" src="/public/img/meta/clara.svg"/>
+  <!-- Only show the following description on homepage -->
+  {% if (title === "Home") %}
   <div class="p-note">
     Hey, I'm Clara — a tinkerer lost in the middle of the French countryside. My website is my sandbox where I document some of my
     experiments, both digital and analog.
   </div>
+  {% endif %}
 </div>
