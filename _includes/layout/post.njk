@@ -1,8 +1,6 @@
 {% extends "layout/base.njk" %}
 
 {% block head %}
-  <!-- WEBMENTIONS SUPPORT (receiving endpoint) -->
-  <link rel="webmention" href="https://webmention.io/clarale.com/webmention" />  
   <!-- Do not show comments for Now page (this condition is applied 3 times in this layout) -->
   {% if (directory === "posts") and (title !== "Now") %}
      <!-- COMMENT STYLES -->
