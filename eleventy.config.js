@@ -25,6 +25,14 @@ export default function (eleventyConfig) {
   // Copy the following folders over to _site
   eleventyConfig.addPassthroughCopy("public");
 
+  // Preprocessor API: https://www.11ty.dev/docs/config-preprocessors/
+  // Posts with "draft: true" anywhere in its data cascade won't be built, except if built with `--serve` or `--watch` modes
+  eleventyConfig.addPreprocessor("drafts", "*", (data) => {
+    if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+      return false;
+    }
+  });
+
   return {
     // When a passthrough file is modified, rebuild the pages:
     passthroughFileCopy: true,
