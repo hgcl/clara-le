@@ -78,9 +78,10 @@
 
 {% block article %}
   <!-- TODO add article tag and e-content in a reusable wrapper, macro? -->
-  <!-- h-entry, e-content are microformats. Don't use for styling! -->
+  <!-- MICROFORMATS: h-entry, e-content are microformats. Don't use for styling! -->
   <!-- Microformats docs: https://microformats.org/wiki/h-entry -->
-    <article class="center h-entry" lang="{{ lang }}"> {% include 'post-header.njk' %}
+  <article class="center h-entry" lang="{{ lang }}"> 
+    {% include 'post-header.njk' %}
     <div class="e-content">{{ content | safe | replace("--ENDCHAR--", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
   </article>
   {% if (directory === "posts") and (title !== "Now") %}

@@ -5,12 +5,15 @@
         ({{ year }})
       {% endif %}
     </h1>
+    <!-- MICROFORMATS -->
     <a rel="author" class="p-author h-card hide" href="https://clarale.com">Clara Le</a>
+    <!-- in-reply-to: https://indieweb.org/in-reply-to -->
+    <a class="u-in-reply-to h-cite hide" rel="in-reply-to" href="{{ inReplyTo }}">Original post</a>
     {% if icon %}
       <div aria-hidden="true" class="icon" style="mask-image: url('{{ icon }}')"></div>
     {% endif %}
   </div>
-  {# Only show these metadata if there is a date #}
+  <!-- Only show these metadata if there is a date -->
   {% if (date) or (dateModified) %}
     <p class="label divide-list center">
       {% if subtitle %}
@@ -25,7 +28,7 @@
           {% endfor %}
         </span>
       {% endif %}
-      {# Prioritize dateModifited over date #}
+      <!-- Prioritize dateModifited over date -->
       {% if dateModified %}
         <span class="sr-only">Updated on</span>
         <time datetime="{{ dateModified | formatDate }}" class="dt-updated">{{ dateModified | formatDate }}</time>
@@ -38,13 +41,13 @@
       {% endif %}
       {% if tags %}
         <span>
-          {# TODO remove extra space #}
+          <!-- TODO remove extra space -->
           {% set comma = joiner() %}
           {% for tag in tags | filterTags %}
             {{ comma() }}
             <a href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>
           {% endfor %}
-          {# We need a second loop for tags that are filtered in a separate selector to make recipes page work. Reason: all tags are under the same "tags" frontmatter and cannot be differentiated before. #}
+          <!-- We need a second loop for tags that are filtered in a separate selector to make recipes page work. Reason: all tags are under the same "tags" frontmatter and cannot be differentiated before. -->
           {% for tag in tags | filterTags("tags-two") %}
             {{ comma() }}
             <a href="/{{ directory }}/?r={{ tag }}">{{ tag }}</a>
