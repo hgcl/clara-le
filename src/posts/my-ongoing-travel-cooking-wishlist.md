@@ -103,6 +103,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 
 - Soy milk: I grew up with the unreplicable taste of sweet soy milk, I should definitely learn to reproduce it
 - Egg tart: a custardy delight, best when the dough is crunchy and flaky
-- Chāshāo bāo (叉烧包): a soft bao, with a juicy meat filling that is both sweet and savory
+- Chāshāo bāozǐ (叉烧包子): a soft bao, with a juicy meat filling that is both sweet and savory
+- Chǎo guǒ (炒粿): these stir-fried "radish" cakes are just the perfect comfort food
 
 _Still ongoing..._ --ENDCHAR--
