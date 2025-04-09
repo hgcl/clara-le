@@ -7,7 +7,7 @@ pagination:
     size: 1
 ---
 
-{# TODO Find out why this page is also created at urls `recipes/1/` and `recipes/2/` #}
+<!-- TODO Find out why this page is also created at urls `recipes/1/` and `recipes/2/` -->
 
 {% from 'macro/list-filter-selector.njk' import listFilterSelector %}
 {% extends "layout/base.njk" %}
@@ -36,11 +36,11 @@ pagination:
       steps and ingredients might differ from the original instructions to suit my preferences.
     </p>
 
-    {# POST FILTER SELECTOR #}
-    {# TODO review some tag names #}
+    <!-- POST FILTER SELECTOR -->
+    <!-- TODO review some tag names -->
     {{ listFilterSelector('category',['Main','Dessert','Side','Preserve','DIY'],'season',['Spring','Summer','Fall','Winter']) }}
 
-    {# RECIPE LIST #}
+    <!-- RECIPE LIST -->
     <ul id="recipes" class="nobullet filtered-list">
       {% for item in pagination.pages %}
         <li data-tag="{{ item.dataTag }}" data-tag-two="{{ item.dataTag }}">

@@ -10,7 +10,7 @@ icon: /public/img/meta/drawing-face.svg
 {% block article %}
   <section class="center" id="posts">
     {% include 'post-header.njk' %}
-    {# WORD COUNT CALCULATION #}
+    <!-- WORD COUNT CALCULATION -->
     {% set wordCount = null %}
     {% for post in collections.posts %}
       {% set fixedContent = post.content | striptags %}
@@ -23,17 +23,17 @@ icon: /public/img/meta/drawing-face.svg
       <a href="/feed.xml">RSS feed</a>. So far, I've written {{ collections.posts.length }} posts, totaling {{ wordCount }} words (oh my).
     </p>
 
-    {# POST FILTER SELECTOR #}
+    <!-- POST FILTER SELECTOR -->
     {{ listFilterSelector('category', ['Creative','Digital','Now','Review','Thought','Update'], 'language', ['EN','FR']) }}
 
-    {# POST LIST #}
-    {# Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ #}
+    <!-- POST LIST -->
+    <!-- Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ -->
       {% for yearCreated, posts in collections.posts | groupby("data.yearCreated") | dictsort | reverse %}
         <h2>
       {{ yearCreated }}
       </h2>
         <ul
-        class="nobullet post-rows-with-label filtered-list"> {# 11ty sorts collections by date by default, just need to reverse to display as LIFO #}
+        class="nobullet post-rows-with-label filtered-list"> <!-- 11ty sorts collections by date by default, just need to reverse to display as LIFO -->
         {% for post in posts | reverse %}
           <li data-tag="{{ post.data.tags }}" data-tag-two="{{ post.data.lang }}">
             <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>

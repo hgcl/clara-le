@@ -5,7 +5,7 @@
       <select id="filter-one-select" aria-describedby="notes-filter-js-warning" onchange="filterNotes()">
         <option value="">All</option>
         {% for item in filterOne %}
-          {# `lower` filter makes entire sting lowercase #}
+          <!-- `lower` filter makes entire sting lowercase -->
           <option value="{{ item | lower }}">{{ item }}</option>
         {% endfor %}
       </select>

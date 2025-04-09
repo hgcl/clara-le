@@ -38,7 +38,7 @@ pagination:
     >
       Open a random link
     </a>
-    {# LINK LIST #}
+    <!-- LINK LIST -->
     {% for tags, items in pagination.pages | groupby("tags") | dictsort %}
       <h2 id="{{ tags | slugify }}">{{ tags }}</h2>
       <ul class="post-rows">

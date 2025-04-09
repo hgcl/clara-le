@@ -83,10 +83,10 @@ icon: /public/img/meta/drawing-camera.svg
       A curated and non-exhaustive list of books, movies, series, and games I loved and would recommend.
     </p>
 
-    {# POST FILTER SELECTOR #}
+    <!-- POST FILTER SELECTOR -->
     {{ listFilterSelector('category', ['Movie','Book','TV series','Game']) }}
 
-    {# POST LIST #}
+    <!-- POST LIST -->
     {% for yearCreated, posts in collections.media | groupby("data.yearCreated") | dictsort | reverse %}
       <h2>{{ yearCreated | replace("2021","prior") }}</h2>
       <ul class="nobullet post-rows filtered-list">
