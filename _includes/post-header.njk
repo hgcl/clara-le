@@ -5,8 +5,10 @@
         ({{ year }})
       {% endif %}
     </h1>
-    <!-- MICROFORMATS -->
+    <!-- MICROFORMATS: https://microformats.org/ -->
     {% include 'h-card.njk' %} 
+    <!-- define the canonical URL of this specific page/post -->
+    <a rel="canonical" class="u-url hide" href="{{ page.url }}">Page URL</a>
     <!-- in-reply-to: https://indieweb.org/in-reply-to -->
     <a class="u-in-reply-to h-cite hide" rel="in-reply-to" href="{{ inReplyTo }}">Replied to</a>
     {% if icon %}
