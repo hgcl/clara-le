@@ -23,7 +23,8 @@
 
     // Inject an explanation at the top of the document
     let message = document.createElement('div');
-    message.innerHTML = `<p><strong>Why is this page looking so simple?</strong></p><p>It's <a href="https://css-naked-day.github.io">CSS Naked Day</a>! The idea behind this annual day is to promote web standards — a website should be functional without all the CSS fluff.</p><hr>`;
-    document.body.insertBefore(message, document.body.firstChild);
+    message.innerHTML = `<p><strong>Why is this page looking so simple?</strong></p><p>It's <a href="https://css-naked-day.github.io">CSS Naked Day</a>! The idea behind this annual day is to promote web standards — a website should be functional without all the CSS fluff.</p><hr/>`;
+    let skipToContentEl = document.getElementById("skip-to-content");
+    skipToContentEl.insertAdjacentElement("afterend", message);
   }
 </script>
