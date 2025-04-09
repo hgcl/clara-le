@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-04-08T12:12:01.739Z",
+  "lastFetched": "2025-04-09T06:35:17.494Z",
   "children": [
     {
       "type": "entry",
@@ -79,6 +79,30 @@
       },
       "mention-of": "https://clarale.com/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Webmention Rocks!",
+        "photo": "https://webmention.io/avatar/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png",
+        "url": ""
+      },
+      "url": "https://webmention.rocks/receive/1",
+      "published": "2025-04-08T06:20:49-07:00",
+      "wm-received": "2025-04-08T13:20:52Z",
+      "wm-id": 1902175,
+      "wm-source": "https://webmention.rocks/receive/1/30c1761d9708c54f60b4157f8041f3d5",
+      "wm-target": "https://clarale.com/posts/now-archive-10",
+      "wm-protocol": "webmention",
+      "name": "Receiver Test #1",
+      "content": {
+        "html": "<p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href=\"https://www.w3.org/TR/webmention/#receiving-webmentions\">appropriate headers</a>.</p>\n        <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>",
+        "text": "This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the appropriate headers.\n        If your endpoint returns HTTP 201, then it MUST also return a Location header. If it returns HTTP 200 or 202, then it MUST NOT include a Location header."
+      },
+      "in-reply-to": "https://clarale.com/posts/now-archive-10",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
