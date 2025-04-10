@@ -1,9 +1,10 @@
 ---
 permalink: search.json
 ---
-<!-- Applied from https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/ -->
-<!-- TODO review squash and search-script so that they work better together -->
-<!-- TODO add recipes -->
+{# SEARCH DATA (generates json file) #}
+{# Applied from https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/ #}
+{# TODO review squash and search-script so that they work better together #}
+{# TODO add recipes #}
 {"search" : [
 {% for item in collections.posts %}
   {
@@ -20,7 +21,7 @@ permalink: search.json
     "directory" : "{{ item.data.directory }}",
     "text" : "{{ (item.data.title + " " + item.data.author + " " + item.templateContent) | squash | trim }}"
   }
-  <!-- Do not add comma after last item -->
+  {# Do not add comma after last item #}
   {% if not loop.last %},{% else %}{% endif %}
 {% endfor %}
 ]}

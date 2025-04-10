@@ -96,22 +96,24 @@ function readFromCache() {
 }
 
 async function saveWebmentions() {
-  const cache = readFromCache();
+  try {
+    const cache = readFromCache();
 
-  if (cache.children.length) {
-    console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
-  }
+    if (cache.children.length) {
+      console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
+    }
 
-  const feed = await fetchWebmentions(cache.lastFetched);
-  if (feed) {
-    const webmentions = {
-      lastFetched: new Date().toISOString(),
-      children: mergeWebmentions(cache, feed),
-    };
-    writeToCache(webmentions);
-    return webmentions;
-  }
-  return cache;
+    const feed = await fetchWebmentions(cache.lastFetched);
+    if (feed) {
+      const webmentions = {
+        lastFetched: new Date().toISOString(),
+        children: mergeWebmentions(cache, feed),
+      };
+      writeToCache(webmentions);
+      return webmentions;
+    }
+    return cache;
+  } catch {}
 }
 
 await saveWebmentions();
