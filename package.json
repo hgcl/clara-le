@@ -30,5 +30,8 @@
   },
   "bugs": {
     "url": "https://github.com/hgcl/clara-le/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
   }
 }

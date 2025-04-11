@@ -8,6 +8,7 @@ import getWebmentionsForUrl from "./_config/getWebmentionsForUrl.js";
 // Other plugins
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import markdownItPlugin from "./_config/markdownItPlugin.js";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 export default function (eleventyConfig) {
   // LOCAL PLUGINS, see docs: https://www.11ty.dev/docs/quicktips/local-plugin/
@@ -21,7 +22,8 @@ export default function (eleventyConfig) {
   // 11ty official RSS plugin: https://www.11ty.dev/docs/plugins/rss/
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(markdownItPlugin);
-
+  // Syntax highlighting plugin: https://www.11ty.dev/docs/plugins/syntaxhighlight/
+  eleventyConfig.addPlugin(syntaxHighlight);
   // Copy the following folders over to _site
   eleventyConfig.addPassthroughCopy("public");
 
