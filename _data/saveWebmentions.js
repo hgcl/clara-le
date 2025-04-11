@@ -113,7 +113,9 @@ async function saveWebmentions() {
       return webmentions;
     }
     return cache;
-  } catch {}
+  } catch (error) {
+    console.error(">>> Couldn't fetch and save webmentions: " + error);
+  }
 }
 
 await saveWebmentions();

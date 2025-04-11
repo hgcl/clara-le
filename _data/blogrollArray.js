@@ -11,6 +11,6 @@ export default async function () {
     dataArray.forEach((el) => finalArray.push(el.url));
     return finalArray;
   } catch (error) {
-    console.error(error);
+    console.error(">>> Get blogroll links: " + error);
   }
 }
