@@ -1,28 +1,31 @@
 <!-- CSS NAKED DAY (April 9) script -->
 <!-- Inspired from: https://bitbucket.org/snippets/200ok/dKpk -->
 <script>
+  // Get current date
   let today = new Date();
   let month = today.getMonth();
   let day = today.getDate();
 
-  // For testing, uncomment the following:
+  // For testing, uncomment the following line:
   // month = 3; day = 9;
 
   if (month === 3 && day === 9) {
     // Remove all stylesheets
-    const stylesheetEls = document.querySelectorAll('link[rel~="stylesheet"], style');
+    const stylesheetEls = document.querySelectorAll(
+      'link[rel~="stylesheet"], style'
+    );
     for (const el of stylesheetEls) {
       el.parentNode.removeChild(el);
     }
 
-   // Remove all inline styles
-   let attrs = document.querySelectorAll('[style]');
-   for (const el of attrs) {
-      el.removeAttribute('style');
+    // Remove all inline styles
+    let attrs = document.querySelectorAll("[style]");
+    for (const el of attrs) {
+      el.removeAttribute("style");
     }
 
-    // Inject an explanation at the top of the document
-    let message = document.createElement('div');
+    // Inject an explanation at the top of the document (after the "skip-to-content" element)
+    let message = document.createElement("div");
     message.innerHTML = `<p><strong>Why is this page looking so simple?</strong></p><p>It's <a href="https://css-naked-day.github.io">CSS Naked Day</a>! The idea behind this yearly event is to promote web standards — a website should be functional without all the CSS fluff.</p><hr/>`;
     let skipToContentEl = document.getElementById("skip-to-content");
     skipToContentEl.insertAdjacentElement("afterend", message);
