@@ -12,7 +12,7 @@ The general idea is that my hyperlinks are underlined by default[^2] as they are
 
 As you noticed, I am not a very talented web dev blogger, so I'll just drop my CSS below.
 
-```
+```css
 a {
   color: white;
   text-underline-position: under;

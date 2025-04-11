@@ -42,7 +42,7 @@ I was hesitant to switch to an OTF font as the WOFF format is made for the web a
 
 For reference, here is the `@font-face` code I used for my small caps characters:
 
-```
+```css
 @font-face {
   font-family: "SourceSansProSmallCaps";
   src: url("/fonts/SourceSansPro-Regular.otf") format("opentype");
