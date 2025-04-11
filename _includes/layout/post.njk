@@ -22,6 +22,13 @@
         padding: var(--space-l) var(--space-m);
         margin-top: var(--space-3xl);
       }
+      /* Avoid anchors disappearing because of default styles */
+      .boxed-content a {
+        color: var(--white);
+      }
+      .boxed-content a:hover {
+        color: var(--blue);
+      }
       .boxed-content h2 {
         text-align: center;
         /* cancels default margin */
