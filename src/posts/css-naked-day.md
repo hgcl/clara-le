@@ -46,7 +46,7 @@ if (month === 3 && day === 9) {
 
 This script was almost entirely based on [Ben Buchanan's example](https://bitbucket.org/snippets/200ok/dKpk) (thank you!) with a few changes for my own use case.
 
-For instance, I went in 100%, without ignoring any bit of CSS. My website is fairly simple, so I don't think this no-exception rule broke anything 🤞
+For instance, I chose to inject the short intro message _after_ the "skip to content" element to keep the navigation easy for screen readers. I also went in 100%, without ignoring any bit of CSS. My website is fairly simple, so I don't think this no-exception rule broke anything 🤞
 
 However, going CSS-free also made me realize that the [Media page](/media/) became harder to browse, as the images took too much space. (That sounds like another good reason to finally set specific dimensions on my `<img>` tags).
 
