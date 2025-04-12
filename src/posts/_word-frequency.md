@@ -18,11 +18,11 @@ const MIN_FREQUENCY = 7;
 const REMOVE_FINAL_S = false;
 
 async function readFiles(directoryPath) {
-  const articleList = await fs.readdir(directoryPath);
+  const fileList = await fs.readdir(directoryPath);
 
   let contentArray = [];
-  for await (let article of articleList) {
-    const response = await fs.readFile(`${directoryPath}${article}`, "utf-8");
+  for await (let filename of fileList) {
+    const response = await fs.readFile(directoryPath + filename, "utf-8");
     contentArray.push(response);
   }
 
