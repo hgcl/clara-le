@@ -1,5 +1,5 @@
 ---
-title: "Counting words"
+title: "Word frequency"
 subtitle: ""
 date: "2026-01-01"
 tags: ["digital"]
