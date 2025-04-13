@@ -2,6 +2,6 @@
   "url": "https://languagetool.org/",
   "title": "LanguageTool",
   "description": "A multilingual browser extension (and more) for grammar, style and spell checking — and it's open source",
-  "tags": ["writing"],
-  "best": false
+  "tags": ["miscellaneous"],
+  "best": true
 }
