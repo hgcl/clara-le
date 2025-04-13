@@ -9,6 +9,7 @@ draft: true
 
 Sources:
 
+- example to use: https://saigoneer.com/saigon-culture/18178-on-the-cusp-of-a-modern-new-year,-reflections-on-a-simpler-tet-past
 - https://manual.calibre-ebook.com/faq.html#what-formats-does-calibre-support-conversion-to-from
 - Clean base html
   - https://htmlmarkdown.com/
@@ -25,7 +26,7 @@ Intro:
 - searching aroung the internet, Percollate sounded like a simple and good option, creating an ePub file (with images!) from a URL
 - Only issue with Percollate: the raw result left quite some bits of "dirty HTML" around
 - Let's see how to produce a super clean ePub, using Percollate and Calibre
-- prerequisites: Unix environment, Percollate, Calibre
+- prerequisites: Unix environment, Percollate, Calibre, some manual work on the code involved
 
 ## Percollate
 
@@ -33,7 +34,7 @@ Intro:
 - Run it: `npx percollate epub https://waitbutwhy.com/2014/05/fermi-paradox.html -o "Wait But Why - The Fermi Paradox.epub"`
   - Fetches the page and strips unnecessary elements with `mozilla/readability`, keeps the hyperlinks
   - Generates an ePub with basic CSS
-  - Adds the source URL to the top of the file
+  - Adds the author name and source URL to the top of the file
 
 <!-- ŦODO can we create one ePub from multiple URLs? -->
 
@@ -60,12 +61,34 @@ This way, we don't lose the image links, while removing most (or all?) useless a
 
 ## Calibre edits
 
+<aside>
+
+Throughout the Calibre edit process, you can save your work in `Edit > Create checkpoint`. If something breaks, you'll be able to restore your ebook to the checkpoints you created.
+
+</aside>
+
 - Separate title page from rest of the text with the `Split` feature
-- Quick manual check
-- `Find and replace` recurring patterns
-- Smart punctuation
-- `Beautify`
+  - for instance, right after the automatic source paragraph added by Percollate
+- Quick manual check:
+  - `Tools > Beautify all files` first to make the file code more scannable (you can run this tool throughout the process, when you need the file to be more readable)
+  - Quickly scan through the files to remove the big no-nos
+- `Search > Find/replace` recurring patterns you have noticed. For instance, make sure that:
+  - the book title is an `<h1>` heading tag
+  - chapter titles use the `<h2>` heading tags
+  - subheadings are numbered accordingly (`<h3>` under `<h2>`, `<h4>` under `<h3>`, etc.)
+- Rename files by right-clicking on them in the left sidebar, make sure to keep the part before the automatic "OEBPS/" prefix to avoid breaking links.
+- `Tools > Smartening punctuation`: works better with English, other languages beware
+- `Tools > Beautify all files` a final time to make it pretty
+- Add more manual splits if needed (I usually add them before all `<h2>`)
+
+CSS:
+
 - Replace the CSS stylesheet
+
+Minify:
+
+- `Tools > Remove unused CSS rules`
+- `Tools > Compress images losslessly`
 
 ## Metadata
 
