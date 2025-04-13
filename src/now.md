@@ -2,15 +2,17 @@
 layout: "layout/post.njk"
 title: "Now"
 subtitle: "On the road"
-date: "2025-02-01"
+date: "2025-04-13"
 tags: ["now"]
 icon: /public/img/meta/drawing-location.svg
 directory: "posts"
 ---
 
-Robin and I are on a slow journey, having traveled from Europe to Asia overland.
+Robin and I are on a slow journey, traveling overland across Asia.
 
-We are now in Vietnam for a few months, back in our comfort zone. Between street food discoveries, air-coned coffee shops, and motorbike loops, we are stopping at small towns in our search for a "less visited Vietnam". --ENDCHAR--
+We are now on our second trip in China, a country that continues to surprise us at every turn. It is full of marvels, but also offers a number of dystopian discoveries. We struggle to wander off-tracks in a country that wants to keep us very much on track.
+
+We are finally learning how to properly navigate these megacities without our usual digital aids. When we are lucky, we are able to find these vibrant pockets of life, far from the sanitized touristy attractions. --ENDCHAR--
 
 ---
 
@@ -18,6 +20,7 @@ This is a [Now page](https://nownownow.com/). I update mine every few months wit
 
 ## Archive
 
+- [February 1, 2025](/posts/now-archive-12/)
 - [August 16, 2024](/posts/now-archive-11/)
 - [April 30, 2024](/posts/now-archive-10/)
 - [November 17, 2023](/posts/now-archive-9/)
