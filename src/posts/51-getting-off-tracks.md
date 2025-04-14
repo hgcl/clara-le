@@ -4,19 +4,19 @@ subtitle: "Update #51"
 date: "2025-04-14"
 tags: ["update"]
 lang: "en"
-draft: true
 ---
 
-Still in China, now in Xiamen. If everything goes well, we should be in Taiwan in a bit less than a week to do a visa-run. We are getting a bit tired of the touristy sights and big attractions that _everyone_ seems to be recommending. We are straying off towards smaller neighborhoods, and when we are lucky, we find these vibrant pockets of life.
+Still in China, now in Xiamen.
+
+If everything goes well, we should be in Taiwan (yay, bubble teas!) in a bit less than a week to do a visa-run. We are getting a bit tired of the touristy sights and big attractions that _everyone_ seems to be recommending and queuing for. We are straying off towards smaller neighborhoods, and when we are lucky, we find these vibrant pockets of life.
 
 ## Hyperlinks
 
 - [Terraform archive (VICE)](https://www.vice.com/en/tag/terraform/): Through the _Blood in the Machine_ newsletter, I discovered the amazing Terraform archive. This project has mandated and collected short stories from writers for one specific genre: speculative fiction.
 - [Henry.codes](https://henry.codes/): Henry's personal website looks pretty incredible — very inspiring!
-- [Transit Maps](https://transitmap.net/): If you are a transit map nerd, Cameron's blog is for you.
-- [This page is under construction](https://localghost.dev/blog/this-page-is-under-construction/): localghost's love letter to the personal website
-- [Frontend Dogma's tools](https://frontenddogma.com/tools/): This might be the longest list of web-based frontend tools I've ever seen.
-- [368 chickens](https://368chickens.com/): spent way too much time on this game because of [Roy](https://roytang.net/2025/04/weeknotes-04-13/) (thank you I guess?), 156 chickens remaining.
+- [Transit Maps](https://transitmap.net/): if you are a transit map nerd, Cameron's blog is for you
+- [Frontend Dogma's tools](https://frontenddogma.com/tools/): this might be the longest list of web-based frontend tools I've ever seen
+- [368 chickens](https://368chickens.com/): spent way too much time on this game, 156 chickens remaining
 
 ## Media diet
 
