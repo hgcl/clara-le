@@ -5,8 +5,13 @@
   <link rel="stylesheet" href="/public/styles/prism-okaidia.css" type="text/css" />
   <!-- Do not show comments for Now page (this condition is applied 3 times in this layout) -->
   {% if (directory === "posts") and (title !== "Now") %}
-     <!-- COMMENT STYLES -->
     <style>
+      /* In-reply-to box */
+      .post-header > .boxed-content {
+        margin-top: 1rem;
+      }
+
+      /* COMMENT BOX */
       .ohsomehoney {
         opacity: 0;
         position: absolute;
@@ -20,10 +25,14 @@
         background-color: var(--blue);
         color: var(--white);
         padding: var(--space-l) var(--space-m);
-        margin-top: var(--space-3xl);
+        font-size: var(--font-xs);
       }
-      /* Avoid anchors disappearing because of default styles */
+      .boxed-content > *:last-child {
+        /* avoid double margin */
+        margin-bottom: 0;
+      }
       .boxed-content a {
+        /* avoid anchors disappearing because of default styles */
         color: var(--white);
       }
       .boxed-content a:hover {
@@ -61,6 +70,11 @@
         color: var(--blue);
       }
 
+      /* CONTENT BODY */
+      #content-body {
+        margin-bottom: var(--space-5xl);
+      }
+
       /* COMMENT LIST */
       #comments article, #webmentions article {
         border-bottom: solid 1px var(--color-text-subtle);
@@ -87,7 +101,7 @@
   <!-- TODO add article tag and e-content in a reusable wrapper, macro? -->
   <!-- MICROFORMATS: h-entry, e-content are microformats. Don't use for styling! -->
   <!-- Microformats docs: https://microformats.org/wiki/h-entry -->
-  <article class="center h-entry" lang="{{ lang }}"> 
+  <article id="content-body" class="center h-entry" lang="{{ lang }}"> 
     {% include 'post-header.njk' %}
     <div class="e-content">{{ content | safe | replace("--ENDCHAR--", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
   </article>

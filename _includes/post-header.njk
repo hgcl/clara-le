@@ -9,8 +9,6 @@
     {% include 'h-card.njk' %} 
     <!-- define the canonical URL of this specific page/post -->
     <a rel="canonical" class="u-url hide" href="{{ page.url }}">Page URL</a>
-    <!-- in-reply-to: https://indieweb.org/in-reply-to -->
-    <a class="u-in-reply-to h-cite hide" rel="in-reply-to" href="{{ inReplyTo }}">Replied to</a>
     {% if icon %}
       <div aria-hidden="true" class="icon" style="mask-image: url('{{ icon }}')"></div>
     {% endif %}
@@ -30,7 +28,7 @@
           {% endfor %}
         </span>
       {% endif %}
-      <!-- Prioritize dateModifited over date -->
+      <!-- Prioritize `dateModifited` over `date` -->
       {% if dateModified %}
         <span class="sr-only">Updated on</span>
         <time datetime="{{ dateModified | formatDate }}" class="dt-updated">{{ dateModified | formatDate }}</time>
@@ -57,5 +55,12 @@
         </span>
       {% endif %}
     </p>
+  {% endif %}
+  <!-- in-reply-to: https://indieweb.org/in-reply-to -->
+  {% if inReplyTo %}
+  <div class="boxed-content">
+    <span>In reply to:</span>
+    <a class="u-in-reply-to h-cite" rel="in-reply-to" href="{{ inReplyTo }}">{{ inReplyTo }}</a>
+  </div>  
   {% endif %}
 </div>
