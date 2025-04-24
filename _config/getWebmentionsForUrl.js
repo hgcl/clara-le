@@ -5,7 +5,7 @@ export default function (eleventyConfig) {
     const reposts = ["repost-of"];
     const messages = ["mention-of", "in-reply-to"];
 
-    const matchingURLs = (entry) => {
+    const matchesURLs = (entry) => {
       // Add "/" to the end of URLs if missing
       let wmTarget = entry["wm-target"];
       if (wmTarget.slice(-1) !== "/") {
@@ -14,17 +14,17 @@ export default function (eleventyConfig) {
       return wmTarget === url;
     };
     const hasRequiredFields = (entry) => {
-      const { author, published, content } = entry;
+      const { author, published } = entry;
       const wmReceived = entry["wm-received"];
-      return author.name && content && (published || wmReceived);
+      return author.name && (published || wmReceived);
     };
-    const setDate = (entry) => {
+    const setsDate = (entry) => {
       if (!entry.published) {
         entry.published = entry["wm-received"];
       }
       return entry;
     };
-    const truncateContent = (entry) => {
+    const truncatesContent = (entry) => {
       entry.content.text = entry.content.text.slice(0, 1000);
       delete entry.content.html;
       return entry;
@@ -32,21 +32,22 @@ export default function (eleventyConfig) {
 
     // Filter and map webmentions.json
     const likesMapped = webmentions
-      .filter(matchingURLs)
+      .filter(matchesURLs)
       .filter((entry) => likes.includes(entry["wm-property"]))
-      .map(setDate);
+      .filter(hasRequiredFields)
+      .map(setsDate);
     const repostsMapped = webmentions
-      .filter(matchingURLs)
+      .filter(matchesURLs)
       .filter((entry) => reposts.includes(entry["wm-property"]))
       .filter(hasRequiredFields)
-      .map(setDate)
-      .map(truncateContent);
+      .map(setsDate)
+      .map(truncatesContent);
     const messagesMapped = webmentions
-      .filter(matchingURLs)
+      .filter(matchesURLs)
       .filter((entry) => messages.includes(entry["wm-property"]))
       .filter(hasRequiredFields)
-      .map(setDate)
-      .map(truncateContent);
+      .map(setsDate)
+      .map(truncatesContent);
 
     const webmentionCount =
       likesMapped.length + repostsMapped.length + messagesMapped.length;
