@@ -1,0 +1,33 @@
+---
+title: Webmentions
+description: My webmentions on other websites
+icon: /public/img/meta/drawing-face.svg
+---
+
+{% extends "layout/base.njk" %}
+
+{% block article %}
+  <section class="center" id="posts">
+    {% include 'post-header.njk' %}
+    <p class="intro">
+      My webmentions on other websites
+    </p>
+
+    <!-- POST LIST -->
+    <!-- Group by year: https://simpixelated.com/group-posts-by-year-in-eleventy-js/ -->
+    {% for yearCreated, replies in collections.replies | groupby("data.yearCreated") | dictsort | reverse %}
+    <h2>{{ yearCreated }}</h2>
+      <ul class="nobullet post-rows-with-label filtered-list"> 
+        <!-- 11ty sorts collections by date by default, just need to reverse to display as LIFO -->
+        {% for post in replies | reverse %}
+          <li data-tag="{{ post.data.tags }}" data-tag-two="{{ post.data.lang }}">
+            <time class="label dt-duration" datetime="{{ post.date }}">{{ post.date | formatDate("short") }}</time>
+            <span class="details">
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
+{% endblock %}
