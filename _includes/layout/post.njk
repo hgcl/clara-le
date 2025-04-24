@@ -3,8 +3,8 @@
 {% block head %}
   <!-- Syntax highlighting -->
   <link rel="stylesheet" href="/public/styles/prism-okaidia.css" type="text/css" />
-  <!-- Do not show comments for Now page (this condition is applied 3 times in this layout) -->
-  {% if (directory === "posts") and (title !== "Now") %}
+  <!-- Do not show comments for Now page (this condition is applied several times in this layout) -->
+  {% if (title !== "Now") %}
     <style>
       /* In-reply-to box */
       .post-header > .boxed-content {
@@ -105,7 +105,7 @@
     {% include 'post-header.njk' %}
     <div class="e-content">{{ content | safe | replace("--ENDCHAR--", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}</div>
   </article>
-  {% if (directory === "posts") and (title !== "Now") %}
+  {% if (title !== "Now") %}
     {% include 'comment-form-disable.njk' %}
     {% include 'comment-list.njk' %}
   {% endif %}
