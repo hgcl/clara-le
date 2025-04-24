@@ -25,7 +25,7 @@
       </article>
     {% endfor %}
     <!-- Reposts (e.g. Twitter) -->
-    {% for webmention in mentions.repost %}
+    {% for webmention in mentions.reposts %}
       <article class="webmention-repost">
         <span class="label divide-list">
           <span><span class="sr-only">Reposted by</span><span class="webmention-icon">↳</span> {{ webmention.author.name }}</span>
