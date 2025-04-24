@@ -23,9 +23,9 @@ Some words were included because they are too big, overused, overselling. Others
 - productivity
 - empowering
 - self development
-- environmental friendly
+- environmentally friendly
 - zero waste
 - carbon neutral / offsets
 - sustainable growth
 
-(This list is still WIP.) Anyway. --ENDCHAR--
+Anyway --ENDCHAR--
