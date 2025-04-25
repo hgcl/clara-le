@@ -41,18 +41,27 @@
     <!-- Mentions and replies -->
     {% for webmention in mentions.messages %}
       <article class="webmention-message">
-        <span class="label divide-list">
-          <span>{{ webmention.author.name }}</span>
-          <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
-          <a 
-          {% if webmention.url %}
-            href="{{ webmention.url }}"
-          {% endif %}
-          >Source</a>
-        </span>
+        <div class="wm-author">
+            <div class="wm-image-wrapper">
+                <img src="{{ webmention.author.photo }}" alt="" />
+            </div>
+          <div class="wm-metadata">
+            <span>{{ webmention.author.name }}</span>
+            <span class="label divide-list">
+              <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
+              <a 
+              {% if webmention.url %}
+                href="{{ webmention.url }}"
+              {% endif %}
+              >Source</a>
+            </span>
+          </div>
+        </div>
         <!-- TODO replace \r\n as well -->
         <p>{{ webmention.content.text | escape | replace("\n\n","</p><p>")  }}</p>
-        <p><a href="{{ webmention.url }}">Read the rest</a></p>
+        {% if webmention.content.truncated %}
+          <p><a href="{{ webmention.url }}">Read the rest</a></p>
+        {% endif %}
       </article>
     {% endfor %}
   </div>

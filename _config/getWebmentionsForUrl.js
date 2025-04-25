@@ -27,6 +27,7 @@ export default function (eleventyConfig) {
     const truncatesContent = (entry) => {
       if (entry.content.text.length > 1000) {
         entry.content.text = entry.content.text.slice(0, 1000) + ` [...]`;
+        entry.content.truncated = true;
       }
       delete entry.content.html;
       return entry;

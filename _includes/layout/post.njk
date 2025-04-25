@@ -87,6 +87,23 @@
         color: var(--color-accent);
         font-size: larger;
       }
+      #webmentions .wm-image-wrapper {
+        height: 50px;
+        width: 50px;
+        background-color: var(--blue);
+      }
+      #webmentions .wm-image-wrapper > img {
+        object-fit: contain;
+      }
+      #webmentions .wm-author {
+        display: flex;
+        gap: 1rem;
+      }
+      #webmentions .wm-metadata {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
     </style>
     <style media="only screen and (min-width: 768px)">
       /* Give more space to H1 when font-size becomes bigger */
