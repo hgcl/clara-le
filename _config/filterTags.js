@@ -5,6 +5,7 @@ export default function (eleventyConfig) {
     const wordsRemoved = [
       "posts",
       "media",
+      "replies",
       "fall",
       "summer",
       "winter",
