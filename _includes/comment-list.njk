@@ -51,7 +51,7 @@
           >Source</a>
         </span>
         <!-- TODO replace \r\n as well -->
-        <p>{{ webmention.content.text | escape | replace("\n\n","</p><p>")  }} [...]</p>
+        <p>{{ webmention.content.text | escape | replace("\n\n","</p><p>")  }}</p>
         <p><a href="{{ webmention.url }}">Read the rest</a></p>
       </article>
     {% endfor %}

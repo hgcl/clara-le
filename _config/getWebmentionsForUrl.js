@@ -25,7 +25,9 @@ export default function (eleventyConfig) {
       return entry;
     };
     const truncatesContent = (entry) => {
-      entry.content.text = entry.content.text.slice(0, 1000);
+      if (entry.content.text.length > 1000) {
+        entry.content.text = entry.content.text.slice(0, 1000) + ` [...]`;
+      }
       delete entry.content.html;
       return entry;
     };
