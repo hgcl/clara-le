@@ -56,14 +56,8 @@
       {% endif %}
     </p>
   {% endif %}
+  {% if inReplyToURL %}
   <!-- in-reply-to: https://indieweb.org/in-reply-to -->
-  {% if inReplyToURL and likeOfURL %}
-  <div class="boxed-content p-summary">
-    <span>♥ Liked</span><br/>
-    <span>↳ In reply to:</span>
-    <a class="h-cite u-in-reply-to u-like-of" rel="in-reply-to" href="{{ inReplyToURL }}">{{ inReplyToURL }}</a>
-  </div>  
-  {% elif inReplyToURL %}
   <div class="boxed-content">
     <span>↳ In reply to:</span>
     <a class="h-cite u-in-reply-to" rel="in-reply-to" href="{{ inReplyToURL }}">{{ inReplyToURL }}</a>
