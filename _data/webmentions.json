@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-04-26T06:41:20.560Z",
+  "lastFetched": "2025-04-29T07:30:10.986Z",
   "children": [
     {
       "type": "entry",
@@ -107,6 +107,33 @@
       "mention-of": "https://clarale.com/",
       "wm-property": "mention-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://bobbyhiltz.com/blogroll.html",
+      "published": null,
+      "wm-received": "2025-04-27T09:32:45Z",
+      "wm-id": 1907590,
+      "wm-source": "https://bobbyhiltz.com/blogroll.html",
+      "wm-target": "https://clarale.com/",
+      "wm-protocol": "webmention",
+      "name": "Blogroll",
+      "content": {
+        "html": "<h2>Blogs I follow</h2>\n<ul><li><a href=\"https://www.adamsdesk.com/\">Adam’s Desk</a> <a href=\"https://www.adamsdesk.com/feed/blog.xml\">(feed)</a></li>\n<li><a href=\"https://boehs.org/in/blog\">Evan Boehs</a> <a href=\"https://boehs.org/in/blog.xml\">(feed)</a></li>\n<li><a href=\"https://buck65.substack.com/\">Buck 65</a> <a href=\"https://buck65.substack.com/feed\">(feed)</a> [Substack!]</li>\n<li><a href=\"https://www.citationneeded.news/\">Citation Needed by Molly White</a> <a href=\"https://www.citationneeded.news/rss/\">(feed)</a></li>\n<li><a href=\"https://flamedfury.com/\">fLaMed fury</a> <a href=\"https://flamedfury.com/feed.xml\">(feed)</a></li>\n<li><a href=\"https://garrit.xyz/\">Garrit Franke</a> <a href=\"https://garrit.xyz/rss.xml\">(feed)</a></li>\n<li><a href=\"https://brainbaking.com/\">Brain Baking (Wouter Groeneveld)</a> <a href=\"https://brainbaking.com/index.xml\">(feed)</a></li>\n<li><a href=\"https://sheepdev.xyz/\">Jakov (sheepdev)</a> <a href=\"https://sheepdev.xyz/feed\">(feed)</a></li>\n<li><a href=\"https://joelchrono.xyz\">Joelchrono</a> <a href=\"https://www.joelchrono.xyz/feed.xml\">(feed)</a></li>\n<li><a href=\"https://moddedbear.com/\">JP</a> <a href=\"https://moddedbear.com/blog/index.xml\">(feed)</a></li>\n<li><a href=\"https://clarale.com/\">Clara Le</a><a href=\"https://clarale.com/feed.xml\">(feed)</a></li>\n<li><a href=\"https://sanderium.codeberg.page/\">Light Thoughts</a> <a href=\"https://sanderium.codeberg.page/posts/rss.xml\">(feed)</a></li>\n<li><a href=\"https://cnx.gdn/\">McSinyx</a> <a href=\"https://cnx.gdn/feed.xml\" style=\"text-decoration:none;\">(feed)</a></li>\n<li><a href=\"https://ploum.net/\">Ploum</a> <a href=\"https://ploum.net/atom.xml\">(feed)</a> [FR]</li>\n<li><a href=\"https://www.davidrevoy.com/\">David Revoy</a> <a href=\"https://www.davidrevoy.com/feed/(feed)\">(feed)</a></li>\n<li><a href=\"https://brandonrozek.com/\">Brandon Rozek</a> <a href=\"https://brandonrozek.com/blog/index.xml\">(feed)</a></li>\n<li><a href=\"https://hamatti.org/\">Juha-Matti Santala</a> <a href=\"https://hamatti.org/feed/feed.xml\">(feed)</a></li>\n<li><a href=\"https://seirdy.one/\">Seirdy</a> <a href=\"https://seirdy.one/atom.xml\">(feed)</a></li>\n<li><a href=\"https://so1o.xyz/\">So1o</a> <a href=\"https://so1o.xyz/feed.xml\">(feed)</a></li>\n<li><a href=\"https://spelk.online/\">Spelk</a> <a href=\"https://spelk.online/atom.xml\">(feed)</a></li>\n<li><a href=\"https://news.elenarossini.com/\">Elena Rossini</a> <a href=\"https://news.elenarossini.com/feed\">(feed)</a></li>\n<li><a href=\"https://lazybea.rs/\">Hyde Stevenson</a> <a href=\"https://lazybea.rs/index.xml\">(feed)</a></li>\n<li><a href=\"https://btxx.org/\">Bradley Taunt</a> <a href=\"https://btxx.org/index.rss\">(feed)</a></li>\n</ul><h2>Clubs, Rings, Directories</h2>\n<ul><li><a href=\"https://marginalia-search.com/\">Marginalia Search</a> [<a href=\"https://marginalia-search.com/site/bobbyhiltz.com?view=info\">site profile</a>] (<em>An independent DIY search engine that focuses on non-commercial content</em>)</li>\n<li><a href=\"https://feedle.world/\">feedle</a> [<a href=\"https://feedle.world/source/@bobbyhiltz.com?type=blog\">site profile</a>] (<em>A search engine for blogs and podcasts; every search is an RSS feed!</em>)</li>\n<li><a href=\"https://250kb.club/\">250KB CLUB</a> (<a href=\"https://250kb.club/bobbyhiltz-com/\">site profile</a>)</li>\n<li><a href=\"https://512kb.club/\">512KB CLUB</a> (<a href=\"https://github.com/kevquirk/512kb.club/pull/1653#issuecomment-2442148997\">rejected</a>)</li>\n<li><a href=\"https://1mb.club/\">1MB CLUB</a></li>\n<li><a href=\"https://darktheme.club/\">The Darktheme Club</a></li>\n<li><a href=\"https://blogofthe.day/\">Blog of the .Day</a></li>\n<li><a href=\"https://blogroll.org/\">Blogroll.org</a> (<em>A curated list of personal and independent blogs</em>)</li>\n<li><a href=\"https://indieseek.xyz/\">Indieseek.xyz Indieweb Directory</a> (<em>A human edited, Indieweb directory</em>)</li>\n<li><a href=\"https://personalsit.es/\">PersonalSit.es</a> (<em>A site built to share and revel in each others’ personal sites</em>)</li>\n<li><a href=\"https://weirdwidewebring.net/\">Weird Wide Webring</a> (<em>The web needs a little more weird</em>)</li>\n<li><a href=\"https://fediring.net/\">Fediring.net</a> (<em>Webring for the personal sites of any member of the fediverse</em>)</li>\n<li><a href=\"https://indieblog.page/\">indieblog.page</a> (<em>Discover the IndieWeb, one blog post at a time</em>)</li>\n<li><a href=\"https://static.quest/\">Static.Quest</a> (<em>A webring for static websites</em>)</li>\n<li><a href=\"https://baccyflap.com/noai/\">the no ai webring</a> (<em>A webring for websites that don’t use AI</em>)</li>\n<li><a href=\"https://ooh.directory/\">ooh.directory</a> (<em>A collection of blogs about every topic (someday my blog will be listed…someday…)</em>)</li>\n</ul>",
+        "text": "Blogs I follow\nAdam’s Desk (feed)\nEvan Boehs (feed)\nBuck 65 (feed) [Substack!]\nCitation Needed by Molly White (feed)\nfLaMed fury (feed)\nGarrit Franke (feed)\nBrain Baking (Wouter Groeneveld) (feed)\nJakov (sheepdev) (feed)\nJoelchrono (feed)\nJP (feed)\nClara Le(feed)\nLight Thoughts (feed)\nMcSinyx (feed)\nPloum (feed) [FR]\nDavid Revoy (feed)\nBrandon Rozek (feed)\nJuha-Matti Santala (feed)\nSeirdy (feed)\nSo1o (feed)\nSpelk (feed)\nElena Rossini (feed)\nHyde Stevenson (feed)\nBradley Taunt (feed)\nClubs, Rings, Directories\nMarginalia Search [site profile] (An independent DIY search engine that focuses on non-commercial content)\nfeedle [site profile] (A search engine for blogs and podcasts; every search is an RSS feed!)\n250KB CLUB (site profile)\n512KB CLUB (rejected)\n1MB CLUB\nThe Darktheme Club\nBlog of the .Day\nBlogroll.org (A curated list of personal and independent blogs)\nIndieseek.xyz Indieweb Directory (A human edited, Indieweb directory)\nPersonalSit.es (A site built to share and revel in each others’ personal sites)\nWeird Wide Webring (The web needs a little more weird)\nFediring.net (Webring for the personal sites of any member of the fediverse)\nindieblog.page (Discover the IndieWeb, one blog post at a time)\nStatic.Quest (A webring for static websites)\nthe no ai webring (A webring for websites that don’t use AI)\nooh.directory (A collection of blogs about every topic (someday my blog will be listed…someday…))"
+      },
+      "mention-of": "https://clarale.com/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://bobbyhiltz.com/blogroll.html"
+      }
     }
   ]
 }
