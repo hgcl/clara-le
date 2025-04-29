@@ -59,8 +59,15 @@
   <!-- in-reply-to: https://indieweb.org/in-reply-to -->
   {% if inReplyToURL %}
   <div class="boxed-content">
-    <span>In reply to:</span>
-    <a class="u-in-reply-to h-cite" rel="in-reply-to" href="{{ inReplyToURL }}">{{ inReplyToURL }}</a>
+    <span>↳ In reply to:</span>
+    <a class="h-cite u-in-reply-to" rel="in-reply-to" href="{{ inReplyToURL }}">{{ inReplyToURL }}</a>
+  </div>  
+  {% endif %}
+  <!-- u-like-of: https://indieweb.org/like -->
+  {% if likeOfURL %}
+  <div class="boxed-content p-summary">
+    <span>♥ Liked:</span>
+    <a class="h-cite u-like-of" href="{{ likeOfURL }}">{{ likeOfURL }}</a>
   </div>  
   {% endif %}
 </div>
