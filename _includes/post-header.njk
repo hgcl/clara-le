@@ -57,10 +57,10 @@
     </p>
   {% endif %}
   <!-- in-reply-to: https://indieweb.org/in-reply-to -->
-  {% if inReplyTo %}
+  {% if inReplyToURL %}
   <div class="boxed-content">
     <span>In reply to:</span>
-    <a class="u-in-reply-to h-cite" rel="in-reply-to" href="{{ inReplyTo }}">{{ inReplyTo }}</a>
+    <a class="u-in-reply-to h-cite" rel="in-reply-to" href="{{ inReplyToURL }}">{{ inReplyToURL }}</a>
   </div>  
   {% endif %}
 </div>
