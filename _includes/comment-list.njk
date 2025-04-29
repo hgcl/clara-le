@@ -11,7 +11,7 @@
       <p>There is no webmention for this post, send the first one!</p>
     {% endif %}
     <!-- Likes -->
-    {% for webmention in mentions.likes %}
+    {% for webmention in mentions.likes | sort(true, false, 'published')  %}
       <article class="webmention-like">
         <span class="label divide-list">
           <span><span class="sr-only">Liked by</span><span class="webmention-icon">♥</span> {{ webmention.author.name }}</span>
@@ -25,7 +25,7 @@
       </article>
     {% endfor %}
     <!-- Reposts (e.g. Twitter) -->
-    {% for webmention in mentions.reposts %}
+    {% for webmention in mentions.reposts | sort(true, false, 'published') %}
       <article class="webmention-repost">
         <span class="label divide-list">
           <span><span class="sr-only">Reposted by</span><span class="webmention-icon">↳</span> {{ webmention.author.name }}</span>
@@ -39,7 +39,7 @@
       </article>
     {% endfor %}
     <!-- Mentions and replies -->
-    {% for webmention in mentions.messages %}
+    {% for webmention in mentions.messages | sort(true, false, 'published') %}
       <article class="webmention-message">
         <div class="wm-author">
             <div class="wm-image-wrapper">
