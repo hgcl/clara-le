@@ -13,8 +13,8 @@
       <div aria-hidden="true" class="icon" style="mask-image: url('{{ icon }}')"></div>
     {% endif %}
   </div>
-  <!-- Only show these metadata if there is a date -->
   {% if (date) or (dateModified) %}
+  <!-- Only show these metadata if there is a date -->
     <p class="label divide-list center">
       {% if subtitle %}
         <span>{{ subtitle }}</span>
