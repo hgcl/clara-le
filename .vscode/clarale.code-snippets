@@ -16,22 +16,6 @@
   // 	"description": "Log output to console"
   // }
 
-  "New bookmark JSON": {
-    "scope": "json",
-    "prefix": "new-bookmark",
-    "body": [
-      "{",
-      "\"url\": \"${1:TODO url}\",",
-      "\"title\": \"${3:TODO post title}\",",
-      "\"date\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
-      "\"description\": \"$4\",",
-      "\"tags\": [\"${5:miscellaneous}\"],",
-      "\"best\": \"${6:false}\"",
-      "}"
-    ],
-    "description": "New empty bookmark"
-  },
-
   "New blog post": {
     "scope": "markdown",
     "prefix": "new-blog-post",
@@ -47,6 +31,50 @@
       "${5:TODO}"
     ],
     "description": "New empty blog post"
+  },
+
+  "New webmention reply": {
+    "scope": "markdown",
+    "prefix": "new-webmention-reply",
+    "body": [
+      "---",
+      "title: \"${1:Reply}\"",
+      "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+      "lang: \"en\"",
+      "inReplyToURL: \"${2:TODO}\"",
+      "---"
+    ],
+    "description": "New empty webmention reply"
+  },
+
+  "New webmention like": {
+    "scope": "markdown",
+    "prefix": "new-webmention-like",
+    "body": [
+      "---",
+      "title: \"${1:Like}\"",
+      "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+      "lang: \"en\"",
+      "likeOfURL: \"${2:TODO}\"",
+      "---"
+    ],
+    "description": "New empty webmention like"
+  },
+
+  "New bookmark JSON": {
+    "scope": "json",
+    "prefix": "new-bookmark",
+    "body": [
+      "{",
+      "\"url\": \"${1:TODO url}\",",
+      "\"title\": \"${3:TODO post title}\",",
+      "\"date\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
+      "\"description\": \"$4\",",
+      "\"tags\": [\"${5:miscellaneous}\"],",
+      "\"best\": \"${6:false}\"",
+      "}"
+    ],
+    "description": "New empty bookmark"
   },
 
   "New recipe post": {
