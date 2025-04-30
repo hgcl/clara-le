@@ -14,7 +14,7 @@
     {% for webmention in mentions.likes | sort(true, false, 'published')  %}
       <article class="webmention-like">
         <span class="label divide-list">
-          <span><span class="sr-only">Liked by</span><span class="webmention-icon">♥</span> {{ webmention.author.name }}</span>
+          <span><span class="sr-only">Liked by</span><span class="webmention-icon">♥</span> {% if webmention.author.name %}{{ webmention.author.name }}{% endif %}</span>
           <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
           <a 
           {% if webmention.url %}
@@ -28,7 +28,7 @@
     {% for webmention in mentions.reposts | sort(true, false, 'published') %}
       <article class="webmention-repost">
         <span class="label divide-list">
-          <span><span class="sr-only">Reposted by</span><span class="webmention-icon">↳</span> {{ webmention.author.name }}</span>
+          <span><span class="sr-only">Reposted by</span><span class="webmention-icon">↳</span> {% if webmention.author.name %}{{ webmention.author.name }}{% else %}Anonymous{% endif %}</span>
           <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
           <a 
           {% if webmention.url %}
@@ -46,7 +46,7 @@
                 <img src="{{ webmention.author.photo }}" alt="" />
             </div>
           <div class="wm-metadata">
-            <span>{{ webmention.author.name }}</span>
+            <span>{% if webmention.author.name %}{{ webmention.author.name }}{% endif %}</span>
             <span class="label divide-list">
               <time datetime="{{ webmention.published | formatDate }}" class="dt-published">{{ webmention.published | formatDate }}</time>
               <a 

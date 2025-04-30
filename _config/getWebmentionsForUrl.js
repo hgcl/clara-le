@@ -14,9 +14,9 @@ export default function (eleventyConfig) {
       return wmTarget === url;
     };
     const hasRequiredFields = (entry) => {
-      const { author, published } = entry;
+      const { url, published } = entry;
       const wmReceived = entry["wm-received"];
-      return author.name && (published || wmReceived);
+      return url && (published || wmReceived);
     };
     const setsDate = (entry) => {
       if (!entry.published) {
