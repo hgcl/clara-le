@@ -204,7 +204,7 @@ dialog .close-button {
 /* Intro: centered paragraph at the top of a page */
 .intro {
   max-width: var(--article-width);
-  margin-top: var(--space-xl);
+  margin-block: var(--space-2xl);
   text-align: center;
 }
 
