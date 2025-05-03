@@ -24,13 +24,13 @@
         />
         <link
           rel="stylesheet"
-          href="public/styles/global-v9.css"
+          href="/public/styles/global-v9.css"
           type="text/css"
         />
         <link
           rel="icon"
           type="image/x-icon"
-          href="public/img/meta/favicon-32x32.png"
+          href="/public/img/meta/favicon-32x32.png"
         />
         <style>
           header {
@@ -56,7 +56,7 @@
               <xsl:value-of select="/rss/channel/description" />
             </p>
           </div>
-          <h2>Recent Posts</h2>
+          <h2>Latest posts</h2>
           <xsl:for-each select="/rss/channel/item">
             <ul class="nobullet post-rows-with-label filtered-list">
               <li>
