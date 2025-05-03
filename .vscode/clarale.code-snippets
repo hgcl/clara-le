@@ -38,7 +38,7 @@
     "prefix": "new-webmention-reply",
     "body": [
       "---",
-      "title: \"${1:Reply}\"",
+      "title: 'In reply to: \"${1:TODO}\"'",
       "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
       "lang: \"en\"",
       "inReplyToURL: \"${2:TODO}\"",
@@ -52,7 +52,7 @@
     "prefix": "new-webmention-like",
     "body": [
       "---",
-      "title: \"${1:Like}\"",
+      "title: 'Liked: \"${1:TODO}\"'",
       "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
       "lang: \"en\"",
       "likeOfURL: \"${2:TODO}\"",
