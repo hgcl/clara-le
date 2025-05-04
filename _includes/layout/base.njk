@@ -22,6 +22,8 @@
     {% if description %}
     <meta name="description" content="{{ description }}" />
     {% endif %}
+    <!-- MASTODON: https://mastodon.roflcopter.fr/settings/verification -->
+    <meta name="fediverse:creator" content="@clarale@mastodon.roflcopter.fr">
     <title>{{ title }} | Clara Le</title>
     <!-- FAVICON -->
     <link
@@ -38,7 +40,7 @@
     />
     <!-- WEBMENTIONS SUPPORT (receiving endpoint) -->
     <!-- Enable pinging for entire site, even if some pages don't diplay webmentions -->
-    <link rel="webmention" href="https://webmention.io/clarale.com/webmention" />  
+    <link rel="webmention" href="https://webmention.io/clarale.com/webmention" />
   </head>
   <body>
     <div class="deco-vert-1 bg-deco" aria-hidden="true"></div>
