@@ -74,7 +74,7 @@ icon: /public/img/meta/drawing-clara.svg
       For those wanting to contact me: my Ouija board connection is unfortunately
       out of order, so you'll have to email me at
       <span class="highlight">hey&nbsp;[at]&nbsp;clarale&nbsp;[dot]&nbsp;com</span
-      >.
+      > or connect via <a href="https://mastodon.roflcopter.fr/@clarale">Mastodon</a>.
     </p>
   </div>
 </article>
@@ -82,7 +82,7 @@ icon: /public/img/meta/drawing-clara.svg
 
 {% block script %}
 <script>
-  const el = document.getElementById("word-swap");
+  const wordSwapEl = document.getElementById("word-swap");
   const firstWord = "a tinkerer";
   const wordArray = [
     firstWord,
@@ -96,7 +96,7 @@ icon: /public/img/meta/drawing-clara.svg
     "a fixer",
     "a blob",
   ];
-  el.addEventListener("click", (el) => {
+  wordSwapEl.addEventListener("click", (el) => {
     if (wordArray.includes(el.target.innerText) == true) {
       const index = wordArray.indexOf(el.target.innerText);
       wordArray[index + 1]
