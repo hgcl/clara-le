@@ -7,4 +7,4 @@ tags: ["book"]
 year: "2016"
 ---
 
-Weirdly wholesome, loved listening to the audiobook!
+Surprisingly wholesome, loved listening to the audiobook!
