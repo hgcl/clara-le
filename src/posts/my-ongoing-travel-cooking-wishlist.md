@@ -2,7 +2,7 @@
 title: "My ongoing travel cooking wishlist"
 subtitle: "A list of recipes I want to try"
 date: "2024-07-05"
-tags: ["thought"]
+tags: ["thought", "ongoing"]
 lang: "en"
 ---
 
