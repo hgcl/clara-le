@@ -42,5 +42,6 @@ I love Wikipedia, and I think it is one of the coolest projects on the internet.
 - [List of literary awards](https://en.wikipedia.org/wiki/List_of_literary_awards)
 - [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists): "This list of lists of lists is a list of articles that are lists of other list articles."
 - [Unusual articles](https://en.wikipedia.org/wiki/unusual_articles)
+- [List of bread dishes](https://en.m.wikipedia.org/wiki/List_of_bread_dishes): Great resource for ideas on what to do with that piece of stale bread
 
 --ENDCHAR--
