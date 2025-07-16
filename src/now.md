@@ -1,18 +1,16 @@
 ---
 layout: "layout/post.njk"
 title: "Now"
-subtitle: "On the road"
-date: "2025-04-13"
+subtitle: "On the way back home"
+date: "2025-07-16"
 tags: ["now"]
 icon: /public/img/meta/drawing-location.svg
 directory: "posts"
 ---
 
-Robin and I are on a slow journey, traveling overland across Asia.
+After about 1.5 year of traveling overland, Robin and I are now on our way back home. I am currently writing from Georgia, but it will be at least another month of trains, buses, and marshrutkas before we set foot home again.
 
-We are now on our second trip in China, a country that continues to surprise us at every turn. It is full of marvels, but also offers a number of dystopian discoveries. We struggle to wander off-tracks in a country that wants to keep us very much on track.
-
-We are finally learning how to properly navigate these megacities without our usual digital aids. When we are lucky, we are able to find these vibrant pockets of life, far from the sanitized touristy attractions. --ENDCHAR--
+After so long, new discoveries don't shine so bright anymore, everything starts to feel like routine. I am finally ready to be back in my own space (and kitchen!) again. Until then, I am trying to squeeze out as much as I can from these last few moments of _otherness_. --ENDCHAR--
 
 ---
 
@@ -20,6 +18,7 @@ This is a [Now page](https://nownownow.com/). I update mine every few months wit
 
 ## Archive
 
+- [April 13, 2025](/posts/now-archive-13/)
 - [February 1, 2025](/posts/now-archive-12/)
 - [August 16, 2024](/posts/now-archive-11/)
 - [April 30, 2024](/posts/now-archive-10/)
