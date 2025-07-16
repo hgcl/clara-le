@@ -1,6 +1,6 @@
 ---
 title: "Stranger Things"
-author: ["Matt Duffer", "Ross Duffer"]
+mediaAuthor: ["Matt Duffer", "Ross Duffer"]
 cover: "stranger-things.webp"
 date: "2022-01-01"
 tags: ["tv series"]

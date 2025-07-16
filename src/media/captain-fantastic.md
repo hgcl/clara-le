@@ -1,6 +1,6 @@
 ---
 title: "Captain Fantastic"
-author: ["Matt Ross"]
+mediaAuthor: ["Matt Ross"]
 cover: "captain-fantastic.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Coco"
-author: ["Lee Unkrich"]
+mediaAuthor: ["Lee Unkrich"]
 cover: "coco.webp"
 date: "2021-01-01"
 tags: ["movie"]

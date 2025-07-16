@@ -1,6 +1,6 @@
 ---
 title: "Hocus Pocus"
-author: ["Kenny Ortega"]
+mediaAuthor: ["Kenny Ortega"]
 cover: "hocus-pocus.webp"
 date: "2021-01-01"
 tags: ["movie"]

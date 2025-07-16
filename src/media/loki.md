@@ -1,6 +1,6 @@
 ---
 title: "Loki"
-author: ["Michael Waldron"]
+mediaAuthor: ["Michael Waldron"]
 cover: "loki.webp"
 date: "2021-12-01"
 tags: ["tv series"]

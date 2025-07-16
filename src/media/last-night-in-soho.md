@@ -1,6 +1,6 @@
 ---
 title: "Last Night in Soho"
-author: ["Edgar Wright"]
+mediaAuthor: ["Edgar Wright"]
 cover: "last-night-in-soho.webp"
 date: "2022-01-01"
 tags: ["movie"]

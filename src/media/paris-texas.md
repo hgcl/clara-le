@@ -1,6 +1,6 @@
 ---
 title: "Paris, Texas"
-author: ["Wim Wenders"]
+mediaAuthor: ["Wim Wenders"]
 cover: "paris-texas.webp"
 date: "2023-08-01"
 tags: ["movie"]

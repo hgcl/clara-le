@@ -1,6 +1,6 @@
 ---
 title: "Sky Team"
-author: ["Luc Rémond"]
+mediaAuthor: ["Luc Rémond"]
 cover: "sky-team.webp"
 date: "2024-10-25"
 tags: ["game"]

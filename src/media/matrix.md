@@ -1,6 +1,6 @@
 ---
 title: "Matrix"
-author: ["Lauren Groff"]
+mediaAuthor: ["Lauren Groff"]
 cover: "matrix.webp"
 date: "2024-02-01"
 tags: ["book"]

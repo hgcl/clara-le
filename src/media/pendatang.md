@@ -1,6 +1,6 @@
 ---
 title: "Pendatang"
-author: ["Ken Kin"]
+mediaAuthor: ["Ken Kin"]
 cover: "pendatang.webp"
 date: "2024-07-07"
 tags: ["movie"]

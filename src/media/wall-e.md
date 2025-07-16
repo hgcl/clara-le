@@ -1,6 +1,6 @@
 ---
 title: "WALL·E"
-author: ["Andrew Stanton"]
+mediaAuthor: ["Andrew Stanton"]
 cover: "wall-e.webp"
 date: "2021-01-01"
 tags: ["movie"]

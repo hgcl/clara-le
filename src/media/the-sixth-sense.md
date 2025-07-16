@@ -1,6 +1,6 @@
 ---
 title: "The Sixth Sense"
-author: ["M. Night Shyamalan"]
+mediaAuthor: ["M. Night Shyamalan"]
 cover: "the-sixth-sense.webp"
 date: "2021-01-01"
 tags: ["movie"]

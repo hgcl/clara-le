@@ -1,6 +1,6 @@
 ---
 title: "Yotsuba&! (series)"
-author: ["Kiyohiko Azuma"]
+mediaAuthor: ["Kiyohiko Azuma"]
 cover: "yotsuba.webp"
 date: "2021-01-01"
 tags: ["book"]

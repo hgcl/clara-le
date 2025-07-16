@@ -1,6 +1,6 @@
 ---
 title: "Hunt for the Wilderpeople"
-author: ["Taika Waititi"]
+mediaAuthor: ["Taika Waititi"]
 cover: "hunt-for-the-wilderpeople.webp"
 date: "2021-01-01"
 tags: ["movie"]

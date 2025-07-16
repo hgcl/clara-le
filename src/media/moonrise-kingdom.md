@@ -1,6 +1,6 @@
 ---
 title: "Moonrise Kingdom"
-author: ["Wes Anderson"]
+mediaAuthor: ["Wes Anderson"]
 cover: "moonrise-kingdom.webp"
 date: "2021-01-01"
 tags: ["movie"]

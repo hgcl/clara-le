@@ -1,6 +1,6 @@
 ---
 title: "Django Unchained"
-author: ["Quentin Tarantino"]
+mediaAuthor: ["Quentin Tarantino"]
 cover: "django-unchained.webp"
 date: "2021-01-01"
 tags: ["movie"]

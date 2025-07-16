@@ -1,6 +1,6 @@
 ---
 title: "The Woman Who Breathed Two Worlds"
-author: ["Selina Siak Chin Yoke"]
+mediaAuthor: ["Selina Siak Chin Yoke"]
 cover: "the-woman-who-breathed-two-worlds.webp"
 date: "2024-07-10"
 tags: ["book"]

@@ -1,6 +1,6 @@
 ---
 title: "Reservation Dogs"
-author: ["Taika Waititi", "Sterlin Harjo"]
+mediaAuthor: ["Taika Waititi", "Sterlin Harjo"]
 cover: "reservation-dogs.webp"
 date: "2022-12-01"
 tags: ["tv series"]

@@ -1,6 +1,6 @@
 ---
 title: "Ali and Nino"
-author: ["Kurban Said"]
+mediaAuthor: ["Kurban Said"]
 cover: "ali-and-nino.webp"
 date: "2024-02-20"
 tags: ["book"]

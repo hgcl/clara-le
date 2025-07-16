@@ -1,6 +1,6 @@
 ---
 title: "Three Billboards Outside Ebbing, Missouri"
-author: ["Martin McDonagh"]
+mediaAuthor: ["Martin McDonagh"]
 cover: "three-billboards-outside-ebbing-missouri.webp"
 date: "2021-01-01"
 tags: ["movie"]

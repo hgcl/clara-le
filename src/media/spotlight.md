@@ -1,6 +1,6 @@
 ---
 title: "Spotlight"
-author: ["Tom McCarthy"]
+mediaAuthor: ["Tom McCarthy"]
 cover: "spotlight.webp"
 date: "2021-01-01"
 tags: ["movie"]

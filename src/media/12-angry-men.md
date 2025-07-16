@@ -1,6 +1,6 @@
 ---
 title: "12 Angry Men"
-author: ["Reginald Rose"]
+mediaAuthor: ["Reginald Rose"]
 cover: "12-angry-men.webp"
 date: "2021-01-01"
 tags: ["movie"]

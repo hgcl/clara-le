@@ -99,8 +99,8 @@ icon: /public/img/meta/drawing-camera.svg
               <span class="post-title">{{ post.data.title }}</span>
             </a>
             <div class="label divide-list">
-              <span class="author">{{ post.data.author[0] }}
-                {% if post.data.author.length > 1 %}
+              <span class="author">{{ post.data.mediaAuthor[0] }}
+                {% if post.data.mediaAuthor.length > 1 %}
                   & co{% endif %}
               </span>
               <span>{{ post.data.tags | filterTags }}</span>

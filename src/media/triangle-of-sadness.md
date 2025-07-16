@@ -1,6 +1,6 @@
 ---
 title: "Triangle of Sadness"
-author: ["Ruben Östlund"]
+mediaAuthor: ["Ruben Östlund"]
 cover: "triangle-of-sadness.webp"
 date: "2022-12-01"
 tags: ["movie"]

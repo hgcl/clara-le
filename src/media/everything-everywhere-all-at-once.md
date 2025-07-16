@@ -1,6 +1,6 @@
 ---
 title: "Everything Everywhere All At Once"
-author: ["Daniel Scheinert", "Daniel Kwan"]
+mediaAuthor: ["Daniel Scheinert", "Daniel Kwan"]
 cover: "everything-everywhere-all-at-once.webp"
 date: "2022-12-01"
 tags: ["movie"]

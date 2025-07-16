@@ -1,6 +1,6 @@
 ---
 title: "The Queen's Gambit"
-author: ["Scott Frank", "Allan Scott"]
+mediaAuthor: ["Scott Frank", "Allan Scott"]
 cover: "the-queens-gambit.webp"
 date: "2023-01-01"
 tags: ["tv series"]

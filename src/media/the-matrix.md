@@ -1,6 +1,6 @@
 ---
 title: "The Matrix"
-author: ["Lana Wachowski", "Lilly Wachowski"]
+mediaAuthor: ["Lana Wachowski", "Lilly Wachowski"]
 cover: "the-matrix.webp"
 date: "2021-01-01"
 tags: ["movie"]

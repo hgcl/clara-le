@@ -1,6 +1,6 @@
 ---
 title: "Ernest & Celestine"
-author: ["Stéphane Aubier", "Vincent Patar", "Benjamin Renner"]
+mediaAuthor: ["Stéphane Aubier", "Vincent Patar", "Benjamin Renner"]
 cover: "ernest-and-celestine.webp"
 date: "2025-05-26"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Ex Machina"
-author: ["Alex Garland"]
+mediaAuthor: ["Alex Garland"]
 cover: "ex-machina.webp"
 date: "2021-01-01"
 tags: ["movie"]

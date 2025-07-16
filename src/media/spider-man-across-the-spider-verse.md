@@ -1,6 +1,6 @@
 ---
 title: "Spider-Man: Across the Spider-Verse"
-author: ["Kemp Powers", "Joaquim Dos Santos", "Justin K. Thompson"]
+mediaAuthor: ["Kemp Powers", "Joaquim Dos Santos", "Justin K. Thompson"]
 cover: "spider-man-across-the-spider-verse.webp"
 date: "2023-02-01"
 tags: ["movie"]

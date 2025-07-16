@@ -1,6 +1,6 @@
 ---
 title: "What We Do in the Shadows"
-author: "Taika Waititi"
+mediaAuthor: "Taika Waititi"
 cover: "what-we-do-in-the-shadows.webp"
 date: "2021-01-01"
 tags: ["movie"]

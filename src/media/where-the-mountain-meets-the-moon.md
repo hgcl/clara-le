@@ -1,6 +1,6 @@
 ---
 title: "Where the mountain meets the moon"
-author: ["Grace Lin"]
+mediaAuthor: ["Grace Lin"]
 cover: "where-the-mountain-meets-the-moon.webp"
 date: "2024-03-13"
 tags: ["book"]

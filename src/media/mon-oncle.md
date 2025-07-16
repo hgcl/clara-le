@@ -1,6 +1,6 @@
 ---
 title: "Mon Oncle"
-author: ["Jacques Tati"]
+mediaAuthor: ["Jacques Tati"]
 cover: "mon-oncle.webp"
 date: "2024-05-13"
 tags: ["movie"]

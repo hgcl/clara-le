@@ -1,6 +1,6 @@
 ---
 title: "Midsommar"
-author: ["Ari Aster"]
+mediaAuthor: ["Ari Aster"]
 cover: "midsommar.webp"
 date: "2021-01-01"
 tags: ["movie"]

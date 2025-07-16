@@ -1,6 +1,6 @@
 ---
 title: "Dune"
-author: ["Eric Roth"]
+mediaAuthor: ["Eric Roth"]
 cover: "dune.webp"
 date: "2021-12-01"
 tags: ["movie"]

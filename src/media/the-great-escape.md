@@ -1,6 +1,6 @@
 ---
 title: "The Great Escape"
-author: ["John Sturges"]
+mediaAuthor: ["John Sturges"]
 cover: "the-great-escape.webp"
 date: "2021-01-01"
 tags: ["movie"]

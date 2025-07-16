@@ -1,6 +1,6 @@
 ---
 title: "And Then There Were None"
-author: ["Agatha Christie"]
+mediaAuthor: ["Agatha Christie"]
 cover: "and-then-there-were-none.webp"
 date: "2021-01-01"
 tags: ["book"]

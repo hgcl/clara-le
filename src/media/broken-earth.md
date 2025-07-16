@@ -1,6 +1,6 @@
 ---
 title: "Broken Earth (trilogy)"
-author: ["N. K. Jemisin"]
+mediaAuthor: ["N. K. Jemisin"]
 cover: "the-broken-earth.webp"
 date: "2021-01-01"
 tags: ["book"]

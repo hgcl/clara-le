@@ -1,6 +1,6 @@
 ---
 title: "Wiener-Dog"
-author: ["Todd Solondz"]
+mediaAuthor: ["Todd Solondz"]
 cover: "wiener-dog.webp"
 date: "2021-01-01"
 tags: ["movie"]

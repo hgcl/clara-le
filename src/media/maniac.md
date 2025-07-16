@@ -1,6 +1,6 @@
 ---
 title: "Maniac"
-author: ["Cary Joji Fukunaga", "Patrick Somerville"]
+mediaAuthor: ["Cary Joji Fukunaga", "Patrick Somerville"]
 cover: "maniac.webp"
 date: "2021-01-01"
 tags: ["tv series"]

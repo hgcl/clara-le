@@ -1,6 +1,6 @@
 ---
 title: "Subaru (series)"
-author: ["Masahito Soda"]
+mediaAuthor: ["Masahito Soda"]
 cover: "subaru.webp"
 date: "2021-01-01"
 tags: ["book"]

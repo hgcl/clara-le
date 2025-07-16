@@ -1,6 +1,6 @@
 ---
 title: "Half of a Yellow Sun"
-author: ["Chimamanda Ngozi Adichie"]
+mediaAuthor: ["Chimamanda Ngozi Adichie"]
 cover: "half-of-a-yellow-sun.webp"
 date: "2021-01-01"
 tags: ["book"]

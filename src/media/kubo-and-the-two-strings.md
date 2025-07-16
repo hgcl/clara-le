@@ -1,6 +1,6 @@
 ---
 title: "Kubo and the Two Strings"
-author: ["Travis Knight"]
+mediaAuthor: ["Travis Knight"]
 cover: "kubo-and-the-two-strings.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Life of Pi"
-author: ["Yann Martel"]
+mediaAuthor: ["Yann Martel"]
 cover: "life-of-pi.webp"
 date: "2021-01-01"
 tags: ["book"]

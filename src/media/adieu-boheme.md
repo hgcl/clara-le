@@ -1,6 +1,6 @@
 ---
 title: "Adieu Bohème"
-author: ["Jeanne Frenkel"]
+mediaAuthor: ["Jeanne Frenkel"]
 cover: "adieu-boheme.webp"
 date: "2022-01-01"
 tags: ["movie"]

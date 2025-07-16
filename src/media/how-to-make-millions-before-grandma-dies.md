@@ -1,6 +1,6 @@
 ---
 title: "How to Make Millions Before Grandma Dies"
-author: ["Pat Boonnitipat"]
+mediaAuthor: ["Pat Boonnitipat"]
 cover: "how-to-make-millions-before-grandma-dies.webp"
 date: "2024-10-06"
 tags: ["movie"]

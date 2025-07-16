@@ -1,6 +1,6 @@
 ---
 title: "The Books of Earthsea"
-author: ["Ursula K. Le Guin"]
+mediaAuthor: ["Ursula K. Le Guin"]
 cover: "the-books-of-earthsea.webp"
 date: "2024-08-03"
 tags: ["book"]

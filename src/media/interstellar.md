@@ -1,6 +1,6 @@
 ---
 title: "Interstellar"
-author: ["Christopher Nolan"]
+mediaAuthor: ["Christopher Nolan"]
 cover: "interstellar.webp"
 date: "2021-01-01"
 tags: ["movie"]

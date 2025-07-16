@@ -1,6 +1,6 @@
 ---
 title: "The Truman Show"
-author: ["Peter Weir"]
+mediaAuthor: ["Peter Weir"]
 cover: "the-truman-show.webp"
 date: "2021-01-01"
 tags: ["movie"]

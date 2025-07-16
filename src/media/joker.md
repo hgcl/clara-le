@@ -1,6 +1,6 @@
 ---
 title: "Joker"
-author: ["Todd Phillips"]
+mediaAuthor: ["Todd Phillips"]
 cover: "joker.webp"
 date: "2021-01-01"
 tags: ["movie"]

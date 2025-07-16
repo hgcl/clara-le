@@ -1,6 +1,6 @@
 ---
 title: "Parasite"
-author: ["Bong Joon-ho"]
+mediaAuthor: ["Bong Joon-ho"]
 cover: "parasite.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Free Solo"
-author: ["Elizabeth Chai Vasarhelyi", "Jimmy Chin"]
+mediaAuthor: ["Elizabeth Chai Vasarhelyi", "Jimmy Chin"]
 cover: "free-solo.webp"
 date: "2021-01-01"
 tags: ["movie"]

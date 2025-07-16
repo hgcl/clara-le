@@ -1,6 +1,6 @@
 ---
 title: "Kneecap"
-author: ["Rich Peppiatt"]
+mediaAuthor: ["Rich Peppiatt"]
 cover: "kneecap.webp"
 date: "2025-05-13"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Cinema Paradiso"
-author: ["Giuseppe Tornatore"]
+mediaAuthor: ["Giuseppe Tornatore"]
 cover: "cinema-paradiso.webp"
 date: "2023-06-08"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "The Dispossessed"
-author: ["Ursula K. Le Guin"]
+mediaAuthor: ["Ursula K. Le Guin"]
 cover: "the-dispossessed.webp"
 date: "2024-11-04"
 tags: ["book"]

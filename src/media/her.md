@@ -1,6 +1,6 @@
 ---
 title: "Her"
-author: ["Spike Jonze"]
+mediaAuthor: ["Spike Jonze"]
 cover: "her.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "The Three-Body Problem (trilogy)"
-author: ["Cixin Liu"]
+mediaAuthor: ["Cixin Liu"]
 cover: "the-three-body-problem.webp"
 date: "2021-01-01"
 tags: ["book"]

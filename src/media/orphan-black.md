@@ -1,6 +1,6 @@
 ---
 title: "Orphan black"
-author: ["John Fawcett", "Graeme Manson"]
+mediaAuthor: ["John Fawcett", "Graeme Manson"]
 cover: "orphan-black.webp"
 date: "2021-01-01"
 tags: ["tv series"]

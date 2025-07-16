@@ -1,6 +1,6 @@
 ---
 title: "Dead Talents Society"
-author: ["John Hsu"]
+mediaAuthor: ["John Hsu"]
 cover: "dead-talents-society.webp"
 date: "2025-05-29"
 tags: ["movie"]

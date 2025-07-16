@@ -1,6 +1,6 @@
 ---
 title: "Mary Poppins"
-author: ["Robert Stevenson"]
+mediaAuthor: ["Robert Stevenson"]
 cover: "mary-poppins.webp"
 date: "2021-01-01"
 tags: ["movie"]

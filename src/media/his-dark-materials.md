@@ -1,6 +1,6 @@
 ---
 title: "His Dark Materials (series)"
-author: ["Philip Pullman"]
+mediaAuthor: ["Philip Pullman"]
 cover: "his-dark-materials.webp"
 date: "2021-01-01"
 tags: ["book"]

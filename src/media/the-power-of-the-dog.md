@@ -1,6 +1,6 @@
 ---
 title: "The Power of the Dog"
-author: ["Jane Campion"]
+mediaAuthor: ["Jane Campion"]
 cover: "the-power-of-the-dog.webp"
 date: "2021-12-01"
 tags: ["movie"]

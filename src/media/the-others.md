@@ -1,6 +1,6 @@
 ---
 title: "The Others"
-author: ["Alejandro Amenábar"]
+mediaAuthor: ["Alejandro Amenábar"]
 cover: "the-others.webp"
 date: "2021-01-01"
 tags: ["movie"]

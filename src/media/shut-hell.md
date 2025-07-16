@@ -1,6 +1,6 @@
 ---
 title: "Shut Hell (series)"
-author: ["Yu Itō"]
+mediaAuthor: ["Yu Itō"]
 cover: "shut-hell.webp"
 date: "2025-02-23"
 tags: ["book"]

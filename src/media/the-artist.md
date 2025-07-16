@@ -1,6 +1,6 @@
 ---
 title: "The Artist"
-author: ["Michel Hazanavicius"]
+mediaAuthor: ["Michel Hazanavicius"]
 cover: "the-artist.webp"
 date: "2021-01-01"
 tags: ["movie"]

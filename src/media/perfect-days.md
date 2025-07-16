@@ -1,6 +1,6 @@
 ---
 title: "Perfect Days"
-author: ["Wim Wenders"]
+mediaAuthor: ["Wim Wenders"]
 cover: "perfect-days.webp"
 date: "2023-12-03"
 tags: ["movie"]

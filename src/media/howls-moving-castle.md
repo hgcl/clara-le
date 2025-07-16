@@ -1,6 +1,6 @@
 ---
 title: "Howl's Moving Castle"
-author: ["Hayao Miyazaki"]
+mediaAuthor: ["Hayao Miyazaki"]
 cover: "howls-moving-castle.webp"
 date: "2023-06-29"
 tags: ["movie"]

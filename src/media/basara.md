@@ -1,6 +1,6 @@
 ---
 title: "Basara (series)"
-author: ["Yumi Tamura"]
+mediaAuthor: ["Yumi Tamura"]
 cover: "basara.webp"
 date: "2021-01-01"
 tags: ["book"]

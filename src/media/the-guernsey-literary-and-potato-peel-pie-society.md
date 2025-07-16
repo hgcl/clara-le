@@ -1,6 +1,6 @@
 ---
 title: "The Guernsey Literary and Potato Peel Pie Society"
-author: ["Mary Ann Shaffer", "Annie Barrows"]
+mediaAuthor: ["Mary Ann Shaffer", "Annie Barrows"]
 cover: "the-guernsey-literary-and-potato-peel-pie-society.webp"
 date: "2021-01-01"
 tags: ["book"]

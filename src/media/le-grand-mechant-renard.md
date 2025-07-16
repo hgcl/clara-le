@@ -1,6 +1,6 @@
 ---
 title: "Le Grand Méchant Renard"
-author: ["Benjamin Renner"]
+mediaAuthor: ["Benjamin Renner"]
 cover: "le-grand-mechant-renard.webp"
 date: "2021-01-01"
 tags: ["book"]

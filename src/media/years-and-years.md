@@ -1,6 +1,6 @@
 ---
 title: "Years and Years"
-author: ["Simon Cellan Jones", "Lisa Mulcahy"]
+mediaAuthor: ["Simon Cellan Jones", "Lisa Mulcahy"]
 cover: "years-and-years.webp"
 date: "2021-01-01"
 tags: ["tv series"]

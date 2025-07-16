@@ -1,6 +1,6 @@
 ---
 title: "A Real Pain"
-author: ["Jesse Eisenberg"]
+mediaAuthor: ["Jesse Eisenberg"]
 cover: "a-real-pain.webp"
 date: "2025-01-25"
 tags: ["movie"]

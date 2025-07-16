@@ -1,6 +1,6 @@
 ---
 title: "The Prestige"
-author: ["Christopher Nolan"]
+mediaAuthor: ["Christopher Nolan"]
 cover: "the-prestige.webp"
 date: "2021-01-01"
 tags: ["movie"]

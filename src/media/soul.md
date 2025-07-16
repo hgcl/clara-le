@@ -1,6 +1,6 @@
 ---
 title: "Soul"
-author: ["Pete Docter"]
+mediaAuthor: ["Pete Docter"]
 cover: "soul.webp"
 date: "2021-01-01"
 tags: ["movie"]

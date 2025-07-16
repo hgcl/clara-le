@@ -1,6 +1,6 @@
 ---
 title: "Hero"
-author: ["Zhang Yimou"]
+mediaAuthor: ["Zhang Yimou"]
 cover: "hero.webp"
 date: "2025-03-27"
 tags: ["movie"]

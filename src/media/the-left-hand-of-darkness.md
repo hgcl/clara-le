@@ -1,6 +1,6 @@
 ---
 title: "The Left Hand of Darkness"
-author: ["Ursula K. Le Guin"]
+mediaAuthor: ["Ursula K. Le Guin"]
 cover: "the-left-hand-of-darkness.webp"
 date: "2024-10-28"
 tags: ["book"]

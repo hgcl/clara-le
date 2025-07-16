@@ -1,6 +1,6 @@
 ---
 title: "Life of Pi"
-author: ["Ang Lee"]
+mediaAuthor: ["Ang Lee"]
 cover: "life-of-pi-movie.webp"
 date: "2021-01-01"
 tags: ["movie"]

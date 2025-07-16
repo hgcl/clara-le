@@ -1,6 +1,6 @@
 ---
 title: "The Handmaiden"
-author: ["Park Chan-wook"]
+mediaAuthor: ["Park Chan-wook"]
 cover: "the-handmaiden.webp"
 date: "2021-01-01"
 tags: ["movie"]

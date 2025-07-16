@@ -1,6 +1,6 @@
 ---
 title: "In the Mood for Love"
-author: ["Wong Kar-wai"]
+mediaAuthor: ["Wong Kar-wai"]
 cover: "in-the-mood-for-love.webp"
 date: "2023-09-20"
 tags: ["movie"]

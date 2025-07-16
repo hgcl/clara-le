@@ -1,6 +1,6 @@
 ---
 title: "Wizard of Oz"
-author: ["Victor Fleming"]
+mediaAuthor: ["Victor Fleming"]
 cover: "wizard-of-oz.webp"
 date: "2021-01-01"
 tags: ["movie"]

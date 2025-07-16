@@ -1,6 +1,6 @@
 ---
 title: "Memento"
-author: ["Christopher Nolan"]
+mediaAuthor: ["Christopher Nolan"]
 cover: "memento.webp"
 date: "2021-01-01"
 tags: ["movie"]

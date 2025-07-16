@@ -1,6 +1,6 @@
 ---
 title: "Mulholland Drive"
-author: ["David Lynch"]
+mediaAuthor: ["David Lynch"]
 cover: "mulholland-drive.webp"
 date: "2024-05-12"
 tags: ["movie"]

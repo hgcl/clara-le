@@ -1,6 +1,6 @@
 ---
 title: "Amélie"
-author: ["Jean-Pierre Jeunet"]
+mediaAuthor: ["Jean-Pierre Jeunet"]
 cover: "amelie.webp"
 date: "2021-01-01"
 tags: ["movie"]

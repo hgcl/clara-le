@@ -1,6 +1,6 @@
 ---
 title: "Tomorrow and Tomorrow and Tomorrow"
-author: ["Gabrielle Zevin"]
+mediaAuthor: ["Gabrielle Zevin"]
 cover: "tomorrow-and-tomorrow-and-tomorrow.webp"
 date: "2024-10-07"
 tags: ["book"]

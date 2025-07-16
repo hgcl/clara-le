@@ -1,6 +1,6 @@
 ---
 title: "A dark room"
-author: ["Doublespeak"]
+mediaAuthor: ["Doublespeak"]
 cover: "a-dark-room.webp"
 date: "2025-02-09"
 tags: ["game"]

@@ -1,6 +1,6 @@
 ---
 title: "The Sum of Our Follies"
-author: ["Shih-Li Kow"]
+mediaAuthor: ["Shih-Li Kow"]
 cover: "the-sum-of-our-follies.webp"
 date: "2024-10-10"
 tags: ["book"]

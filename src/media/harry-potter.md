@@ -1,6 +1,6 @@
 ---
 title: "Harry Potter (series)"
-author: ["J. K. Rowling"]
+mediaAuthor: ["J. K. Rowling"]
 cover: "harry-potter.webp"
 date: "2021-01-01"
 tags: ["book"]

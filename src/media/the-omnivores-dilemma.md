@@ -1,6 +1,6 @@
 ---
 title: "The Omnivore's Dilemma"
-author: ["Michael Pollan"]
+mediaAuthor: ["Michael Pollan"]
 cover: "the-omnivores-dilemma.webp"
 date: "2021-01-01"
 tags: ["book"]

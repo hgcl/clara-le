@@ -1,6 +1,6 @@
 ---
 title: "Do the Right Thing"
-author: ["Spike Lee"]
+mediaAuthor: ["Spike Lee"]
 cover: "do-the-right-thing.webp"
 date: "2021-01-01"
 tags: ["movie"]

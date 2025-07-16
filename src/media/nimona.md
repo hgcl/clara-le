@@ -1,6 +1,6 @@
 ---
 title: "Nimona"
-author: ["Nick Bruno", "Troy Quane"]
+mediaAuthor: ["Nick Bruno", "Troy Quane"]
 cover: "nimona.webp"
 date: "2024-05-27"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "The Murderbot Diaries"
-author: "Martha Wells"
+mediaAuthor: "Martha Wells"
 cover: "the-murderbot-diaries.webp"
 date: "2021-01-01"
 tags: ["book"]

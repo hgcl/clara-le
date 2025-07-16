@@ -1,6 +1,6 @@
 ---
 title: "Sherlock"
-author: ["Mark Gatiss"]
+mediaAuthor: ["Mark Gatiss"]
 cover: "sherlock.webp"
 date: "2021-01-01"
 tags: ["tv series"]

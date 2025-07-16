@@ -1,6 +1,6 @@
 ---
 title: "Shutter Island"
-author: ["Martin Scorsese"]
+mediaAuthor: ["Martin Scorsese"]
 cover: "shutter-island.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "The Night Circus"
-author: ["Erin Morgenstern"]
+mediaAuthor: ["Erin Morgenstern"]
 cover: "the-night-circus.webp"
 date: "2021-01-01"
 tags: ["book"]

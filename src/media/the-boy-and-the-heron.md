@@ -1,6 +1,6 @@
 ---
 title: "The Boy and the Heron"
-author: ["Hayao Miyazaki"]
+mediaAuthor: ["Hayao Miyazaki"]
 cover: "the-boy-and-the-heron.webp"
 date: "2025-02-28"
 tags: ["movie"]

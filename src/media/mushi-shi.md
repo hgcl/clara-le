@@ -1,6 +1,6 @@
 ---
 title: "Mushi-Shi"
-author: ["Hiroshi Nagahama"]
+mediaAuthor: ["Hiroshi Nagahama"]
 cover: "mushi-shi.webp"
 date: "2021-01-01"
 tags: ["tv series"]

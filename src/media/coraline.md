@@ -1,6 +1,6 @@
 ---
 title: "Coraline"
-author: ["Henry Selick"]
+mediaAuthor: ["Henry Selick"]
 cover: "coraline.webp"
 date: "2021-01-01"
 tags: ["movie"]

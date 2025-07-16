@@ -1,6 +1,6 @@
 ---
 title: "Kill Bill"
-author: ["Quentin Tarantino"]
+mediaAuthor: ["Quentin Tarantino"]
 cover: "kill-bill.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Jumanji"
-author: ["Jake Kasdan"]
+mediaAuthor: ["Jake Kasdan"]
 cover: "jumanji.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Aftersun"
-author: "Charlotte Wells"
+mediaAuthor: "Charlotte Wells"
 cover: "aftersun.webp"
 date: "2022-12-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "WandaVision"
-author: ["Jac Schaeffer"]
+mediaAuthor: ["Jac Schaeffer"]
 cover: "wandavision.webp"
 date: "2021-12-01"
 tags: ["tv series"]

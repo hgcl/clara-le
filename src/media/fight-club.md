@@ -1,6 +1,6 @@
 ---
 title: "Fight Club"
-author: ["David Fincher"]
+mediaAuthor: ["David Fincher"]
 cover: "fight-club.webp"
 date: "2021-01-01"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "Nage libre"
-author: ["Sébastien Chrisostome"]
+mediaAuthor: ["Sébastien Chrisostome"]
 cover: "nage-libre.webp"
 date: "2021-01-01"
 tags: ["book"]

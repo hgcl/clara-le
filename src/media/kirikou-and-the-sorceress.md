@@ -1,6 +1,6 @@
 ---
 title: "Kirikou and the Sorceress"
-author: ["Michel Ocelot"]
+mediaAuthor: ["Michel Ocelot"]
 cover: "kirikou.webp"
 date: "2021-01-01"
 tags: ["movie"]

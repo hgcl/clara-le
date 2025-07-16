@@ -1,6 +1,6 @@
 ---
 title: "Can't We Talk About Something More Pleasant?"
-author: ["Roz Chast"]
+mediaAuthor: ["Roz Chast"]
 cover: "cant-we-talk-about-something-more-pleasant.webp"
 date: "2023-07-31"
 tags: ["book"]

@@ -1,6 +1,6 @@
 ---
 title: "Our flag means death"
-author: ["David Jenkins"]
+mediaAuthor: ["David Jenkins"]
 cover: "our-flag-means-death.webp"
 date: "2022-09-01"
 tags: ["tv series"]

@@ -1,6 +1,6 @@
 ---
 title: "Chicago"
-author: ["Rob Marshall"]
+mediaAuthor: ["Rob Marshall"]
 cover: "chicago.webp"
 date: "2023-12-12"
 tags: ["movie"]

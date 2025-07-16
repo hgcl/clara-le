@@ -1,6 +1,6 @@
 ---
 title: "La La Land"
-author: ["Damien Chazelle"]
+mediaAuthor: ["Damien Chazelle"]
 cover: "la-la-land.webp"
 date: "2021-01-01"
 tags: ["movie"]

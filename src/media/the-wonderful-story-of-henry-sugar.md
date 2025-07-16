@@ -1,6 +1,6 @@
 ---
 title: "The Wonderful Story of Henry Sugar"
-author: ["Wes Anderson"]
+mediaAuthor: ["Wes Anderson"]
 cover: "the-wonderful-story-of-henry-sugar.webp"
 date: "2023-10-05"
 tags: ["movie"]

@@ -1,6 +1,6 @@
 ---
 title: "La Horde de Contrevent"
-author: ["Alain Damasio"]
+mediaAuthor: ["Alain Damasio"]
 cover: "la-horde-de-contrevent.webp"
 date: "2021-01-01"
 tags: ["book"]

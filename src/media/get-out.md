@@ -1,6 +1,6 @@
 ---
 title: "Get Out"
-author: ["Jordan Peele"]
+mediaAuthor: ["Jordan Peele"]
 cover: "get-out.webp"
 date: "2021-01-01"
 tags: ["movie"]

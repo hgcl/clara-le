@@ -1,6 +1,6 @@
 ---
 title: "The Pianist"
-author: ["Roman Polanski"]
+mediaAuthor: ["Roman Polanski"]
 cover: "the-pianist.webp"
 date: "2021-01-01"
 tags: ["movie"]

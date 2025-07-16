@@ -1,6 +1,6 @@
 ---
 title: "Chroniques birmanes"
-author: ["Guy Delisle"]
+mediaAuthor: ["Guy Delisle"]
 cover: "chroniques-birmanes.webp"
 date: "2021-01-01"
 tags: ["book"]

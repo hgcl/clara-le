@@ -1,6 +1,6 @@
 ---
 title: "Astérix & Obélix : Mission Cléopâtre"
-author: ["Alain Chabat"]
+mediaAuthor: ["Alain Chabat"]
 cover: "asterix-et-obelix-mission-cleopatre.webp"
 date: "2021-01-01"
 tags: ["movie"]
