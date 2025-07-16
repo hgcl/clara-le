@@ -2,7 +2,7 @@
 title: "Sick days cheatsheet"
 subtitle: "Or how to help my tired cloudy mind"
 date: "2022-11-30"
-tags: ["thought"]
+tags: ["thought", "ongoing"]
 lang: "en"
 ---
 
@@ -53,6 +53,12 @@ I have a sensitive nose that easily transforms an inoffensive cold into full-fle
 - Sleep with your head elevated
 - Blow your nose gently, one nostril at a time. Forceful blowing can irritate the nasal passages and propel bacteria-laden mucus back up into your sinuses.
 - Try these [acupressure methods](https://ascentchiropractic.com/how-to-use-acupressure-points-to-clear-congested-sinuses-in-30-seconds/)
+
+## For period cramps
+
+- Double acupressure points on the palm (lower section), very close to the wrist, press those two points with your other hand
+- Acupressure point in the hole above your heel, press on the heel with your thumb
+- Lie stomach down on your bed, cross your ankles, stretch and bend your knees
 
 --ENDCHAR--
 
