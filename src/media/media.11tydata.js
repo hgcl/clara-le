@@ -5,7 +5,7 @@ const mediaData = {
     // Generate post creation year automatically from date frontmatter
     yearCreated: (data) => new Date(data.date).getFullYear(),
   },
-  layout: "layout/post.njk",
+  layout: "layout/media.njk",
   tags: "media",
   directory: "media",
 };

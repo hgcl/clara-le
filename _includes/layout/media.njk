@@ -1,0 +1,55 @@
+{% extends "layout/base.njk" %}
+
+{% block head %}
+<style>
+  #split-content {
+    display: flex;
+    gap: var(--space-2xl);
+    flex-wrap: wrap;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #poster-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 250px;
+    gap: var(--font-2xs);
+    font-size: var(--font-xs);
+  }
+  #review-section {
+    /* Include flex-basis to shrink before wrapping */
+    flex: 1 0 300px;
+    max-width: 500px;
+  }
+  #poster-section img {
+    margin-bottom: var(--space-s);
+  }
+  #review-section > *:first-child {
+    margin-top: 0;
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+  <!-- MICROFORMATS: h-entry, e-content are microformats. Don't use for styling! -->
+  <!-- Microformats docs: https://microformats.org/wiki/h-entry -->
+  <article id="content-body" class="h-entry" lang="{{ lang }}"> 
+    {% include 'post-header.njk' %}
+    <div id="split-content" class="e-content">
+      <section id="review-section">
+        {{ content | safe | replace("--ENDCHAR--", "<span aria-hidden='true' style='font-size: 1.3rem; font-weight: bold; color: var(--color-accent);'>⊙</span>") }}
+      </section>
+      <section id="poster-section">
+        <img alt="" src="/public/img/media/{{ cover }}"/>
+        {% set comma = joiner() %}
+        <span>Author(s): {% for element in mediaAuthor %}{{ comma() }} {{ element }}{% endfor %}</span>
+        <span>Year: {{ year }}</span>
+      </section>
+    </div>
+  </article>
+{% endblock %}
+
+{% block script %}
+{% endblock %}

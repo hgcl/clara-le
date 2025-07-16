@@ -1,10 +1,6 @@
 <div class="post-header">
   <div class="headline-row">
-    <h1 class="p-name">{{ title }}
-      {% if year %}
-        ({{ year }})
-      {% endif %}
-    </h1>
+    <h1 class="p-name">{{ title }}</h1>
     <!-- MICROFORMATS: https://microformats.org/ -->
     {% include 'h-card.njk' %} 
     <!-- define the canonical URL of this specific page/post -->
