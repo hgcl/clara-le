@@ -12,9 +12,14 @@ I am reigning in my impatience and postponing these experiments to later. In the
 
 ## Türkiye
 
-- Ayran: cold savory yogurt-based beverage
+- Ayran: cold savory yogurt-based beverage (best when served cold and foamed)
 - Kuru fasulye: beans in tomato sauce (love the version with a lot of tomato paste for a richer result)
 - Çig köfte: fresh bulgur-based wrap, great for summer
+- Turkish coffee: strong and thick coffee, the good ones are served with a distinct _crema_
+- Lahmacun: sometimes called the "Turkish pizza", it's thin, crispy and delicious
+- Kavut: a type of flour-based halva, very paste-like (make it "bland" so that it can be topped with honey/jam or anything else)
+- Menemen: scrambled eggs with tomatoes, the perfect breakfast dish
+- Mercimek: lentil soup that is creamy and light
 
 ## Georgia
 
@@ -24,11 +29,15 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Lobio: hearty red bean stew with walnuts, herbs and spices
 - Chirbuli: similar to shakshuka but with walnuts
 - Tkemali: sour plum sauce (great for grilled meat)
+- Shkmeruli: the creamy and garlic-heavy sauce of this dish is addictive
+- Kompot: sweet drink that's perfect to preserve fruits (found everywhere in the ex-USSR region)
+- Mchadi: corn-based bread that is crumbly
+- Tashmijabi: potato puree mixed with cheese, where can it go wrong?
 
 ## Armenia
 
 - Aveluk: wild sorrel salad
-- Kharcho: beef, tomato and rice soup
+- Kharcho: beef, tomato and rice soup (found everywhere in the ex-USSR region)
 
 ## Azerbaijan
 
@@ -41,7 +50,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Solyanka: thick and sour soup, with cured meats and pickles, originally Russian
 - Kuksi: koryo-saram noodle soup that can be eaten hot or cold (super refreshing)
 - Qurt: dried goat or sheep cheese balls, hard, salty and long-lasting
-- Sesame honey bars: crunchy, nutty (perfect snack for long train rides)
+- Sesame honey bars: these snacks are crunchy, nutty and perfect for long train rides (not necessarily from Central Asia, but discovered them there)
 
 ## West China
 
@@ -68,6 +77,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Chè bột lọc bọc dừa: another chè, crunchy coconut bits wrapepd inside of chewy tapioca flour
 - Chè trôi nước: very similar to the previous chè, the filling is mung beans, and the water part is _very_ gingerish
 - Coconut ice cream: because it seems too easy (and delicious) not to make my own
+- Bánh bèo: love these small rice cakes, especially the wet version with a lot of fish sauce
 
 ## Malaysia
 
@@ -105,5 +115,8 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Egg tart: a custardy delight, best when the dough is crunchy and flaky
 - Chāshāo bāozǐ (叉烧包子): a soft bao, with a juicy meat filling that is both sweet and savory
 - Chǎo guǒ (炒粿): these stir-fried "radish" cakes are just the perfect comfort food
+- Braised pork rice: cannot see any bad word here
+- Bubble tea: yes!
+- Ma jiang mian: Taiwanese cold sesame noodles
 
 _Still ongoing..._ --ENDCHAR--
