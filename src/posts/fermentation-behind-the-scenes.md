@@ -36,11 +36,11 @@ Another example of lacto fermentation is cheese. The basic concept of cheese is 
 
 _Ethanol fermentation_ or _alcoholic fermentation_ is the process where yeasts — a.k.a. mushrooms — convert sugars into energy in an anaerobic environment (same old, same old). However, this time, the by-products are ethanol and carbon dioxide.
 
-Ethanol makes things — well — alcoholic, whereas carbon dioxide produces bubbles. In short, this type of fermentation is used for wines, beers, whiskeys, rums and tons of other alcoholic beverages.
+Ethanol makes things — well — alcoholic, whereas carbon dioxide produces bubbles. In short, this type of fermentation is used for wines[^4], beers, whiskeys, rums and tons of other alcoholic beverages.
 
 In most cases, the brewers will let the carbon dioxide escape during a primary fermentation. When needed, a second fermentation (sometimes with extra yeast) can be done in the final bottle. As the carbon dioxide doesn't have anywhere to go, it is integrated into the liquid as bubbles — yay! Beers and sparkly wines are perfect examples of this second fermentation.
 
-With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached 15% alcohol per unit volume — strong enough to kill all types of yeasts.[^4] When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
+With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached 15% alcohol per unit volume — strong enough to kill all types of yeasts.[^5] When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
 
 Winemakers also use this yeast property to make fortified wines (e.g. Porto wine). They can stop the fermenting process by adding some extra alcohol in the wine. This usually results in a sweeter and stronger wine. The fermenting process can also be stopped by simply dropping the temperature of the tank.
 
@@ -50,21 +50,21 @@ Winemakers also use this yeast property to make fortified wines (e.g. Porto wine
 
 _Malolactic fermentation_ is a process in winemaking. It is usually done after the first ethanol fermentation, by introducing LAB into the must. Those bacteria will consume the tart-tasting malic acid, naturally present in grape must, and produce softer-tasting lactic acid and carbon dioxide.
 
-The final aromas are said to be less acid, apple-like and more buttery, milky, oily or vanilla-like. Most red wines undergo malolactic fermentation, as well as some fuller white wines like the stereotypical Chardonnay[^5]. On the contrary, winemakers prevent wines such as Riesling, Gewürztraminer, and Sauvignon Blanc to go through malolactic fermentation to maintain a more tart or acidic profile.
+The final aromas are said to be less acid, apple-like and more buttery, milky, oily or vanilla-like. Most red wines undergo malolactic fermentation, as well as some fuller white wines like the stereotypical Chardonnay[^6]. On the contrary, winemakers prevent wines such as Riesling, Gewürztraminer, and Sauvignon Blanc to go through malolactic fermentation to maintain a more tart or acidic profile.
 
-LAB can be very sensitive to the sulfites (sulfur dioxide) added during the winemaking process. When choosing to not use sulfites, wild LAB native to the grapes can initiate uncontrolled malolactic fermentation that might give an off-taste to some natural wines. That's why a specific desirable bacterium is often added to the wine for this second fermentation.[^6]
+LAB can be very sensitive to the sulfites (sulfur dioxide) added during the winemaking process. When choosing to not use sulfites, wild LAB native to the grapes can initiate uncontrolled malolactic fermentation that might give an off-taste to some natural wines. That's why a specific desirable bacterium is often added to the wine for this second fermentation.[^7]
 
 ## Carbonic maceration
 
 _Carbonic maceration_ is a fermentation technique usually used for specific types of wines (e.g. Beaujolais). It results in wines with low tannins that should be drunk young.
 
-It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­ — because of gravity — and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^7]. The carbon dioxide gas stimulates the fermentation process, which occurs inside each berry.
+It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­ — because of gravity — and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^8]. The carbon dioxide gas stimulates the fermentation process, which occurs inside each berry.
 
 Carbonic maceration started as a winemaking technique, but people have started using it during coffee preprocessing as well. Before the coffee berries are ready to be roasted, they need to first be fermented, so that the fruit pulp can be removed from the seed. The method is similar: keep the berries intact in a closed vessel to undergo a carbonic maceration. In the case of coffee, the vessel is pumped with extra carbon dioxide to begin with. The resulting coffee profiles are often described as more intense.
 
 ## Aerobic fermentation
 
-_Aerobic fermentation_ is the process where acetic acid bacteria (AAB) metabolize sugars or ethanol in an aerobic environment[^8]. Its by-product is acetic acid. As there is oxygen involved, it is more accurate to call this fermentation an _oxidation_ process.
+_Aerobic fermentation_ is the process where acetic acid bacteria (AAB) metabolize sugars or ethanol in an aerobic environment[^9]. Its by-product is acetic acid. As there is oxygen involved, it is more accurate to call this fermentation an _oxidation_ process.
 
 This type of fermentation is used for the production of vinegar. If making wine vinegar, the ethanol present in the wine is converted into acetic acid.
 
@@ -87,8 +87,9 @@ That's it for today's episode on food fermentation! I might update it in the fut
 [^1]: Actually, fermentation also occurs in other interesting cases. For instance, during intense exercise, Mammalian muscles will undergo fermentation and transform some of those stored sugars into energy and lactic acid as a by-product. I now finally understand why my arms hurt after an intense climbing session!
 [^2]: An anaerobic environment has no oxygen.
 [^3]: A lot of cheeses are also made with rennet, a set of enzymes, that will also divide the milk into curds and whey. The bonus effect is that the curds will be less fragile and more gel-like.
-[^4]: This explains the strongest non-fortified wines have an alcohol level of 15–16%. If the percentage is higher than that, your wine is definitely fortified — in other words, extra alcohol has been added on top.
-[^5]: A counter example is the Chablis wine that also uses Chardonnay grapes. A Chablis wine doesn't go through malolactic fermentation, and the result is therefore very crisp, mineral, with unripe apple flavors.
-[^6]: Choosing a controlled malolactic fermentation step also avoids this fermentation to occur once the wine has been bottled — making the drink slightly sparkling. This in-bottle fermentation is sometimes a distinct characteristic, like for Vino Verde, a sparkling Portuguese wine.
-[^7]: Carbon dioxide is heavier than oxygen. As it saturates the tank, oxygen is pushed out from the tank through a one-way valve.
-[^8]: They like oxygen.
+[^4]: Yeast for wine primarily comes from the skin of grapes, where it naturally adheres as the fruit grows. Depending on the winemaker decision, a commercial yeast can also be added to the fermentation process for a more controlled result.
+[^5]: This explains the strongest non-fortified wines have an alcohol level of 15–16%. If the percentage is higher than that, your wine is definitely fortified — in other words, extra alcohol has been added on top.
+[^6]: A counter example is the Chablis wine that also uses Chardonnay grapes. A Chablis wine doesn't go through malolactic fermentation, and the result is therefore very crisp, mineral, with unripe apple flavors.
+[^7]: Choosing a controlled malolactic fermentation step also avoids this fermentation to occur once the wine has been bottled — making the drink slightly sparkling. This in-bottle fermentation is sometimes a distinct characteristic, like for Vino Verde, a sparkling Portuguese wine.
+[^8]: Carbon dioxide is heavier than oxygen. As it saturates the tank, oxygen is pushed out from the tank through a one-way valve.
+[^9]: They like oxygen.
