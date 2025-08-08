@@ -10,7 +10,9 @@ In the last few years, I have superficially dabbled with fermenting my own food,
 
 Since Wednesday, I have been diving deep into the intricate world of food fermentation from a complete other direction. I stepped outside my comfort zone and had a look at this whole fermentation shenanigan from the point of view of biochemistry.
 
-Here are the things I've learned. <span class="subtle">(Disclaimer: I am mostly quoting Wikipedia as that's where my fermentation rabbit hole started. Please <a href="/about#contact">get back to me</a> if I wrote anything wrong — I don't really know what I'm talking about.)</span>
+Here are the things I've learned. <span class="subtle">(Disclaimer: I am mostly quoting Wikipedia as that's where my fermentation rabbit hole started. Please <a href="/about#contact">get back to me</a> if I wrote anything wrong.)</span>
+
+_Note: While updating this note, I realized how much wine-specific information I was jotting down. Hence an individual living note on [winemaking](/posts/notes-on-winemaking/) was born._
 
 ---
 
@@ -24,7 +26,7 @@ Let's take a look at a few types of fermentation used in the food-industry — b
 
 ## Lacto fermentation
 
-_Lacto fermentation_, also called _lactic acid fermentation_, is the process where lactic acid bacteria (LAB) convert sugars into energy, with lactic acid (and sometimes other stuff as well) as by-products. This occurs in an anaerobic environment[^2].
+**Lacto fermentation**, also called lactic acid fermentation, is the process where lactic acid bacteria (LAB) convert sugars into energy, with lactic acid (and sometimes other stuff as well) as by-products. This occurs in an anaerobic environment[^2].
 
 Common examples of lacto fermentation are kimchi, sauerkraut or yogurt. LAB already naturally exists in many vegetables, so you don't need to add external bacteria for the fermentation to occur. The bacteria keep on living in the final product and make them _probiotic_, which is good for your gut health.
 
@@ -34,15 +36,13 @@ Another example of lacto fermentation is cheese. The basic concept of cheese is 
 
 ## Ethanol fermentation
 
-_Ethanol fermentation_ or _alcoholic fermentation_ is the process where yeasts — a.k.a. mushrooms — convert sugars into energy in an anaerobic environment (same old, same old). However, this time, the by-products are ethanol and carbon dioxide.
+**Ethanol fermentation** or alcoholic fermentation is the process where yeasts — a.k.a. mushrooms — convert sugars into energy in an anaerobic environment (same old, same old). However, this time, the by-products are ethanol and carbon dioxide.
 
 Ethanol makes things — well — alcoholic, whereas carbon dioxide produces bubbles. In short, this type of fermentation is used for wines[^4], beers, whiskeys, rums and tons of other alcoholic beverages.
 
 In most cases, the brewers will let the carbon dioxide escape during a primary fermentation. When needed, a second fermentation (sometimes with extra yeast) can be done in the final bottle. As the carbon dioxide doesn't have anywhere to go, it is integrated into the liquid as bubbles — yay! Beers and sparkly wines are perfect examples of this second fermentation.
 
-With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached 15% alcohol per unit volume — strong enough to kill all types of yeasts.[^5] When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
-
-Winemakers also use this yeast property to make fortified wines (e.g. Porto wine). They can stop the fermenting process by adding some extra alcohol in the wine. This usually results in a sweeter and stronger wine. The fermenting process can also be stopped by simply dropping the temperature of the tank.
+With ethanol fermentation, the yeasts die after a while: either when all the sugars have been converted into ethanol or when the alcohol content has reached about 15% alcohol per unit volume — strong enough to kill all types of yeasts.[^5] When a beer is unfiltered, you can see the sediment of dead yeasts remaining at the bottom of the bottle.
 
 > Fun fact: ethanol fermentation also takes place in some species of fish where it provides energy when oxygen is scarce.
 
@@ -50,21 +50,19 @@ Winemakers also use this yeast property to make fortified wines (e.g. Porto wine
 
 _Malolactic fermentation_ is a process in winemaking. It is usually done after the first ethanol fermentation, by introducing LAB into the must. Those bacteria will consume the tart-tasting malic acid, naturally present in grape must, and produce softer-tasting lactic acid and carbon dioxide.
 
-The final aromas are said to be less acid, apple-like and more buttery, milky, oily or vanilla-like. Most red wines undergo malolactic fermentation, as well as some fuller white wines like the stereotypical Chardonnay[^6]. On the contrary, winemakers prevent wines such as Riesling, Gewürztraminer, and Sauvignon Blanc to go through malolactic fermentation to maintain a more tart or acidic profile.
-
-LAB can be very sensitive to the sulfites (sulfur dioxide) added during the winemaking process. When choosing to not use sulfites, wild LAB native to the grapes can initiate uncontrolled malolactic fermentation that might give an off-taste to some natural wines. That's why a specific desirable bacterium is often added to the wine for this second fermentation.[^7]
+The final aromas are said to be less acid and more buttery. Most red wines undergo malolactic fermentation, as well as some fuller white wines like the stereotypical Chardonnay.
 
 ## Carbonic maceration
 
 _Carbonic maceration_ is a fermentation technique usually used for specific types of wines (e.g. Beaujolais). It results in wines with low tannins that should be drunk young.
 
-It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­ — because of gravity — and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^8]. The carbon dioxide gas stimulates the fermentation process, which occurs inside each berry.
+It actually falls under the ethanol fermentation family. The difference is that instead of crushing the grapes, most of the fruits are kept whole in a sealed container. The fruits at the bottom are crushed­ — because of gravity — and undergo conventional ethanol fermentation. The carbon dioxide produced saturates the air, creating an anaerobic environment[^6]. The carbon dioxide gas stimulates the fermentation process, which occurs inside each berry.
 
 Carbonic maceration started as a winemaking technique, but people have started using it during coffee preprocessing as well. Before the coffee berries are ready to be roasted, they need to first be fermented, so that the fruit pulp can be removed from the seed. The method is similar: keep the berries intact in a closed vessel to undergo a carbonic maceration. In the case of coffee, the vessel is pumped with extra carbon dioxide to begin with. The resulting coffee profiles are often described as more intense.
 
 ## Aerobic fermentation
 
-_Aerobic fermentation_ is the process where acetic acid bacteria (AAB) metabolize sugars or ethanol in an aerobic environment[^9]. Its by-product is acetic acid. As there is oxygen involved, it is more accurate to call this fermentation an _oxidation_ process.
+_Aerobic fermentation_ is the process where acetic acid bacteria (AAB) metabolize sugars or ethanol in an aerobic environment[^7]. Its by-product is acetic acid. As there is oxygen involved, it is more accurate to call this fermentation an _oxidation_ process.
 
 This type of fermentation is used for the production of vinegar. If making wine vinegar, the ethanol present in the wine is converted into acetic acid.
 
@@ -82,14 +80,11 @@ The SCOBY, when mixed with water and sugar-rich ingredients, undergo multiple ty
 
 ---
 
-That's it for today's episode on food fermentation! I might update it in the future, as I learn more about this fascinating world! --ENDCHAR--
+This is my living note on food fermentation — so it might appear a bit dry and incomplete. I will update it as I learn more about this fascinating world! --ENDCHAR--
 
 [^1]: Actually, fermentation also occurs in other interesting cases. For instance, during intense exercise, Mammalian muscles will undergo fermentation and transform some of those stored sugars into energy and lactic acid as a by-product. I now finally understand why my arms hurt after an intense climbing session!
 [^2]: An anaerobic environment has no oxygen.
 [^3]: A lot of cheeses are also made with rennet, a set of enzymes, that will also divide the milk into curds and whey. The bonus effect is that the curds will be less fragile and more gel-like.
 [^4]: Yeast for wine primarily comes from the skin of grapes, where it naturally adheres as the fruit grows. Depending on the winemaker decision, a commercial yeast can also be added to the fermentation process for a more controlled result.
-[^5]: This explains the strongest non-fortified wines have an alcohol level of 15–16%. If the percentage is higher than that, your wine is definitely fortified — in other words, extra alcohol has been added on top.
-[^6]: A counter example is the Chablis wine that also uses Chardonnay grapes. A Chablis wine doesn't go through malolactic fermentation, and the result is therefore very crisp, mineral, with unripe apple flavors.
-[^7]: Choosing a controlled malolactic fermentation step also avoids this fermentation to occur once the wine has been bottled — making the drink slightly sparkling. This in-bottle fermentation is sometimes a distinct characteristic, like for Vino Verde, a sparkling Portuguese wine.
-[^8]: Carbon dioxide is heavier than oxygen. As it saturates the tank, oxygen is pushed out from the tank through a one-way valve.
-[^9]: They like oxygen.
+[^5]: Carbon dioxide is heavier than oxygen. As it saturates the tank, oxygen is pushed out from the tank through a one-way valve.
+[^6]: They like oxygen.
