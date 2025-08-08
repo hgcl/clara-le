@@ -259,8 +259,23 @@ aside,
 blockquote,
 pre,
 figure, 
+table,
 p > img /* images not in <figure> that appear in Markdown files only (blog posts) */ {
   margin-block: 2rem;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+}
+table thead {
+  border-bottom: 1px solid var(--color-text);
+}
+table tbody tr {
+  border-bottom: 1px solid var(--color-text);
+}
+table tbody tr td {
+  padding: var(--font-2xs);
 }
 
 /* Image flow */
