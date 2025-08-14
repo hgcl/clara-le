@@ -49,13 +49,15 @@
       <a id="skip-to-content" class="button" href="#main-section">Skip to content</a>
       <nav>
         <button
-          class="secondary-link hide"
+          class="secondary-link"
           id="menu-button"
           aria-haspopup="true"
+          aria-expanded="false"
+          hidden
         >
           Menu
         </button>
-        <ul id="menu">
+        <ul id="menu-list">
           <!-- Automatically adds nav items with Nunjucks  -->
           {% for item in navigationLinks %} 
           {% if item.show === true %}

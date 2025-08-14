@@ -4,17 +4,18 @@
 
   // Select DOM elements
   const menuButton = document.querySelector("#menu-button");
-  const menu = document.querySelector("#menu");
+  const menuList = document.querySelector("#menu-list");
 
   // If JS is enabled:
   // 1) unhide #menu-button
-  // 2) on mobile, make #menu-button visible and #menu hidden
-  // 3) on desktop, make #menu-button hidden and #menu visible
-  menuButton.classList.remove("hide");
+  // 2) on mobile, show #menu-button and hide #menu-list
+  // 3) on desktop, hide #menu-button and show #menu-list
+  menuButton.removeAttribute("hidden");
   menuButton.classList.add("js-enabled");
-  menu.classList.add("js-enabled");
+  menuList.classList.add("js-enabled");
 
+  // On click, expand the menu when collapsed, and vice versa
   menuButton.addEventListener("click", () => {
-    menu.classList.toggle("expanded"); // make visible when hidden, and vice-versa
+    menuButton.ariaExpanded = menuButton.ariaExpanded !== 'true'; 
   });
 </script>

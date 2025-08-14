@@ -86,19 +86,19 @@ header nav {
   justify-content: center;
   align-items: center;
 }
-#menu {
+#menu-list {
   text-align: center;
   /* Reset */
   list-style: none;
   margin: 0 var(--space-s);
   padding: 0;
 }
-#menu li,
+#menu-list li,
 #menu-button {
   display: inline-block;
   margin: var(--space-xs);
 }
-#menu .icon {
+#menu-list .icon {
   background-color: var(--color-accent);
   height: 1em;
   width: 1em;
@@ -112,20 +112,23 @@ header nav {
   font-size: 1.3rem;
 }
 /* Menu interaction: more in `nav-script.njk` */
-#menu.js-enabled {
+/* JS disabled */
+#menu-button:not(.js-enabled) {
   display: none;
 }
-#menu-button.js-enabled,
-#menu.expanded {
+/* JS enabled */
+#menu-list.js-enabled {
+  display: none;
+}
+#menu-button[aria-expanded="true"] + #menu-list {
   display: inline-block;
 }
-/* If JS: on bigger screens, do not hide menu items */
+/* If JS: on bigger screens, do not hide menu list */
 @container nav (width > 450px) {
-  #menu-button.js-enabled {
+  #menu-button {
     display: none;
   }
-  #menu.js-enabled,
-  #menu.expanded {
+  #menu-list.js-enabled {
     display: unset;
   }
 }
