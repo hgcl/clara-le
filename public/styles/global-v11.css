@@ -22,15 +22,15 @@
   --space-4xl: 64px; /* 4rem */
   --space-5xl: 80px; /* 5rem */
   /* Colors */
-  --white: hsl(0, 0%, 97%);
-  --white-blue: hsl(235, 31%, 76%); /* --white on --blue-dark, opacity 70% */
-  --black: hsl(236, 100%, 10%);
-  --red: hsl(0, 100%, 46%);
-  --red-light: hsl(0, 100%, 66%);
-  --blue: hsl(236, 100%, 47%);
-  --blue-white: hsl(236, 87%, 62%); /* --blue on --white, opacity 70% */
-  --blue-dark: hsl(236, 100%, 25%);
-  --yellow: hsl(50, 100%, 60%);
+  /* Note: formatted in RGB to add in opacity info separately */
+  --white: 247, 247, 247;
+  --black: 0, 3, 51;
+  --red: 235, 0, 0;
+  --red-light: 255, 82, 82;
+  --blue: 0, 16, 240;
+  --blue-dark: 0, 9, 128;
+  --yellow: 255, 221, 51;
+  --opacity-low: 0.7;
   /* Other */
   --screen-sm: 370px;
   --screen-md: 768px;
@@ -45,11 +45,11 @@ html {
   font-size: 16px;
   --font-mono: ui-monospace, "Source Code Pro", Menlo, Consolas,
     "DejaVu Sans Mono", monospace;
-  --color-bg: var(--white);
-  --color-text: var(--blue);
-  --color-text-subtle: var(--blue-white);
-  --color-text-highlight: var(--yellow);
-  --color-accent: var(--red);
+  --color-bg: rgba(var(--white), 1);
+  --color-text: rgba(var(--blue), 1);
+  --color-text-subtle: rgba(var(--blue), var(--opacity-low));
+  --color-text-highlight: rgba(var(--yellow), 1);
+  --color-accent: rgba(var(--red), 1);
 }
 body {
   position: relative;
@@ -228,7 +228,7 @@ dialog .close-button {
   gap: var(--space-m);
 }
 .headline-row .icon {
-  background-color: var(--yellow);
+  background-color: rgba(var(--yellow), 1);
   height: 3.5rem;
   width: 3.5rem;
 }
@@ -348,8 +348,8 @@ blockquote > p::before {
 pre {
   overflow: auto;
   padding: var(--space-m);
-  background-color: var(--black);
-  color: var(--white);
+  background-color: rgba(var(--black), 1);
+  color: rgba(var(--white), 1);
 }
 code,
 kbd {
@@ -501,7 +501,7 @@ a:focus,
   border: none;
 }
 .card-link > div {
-  background-color: var(--red);
+  background-color: rgba(var(--red), 1);
   height: 100%;
 }
 .card-link:hover img,
@@ -602,10 +602,10 @@ input[type="checkbox"] {
 
 @media (prefers-color-scheme: dark) {
   html {
-    --color-bg: var(--blue-dark);
-    --color-text: var(--white);
-    --color-text-subtle: var(--white-blue);
-    --color-accent: var(--red-light);
+    --color-bg: rgba(var(--blue-dark), 1);
+    --color-text: rgba(var(--white), 1);
+    --color-text-subtle: rgba(var(--white), var(--opacity-low));
+    --color-accent: rgba(var(--red-light), 1);
   }
   a:hover,
   a:active,

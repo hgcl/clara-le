@@ -22,8 +22,8 @@
         z-index: -1;
       }
       .boxed-content {
-        background-color: var(--blue);
-        color: var(--white);
+        background-color: rgba(var(--blue), 1);
+        color: rgba(var(--white), 1);
         padding: var(--space-l) var(--space-m);
         font-size: var(--font-xs);
       }
@@ -33,10 +33,10 @@
       }
       .boxed-content a {
         /* avoid anchors disappearing because of default styles */
-        color: var(--white);
+        color: rgba(var(--white), 1);
       }
       .boxed-content a:hover {
-        color: var(--blue);
+        color: rgba(var(--blue), 1);
       }
       .boxed-content h2 {
         text-align: center;
@@ -53,21 +53,21 @@
       .boxed-content #cancel-reply-button {
         padding: 0;
         /* Review colors on blue bg */
-        color: var(--white);
+        color: rgba(var(--white), 1);
       }
       .boxed-content > #submit-button {
         display: block;
         margin: 1rem auto 0;
         /* Review colors on blue bg */
-        border-color: var(--white);
-        color: var(--white);
+        border-color: rgba(var(--white), 1);
+        color: rgba(var(--white), 1);
       }
       /* Review links/buttons color on blue background */
       .boxed-content #cancel-reply-button:focus,
       .boxed-content #cancel-reply-button:hover,
       .boxed-content > #submit-button:focus,
       .boxed-content > #submit-button:hover {
-        color: var(--blue);
+        color: rgba(var(--blue), 1);
       }
 
       /* CONTENT BODY */
@@ -90,7 +90,7 @@
       #webmentions .wm-image-wrapper {
         height: 50px;
         width: 50px;
-        background-color: var(--blue);
+        background-color: rgba(var(--blue), 1);
       }
       #webmentions .wm-image-wrapper > img {
         object-fit: contain;
