@@ -78,19 +78,13 @@ footer {
 }
 
 /* NAV */
-nav {
+header nav {
+  container: nav / inline-size;
+  /* Center menu list and menu button in nav bar */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#menu-button {
-  margin: var(--space-xs);
-}
-#menu-button::after {
-  content: "\00A0⊙"/ "";
-  color: var(--color-accent);
-  font-size: 1.3rem;
 }
 #menu {
   text-align: center;
@@ -99,18 +93,10 @@ nav {
   margin: 0 var(--space-s);
   padding: 0;
 }
-#menu li {
+#menu li,
+#menu-button {
   display: inline-block;
   margin: var(--space-xs);
-}
-#menu-button.js-enabled {
-  display: inline-block;
-}
-#menu.js-enabled {
-  display: none;
-}
-#menu.expanded {
-  display: inline-block;
 }
 #menu .icon {
   background-color: var(--color-accent);
@@ -119,6 +105,29 @@ nav {
   display: inline-block;
   position: relative;
   top: 0.1em;
+}
+#menu-button::after {
+  content: "\00A0⊙"/ "";
+  color: var(--color-accent);
+  font-size: 1.3rem;
+}
+/* Menu interaction: more in `nav-script.njk` */
+#menu.js-enabled {
+  display: none;
+}
+#menu-button.js-enabled,
+#menu.expanded {
+  display: inline-block;
+}
+/* If JS: on bigger screens, do not hide menu items */
+@container nav (width > 450px) {
+  #menu-button.js-enabled {
+    display: none;
+  }
+  #menu.js-enabled,
+  #menu.expanded {
+    display: unset;
+  }
 }
 
 /* BACKGROUND DECORATION: lines */
@@ -654,18 +663,6 @@ input[type="checkbox"] {
   main {
     padding-left: var(--space-2xl);
     padding-right: var(--space-2xl);
-  }
-  /* NAV */
-  /* On bigger screens, do not hide menu items */
-  nav {
-    flex-direction: row;
-  }
-  #menu-button.js-enabled {
-    display: none;
-  }
-  #menu.js-enabled,
-  #menu.expanded {
-    display: unset;
   }
   /* DIALOGS */
   /* Add extra margins of bigger screens */
