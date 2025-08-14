@@ -634,7 +634,7 @@ input[type="checkbox"] {
 
 /* BIGGER THAN MOBILE */
 
-@media only screen and (min-width: 370px) {
+@media only screen and (width >= 370px) {
   /* GENERAL TAGS */
   html {
     font-size: 18px;
@@ -658,7 +658,7 @@ input[type="checkbox"] {
     flex-direction: row;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (width >= 768px) {
   /* GENERAL TAGS */
   main {
     padding-left: var(--space-2xl);
@@ -680,7 +680,7 @@ input[type="checkbox"] {
     font-size: var(--font-xs);
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (width >= 1200px) {
   /* FOOTNOTES */
   /* Display at the bottom of the page on desktop */
   .footnote-item {
