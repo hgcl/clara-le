@@ -80,7 +80,7 @@ footer {
 /* NAV */
 header nav {
   container: nav / inline-size;
-  /* Center menu list and menu button in nav bar */
+  /* Center everything, for both mobile and desktop */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,7 +88,7 @@ header nav {
 }
 #menu-list {
   text-align: center;
-  /* Reset */
+  /* Reset default list styles */
   list-style: none;
   margin: 0 var(--space-s);
   padding: 0;
@@ -120,10 +120,11 @@ header nav {
 #menu-list.js-enabled {
   display: none;
 }
+/* If menu is marked as expanded, show the menu list */
 #menu-button[aria-expanded="true"] + #menu-list {
   display: inline-block;
 }
-/* If JS: on bigger screens, do not hide menu list */
+/* For bigger screens */
 @container nav (width > 450px) {
   #menu-button {
     display: none;
