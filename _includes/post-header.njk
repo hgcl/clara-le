@@ -45,7 +45,6 @@
           {% endfor %}
           <!-- We need a second loop for tags that are filtered in a separate selector to make recipes page work. Reason: all tags are under the same "tags" frontmatter and cannot be differentiated before. -->
           {% for tag in tags | filterTags("tags-two") %}
-            {{ comma() }}
             <a href="/{{ directory }}/?r={{ tag }}">{{ tag }}</a>
           {% endfor %}
         </span>
