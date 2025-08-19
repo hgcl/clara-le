@@ -38,6 +38,7 @@
   --article-width: 600px;
   --side-width: calc((100vw - var(--article-width)) / 2);
   --line-thickness: 1px;
+  --line-thickness-xl: 4px;
 }
 
 /* GENERAL TAGS */
@@ -273,6 +274,7 @@ blockquote,
 pre,
 figure, 
 table,
+.stack-img,
 p > img /* images not in <figure> that appear in Markdown files only (blog posts) */ {
   margin-block: 2rem;
 }
@@ -292,14 +294,28 @@ table tbody tr td {
 }
 
 /* Image flow */
-img + img {
-  margin-top: 1rem;
-}
 figcaption {
   margin-top: var(--space-xs);
   font-style: italic;
   /* below similar to .label */
   font-size: var(--font-2xs);
+}
+.stack-img {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-l) var(--space-xs);
+}
+.stack-img > * {
+  flex: 1 0 200px; /* min-width of a stacked image: 200px */
+}
+.stack-img > figure {
+  margin-block: 0;
+}
+/* Screenshots */
+img.outline {
+  border: solid var(--line-thickness-xl) var(--color-text);
+  padding: var(--space-xs);
 }
 
 /* Headings: size and flow */
