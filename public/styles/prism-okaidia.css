@@ -11,7 +11,7 @@ https://prismjs.com/download.html#themes=prism-okaidia&languages=css */
 code[class*="language-"],
 pre[class*="language-"] {
   /* color: #f8f8f2; */
-  color: var(--white); /* personal edit */
+  color: rgba(var(--white), 1); /* personal edit */
   background: none;
   /* text-shadow: 0 1px rgba(0, 0, 0, 0.3); */
   /* font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace; */
@@ -64,7 +64,7 @@ pre[class*="language-"] {
 
 .token.punctuation {
   /* color: #f8f8f2; */
-  color: var(--white); /* personal edit */
+  color: rgba(var(--white), 1); /* personal edit */
 }
 
 .token.namespace {
@@ -77,7 +77,7 @@ pre[class*="language-"] {
 .token.symbol,
 .token.deleted {
   /* color: #f92672; */
-  color: var(--red-light); /* personal edit */
+  color: rgba(var(--red-light), 1); /* personal edit */
 }
 
 .token.boolean,
@@ -101,7 +101,7 @@ pre[class*="language-"] {
 .style .token.string,
 .token.variable {
   /* color: #f8f8f2; */
-  color: var(--white); /* personal edit */
+  color: rgba(var(--white), 1); /* personal edit */
 }
 
 .token.atrule,
@@ -109,7 +109,7 @@ pre[class*="language-"] {
 .token.function,
 .token.class-name {
   /* color: #e6db74; */
-  color: var(--yellow); /* personal edit */
+  color: rgba(var(--yellow), 1); /* personal edit */
 }
 
 .token.keyword {
