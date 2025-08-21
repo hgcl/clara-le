@@ -30,4 +30,4 @@ If everything goes well, we should be in Taiwan (yay, bubble teas!) in a bit les
 - Added webmentions _once again_ to my website. Unfortunately, the platform I was using to host [Staticman](https://staticman.net/) (for regular comments) is not free anymore. Webmentions are great, but unfortunately not as inclusive (the barrier to entry is high).
 - Discovered the `whereis` command on Linux, I feel so late to the game.
 
-Until next time --ENDCHAR--
+Until next time.--ENDCHAR--

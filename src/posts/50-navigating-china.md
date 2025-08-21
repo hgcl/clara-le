@@ -41,7 +41,7 @@ Having most of my search results hidden, I discovered some "new" refreshing webs
 - Set up an SMB connection between my phone and laptop
 - Added some new words to my mandarin vocab list, here are some of them: rè (hot), jīntiān (present time = today), měishì kāfēi (American style coffee = Americano)
 
-Until next time --ENDCHAR--
+Until next time.--ENDCHAR--
 
 [^1]: To make things even harder, _Google Play_ (being part of the Google family) is also banned. As we didn't have unlimited data, we needed to pre-install everything we could think of.
 [^2]: Yup, I also didn't know what this job was.

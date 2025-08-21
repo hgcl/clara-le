@@ -32,4 +32,4 @@ How time flies! Our trip to Taiwan has already come to an end. It was a big shoc
 - Some new words on my mandarin vocab list: chòu (stinky), huŏchē (fire + vehicle = train), dòujiāng (soy milk)
 - And some Chinese characters: 鱷 (fish + shocking = alligator), 上 (upper), 下 (lower), 车/車 (vehicle)
 
-Until next time --ENDCHAR--
+Until next time.--ENDCHAR--
