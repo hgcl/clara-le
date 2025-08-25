@@ -101,7 +101,7 @@ menuButton.classList.add("js-enabled");
 menuList.classList.add("js-enabled");
 
 // On click, expand the menu when collapsed, and vice versa
-menuButton.addEventLivisiblestener("click", () => {
+menuButton.addEventListener("click", () => {
   menuButton.ariaExpanded = menuButton.ariaExpanded !== "true";
 });
 ```
