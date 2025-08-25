@@ -199,6 +199,13 @@ The third section completes the second one, specifying responsive styles "**for 
 
 ---
 
+<div class="embed-container" style="padding-top: 120%;">
+  <iframe scrolling="no" title="Accessible hamburger menu" src="https://codepen.io/hgcl/embed/qEOKQbZ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  </iframe>
+  See the Pen <a href="https://codepen.io/hgcl/pen/qEOKQbZ">
+    Accessible hamburger menu</a> by Clara (<a href="https://codepen.io/hgcl">@hgcl</a>) CodePen.
+</div>
+
 The final result looks simple: a menu bar for desktop, a hamburger menu for mobile. Adding a few CSS and JavaScript tweaks made sure that screen readers, keyboard users, and no-JavaScript users are also able to navigate the website successfully.
 
 And... that's about it. --ENDCHAR--
