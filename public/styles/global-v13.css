@@ -184,6 +184,27 @@ dialog .close-button {
   box-shadow: none;
 }
 
+/* Embed: Codepen, Vimeo */
+.embed-container {
+  /* Ȧdd height inline in HTML */
+  position: relative;
+  margin-block: 2rem; /* = content flow (big margins) */
+  overflow: hidden;
+  max-width: 100%;
+  width: var(--article-width);
+  /* Set height as 0 and padding-top inline to responsively adjust container height */
+  height: 0;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* ACCESSIBILITY */
 /* Not visible, but read by screen reader */
 .sr-only {
