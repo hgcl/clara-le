@@ -1,0 +1,39 @@
+{
+  "title": "Canned tomato sauce",
+  "date": "2025-09-04",
+  "lang": "en",
+  "dataTag": ["side", "preserve", "summer"],
+  "intro": "A must-do every summer!",
+  "duration": "420",
+  "ingredients": [
+    {
+      "ingTitle": "For about 20 cans:",
+      "ingMand": ["10 kg tomatoes", "Salt"],
+      "ingOpt": [
+        "Carrots (diced)",
+        "Onions (sliced)",
+        "Garlic (cut small)",
+        "Dry herbs (laurel, rosmarin, etc.)",
+        "Citric acid (for better spoilage prevention)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Wash, trim, and halve tomatoes.",
+        "Add the tomatoes to a big pot, and start simmering as soon as possible. Reducing the sauce takes a lot of time, you can add more tomatoes to the pot as you cut them.",
+        "When all tomatoes are added to the pot, blend to your liking.",
+        "Add the optional dry herbs and cut vegetables to the pot.",
+        "Simmer until reduced to the desired thickness. Add citric acid to taste, and to improve spoilage prevention. Add salt to taste.",
+        "While the sauce cooks, clean and heat jars in boiling water.",
+        "Fill each jar with hot sauce, leaving 1,5 cm headspace.",
+        "Debubble, wipe rims, add lids.",
+        "Sterilize your jars in a pressure cooker (30 min from the whistle) or in a regular pot with boiling water (40 min)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://ourcountrylife.com/easy-canned-tomato-sauce-recipe/"
+}
