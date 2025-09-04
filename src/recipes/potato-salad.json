@@ -1,0 +1,27 @@
+{
+  "title": "Potato salad",
+  "date": "2025-09-04",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "The perfect way to use leftover potatoes.",
+  "duration": "10",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["Potatoes (cold)", "Yoghurt", "Mustard", "Salt"],
+      "ingOpt": ["Garlic (cut small)", "Onion (cut small)", "Pickles (diced)"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a salad bowl, mix the yoghurt, mustard, and salt (to taste).",
+        "Peel the potatoes, slice them, and add them to the mix.",
+        "You can also add garlic, onion, and pickles to the salad."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}
