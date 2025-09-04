@@ -1,0 +1,31 @@
+{
+  "title": "Sourdough starter",
+  "date": "2025-09-04",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "How to kickstart a new sourdough starter from scratch, with minimal waste.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["Rye flour", "Water"],
+      "ingOpt": ["Honey"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a clean jar, mix 20 g flour with 20 g water. Add a teaspoon of honey to give a little boost to your sourdough culture. Settle the lid back on the jar (without closing it), and keep it at room temperature.",
+        "24 hours later, add 5 g flour and 5 g water, and mix thoroughly.",
+        "Continue like that for a few more days, adding 5 g flour and 5 g water to the mix every 24 hours. At some point, you should see your sourdough culture start making bubbles, and/or smell slightly different than just wet flour (think vinegar/alcohol/banana smells).",
+        "Your sourdough starter should be alive and ready to use after a few days — depending on temperature. Its smell should be vibrant, and it should bubble up nicely whenever you refresh it."
+      ]
+    }
+  ],
+  "notes": [
+    "Add an elastic band around the jar at the mixture level to keep track of its evolution.",
+    "If your sourdough culture seems slow to start, you can always remove a few spoonfuls from your existing mix before adding in the new flour and water."
+  ],
+  "sourceUrl": ""
+}
