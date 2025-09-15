@@ -1,0 +1,28 @@
+{
+  "title": "Roasted eggplants",
+  "date": "2025-09-15",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "The easiest (but still delicious) way to cook eggplants.",
+  "duration": "40",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["2 eggplants", "Olive oil", "Salt"],
+      "ingOpt": ["Herbs, spices, cheese, garlic, etc."]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Cut each eggplant in half lengthwise (do not peel). Score the flesh with a knife in a criss-crossing pattern.",
+        "Drizzle a bit of olive oil on each eggplant.",
+        "Add salt, and any herbs or spice of your choice.",
+        "Roast in the oven at 200 °C until soft (about 35 minutes)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.marmiton.org/recettes/recette_aubergines-au-four_13572.aspx"
+}
