@@ -1,0 +1,26 @@
+{
+  "title": "Floor cleaner",
+  "date": "2025-09-15",
+  "lang": "en",
+  "dataTag": ["diy"],
+  "intro": "",
+  "duration": "5",
+  "ingredients": [
+    {
+      "ingTitle": "For half a floor cleaning bucket",
+      "ingMand": ["4 tbsp white vinegar", "4 tbsp baking soda", "Warm water"],
+      "ingOpt": [
+        "Small handful of savon de Marseilles",
+        "Essential oils (10 drops tea tree, 10 drops lemon)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": ["Mix everyting, and use without rinsing."]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}
