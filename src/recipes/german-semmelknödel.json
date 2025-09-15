@@ -1,0 +1,44 @@
+{
+  "title": "German Semmelknödel",
+  "date": "2025-09-15",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "I fell in love with Knödel while living in Berlin, and eating at xxx.",
+  "duration": "40",
+  "ingredients": [
+    {
+      "ingTitle": "For 7 Semmelknödel",
+      "ingMand": [
+        "300 g stale bread",
+        "250 ml hot milk",
+        "1 tbsp butter (or oil)",
+        "3 large eggs",
+        "1 tsp salt",
+        "Black pepper"
+      ],
+      "ingOpt": [
+        "1 yellow onion, very finely diced",
+        "3 tbsp fresh parsley, chopped",
+        "0.25 tsp nutmeg, ground"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Chop the hardened bread into small cubes and place them in a large bowl.  Pour the hot milk over the bread, cover and let sit for 20–30 minutes or until softened.",
+        "Heat the butter in a frying pan and cook the onions just until transparent, do not brown them. Add the cooked onions to the bread mixture along with the eggs, parsley, salt, pepper and nutmeg.",
+        "Knead the mixture together with your hands until very thoroughly combined, breaking up as many of the bread cubes as you can until it’s a soft and chunky-smooth consistency. If the dough is too wet, add breadcrumbs (not flour).",
+        "Wet your hands to prevent the dough from sticking and form Knödel about the size of a tennis ball (they will expand slightly when cooked). Press the Knödel between your palms to make sure they're nice and compact.",
+        "Bring a large, wide pot of lightly salted water to a very light simmer — not boiling but just on the verge of boiling with tiny fizzy bubbles floating up.",
+        "Carefully drop the Semmelknödel in the water and let them cook 15–20 minutes. Do not at any point let the water boil or you risk your Knödel losing shape or falling apart. Carefully lift them out with a slotted spoon.",
+        "Serve hot with melted butter on top and a fresh salad as a side."
+      ]
+    }
+  ],
+  "notes": [
+    "To freeze the Knödel: Let them cool completely, place them spread apart on a cookie sheet and freeze them, then transfer them to a freezer bag or container. To reheat, let them thaw and reheat them covered (to create some steam) in the microwave."
+  ],
+  "sourceUrl": "https://www.daringgourmet.com/semmel-knoedel-german-bread-dumplings/#recipe"
+}
