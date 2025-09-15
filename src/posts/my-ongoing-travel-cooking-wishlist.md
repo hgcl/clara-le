@@ -10,6 +10,8 @@ I love cooking. Or at least, I love experimenting with new things in the kitchen
 
 I am reigning in my impatience and postponing these experiments to later. In the meantime, here is my ongoing travel cooking wishlist — updated as we go.
 
+_Update: I'm back in my home kitchen! I'll add the date of my first time trying each dish to the same list._
+
 ## Türkiye
 
 - Ayran: cold savory yogurt-based beverage (best when served cold and foamed)
@@ -18,7 +20,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Turkish coffee: strong and thick coffee, the good ones are served with a distinct _crema_
 - Lahmacun: sometimes called the "Turkish pizza", it's thin, crispy and delicious
 - Kavut: a type of flour-based halva, very paste-like (make it "bland" so that it can be topped with honey/jam or anything else)
-- Menemen: scrambled eggs with tomatoes, the perfect breakfast dish
+- Menemen: scrambled eggs with tomatoes, the perfect breakfast dish (✅ made on 23-09-2025, no recipe yet)
 - Mercimek: lentil soup that is creamy and light
 
 ## Georgia
@@ -31,7 +33,7 @@ I am reigning in my impatience and postponing these experiments to later. In the
 - Tkemali: sour plum sauce (great for grilled meat)
 - Shkmeruli: the creamy and garlic-heavy sauce of this dish is addictive
 - Kompot: sweet drink that's perfect to preserve fruits (found everywhere in the ex-USSR region)
-- Mchadi: corn-based bread that is crumbly
+- Mchadi: corn-based bread that is crumbly (✅ made on 04-09-2025, [recipe](/recipes/georgian-mchadi/))
 - Tashmijabi: potato puree mixed with cheese, where can it go wrong?
 
 ## Armenia
