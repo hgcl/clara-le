@@ -1,0 +1,33 @@
+{
+  "title": "Georgian mchadi",
+  "date": "2025-09-15",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "I fell in love with this corn-based bread when traveling in Georgia in 2025. What a pleasing surprise to discover how easy it was to make!",
+  "duration": "20",
+  "ingredients": [
+    {
+      "ingTitle": "For 4 mchadi",
+      "ingMand": [
+        "200 g coarse cornmeal (or polenta)",
+        "2 tsp olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Add cornmeal to a large bowl, pour over the olive oil and season generously with salt and pepper. Mix to combine with a fork.",
+        "Slowly pour in up to 120 ml of cool water, mixing with a fork. Once the cornmeal reaches the consistency of wet sand and it easily holds together when squeezed, stop adding water. Add more than 120 ml slowly, if needed, to reach this consistency.",
+        "Add a few tablespoons of neutral oil to a large skillet and set over medium-high heat. Once shimmering, divide the cornmeal mixture into four parts. One at a time, scoop a portion of the cornmeal mixture and pack it into a flat patty in your hands. Immediately add it to the pan with the oil. Repeat with the remaining cornmeal mixture.",
+        "Cook the mchadi for about 5 minutes on one side, or until golden, before flipping and cooking for an additional 5 minutes. Serve immediately."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://nofrillskitchen.com/mchadi-recipe/#recipe"
+}
