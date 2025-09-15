@@ -3,14 +3,21 @@
   "date": "2023-07-29",
   "lang": "en",
   "dataTag": ["main", "summer"],
-  "intro": "I love tarte tatin. This recipe is Asian-inspired and just hits the right spots for me.",
+  "intro": "I love tarte tatin. This savory recipe is Asian cuisine-inspired and hits just the right spot for me.",
   "duration": "60",
   "ingredients": [
     {
-      "ingTitle": "For one pie",
+      "ingTitle": "Base",
       "ingMand": [
         "2 eggplants",
-        "3+ tbsp vegetable oil",
+        "3+ tbsp vegetable oil (for cooking)",
+        "1 pie dough"
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Sauce",
+      "ingMand": [
         "4 tbsp rice vinegar",
         "6 tbsp soy sauce",
         "4 tbsp caster sugar",
@@ -18,14 +25,19 @@
         "5 cm piece fresh ginger, peeled and finely grated",
         "2 green chilies, finely sliced (or flaked chili)",
         "2 garlic cloves, peeled and finely sliced",
-        "1 pie dough",
-        "Juice of 1 lime"
+        "Juice of 1 lime",
+        "2 garlic cloves, peeled and finely sliced"
       ],
-      "ingOpt": [
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Garnish",
+      "ingMand": [
         "1 bunch spring onions, trimmed",
         "30 g toasted peanuts",
         "Coriander and mint"
-      ]
+      ],
+      "ingOpt": []
     }
   ],
   "instructions": [
@@ -34,7 +46,7 @@
       "insSteps": [
         "Trim the eggplants, peel off some of the skin in strips, then cut the flesh into 2.5 cm-thick slices.",
         "Put a large, ovenproof frying pan on a medium heat, add three tablespoons of oil and fry the slices, in batches if need be, for about three minutes on each side, until lightly browned; add more oil if needed.",
-        "While the eggplant is frying, whisk the rice vinegar, soy, sugar, ginger, water and half the chili in a small bowl. Cut the spring onions into 2–3 cm lengths, and set aside a few of the green ends for garnish.",
+        "While the eggplant is frying, whisk the sauce in a bowl: rice vinegar, soy, sugar, ginger, water and half the chili. Cut the spring onions into 2–3 cm lengths, and set aside a few of the green ends for garnish.",
         "When the eggplant is cooked, add the sliced spring onions and garlic to the pan, stir-fry for two minutes, then pour in all the soy and vinegar mixture. Bring to a bubble, simmer for a couple of minutes more, until reduced and sticky, then take off the heat."
       ]
     },
