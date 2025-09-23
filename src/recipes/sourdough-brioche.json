@@ -1,0 +1,50 @@
+{
+  "title": "Sourdough brioche",
+  "date": "2025-09-23",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "This recipe is perfect for grilled sandwiches.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "150 g sourdough starter",
+        "330 g wheat flour (T45)",
+        "70 g sugar (or 30 g to use for savory sandwiches)",
+        "5 g salt",
+        "2 big eggs",
+        "130 g butter (or 50 g olive oil)",
+        "Milk (to complete the eggs)"
+      ],
+      "ingOpt": ["1 egg yolk (for baking)"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Bulk fermentation (4 hours)",
+      "insSteps": [
+        "Place a bowl on a scale, tare it, crack the eggs into it, then top up with milk until you have 145 grams. Whisk.",
+        "Pour the flour, brown sugar, the starter, and the egg-milk mixture into the mixer bowl. Mix until homogenous.",
+        "Add the salt, gradually add the butter and knead for another 10 minutes. The dough will remain sticky — this is normal. (Do not add more flour, even if the dough seems very soft; that's how it should be! The stickier the dough, the more airy and tender the crumb will be.)",
+        "Gather the dough in the center of the bowl, cover it with plastic wrap, and let it rest for 4 hours at room temperature to begin fermentation."
+      ]
+    },
+    {
+      "insTitle": "Fridge fermentation (20 hours)",
+      "insSteps": [
+        "Place the bowl in the refrigerator (without degassing). The dough will continue to rise slowly for 20 hours."
+      ]
+    },
+    {
+      "insTitle": "Shaping, rising, and baking (5 hours)",
+      "insSteps": [
+        "The next day: the dough will have hardened — this is normal with butter.",
+        "Gently cup the dough, pulling and twisting until it forms a tight skin with surface tension on the outside of the dough ball. Place the dough in a buttered baking tray, cover with a cloth and let rest for 5 hours at room temperature.",
+        "Preheat the oven to 180 °C. Brush generously with the beaten yolk egg. Bake for 35–45 minutes, depending on your oven: the brioche should be golden brown."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.yumelise.fr/brioche-levain/"
+}
