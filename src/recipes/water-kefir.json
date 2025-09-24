@@ -1,0 +1,56 @@
+{
+  "title": "Water kefir",
+  "date": "2025-09-24",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "First fermentation",
+      "ingMand": [
+        "100 g kefir grains",
+        "100 g sugar",
+        "1.5 L water",
+        "1 dried fig (or a small handful or raisins)"
+      ],
+      "ingOpt": ["2–3 lemon slices"]
+    },
+    {
+      "ingTitle": "Secondary fermentation",
+      "ingMand": [
+        "Handful of dried fruits",
+        "Handful of chopped fresh fruits",
+        "60 g fruit juice (without preservatives)",
+        "Herbs or flowers"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "First fermentation",
+      "insSteps": [
+        "In a 1.5 L (or bigger) jar, mix all the ingredients.",
+        "Cover your jar with either a cloth or an air lock. Use a cloth for an aerobic fermentation which gives a tiny bit of sourness. Or cover with an airlock to keep all of the oxygen out for an anaerobic fermentation which gives less sourness.",
+        "In a dark room, let the kefir ferment for 24–48 hours. Signs that the kefir has finished the first fermentation: cloudy water, a few kefir grains are dead (floating at the surface), dried fruits floating at the surface (if heavy).",
+        "Strain off your water kefir grains with a sieve, pouring the liquid in flip-top bottles. Store the kefir grains in a jar of water (with a bit of sugar) in the fridge.",
+        "If you only want a lightly fermented drink, you're done and can enjoy!"
+      ]
+    },
+    {
+      "insTitle": "Secondary fermentation: flavors and gas",
+      "insSteps": [
+        "Secondary fermentation adds more flavor, carbonation, and uses up more of the sugar so I like fermenting it for another 3–4 days.",
+        "You can add any fruit you like at this stage to incorporate more flavor. Make sure there aren't preservatives that might kill off the culture.",
+        "Store the bottles in the fridge, once you are satisfied with the fermentation level."
+      ]
+    }
+  ],
+  "notes": [
+    "Contrary to urban legends, it is okay to use metal instruments when dealing with kefir.",
+    "During the first fermentation, the lemon slices are optional, but help with preventing other bacteria (than kefir grains) to grow.",
+    "If your kefir grains smell like vinegar, becomes sticky, and stringy, they might be dying. To save it: divide it, rinse it several times with 10 % vinegar water (alcohol vinegar), cover with water to the top and add 1 tablespoon of sugar, let it rest in the refrigerator for 24 hours, rinse it again and ferment it at room temperature. You should be able to make kefir again after this treatment."
+  ],
+  "sourceUrl": "https://fermentationadventure.com/how-to-make-water-kefir/"
+}
