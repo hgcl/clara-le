@@ -1,0 +1,36 @@
+{
+  "title": "Vegan apple cake",
+  "date": "2025-09-26",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "65",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "175 g flour",
+        "80 g sugar",
+        "120 g water",
+        "50 g oil",
+        "12 g baking powder (or 70 g sourdough starter)",
+        "2 apples, sliced"
+      ],
+      "ingOpt": ["10 g vanilla powder"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "To a bowl, add all ingredients (except for the apples), and mix until homogenous. (Do not overmix).",
+        "Add sliced apples and gently fold into batter.",
+        "Transfer batter to a prepared cake pan (lined with parchment paper). Spread batter evenly.",
+        "Top cake with sliced apple.",
+        "Bake in preheated oven at 180 °C for 55 minutes (or until a toothpick inserted in the middle of cake comes out clean)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://shirleycooking.com/vegan-apple-cake/"
+}
