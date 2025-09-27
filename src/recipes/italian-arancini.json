@@ -8,8 +8,15 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["Pre-cooked risotto, ideally from the day before"],
-      "ingOpt": ["Filling", "Egg"]
+      "ingMand": [
+        "Pre-cooked risotto, ideally from the day before",
+        "120 g water",
+        "30 g flour",
+        "2 eggs",
+        "1 pinch of salt",
+        "Breadcrumbs"
+      ],
+      "ingOpt": ["Filling"]
     }
   ],
   "instructions": [
@@ -17,7 +24,7 @@
       "insTitle": "",
       "insSteps": [
         "Shape your rice balls, filling them if you want to.",
-        "When all of your arancini have been formed, whisk together the flour, eggs, 1/2 cup of water, and a pinch of salt in a shallow bowl until smooth.",
+        "When all of your arancini have been formed, whisk together the flour, eggs, water, and a pinch of salt in a shallow bowl until smooth.",
         "Spread the breadcrumbs in a plate or baking dish.",
         "Gently roll each ball first in the egg-flour-water-salt mixture, letting any excess drip off.",
         "Then roll them in the breadcrumbs until evenly coated.",
