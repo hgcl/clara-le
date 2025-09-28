@@ -1,0 +1,37 @@
+{
+  "title": "Carrot tops pesto",
+  "date": "2025-09-28",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "During my first visit in Ardèche, I was mindblown to discover (from Sam and Aurélie) that you could use carrot, radish (or many different kinds of veggies) tops to make a wonderful pesto. I will always remember Sam cutting carrot tops in record time with his special pesto knife!",
+  "duration": "10",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Carrot or radish tops",
+        "A small handful of pine kernel (or any kind of seed or nut)",
+        "1–2 cloves of garlic",
+        "Olive oil",
+        "Salt",
+        "Black pepper"
+      ],
+      "ingOpt": [
+        "Parmesan (or other hard cheese)",
+        "Lemon juice",
+        "Dried chili or tomato"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Simple, just blend everything (or do it by hand the manual way).",
+        "If you want to save this pesto for later, it can be stored up to two weeks in the fridge (with enough olive oil on top)."
+      ]
+    }
+  ],
+  "notes": ["If using nuts, you can pre-roast them."],
+  "sourceUrl": "https://www.mesinspirationsculinaires.com/article-pesto-de-fanes-de-carottes-recette-facile.html"
+}
