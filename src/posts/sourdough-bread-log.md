@@ -10,6 +10,25 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
+## 2025-09-29
+
+Process:
+
+- 29/09, 13:15, 21 °C: mix everything, except salt — this time, I used the special bread flour (T80)
+- 13:25: incorporate salt
+- 15:30: fourth and last fold, let rest 30 min
+- 16:00: shape, banneton, fridge overnight
+- 30/09, 7:20: remove from fridge, preheat oven to 230 °C for 20 min
+- 7:40: bake at 230 °C for 20 min, middle rack
+- 8:00: lower temp to 200 °C and bake for 20 min more, top rack (or as high as the pot can go)
+
+Ideas for next time:
+
+- Top crust too thin and not crispy enough...
+  - For the open lid baking part, lengthen it to 30 minutes (instead of 20 min).
+  - Once baked, let the bread cool down in the open air (no cotton towel on top).
+- Increase the whole wheat flour proportion to 200 g (2/5)
+
 ## 2025-09-11
 
 This is by far not the first sourdough bread I bake. However, after 1.5 year of travelling, I don't really remember the recipe I used anymore. All in all, I am starting from scratch again. My previous sourdough starter (Heimlich) is long gone, but I created a new one in Lausanne two weeks ago (named Sylvain).
