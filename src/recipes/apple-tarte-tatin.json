@@ -1,0 +1,35 @@
+{
+  "title": "Apple tarte tatin",
+  "date": "2025-09-30",
+  "lang": "en",
+  "dataTag": ["dessert", "summer", "fall", "winter"],
+  "intro": "My take on the classic tarte tatin",
+  "duration": "60",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "5–6 apples (firm varieties are better)",
+        "70 g sugar",
+        "20 g butter or oil",
+        "1 pie dough"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Peel and cut the apples in thick slices.",
+        "In a small pot, melt the butter (or use oil), and slowly add the sugar to make a golden caramel. If the caramel solidifies, add enough water to obtain a sirupy texture.",
+        "In an oven-proofed pan, arrange the apple slices, and pour the caramel on top.",
+        "Cover the apple slices with the pie dough, tucking the edges inside the pan.",
+        "Preheat the oven to 180 °C, and bake for 45 minutes.",
+        "Once baked, let rest for 5 minutes before turning over in a plate."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}
