@@ -1,0 +1,51 @@
+{
+  "title": "Baked rice with confit vegetables",
+  "date": "2025-10-02",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "I discovered Ottolenghi's baked rice with confit tomatoes and garlic from his \"Simple\" cookbook, and it changed the way I now experiment with rice. Here is one recipe, but there are endless ways to play with it — swap the vegetables, the spices, the herbs, and you'll end up with a completely new result!",
+  "duration": "00",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Tomatoes, quartered",
+        "Garlic cloves, peeled",
+        "2 onions, peeled and quartered",
+        "1 cinnamon stick, divided in 4",
+        "Fresh herbs (e.g. coriander)",
+        "Dry herbs (e.g. thyme)",
+        "150 ml olive oil",
+        "450 g rice",
+        "900 g water",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Braise the veggies",
+      "insSteps": [
+        "Preheat your oven to 160 °C.",
+        "Place the vegetables, garlic, onions, dry herbs and spices in a large high-sided casserole dish. Ottolenghi recommends a 20 x  30 cm dish.",
+        "Pour over the olive oil, along with a teaspoon of salt and some ground black pepper.",
+        "Bake for 45–60 min, or until the vegetables become soft, slightly charred, and fragrant."
+      ]
+    },
+    {
+      "insTitle": "Cook the rice",
+      "insSteps": [
+        "When your vegetables are almost ready, boil enough water to cook the rice. Set aside.",
+        "Remove the dish from the oven, and sprinkle the rice evenly over the cooked vegetables — you could also add some fresh herbs at this stage. Don't stir anything.",
+        "Sprinkle another half teaspoon of salt, and some ground black pepper over the rice. Then carefully pour the boiling water over the rice.",
+        "Increase the oven temperature to 220 °C.",
+        "Seal the dish tightly with foil. Place in the oven for 25 minutes, until the rice has absorbed all the water.",
+        "When cooked, remove the dish from the oven, and let rest for 10 minutes, still covered.",
+        "Remove the foil. Top with some extra fresh herbs, cheese, nuts, etc."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.thekitchn.com/ottolenghi-baked-rice-review-23149607"
+}
