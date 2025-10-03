@@ -10,6 +10,26 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
+## 2025-10-01
+
+Process:
+
+- 01/10, 23:00, 21 °C: refresh the starter (less than 1 cm left in the jar, so that it can _slowly_ rise overnight)
+- 02/10, 6:40: mix everything except for salt, let rest 30 min
+- 7:10: incorporate salt, let rest 20 min
+- 7:30: first out of 4 folds
+- 9:10: last fold, let rest +4h
+- 13:10: preshape on a wet counter, let rest 30 min
+- 13:40: shape, place in banneton
+- 15:00: bake
+
+Feedback:
+
+- Surprisingly good rise in only one day
+- Moist and relatively airy texture inside
+- I used 200 g of whole wheat flour, but could bring up the proportion to 50/50, next time around
+- The crust is much better than the last one, but it could be even crispier. Ideas: spray a bit of water on the bread before baking, or place ice cubes under the parchment paper (inside the Dutch oven). Bake at the highest temperature for the open lid baking part.
+
 ## 2025-09-29
 
 Process:
