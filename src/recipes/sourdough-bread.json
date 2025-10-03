@@ -11,8 +11,8 @@
       "ingMand": [
         "125 g sourdough starter",
         "350 g water",
-        "400 g wheat flour (T80)",
-        "100 g whole wheat flour (T110)",
+        "300 g wheat flour (T80)",
+        "200 g whole wheat flour (T110)",
         "9 g salt"
       ],
       "ingOpt": ["Herbs, seeds, dry fruits"]
@@ -20,27 +20,40 @@
   ],
   "instructions": [
     {
-      "insTitle": "Basic steps overview",
+      "insTitle": "Timeline for the overnight method",
       "insSteps": [
-        "Mix the dough: first dissolve the sourdough starter in the water, and incorporate the flour. 20 minutes later, add the salt, and let rest for 20 more minutes.",
-        "Perform 4 sets of folds 30 minutes apart. Let rest one extra hour after the fourth set. Duration: 2 h 30.",
-        "Shape the dough and let rise for 12­–13 hours in the fridge.",
-        "Score and bake."
+        "Day 1, late morning. Refresh the sourdough starter twice, to have it ready by early afternoon.",
+        "Day 1, 15:20. Mix all ingredients to make the dough.",
+        "Day 1, 16:00. Perform 4 sets of folds 30 minutes apart.",
+        "Day 1, 17:30. Let rest one extra hour for the bulk fermentation.",
+        "Day 1, 18:30. Shape the dough, place in a banneton, and let rise for 12­–13 hours in the fridge.",
+        "Day 2, early morning: Score and bake."
+      ]
+    },
+    {
+      "insTitle": "Timeleine for the same day method",
+      "insSteps": [
+        "Day 1, late evening. Refresh the sourdough starter. Use a small proportion of starter, to have it rise slowly until the next morning.",
+        "Day 2, 7:20. Mix all ingredients to make the dough.",
+        "Day 2, 8:00. Perform 4 sets of folds 30 minutes apart.",
+        "Day 2, 10:30. Let rest 3–6 extra hours for the bulk fermentation.",
+        "Day 2, 14:30. Preshape dough on a wet counter, let rest 30 minutes.",
+        "Day 2, 15:00. Shape, place in a banneton, and let rise for 1–2 hours.",
+        "Day 2, 16:30: Score and bake."
       ]
     },
     {
       "insTitle": "Mix the dough",
       "insSteps": [
-        "In a bowl, make a well with the flour, add the water, and mix until the dough is smooth. There is no need to knead, the ingredients simply need to be combined.",
-        "Cover with a clean cloth and let rest for 30 minutes in a warm place (24 °C) or in the turned-off oven.",
-        "Incorporate the sourdough starter to the dough, pushing in with your fingers while rotating the bowl with your other hand. Knead lightly until the dough is homogenous. Cover with the same cloth and let rest for 30 minutes.",
-        "Add the salt (and optional herbs/seeds) and incorporate it using the same method as for the sourdough starter."
+        "In a bowl, dilute the sourdough starter in the water. Add the flour, and mix until the dough is smooth. There is no need to knead, the ingredients simply need to be combined.",
+        "Cover with a clean cloth and let rest for 20 minutes in a warm place (24 °C) or in the turned-off oven.",
+        "Add the salt (and optional herbs/seeds), and incorporate it by pushing in with your fingers while rotating the bowl with your other hand. Knead lightly until the dough is homogenous. Let rest 20 minutes."
       ]
     },
     {
-      "insTitle": "First rise: stretch and fold",
+      "insTitle": "Bulk fermentation: stretch and fold",
       "insSteps": [
-        "On one side of the bowl, reach under the dough. Grab this side of the dough, pull it up, and bring it to the top. Turn the bowl a quarter turn and repeat this process three times to go all the way around. Wet your fingers to avoid having dough stick to your hands. Cover and let rest.",
+        "Keep a glass of water on the side to wet your fingers as you work the dough (it will stick less). On one side of the bowl, reach under the dough. Grab this side of the dough, pull it up, and bring it to the top. Turn the bowl a quarter turn and repeat this process three times to go all the way around. Wet your fingers to avoid having dough stick to your hands. Cover and let rest.",
         "Repeat the previous folding step every 30 minutes. Four folds in total (counting the first one) are enough. The dough should have risen for 1 h 30 after your fourth and last fold. Let rest one extra hour without folding."
       ]
     },
