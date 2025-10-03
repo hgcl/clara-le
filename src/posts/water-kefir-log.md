@@ -10,6 +10,19 @@ Here is an ongoing log of my water kefir experiments (most recent at the top). T
 
 ---
 
+## 2025-09-24
+
+Process:
+
+- 24/09, 13:00, 22 °C: Mix everything
+- 27/09, 18:40, 19 °C: Filter and bottle kefir, add a small glass of apple juice to the big 1 L bottle (lost some kefir on the way, bottles not as full as usual)
+- 30/09, 16:30, 20 °C: Refrigerate
+
+Feedback:
+
+- The result is very dry and perfecly sparkling, with a hint of sweetness
+- Go crazier with the aromas during the bottled fermentation. We didn't taste the apple juice that much.
+
 ## 2025-09-17
 
 On the way back home, I stopped at my mother's place. It's been a few years she's had her kefir grains, and swear by this fermented drink. I love fermenting stuff, and kefir sounded like a low-effort culture to add to my bacteria farm.
