@@ -10,6 +10,13 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
+## 2025-10-07
+
+Feedback:
+
+- I didn't flour the banneton enough. The dough stuck a bit to it before being placed in the Dutch oven — seemed a bit flatter than usual.
+- The crust could have been crispier. Ideas: place Dutch oven on the highest tray, increase second bake temperature to 210 °C.
+
 ## 2025-10-01
 
 Process:
