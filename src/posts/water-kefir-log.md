@@ -10,6 +10,16 @@ Here is an ongoing log of my water kefir experiments (most recent at the top). T
 
 ---
 
+## 2025-10-03
+
+Changes in the process:
+
+- Add 15 grapes to the 1.5 L bottle before the second fermentation
+
+Feedback:
+
+- In terms of taste, very similar to the original one. It is slightly smoother, with a tiny bit of grape aroma. However, the bright pink color is stunning — would try it again.
+
 ## 2025-09-24
 
 Process:
