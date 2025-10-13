@@ -40,7 +40,6 @@
           <!-- TODO remove extra space -->
           {% set comma = joiner() %}
           {% for tag in tags | filterTags %}
-            {{ comma() }}
             <a href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>
           {% endfor %}
           <!-- We need a second loop for tags that are filtered in a separate selector to make recipes page work. Reason: all tags are under the same "tags" frontmatter and cannot be differentiated before. -->
