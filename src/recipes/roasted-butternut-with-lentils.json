@@ -1,0 +1,51 @@
+{
+  "title": "Roasted butternut with lentils",
+  "date": "2025-10-13",
+  "lang": "en",
+  "dataTag": ["main", "fall", "winter"],
+  "intro": "",
+  "duration": "50",
+  "ingredients": [
+    {
+      "ingTitle": "Butternut",
+      "ingMand": [
+        "1 butternut, unpeeled, and cut into 1 cm wedges",
+        "2 red onions, cut into 4–6 wedges",
+        "3 tbsp olive oil",
+        "Salt and pepper"
+      ],
+      "ingOpt": ["Small handful of sage leaves"]
+    },
+    {
+      "ingTitle": "Lentils",
+      "ingMand": [
+        "100 g Puy lentils",
+        "1 large lemon, finely zested and juiced",
+        "1 garlic clove, crushed",
+        "Handful of fresh herbs (mint, parsley, tarragon), chopped"
+      ],
+      "ingOpt": ["Fresh cheese (Gorgonzola or Dolcelatte), to top"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Butternut",
+      "insSteps": [
+        "Preheat the oven to 230 °C.",
+        "Place the butternut and onions in a large bowl with 2 tablespoons of the olive oil, the sage leaves, ¾ teaspoon salt and plenty of pepper. Mix well, then spread out on a large parchment-lined baking sheet.",
+        "Roast until cooked and golden brown, 25–30 minutes. Remove from the oven and set aside to cool for 10 minutes."
+      ]
+    },
+    {
+      "insTitle": "Lentils",
+      "insSteps": [
+        "While the butternut is in the oven, fill a medium saucepan halfway with water, and place over high heat.",
+        "Once boiling, add the lentils, decrease the heat to medium and simmer until cooked, about 20 minutes.",
+        "Drain, set aside to cool slightly, then place in a large bowl. Stir in the lemon zest, lemon juice, garlic, parsley, mint, tarragon, ¼ teaspoon salt and remaining 1 tablespoon olive oil.",
+        "Add the butternut and onions to the lentils and stir gently. Transfer to a serving bowl, dot with cheese, drizzle with olive oil and serve."
+      ]
+    }
+  ],
+  "notes": ["This dish is even better cold!"],
+  "sourceUrl": "https://www.purewow.com/recipes/yotam-ottolenghi-roasted-butternut-squash-lentils"
+}

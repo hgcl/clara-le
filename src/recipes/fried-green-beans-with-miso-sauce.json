@@ -1,0 +1,44 @@
+{
+  "title": "Fried green beans with miso sauce",
+  "date": "2025-10-13",
+  "lang": "en",
+  "dataTag": ["main", "summer", "fall"],
+  "intro": "",
+  "duration": "20",
+  "ingredients": [
+    {
+      "ingTitle": "Marinade",
+      "ingMand": [
+        "1 cm ginger, freshly grated",
+        "1 tbsp honey",
+        "1 tbsp yellow miso",
+        "1 tbsp lemon juice (or Balsamic vinegar)"
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Beans",
+      "ingMand": [
+        "Large handful of green beans",
+        "2 tbsp olive oil",
+        "10 g sesame seeds",
+        "1/2 tsp sugar",
+        "1 pinch salt"
+      ],
+      "ingOpt": ["Coriander leaves, roughly chopped"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Place a large pan over medium heat and add the sesame seeds. Toast for about 3 minutes, mixing often, until golden brown. Transfer to a mortar and pestle. Add the sugar and a pinch of salt, and pound into a coarse crumb. Set aside.",
+        "Place the same pan over high heat. When hot, add 1 tablespoon of oil and the beans. Fry for about 4 minutes, colouring the beans on all sides, turn off the heat. Add  ½ teaspoon salt and toss to combine. Add the marinade, the coriander, and mix well.",
+        "For the marinade, mix all ingredients to taste.",
+        "To serve, pile the beans onto a plate and sprinkle over the sesame seed mix."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://ottolenghi.co.uk/pages/recipes/fried-green-beans-yuzu-ginger-miso"
+}
