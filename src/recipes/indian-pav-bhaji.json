@@ -2,7 +2,7 @@
   "title": "Indian pav bhaji",
   "date": "2020-10-10",
   "lang": "en",
-  "dataTag": ["main"],
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "120",
   "ingredients": [

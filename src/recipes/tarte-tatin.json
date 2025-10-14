@@ -2,7 +2,7 @@
   "title": "Tarte tatin",
   "date": "2023-09-13",
   "lang": "fr",
-  "dataTag": ["dessert", "autumn"],
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "60",
   "ingredients": [

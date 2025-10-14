@@ -2,7 +2,7 @@
   "title": "Pasta dough",
   "date": "2022-10-11",
   "lang": "en",
-  "dataTag": ["side"],
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "60",
   "ingredients": [

@@ -2,7 +2,7 @@
   "title": "Lentil galette",
   "date": "2023-10-12",
   "lang": "en",
-  "dataTag": ["side"],
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "150",
   "ingredients": [

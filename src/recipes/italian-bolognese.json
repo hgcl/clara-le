@@ -2,7 +2,7 @@
   "title": "Italian bolognese",
   "date": "2023-01-01",
   "lang": "en",
-  "dataTag": ["main"],
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
   "intro": "This is Valentina's family recipe. Her great-grandma used to make her own tomato paste from scratch. Her grandma reviewed the recipe with some store-bought tomato paste, which works just fine. The secret is chopping the vegetables into super tiny pieces and using tomato paste instead of tomato sauce.",
   "duration": "120",
   "ingredients": [

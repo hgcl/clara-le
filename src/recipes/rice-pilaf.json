@@ -2,7 +2,7 @@
   "title": "Rice pilaf",
   "date": "2023-02-03",
   "lang": "en",
-  "dataTag": ["main"],
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "40",
   "ingredients": [

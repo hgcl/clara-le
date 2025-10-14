@@ -2,7 +2,7 @@
   "title": "Pie dough",
   "date": "2021-01-21",
   "lang": "fr",
-  "dataTag": ["side"],
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "",
   "ingredients": [

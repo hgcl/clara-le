@@ -2,7 +2,7 @@
   "title": "Sourdough burger buns",
   "date": "2021-01-22",
   "lang": "fr",
-  "dataTag": ["side"],
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "",
   "ingredients": [

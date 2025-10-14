@@ -2,7 +2,7 @@
   "title": "Pâte brisée",
   "date": "2023-06-30",
   "lang": "fr",
-  "dataTag": ["side"],
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "75",
   "ingredients": [
