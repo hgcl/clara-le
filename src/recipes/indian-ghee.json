@@ -1,14 +1,14 @@
 {
   "title": "Indian ghee",
-  "date": "2026-01-01",
+  "date": "2025-10-14",
   "lang": "fr",
   "dataTag": ["preserve", "spring", "summer", "fall", "winter"],
   "intro": "Love the nutty taste and flavor! Bonus points as it can be made out of stale butter.",
-  "duration": "40",
+  "duration": "20",
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["1 kg beurre à température ambiante"],
+      "ingMand": ["Butter"],
       "ingOpt": []
     }
   ],
@@ -16,17 +16,16 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Lavez et ébouillantez le pot et son couvercle comme pour les confitures.",
-        "Coupez le beurre en gros morceaux et placez-les dans une casserole à fond épais (pour une meilleure répartition de la chaleur).",
-        "Faites fondre les morceaux de beurre à feu très doux sans remuer. Ne mettez jamais de couvercle.",
-        "Une fois le beurre fondu (au bout de 25 minutes à peu près), une mousse se forme à la surface. Ce sont les impuretés du beurre. Il vous suffit de l’enlever à l’aide d’une cuillère.",
-        "Vous pouvez arrêter la cuisson lorsque vous obtenez le degré de clarification désiré. Plus il sera transparent et clair, plus il se conservera longtemps.",
-        "Le petit lait que l’on souhaite éliminer, apparaît sous forme de couche blanchâtre au fond la casserole. Versez le liquide jaune or en prenant soin de laisser derrière la pellicule blanche du fond.",
-        "Laissez le pot ouvert et couvert d'un linge à refroidir à température ambiante.",
-        "Vous pouvez conserver le ghee à température ambiante pendant plusieurs mois."
+        "Add butter to a heavy bottom deep pot and begin to melt on a medium flame.",
+        "Butter melts and turns frothy. Then lower the flame & simmer until all of the froth evaporates. I usually leave a ladle/spoon in the pot as this prevents overflowing.",
+        "Next butter will begin to bubble a lot. Stir it occasionally & continue to cook on a low heat.",
+        "Soon the butter changes its color from yellow to clear golden. At this stage milk solids will settle at the bottom & begin to turn slightly light golden/brown. Also bubbles will reduce significantly indicating it is done. Be careful not to let it burn!",
+        "Ghee will continue to cook on its own for another 1 to 2 mins since the pot is hot. By then the ghee is perfectly done – clear, golden in color and all the milk solids browned but not burnt.",
+        "When the temperature comes down, place a strainer over a clean jar and filter it. Press down the brown solids with a spoon.",
+        "Cool the ghee completely and cover it with a tight lid. Store at room temperature in a dry cabinet for upto 3 months or refrigerate for an year. Ghee will solidify in a few hours or days depending on the temperature."
       ]
     }
   ],
   "notes": [],
-  "sourceUrl": "https://www.youtube.com/watch?v=XneEzaG3nbI"
+  "sourceUrl": "https://www.indianhealthyrecipes.com/ghee/#wprm-recipe-container-61362"
 }
