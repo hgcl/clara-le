@@ -1,5 +1,5 @@
 {
-  "title": "Pâte brisée",
+  "title": "Basic pâte brisée",
   "date": "2023-06-30",
   "lang": "fr",
   "dataTag": ["side", "spring", "summer", "fall", "winter"],
@@ -7,7 +7,7 @@
   "duration": "75",
   "ingredients": [
     {
-      "ingTitle": "Pour une tarte :",
+      "ingTitle": "Pour une tarte",
       "ingMand": ["210 g blé", "115 g beurre", "0.5 c-à-c sel", "60 ml eau"],
       "ingOpt": ["Sucre"]
     }
