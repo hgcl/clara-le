@@ -1,0 +1,68 @@
+{
+  "title": "Gravy (vegan)",
+  "date": "2022-02-10",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "15",
+  "ingredients": [
+    {
+      "ingTitle": "Basic version",
+      "ingMand": [
+        "8 tbsp oil",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "4 tbsp all-purpose flour",
+        "2 tbsp light soy sauce",
+        "1 cup vegetable broth",
+        "Salt",
+        "Black pepper, ground"
+      ],
+      "ingOpt": ["1 pinch dried sage", "0.5 tbsp nutritional yeast"]
+    },
+    {
+      "ingTitle": "Upgraded version",
+      "ingMand": [
+        "1 tbsp oil",
+        "1 onion, chopped",
+        "3 cloves garlic, chopped",
+        "1–2 small pre-boiled potatoes",
+        "7 g dried mushrooms",
+        "1/2 cup red wine",
+        "1/4 tsp cayenne pepper",
+        "1/4 tsp cumin",
+        "1 tsp smoked paprika",
+        "1.5 tbsp soy sauce",
+        "1 cup vegetable broth",
+        "Shiitake mushrooms, sliced",
+        "1 pinch of salt"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Basic version",
+      "insSteps": [
+        "Heat oil in a medium saucepan over medium heat. Saute onion and garlic until soft and translucent, about 5 minutes.",
+        "Stir in flour, nutritional yeast, and soy sauce to form a smooth paste.",
+        "Gradually whisk in the broth.",
+        "Season with sage, salt, and pepper.",
+        "Bring to a boil. Reduce heat, and simmer, stirring constantly, for 8 to 10 minutes, or until thickened."
+      ]
+    },
+    {
+      "insTitle": "Upgraded version",
+      "insSteps": [
+        "Heat up a sauté pan to medium heat. Add 1 tbsp oil followed by the onion, garlic, and pepper to taste. Sauté for about 5–6 min.",
+        "Add 1–2 small pre-boiled potatoes and dried mushrooms. Add the red wine, deglaze, and simmer for about 1 min. Then, add the cayenne pepper, cumin, smoked paprika, soy sauce, and veggie stock. Stir and cook for 5–6 min.",
+        "Transfer the mixture to a blender and blend on high until completely liquified. You can adjust the thickness of the gravy to your personal preference by adding a little more veggie stock or potato.",
+        "Heat up a nonstick pan to medium heat. Dry sauté the sliced shiitake mushrooms for 4–5 min. Add a pinch of salt and pepper to taste.",
+        "Add a splash of oil and sauté for another couple of minutes.",
+        "Heat up the gravy with the mushrooms in the sauté pan."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.youtube.com/watch?v=wB8MzBtsOmc"
+}
