@@ -1,0 +1,33 @@
+{
+  "title": "Marinated eggs",
+  "date": "2025-10-29",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "The perfect umami snack",
+  "duration": "180",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["6 eggs", "75 g soy sauce", "25 g water", "3 tsp sugar"],
+      "ingOpt": ["1 tsp white vinegar", "1 tsp sesame oil"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Fill a big bowl with cold water (bonus points if you add ice cubes to it). Keep it in the frige as you go on with the rest of the recipe.",
+        "Boil a pot of water, and gently place your eggs in it. Immediately start a timer for 7 minutes — I like my hard eggs very soft inside. Keep the temperature stable so that the water is simmering.",
+        "When the timer rings, stop the cooking by dropping all the eggs in the big bowl of water from the fridge. Let the eggs cool down completely.",
+        "In a separate tupperware, mix the rest of the ingredients. Ideally, the tupperware should be tight enough, so that you only have enough space for \"one layer\" of eggs (without any spare space in between).",
+        "Remove the eggshells and place the eggs in the tupperware. Close it and store in the fridge for a few hours.",
+        "When the bottom halves of the eggs have marinated enough, rotate them all.",
+        "These marinated eggs can be kept in the fridge for up to a week — with fresh egg refills being possible."
+      ]
+    }
+  ],
+  "notes": [
+    "For the soy sauce, I mix half \"strong\" soy sauce, and half \"diluted\" soy sauce."
+  ],
+  "sourceUrl": ""
+}

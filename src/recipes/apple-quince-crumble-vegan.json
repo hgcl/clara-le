@@ -1,0 +1,35 @@
+{
+  "title": "Apple quince crumble (vegan)",
+  "date": "2025-10-29",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "Here is a no-butter crumble recipe, perfect for the apple season. I love adding some quinces in the mix, that balance out the sweetness with some acidity.",
+  "duration": "00",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "As many apples (for sweetness) and quinces (sourness) as you like",
+        "120 g flour",
+        "8 tbsp oil or hard coconut oil",
+        "4 tbsp sugar",
+        "1 tsp salt"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Cut the fruit into pieces (you can keep some of the peel for a rustic look).",
+        "In a bowl, combine the flour, almond flour, sugar, and oil.",
+        "Mix with your fingers or a fork until the mixture resembles coarse breadcrumbs. Add a little water if the mixture is too dry. Do not add more flour. Spread this crumbly mixture over the fruit.",
+        "Preheat your oven to 180 °C.",
+        "Bake for about 30–35 minutes, until golden brown."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.lesamisdupetitlouvre.fr/cuisine/crumble-sans-beurre/"
+}
