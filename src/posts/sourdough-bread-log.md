@@ -10,6 +10,35 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
+## 2025-10-28
+
+When preshaping, I don't wet the dough as much anymore. The dough is stickier, but also holds its shape better.
+
+I tried to change the baking process by lengthening the open-lid part to 40 min. The butt of the bread comes out almost too burned, but the top crust is crispier.
+
+## 2025-10-23
+
+I've been making new bread batches once or twice a week, even though I haven't logged them all here. For one of my last tries, I finished the whole stretch-and-fold part just before bedtime, and let it do the rest of the bulk fermentation in the fridge. The following morning, I shaped the dough, placed it in a banneton, and back in the fridge for the whole day. I baked the bread the same evening.
+
+Process:
+
+- 23/10, 16:35: mix ingredients
+- 20:20: last fold, refrigerate
+- 24/10, 7:20: take out from fridge, preshape
+- 7:45: shape, in banneton, and back to fridge
+- 21:45: preheat 230 °C
+- 22:00: first bake for 20 min
+- 22:20: second bake for 35 min at 200 °C
+
+Feedback:
+
+- The bread came out nicely.
+- I found the timeline quite comfortable as I only had to do something in the morning or late afternoon/evening.
+
+## 2025-10-21
+
+During preshaping, I tightened the bread a bit too much and the dough broke through the "skin" — making it very hard to work with.
+
 ## 2025-10-07
 
 Feedback:
