@@ -10,6 +10,20 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
+---
+
+## 2025-11-05
+
+It's been a while, I don't time the first or second fermentation anymore. The temperature inside my house is getting much colder.
+
+I now try to stop the first fermentation after the dough has risen significantly, and when I can see bubbles through the transparent bowl surface. This first fermentation is usually done at room temperature, as well as in the fridge (so that it doesn't go too fast).
+
+For the second fermentation (after placing the dough in a banneton), I let the dough rise until a dome forms at the surface. When gently poking the dough, I make sure it bounces back before baking.
+
+I updated the baking part again: 230 °C for 25 min (closed lid), followed by 200 °C for 35 min (open lid).
+
+The few last breads I made using these techniques came out golden brown and with a nice ear. I will probably continue experimenting in this direction.
+
 ## 2025-10-28
 
 When preshaping, I don't wet the dough as much anymore. The dough is stickier, but also holds its shape better.
