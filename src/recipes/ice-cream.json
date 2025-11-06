@@ -1,0 +1,43 @@
+{
+  "title": "Ice cream",
+  "date": "2025-11-06",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "Here is the no machine ice cream recipe I use, anytime the sun comes out.",
+  "duration": "00",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "200 g milk",
+        "20 cl heavy cream",
+        "50 g sugar",
+        "25 g honey (to increase viscosity)"
+      ],
+      "ingOpt": [
+        "10 g loose earl grey",
+        "1 egg yolk",
+        "A bit of rhum or whiskey (lowers the crystallization temperature)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Preparation",
+      "insSteps": [
+        "Mix all ingredients (except for the egg yolk) in a closed container. Let the mixture rest in the fridge for 24 hours, so that the flavors blend and the sugar dissolves.",
+        "At the same time, store your churning recipient in the freezer, which will make sure your ice cream cools as fast as possible during the churning process. This will decrease the amount of crystals created."
+      ]
+    },
+    {
+      "insTitle": "Churning",
+      "insSteps": [
+        "The day after, take your \"frozen bowl\" out of the freezed. Add your milk mixture, the egg yolk, quickly mix everything and put it back (covered) in the freezer for 30 minutes. (Put it at the very back of your freezer, where the temperature is the coldest).",
+        "After 30 minutes, take out the bowl and whip the mixture. Put it back in the freezer.",
+        "Repeat this last step for 2–3 hours, until the ice cream is formed."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://latabledejeanne.org/recette-glace-maison-sans-sorbetiere"
+}
