@@ -1,0 +1,36 @@
+{
+  "title": "Caramelized onions",
+  "date": "2025-11-08",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "40",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "1 tbsp oil",
+        "1 onion",
+        "1 tbsp white wine (or water)",
+        "1 tbsp balsamic vinegar",
+        "1 tbsp honey",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Thinly slice the onion.",
+        "Heat the olive oil in a frying pan. Add the sliced onion, and a pinch of salt and cook on medium to medium-low heat for 20 minutes, stirring often so the onions caramelise evenly and don't stick to the pan.",
+        "After 20 minutes, turn the heat to medium-high and add the white wine and balsamic vinegar. Cook for 2 minutes until the alcohol and acidity evaporate from the wine and vinegar, scrape the brown bits from the bottom of the pan.",
+        "Add honey and some pepper, then turn the heat down again, and cook for another 10 minutes, until the onions are soft and golden.",
+        "Transfer to a glass jar. The caramelised onions can be used right away, and keep very well for up to a month in the fridge."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "http://www.mynomadcuisine.com/2018/04/maple-and-balsamic-caramelised-red.html?m=1"
+}
