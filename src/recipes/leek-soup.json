@@ -1,0 +1,36 @@
+{
+  "title": "Leek soup",
+  "date": "2025-11-20",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "A soup is the perfect way to use those dark green tops of leeks, as they will tenderize thoroughly.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Leeks (green leaves), cut small",
+        "Oil",
+        "Broth",
+        "Mustard",
+        "Heavy cream",
+        "Soy sauce",
+        "Salt and pepper"
+      ],
+      "ingOpt": ["Potatoes"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Add oil to a pot, stir the sliced leek in for 10 minutes.",
+        "Add some warm broth, and let it cook until the leaves are soft and tender.",
+        "Let the pot cool down a bit before blending with an immersion blender.",
+        "Add mustard, soy sauce, salt, pepper and cream to taste."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}
