@@ -20,6 +20,9 @@ extends "layout/base.njk" %} {% block head %}
     font-size: smaller;
     color: var(--color-text);
   }
+  #ingredients .ingredient-optional {
+    color: var(--color-text-subtle);
+  }
   #ingredients li span::before {
     content: "\A\2003";
   }
@@ -58,7 +61,7 @@ extends "layout/base.njk" %} {% block head %}
         {% endfor %} {% for ingredient in group.ingOpt %}
         <li class="p-ingredient">
           {{ ingredient }}
-          <span class="label">optional</span>
+          <span class="label ingredient-optional">optional</span>
         </li>
         {% endfor %}
       </ul>
