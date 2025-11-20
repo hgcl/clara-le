@@ -1,0 +1,36 @@
+{
+  "title": "Mustard",
+  "date": "2025-11-20",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "150 g mustard seeds",
+        "100 g cider vinegar",
+        "300 g water",
+        "10 g salt"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Mix all the ingredients together and soak the mustard seeds in the brine for 24 hours to rehydrate them (in the refrigerator).",
+        "Drain using a fine-mesh sieve and keep the mustard seeds.",
+        "Crush and grind the seeds using a mortar and pestle until you reach the desired consistency; you will see the yellow mustard color appear as it is ground.",
+        "Place in a glass jar and store in the refrigerator."
+      ]
+    }
+  ],
+  "notes": [
+    "For a smoother texture, you can add a bit of neutral oil (go easy on it).",
+    "For a better shelf life, add a few centiliters of white wine."
+  ],
+  "sourceUrl": "https://www.bienmanger.com/1C549_Moutarde_Maison.html"
+}

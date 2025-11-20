@@ -1,0 +1,38 @@
+{
+  "title": "Pork ribs",
+  "date": "2025-11-20",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "200",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "800 g pork ribs",
+        "2 tbsp honey",
+        "2 tbsp dark soy sauce",
+        "2 tsp mustard",
+        "1 clove garlic",
+        "0.5 tsp paprika",
+        "0.5 tsp dried thyme",
+        "0.5 tsp cayenne pepper"
+      ],
+      "ingOpt": ["1 tbsp ketchup"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Mix all the ingredients for the marinade. Generously coat the pork ribs with this mixture, taking care to massage it into the meat. Let rest in the fridge for at least 2 hours, but ideally overnight.",
+        "Preheat oven to 160 °C. Place the marinated pork ribs in an ovenproof dish (meaty side to the bottom) and cover them tightly with aluminum foil. Add 2 tbsp water in the dish beforehand to maximize the amount of hot steam. Cook for 1 h 15 for the meat to tenderize.",
+        "Take out the dish from the oven, and let it rest for 10 minutes. Do not open the foil.",
+        "Remove the aluminum foil. Rotate the ribs so that the bony side is to the bottom, and coat the meat with the marinade.",
+        "If the meat is still hard, put the aluminum foil back on, and bake for 15 more minutes. If tender enough, remove the foi;, and bake for 10–15 minutes at 220 °C (ideally in grill mode)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.mamanpleinedereves.fr/travers-de-porc-au-four-la-recette/"
+}
