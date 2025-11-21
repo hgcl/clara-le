@@ -1,0 +1,53 @@
+{%- macro recipeIngredients(groupIngredients=[], optional=false) -%}
+
+<!-- format values: check if value is an array (e.g. 5–6 apples) or simple value -->
+{%- macro formattedValues(value)-%}
+  {%- if value.length > 1 -%}
+    {%- set endash = joiner("–") -%}
+      {%- for el in value -%}
+        {{ endash() }}<span class="value" data-value="{{ el }}">{{ el }}</span>
+      {%- endfor -%}
+  {%- else -%}<span class="value" data-value="{{ value }}">{{ value }}
+  {%- endif -%}</span>
+{%- endmacro -%}
+
+<!-- format types -->
+{%- macro formattedType(type) -%}
+  {%- if type %} <span class="type">{{ type }}</span>{%- endif -%}
+{%- endmacro -%}
+
+<!-- format prep -->
+{%- macro formattedPrep(prep)-%}
+  {%- if prep -%}, {{ prep }}{%- endif -%}
+{%- endmacro -%}
+
+<!-- format name: add link if another recipe is linked -->
+{%- macro formattedName(name,url)-%}
+  {%- if url -%}<a href="/recipes/{{url}}">{{ name }}</a>
+  {%- else -%}{{ name }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{%- for el in groupIngredients -%}
+  <li class="p-ingredient">
+  <!-- if hardcoded string ingredient -->
+  {%- if el is string -%}
+    {{ el }}
+
+  <!-- if array with 2 options -->
+  {%- elif el.length > 1 -%}
+    {{ formattedValues(el[0].value) }}{{ formattedType(el[0].type) }} {{ el[0].name }}{{ formattedPrep(el[0].prep) }} (or {{ formattedValues(el[1].value) }}{{ formattedType(el[1].type) }} {{ formattedName(el[1].name, el[1].url) }}{{ formattedPrep(el[1].prep) }})
+  
+  <!-- if generic ingredient format -->
+  {%- else -%}
+    {{ formattedValues(el.value) }}{{ formattedType(el.type) }} {{ formattedName(el.name, el.url) }}{{ formattedPrep(el.prep) }}
+  {%- endif -%}
+
+  {%- if optional %}
+    <span class="label ingredient-optional">optional</span>
+  {%- endif -%}
+
+  </li>
+{%- endfor -%} 
+
+{%- endmacro -%}
