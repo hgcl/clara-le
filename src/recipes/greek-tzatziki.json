@@ -9,11 +9,21 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 cucumber",
-        "4 to 5 garlic cloves, minced",
-        "1 tsp white vinegar",
+        { "value": 1, "type": "", "name": "cucumber" },
+        {
+          "value": [4, 5],
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "minced"
+        },
+        { "value": 1, "type": "tsp", "name": "lemon juice" },
         "Olive oil",
-        "2 cups plain yogurt, strained (or thick greek yogurt)"
+        {
+          "value": 2,
+          "type": "cups",
+          "name": "plain yoghurt",
+          "prep": "strained"
+        }
       ],
       "ingOpt": ["White or black pepper", "Chopped fresh dill or mint"]
     }

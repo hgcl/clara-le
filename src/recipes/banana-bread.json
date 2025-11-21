@@ -9,18 +9,34 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "115 g butter, cut into chunks",
-        "130 g brown sugar",
-        "5 medium-large mashed bananas",
-        "2 large eggs",
-        "1 tsp salt",
-        "1.5 tsp ground cinnamon",
-        "0.5 tsp ground nutmeg",
-        "260 g flour",
-        "1 tsp baking soda (Natron)",
-        ">100 sourdough starter (or 1 tsp baking powder)"
+        {
+          "value": 115,
+          "type": "g",
+          "name": "butter",
+          "prep": "cut into chunks"
+        },
+        { "value": 130, "type": "g", "name": "sugar" },
+        {
+          "value": 5,
+          "type": "",
+          "name": "medium-large bananas",
+          "prep": "mashed"
+        },
+        { "value": 2, "type": "", "name": "large eggs" },
+        { "value": 1, "type": "tsp", "name": "salt" },
+        { "value": 1.5, "type": "tsp", "name": "cinnamon" },
+        { "value": 0.5, "type": "tsp", "name": "nutmeg" },
+        { "value": 260, "type": "g", "name": "flour" },
+        { "value": 1, "type": "tsp", "name": "baking soda" },
+        [
+          { "value": 100, "type": "g", "name": "sourdough starter" },
+          { "value": 1, "type": "tsp", "name": "baking powder" }
+        ]
       ],
-      "ingOpt": [">100 g chopped walnuts", ">1 packet vanilla sugar"]
+      "ingOpt": [
+        { "value": 100, "type": "g", "name": "walnuts", "prep": "chopped" },
+        { "value": 1, "type": "packet", "name": "vanilla powder" }
+      ]
     }
   ],
   "instructions": [

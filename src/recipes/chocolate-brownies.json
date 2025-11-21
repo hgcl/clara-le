@@ -9,15 +9,20 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "110 g butter melted and cooled",
-        "200 g sugar",
-        "2 large eggs",
-        "25 g all-purpose flour",
-        "60 g cocoa powder",
-        "1 pinch salt",
-        "1 pinch baking powder"
+        {
+          "value": 110,
+          "type": "g",
+          "name": "butter",
+          "prep": "melted and cooled"
+        },
+        { "value": 200, "type": "g", "name": "sugar" },
+        { "value": 2, "type": "", "name": "large eggs" },
+        { "value": 25, "type": "g", "name": "flour" },
+        { "value": 60, "type": "g", "name": "cocoa powder" },
+        { "value": 1, "type": "pinch", "name": "salt" },
+        { "value": 1, "type": "pinch", "name": "baking powder" }
       ],
-      "ingOpt": ["1 tsp vanilla sidect"]
+      "ingOpt": [{ "value": 1, "type": "packet", "name": "vanilla powder" }]
     }
   ],
   "instructions": [

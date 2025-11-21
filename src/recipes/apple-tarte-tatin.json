@@ -3,16 +3,25 @@
   "date": "2025-09-30",
   "lang": "en",
   "dataTag": ["dessert", "summer", "fall", "winter"],
-  "intro": "My take on the classic tarte tatin",
+  "intro": "Here is my take on the classic tarte tatin.",
   "duration": "60",
   "ingredients": [
     {
       "ingTitle": "",
       "ingMand": [
-        "5–6 apples (firm varieties are better)",
-        "70 g sugar",
-        "20 g butter or oil",
-        "1 pie dough"
+        {
+          "value": [5, 6],
+          "type": "",
+          "name": "apples (firm varieties are better)"
+        },
+        { "value": 70, "type": "g", "name": "sugar" },
+        { "value": 20, "type": "g", "name": "butter or oil" },
+        {
+          "value": 1,
+          "type": "",
+          "name": "pie dough",
+          "url": "basic-pie-dough"
+        }
       ],
       "ingOpt": []
     }

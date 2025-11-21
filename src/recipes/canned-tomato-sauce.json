@@ -8,11 +8,11 @@
   "ingredients": [
     {
       "ingTitle": "For about 20 jars",
-      "ingMand": ["10 kg tomatoes", "Salt"],
+      "ingMand": [{ "value": 10, "type": "kg", "name": "tomatoes" }, "Salt"],
       "ingOpt": [
-        "Carrots (diced)",
-        "Onions (sliced)",
-        "Garlic (cut small)",
+        "Carrots, diced",
+        "Onions, sliced",
+        "Garlic, cut small",
         "Dry herbs (laurel, rosmarin, etc.)",
         "Citric acid (for better spoilage prevention)"
       ]

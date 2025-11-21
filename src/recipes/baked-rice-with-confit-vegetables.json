@@ -11,13 +11,23 @@
       "ingMand": [
         "Tomatoes, quartered",
         "Garlic cloves, peeled",
-        "2 onions, peeled and quartered",
-        "1 cinnamon stick, divided in 4",
+        {
+          "value": 2,
+          "type": "",
+          "name": "onions",
+          "prep": "peeled and quartered"
+        },
+        {
+          "value": 1,
+          "type": "",
+          "name": "cinnamon stick",
+          "prep": "divided in 4"
+        },
         "Fresh herbs (e.g. coriander)",
         "Dry herbs (e.g. thyme)",
-        "150 ml olive oil",
-        "450 g rice",
-        "900 g water",
+        { "value": 150, "type": "ml", "name": "olive oil" },
+        { "value": 450, "type": "g", "name": "rice" },
+        { "value": 900, "type": "g", "name": "water" },
         "Salt and pepper"
       ],
       "ingOpt": []

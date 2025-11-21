@@ -8,7 +8,10 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["1 l milk", "1.5 tbsp white vinegar"],
+      "ingMand": [
+        { "value": 1, "type": "l", "name": "milk" },
+        { "value": 1.5, "type": "tbsp", "name": "white vinegar" }
+      ],
       "ingOpt": []
     }
   ],

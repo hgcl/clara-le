@@ -9,17 +9,27 @@
     {
       "ingTitle": "For 7 Semmelknödel",
       "ingMand": [
-        "300 g stale bread",
-        "250 ml hot milk",
-        "1 tbsp butter (or oil)",
-        "3 large eggs",
-        "1 tsp salt",
+        { "value": 300, "type": "g", "name": "stale bread" },
+        { "value": 250, "type": "g", "name": "hot milk" },
+        { "value": 1, "type": "tbsp", "name": "butter (or oil)" },
+        { "value": 3, "type": "", "name": "large eggs" },
+        { "value": 1, "type": "tsp", "name": "salt" },
         "Black pepper"
       ],
       "ingOpt": [
-        "1 yellow onion, very finely diced",
-        "3 tbsp fresh parsley, chopped",
-        "0.25 tsp nutmeg, ground"
+        {
+          "value": 1,
+          "type": "",
+          "name": "yellow onion",
+          "prep": "very finely diced"
+        },
+        {
+          "value": 3,
+          "type": "tbsp",
+          "name": "fresh parsley",
+          "prep": "chopped"
+        },
+        { "value": 0.25, "type": "tsp", "name": "nutmeg", "prep": "ground" }
       ]
     }
   ],

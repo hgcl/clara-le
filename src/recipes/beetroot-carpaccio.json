@@ -8,7 +8,11 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["1 beetroot", "Olive oil", "Flaked salt"],
+      "ingMand": [
+        { "value": 1, "type": "", "name": "beetroot" },
+        "Olive oil",
+        "Flaked salt"
+      ],
       "ingOpt": ["Zataar", "Balsamico vinegar"]
     }
   ],

@@ -9,10 +9,10 @@
     {
       "ingTitle": "Pour une tarte",
       "ingMand": [
-        "250 g farine T55 ou autre",
-        "50 g huile",
-        "80 g eau tiède",
-        "1 pincée de sel"
+        { "value": 250, "type": "g", "name": "farine" },
+        { "value": 50, "type": "g", "name": "huile" },
+        { "value": 80, "type": "g", "name": "eau tiède" },
+        { "value": 1, "type": "pincée", "name": "sel" }
       ],
       "ingOpt": []
     }

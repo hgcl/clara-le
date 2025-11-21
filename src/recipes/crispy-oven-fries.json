@@ -9,9 +9,9 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "4 large dry and mealy Russet Potatoes",
-        "1 tbsp vinegar",
-        "4 tbsp peanut oil",
+        { "value": 4, "type": "", "name": "large dry and mealy potatoes" },
+        { "value": 1, "type": "tbsp", "name": "vinegar" },
+        { "value": 4, "type": "tbsp", "name": "peanut oil" },
         "Coarse salt"
       ],
       "ingOpt": []

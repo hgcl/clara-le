@@ -9,14 +9,18 @@
     {
       "ingTitle": "Pour 6 personnes",
       "ingMand": [
-        "500 g de fruits avec leurs noyaux (cerises, mirabelles, prunes, baies)",
-        "1 cuillère à soupe bombée de farine",
-        "65 g de sucre",
-        "1 pincée de sel",
-        "120 g (12 cl) de lait",
-        "2 oeufs"
+        {
+          "value": 500,
+          "type": "g",
+          "name": "fruits avec leurs noyaux (cerises, mirabelles, prunes)"
+        },
+        { "value": 1.5, "type": "cs", "name": "farine" },
+        { "value": 65, "type": "g", "name": "sucre" },
+        { "value": 1, "type": "pincée", "name": "sel" },
+        { "value": 120, "type": "g", "name": "lait" },
+        { "value": 2, "type": "", "name": "œufs" }
       ],
-      "ingOpt": ["1 cuillère à soupe de crème de cerise"]
+      "ingOpt": [{ "value": 1, "type": "cs", "name": "crème de cerise" }]
     }
   ],
   "instructions": [

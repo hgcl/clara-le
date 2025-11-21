@@ -9,9 +9,14 @@
     {
       "ingTitle": "Base",
       "ingMand": [
-        "2 eggplants",
-        "3+ tbsp vegetable oil (for cooking)",
-        "1 pie dough"
+        { "value": 2, "type": "", "name": "eggplants" },
+        { "value": 3, "type": "tbsp", "name": "oil" },
+        {
+          "value": 1,
+          "type": "",
+          "name": "pie dough",
+          "url": "basic-pie-dough"
+        }
       ],
       "ingOpt": []
     },

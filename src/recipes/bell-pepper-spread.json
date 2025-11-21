@@ -9,8 +9,17 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 bell pepper sliced in 8 pieces",
-        "1 large handful of fresh herbs (e.g. cilantro, parsley, etc.)",
+        {
+          "value": 1,
+          "type": "",
+          "name": "bell pepper",
+          "prep": "sliced into 8 pieces"
+        },
+        {
+          "value": 1,
+          "type": "handful",
+          "name": "fresh herbs (cilantro, parsley, etc.)"
+        },
         "Olive oil",
         "Salt",
         "Lemon or vinegar"

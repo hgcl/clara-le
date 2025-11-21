@@ -10,10 +10,10 @@
       "ingTitle": "",
       "ingMand": [
         "As many apples (for sweetness) and quinces (sourness) as you like",
-        "120 g flour",
-        "8 tbsp oil or hard coconut oil",
-        "4 tbsp sugar",
-        "1 tsp salt"
+        { "value": 120, "type": "g", "name": "flour" },
+        { "value": 8, "type": "tbsp", "name": "oil or hard coconut oil" },
+        { "value": 4, "type": "tbsp", "name": "sugar" },
+        { "value": 1, "type": "tsp", "name": "salt" }
       ],
       "ingOpt": []
     }

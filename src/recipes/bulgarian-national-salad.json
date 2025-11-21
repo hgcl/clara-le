@@ -9,15 +9,21 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 cucumber, diced",
-        "3 tomatoes, diced",
-        "1 feta cheese, diced"
+        { "value": 1, "type": "", "name": "cucumber", "prep": "diced" },
+        { "value": 3, "type": "", "name": "tomatoes", "prep": "diced" },
+        { "value": 1, "type": "", "name": "feta cheese", "prep": "diced" }
       ],
       "ingOpt": [
-        "0.5 red bell pepper, diced",
-        "1 small red onion",
-        "1 tbsp sunflower oil",
-        "0.5 tbsp red wine vinegar",
+        {
+          "value": 0.5,
+          "type": "",
+          "name": "red bell pepper",
+          "prep": "diced"
+        },
+
+        { "value": 1, "type": "", "name": "small red onion", "prep": "diced" },
+        { "value": 1, "type": "tbsp", "name": "sunflower oil" },
+        { "value": 0.5, "type": "tbsp", "name": "red wine vinegar" },
         "Fresh parsley, thinly chopped",
         "Pepper and salt"
       ]

@@ -8,7 +8,11 @@
   "ingredients": [
     {
       "ingTitle": "For half a floor cleaning bucket",
-      "ingMand": ["4 tbsp white vinegar", "4 tbsp baking soda", "Warm water"],
+      "ingMand": [
+        { "value": 4, "type": "tbsp", "name": "white vinegar" },
+        { "value": 4, "type": "tbsp", "name": "baking soda" },
+        "Warm water"
+      ],
       "ingOpt": [
         "Small handful of savon de Marseilles",
         "Essential oils (10 drops tea tree, 10 drops lemon)"

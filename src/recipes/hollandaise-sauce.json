@@ -9,9 +9,13 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 jaune d'oeuf",
-        "1 cuillère à café d'eau froide",
-        "65 g de beurre (ou compléter avec de l'huile d'olive)",
+        { "value": 1, "type": "", "name": "jaune d'œuf" },
+        { "value": 1, "type": "cc", "name": "eau froide" },
+        {
+          "value": 65,
+          "type": "g",
+          "name": "beurre (ou compléter avec de l'huile d'olive)"
+        },
         "Jus de citron (ou vinaigre de cidre)",
         "Poivre",
         "Sel"

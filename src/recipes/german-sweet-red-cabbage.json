@@ -9,13 +9,21 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 small head of red cabbage",
-        "1 cup apple cider vinegar",
-        "1.5 cups water",
-        "1/3 cup sugar",
-        "8 cloves"
+        { "value": 1, "type": "", "name": "small head of red cabbage" },
+        { "value": 70, "type": "ml", "name": "cider vinegar" },
+        { "value": 100, "type": "ml", "name": "water" },
+        { "value": 25, "type": "ml", "name": "sugar" },
+        { "value": 8, "type": "", "name": "cloves" }
       ],
-      "ingOpt": ["1 green apple, peeled and diced", "8 juniper berries"]
+      "ingOpt": [
+        {
+          "value": 1,
+          "type": "",
+          "name": "green apple",
+          "prep": "peeled and diced"
+        },
+        { "value": 8, "type": "", "name": "juniper berries" }
+      ]
     }
   ],
   "instructions": [

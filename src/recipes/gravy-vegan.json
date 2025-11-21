@@ -9,33 +9,36 @@
     {
       "ingTitle": "Basic version",
       "ingMand": [
-        "8 tbsp oil",
-        "1 onion, chopped",
-        "3 cloves garlic, minced",
-        "4 tbsp all-purpose flour",
-        "2 tbsp light soy sauce",
-        "1 cup vegetable broth",
+        { "value": 8, "type": "tbsp", "name": "oil" },
+        { "value": 1, "type": "", "name": "onion", "prep": "chopped" },
+        { "value": 3, "type": "", "name": "garlic cloves", "prep": "minced" },
+        { "value": 4, "type": "tbsp", "name": "flour" },
+        { "value": 2, "type": "tbsp", "name": "light soy sauce" },
+        { "value": 70, "type": "ml", "name": "vegetable broth" },
         "Salt",
         "Black pepper, ground"
       ],
-      "ingOpt": ["1 pinch dried sage", "0.5 tbsp nutritional yeast"]
+      "ingOpt": [
+        { "value": 1, "type": "pinch", "name": "dried sage" },
+        { "value": 2, "type": "tsp", "name": "nutritional yeast" }
+      ]
     },
     {
       "ingTitle": "Upgraded version",
       "ingMand": [
-        "1 tbsp oil",
-        "1 onion, chopped",
-        "3 cloves garlic, chopped",
-        "1–2 small pre-boiled potatoes",
-        "7 g dried mushrooms",
-        "1/2 cup red wine",
-        "1/4 tsp cayenne pepper",
-        "1/4 tsp cumin",
-        "1 tsp smoked paprika",
-        "1.5 tbsp soy sauce",
-        "1 cup vegetable broth",
+        { "value": 1, "type": "tbsp", "name": "oil" },
+        { "value": 1, "type": "", "name": "onion", "prep": "chopped" },
+        { "value": 3, "type": "", "name": "garlic cloves", "prep": "minced" },
+        { "value": [1, 2], "type": "", "name": "pre-boiled potatoes" },
+        { "value": 7, "type": "g", "name": "dried mushrooms" },
+        { "value": 30, "type": "ml", "name": "red wine" },
+        { "value": 0.25, "type": "tsp", "name": "cayenne pepper" },
+        { "value": 0.25, "type": "tsp", "name": "ground cumin" },
+        { "value": 1, "type": "tsp", "name": "smoked paprika" },
+        { "value": 1.5, "type": "tbsp", "name": "soy sauce" },
+        { "value": 70, "type": "ml", "name": "vegetable broth" },
         "Shiitake mushrooms, sliced",
-        "1 pinch of salt"
+        "Salt"
       ],
       "ingOpt": []
     }
