@@ -91,7 +91,7 @@
       "\"ingredients\": [",
       "{",
       "\"ingTitle\": \"\",",
-      "\"ingMand\": [\"${6:TODO}\"],",
+      "\"ingMand\": [{ \"value\": 1, \"type\": \"g\", \"name\": \"flour\" }, \"Salt and pepper\"],",
       "\"ingOpt\": []",
       "}",
       "],",

@@ -13,8 +13,10 @@ eleventyComputed:
 
 <!-- This is the recipe post layout. It needs to be out of the _includes folder as
 it is generated through pagination. The original data (JSON files) are from the
-recipes directory. The mapped data is generated in_data/recipeData.js --> {%
-extends "layout/base.njk" %} {% block head %}
+recipes directory. The mapped data is generated in_data/recipeData.js --> 
+{%- from 'macro/recipe-ingredients.njk' import recipeIngredients -%}
+{%- extends "layout/base.njk" -%} 
+{%- block head -%}
 <style>
   #ingredients {
     font-size: smaller;
@@ -22,9 +24,6 @@ extends "layout/base.njk" %} {% block head %}
   }
   #ingredients .ingredient-optional {
     color: var(--color-text-subtle);
-  }
-  #ingredients li span::before {
-    content: "\A\2003";
   }
   #recipe-instructions {
     max-width: var(--screen-md);
@@ -43,58 +42,90 @@ extends "layout/base.njk" %} {% block head %}
     top: 0;
   }
 </style>
-{% endblock %} {% block article %}
+{%- endblock -%} 
+
+{%- block article -%}
 <article lang="{{ recipe.lang }}" class="h-recipe">
-  <!-- Pass tag data to post-header.njk --> {% set tags = recipe.dataTag %} {%
-  include 'post-header.njk' %} {% if recipe.intro %}
+  <!-- Pass tag data to post-header.njk --> 
+  {%- set tags = recipe.dataTag -%} 
+  {%- include 'post-header.njk' -%} 
+
+  {%- if recipe.intro -%}
   <p class="intro center">{{ recipe.intro }}</p>
-  {% endif %}
+  {%- endif -%}
+
   <div id="recipe-content" class="e-content">
     <section id="ingredients">
       <h2>Ingredients</h2>
-      {% for group in recipe.ingredients %} {% if group.ingTitle %}
+      {%- for group in recipe.ingredients -%} 
+      {%- if group.ingTitle -%}
       <h3>{{ group.ingTitle }}</h3>
-      {% endif %}
+      {%- endif -%}
+
+      <button id="thirdQty">x1/3</button>
+      <button id="halfQty">x1/2</button>
+      <button id="singleQty">x1</button>
+      <button id="doubleQty">x2</button>
+
       <ul>
-        {% for ingredient in group.ingMand %}
-        <li class="p-ingredient">{{ ingredient }}</li>
-        {% endfor %} {% for ingredient in group.ingOpt %}
-        <li class="p-ingredient">
-          {{ ingredient }}
-          <span class="label ingredient-optional">optional</span>
-        </li>
-        {% endfor %}
+        <!-- MANDATORY INGREDIENTS -->
+        {{ recipeIngredients(group.ingMand) }}
+
+        <!-- OPTIONAL INGREDIENTS -->
+        {{ recipeIngredients(group.ingOpt, true) }}
       </ul>
-      {% endfor %}
+      {%- endfor -%}
     </section>
+
     <section id="recipe-instructions" class="e-instructions">
       <h2>Instructions</h2>
-      {% for group in recipe.instructions %} {% if group.insTitle %}
+      {%- for group in recipe.instructions -%} {%- if group.insTitle -%}
       <h3>{{ group.insTitle }}</h3>
-      {% endif %}
+      {%- endif -%}
       <ol>
-        {% for instruction in group.insSteps %}
+        {%- for instruction in group.insSteps -%}
         <li>{{ instruction | safe }}</li>
-        {% endfor %}
+        {%- endfor -%}
       </ol>
-      {% endfor %} {% if recipe.notes.length %}
+      {%- endfor -%} {%- if recipe.notes.length -%}
       <h3>Notes</h3>
       <ul>
-        {% for note in recipe.notes %} {% if note %}
+        {%- for note in recipe.notes -%} {%- if note -%}
         <li>
           {{ note }}
         </li>
-        {% endif %} {% endfor %}
+        {%- endif -%} {%- endfor -%}
       </ul>
-      {% endif %} {% if recipe.sourceUrl %}
+      {%- endif -%} {%- if recipe.sourceUrl -%}
       <p class="subtle">
         <em
           >Adapted from this
           <a href="{{ recipe.sourceUrl }}">original recipe</a>
         </em>
       </p>
-      {% endif %}
+      {%- endif -%}
     </section>
   </div>
 </article>
-{% endblock %}
+{%- endblock -%}
+
+{%- block script -%} 
+<script>
+  const thirdButton = document.getElementById("thirdQty");
+  thirdButton.addEventListener("click", () => updateQuantities(1/3));
+  const halfButton = document.getElementById("halfQty");
+  halfButton.addEventListener("click", () => updateQuantities(0.5));
+  const singleButton = document.getElementById("singleQty");
+  singleButton.addEventListener("click", () => updateQuantities(1));
+  const doubleButton = document.getElementById("doubleQty");
+  doubleButton.addEventListener("click", () => updateQuantities(2));
+
+  function updateQuantities(multiple) {
+    const quantities = document.querySelectorAll('.p-ingredient .value');
+    quantities.forEach(el => {
+      const initialValue = el.getAttribute('data-value');
+      el.innerHTML = Math.round(initialValue * multiple * 10) / 10;
+    });
+  }
+</script>
+{%- endblock -%}
