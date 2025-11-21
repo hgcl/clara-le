@@ -8,7 +8,10 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["400–500 ml coconut cream", "1 chocolate bar"],
+      "ingMand": [
+        { "value": [400, 500], "type": "ml", "name": "coconut cream" },
+        { "value": 100, "type": "g", "name": "chocolate" }
+      ],
       "ingOpt": []
     }
   ],

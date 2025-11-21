@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "5 kg fruit (e.g. apricots, prunes, cherries, etc.)",
-        "2.5 kg brown sugar"
+        { "value": 5, "type": "kg", "name": "fruit" },
+        { "value": 2.5, "type": "kg", "name": "brown sugar" }
       ],
-      "ingOpt": ["1 lemon (juiced)"]
+      "ingOpt": [{ "value": 1, "type": "", "name": "lemon", "prep": "juiced" }]
     }
   ],
   "instructions": [

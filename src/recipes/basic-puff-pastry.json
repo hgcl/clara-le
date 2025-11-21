@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "250 g plain flour",
-        "280 g butter, very cold",
-        "0.5 tsp salt",
-        "120 ml of ice-cold water"
+        { "value": 250, "type": "g", "name": "flour" },
+        { "value": 280, "type": "g", "name": "butter", "prep": "very cold" },
+        { "value": 0.5, "type": "tsp", "name": "salt" },
+        { "value": 120, "type": "g", "name": "water", "prep": "ice-cold" }
       ],
       "ingOpt": []
     }

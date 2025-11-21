@@ -8,7 +8,12 @@
   "ingredients": [
     {
       "ingTitle": "Pour une tarte",
-      "ingMand": ["210 g blé", "115 g beurre", "0.5 c-à-c sel", "60 ml eau"],
+      "ingMand": [
+        { "value": 210, "type": "g", "name": "blé" },
+        { "value": 115, "type": "g", "name": "beurre" },
+        { "value": 0.5, "type": "cc", "name": "sel" },
+        { "value": 60, "type": "g", "name": "eau" }
+      ],
       "ingOpt": ["Sucre"]
     }
   ],

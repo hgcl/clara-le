@@ -9,8 +9,8 @@
     {
       "ingTitle": "For two portions:",
       "ingMand": [
-        "330 g all-purpose flour or ideally semolina (adjust until right consistency)",
-        ">3 medium eggs"
+        { "value": 330, "type": "g", "name": "flour or semolina" },
+        { "value": 3, "type": "", "name": "large eggs" }
       ],
       "ingOpt": []
     }

@@ -9,25 +9,32 @@
     {
       "ingTitle": "Eggplants",
       "ingMand": [
-        "2 medium eggplants",
-        "1.5 tbsp chili powder",
-        "1.5 tbsp smoked paprika",
-        "1.5 tsp sugar",
-        "1 tsp salt",
-        "1/4 cup olive oil"
+        { "value": 2, "type": "", "name": "medium eggplants" },
+        { "value": 1.5, "type": "tbsp", "name": "chili powder" },
+        { "value": 1.5, "type": "tbsp", "name": "smoked paprika" },
+        { "value": 1.5, "type": "tsp", "name": "sugar" },
+        { "value": 1, "type": "tsp", "name": "salt" },
+        { "value": 65, "type": "g", "name": "olive oil" }
       ],
       "ingOpt": []
     },
     {
       "ingTitle": "Tahini-miso sauce",
       "ingMand": [
-        "3 tbsp tahini (or 2/3 tahini + 1/3 peanut butter)",
-        "1 tbsp miso",
-        "1 tsp white vinegar",
-        "1.5 tsp maple syrup or honey",
+        {
+          "value": 3,
+          "type": "tbsp",
+          "name": "tahini (or 2/3 tahini, 1/3 peanut butter)"
+        },
+        { "value": 1, "type": "tbsp", "name": "miso" },
+        { "value": 1, "type": "tsp", "name": "white vinegar" },
+        { "value": 1.5, "type": "tsp", "name": "honey (or maple syrup)" },
         "Water"
       ],
-      "ingOpt": ["Fresh herbs (e.g. parsel)", "2 tbsp walnuts"]
+      "ingOpt": [
+        "Fresh herbs (e.g. parsel)",
+        { "value": 2, "type": "tbsp", "name": "walnuts" }
+      ]
     }
   ],
   "instructions": [

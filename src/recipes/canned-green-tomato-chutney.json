@@ -9,17 +9,26 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 kg green tomatoes",
-        "1 kg red onions",
-        "150 g raisins (or similar dried fruits)",
-        "2 tsp salt",
-        "500 g sugar",
-        "1 liter malt, mix A (3/4 cider vinegar, 1/4 balsamic vinegar) or mix B (50:50 rice and balsamic vinegar)"
+        { "value": 1, "type": "kg", "name": "green tomatoes" },
+        { "value": 1, "type": "kg", "name": "red onions" },
+        {
+          "value": 150,
+          "type": "g",
+          "name": "raisins (or similar dried fruits)"
+        },
+        { "value": 2, "type": "tsp", "name": "salt" },
+        { "value": 500, "type": "g", "name": "sugar" },
+        {
+          "value": 1,
+          "type": "kg",
+          "name": "malt",
+          "prep": "mix A (1/4 balsamic and 3/4 cider vinegar) or mix B (50/50 rice and balsamic vinegar)"
+        }
       ],
       "ingOpt": [
-        "3 garlic cloves",
-        "1/4 tsp chili flakes",
-        "1/4 tsp black pepper"
+        { "value": 3, "type": "", "name": "garlic cloves" },
+        { "value": 0.25, "type": "tsp", "name": "chili flakes" },
+        { "value": 0.25, "type": "tsp", "name": "black pepper" }
       ]
     }
   ],

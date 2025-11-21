@@ -8,11 +8,14 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["2 cups of neutral oil", "1 cup or less of chili flakes"],
+      "ingMand": [
+        { "value": 2, "type": "cups", "name": "neutral oil" },
+        { "value": 1, "type": "cup", "name": "chili flakes" }
+      ],
       "ingOpt": [
-        "5 star anises",
-        "1 cinnamon stick",
-        "3 tbsp Sichuan peppercorns"
+        { "value": 5, "type": "", "name": "star anises" },
+        { "value": 1, "type": "", "name": "cinnamon stick" },
+        { "value": 3, "type": "tbsp", "name": "Sichuan peppercorns" }
       ]
     }
   ],

@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "10 cm fresh ginger",
-        "5 cm fresh tumeric",
-        "2 lemons, roughly peeled",
-        "2 oranges, roughly peeled",
+        { "value": 10, "type": "cm", "name": "fresh ginger" },
+        { "value": 5, "type": "cm", "name": "fresh tumeric" },
+        { "value": 2, "type": "", "name": "lemons", "prep": "roughly peeled" },
+        { "value": 2, "type": "", "name": "oranges", "prep": "roughly peeled" },
         "Black pepper (anti-inflammatory)",
         "Honey"
       ],

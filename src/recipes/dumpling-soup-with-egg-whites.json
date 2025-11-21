@@ -8,7 +8,7 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["3 egg whites"],
+      "ingMand": [{ "value": 3, "type": "", "name": "egg whites" }],
       "ingOpt": []
     }
   ],

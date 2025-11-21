@@ -8,7 +8,10 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["200 g de millet (environ une tasse)", "500 g d'eau"],
+      "ingMand": [
+        { "value": 200, "type": "g", "name": "millet" },
+        { "value": 500, "type": "g", "name": "eau" }
+      ],
       "ingOpt": []
     }
   ],

@@ -10,8 +10,12 @@
       "ingTitle": "",
       "ingMand": [
         "Carrot or radish tops",
-        "A small handful of pine kernel (or any kind of seed or nut)",
-        "1–2 cloves of garlic",
+        {
+          "value": 1,
+          "type": "handful",
+          "name": "pine kernel (or other seed/nut)"
+        },
+        { "value": [1, 2], "type": "", "name": "garlic cloves" },
         "Olive oil",
         "Salt",
         "Black pepper"

@@ -9,21 +9,30 @@
     {
       "ingTitle": "Marinade",
       "ingMand": [
-        "1 cm ginger, freshly grated",
-        "1 tbsp honey",
-        "1 tbsp yellow miso",
-        "1 tbsp lemon juice (or Balsamic vinegar)"
+        {
+          "value": 1,
+          "type": "cm",
+          "name": "ginger",
+          "prep": "freshly grated"
+        },
+        { "value": 1, "type": "tbsp", "name": "honey" },
+        { "value": 1, "type": "tbsp", "name": "yellow miso" },
+        {
+          "value": 1,
+          "type": "tbsp",
+          "name": "lemon juice (or balsamic vinegar)"
+        }
       ],
       "ingOpt": []
     },
     {
       "ingTitle": "Beans",
       "ingMand": [
-        "Large handful of green beans",
-        "2 tbsp olive oil",
-        "10 g sesame seeds",
-        "1/2 tsp sugar",
-        "1 pinch salt"
+        { "value": 1, "type": "handful", "name": "green beans" },
+        { "value": 2, "type": "tbsp", "name": "olive oil" },
+        { "value": 10, "type": "g", "name": "sesame seeds" },
+        { "value": 0.5, "type": "tsp", "name": "sugar" },
+        { "value": 1, "type": "pinch", "name": "salt" }
       ],
       "ingOpt": ["Coriander leaves, roughly chopped"]
     }

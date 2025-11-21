@@ -9,11 +9,15 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "Bouteille à sprayer de 500 ml",
-        "1,5 c-à-c. bicarbonate de soude",
+        { "value": 500, "type": "ml", "name": "bouteille à sprayer" },
+        { "value": 1.5, "type": "cc", "name": "bicarbonate de soude" },
         "Eau chaude",
-        "2 c-à-c. vinaigre blanc",
-        "15–20 gouttes d'huiles essentielles (e.g. citron, eucalyptus, pin sylvestre)"
+        { "value": 2, "type": "cc", "name": "vinaigre blanc" },
+        {
+          "value": [15, 20],
+          "type": "gouttes",
+          "name": "huiles essentielles (citron, eucalyptus, pin sylvestre)"
+        }
       ],
       "ingOpt": []
     }

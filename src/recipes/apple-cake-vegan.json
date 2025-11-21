@@ -9,14 +9,17 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "175 g flour",
-        "80 g sugar",
-        "120 g water",
-        "50 g oil",
-        "12 g baking powder (or 70 g sourdough starter)",
-        "2 apples, sliced"
+        { "value": 175, "type": "g", "name": "flour" },
+        { "value": 80, "type": "g", "name": "sugar" },
+        { "value": 120, "type": "g", "name": "water" },
+        { "value": 50, "type": "g", "name": "oil" },
+        [
+          { "value": "12", "type": "g", "name": "baking powder" },
+          { "value": "70", "type": "g", "name": "sourdough starter" }
+        ],
+        { "value": 2, "type": "", "name": "apples", "prep": "sliced" }
       ],
-      "ingOpt": ["10 g vanilla powder"]
+      "ingOpt": [{ "value": 10, "type": "g", "name": "vanilla powder" }]
     }
   ],
   "instructions": [

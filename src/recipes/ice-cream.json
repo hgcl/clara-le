@@ -2,21 +2,21 @@
   "title": "Ice cream",
   "date": "2025-11-06",
   "lang": "en",
-  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "dataTag": ["dessert", "spring", "summer"],
   "intro": "Here is the no machine ice cream recipe I use, anytime the sun comes out.",
   "duration": "",
   "ingredients": [
     {
       "ingTitle": "",
       "ingMand": [
-        "200 g milk",
-        "20 cl heavy cream",
-        "50 g sugar",
-        "25 g honey (to increase viscosity)"
+        { "value": 200, "type": "g", "name": "milk" },
+        { "value": 20, "type": "cl", "name": "heavy cream" },
+        { "value": 50, "type": "g", "name": "sugar" },
+        { "value": 25, "type": "g", "name": "honey" }
       ],
       "ingOpt": [
-        "10 g loose earl grey",
-        "1 egg yolk",
+        { "value": 10, "type": "g", "name": "loose Earl Grey leaves" },
+        { "value": 1, "type": "", "name": "egg yolk" },
         "A bit of rhum or whiskey (lowers the crystallization temperature)"
       ]
     }

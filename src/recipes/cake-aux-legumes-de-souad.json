@@ -9,13 +9,12 @@
     {
       "ingTitle": "Pâte",
       "ingMand": [
-        "110 g farine blanche",
-        "110 g farine d'épeautre complète",
-        "2 oeufs",
-        "150 g lait",
-        "40 g huile végétale",
-        "0.5 cc bicarbonate",
-        "1 cc vinaigre blanc",
+        { "value": 220, "type": "g", "name": "farine (mixte)" },
+        { "value": 2, "type": "", "name": "œufs" },
+        { "value": 150, "type": "g", "name": "lait" },
+        { "value": 40, "type": "g", "name": "huile" },
+        { "value": 0.5, "type": "cc", "name": "bicarbonate de soude" },
+        { "value": 1, "type": "cc", "name": "vinaigre blanc" },
         "Sel et poivre"
       ],
       "ingOpt": []

@@ -9,12 +9,25 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1–2 fennel bulbs, thinly sliced",
-        "1 tbsp mustard",
-        "1 tbsp olive oil",
-        "2 tbsp balsamico vinegar (or replace half with apple cider vinegar)"
+        {
+          "value": [1, 2],
+          "type": "",
+          "name": "fennel bulbs",
+          "prep": "thinly sliced"
+        },
+        { "value": 1, "type": "tbsp", "name": "mustard" },
+        { "value": 1, "type": "tbsp", "name": "olive oil" },
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "balsamic vinegar (or replace half with apple cider vinegar)"
+        }
       ],
-      "ingOpt": ["1 apple, thinly sliced", "1 tsp honey", "Salt and pepper"]
+      "ingOpt": [
+        { "value": 1, "type": "", "name": "apple", "prep": "thinly sliced" },
+        { "value": 1, "type": "tsp", "name": "honey" },
+        "Salt and pepper"
+      ]
     }
   ],
   "instructions": [

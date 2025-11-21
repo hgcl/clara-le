@@ -7,13 +7,13 @@
   "duration": "40",
   "ingredients": [
     {
-      "ingTitle": "",
+      "ingTitle": "For a small jar",
       "ingMand": [
-        "1 tbsp oil",
-        "1 onion",
-        "1 tbsp white wine (or water)",
-        "1 tbsp balsamic vinegar",
-        "1 tbsp honey",
+        { "value": 1, "type": "tbsp", "name": "oil" },
+        { "value": 1, "type": "", "name": "onion" },
+        { "value": 1, "type": "tbsp", "name": "white wine (or water)" },
+        { "value": 1, "type": "tbsp", "name": "balsamic vinegar" },
+        { "value": 1, "type": "tbsp", "name": "honey" },
         "Salt and pepper"
       ],
       "ingOpt": []

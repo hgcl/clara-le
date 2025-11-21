@@ -9,7 +9,7 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "5 bananes bien mûres",
+        { "value": 5, "type": "", "name": "bananes (bien mûres)" },
         "Un peu de crème, de lait ou de yaourt"
       ],
       "ingOpt": ["Sucre glace"]

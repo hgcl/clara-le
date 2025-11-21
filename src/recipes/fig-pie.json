@@ -10,10 +10,16 @@
       "ingTitle": "",
       "ingMand": [
         "Figues",
-        "100 g d'amande en poudre (ou noix, noisette)",
-        "40 g de sucre",
-        "40 g de beurre",
-        "1 oeuf"
+        { "value": 100, "type": "g", "name": "amande en poudre" },
+        { "value": 40, "type": "g", "name": "sucre" },
+        { "value": 40, "type": "g", "name": "beurre" },
+        { "value": 1, "type": "", "name": "œuf" },
+        {
+          "value": 1,
+          "type": "",
+          "name": "pâte à tarte",
+          "url": "basic-pie-dough"
+        }
       ],
       "ingOpt": []
     }
@@ -22,7 +28,7 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Préparer une <a href=\"/recipes/pie-dough/\">pâte à tarte</a> et laisser reposer au frigo.",
+        "Préparer une pâte à tarte et laisser reposer au frigo.",
         "Pour la frangipane aux amandes, travailler le beurre mou avec le sucre jusqu'à obtenir un mélange mousseux.",
         "Ajouter les amandes et l'oeuf, bien mélanger.",
         "Préchauffer le four à 220 °C (thermostat 7-8).",

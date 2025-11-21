@@ -10,9 +10,9 @@
       "ingTitle": "",
       "ingMand": [
         "Old bread",
-        "2 tbsp olive oil",
+        { "value": 2, "type": "tbsp", "name": "olive oil" },
         "Salt",
-        "1 garlic clove, pressed"
+        { "value": 1, "type": "", "name": "garlic clove", "prep": "pressed" }
       ],
       "ingOpt": ["Dried herbs (e.g. rosmarin)"]
     }

@@ -8,8 +8,15 @@
   "ingredients": [
     {
       "ingTitle": "Pour 6 pots",
-      "ingMand": ["0.5 l de lait", "50 g de sucre", "3 oeufs"],
-      "ingOpt": ["50 g de sucre pour le caramel", "2 c-à-s de fleur d'oranger"]
+      "ingMand": [
+        { "value": 0.5, "type": "l", "name": "milk" },
+        { "value": 50, "type": "g", "name": "sucre" },
+        { "value": 3, "type": "", "name": "œufs" }
+      ],
+      "ingOpt": [
+        { "value": 50, "type": "g", "name": "sucre pour le caramel" },
+        { "value": 2, "type": "cs", "name": "fleur d'oranger" }
+      ]
     }
   ],
   "instructions": [

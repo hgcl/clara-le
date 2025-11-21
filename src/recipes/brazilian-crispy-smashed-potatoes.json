@@ -8,8 +8,13 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["20 small potatoes", "2 tbsp olive oil", "1.5 tsp salt"],
-      "ingOpt": ["freshly ground pepper"]
+      "ingMand": [
+        { "value": 20, "type": "", "name": "small potatoes" },
+        { "value": 2, "type": "tbsp", "name": "olive oil" },
+        { "value": 1.5, "type": "tsp", "name": "salt" },
+        "Black pepper"
+      ],
+      "ingOpt": []
     }
   ],
   "instructions": [
