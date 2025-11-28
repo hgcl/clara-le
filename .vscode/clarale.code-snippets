@@ -91,7 +91,7 @@
       "\"ingredients\": [",
       "{",
       "\"ingTitle\": \"\",",
-      "\"ingMand\": [{ \"value\": 1, \"type\": \"g\", \"name\": \"flour\" }, \"Salt and pepper\"],",
+      "\"ingMand\": [{ \"value\": 1, \"type\": \"g\", \"name\": \"\", \"prep\": \"\" }, \"Salt and pepper\"],",
       "\"ingOpt\": []",
       "}",
       "],",
