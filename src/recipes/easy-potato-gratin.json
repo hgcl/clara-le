@@ -1,0 +1,43 @@
+{
+  "title": "Easy potato gratin",
+  "date": "2025-11-28",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        [
+          { "value": 6, "type": "", "name": "potatoes" },
+          { "value": 2, "type": "", "name": "sweet potatoes" }
+        ],
+        { "value": 3, "type": "", "name": "garlic cloves", "prep": "pressed" },
+        { "value": 100, "type": "g", "name": "heavy cream and milk mix" },
+        "Chili flakes (to taste)",
+        "Hard cheese, grated",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Wash and peel the potatoes. (You can replace those with sweet potatoes or any kind of squash).",
+        "Slice them into 3 mm pieces, and add them to a big pot.",
+        "Add the cream, milk, garlic, chili flakes, salt and pepper.",
+        "Heat over medium heat until it just begins to boil.  Stir gently with a wooden spoon, and cook for 15 more minutes.",
+        "Preheat your oven to 200 °C using the fan setting.",
+        "Butter a gratin dish, and arrange the sweet potato slices in layers.",
+        "Pour the creamy mixture over the sweet potato.",
+        "Cover completely with grated cheese.",
+        "Bake for 30 minutes. Let it rest for 10 minutes before serving."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://recettesduchef.com/recipes/douceur-gratin-patates"
+}

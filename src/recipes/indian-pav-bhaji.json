@@ -9,9 +9,10 @@
     {
       "ingTitle": "Bhaji masala powder",
       "ingMand": [
-        "4 tbsp coriander seeds",
-        "2 tbsp cumin seeds",
-        "5 dried red chilies (adjust to taste)",
+        { "value": 4, "type": "tbsp", "name": "coriander seeds" },
+        { "value": 2, "type": "tbsp", "name": "cumin seeds" },
+        { "value": 5, "type": "", "name": "dried red chilies (or to taste)" },
+        { "value": 8, "type": "", "name": "cloves" },
         "8 cloves",
         "1 tbsp fennel seeds",
         "1/2 tsp black cardamon seeds (or 24 seeds)",
