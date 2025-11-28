@@ -1,0 +1,69 @@
+{
+  "title": "Hasselback Butternut Squash",
+  "date": "2025-11-28",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "60",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 1,
+          "type": "g",
+          "name": "butternut squash"
+        },
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "value": 4,
+          "type": "tbsp",
+          "name": "honey"
+        },
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "mustard"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "chili flakes (to taste)"
+        },
+        {
+          "value": [2, 3],
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "thinly sliced"
+        },
+        "Salt and pepper"
+      ],
+      "ingOpt": [
+        "Crushed and roasted walnuts",
+        "Yoghurt-based sauce",
+        "Feta",
+        "Parsley"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Peel the squash, cut it in half, and remove the seeds.",
+        "Preheat the oven to 200 °C.",
+        "Peel the squash and slice it in half lengthwise, scooping out the seeds. Place the halves cut-side down on a parchment-lined baking sheet and bake for 15 minutes to soften slightly. Remove and let cool just enough to handle.",
+        "Place two wooden spoons along the sides of each squash half to prevent cutting through. Carefully slice thin slits across the squash to create the hasselback pattern. Gently tuck the sliced garlic pieces into some of the slits, spacing them evenly.",
+        "Whisk together the olive oil, honey, mustard, chili flakes, salt and pepper. Brush generously all over the squash, working the glaze down into the cuts.",
+        "Return to the oven and bake for 30–35 minutes, brushing again halfway through, until caramelized, golden, and tender. At this time, you can make the cashew cream to serve the squash over, if desired.",
+        "Transfer to a serving platter over a yoghurt-based sauce if using, and finish with walnuts, feta and parsley. Serve warm."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://plantyou.com/hasselback-butternut-squash/"
+}

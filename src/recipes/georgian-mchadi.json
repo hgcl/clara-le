@@ -9,10 +9,9 @@
     {
       "ingTitle": "For 4 mchadi",
       "ingMand": [
-        "200 g coarse cornmeal (or polenta)",
-        "2 tsp olive oil",
-        "Salt",
-        "Pepper"
+        { "value": 200, "type": "g", "name": "coarse cornmeal (or polenta)" },
+        { "value": 2, "type": "tsp", "name": "olive oil" },
+        "Salt and pepper"
       ],
       "ingOpt": []
     }
