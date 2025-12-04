@@ -7,18 +7,34 @@
   "duration": "120",
   "ingredients": [
     {
-      "ingTitle": "For 4 servings:",
+      "ingTitle": "For 4 servings",
       "ingMand": [
-        "250 g ground beef",
-        "250 g ground pork",
-        "3–4 celery stalks, finely chopped",
-        "3–4 carrots, finely chopped",
-        "1 big onion, finely chopped",
-        "80–100 ml of white wine",
-        "80 g butter + 2–3 spoons olive oil (or 100 g butter with no oil or just olive oil)",
+        { "value": 250, "type": "g", "name": "ground beed" },
+        { "value": 250, "type": "g", "name": "ground pork" },
+        {
+          "value": [3, 4],
+          "type": "",
+          "name": "celery stalks",
+          "prep": "finely chopped"
+        },
+        {
+          "value": [3, 4],
+          "type": "",
+          "name": "carrots",
+          "prep": "finely chopped"
+        },
+        {
+          "value": 1,
+          "type": "",
+          "name": "big onion",
+          "prep": "finely chopped"
+        },
+        { "value": [80, 100], "type": "ml", "name": "white wine" },
+        { "value": 80, "type": "g", "name": "butter" },
+        { "value": [2, 3], "type": "tbsp", "name": "olive oil" },
         "Tomato paste, ideally the one with added celery and carrots"
       ],
-      "ingOpt": ["100 g of bacon or pancetta"]
+      "ingOpt": [{ "value": 100, "type": "g", "name": "bacon (or pancetta)" }]
     }
   ],
   "instructions": [

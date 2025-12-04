@@ -9,14 +9,14 @@
     {
       "ingTitle": "For two focaccia",
       "ingMand": [
-        "220 ml water",
-        "250 g flour",
-        "2 g salt",
-        "4 tsp olive oil",
-        "3.5 g yeast",
-        "1 tsp honey"
+        { "value": 220, "type": "ml", "name": "water" },
+        { "value": 250, "type": "g", "name": "flour" },
+        { "value": 2, "type": "g", "name": "salt" },
+        { "value": 4, "type": "tsp", "name": "olive oil" },
+        { "value": 3.5, "type": "g", "name": "yeast" },
+        { "value": 1, "type": "tsp", "name": "honey" }
       ],
-      "ingOpt": ["1 g origano"]
+      "ingOpt": ["Origano"]
     }
   ],
   "instructions": [

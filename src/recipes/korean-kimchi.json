@@ -9,26 +9,36 @@
     {
       "ingTitle": "Cabbage",
       "ingMand": [
-        "700 g cabbage, chopped",
-        "3 tbsp salt",
-        "water",
-        "ginger, minced",
-        "garlic, crushed",
-        "onion, minced",
-        "leek, chopped",
-        "green onion, diagonally sliced",
-        "carrot, julienned"
+        { "value": 700, "type": "g", "name": "cabbage", "prep": "chopped" },
+        { "value": 3, "type": "tbsp", "name": "salt" },
+        {
+          "value": [1, 2],
+          "type": "",
+          "name": "garlic clove",
+          "prep": "crushed"
+        },
+        { "value": 1, "type": "", "name": "onion", "prep": "minced" }
       ],
-      "ingOpt": []
+      "ingOpt": [
+        { "value": 1, "type": "cm", "name": "ginger", "prep": "minced" },
+        { "value": 0.25, "type": "", "name": "leek", "prep": "chopped" },
+        {
+          "value": 1,
+          "type": "",
+          "name": "green onion",
+          "prep": "diagonally sliced"
+        },
+        { "value": 1, "type": "", "name": "carrot", "prep": "julienned" }
+      ]
     },
     {
       "ingTitle": "Porridge",
       "ingMand": [
-        "4 tbsp flour",
-        "water",
-        "2 tbsp sugar",
-        "6 tbsp soy sauce or fish sauce",
-        "5 tbsp gochugaru"
+        { "value": 4, "type": "tbsp", "name": "flour" },
+        "Water",
+        { "value": 2, "type": "tbsp", "name": "sugar" },
+        { "value": 6, "type": "tbsp", "name": "soy sauce or fish sauce" },
+        { "value": 5, "type": "tbsp", "name": "gochugaru" }
       ],
       "ingOpt": []
     }

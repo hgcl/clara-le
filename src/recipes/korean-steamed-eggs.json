@@ -8,8 +8,12 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["4 large eggs", "3/4 cup (180 g) water", "1 tsp salt"],
-      "ingOpt": ["scallion, chopped"]
+      "ingMand": [
+        { "value": 4, "type": "", "name": "large eggs" },
+        { "value": 180, "type": "g", "name": "water" },
+        { "value": 1, "type": "tsp", "name": "salt" }
+      ],
+      "ingOpt": ["Green onion, chopped"]
     }
   ],
   "instructions": [

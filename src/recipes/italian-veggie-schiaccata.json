@@ -9,9 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "Some veggies (e.g. 2 carrots, 2 zucchini), grated",
-        "1 potato, grated",
-        "200 g flour",
+        { "value": 2, "type": "", "name": "carrots", "prep": "grated" },
+        { "value": 2, "type": "", "name": "zucchini", "prep": "grated" },
+        { "value": 1, "type": "", "name": "potato", "prep": "grated" },
+        { "value": 200, "type": "g", "name": "flour" },
         "Salt",
         "Olive oil"
       ],

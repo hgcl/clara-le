@@ -9,21 +9,25 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "½ lb. dried cannellini beans (1 ⅓ cups)",
-        "⅓ cup side-virgin olive oil",
-        "½ onion",
-        "1 carrot",
-        "1 celery stalk",
-        "1 garlic clove",
-        "2-3 thyme sprigs (leaves only)",
-        "1 tsp salt",
-        "1 potato, medium sized",
-        "½ lb. lacinato kale (roughly a bunch)",
-        "½ head Savoy cabbage (about ¾ lb.)",
-        "⅓ lb. Swiss chard",
-        "1 tbsp tomato paste (or ⅓ cup of canned diced tomatoes or 1 fresh tomato)",
-        "½ lb. whole wheat, rustic, stale bread",
-        "To taste, freshly ground black pepper"
+        { "value": 230, "type": "g", "name": "dried cannellini beans" },
+        { "value": 70, "type": "g", "name": "olive oil" },
+        { "value": 0.5, "type": "", "name": "onion" },
+        { "value": 1, "type": "", "name": "carrot" },
+        { "value": 1, "type": "", "name": "celery stalk" },
+        { "value": 1, "type": "", "name": "garlic clove" },
+        { "value": [2, 3], "type": "", "name": "thyme sprigs" },
+        { "value": 1, "type": "tsp", "name": "salt" },
+        { "value": 1, "type": "", "name": "potato" },
+        { "value": 230, "type": "g", "name": "kale" },
+        { "value": 0.5, "type": "", "name": "Savoy cabbage" },
+        { "value": 1, "type": "", "name": "carrot" },
+        { "value": 150, "type": "g", "name": "Swiss chards" },
+        [
+          { "value": 1, "type": "tbsp", "name": "tomato paste" },
+          { "value": 120, "type": "ml", "name": "canned tomatoes" }
+        ],
+        { "value": 230, "type": "g", "name": "stale bread" },
+        "Black pepper"
       ],
       "ingOpt": []
     }

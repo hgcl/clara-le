@@ -13,43 +13,82 @@
         { "value": 2, "type": "tbsp", "name": "cumin seeds" },
         { "value": 5, "type": "", "name": "dried red chilies (or to taste)" },
         { "value": 8, "type": "", "name": "cloves" },
-        "8 cloves",
-        "1 tbsp fennel seeds",
-        "1/2 tsp black cardamon seeds (or 24 seeds)",
-        "5 cm cinnamon stick",
-        "1.5 tsp turmeric powder",
-        "2 tsp ground black pepper",
-        "1/2 tsp ground ginger",
-        "2 tsp salt"
+        { "value": 1, "type": "tbsp", "name": "fennel seeds" },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "black cardamom seeds (or 24 seeds)"
+        },
+        { "value": 1, "type": "cm", "name": "cinnamon stick" },
+        { "value": 1.5, "type": "tsp", "name": "tumeric powder" },
+        { "value": 2, "type": "tsp", "name": "ground black pepper" },
+        { "value": 0.5, "type": "tsp", "name": "ground ginger" },
+        { "value": 2, "type": "tsp", "name": "salt" }
       ],
       "ingOpt": []
     },
     {
       "ingTitle": "Pav bhaji",
       "ingMand": [
-        "For the pav, follow the burger buns recipe.",
-        "4 tbsp coriander seeds",
-        "2 large potatoes",
-        "1/2 head of a small cauliflower",
-        "1/2 large green pepper",
-        "1/2 frozen green peas",
-        "1 tbsp vegetable oil",
-        "3 tbsp butter",
-        "1 tsp cumin seeds",
-        "2 medium red onion, finely chopped",
-        "5 cm ginger, finely chopped",
-        "7 cloves garlic, finely chopped",
-        "2 green chilies, finely chopped (adjust to taste)",
-        "3 large tomatoes, finely chopped",
-        "1/3 cup tomato puree",
-        "1.25 tsp salt",
-        "1.25 cups water",
-        "1 big tbsp pav bhaji masala (adjust to taste)",
-        "2 tsp paprika (for color)",
-        "1/2 tsp red chili powder (adjust to taste)",
-        "2 tsp fenugreek leaves",
-        "Cilantro",
-        "1 large lemon, juiced"
+        {
+          "value": 1,
+          "type": "",
+          "name": "sourdough burger buns (for the pav)",
+          "url": "sourdough-burger-buns"
+        },
+        { "value": 4, "type": "tbsp", "name": "coriander seeds" },
+        { "value": 2, "type": "", "name": "large potatoes" },
+        { "value": 0.5, "type": "", "name": "small cauliflower" },
+        { "value": 0.5, "type": "", "name": "large green pepper" },
+        { "value": 0.5, "type": "cup", "name": "green peas" },
+        { "value": 1, "type": "tbsp", "name": "oil" },
+        { "value": 3, "type": "tbsp", "name": "butter" },
+        { "value": 1, "type": "tsp", "name": "cumin seeds" },
+        {
+          "value": 2,
+          "type": "",
+          "name": "red onions",
+          "prep": "finely chopped"
+        },
+        {
+          "value": 5,
+          "type": "cm",
+          "name": "ginger",
+          "prep": "finely chopped"
+        },
+        {
+          "value": 7,
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "finely chopped"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "green chilies",
+          "prep": "finely chopped"
+        },
+        {
+          "value": 3,
+          "type": "",
+          "name": "large tomatoes",
+          "prep": "finely chopped"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "red onions",
+          "prep": "finely chopped"
+        },
+        { "value": 80, "type": "ml", "name": "tomato puree" },
+        { "value": 1, "type": "tsp", "name": "salt" },
+        { "value": 250, "type": "ml", "name": "water" },
+        { "value": 1, "type": "tbsp", "name": "pav bhaji masala" },
+        { "value": 2, "type": "tsp", "name": "paprika" },
+        { "value": 0.5, "type": "tsp", "name": "red chili powder" },
+        { "value": 2, "type": "tsp", "name": "fenugreek leaves" },
+        { "value": 1, "type": "", "name": "large lemon", "prep": "juiced" },
+        "Cilantro"
       ],
       "ingOpt": []
     }

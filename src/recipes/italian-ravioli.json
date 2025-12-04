@@ -9,9 +9,9 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "220 g flour",
-        "2 medium eggs",
-        "egg white-water mixture (only water works too)"
+        { "value": 220, "type": "g", "name": "flour" },
+        { "value": 2, "type": "", "name": "eggs" },
+        "Egg white-water mixture (only water works too)"
       ],
       "ingOpt": []
     }

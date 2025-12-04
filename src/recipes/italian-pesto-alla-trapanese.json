@@ -9,16 +9,26 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "3 medium cloves garlic",
-        "A big handful of almonds, blanched and peeled",
-        "A bouquet of basil, leaves only",
-        "100 g Pecorino cheese (plus more for serving)",
-        "500 g plum tomatoes (meaty ones), seeded",
+        { "value": 3, "type": "", "name": "garlic cloves" },
+        {
+          "value": 1,
+          "type": "handful",
+          "name": "almonds",
+          "prep": "blanched and peeled"
+        },
+        { "value": 1, "type": "bouquet", "name": "basil leaves" },
+        { "value": 100, "type": "g", "name": "Pecorino cheese" },
+        {
+          "value": 500,
+          "type": "g",
+          "name": "meaty tomatoes",
+          "prep": "seeded"
+        },
         "Olive oil",
         "Busiate pasta (for the traditional Trapanese recipe, but any pasta will do)",
         "Salt"
       ],
-      "ingOpt": ["2-4 mint leaves"]
+      "ingOpt": [{ "value": [2, 4], "type": "", "name": "mint leaves" }]
     }
   ],
   "instructions": [

@@ -10,18 +10,25 @@
       "ingTitle": "For 3 portions",
       "ingMand": [
         "Wheat noodles",
-        "4–6 tbsp oil",
-        "2–3 tbsp gochugaru",
-        "2 tbsp sesame seeds",
-        "2 garlic cloves, cut small",
-        "2 tsp honey",
-        "2–3 tbsp soy sauce",
-        "2 tbsp white vinegar",
-        "3–4 tbsp sesame or peanut paste",
-        "2+ tbsp water",
+        { "value": [4, 6], "type": "tbsp", "name": "oil" },
+        {
+          "value": [2, 3],
+          "type": "tbsp",
+          "name": "gochugaru (or chili powder)"
+        },
+        { "value": 2, "type": "tbsp", "name": "sesame seeds" },
+        { "value": 2, "type": "", "name": "garlic cloves", "prep": "minced" },
+        { "value": 2, "type": "tsp", "name": "honey" },
+        { "value": [2, 3], "type": "tbsp", "name": "soy sauce" },
+        { "value": 2, "type": "tbsp", "name": "white vinegar" },
+        { "value": [3, 4], "type": "tbsp", "name": "sesame or peanut paste" },
+        { "value": 2, "type": "tbsp", "name": "water" },
         "Cucumber, fresh out of the fridge and julienned"
       ],
-      "ingOpt": ["0.5 inch ginger, cut small", "Dried seaweed, cut small"]
+      "ingOpt": [
+        { "value": 1.5, "type": "cm", "name": "ginger", "prep": "minced" },
+        "Dried seaweed, cut small"
+      ]
     }
   ],
   "instructions": [

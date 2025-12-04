@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "550 g plain flour",
-        "10 g (or 2 tsp) salt, to taste",
-        "120 g side virgin olive oil",
-        "200 g dry white wine"
+        { "value": 550, "type": "g", "name": "flour" },
+        { "value": 10, "type": "g", "name": "salt" },
+        { "value": 120, "type": "g", "name": "olive oil" },
+        { "value": 200, "type": "g", "name": "dry white wine" }
       ],
       "ingOpt": []
     }

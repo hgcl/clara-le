@@ -9,20 +9,36 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 pound kimchi, cut into bite size pieces",
-        "1/4 cup kimchi brine",
-        "1/2 pound pork shoulder (or pork belly)",
-        "1/2 package tofu, slices of 1 cm thick",
-        "3 green onions",
-        "1 medium onion, sliced",
-        "1 tsp salt",
-        "2 tsp sugar",
-        "2 tsp gochugaru (Korean hot pepper flakes)",
-        "1 tbsp gochujang (Korean hot pepper paste)",
-        "1 tsp toasted sesame oil",
-        "2 cups anchovy stock"
+        {
+          "value": 500,
+          "type": "g",
+          "name": "kimchi",
+          "prep": "cut into bite size pieces",
+          "url": "korean-kimchi"
+        },
+        { "value": 70, "type": "ml", "name": "kimchi brine" },
+        {
+          "value": 0.5,
+          "type": "package",
+          "name": "firm tofu",
+          "prep": "sliced in pieces of 1 cm"
+        },
+        { "value": 3, "type": "", "name": "green onions" },
+        { "value": 1, "type": "", "name": "onion", "prep": "sliced" },
+        { "value": 1, "type": "tsp", "name": "salt" },
+        { "value": 2, "type": "tsp", "name": "sugar" },
+        { "value": 2, "type": "tsp", "name": "gochugaru (or chili powder)" },
+        { "value": 1, "type": "tbsp", "name": "gochujang" },
+        { "value": 1, "type": "tsp", "name": "sesame oil" },
+        {
+          "value": 500,
+          "type": "ml",
+          "name": "anchovy stock (or another kind of stock)"
+        }
       ],
-      "ingOpt": []
+      "ingOpt": [
+        { "value": 250, "type": "g", "name": "pork shoulder (or pork belly)" }
+      ]
     }
   ],
   "instructions": [

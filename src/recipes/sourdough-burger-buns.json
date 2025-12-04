@@ -9,16 +9,23 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "200 g levain",
-        "300 g farine T45",
-        "200 g farine semi-complète T110",
-        "8 g sel",
-        "16 g sucre",
-        "200 g lait à température ambiante (ou eau)",
-        "60 g beurre mou",
-        "1 oeuf"
+        { "value": 200, "type": "g", "name": "levain" },
+        { "value": 300, "type": "g", "name": "farine blanche" },
+        { "value": 299, "type": "g", "name": "farine semi-complète (T110)" },
+        { "value": 8, "type": "g", "name": "sel" },
+        { "value": 16, "type": "g", "name": "sucre" },
+        {
+          "value": 200,
+          "type": "g",
+          "name": "lait à température ambiante (ou de l'eau)"
+        },
+        { "value": 60, "type": "g", "name": "beurre mou" },
+        { "value": 1, "type": "", "name": "œuf" }
       ],
-      "ingOpt": ["1 jaune d'oeuf", "Graines de sésame"]
+      "ingOpt": [
+        { "value": 1, "type": "", "name": "jaune d'œuf" },
+        "Graines de sésame"
+      ]
     }
   ],
   "instructions": [

@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 kg fresh, young ginger roots",
-        "2 tsp salt",
-        "3 cups rice vinegar",
-        "2 cups sugar"
+        { "value": 1, "type": "kg", "name": "young ginger roots" },
+        { "value": 1, "type": "tsp", "name": "salt" },
+        { "value": 760, "type": "g", "name": "rice vinegar" },
+        { "value": 400, "type": "g", "name": "sugar" }
       ],
       "ingOpt": []
     }
