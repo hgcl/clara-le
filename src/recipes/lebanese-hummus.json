@@ -9,16 +9,21 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 cup dry chickpeas",
-        "1–2 garlic cloves",
-        "1/2 cup tahini",
-        "2 lemons, juiced",
-        "1 tsp salt",
+        { "value": 1, "type": "cup", "name": "dry chickpeas" },
+        {
+          "value": [1, 2],
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "pressed"
+        },
+        { "value": 0.5, "type": "cup", "name": "tahini" },
+        { "value": 2, "type": "", "name": "lemons", "prep": "juiced" },
+        { "value": 1, "type": "tsp", "name": "salt" },
         "Olive oil"
       ],
       "ingOpt": [
-        "2 ice cubes",
-        "1 tbsp + 1 tsp bicarbonate",
+        { "value": [2, 3], "type": "", "name": "ice cubes" },
+        { "value": 1, "type": "tbsp", "name": "baking soda" },
         "Cumin and paprika"
       ]
     }
@@ -27,12 +32,11 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Soak the chickpeas in a large bowl full of water. Add 1 tablespoon of bicarbonate of soda, stir and soak overnight. The chickpeas should double in size the next day.",
+        "Soak the chickpeas in a large bowl full of water. Add 1 tablespoon of baking soda, stir and soak overnight. The chickpeas should double in size the next day.",
         "Rinse the chickpeas and place in a pot with double the amount of cold water. Add 1 teaspoon of bicarbonate and stir well.",
         "Bring to the boil, then lower the heat and cook for an hour. Skim off any scum from the surface and top up the boiling water if it runs low.",
         "Test one chickpea by squishing it between your fingers, the skin should come away easily.",
         "Drain the chickpeas into a colander but reserve one cup of the water aside.",
-        "Now you have to work quickly and remove as many of the skins as you can before they cool. You don't have to remove every single one but aim for at least ¾.",
         "Put the chickpeas in the blender along with the tahini, lemon juice, garlic and salt along with a drizzle of extra virgin olive oil",
         "Blend the chickpeas for a few minutes. Add 2–3 ice cubes and whizz again until smooth.",
         "Taste the hummus and add more lemon, salt, tahini or chickpea water as necessary to get the perfect texture.",
