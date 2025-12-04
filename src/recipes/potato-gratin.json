@@ -1,26 +1,47 @@
 {
   "title": "Potato gratin",
   "date": "2022-10-31",
-  "lang": "fr",
+  "lang": "en",
   "dataTag": ["main", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "60",
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["Potatoes", "Milk", "Flour", "Butter", "Cheese"],
-      "ingOpt": ["1 garlic clove"]
+      "ingMand": [
+        {
+          "value": [5, 6],
+          "type": "",
+          "name": "potatoes (or sweet potatoes/squashes)",
+          "prep": "peeled and thinly sliced"
+        },
+        {
+          "value": [2, 3],
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "crushed"
+        },
+        "Milk",
+        "Flour",
+        "Butter",
+        "Cheese",
+        "Chili flakes",
+        "Hard cheese, grated",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "Épluchez et coupez en fines rondelles les pommes de terre.",
-        "Taillez l'ail en morceaux fin. Coupez le fromage en tranches ou en petits morceaux.",
-        "Préparez la béchamel avec le beurre, la farine et le lait. Faites en sorte qu'elle soit un peu plus liquide que normalement. Assaisonez la (sel, poivre, noix de muscade) et ajoutez y l'ail et la moitié du fromage.",
-        "Dans un plat à gratin, Disposez successivement les rondelles de pommes de terre et la béchamel. Recommencez jusqu'en haut du plat pour finir sur une couche de béchamel. Disposez le reste du fromage par dessus le tout.",
-        "Faites cuire à 200 °C pendant 40 minutes."
+        "Peel and thinly slice the potatoes.",
+        "Chop the garlic finely. Slice or dice the cheese.",
+        "Prepare the béchamel sauce with the butter, flour, and milk. Make it slightly thinner than usual. Season it with salt, pepper, chili flakes, and nutmeg, then stir in the garlic and half the cheese.",
+        "For a quick version, cook the potatoes with milk, heavy cream, and all seasoning on low heat for 15 minutes. Add them to the gratin dish when tender.",
+        "In a gratin dish, layer the potato slices and béchamel sauce. Repeat until you reach the top of the dish, finishing with a layer of béchamel. Sprinkle the remaining cheese over the top.",
+        "Bake at 200 °C for 40 minutes (or until golden on top)."
       ]
     }
   ],
