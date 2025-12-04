@@ -57,15 +57,17 @@ recipes directory. The mapped data is generated in_data/recipeData.js -->
   <div id="recipe-content" class="e-content">
     <section id="ingredients">
       <h2>Ingredients</h2>
-      {%- for group in recipe.ingredients -%} 
-      {%- if group.ingTitle -%}
-      <h3>{{ group.ingTitle }}</h3>
-      {%- endif -%}
 
       <button id="thirdQty">x1/3</button>
       <button id="halfQty">x1/2</button>
       <button id="singleQty">x1</button>
       <button id="doubleQty">x2</button>
+
+      {%- for group in recipe.ingredients -%} 
+
+      {%- if group.ingTitle -%}
+      <h3>{{ group.ingTitle }}</h3>
+      {%- endif -%}
 
       <ul>
         <!-- MANDATORY INGREDIENTS -->
@@ -74,6 +76,7 @@ recipes directory. The mapped data is generated in_data/recipeData.js -->
         <!-- OPTIONAL INGREDIENTS -->
         {{ recipeIngredients(group.ingOpt, true) }}
       </ul>
+      
       {%- endfor -%}
     </section>
 
