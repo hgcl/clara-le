@@ -10,10 +10,10 @@
       "ingTitle": "",
       "ingMand": [
         "Pre-cooked risotto, ideally from the day before",
-        "120 g water",
-        "30 g flour",
-        "2 eggs",
-        "1 pinch of salt",
+        { "value": 120, "type": "g", "name": "water" },
+        { "value": 30, "type": "g", "name": "flour" },
+        { "value": 2, "type": "", "name": "eggs" },
+        { "value": 1, "type": "pinch", "name": "salt" },
         "Breadcrumbs"
       ],
       "ingOpt": ["Filling"]

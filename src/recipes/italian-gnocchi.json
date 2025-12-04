@@ -9,12 +9,12 @@
     {
       "ingTitle": "Pour 4 personnes",
       "ingMand": [
-        "500 g pomme de terre",
-        "250 g farine",
-        "1 jaune d'œuf",
+        { "value": 500, "type": "g", "name": "pommes de terre" },
+        { "value": 250, "type": "", "name": "farine" },
+        { "value": 1, "type": "", "name": "jaune d'œuf" },
         "Sel",
-        "1 pincée muscade",
-        "1 noisette de beurre"
+        { "value": 1, "type": "pincée", "name": "noix de muscade" },
+        { "value": 1, "type": "noisette", "name": "beurre" }
       ],
       "ingOpt": []
     }

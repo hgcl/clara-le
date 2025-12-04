@@ -9,13 +9,13 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "20 biscuits à la cuillère",
-        "75 g sucre",
-        "250 g mascarpone",
-        "2–3 oeufs",
-        "50 cl café fort refroidi"
+        { "value": 20, "type": "", "name": "biscuits boudoirs" },
+        { "value": 75, "type": "g", "name": "sucre" },
+        { "value": 250, "type": "g", "name": "mascarpone" },
+        { "value": [2, 3], "type": "", "name": "œufs" },
+        { "value": 500, "type": "ml", "name": "café fort", "prep": "refroidi" }
       ],
-      "ingOpt": ["10 g sucre vanillé"]
+      "ingOpt": [{ "value": 10, "type": "g", "name": "sucre vanillé" }]
     }
   ],
   "instructions": [

@@ -9,12 +9,17 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "8 ounces spinach, cleaned and washed",
-        "1 garlic clove, minced",
-        "1 green onion, chopped",
-        "1.5 tsp soy sauce",
-        "1.5 tsp toasted sesame oil",
-        "2 tsp toasted sesame seeds"
+        {
+          "value": 2,
+          "type": "handfuls",
+          "name": "spinach",
+          "prep": "cleaned and washed"
+        },
+        { "value": 1, "type": "", "name": "garlic cloves", "prep": "minced" },
+        { "value": 1, "type": "", "name": "green onion", "prep": "chopped" },
+        { "value": 1.5, "type": "tsp", "name": "soy sauce" },
+        { "value": 1.5, "type": "tsp", "name": "sesame oil" },
+        { "value": 2, "type": "tsp", "name": "toasted sesame seeds" }
       ],
       "ingOpt": ["Silgochu, Korean dried shredded red pepper"]
     }

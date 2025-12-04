@@ -9,10 +9,20 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 pack of tonnarelli, spaghetti, mezze maniche or rigatoni",
-        "200 g guanciale or rindless bacon",
-        "1 cup grated Pecorino Romano (or Parmigiano Reggiano)",
-        "3 egg yolks + 1–2 entire eggs",
+        {
+          "value": 1,
+          "type": "pack",
+          "name": "tonnarelli, spaghetti, mezze maniche or rigatoni"
+        },
+        { "value": 200, "type": "g", "name": "guanciale (or rindless bacon)" },
+        {
+          "value": 1,
+          "type": "cup",
+          "name": "Pecorino Romano (or Parmigiano Reggiano)",
+          "prep": "grated"
+        },
+        { "value": 3, "type": "", "name": "egg yolks" },
+        { "value": [1, 2], "type": "", "name": "entire eggs" },
         "Salt and black pepper"
       ],
       "ingOpt": []

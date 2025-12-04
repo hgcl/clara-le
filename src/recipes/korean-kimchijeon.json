@@ -9,26 +9,30 @@
     {
       "ingTitle": "Jeon",
       "ingMand": [
-        "200 g kimchi",
-        "2 tbsp kimchi brine",
-        "3 scallions, chopped",
-        "0.5 tsp sugar",
-        "60 g flour",
-        "100 g water (start with less, add if needed)"
+        { "value": 200, "type": "g", "name": "kimchi", "url": "korean-kimchi" },
+        { "value": 2, "type": "tbsp", "name": "kimchi brine" },
+        { "value": 3, "type": "", "name": "green onions", "prep": "chopped" },
+        { "value": 0.5, "type": "tsp", "name": "sugar" },
+        { "value": 60, "type": "g", "name": "flour" },
+        {
+          "value": 100,
+          "type": "g",
+          "name": "water (start with less if needed)"
+        }
       ],
       "ingOpt": []
     },
     {
       "ingTitle": "Dipping sauce",
       "ingMand": [
-        "1 tbsp soy sauce",
-        "2 tsp white vinegar",
-        "1 tsp toasted sesame seeds"
+        { "value": 1, "type": "tbsp", "name": "soy sauce" },
+        { "value": 2, "type": "tsp", "name": "white vinegar" },
+        { "value": 1, "type": "tsp", "name": "sesame oil" },
+        { "value": 1, "type": "tsp", "name": "toasted sesame seeds" }
       ],
       "ingOpt": [
-        "1 tsp gochugaru (hot pepper flakes)",
-        "0.5 tsp sugar",
-        "1 tsp sesame oil"
+        { "value": 1, "type": "tsp", "name": "gochugaru (or chili powder)" },
+        { "value": 0.5, "type": "tsp", "name": "sugar" }
       ]
     }
   ],
@@ -37,7 +41,7 @@
       "insTitle": "",
       "insSteps": [
         "Combine the kimchi, kimchi brine, scallions, sugar, flour, and water in a medium bowl and mix well with a spoon.",
-        "Heat a 12-inch nonstick skillet over medium heat. (If you don’t have a 12-inch skillet, use a smaller skillet to make 2 pancakes.)",
+        "Heat a 30-cm nonstick skillet over medium heat. (If you don’t have a 30-cm skillet, use a smaller skillet to make 2 pancakes.)",
         "Add 2 tablespoons of the vegetable oil and swirl to coat the bottom of the pan.",
         "Pour the batter into the pan and spread it with the back of a spoon or a spatula to make a large circle.",
         "Cook until the bottom is golden brown and crisp, 3 to 5 minutes.",
