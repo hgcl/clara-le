@@ -9,20 +9,24 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "8 pommes de terre de taille moyenne",
-        "5 carottes de taille moyenne",
-        "40 g de chorizo (ou autre saucisse séchée)",
-        "4 poignées de feuilles d'épinards",
-        "1 oignon",
-        "1 gousse d'ail pressée",
+        { "value": 8, "type": "", "name": "pommes de terre" },
+        { "value": 5, "type": "", "name": "carottes" },
+        {
+          "value": 40,
+          "type": "g",
+          "name": "chorizo (ou autre saucisse séchée)"
+        },
+        { "value": 4, "type": "poignées", "name": "feuilles d'épinards" },
+        { "value": 1, "type": "", "name": "oignon" },
+        { "value": 1, "type": "", "name": "gousse d'ail", "prep": "pressée" },
         "Bouillon",
         "Huile",
         "Sel et poivre"
       ],
       "ingOpt": [
-        "130 g d'orge perlé",
-        "0.5 c-à-c de graines de fenouil",
-        "1–2 c-à-s de paprika",
+        { "value": 130, "type": "g", "name": "orge perlé" },
+        { "value": 0.5, "type": "c-à-c", "name": "graines de fenouil" },
+        { "value": [1, 2], "type": "c-à-s", "name": "paprika" },
         "Laurier ou autre herbe séchée",
         "Jus de citron",
         "Faisselle, fromage frais ou yaourt nature"

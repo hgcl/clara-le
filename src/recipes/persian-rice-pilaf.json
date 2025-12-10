@@ -9,14 +9,26 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "2 cups basmati rice",
-        "8.25 cups water (to cook the rice)",
-        "5 cups fresh herbs (dill, parsley, cilantro), thinly chopped",
-        "12 cloves garlic, coarsely chopped",
-        "3 tbsp salt",
-        "4 tbsp vegetable oil"
+        { "value": 2, "type": "cups", "name": "basmati rice" },
+        { "value": 8.25, "type": "cups", "name": "water" },
+        {
+          "value": 5,
+          "type": "cups",
+          "name": "fresh herbs (dill, parsley, cilantro)",
+          "prep": "thinly chopped"
+        },
+        {
+          "value": 12,
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "coarsely chopped"
+        },
+        { "value": 3, "type": "tbsp", "name": "salt" },
+        { "value": 4, "type": "tbsp", "name": "oil" }
       ],
-      "ingOpt": ["1 tbsp dried fenugreek leaves"]
+      "ingOpt": [
+        { "value": 1, "type": "tbsp", "name": "dried fenugreek leaves" }
+      ]
     }
   ],
   "instructions": [

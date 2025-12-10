@@ -8,7 +8,11 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["3+ peaches", "2 tbsp black tea leaves", "1 l water"],
+      "ingMand": [
+        { "value": 3, "type": "", "name": "peaches" },
+        { "value": 2, "type": "tbsp", "name": "black tea leaves" },
+        { "value": 1, "type": "L", "name": "water" }
+      ],
       "ingOpt": ["Sugar (to taste)"]
     }
   ],

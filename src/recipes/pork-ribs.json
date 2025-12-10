@@ -9,16 +9,16 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "800 g pork ribs",
-        "2 tbsp honey",
-        "2 tbsp dark soy sauce",
-        "2 tsp mustard",
-        "1 clove garlic",
-        "0.5 tsp paprika",
-        "0.5 tsp dried thyme",
-        "0.5 tsp cayenne pepper"
+        { "value": 800, "type": "g", "name": "pork ribs" },
+        { "value": 2, "type": "tbsp", "name": "honey" },
+        { "value": 2, "type": "tbsp", "name": "dark soy sauce" },
+        { "value": 2, "type": "tsp", "name": "mustard" },
+        { "value": 1, "type": "", "name": "garlic clove" },
+        { "value": 0.5, "type": "tsp", "name": "paprika" },
+        { "value": 0.5, "type": "tsp", "name": "dried thyme" },
+        { "value": 0.5, "type": "tsp", "name": "cayenne pepper" }
       ],
-      "ingOpt": ["1 tbsp ketchup"]
+      "ingOpt": [{ "value": 1, "type": "tbsp", "name": "ketchup" }]
     }
   ],
   "instructions": [
