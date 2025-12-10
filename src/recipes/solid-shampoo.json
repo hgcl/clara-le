@@ -7,16 +7,32 @@
   "duration": "30",
   "ingredients": [
     {
-      "ingTitle": "Pour une barre de 100 g :",
+      "ingTitle": "Pour une barre de 100 g",
       "ingMand": [
-        "50 g de SCI (Sodium Cocoyl Isethionate)",
-        "15 g  de poudre de plante adaptée à vos cheveux (ex : poudre de bhringaraj)",
-        "17 g de phase huileuse (huiles végétales ou beurres végétaux, ex : huile de coco)",
-        "15 g de phase aqueuse (hydrolat, infusion, macérat aqueux ou eau, ex : hydrolat de romarin à verbénone)",
-        "2 g d'acide citrique"
+        { "value": 50, "type": "g", "name": "SCI (Sodium Cocoyl Isethionate)" },
+        {
+          "value": 15,
+          "type": "g",
+          "name": "poudre de plante adaptée à vos cheveux (ex : poudre de bhrigaraj)"
+        },
+        {
+          "value": 17,
+          "type": "g",
+          "name": "phase huileuse (huiles végétales ou beurres végétaux)"
+        },
+        {
+          "value": 15,
+          "type": "g",
+          "name": "phase aqueuse (hydrolat, infusion, macérat aqueux ou eau — ex : hydrolat de romarin à verbénone)"
+        },
+        { "value": 2, "type": "g", "name": "acide citrique" }
       ],
       "ingOpt": [
-        "20 gouttes d'huiles essentielles de votre choix (ex : tea tree, lavande, citron)"
+        {
+          "value": 20,
+          "type": "gouttes",
+          "name": "huiles essentielles (ex : tea tree, lavande, citron)"
+        }
       ]
     }
   ],

@@ -9,22 +9,37 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 tbsp paprika",
-        "1 tsp chili powder",
-        "500 g sauerkraut",
-        "4 potatoes, peeled and chopped bite-size",
-        "2 carrots, peeled and chopped bite-size",
-        "3 cloves garlic, sliced",
-        "1 onion, diced",
-        "2–3 pickled cucumbers, sliced",
-        "1 stock cube",
-        "oil",
-        "pepper and salt"
+        { "value": 1, "type": "tbsp", "name": "paprika" },
+        { "value": 1, "type": "tsp", "name": "chili powder" },
+        { "value": 500, "type": "g", "name": "sauerkraut" },
+        {
+          "value": 4,
+          "type": "",
+          "name": "potatoes",
+          "prep": "peeled and chopped bite-size"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "carrots",
+          "prep": "peeled and chopped bite-size"
+        },
+        { "value": 3, "type": "", "name": "garlic cloves", "prep": "sliced" },
+        { "value": 1, "type": "", "name": "onion", "prep": "diced" },
+        {
+          "value": [2, 3],
+          "type": "",
+          "name": "pickled cucumbers",
+          "prep": "sliced"
+        },
+        { "value": 1, "type": "", "name": "stock cube" },
+        "Oil",
+        "Pepper and salt"
       ],
       "ingOpt": [
-        "1 dried sausage, diced",
-        "2 bay leaves (or other dried herbs)",
-        "2 tbsp horseradish, blended"
+        { "value": 1, "type": "", "name": "dried sausage", "prep": "diced" },
+        { "value": 2, "type": "", "name": "bay leaves" },
+        { "value": 2, "type": "tbsp", "name": "horseradish", "prep": "blended" }
       ]
     }
   ],

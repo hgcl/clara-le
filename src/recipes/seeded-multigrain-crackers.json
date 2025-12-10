@@ -9,17 +9,19 @@
     {
       "ingTitle": "50 crackers",
       "ingMand": [
-        "90 g whole wheat flour",
-        "70 g all-purpose flour",
-        "70 g another type of flour (buckwheat, rye, cornmeal)",
-        "1.5 tsp sugar",
-        "1 tsp salt",
-        "big pinch cayenne pepper",
-        "2 tsp sourdough starter",
-        "125 g water",
-        "1.5 tbsp oil (or melted butter)",
-        "100 g mixed seeds",
-        "flaky salt and pepper"
+        { "value": 230, "type": "g", "name": "mix of flours" },
+        { "value": 1.5, "type": "tsp", "name": "sugar" },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "salt"
+        },
+        "Cayenne pepper",
+        { "value": 2, "type": "tsp", "name": "sourdough starter" },
+        { "value": 125, "type": "g", "name": "water" },
+        { "value": 1.5, "type": "tbsp", "name": "oil" },
+        "Mixed seeds",
+        "Flaky salt and pepper"
       ],
       "ingOpt": []
     }

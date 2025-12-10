@@ -9,17 +9,27 @@
     {
       "ingTitle": "For the cháo (6–8 servings)",
       "ingMand": [
-        "1 yellow onion",
-        "1 whole chicken",
-        "1 tbsp salt",
-        "1.5 tbsp sugar",
-        "250 g uncooked jasmine rice",
-        "5 cm knob fresh ginger, peeled and finely chopped",
-        "1.5 tbsp fish sauce",
-        "2 tsp freshly ground black pepper"
+        { "value": 1, "type": "", "name": "onion" },
+        { "value": 1, "type": "", "name": "whole chicken" },
+        { "value": 1, "type": "tbsp", "name": "salt" },
+        { "value": 1.5, "type": "tbsp", "name": "sugar" },
+        {
+          "value": 250,
+          "type": "g",
+          "name": "jasmine rice",
+          "prep": "uncooked"
+        },
+        {
+          "value": 5,
+          "type": "cm",
+          "name": "fresh ginger",
+          "prep": "peeled and finely chopped"
+        },
+        { "value": 1.5, "type": "tbsp", "name": "fish sauce" },
+        "lack pepper"
       ],
       "ingOpt": [
-        "1 tsp chicken or mushroom bouillon",
+        { "value": 1, "type": "tsp", "name": "chicken or mushroom stock" },
         "Vegetables to be cooked (e.g. carrots, cabbage, mushrooms), cut into bite-sized pieces"
       ]
     },

@@ -9,15 +9,15 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "6 tomates mûres",
-        "2 poivrons",
-        "2 oignons",
-        "1 concombre",
-        "1 gousse d'ail",
-        "6 c.à.s de vinaigre",
-        "1/2 verre d'huile d'olive",
-        "piment en poudre",
-        "poivre et sel"
+        { "value": 6, "type": "", "name": "tomates mûres" },
+        { "value": 2, "type": "", "name": "poivrons" },
+        { "value": 2, "type": "", "name": "oignons" },
+        { "value": 1, "type": "", "name": "concombre" },
+        { "value": 1, "type": "", "name": "gousse d'ail" },
+        { "value": 6, "type": "c-à-s", "name": "vinaigre" },
+        "Huile d'olive (en quantité généreuse)",
+        "Piment en poudre",
+        "Poivre et sel"
       ],
       "ingOpt": ["1/2 citron (jus)", "basilic"]
     }

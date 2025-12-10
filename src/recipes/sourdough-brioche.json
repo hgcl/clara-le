@@ -9,15 +9,21 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "150 g sourdough starter",
-        "330 g wheat flour (T45)",
-        "70 g sugar (or 30 g to use for savory sandwiches)",
-        "5 g salt",
-        "2 big eggs",
-        "130 g butter (or 50 g olive oil)",
+        { "value": 150, "type": "g", "name": "sourdough starter" },
+        { "value": 330, "type": "g", "name": "flour" },
+        [
+          { "value": 70, "type": "g", "name": "sugar" },
+          { "value": 30, "type": "g", "name": "sugar for savory sandwiches" }
+        ],
+        { "value": 5, "type": "g", "name": "salt" },
+        { "value": 2, "type": "", "name": "eggs" },
+        [
+          { "value": 130, "type": "g", "name": "butter" },
+          { "value": 50, "type": "g", "name": "olive oil" }
+        ],
         "Milk (to complete the eggs)"
       ],
-      "ingOpt": ["1 egg yolk (for baking)"]
+      "ingOpt": [{ "value": 1, "type": "", "name": "egg yolk" }]
     }
   ],
   "instructions": [

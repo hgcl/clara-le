@@ -4,18 +4,23 @@
   "lang": "en",
   "dataTag": ["main", "spring", "summer"],
   "intro": "",
-  "duration": "100",
+  "duration": "60",
   "ingredients": [
     {
       "ingTitle": "",
       "ingMand": [
-        "2 small heads cauliflower",
-        "2 btsp olive oil",
-        "1.25 tsp flake salt"
+        { "value": 1, "type": "", "name": "cauliflower" },
+        { "value": 2, "type": "tbsp", "name": "olive oil" },
+        { "value": 1, "type": "tsp", "name": "salt" }
       ],
       "ingOpt": [
-        "2.5 tbsp butter, room temperature",
-        "1 lemon, cut into wedges (for serving)"
+        {
+          "value": 2.5,
+          "type": "tbsp",
+          "name": "butter",
+          "prep": "at room temperature"
+        },
+        { "value": 1, "type": "", "name": "lemon", "prep": "cut into wedges" }
       ]
     }
   ],
@@ -23,10 +28,10 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Bring a large pot of salted water to a boil. Place 1 head of cauliflower, stem side up, in the pot and bring to a boil. Cook until just tender, about 6 minutes. Transfer to a rimmed baking sheet, stem side down, and repeat with second head of cauliflower. Let cauliflower sit for 10 minutes and drain any liquid that has accumulated in the baking sheet.",
+        "Bring a large pot of salted water to a boil. Place 1 head of cauliflower, stem side up, in the pot and bring to a boil. Cook until just tender, about 6 minutes. Transfer to a rimmed baking sheet, stem side down, and repeat with second head of cauliflower. Let cauliflower sit for 10 minutes and drain any liquid that has accumulated in the baking sheet. Cut the cauliflower into thick slices.",
         "Preheat oven to 190 °C.",
         "In a small bowl, combine the butter and olive oil. Spread the mixture over the top of the cauliflower and sprinkle with salt.",
-        "Bake for 1.5 hour, basting every 15 minutes, or until cauliflower is caramelized and fork tender. Remove from the oven and let cool for 5 minutes. Serve with lemon wedges."
+        "Bake for 45 minutes, basting every 15 minutes, or until cauliflower is caramelized and fork tender. Remove from the oven and let cool for 5 minutes. Serve with lemon wedges."
       ]
     }
   ],

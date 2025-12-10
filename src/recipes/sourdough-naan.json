@@ -9,22 +9,22 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "150 g water",
-        "80 g yogurt",
-        "75 g sourdough starter",
-        "350 g flour",
-        "0.5 tsp salt",
-        "1.5 tbs sugar",
-        "1 tbsp olive oil"
+        { "value": 150, "type": "g", "name": "water" },
+        { "value": 80, "type": "g", "name": "yoghurt" },
+        { "value": 75, "type": "g", "name": "sourdough starter" },
+        { "value": 350, "type": "g", "name": "flour" },
+        { "value": 0.5, "type": "tsp", "name": "salt" },
+        { "value": 1.5, "type": "tbsp", "name": "sugar" },
+        { "value": 1, "type": "tbsp", "name": "olive oil" }
       ],
       "ingOpt": []
     }
   ],
   "instructions": [
     {
-      "insTitle": "Mixing everything",
+      "insTitle": "Mix everything",
       "insSteps": [
-        "Mix water, yogurt and sourdough starter.",
+        "Mix water, yoghurt and sourdough starter.",
         "Add flour, salt and sugar. Mix with a scraper first and then with your hand until the dough roughly holds together.",
         "Add olive oil and continue mixing to incorporate all the ingredients."
       ]
@@ -36,7 +36,7 @@
         "Knead lightly for one minute.",
         "Repeat the previous steps twice (skip the last kneading).",
         "Instead of the last kneading, divide the dough into eight equal pieces with a scraper.",
-        "Shape the pieces into balls. Let them rest for 20 minutes."
+        "Shape the pieces into balls. Let them rest for 20 minutes."
       ]
     },
     {

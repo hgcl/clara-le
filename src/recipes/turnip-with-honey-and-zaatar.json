@@ -8,7 +8,11 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["1 turnip", "Honey", "Zaatar"],
+      "ingMand": [
+        { "value": 1, "type": "", "name": "turnip" },
+        "Honey",
+        "Zaatar"
+      ],
       "ingOpt": ["Flake salt"]
     }
   ],

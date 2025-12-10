@@ -9,30 +9,59 @@
     {
       "ingTitle": "Sauce",
       "ingMand": [
-        "40 g tamarind pulp",
-        "1/2 cup boiling water",
-        "3 tbsp sugar",
-        "3 tbsp fish sauce",
-        "2 tbsp dark soy sauce",
-        "Pepper (to taste)"
+        { "value": 40, "type": "g", "name": "tamarind pulp" },
+        { "value": 120, "type": "ml", "name": "boiling water" },
+        { "value": 3, "type": "tbsp", "name": "sugar" },
+        { "value": 3, "type": "tbsp", "name": "fish sauce" },
+        { "value": 2, "type": "tbsp", "name": "dark soy sauce" },
+        "Pepper"
       ],
       "ingOpt": []
     },
     {
       "ingTitle": "Rest of the dish",
       "ingMand": [
-        "230 g dried pad thai noodles (or Vietnamese banh pho)",
-        "3 cloves garlic, sliced",
-        "2 large shallots, thinly sliced",
-        "3 large eggs, beaten",
-        "2 cups mung bean sprouts, washed and drained",
-        "1 cup Chinese garlic chives, cut into 2 cm pieces",
-        "2 tablespoons roasted peanuts, roughly crushed",
+        {
+          "value": 230,
+          "type": "g",
+          "name": "dried pad thai noodles (or Vietnamese banh pho)"
+        },
+        { "value": 3, "type": "", "name": "garlic cloves", "prep": "sliced" },
+        { "value": 2, "type": "", "name": "shallots", "prep": "thinly sliced" },
+        { "value": 3, "type": "", "name": "large eggs", "prep": "beaten" },
+        {
+          "value": 2,
+          "type": "handfuls",
+          "name": "mung beans sprouts",
+          "prep": "washed and drained"
+        },
+        {
+          "value": 1,
+          "type": "handful",
+          "name": "green onion",
+          "prep": "cut into 2 cm pieces"
+        },
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "roasted peanuts",
+          "prep": "roughly crushed"
+        },
         "Cooking oil"
       ],
       "ingOpt": [
-        "2 tbsp preserved Thai salted radish (or kimchi), julienned",
-        "1/3 cup small dried shrimp, minced or processed into a coarse powder"
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "preserved Thai salted radish (or kimchi)",
+          "prep": "julienned"
+        },
+        {
+          "value": 0.3,
+          "type": "cup",
+          "name": "small dried shrimps",
+          "prep": "minced or processed into a coarse powder"
+        }
       ]
     }
   ],

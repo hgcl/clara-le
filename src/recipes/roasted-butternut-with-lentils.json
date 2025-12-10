@@ -9,20 +9,40 @@
     {
       "ingTitle": "Butternut",
       "ingMand": [
-        "1 butternut, unpeeled, and cut into 1 cm wedges",
-        "2 red onions, cut into 4–6 wedges",
-        "3 tbsp olive oil",
+        {
+          "value": 1,
+          "type": "",
+          "name": "butternut",
+          "prep": "cut into 1 cm wedges"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "red onions",
+          "prep": "cut into 4–6 wedges"
+        },
+        { "value": 3, "type": "tbsp", "name": "olive oil" },
         "Salt and pepper"
       ],
-      "ingOpt": ["Small handful of sage leaves"]
+      "ingOpt": [{ "value": 1, "type": "handful", "name": "sage leaves" }]
     },
     {
       "ingTitle": "Lentils",
       "ingMand": [
-        "100 g Puy lentils",
-        "1 large lemon, finely zested and juiced",
-        "1 garlic clove, crushed",
-        "Handful of fresh herbs (mint, parsley, tarragon), chopped"
+        { "value": 100, "type": "g", "name": "green lentils" },
+        {
+          "value": 1,
+          "type": "",
+          "name": "large lemon",
+          "prep": "finely zested and juiced"
+        },
+        { "value": 1, "type": "", "name": "garlic clove", "prep": "crushed" },
+        {
+          "value": 1,
+          "type": "handful",
+          "name": "fresh herbs (mint, parsley, tarragon)",
+          "prep": "chopped"
+        }
       ],
       "ingOpt": ["Fresh cheese (Gorgonzola or Dolcelatte), to top"]
     }

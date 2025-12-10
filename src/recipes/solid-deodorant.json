@@ -9,12 +9,16 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "60 g huile de coco bio",
-        "48 g bicarbonate de soude",
-        "30 g fécule de maïs",
-        "24 gouttes huiles essentielles (palmarosa, tea tree, lavender)"
+        { "value": 60, "type": "g", "name": "huile de coco bio" },
+        { "value": 48, "type": "g", "name": "bicarbonate de soude" },
+        { "value": 30, "type": "g", "name": "fécule de maïs" },
+        {
+          "value": 24,
+          "type": "gouttes",
+          "name": "huiles essentielles (palmarosa, tea tree, lavande)"
+        }
       ],
-      "ingOpt": ["9 g cire d'abeille"]
+      "ingOpt": [{ "value": 9, "type": "g", "name": "cire d'abeille" }]
     }
   ],
   "instructions": [

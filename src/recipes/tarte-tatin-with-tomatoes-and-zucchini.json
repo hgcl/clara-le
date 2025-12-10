@@ -9,10 +9,15 @@
     {
       "ingTitle": "For one pie:",
       "ingMand": [
-        "Pie dough",
-        "2 tomatoes",
-        "1 zucchini, thinly sliced",
-        "1 onion, thinly sliced"
+        {
+          "value": 1,
+          "type": "",
+          "name": "pie dough",
+          "url": "basic-pie-dough"
+        },
+        { "value": 2, "type": "", "name": "tomatoes" },
+        { "value": 1, "type": "", "name": "zucchini", "prep": "thinly sliced" },
+        { "value": 1, "type": "", "name": "onion", "prep": "thinly sliced" }
       ],
       "ingOpt": ["Spinach leaves"]
     }
