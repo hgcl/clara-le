@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "150 g mustard seeds",
-        "100 g cider vinegar",
-        "300 g water",
-        "10 g salt"
+        { "value": 150, "type": "g", "name": "mustard seeds" },
+        { "value": 100, "type": "g", "name": "cider vinegar" },
+        { "value": 300, "type": "g", "name": "water" },
+        { "value": 10, "type": "g", "name": "salt" }
       ],
       "ingOpt": []
     }

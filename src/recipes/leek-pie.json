@@ -1,7 +1,7 @@
 {
   "title": "Leek pie",
   "date": "2022-11-30",
-  "lang": "fr",
+  "lang": "en",
   "dataTag": ["main", "fall", "winter"],
   "intro": "",
   "duration": "60",
@@ -9,22 +9,28 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 pâte brisée",
-        "2 poireaux",
-        "200 g crème fraîche ou yaourt",
-        "2–4 oeufs",
-        "Poivre, sel, muscade"
+        {
+          "value": 1,
+          "type": "",
+          "name": "pie dough",
+          "url": "basic-pie-dough"
+        },
+        { "value": 2, "type": "", "name": "leeks" },
+        { "value": 200, "type": "g", "name": "cream (or yoghurt)" },
+        { "value": [2, 4], "type": "", "name": "eggs" },
+        "Ground nutmeg",
+        "Salt and pepper"
       ],
-      "ingOpt": ["Graines de courge"]
+      "ingOpt": ["Roasted pumpkin seeds"]
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "Faire cuire les poireaux à la vapeur coupé en dés.",
-        "Mélanger la crème fraîche, les oeufs, le sel, le poivre, la noix de muscade râpée. Etaler la pâte à tarte. Mettre les poireaux puis verser par-dessus la préparation. Ajouter les graines de courge.",
-        "Mettre au four 50 mn à 180 °C."
+        "Steam the diced leeks.",
+        "Mix the cream, eggs, salt, pepper, and grated nutmeg. Roll out the pastry. Place the leeks on the pastry, then pour the egg mixture over them. Sprinkle with pumpkin seeds.",
+        "Bake for 50 minutes at 180 °C."
       ]
     }
   ],

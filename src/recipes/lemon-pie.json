@@ -10,11 +10,16 @@
       "ingTitle": "Crème au citron",
       "ingMand": [
         "Pâte brisée précuite",
-        "4 gros citrons bio (pour obtenir 150 ml de jus)",
-        "3 oeufs",
-        "115 g de sucre",
-        "30 g de beurre doux",
-        "1 cuillère à soupe de maïzena"
+        { "value": 150, "type": "ml", "name": "lemon juice" },
+        { "value": 3, "type": "", "name": "œufs" },
+        { "value": 115, "type": "g", "name": "sucre" },
+        {
+          "value": 30,
+          "type": "g",
+          "name": "beurre",
+          "prep": "à température ambiante"
+        },
+        { "value": 1, "type": "c-à-s", "name": "maïzena" }
       ],
       "ingOpt": []
     }
@@ -35,6 +40,8 @@
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "Quatre gros citrons (ou cinq petits) donnent environ 150 ml de jus."
+  ],
   "sourceUrl": "https://danslacuisinedesophie.fr/2020/09/tartelettes-au-citron-facile.html"
 }

@@ -8,19 +8,28 @@
   "ingredients": [
     {
       "ingTitle": "Shortbread base",
-      "ingMand": ["250 g flour", "100 g sugar", "230 g butter (diced)"],
+      "ingMand": [
+        { "value": 250, "type": "g", "name": "flour" },
+        { "value": 100, "type": "g", "name": "sugar" },
+        {
+          "value": 230,
+          "type": "g",
+          "name": "butter",
+          "prep": "diced and at room temperature"
+        }
+      ],
       "ingOpt": []
     },
     {
       "ingTitle": "Lemon custard",
       "ingMand": [
-        "170 g lemon juice (around 4–5 small lemons)",
-        "lemon zest",
-        "30 g flour",
-        "230 g sugar",
-        "4 eggs"
+        { "value": 170, "type": "ml", "name": "lemon juice" },
+        "Lemon zest",
+        { "value": 30, "type": "g", "name": "flour" },
+        { "value": 230, "type": "g", "name": "sugar" },
+        { "value": 4, "type": "", "name": "eggs" }
       ],
-      "ingOpt": ["80 g cream cheese"]
+      "ingOpt": [{ "value": 80, "type": "g", "name": "cream cheese" }]
     }
   ],
   "instructions": [
@@ -28,7 +37,7 @@
       "insTitle": "Shortbread Base",
       "insSteps": [
         "Using a pastry cutter or in a food processor blend together the butter sugar and flour.",
-        "Press evenly into the bottom of a greased and parchment paper lined 20x30 cm baking pan.",
+        "Press evenly into the bottom of a greased and parchment paper lined 20 x 30 cm baking pan.",
         "Bake for 20 to 25 minutes at 175 °C."
       ]
     },
@@ -41,6 +50,6 @@
       ]
     }
   ],
-  "notes": [],
+  "notes": ["4 big or 5 small lemons will give about 170 ml of juice."],
   "sourceUrl": "https://www.rockrecipes.com/lime-bars-super-easy/"
 }

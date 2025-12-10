@@ -9,10 +9,17 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "6 tbsp butter, cut into pieces (at room temperature)",
-        "3 tbsp miso"
+        {
+          "value": 6,
+          "type": "tbsp",
+          "name": "butter",
+          "prep": "cut into pieces and at room temperature"
+        },
+        { "value": 3, "type": "tbsp", "name": "mise" }
       ],
-      "ingOpt": ["1.5 tbsp heavy cream or milk"]
+      "ingOpt": [
+        { "value": 1.5, "type": "tbsp", "name": "heavy cream (or milk)" }
+      ]
     }
   ],
   "instructions": [

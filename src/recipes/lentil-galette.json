@@ -9,9 +9,9 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 cup red lentils",
-        "1 cup water (+ more for soaking lentils)",
-        "1 tbsp oil",
+        { "value": 1, "type": "cup", "name": "red lentils" },
+        { "value": 1, "type": "cup", "name": "water" },
+        { "value": 1, "type": "tbsp", "name": "oil" },
         "Salt"
       ],
       "ingOpt": []

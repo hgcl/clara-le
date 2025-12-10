@@ -9,19 +9,38 @@
     {
       "ingTitle": "For 2 servings",
       "ingMand": [
-        "2 shallots",
-        "1 stick of celery",
-        "60 g unsalted butter",
-        "1 tbsp olive oil",
-        "300 g risotto rice",
-        "1 l vegetable stock",
-        "zest and juice of half a lemon",
-        "2 small sprigs of fresh rosemary (finely chopped)",
-        "1 large egg yolk",
-        "4 tbsp grated Parmesan cheese (plus more to sprinkle)",
-        "60 ml double cream",
-        "salt (to taste)",
-        "pepper (preferably white)"
+        {
+          "value": 2,
+          "type": "",
+          "name": "shallots",
+          "prep": "finely chopped"
+        },
+        {
+          "value": 1,
+          "type": "stick",
+          "name": "celery",
+          "prep": "finely chopped"
+        },
+        { "value": 60, "type": "g", "name": "butter" },
+        { "value": 1, "type": "tbsp", "name": "olive oil" },
+        { "value": 300, "type": "g", "name": "risotto rice" },
+        { "value": 1, "type": "L", "name": "vegetable stock" },
+        {
+          "value": 0.5,
+          "type": "",
+          "name": "lemons",
+          "prep": "juiced and zested"
+        },
+        {
+          "value": 2,
+          "type": "sprigs",
+          "name": "fresh rosemary",
+          "prep": "finely chopped"
+        },
+        { "value": 1, "type": "", "name": "large egg yolk" },
+        { "value": 4, "type": "tbsp", "name": "Parmesan cheese" },
+        { "value": 60, "type": "ml", "name": "heavy cream" },
+        "Salt and pepper (preferably white)"
       ],
       "ingOpt": []
     }
