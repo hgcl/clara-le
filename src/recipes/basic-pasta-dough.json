@@ -7,7 +7,7 @@
   "duration": "60",
   "ingredients": [
     {
-      "ingTitle": "For two portions:",
+      "ingTitle": "For two portions",
       "ingMand": [
         { "value": 330, "type": "g", "name": "flour or semolina" },
         { "value": 3, "type": "", "name": "large eggs" }

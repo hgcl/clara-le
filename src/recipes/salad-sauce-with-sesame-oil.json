@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": [2, 3], "type": "c-à-s", "name": "vinaigre de riz" },
-        { "value": 1, "type": "c-à-s", "name": "sauce soja" },
-        { "value": [1, 2], "type": "c-à-s", "name": "sucre" },
-        { "value": 1, "type": "c-à-s", "name": "huile de sésame" }
+        { "value": [2, 3], "type": "cs", "name": "vinaigre de riz" },
+        { "value": 1, "type": "cs", "name": "sauce soja" },
+        { "value": [1, 2], "type": "cs", "name": "sucre" },
+        { "value": 1, "type": "cs", "name": "huile de sésame" }
       ],
       "ingOpt": ["Graines de sésame"]
     }

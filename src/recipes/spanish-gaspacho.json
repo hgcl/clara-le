@@ -14,7 +14,7 @@
         { "value": 2, "type": "", "name": "oignons" },
         { "value": 1, "type": "", "name": "concombre" },
         { "value": 1, "type": "", "name": "gousse d'ail" },
-        { "value": 6, "type": "c-à-s", "name": "vinaigre" },
+        { "value": 6, "type": "cs", "name": "vinaigre" },
         "Huile d'olive (en quantité généreuse)",
         "Piment en poudre",
         "Poivre et sel"

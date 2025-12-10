@@ -10,8 +10,8 @@
       "ingTitle": "Riz vinaigré",
       "ingMand": [
         { "value": 3, "type": "bols", "name": "riz" },
-        { "value": 3, "type": "c-à-s", "name": "vinaigre de riz" },
-        { "value": 1.5, "type": "c-à-s", "name": "sucre" },
+        { "value": 3, "type": "cs", "name": "vinaigre de riz" },
+        { "value": 1.5, "type": "cs", "name": "sucre" },
         "Sel"
       ],
       "ingOpt": []
@@ -29,9 +29,9 @@
     {
       "ingTitle": "Sauce",
       "ingMand": [
-        "4 c-à-s sauce soja",
-        "2 c-à-s vinaigre de riz",
-        "1 c-à-s sucre",
+        "4 cs sauce soja",
+        "2 cs vinaigre de riz",
+        "1 cs sucre",
         "Eau"
       ],
       "ingOpt": []
