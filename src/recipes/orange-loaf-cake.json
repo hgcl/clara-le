@@ -9,20 +9,29 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "190 g all-purpose flour",
-        "1 tsp baking powder (or Natron if we use some side sourdough starter)",
-        "0.5 tsp salt",
-        "190 g sugar",
-        "170 g butter, at room temperature",
-        "2 large eggs",
-        "5+ tbsp orange juice (or juice of half an orange)",
-        "1 orange zest",
-        "250 ml sour cream"
+        { "value": 190, "type": "g", "name": "flour" },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "baking powder (or baking soda if using sourdough)"
+        },
+        { "value": 0.5, "type": "tsp", "name": "salt" },
+        { "value": 190, "type": "g", "name": "sugar" },
+        {
+          "value": 170,
+          "type": "g",
+          "name": "butter",
+          "prep": "at room temperature"
+        },
+        { "value": 2, "type": "", "name": "large eggs" },
+        { "value": 5, "type": "tbsp", "name": "orange juice" },
+        { "value": 1, "type": "", "name": "orange zest" },
+        { "value": 250, "type": "ml", "name": "sour cream" }
       ],
       "ingOpt": [
-        "1 tbsp sourdough starter",
-        "1 squeeze lemon juice (or more to taste)",
-        "1 apple, sliced in small pieces"
+        { "value": 1, "type": "tbsp", "name": "sourdough starter" },
+        { "value": 1, "type": "squeeze", "name": "lemon juice" },
+        { "value": 1, "type": "", "name": "apple", "prep": "sliced small" }
       ]
     }
   ],
@@ -40,6 +49,7 @@
     }
   ],
   "notes": [
+    "Half an orange will give approximately 5 tpbs of juice.",
     "Tip: I put the butter in the oven at 30 °C for 10 minutes to get it soft enough to work with."
   ],
   "sourceUrl": "https://confessionsofabakingqueen.com/orange-loaf-cake/#tasty-recipes-14927-jump-target"

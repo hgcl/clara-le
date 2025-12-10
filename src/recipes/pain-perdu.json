@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "25 cl lait",
-        "50 g sucre",
-        "3 oeufs",
-        "6 épaisses tranches de pain"
+        { "value": 300, "type": "ml", "name": "milk" },
+        { "value": 50, "type": "g", "name": "sucre" },
+        { "value": 3, "type": "", "name": "œufs" },
+        { "value": 6, "type": "", "name": "tranches de pain" }
       ],
       "ingOpt": []
     }

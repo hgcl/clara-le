@@ -8,8 +8,20 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["6 eggs", "75 g soy sauce", "25 g water", "3 tsp sugar"],
-      "ingOpt": ["1 tsp white vinegar", "1 tsp sesame oil"]
+      "ingMand": [
+        { "value": 6, "type": "", "name": "eggs" },
+        {
+          "value": 75,
+          "type": "g",
+          "name": "soy sauce (half strong, half soft)"
+        },
+        { "value": 25, "type": "g", "name": "water" },
+        { "value": 3, "type": "tsp", "name": "sugar" }
+      ],
+      "ingOpt": [
+        { "value": 1, "type": "tsp", "name": "white vinegar" },
+        { "value": 1, "type": "", "name": "sesame oil" }
+      ]
     }
   ],
   "instructions": [
