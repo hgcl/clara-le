@@ -10,9 +10,13 @@
       "ingTitle": "",
       "ingMand": [
         "Carrots, peeled and julienned",
-        "2 cups water",
-        "1 cup vinegar (can be a mix of rice, white or apple vinegar)",
-        "0.5 cup sugar"
+        { "value": 2, "type": "cups", "name": "water" },
+        {
+          "value": 1,
+          "type": "cup",
+          "name": "vinegar (can be a mix of rice, white or apple vinegar)"
+        },
+        { "value": 0.5, "type": "cup", "name": "sugar" }
       ],
       "ingOpt": []
     }

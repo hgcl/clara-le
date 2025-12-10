@@ -9,12 +9,12 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "125 g sourdough starter",
-        "225 g water",
-        "40 g honey (or sugar)",
-        "10 g fine salt",
-        "500 g flour",
-        "1 tbsp sugar (for boiling water)"
+        { "value": 125, "type": "g", "name": "sourdough starter" },
+        { "value": 225, "type": "g", "name": "water" },
+        { "value": 40, "type": "g", "name": "honey (or sugar)" },
+        { "value": 10, "type": "g", "name": "salt" },
+        { "value": 500, "type": "g", "name": "flour" },
+        { "value": 1, "type": "tbsp", "name": "sugar (for boiling water)" }
       ],
       "ingOpt": []
     }

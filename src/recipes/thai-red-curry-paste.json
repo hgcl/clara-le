@@ -9,17 +9,21 @@
     {
       "ingTitle": "For ten servings",
       "ingMand": [
-        "1 tbsp cilantro roots (or stems)",
-        "1 tbsp coriander seeds",
-        "0.5 tbsp cumin seeds",
-        "3 dried whole chilis",
-        "1.5 tbsp galangal roots",
-        "35 g garlic",
-        "1 stalk lemongrass",
-        "0.5 tsp peppercorns",
-        "1 tabs. salt",
-        "80 g shallots",
-        "1 tbsp keffir lime zest (or lime zest)"
+        { "value": 1, "type": "tbsp", "name": "cilantro roots (or stems)" },
+        { "value": 1, "type": "tbsp", "name": "coriander seeds" },
+        { "value": 0.5, "type": "tbsp", "name": "cumin seeds" },
+        { "value": 3, "type": "", "name": "dried chilies" },
+        { "value": 1.5, "type": "tbsp", "name": "galangal roots" },
+        { "value": 35, "type": "g", "name": "garlic" },
+        { "value": 1, "type": "stalk", "name": "lemongrass" },
+        { "value": 0.5, "type": "tsp", "name": "peppercorns" },
+        { "value": 1, "type": "tbsp", "name": "salt" },
+        { "value": 80, "type": "g", "name": "shallots" },
+        {
+          "value": 1,
+          "type": "tbsp",
+          "name": "keffir lime zest (or lime zest)"
+        }
       ],
       "ingOpt": []
     }
@@ -28,7 +32,7 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Toast whole chilis for 5 minutes on low heat to dry them and make them more easily grindable.",
+        "Toast whole chilies for 5 minutes on low heat to dry them and make them more easily grindable.",
         "Toast coriander, peppercorns and cumin in a pan until light brown. You'll hear the crackling sound when they're ready. It should take a few minutes. Let the spices cool so they will grind easily.",
         "Slice shallots, lemongrass, galangal and cilantro roots into small pieces. I use one lemongrass stalk. Slice thinly or grate the kaffir lime zest.",
         "Grind the spices (cumin, coriander and peppercorns) into powder. Scoop out and set the ground spices aside.",

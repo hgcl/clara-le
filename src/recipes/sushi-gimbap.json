@@ -9,9 +9,9 @@
     {
       "ingTitle": "Riz vinaigré",
       "ingMand": [
-        "3 bols de riz",
-        "3 c-à-s vinaigre de riz",
-        "1.5 c-à-s sucre",
+        { "value": 3, "type": "bols", "name": "riz" },
+        { "value": 3, "type": "c-à-s", "name": "vinaigre de riz" },
+        { "value": 1.5, "type": "c-à-s", "name": "sucre" },
         "Sel"
       ],
       "ingOpt": []

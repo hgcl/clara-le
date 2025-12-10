@@ -10,9 +10,9 @@
       "ingTitle": "",
       "ingMand": [
         "Huile d'olive",
-        "1 kg courgette",
-        "2 oignons",
-        "2 verres de lait et / ou eau",
+        { "value": 1, "type": "kg", "name": "courgettes" },
+        { "value": 2, "type": "", "name": "oignons" },
+        { "value": 2, "type": "verres", "name": "lait (ou eau)" },
         "Sel et poivre"
       ],
       "ingOpt": ["Cumin"]

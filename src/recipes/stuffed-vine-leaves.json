@@ -9,16 +9,16 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 tasse d'huile d'olive",
-        "2 c.à.s. de pignons de pin",
-        "2 oignons émincés",
-        "1/2 tasse de riz blanc",
-        "1/4 tasse de raisins secs",
-        "sel et poivre",
-        "un peu de menthe",
-        "1/2 tasse d'eau chaude",
-        "30 feuilles de vigne fraîches",
-        "1 citron"
+        { "value": 1, "type": "tasse", "name": "huile d'olive" },
+        { "value": 2, "type": "c-à-s", "name": "pignons de pin" },
+        { "value": 2, "type": "", "name": "oignons", "prep": "émincés" },
+        { "value": 0.5, "type": "tasse", "name": "riz blanc" },
+        { "value": 0.25, "type": "tasse", "name": "raisins secs" },
+        "Sel et poivre",
+        "Un peu de menthe",
+        { "value": 0.5, "type": "tasse", "name": "eau chaude" },
+        { "value": 30, "type": "feuilles", "name": "vigne fraîches" },
+        { "value": 1, "type": "", "name": "citron" }
       ],
       "ingOpt": []
     }

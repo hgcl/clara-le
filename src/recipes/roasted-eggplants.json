@@ -8,7 +8,11 @@
   "ingredients": [
     {
       "ingTitle": "",
-      "ingMand": ["2 eggplants", "Olive oil", "Salt"],
+      "ingMand": [
+        { "value": 2, "type": "", "name": "eggplants" },
+        "Olive oil",
+        "Salt"
+      ],
       "ingOpt": ["Herbs, spices, cheese, garlic, etc."]
     }
   ],

@@ -9,19 +9,31 @@
     {
       "ingTitle": "First fermentation",
       "ingMand": [
-        "100 g kefir grains",
-        "100 g sugar",
-        "1.5 L water",
-        "1 dried fig (or a small handful or raisins)"
+        { "value": 100, "type": "g", "name": "kefir grains" },
+        { "value": 100, "type": "g", "name": "sugar" },
+        { "value": 1.5, "type": "L", "name": "water" },
+        [
+          { "value": 1, "type": "", "name": "dried fig" },
+          { "value": 1, "type": "handful", "name": "raisins" }
+        ]
       ],
-      "ingOpt": ["2–3 lemon slices"]
+      "ingOpt": [{ "value": [2, 3], "type": "", "name": "lemon slices" }]
     },
     {
       "ingTitle": "Secondary fermentation",
       "ingMand": [
-        "Handful of dried fruits",
-        "Handful of chopped fresh fruits",
-        "60 g fruit juice (without preservatives)",
+        { "value": 1, "type": "handful", "name": "dried fruits" },
+        {
+          "value": 1,
+          "type": "handful",
+          "name": "fresh fruits",
+          "prep": "chopped"
+        },
+        {
+          "value": 60,
+          "type": "g",
+          "name": "fruit juice (without preservatives)"
+        },
         "Herbs or flowers"
       ],
       "ingOpt": []

@@ -9,68 +9,55 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "125 g sourdough starter",
-        "350 g water",
-        "300 g wheat flour (T80)",
-        "200 g whole wheat flour (T110)",
-        "9 g salt"
+        { "value": [50, 100], "type": "g", "name": "sourdough starter" },
+        { "value": 400, "type": "g", "name": "bread flour" },
+        { "value": 100, "type": "g", "name": "whole wheat flour" },
+        { "value": 300, "type": "g", "name": "water" },
+        { "value": 10, "type": "g", "name": "salt" }
       ],
       "ingOpt": ["Herbs, seeds, dry fruits"]
     }
   ],
   "instructions": [
     {
-      "insTitle": "Timeline for the overnight method",
+      "insTitle": "Autolyse",
       "insSteps": [
-        "Day 1, morning. Refresh the sourdough starter twice, to have it ready by the afternoon.",
-        "Day 1, 15:20. Mix all ingredients to make the dough.",
-        "Day 1, 16:00. Perform 4 sets of folds 30 minutes apart.",
-        "Day 1, 17:30. Let rest one extra hour for the bulk fermentation.",
-        "Day 1, 18:30. Shape the dough, place in a banneton, and let rise for 12­–13 hours in the fridge.",
-        "Day 2, early morning: Score and bake."
-      ]
-    },
-    {
-      "insTitle": "Timeline for the same day method",
-      "insSteps": [
-        "Day 1, late evening. Refresh the sourdough starter. Use a small proportion of starter, to have it rise slowly until the next morning.",
-        "Day 2, 7:20. Mix all ingredients to make the dough.",
-        "Day 2, 8:00. Perform 4 sets of folds 30 minutes apart.",
-        "Day 2, 10:30. Let rest 3–6 extra hours for the bulk fermentation.",
-        "Day 2, 14:30. Preshape dough on a wet counter, let rest 30 minutes.",
-        "Day 2, 15:00. Shape, place in a banneton, and let rise for 1–2 hours.",
-        "Day 2, 16:30: Score and bake."
+        "At the same time you start activating your sourdough starter, mix your flour and water in a bowl, fully hydrating the flour."
       ]
     },
     {
       "insTitle": "Mix the dough",
       "insSteps": [
-        "In a bowl, dilute the sourdough starter in the water. Add the flour, and mix until the dough is smooth. There is no need to knead, the ingredients simply need to be combined.",
-        "Cover with a clean cloth and let rest for 20 minutes in a warm place (24 °C) or in the turned-off oven.",
-        "Add the salt (and optional herbs/seeds), and incorporate it by pushing in with your fingers while rotating the bowl with your other hand. Knead lightly until the dough is homogenous. Let rest 20 minutes."
+        "When you are ready to start, add the sourdough starter, salt (and optional herbs/seeds) to your dough until homogenous. There is no need to knead, the ingredients simply need to be combined.",
+        "Cover with a clean cloth and let rest for 20 minutes.",
+        "Remove the dough and place it on your bench (no flour!). You will add some strength to it, by pulling the dough as far out as you can, without tearing it, and folding it back. Repeat once from each side. Drag the dough over the surface using your hands at a 45° angle and \"boule\" it. Wait a few minutes, and repeat this process (up to 3 times) until your dough feels smooth, round, and not sticky."
       ]
     },
     {
-      "insTitle": "Bulk fermentation: stretch and fold",
+      "insTitle": "Bulk fermentation",
       "insSteps": [
-        "Keep a glass of water on the side to wet your fingers as you work the dough (it will stick less). On one side of the bowl, reach under the dough. Grab this side of the dough, pull it up, and bring it to the top. Turn the bowl a quarter turn and repeat this process three times to go all the way around. Wet your fingers to avoid having dough stick to your hands. Cover and let rest.",
-        "Repeat the previous folding step every 30 minutes. Four folds in total (counting the first one) are enough. The dough should have risen for 1 h 30 after your fourth and last fold. Let rest one extra hour without folding."
+        "While your dough is bulk fermenting, you can be doing a coil folding every few hours — when you see your dough has flattened out quite a lot. However, the more you handle your dough, the more even your crumb is going to be in the end. Wet your fingers to avoid sticky fingers.",
+        "After coil folding, return to container and cover. This can take anywhere between 4 and 12 hours depending on your room temperature."
       ]
     },
     {
-      "insTitle": "Second rise: in a banneton",
+      "insTitle": "Shaping the dough",
       "insSteps": [
-        "Pour the dough onto a floured work surface. To avoid damaging the dough and deflating it, use a dough scraper. Fold all sides of the dough toward the center, and turn it over (so that the seam-side is down). Gently cup the dough, pulling and twisting until it forms a tight skin with surface tension on the outside of the dough ball. Place the dough in a floured banneton, cover with a wrap, and let rest in the refrigerator for 12­–13 hours."
+        "Pour the dough onto a floured work surface. To avoid damaging the dough and deflating it, use a dough scraper.",
+        "Do a letter fold, and flip it so that the seam-side is down.",
+        "Gently cup the dough, pulling and twisting until it forms a tight skin with surface tension on the outside of the dough ball — don't overdo it.",
+        "Place the dough in a floured banneton, cover with a wrap. The dough will rest and proof in the refrigerator for 12­–13 hours. You can also do it at room temperature for 2–4 hours instead. In this case, just make sure to put the dough in the freezer for 30 minutes before baking.",
+        "You will know when the proofing period is over, when the dough passes the poke test. Gently poke your dough with your finger. Does the dent disappear very quickly? It needs some more time rising. Does the dent stay there for a long time? Chances are that your dough is overproofed. The perfect time to start baking is when the finger dent just barely recovers after one minute."
       ]
     },
     {
       "insTitle": "Bake",
       "insSteps": [
         "30 minutes or so before the dough is ready to bake, preheat your oven to 230 °C, with the empty dutch oven inside.",
-        "When ready to bake, remove the banneton from the refrigerator. Turn the loaf out onto a sheet of baking paper. Sift the bread with flour and score (make indentations) with a sharp razor blade.",
+        "When ready to bake, remove the banneton from the refrigerator. Turn the loaf out onto a sheet of baking paper. Score the bread (almost parallel to the surface) with a sharp razor blade. Generously spray the surface with water.",
         "Remove the dutch oven from the oven and take off the lid. Place the sheet of paper (with the dough on top) in the dutch oven.",
         "Place the lid back onto the dutch oven, return it to the oven and bake for 25 minutes at 230 °C.",
-        "Remove the lid and bake uncovered for an additional 35 minutes at 200 °C or until the crust is golden brown.",
+        "Remove the lid and bake uncovered for an additional 20–30 minutes at 200 °C or until the crust is golden brown.",
         "Let the bread cool on a cooling rack for 1–2 hours before slicing to prevent it from becoming gummy."
       ]
     }
@@ -79,5 +66,5 @@
     "Make sure your sourdough starter is at its best for an optimal result. I usually try to refresh it in two phases (instead of all at once) before using it.",
     "How to check if the dough is ready to bake? Use your thumb to make an indentation in the dough about a half inch deep. If the indention springs back very slowly, the dough is ready to bake. If the indentation quickly springs back all the way, or almost all the way, it's still needs more time to rise. If the indention doesn't spring back at all, it's more than likely over-proofed."
   ],
-  "sourceUrl": ""
+  "sourceUrl": "https://www.the-bread-code.io/recipe/2020/12/22/the-last-sourdough-recipe.html"
 }
