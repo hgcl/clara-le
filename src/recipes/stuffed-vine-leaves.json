@@ -10,7 +10,7 @@
       "ingTitle": "",
       "ingMand": [
         { "value": 1, "type": "tasse", "name": "huile d'olive" },
-        { "value": 2, "type": "c-à-s", "name": "pignons de pin" },
+        { "value": 2, "type": "cs", "name": "pignons de pin" },
         { "value": 2, "type": "", "name": "oignons", "prep": "émincés" },
         { "value": 0.5, "type": "tasse", "name": "riz blanc" },
         { "value": 0.25, "type": "tasse", "name": "raisins secs" },

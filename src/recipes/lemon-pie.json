@@ -19,7 +19,7 @@
           "name": "beurre",
           "prep": "à température ambiante"
         },
-        { "value": 1, "type": "c-à-s", "name": "maïzena" }
+        { "value": 1, "type": "cs", "name": "maïzena" }
       ],
       "ingOpt": []
     }

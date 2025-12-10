@@ -25,8 +25,8 @@
       ],
       "ingOpt": [
         { "value": 130, "type": "g", "name": "orge perlé" },
-        { "value": 0.5, "type": "c-à-c", "name": "graines de fenouil" },
-        { "value": [1, 2], "type": "c-à-s", "name": "paprika" },
+        { "value": 0.5, "type": "cc", "name": "graines de fenouil" },
+        { "value": [1, 2], "type": "cs", "name": "paprika" },
         "Laurier ou autre herbe séchée",
         "Jus de citron",
         "Faisselle, fromage frais ou yaourt nature"

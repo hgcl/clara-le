@@ -14,8 +14,8 @@
         { "value": 120, "type": "g", "name": "water" },
         { "value": 50, "type": "g", "name": "oil" },
         [
-          { "value": "12", "type": "g", "name": "baking powder" },
-          { "value": "70", "type": "g", "name": "sourdough starter" }
+          { "value": 12, "type": "g", "name": "baking powder" },
+          { "value": 70, "type": "g", "name": "sourdough starter" }
         ],
         { "value": 2, "type": "", "name": "apples", "prep": "sliced" }
       ],
