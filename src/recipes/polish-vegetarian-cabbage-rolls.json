@@ -9,20 +9,20 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "1 large cabbage",
-        "2 cups brown rice, cooked",
-        "1 lb veggie crumbles",
-        "0.5 cup onion, minced",
-        "1 garlic clove, minced",
-        "1 tsp ground ginger",
-        "1 tbsp sweet paprika",
-        "1 tbsp parsley, chopped",
-        "1 tsp black pepper",
-        "2 eggs",
-        "0.5 cup vegetable broth",
-        "2 tbsp olive oil",
-        "1 can diced tomatoes",
-        "1 can tomato soup"
+        { "value": 1, "type": "", "name": "large cabbage" },
+        { "value": 2, "type": "cups", "name": "brown rice", "prep": "cooked" },
+        { "value": 400, "type": "g", "name": "vegetable crumbles" },
+        { "value": 1, "type": "", "name": "onion", "prep": "minced" },
+        { "value": 1, "type": "", "name": "garlic clove", "prep": "minced" },
+        { "value": 1, "type": "tsp", "name": "ground ginger" },
+        { "value": 1, "type": "tbsp", "name": "sweet paprika" },
+        { "value": 1, "type": "tbsp", "name": "parsley", "prep": "chopped" },
+        { "value": 1, "type": "tsp", "name": "black pepper" },
+        { "value": 2, "type": "", "name": "eggs" },
+        { "value": 120, "type": "ml", "name": "vegetable broth" },
+        { "value": 2, "type": "tbsp", "name": "olive oil" },
+        { "value": 1, "type": "can", "name": "diced tomatoes" },
+        { "value": 1, "type": "can", "name": "tomato soup" }
       ],
       "ingOpt": []
     }
