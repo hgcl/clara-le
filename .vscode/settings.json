@@ -11,5 +11,8 @@
     "editor.wordWrapColumn": 100,
     "editor.wordWrap": "bounded"
   },
-  "languageToolLinter.languageTool.ignoredWordsInWorkspace": ["webmentions"]
+  "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+    "lacto-fermented",
+    "webmentions"
+  ]
 }

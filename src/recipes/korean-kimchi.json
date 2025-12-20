@@ -10,7 +10,7 @@
       "ingTitle": "Cabbage",
       "ingMand": [
         { "value": 700, "type": "g", "name": "cabbage", "prep": "chopped" },
-        { "value": 3, "type": "tbsp", "name": "salt" },
+        { "value": 45, "type": "g", "name": "salt (6% of cabbage)" },
         {
           "value": [1, 2],
           "type": "",
@@ -55,7 +55,7 @@
     {
       "insTitle": "Porridge",
       "insSteps": [
-        "In the meantime, mix flour in a pot with water and bring to a boil.",
+        "In the meantime, mix flour in a pot with water and bring to a boil. The texture should be like crêpe dough.",
         "Add sugar and cook a few minutes more until translucent. Set aside to cool down.",
         "Mix the cold flour porridge into a large bowl with gochugaru, soy sauce, garlic, onion, green onion, leek, ginger and carrots."
       ]

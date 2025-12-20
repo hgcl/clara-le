@@ -2,14 +2,20 @@
   "title": "German Sauerkraut",
   "date": "2022-03-06",
   "lang": "en",
-  "dataTag": ["side", "fall", "winter"],
+  "dataTag": ["side", "preserve", "fall", "winter"],
   "intro": "",
   "duration": "",
   "ingredients": [
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 4, "type": "tsp", "name": "salt" },
+        {
+          "value": 1,
+          "type": "kg",
+          "name": "cabbage",
+          "prep": "thinly sliced"
+        },
+        { "value": 20, "type": "g", "name": "salt (2% of cabbage)" },
         { "value": 1, "type": "tsp", "name": "fennel seeds" },
         { "value": 1, "type": "tsp", "name": "black pepper" }
       ],
