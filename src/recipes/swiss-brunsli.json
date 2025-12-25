@@ -1,0 +1,45 @@
+{
+  "title": "Swiss brunsli",
+  "date": "2025-12-25",
+  "lang": "en",
+  "dataTag": ["dessert", "winter"],
+  "intro": "The biscuits you'll find everywhere in Switzerland, past December 1st.",
+  "duration": "80",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 270, "type": "g", "name": "almond powder" },
+        { "value": 230, "type": "g", "name": "sugar" },
+        { "value": 40, "type": "g", "name": "bitter cocoa powder" },
+        [
+          { "value": 1, "type": "tsp", "name": "five-spice powder" },
+          { "value": 1, "type": "tsp", "name": "cinnamon" }
+        ],
+        { "value": 0.25, "type": "tsp", "name": "salt" },
+        { "value": 2, "type": "", "name": "egg whites" }
+      ],
+      "ingOpt": [
+        { "value": 1, "type": "", "name": "orange zest" },
+        { "value": 1, "type": "tsp", "name": "liquid vanilla extract" }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a big bowl, mix all the dry ingregredients.",
+        "Add the wet ingredients, mix until homogenous.",
+        "Make a disk (2–3 cm thick) with the dough.",
+        "Keep in a sealed tupperware in the fridge for at least one hour.",
+        "Preheat oven at 170 °C.",
+        "Take the dough out of the fridge and lay it out to be about 1 cm thick. Divide it into the desired shapes.",
+        "Place the biscuits on a baking tray with parchment paper (no need to space them too far apart, they won't rise).",
+        "Bake for 10 minutes. Keep a close eye on them, as they can easily burn. When ready, the biscuits should still be very soft in the center but will harden a little as they cool down."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://cookingjulia.com/brunsli-ou-bruns-de-bale-dottolenghi/"
+}
