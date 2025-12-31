@@ -4,36 +4,35 @@
   "lang": "en",
   "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
   "intro": "",
-  "duration": "65",
+  "duration": "50",
   "ingredients": [
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 175, "type": "g", "name": "flour" },
-        { "value": 80, "type": "g", "name": "sugar" },
-        { "value": 120, "type": "g", "name": "water" },
-        { "value": 50, "type": "g", "name": "oil" },
+        { "value": [50, 70], "type": "g", "name": "sugar" },
+        { "value": 130, "type": "g", "name": "oil" },
         [
-          { "value": 12, "type": "g", "name": "baking powder" },
-          { "value": 70, "type": "g", "name": "sourdough starter" }
+          { "value": 5, "type": "g", "name": "baking powder" },
+          { "value": 30, "type": "g", "name": "sourdough starter" }
         ],
-        { "value": 2, "type": "", "name": "apples", "prep": "sliced" }
+        { "value": 300, "type": "g", "name": "apple or quince compote" },
+        { "value": 120, "type": "g", "name": "flour" }
       ],
-      "ingOpt": [{ "value": 10, "type": "g", "name": "vanilla powder" }]
+      "ingOpt": [{ "value": 1, "type": "", "name": "apple", "prep": "sliced" }]
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "To a bowl, add all ingredients (except for the apples), and mix until homogenous. (Do not overmix).",
+        "To a bowl, add all ingredients, and mix until homogenous..",
         "Add sliced apples and gently fold into batter.",
         "Transfer batter to a prepared cake pan (lined with parchment paper). Spread batter evenly.",
         "Top cake with sliced apple.",
-        "Bake in preheated oven at 180 °C for 55 minutes (or until a toothpick inserted in the middle of cake comes out clean)."
+        "Bake in preheated oven at 200 °C for 40 minutes (or until a toothpick inserted in the middle of cake comes out clean)."
       ]
     }
   ],
   "notes": [],
-  "sourceUrl": "https://shirleycooking.com/vegan-apple-cake/"
+  "sourceUrl": "https://www.youtube.com/watch?app=desktop&v=34FJr8RoRXU"
 }
