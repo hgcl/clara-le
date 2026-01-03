@@ -1,1 +1,8 @@
-{"url":"https://standardebooks.org/","title":"Standard ebooks","date":"2023-09-16","description":"Free and liberated ebooks,\ncarefully produced for the true book lover","tags":["miscellaneous"],"best":"false"}
+{
+  "url": "https://standardebooks.org/",
+  "title": "Standard ebooks",
+  "date": "2023-09-16",
+  "description": "Free and liberated ebooks,\ncarefully produced for the true book lover",
+  "tags": [""],
+  "best": "false"
+}

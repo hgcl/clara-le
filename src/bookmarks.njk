@@ -31,7 +31,7 @@ pagination:
     </p>
 
     <!-- POST FILTER SELECTOR -->
-    {{ listFilterSelector('category', ['Accessibility','Coding','Cooking','Game','Miscellaneous','Web']) }}
+    {{ listFilterSelector('category', ['Accessibility','Coding','Cooking','Game','Web']) }}
 
     <!-- LINK LIST -->
       <ul
@@ -42,7 +42,11 @@ pagination:
             <span class="details">
               <a href="{{ item.url }}">{{ item.title }}</a>
               <span class="subtle">{{ item.description }}</span>
-              <span class="label">{{ item.tags }}</span>
+              <span class="label">
+                {% set divider = joiner(" / ") %}
+                {%- for tag in item.tags -%}
+                  {{ divider() }}{{ tag }}
+                {%- endfor -%}
             </span>
           </li>
         {% endfor %}
