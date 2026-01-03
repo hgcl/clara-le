@@ -3,8 +3,6 @@ export const onRequestPost = async (context) => {
   const { request, env } = context;
   let data;
 
-  console.log(data);
-
   // 1. Get form `data` as JSON
   try {
     data = await request.json();
@@ -26,10 +24,10 @@ export const onRequestPost = async (context) => {
   // GitHub API setup
   const GITHUB_TOKEN = env.GITHUB_TOKEN; // stored as secret
   const REPO = "hgcl/clara-le";
-  const githubUrl = `https://api.github.com/repos/${REPO}/contents/pages/journal/${filename}`;
+  const githubUrl = `https://api.github.com/repos/${REPO}/contents/src/${data.category}/${filename}`;
 
   const body = JSON.stringify({
-    message: `content: :robot: new entry in journal: ${filename}`,
+    message: `content: :robot: new entry in ${data.category}: ${filename}`,
     content: base64Content,
   });
 
