@@ -7,7 +7,9 @@ pagination:
     size: 1
 ---
 
+{% from 'macro/list-filter-selector.njk' import listFilterSelector %}
 {% extends "layout/base.njk" %} 
+
 {% block head %}
 <style>
   .intro { 
@@ -27,20 +29,28 @@ pagination:
     <p class="intro">
       My collection of bookmarks of specific blog posts, articles, essays — spanning the web. 
     </p>
+
+    <!-- POST FILTER SELECTOR -->
+    {{ listFilterSelector('category', ['Accessibility','Coding','Cooking','Game','Miscellaneous','Web']) }}
+
     <!-- LINK LIST -->
       <ul
-        class="nobullet post-rows-with-label">
+        class="nobullet post-rows-with-label filtered-list">
         {% for item in pagination.pages | reverse %}
-          <li>
+          <li data-tag="{{ item.tags }}">
             <time class="label dt-duration" datetime="{{ item.date }}">{{ item.date | formatDate("short") }}</time>
             <span class="details">
               <a href="{{ item.url }}">{{ item.title }}</a>
               <span class="subtle">{{ item.description }}</span>
-              <span class="label">#{{ item.tags }}</span>
+              <span class="label">{{ item.tags }}</span>
             </span>
           </li>
         {% endfor %}
       </ul>
   </div>
 </article>
+{% endblock %}
+
+{% block script %}
+  {% include 'filter-notes-script.njk' %}
 {% endblock %}
