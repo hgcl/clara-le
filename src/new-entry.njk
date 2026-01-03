@@ -13,6 +13,7 @@ icon: /public/img/meta/drawing-list.svg
     flex-direction: column;
     gap: var(--space-m);
   }
+  input[type="text"], input[type="url"], textarea { width: 100% }
 </style>
 {% endblock %}
 
@@ -29,12 +30,13 @@ icon: /public/img/meta/drawing-list.svg
     </label>
 
     <!-- Form for bookmarks category -->
-    <label>Link <input type="link" id="link" name="link" autocomplete="off" /></label>
-    <label>Title <input type="title" id="title" name="title" autocomplete="off" /></label>
-    <label for="description">Description</label>
-    <textarea type="text" id="description" name="description"></textarea>
+    <label>Link* <input type="url" id="link" name="link" autocomplete="off" required placeholder="https://example.com"/></label>
+    <label>Title* <input type="text" id="title" name="title" autocomplete="off" required /></label>
+    <label for="description">Description (up to 250 chars)
+      <textarea type="text" id="description" name="description" maxlength="250"></textarea>
+    </label>
     <label>Date <input type="date" id="date" name="date" /></label>
-    <label>Tags <input type="tags" id="tags" name="tags" value=""/></label>
+    <label>Tags (separated by commas) <input type="text" id="tags" name="tags" placeholder="coding, web"/></label>
     <label for="best">Is this link incredibly good? <input type="checkbox" id="best" name="best" /></label>
     <button
       id="save-file"
