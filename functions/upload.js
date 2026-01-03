@@ -10,35 +10,62 @@ export const onRequestPost = async (context) => {
     return new Response("Invalid JSON.", { status: 400 });
   }
 
-  // 2. Restructure file content
-  const slug = slugify(data.title.trim());
-  const filename = `${data.date}-${slug}.json`;
+  let filename;
+  let fileContent;
 
-  // From checkbox to boolean
-  let formattedBest;
-  if (data.best && data.best === "on") {
-    formattedBest = "true";
-  } else {
-    formattedBest = "false";
+  // FOR BOOKMARKS
+  if (data.category === "bookmarks") {
+    // Format filename
+    const slug = slugify(data.title.trim());
+    filename = `${data.date}-${slug}.json`;
+
+    // From checkbox to boolean
+    let formattedBest;
+    if (data.best && data.best === "on") {
+      formattedBest = "true";
+    } else {
+      formattedBest = "false";
+    }
+
+    // Format tags
+    const formattedTags = data.tags.split(",");
+
+    // Format content
+    const json = {
+      url: data.link.trim(),
+      title: data.title.trim(),
+      date: data.date,
+      description: data.description.trim(),
+      tags: formattedTags,
+      best: formattedBest,
+    };
+
+    fileContent = JSON.stringify(json);
   }
 
-  // Format tags
-  const formattedTags = data.tags.split(",");
+  // FOR MUSINGS
+  if (data.category === "posts") {
+    // Format filename
+    const slug = slugify(data["posts-title"].trim());
+    filename = `${slug}.md`;
 
-  const fileContent = {
-    url: data.link.trim(),
-    title: data.title.trim(),
-    date: data.date,
-    description: data.description.trim(),
-    tags: formattedTags,
-    best: formattedBest,
-  };
+    // Format tags
+    const formattedTags = data["posts-tags"].split(",");
+
+    // Format frontmatter
+    const frontmatter = `title: "${data["posts-title"]}"\nsubtitle: "${data[
+      "posts-subtitle"
+    ].trim()}"\ndate: "${
+      data["posts-date"]
+    }"\tags: [${formattedTags}]\nlang: "${data["posts-lang"]}"`;
+
+    // Format content
+    fileContent = `---\n${frontmatter}\n---\n\n${data["posts-content"]}`;
+  }
 
   // 3. Prep for GitHub
   // Encode for GitHub
-  const base64Content = btoa(
-    unescape(encodeURIComponent(JSON.stringify(fileContent)))
-  );
+  const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
 
   // GitHub API setup
   const GITHUB_TOKEN = env.GITHUB_TOKEN; // stored as secret
