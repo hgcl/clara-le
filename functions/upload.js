@@ -37,7 +37,9 @@ export const onRequestPost = async (context) => {
 
   // 3. Prep for GitHub
   // Encode for GitHub
-  const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
+  const base64Content = btoa(
+    unescape(encodeURIComponent(JSON.stringify(fileContent)))
+  );
 
   // GitHub API setup
   const GITHUB_TOKEN = env.GITHUB_TOKEN; // stored as secret
