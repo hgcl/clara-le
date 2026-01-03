@@ -13,9 +13,19 @@ export const onRequestPost = async (context) => {
   // 2. Restructure file content
   const filename = `${data.date}.json`;
 
-  const fileContent = `{\n  "url": "${data.link.trim()}",\n  "title": "${data.title.trim()}",\n  "date": "${
-    data.date
-  }",\n  "description": "${data.description.trim()}",\n  "tags": ["${data.tags.trim()}",\n  "best": false]\n}`;
+  // From checkbox to boolean66
+  if (data.best && data.best === "on") {
+    data.best = "true";
+  } else {
+    data.best = "false";
+  }
+
+  // const fileContent = `{\n  "url": "${data.link.trim()}",\n  "title": "${data.title.trim()}",\n  "date": "${
+  //   data.date
+  // }",\n  "description": "${data.description.trim()}",\n  "tags": ["${data.tags.trim()}",\n  "best": ${
+  //   data.best
+  // }]\n}`;
+  const fileContent = "";
 
   // 3. Prep for GitHub
   // Encode for GitHub

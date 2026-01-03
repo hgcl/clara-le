@@ -66,6 +66,8 @@ icon: /public/img/meta/drawing-list.svg
     e.preventDefault();
 
     const data = Object.fromEntries(new FormData(e.target).entries());
+    console.log("DATA", data)
+
     const response = await fetch("/upload", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
