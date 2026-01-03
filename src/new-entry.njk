@@ -1,0 +1,80 @@
+---
+title: New entry
+description: A curated and non-exhaustive list of books, movies and series I loved and would recommend
+icon: /public/img/meta/drawing-list.svg
+---
+
+{% extends "layout/base.njk" %}
+
+{% block head %}
+<style>
+  #form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+{% endblock %}
+
+{% block article %}
+
+<section id="new-entry">
+  {% include 'post-header.njk' %}
+
+  <form id="form-wrapper">
+    <label for="post-type">Post type</label>
+    <select name="post-type" id="post-type">
+      <option value="bookmark">Bookmark</option>
+    </select>
+    <label>Link bookmarked <input type="link" id="link" name="link" /></label>
+    <label for="description">Description</label>
+    <textarea type="text" id="description" name="description"></textarea>
+    <label>Date <input type="date" id="date" name="date" /></label>
+    <label>Tags <input type="tags" id="tags" name="tags" value="miscellaneous"/></label>
+    <label for="best">Is this link incredibly good? <input type="checkbox" id="best" name="best" /></label>
+    <button
+      id="save-file"
+      type="submit"
+      data-notes="{{context.journal.length}}"
+    >
+      Save note
+    </button>
+    <p id="status"></p>
+  </form>
+</section>
+
+{% endblock %}
+
+{% block script %}
+  <script type="module">
+  /**
+   * Form submission
+   **/
+
+  //  Set default date to today
+  const dateControl = document.getElementById("date");
+  dateControl.value = new Date().toLocaleDateString("en-CA", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+
+  const form = document.getElementById("form-wrapper");
+
+  form.addEventListener("submit", submitForm);
+
+  async function submitForm(e) {
+    e.preventDefault();
+
+    const data = Object.fromEntries(new FormData(e.target).entries());
+    console.log("DATA", data)
+
+    const response = await fetch("/upload", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+    alert(await response.text());
+  }
+</script>
+
+{% endblock %}
