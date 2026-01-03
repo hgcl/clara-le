@@ -85,17 +85,17 @@ icon: /public/img/meta/drawing-list.svg
   const categorySelect = document.getElementById("category");
 
   function showForm() {
-    if (categorySelect.value === "") {
-      // Hide all
-      formEls.forEach((el) => el.setAttribute("hidden", ""));
-      return;
-    }
+    formEls.forEach((form) => {
+      const isActive = form.id === categorySelect.value;
 
-    const currentForm = document.getElementById(categorySelect.value);
+      // Hide all forms, show selected form
+      form.toggleAttribute("hidden", !isActive);
 
-    // Hide all forms, and show selected one only 
-    formEls.forEach((el) => el.setAttribute("hidden", ""));
-    currentForm.removeAttribute("hidden");
+      // Disable all fields, enable selected form fields
+      form.querySelectorAll("input, textarea, select").forEach((field) => {
+        field.disabled = !isActive;
+      });
+  });
 
     //  Set default date to today
     const dateControl = document.querySelectorAll(".date");
