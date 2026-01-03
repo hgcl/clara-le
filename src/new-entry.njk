@@ -11,6 +11,7 @@ icon: /public/img/meta/drawing-list.svg
   #form-wrapper {
     display: flex;
     flex-direction: column;
+    gap: var(--space-m);
   }
 </style>
 {% endblock %}
@@ -21,12 +22,13 @@ icon: /public/img/meta/drawing-list.svg
   {% include 'post-header.njk' %}
 
   <form id="form-wrapper">
-    <label for="category">Post category</label>
-    <select name="category" id="category">
-      <option value="bookmarks">Bookmarks</option>
-    </select>
-    <label>Link bookmarked <input type="link" id="link" name="link" /></label>
-    <label>Link title <input type="title" id="title" name="title" /></label>
+    <label for="category">Post category
+      <select name="category" id="category">
+        <option value="bookmarks">Bookmarks</option>
+      </select>
+    </label>
+    <label>Link bookmarked <input type="link" id="link" name="link" autocomplete="off" /></label>
+    <label>Link title <input type="title" id="title" name="title" autocomplete="off" /></label>
     <label for="description">Description</label>
     <textarea type="text" id="description" name="description"></textarea>
     <label>Date <input type="date" id="date" name="date" /></label>
