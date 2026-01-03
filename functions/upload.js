@@ -20,12 +20,11 @@ export const onRequestPost = async (context) => {
     data.best = "false";
   }
 
-  // const fileContent = `{\n  "url": "${data.link.trim()}",\n  "title": "${data.title.trim()}",\n  "date": "${
-  //   data.date
-  // }",\n  "description": "${data.description.trim()}",\n  "tags": ["${data.tags.trim()}",\n  "best": ${
-  //   data.best
-  // }]\n}`;
-  const fileContent = "";
+  const fileContent = `{\n  "url": "${data.link.trim()}",\n  "title": "${data.title.trim()}",\n  "date": "${
+    data.date
+  }",\n  "description": "${data.description.trim()}",\n  "tags": ["${data.tags.trim()}",\n  "best": ${
+    data.best
+  }]\n}`;
 
   // 3. Prep for GitHub
   // Encode for GitHub
