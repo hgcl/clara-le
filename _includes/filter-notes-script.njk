@@ -1,5 +1,8 @@
 <script>
-  // For the script to work, make sure the items container has the "filtered-list" class
+  // For the script to work, make sure that:
+  // - the items container has the "filtered-list" class
+  // - the item has `data-tag` listing all tags
+  // - the page contains the script `filter-notes-script.njk`
   const allNotes = document.querySelectorAll(".filtered-list  >  *");
   const filterOneSelect = document.getElementById("filter-one-select");
   const filterTwoSelect = document.getElementById("filter-two-select");
