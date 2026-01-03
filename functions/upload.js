@@ -14,26 +14,24 @@ export const onRequestPost = async (context) => {
   const slug = slugify(data.title.trim());
   const filename = `${data.date}-${slug}.json`;
 
-  // From checkbox to boolean66
+  // From checkbox to boolean
+  let formattedBest;
   if (data.best && data.best === "on") {
-    data.best = "true";
+    formattedBest = "true";
   } else {
-    data.best = "false";
+    formattedBest = "false";
   }
 
-  // const fileContent = `{\n  "url": "${data.link.trim()}",\n  "title": "${data.title.trim()}",\n  "date": "${
-  //   data.date
-  // }",\n  "description": "${data.description.trim()}",\n  "tags": ["${data.tags.trim()}",\n  "best": ${
-  //   data.best
-  // }]\n}`;
+  // Format tags
+  const formattedTags = data.tags.split(",");
 
   const fileContent = {
     url: data.link.trim(),
     title: data.title.trim(),
     date: data.date,
     description: data.description.trim(),
-    tags: [data.tags],
-    best: data.best,
+    tags: formattedTags,
+    best: formattedBest,
   };
 
   // 3. Prep for GitHub
