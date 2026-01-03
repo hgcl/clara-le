@@ -52,12 +52,12 @@ The `public` directory is published as-is and can be accessed from the client.
 - `public/img`: stores all images
 - `public/styles`: stores all CSS files
 
-## `_data`, `_config`, `_functions` directories
+## `_data`, `_config`, `functions` directories
 
 - `_data`: stores [global data files](https://www.11ty.dev/docs/data-global/) that we can access from anywhere in the project
   - The contained files `recipeData.js`, `blogrollData.js`, `bookmarkData.js` use the same code
 - `_config`: stores custom-made filters and plugins used in the project
-- `_functions`: stores functions that are used during the project build
+- `functions`: stores functions that are used during the project build
 
 ## `_includes` directory
 

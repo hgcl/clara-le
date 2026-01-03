@@ -1,4 +1,4 @@
-import getJsonFiles from "../_functions/getJsonFiles.js";
+import getJsonFiles from "../functions/getJsonFiles.js";
 
 // Get JSON files from relevant directory
 const directory = "./src/blogroll/";
