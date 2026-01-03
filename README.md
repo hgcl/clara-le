@@ -67,3 +67,11 @@ The `_includes` directory stores everything that is template-related. It contain
   - `_includes/layout/base.njk`: The top level HTML structure that wraps all pages.
   - `_includes/layout/post.njk`: The post template (wrapped inside of `base.njk`). It is used for generic posts with a `post-header.njk` at the top, footnotes support and a comment section at the bottom.
 - `macro`: a macro is a snippet that can be injected in a page or template, its content can be defined when injecting it
+
+## Image processing
+
+For the media images:
+
+```
+vipsthumbnail -o ./output/%s.webp[Q=70,effort=6,strip=true] -s 500 -a --vips-progress *.jpg
+```

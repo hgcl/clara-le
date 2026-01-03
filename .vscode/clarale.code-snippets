@@ -33,6 +33,24 @@
     "description": "New empty blog post"
   },
 
+  "New media post": {
+    "scope": "markdown",
+    "prefix": "new-media-post",
+    "body": [
+      "---",
+      "title: \"${1:TODO}\"",
+      "mediaAuthor: [\"${2:TODO}\"]",
+      "cover: \"${3:TODO}.webp\"",
+      "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+      "tags: [\"${4:book}\"]",
+      "year: \"${5:0000}\"",
+      "---",
+      "",
+      "${6:TODO}"
+    ],
+    "description": "New empty blog post"
+  },
+
   "New webmention reply": {
     "scope": "markdown",
     "prefix": "new-webmention-reply",
