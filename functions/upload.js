@@ -11,7 +11,8 @@ export const onRequestPost = async (context) => {
   }
 
   // 2. Restructure file content
-  const filename = `${data.date}.json`;
+  const slug = slugify(data.title.trim());
+  const filename = `${data.date}-${slug}.json`;
 
   // From checkbox to boolean66
   if (data.best && data.best === "on") {
@@ -70,3 +71,12 @@ export const onRequestPost = async (context) => {
     return new Response("GitHub upload failed: " + error, { status: 500 });
   }
 };
+
+function slugify(str) {
+  return str
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9 -]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
