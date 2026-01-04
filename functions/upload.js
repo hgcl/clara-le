@@ -51,14 +51,14 @@ export const onRequestPost = async (context) => {
 
     // Format tags
     const tagsArray = data["posts-tags"].split(",");
-    const formattedTags = tagsArray.map((tag) => tag.trim()).join(`","`);
+    const formattedTags = `"${tagsArray.map((tag) => tag.trim()).join(`","`)}"`;
 
     // Format frontmatter
     const frontmatter = `title: "${data["posts-title"]}"\nsubtitle: "${data[
       "posts-subtitle"
     ].trim()}"\ndate: "${
       data["posts-date"]
-    }"\ntags: ["${formattedTags}"]\nlang: "${data["posts-lang"]}"`;
+    }"\ntags: [${formattedTags}]\nlang: "${data["posts-lang"]}"`;
 
     // Format content
     fileContent = `---\n${frontmatter}\n---\n\n${data["posts-content"]}`;
