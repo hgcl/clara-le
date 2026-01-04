@@ -42,11 +42,12 @@ pagination:
             <span class="details">
               <a href="{{ item.url }}">{{ item.title }}</a>
               <span class="subtle">{{ item.description }}</span>
-              <span class="label">
                 {% set divider = joiner(" / ") %}
+                {% if item.tags %}
                 {%- for tag in item.tags -%}
-                  {{ divider() }}{{ tag }}
+                  {{ divider() }}<a class="tag" href="{{ tag }}">{{ tag }}</a>
                 {%- endfor -%}
+                {% endif %}
             </span>
           </li>
         {% endfor %}

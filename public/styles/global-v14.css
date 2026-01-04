@@ -592,6 +592,25 @@ input[type="checkbox"] {
   /* font styles smaller than body */
   font-size: var(--font-xs);
 }
+/* Linked tags */
+.tag {
+  /* Reset default <a> styles */
+  background-image: none;
+  text-decoration: none;
+  /* Custom styles */
+  display: inline-block;
+  font-size: var(--font-xs);
+  text-transform: uppercase;
+  color: rgba(var(--blue-dark), 1);
+  background-color: var(--color-text-highlight);
+  padding: 0.1em 0.6em;
+}
+.tag:hover,
+.tag:focus {
+  text-decoration: none;
+  color: var(--color-bg);
+  background-color: var(--color-accent);
+}
 /* .post-rows and .post-rows-with-label (with date) */
 .post-rows > li .subtle,
 .post-rows-with-label > li .subtle {
