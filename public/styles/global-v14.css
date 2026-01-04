@@ -503,19 +503,10 @@ button:focus,
 a,
 .secondary-link {
   color: var(--color-text);
-  background-image: linear-gradient(
-    120deg,
-    var(--color-text-highlight),
-    var(--color-text-highlight)
-  );
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  background-size: 105% 0;
-  transition: background-size 0.125s ease-in;
-  text-underline-offset: 0.3em;
 }
 a {
   text-decoration: var(--line-thickness) underline;
+  text-underline-offset: 0.3em;
 }
 .secondary-link {
   text-decoration: none;
@@ -525,8 +516,7 @@ a:hover,
 a:focus,
 .secondary-link:hover,
 .secondary-link:focus {
-  background-size: 100% 100%;
-  text-decoration: var(--line-thickness) underline;
+  background-color: var(--color-text-highlight);
 }
 a:focus,
 .secondary-link:focus {
