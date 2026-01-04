@@ -1,1 +1,8 @@
-{"url":"https://bechdeltest.com/","title":"Bechdel Test Movie List","date":"2025-01-03","description":"Does the movie pass these criteria? (1) It has to have at least two women in it, who (2) who talk to each other, about (3) something besides a man","tags":[""],"best":"false"}
+{
+  "url": "https://bechdeltest.com/",
+  "title": "Bechdel Test Movie List",
+  "date": "2025-01-03",
+  "description": "Does the movie pass these criteria? (1) It has to have at least two women in it, who (2) who talk to each other, about (3) something besides a man",
+  "tags": [],
+  "best": "false"
+}
