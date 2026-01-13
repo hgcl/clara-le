@@ -14,5 +14,15 @@
   "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
     "lacto-fermented",
     "webmentions"
-  ]
+  ],
+  "files.exclude": {
+    "_config": true,
+    "_data": true,
+    "_includes": true,
+    "_site": true,
+    "functions": true,
+    "node_modules": true,
+    "public": true,
+    "src/bookmarks/202[!6]*": true
+  }
 }
