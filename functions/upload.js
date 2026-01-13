@@ -74,7 +74,7 @@ export const onRequestPost = async (context) => {
   const githubUrl = `https://api.github.com/repos/${REPO}/contents/src/${data.category}/${filename}`;
 
   const body = JSON.stringify({
-    message: `content: :robot: new entry in ${data.category}: ${filename}`,
+    message: `docs: :robot: new entry in ${data.category}: ${filename}`,
     content: base64Content,
   });
 
