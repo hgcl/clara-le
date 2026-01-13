@@ -11,12 +11,12 @@
       "ingMand": [
         { "value": 6, "type": "", "name": "eggs" },
         {
-          "value": 75,
+          "value": 70,
           "type": "g",
           "name": "soy sauce (half strong, half soft)"
         },
-        { "value": 25, "type": "g", "name": "water" },
-        { "value": 3, "type": "tsp", "name": "sugar" }
+        { "value": 30, "type": "g", "name": "water" },
+        { "value": [2, 3], "type": "tsp", "name": "sugar" }
       ],
       "ingOpt": [
         { "value": 1, "type": "tsp", "name": "white vinegar" },

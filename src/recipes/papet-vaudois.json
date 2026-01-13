@@ -1,0 +1,65 @@
+{
+  "title": "Papet vaudois",
+  "date": "2026-01-13",
+  "lang": "fr",
+  "dataTag": ["main", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 2, "type": "", "name": "saucisses aux choux" },
+        {
+          "value": 2,
+          "type": "",
+          "name": "oignons",
+          "prep": "finement hachés"
+        },
+        {
+          "value": 1,
+          "type": "kg",
+          "name": "poireau",
+          "prep": "coupé en morceaux de 3 cm"
+        },
+        {
+          "value": 250,
+          "type": "ml",
+          "name": "bouillon"
+        },
+        {
+          "value": 500,
+          "type": "g",
+          "name": "pommes de terre",
+          "prep": "coupées en gros dés"
+        },
+        { "value": 100, "type": "ml", "name": "crème" },
+        { "value": 1, "type": "cs", "name": "vinaigre blanc" },
+        "Beurre",
+        "Set et poivre",
+        "Noix de muscade"
+      ],
+      "ingOpt": [
+        {
+          "value": 250,
+          "type": "ml",
+          "name": "vin blanc"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Cuire les saucisses aux choux (percées de 1–2 cure-dents) 30–40 min dans l'eau frémissante, réserver.",
+        "Faire revenir les oignons dans le beurre, ajouter le poireau, faire revenir. Mouiller avec le vin et le bouillon, cuire 15 min.",
+        "Ajouter les pommes de terre, laisser mijoter 20 min.",
+        "Incorporer la crème et le vinaigre, rectifier l'assaisonnement.",
+        "Servir le papet sur des assiettes chaudes. Garnir chaque assiette de papet d'une saucisse."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.swissmilk.ch/fr/recettes-idees/recettes/LM199905_29_MEN905B028A/papet-vaudois/"
+}

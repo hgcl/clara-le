@@ -1,0 +1,38 @@
+{
+  "title": "V60 coffee",
+  "date": "2026-01-13",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "The basic V60 recipe I follow when preparing coffee beans for the first time.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 20, "type": "g", "name": "coffee" },
+        { "value": 300, "type": "ml", "name": "water" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Preparations",
+      "insSteps": [
+        "Grind the coffee beans to be about the size of sand. On my Knock Aergrind, that translates to the 2.4 dial.",
+        "Heat the water to about 93 °C. Place the filter on your V60, and wash it with the hot water a few times to remove the paper taste."
+      ]
+    },
+    {
+      "insTitle": "Brewing",
+      "insSteps": [
+        "Add the ground coffee to the filter, and make a small dip in it.",
+        "I do five even pours of 60 g each.",
+        "Each pour takes around 10 seconds in a steady spiral motion, starting from the centre and moving outward.",
+        "There is a 30-second break between each pour."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.nicolebattefeld.com/post/v60-recipe"
+}
