@@ -10,7 +10,7 @@
       "ingTitle": "First fermentation",
       "ingMand": [
         { "value": 100, "type": "g", "name": "kefir grains" },
-        { "value": 100, "type": "g", "name": "sugar" },
+        { "value": 90, "type": "g", "name": "sugar" },
         { "value": 1.5, "type": "L", "name": "water" },
         [
           { "value": 1, "type": "", "name": "dried fig" },
@@ -60,6 +60,7 @@
     }
   ],
   "notes": [
+    "If you don't add any kind of sweet ingredient during the secondary fermentation, you can use 80 g sugar in the first fermentation, and add 10 g in the second. This will help with creating carbonation.",
     "Contrary to urban legends, it is okay to use metal instruments when dealing with kefir.",
     "During the first fermentation, the lemon slices are optional, but help with preventing other bacteria (than kefir grains) to grow.",
     "If your kefir grains smell like vinegar, becomes sticky, and stringy, they might be dying. To save it: divide it, rinse it several times with 10 % vinegar water (alcohol vinegar), cover with water to the top and add 1 tablespoon of sugar, let it rest in the refrigerator for 24 hours, rinse it again and ferment it at room temperature. You should be able to make kefir again after this treatment.",
