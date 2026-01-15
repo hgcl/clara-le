@@ -136,7 +136,7 @@ src
 
 The `globals.css` file contains all the base styles, CSS variables, and CSS utils reused throughout the library — e.g. colors, spacings, general typography styles.
 
-Each component has a directory (e.g. `Button`), which contains the component main file `index.ts`, its types `types.ts`, its styles `Button.module.css` and linked story `Button.stories.tsx`.
+Each component has a directory (e.g. `Button`), which contains the component main file `index.ts`, its types `types.ts`, its styles (e.g. `Button.module.css`) and linked story (e.g. `Button.stories.tsx`).
 
 So that `Button/index.ts` can import `Button.module.css` without any error, you need to declare the CSS module type. Create a `declaration.d.ts` file in the `src` directory, and add the following code:
 
@@ -319,11 +319,11 @@ dist
 └── index.d.ts
 ```
 
-As you can see, each component has a directory (e.g. `Banner`), which contains the component main file `index.js`[^3], its types (e.g. `index.d.ts` and `types.d.ts`), and its styles `Banner.module.css.js`.
+As you can see, each component has a directory (e.g. `Banner`), which contains the component main file (`index.js`)[^3], its types (`index.d.ts` and `types.d.ts`), and its styles (e.g. `Banner.module.css.js`).
 
-But why do we get a `.css.js` file instead of a regular `.css` format? Rollup treats CSS as a JavaScript module by default. Rollup extracted a unique `index.css` file in `dist`, regrouping all components styles.
+But why do we get a `.css.js` file instead of a regular `.css` format? Rollup treats CSS as a JavaScript module by default.
 
-`Banner.module.css.js` exports the class names only, which link to the `index.css` styles. To make it clearer, here is an example of the generated built...
+`Banner.module.css.js` exports the class names only, which link to the `index.css` stylesheet, that regroups all component styles. To make it clearer, here is an example of the generated built...
 
 ```js
 // dist/components/Banner/Banner.module.css.js
@@ -353,7 +353,7 @@ export { styles as default };
 /* ... other components CSS */
 ```
 
-This setup is quite simple and would work. In your app, you would only need to import a single CSS file to get all components styles:
+This setup is quite simple and would work. In your app, you need to import a single CSS file to get all components styles:
 
 ```js
 import "ui-library/index.css";
@@ -446,7 +446,7 @@ export default [
 ];
 ```
 
-Build the `dist` package again, you should now see a `.module.css` file inside each component folder. If yes: great success!
+Build the `dist` package again, you should now see a `.module.css` file inside each component folder. If that's your case: great success!
 
 <aside>
 
@@ -468,7 +468,7 @@ Get back to the `package.json` file, and add the following:
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    // enables `import { Button } from "@hgcle/ui-library/Button"`
+    // enables `import Button from "@hgcle/ui-library/Button"`
     "./*": {
       "import": "./dist/components/*/index.js",
       "types": "./dist/components/*/index.d.ts"
@@ -488,7 +488,7 @@ In your Next.js app, you can now import the library components and global styles
 ```ts
 import { Button } from "@hgcle/ui-library";
 // or
-import { Button } from "@hgcle/ui-library/Button";
+import Button from "@hgcle/ui-library/Button";
 
 import "@hgcle/ui-library/globals.css";
 ```
