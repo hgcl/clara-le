@@ -211,7 +211,7 @@ As Next.js is marked as a peer dependency, you can safely remove it from the lib
 In your project root, create a `rollup.config.mjs` file with this config:
 
 ```js
-// rollup.congif.mjs
+// rollup.config.mjs
 import fs from "fs";
 import path from "path";
 import typescript from "@rollup/plugin-typescript";
@@ -311,10 +311,9 @@ dist
 │   │   ├── index.d.ts
 │   │   ├── index.js
 │   │   ├── types.d.ts
-│   │   ├── ... other source map files, used for debugging
+│   │   └── # ... other source map files, used for debugging
 │   └── Button
-│       ├── ...
-│       └── ...
+│       └── # ...
 ├── index.css # one CSS file created
 └── index.d.ts
 ```
@@ -323,7 +322,7 @@ As you can see, each component has a directory (e.g. `Banner`), which contains t
 
 But why do we get a `.css.js` file instead of a regular `.css` format? Rollup treats CSS as a JavaScript module by default.
 
-`Banner.module.css.js` exports the class names only, which link to the `index.css` stylesheet, that regroups all component styles. To make it clearer, here is an example of the generated built...
+`Banner.module.css.js` exports the class names only, which link to the `index.css` stylesheet, that regroups all component styles. To make it clearer, here is an example of the generated build...
 
 ```js
 // dist/components/Banner/Banner.module.css.js
@@ -384,12 +383,11 @@ dist
 │   │   ├── index.d.ts
 │   │   ├── index.js
 │   │   ├── types.d.ts
-│   │   └── ...
+│   │   └── # ...
 │   └── Button
-│       ├── ...
-│       └── ...
+│       └── # ...
 ├── index.d.ts
-└── ...
+└── # ...
 
 ```
 
