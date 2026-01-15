@@ -73,16 +73,15 @@ Add a `tsconfig.json` file in your project root with the following info:
 // tsconfig.json
 {
   "compilerOptions": {
-    "target": "esnext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "target": "esnext" /* Set the JS language version for emitted JS and include compatible library declarations. */,
     "jsx": "react-jsx" /* Specify what JSX code is generated. */,
     "module": "ESNext" /* Specify what module code is generated. */,
     "moduleResolution": "Node" /* Specify how TypeScript looks up a file from a given module specifier. */,
-    "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
+    "declaration": true /* Generate .d.ts files from TypeScript and JS files */,
     "declarationMap": true /* Create sourcemaps for d.ts files. */,
-    "emitDeclarationOnly": false /* Only output d.ts files and not JavaScript files. */,
-    "sourceMap": true /* Create source map files for emitted JavaScript files. */,
+    "emitDeclarationOnly": false /* Only output d.ts files and not JS files. */,
+    "sourceMap": true /* Create source map files for emitted JS files. */,
     "outDir": "dist" /* Specify an output folder for all emitted files. */,
-    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
     "strict": true /* Enable all strict type-checking options. */,
@@ -162,7 +161,7 @@ export { default as Button } from "./components/Button";
 When you have a few components ready, you will need to set up Rollup (and a few other dependencies) to package your library.
 
 ```bash
-npm install --save-dev rollup @rollup/plugin-typescript rollup-plugin-copy rollup-plugin-peer-deps-external
+npm install --save-dev rollup @rollup/plugin-typescript rollup-plugin-peer-deps-external
 ```
 
 Edit your `package.json` file to look like this:
@@ -188,7 +187,6 @@ Edit your `package.json` file to look like this:
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.3.0",
     "rollup": "^4.55.1",
-    "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "next": "^16.1.2" // uninstall this Next.js dependency
     // ... same dev dependencies as before
@@ -420,7 +418,6 @@ export default [
       typescript({
         tsconfig: "./tsconfig.json",
       }),
-      // copy CSS modules
       copy({
         targets: [
           // 1. copy the CSS modules
@@ -448,7 +445,7 @@ Build the `dist` package again, you should now see a `.module.css` file inside e
 
 <aside>
 
-Do you remember that `src/assets/globals.css` file containing our library CSS variables and base styles? As you can see in the above snippet, I also extracted them into `dist`, right after dealing with the CSS modules.
+Do you remember that `src/assets/globals.css` file containing our library CSS variables and base styles? As you can see in the above snippet, I also extracted them into `dist`, right after copying the CSS modules.
 
 </aside>
 
@@ -461,20 +458,15 @@ Get back to the `package.json` file, and add the following:
 ```json
 {
   "exports": {
-    // enables `import { Button } from "@hgcle/ui-library"`
+    // enables `import { Button } from "ui-library"`
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    // enables `import Button from "@hgcle/ui-library/Button"`
-    "./*": {
-      "import": "./dist/components/*/index.js",
-      "types": "./dist/components/*/index.d.ts"
-    },
-    // enables `import "@hgcle/ui-library/globals.css"`
+    // enables `import "ui-library/globals.css"`
     "./globals.css": "./dist/assets/globals.css"
   },
-  // avoids tree-shaking
+  // avoids tree-shaking for CSS
   "sideEffects": ["**/*.css"]
 
   // ... same config as before
@@ -483,12 +475,9 @@ Get back to the `package.json` file, and add the following:
 
 In your Next.js app, you can now import the library components and global styles:
 
-```ts
-import { Button } from "@hgcle/ui-library";
-// or
-import Button from "@hgcle/ui-library/Button";
-
-import "@hgcle/ui-library/globals.css";
+```js
+import { Button } from "ui-library";
+import "ui-library/globals.css";
 ```
 
 We are finished with the library. Let's publish it!
