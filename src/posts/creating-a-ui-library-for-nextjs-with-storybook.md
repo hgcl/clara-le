@@ -21,7 +21,7 @@ npm init
 Install the React, Next.js and TypeScript dependencies:
 
 ```bash
-npm install --save-dev rollup react react-dom next typescript @types/react
+npm install --save-dev react react-dom next typescript @types/react
 ```
 
 If you want linting, install ESLint following their [installation guide](https://eslint.org/docs/latest/use/getting-started). Accept installing the extra dependencies when prompted.
@@ -84,7 +84,7 @@ Add a `tsconfig.json` file in your project root with the following info:
     "outDir": "dist" /* Specify an output folder for all emitted files. */,
     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
-        "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
     "strict": true /* Enable all strict type-checking options. */,
   },
   "exclude": ["**/*.stories.ts", "**/*.stories.tsx"]
