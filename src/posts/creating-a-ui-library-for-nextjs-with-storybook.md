@@ -1,6 +1,6 @@
 ---
 title: "Creating a UI library for Next.js with Storybook"
-subtitle: "How to build a library with Next.js, Storybook, TypeScript and Rollup"
+subtitle: "How I built a library with Next.js, Storybook, TypeScript and Rollup"
 date: "2026-01-15"
 tags: ["digital"]
 lang: "en"
