@@ -24,7 +24,7 @@
         />
         <link
           rel="stylesheet"
-          href="/public/styles/global-v14.css"
+          href="/public/styles/global-v15.css"
           type="text/css"
         />
         <link
