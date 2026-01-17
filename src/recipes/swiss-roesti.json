@@ -1,0 +1,31 @@
+{
+  "title": "Swiss Rösti",
+  "date": "2026-01-17",
+  "lang": "en",
+  "dataTag": ["main", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["Potatoes, parboiled", "Butter (or oil)", "Salt and pepper"],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "I usually start with some parboiled (or even boiled) potatoes, but many recipes also start with raw potatoes.",
+        "Grate the potatoes in a big bowl.",
+        "Add salt, pepper, and any other kind of seasoning you may want.",
+        "In a pan, heat plenty of butter/oil on medium-low.",
+        "When the pan is hot enough, pour the potato mixture in the pan, flattening it slightly. It should hold together, but not be too compressed for an airy texture. Cook for about 10 minutes.",
+        "When golden on one side, turn the rösti galette over, and cook for 10 more minutes. Add some oil if needed.",
+        "Serve with a sunny side-up egg on top, and a salad on the side."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}
