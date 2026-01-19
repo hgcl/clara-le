@@ -1,1 +1,8 @@
-{"url":"https://sinja.io/","title":"OlegWock","date":"2026-01-19","description":"A web developer's blog, primarily working on the frontend side of things.","tags":["coding"," blog"],"best":"false"}
+{
+  "url": "https://sinja.io/",
+  "title": "OlegWock",
+  "date": "2026-01-19",
+  "description": "A web developer's blog, primarily working on the frontend side of things.",
+  "tags": ["coding", "blog"],
+  "best": "false"
+}

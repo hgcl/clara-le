@@ -1,1 +1,8 @@
-{"url":"https://theosoti.com/","title":"Theo Soti","date":"2026-01-19","description":"A designer and front-end developer passionate about CSS and crafting beautiful, user-friendly interfaces.","tags":["coding"],"best":"false"}
+{
+  "url": "https://theosoti.com/",
+  "title": "Theo Soti",
+  "date": "2026-01-19",
+  "description": "A designer and front-end developer passionate about CSS and crafting beautiful, user-friendly interfaces.",
+  "tags": ["coding", "blog"],
+  "best": "false"
+}
