@@ -43,6 +43,32 @@ export const onRequestPost = async (context) => {
     fileContent = JSON.stringify(json);
   }
 
+  // FOR BLOGROLL
+  if (data.category === "blogroll") {
+    // Format filename
+    const slug = slugify(data["blogroll-title"].trim());
+    filename = `${slug}.json`;
+
+    // From checkbox to boolean
+    let formattedBest;
+    if (data["blogroll-best"] && data["blogroll-best"] === "on") {
+      formattedBest = "true";
+    } else {
+      formattedBest = "false";
+    }
+
+    // Format content
+    const json = {
+      url: data["blogroll-link"].trim(),
+      title: data["blogroll-title"].trim(),
+      description: data["blogroll-description"].trim(),
+      tags: data["blogroll-tags"],
+      best: formattedBest,
+    };
+
+    fileContent = JSON.stringify(json);
+  }
+
   // FOR MUSINGS
   if (data.category === "posts") {
     // Format filename
