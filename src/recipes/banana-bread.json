@@ -15,7 +15,7 @@
           "name": "butter",
           "prep": "cut into chunks"
         },
-        { "value": 130, "type": "g", "name": "sugar" },
+        { "value": 110, "type": "g", "name": "sugar" },
         {
           "value": 5,
           "type": "",
@@ -29,8 +29,12 @@
         { "value": 260, "type": "g", "name": "flour" },
         { "value": 1, "type": "tsp", "name": "baking soda" },
         [
-          { "value": 100, "type": "g", "name": "sourdough starter" },
-          { "value": 1, "type": "tsp", "name": "baking powder" }
+          {
+            "value": 100,
+            "type": "g",
+            "name": "sourdough starter (+ 1 tsp baking soda)"
+          },
+          { "value": 8, "type": "", "name": "baking powder" }
         ]
       ],
       "ingOpt": [
@@ -44,7 +48,7 @@
       "insTitle": "",
       "insSteps": [
         "Heat oven to 150 °C. Line a 20 cm loaf tin.",
-        "Melt butter in a large pan. Whisk in brown sugar until smooth, then stir in 3 mashed bananas. Whisk in eggs, vanilla, salt, cinnamon, nutmeg, baking soda (Natron), and sourdough starter (or baking powder). Whisk until the ingredients are fully dispersed in the batter.",
+        "Melt butter in a large pan. Add brown sugar, and 3 mashed bananas. Whisk in eggs, vanilla, salt, cinnamon, nutmeg, baking soda, and sourdough starter (or baking powder). Whisk until the ingredients are fully dispersed in the batter.",
         "Add flour, add the chopped walnuts and stir until combined. Add the rest of the bananas (sliced). Scrape batter into prepared loaf tin.",
         "Bake banana bread for 75 minutes, or more. Test with a knife — the top third is often slowest to cook. The bread will get very dark but will not taste burnt.",
         "Let cool in pan."
