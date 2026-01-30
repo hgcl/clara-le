@@ -1,0 +1,101 @@
+{
+  "title": "Swiss tresse",
+  "date": "2026-01-30",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 300,
+          "type": "g",
+          "name": "milk"
+        },
+        [
+          {
+            "value": 20,
+            "type": "g",
+            "name": "fresh yeast",
+            "prep": "crumbled"
+          },
+          {
+            "value": 8,
+            "type": "g",
+            "name": "dry yeast"
+          }
+        ],
+        {
+          "value": 1,
+          "type": "tbsp",
+          "name": "sugar"
+        },
+        {
+          "value": 500,
+          "type": "g",
+          "name": "flour (ideally with 10% spelt)"
+        },
+        {
+          "value": 1.5,
+          "type": "tsp",
+          "name": "salt"
+        },
+
+        {
+          "value": 60,
+          "type": "g",
+          "name": "butter",
+          "prep": "soft and diced"
+        }
+      ],
+      "ingOpt": [
+        {
+          "value": 1,
+          "type": "",
+          "name": "egg yolk",
+          "prep": "mixed with water"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "First rise",
+      "insSteps": [
+        "In a big bowl, mix the yeast and sugar in the milk. Add the flour and mix some more.",
+        "Add the salt, butter, and knead the dough for 10–15 minutes, until soft and smooth.",
+        "Cover and let the dough rise for two hours. The dough should double in size."
+      ]
+    },
+    {
+      "insTitle": "Shaping",
+      "insSteps": [
+        "Once the dough has doubled in size, turn it out onto a lightly floured work surface. Gather it into a large ball and divide it into two equal portions.",
+        "Shape each portion into a roll of the same length, tapering the ends. All that's left is to braid your tresse.",
+        "Remember to firmly press the braids ends together, and tuck them under the bread."
+      ]
+    },
+    {
+      "insTitle": "Second rise",
+      "insSteps": [
+        "Mix your egg yolk with a bit of water, and brush the dough with it.",
+        "Let the dough rise for 30–90 minutes, depending on temperature. I usually put it in a warm oven for 30 minutes.",
+        "When the dough has expanded, and approximately doubled in size, brush it with some more egg yolk."
+      ]
+    },
+    {
+      "insTitle": "Baking",
+      "insSteps": [
+        "Preheat your oven at 180 °C.",
+        "Bake your tresse for 25–30 minutes.",
+        "Your tresse is ready if it sounds hollow when you tap the bottom with your finger."
+      ]
+    }
+  ],
+  "notes": [
+    "In winter, I leave my dough to rise all night, before shaping it in the morning."
+  ],
+  "sourceUrl": "https://delimoon.com/tresse-du-dimanche/"
+}
