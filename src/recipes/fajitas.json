@@ -1,0 +1,150 @@
+{
+  "title": "Fajitas",
+  "date": "2026-02-07",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "Fajitas night for 4 people",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Chicken",
+      "ingMand": [
+        {
+          "value": [800, 900],
+          "type": "g",
+          "name": "chicken breasts",
+          "prep": "boneless"
+        },
+        {
+          "value": 4,
+          "type": "tbsp",
+          "name": "oil"
+        },
+        {
+          "value": 3,
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "minced"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "cumin"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "oregano"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "chili powder"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "smoked paprika"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "salt"
+        }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Vegetables",
+      "ingMand": [
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "oil"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "red onion",
+          "prep": "sliced into 5 mm"
+        },
+        {
+          "value": 4,
+          "type": "",
+          "name": "bell peppers",
+          "prep": "diced"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "salt"
+        }
+      ],
+      "ingOpt": [
+        {
+          "value": 1,
+          "type": "can",
+          "name": "red beans"
+        },
+        {
+          "value": 1,
+          "type": "",
+          "name": "lime zest"
+        }
+      ]
+    },
+    {
+      "ingTitle": "For serving",
+      "ingMand": [
+        {
+          "value": 24,
+          "type": "",
+          "name": "medium tortillas"
+        },
+        {
+          "value": 1,
+          "type": "portion",
+          "name": "salsa",
+          "url": "salsa"
+        },
+        "Sour cream, yoghurt or faisselle"
+      ],
+      "ingOpt": [
+        "Chopped cilantro",
+        "Guacamole",
+        {
+          "value": 1,
+          "type": "can",
+          "name": "corn"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Marinade",
+      "insSteps": [
+        "Using a meat mallet, pound the chicken breasts into 10 mm thickness.",
+        "Cut the chicken into bite-sized pieces.",
+        "Prepare the marinade by mixing the oil, garlic, cumin, oregano, chili powder, smoked paprika, and salt. Using your hands, massage the marinade into meat until evenly coated. Cover and place in the refrigerator for 8–24 hours"
+      ]
+    },
+    {
+      "insTitle": "Vegetables",
+      "insSteps": [
+        "Heat the oil in a large skillet over medium-high heat. Add the sliced onions, peppers, and salt; cook, stirring occasionally, until the vegetables start to brown and a brown film forms around edges of the bottom of the pan, 8–10 minutes.",
+        "Add 50 ml of water to the pan; scrape the bottom of the pan with a wooden spoon to release any browned bits. Continue cooking for 3–4 minutes, until the water is evaporated and the pan starts to brown again; add 60 ml more water and cook a few minutes more, until the vegetables are tender-crisp.",
+        "Add the cooked beans and cook a few more minutes for the tastes to blend together.",
+        "Season to taste with more salt if necessary, add a bit of lime juice and the lime zest. Set aside."
+      ]
+    },
+    {
+      "insTitle": "Chicken",
+      "insSteps": [
+        "In another pan, or on the grill, grill the chicken, covered, for 1–2 minutes per side. Do not overcook."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.onceuponachef.com/recipes/chicken-fajitas.html#tabrecipe"
+}

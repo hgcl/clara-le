@@ -1,0 +1,84 @@
+{
+  "title": "Salsa",
+  "date": "2026-02-07",
+  "lang": "en",
+  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "10",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 1,
+          "type": "can",
+          "name": "whole peeled tomatoes"
+        },
+        {
+          "value": 1,
+          "type": "cup",
+          "name": "fresh cilantro",
+          "prep": "chopped"
+        },
+        {
+          "value": 1,
+          "type": "cup",
+          "name": "red onion",
+          "prep": "diced"
+        },
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "red wine vinegar (or lime juice)"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "pressed"
+        },
+        {
+          "value": 1,
+          "type": "tbsp",
+          "name": "red pepper flakes"
+        },
+        {
+          "value": 2,
+          "type": "tsp",
+          "name": "salt"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "smoked paprika"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "cumin"
+        }
+      ],
+      "ingOpt": [
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "Mexican oregano (or marjoram)"
+        },
+        "Chili sauce"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a blender or large food processor fitted with the steel blade, blend all of the ingredients together until the salsa is puréed but still just slightly chunky — don't overblend. Don't add all the tomato juice at once, adjust as you go.",
+        "Taste and adjust seasoning if necessary.",
+        "Let your salsa marinate for a few hours in the refrigerator will yield the best flavors.",
+        "Refrigerate for at least 30 minutes or up to 1 week."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://natashaskitchen.com/easy-homemade-salsa/"
+}
