@@ -2,7 +2,7 @@
   "title": "Fresh cheese",
   "date": "2019-01-27",
   "lang": "en",
-  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "60",
   "ingredients": [

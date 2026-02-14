@@ -2,7 +2,7 @@
   "title": "Roasted eggplants",
   "date": "2025-09-15",
   "lang": "en",
-  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
   "intro": "The easiest (but still delicious) way to cook eggplants.",
   "duration": "40",
   "ingredients": [

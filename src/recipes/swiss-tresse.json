@@ -2,7 +2,7 @@
   "title": "Swiss tresse",
   "date": "2026-01-30",
   "lang": "en",
-  "dataTag": ["side", "spring", "summer", "fall", "winter"],
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "",
   "ingredients": [
