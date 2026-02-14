@@ -45,7 +45,7 @@ pagination:
                 {% set divider = joiner(" / ") %}
                 {% if item.tags %}
                 {%- for tag in item.tags -%}
-                  {{ divider() }}<a class="tag" href="/bookmarks/?q={{ tag }}">{{ tag }}</a>
+                  {{ divider() }}<a class="chip" href="/bookmarks/?q={{ tag }}">{{ tag }}</a>
                 {%- endfor -%}
                 {% endif %}
             </span>

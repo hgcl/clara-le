@@ -39,11 +39,11 @@
         <span>
           <!-- TODO remove extra space -->
           {% for tag in tags | filterTags %}
-            <a class="tag" href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>
+            <a class="chip" href="/{{ directory }}/?q={{ tag }}">{{ tag }}</a>
           {% endfor %}
           <!-- We need a second loop for tags that are filtered in a separate selector to make recipes page work. Reason: all tags are under the same "tags" frontmatter and cannot be differentiated before. -->
           {% for tag in tags | filterTags("tags-two") %}
-            <a class="tag" href="/{{ directory }}/?r={{ tag }}">{{ tag }}</a>
+            <a class="chip" href="/{{ directory }}/?r={{ tag }}">{{ tag }}</a>
           {% endfor %}
         </span>
       {% endif %}

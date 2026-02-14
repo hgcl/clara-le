@@ -44,8 +44,9 @@
 /* GENERAL TAGS */
 html {
   font-size: 16px;
-  --font-mono: ui-monospace, "Source Code Pro", Menlo, Consolas,
-    "DejaVu Sans Mono", monospace;
+  --font-mono:
+    ui-monospace, "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono",
+    monospace;
   --color-bg: rgba(var(--white), 1);
   --color-text: rgba(var(--blue), 1);
   --color-text-subtle: rgba(var(--blue), var(--opacity-low));
@@ -550,8 +551,8 @@ a:focus,
   filter: grayscale(100%) brightness(0.5) blur(1px);
 }
 /* External links */
-a[href*="//"]:not([href*="clarale.com"])::after, .external-link::after
-{
+a[href*="//"]:not([href*="clarale.com"])::after,
+.external-link::after {
   content: "\00A0\2197"/ "";
 }
 /* Forms */
@@ -582,8 +583,8 @@ input[type="checkbox"] {
   /* font styles smaller than body */
   font-size: var(--font-xs);
 }
-/* Linked tags */
-.tag {
+/* Linked chips */
+.chip {
   /* Reset default <a> styles */
   background-image: none;
   text-decoration: none;
@@ -595,8 +596,8 @@ input[type="checkbox"] {
   background-color: var(--color-text-highlight);
   padding: 0.1em 0.6em;
 }
-.tag:hover,
-.tag:focus {
+.chip:hover,
+.chip:focus {
   text-decoration: none;
   color: var(--color-bg);
   background-color: var(--color-accent);
