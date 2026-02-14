@@ -1,0 +1,54 @@
+{
+  "title": "Apple pie (thin)",
+  "date": "2026-02-14",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 1,
+          "type": "",
+          "name": "puff pastry dough",
+          "url": "basic-puff-pastry"
+        },
+        {
+          "value": [5, 6],
+          "type": "",
+          "name": "apples",
+          "prep": "cored and thinly sliced"
+        },
+        {
+          "value": 250,
+          "type": "g",
+          "name": "apple compote"
+        }
+      ],
+      "ingOpt": [
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "cinnamon"
+        },
+        "Apricot jam",
+        "Sugar"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Roll out the puff pastry to be approximately 3–4 mm thick. Prick it with a fork for an even bake.",
+        "Spread the apple compote over the puff pastry, leaving a 1 cm border, then arrange the apple slices over the entire surface.",
+        "Sprinkle generously with cinnamon and sugar before baking for 45–60 minutes at 180 °C. The apples should be very soft and the puff pastry crisp.",
+        "Once out of the oven, brush with apricot jam that has been warmed in the microwave to give it a glossy, even more colorful finish."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.williamskitchenblog.com/post/tarte-fine-pommes"
+}

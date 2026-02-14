@@ -1,18 +1,18 @@
 {
   "title": "Basic puff pastry",
-  "date": "2022-12-15",
+  "date": "2026-02-14",
   "lang": "en",
   "dataTag": ["basic", "spring", "summer", "fall", "winter"],
   "intro": "This puff pastry recipe doesn't result in as many layers as a store-bought dough, but it does the job with minimal effort.",
-  "duration": "140",
+  "duration": "60",
   "ingredients": [
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 250, "type": "g", "name": "flour" },
-        { "value": 280, "type": "g", "name": "butter", "prep": "very cold" },
-        { "value": 0.5, "type": "tsp", "name": "salt" },
-        { "value": 120, "type": "g", "name": "water", "prep": "ice-cold" }
+        { "value": 315, "type": "g", "name": "flour" },
+        { "value": 250, "type": "g", "name": "butter", "prep": "very cold" },
+        { "value": 7, "type": "tsp", "name": "salt" },
+        { "value": 155, "type": "g", "name": "water", "prep": "ice-cold" }
       ],
       "ingOpt": []
     }
@@ -21,16 +21,16 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Diced the cold butter into the flour with a knife or dough scraper. Continue until the mixture looks crumbly and the butter pieces are around the size of peas.",
-        "Make a well in the middle and pour in the ice cold water. Work it gradually until the mixture comes together into a ball.",
+        "Diced the cold butter into the salt and flour with a knife or dough scraper. Continue until the mixture looks crumbly and the butter pieces are around the size of peas.",
+        "Make a well in the middle and pour in the ice cold water. Work it gradually until the mixture comes together into a ball. The dough should not be homogenous, we should still see the butter pieces.",
         "Turn the dough over a floured surface and shape it into a square. Roll out the dough into a rectangle that is twice as long as it is wide.",
-        "Fold it in at each third lengthwise — like a letter.",
-        "Rotate it 90 degrees and repeat the last two steps.",
-        "Cover the dough so that it doesn't dry and cool it in the fridge for 30 minutes.",
-        "Repeat the rolling-folding-cooling steps twice more. For the last cooling phase, let the dough rest in the fridge for at least one hour before use."
+        "Fold it in at each third lengthwise — like a letter. Rotate it 90 degree.",
+        "Do a wallet fold and rotate it 90 degree.",
+        "Repeat once more the last two steps.",
+        "Cover the dough so that it doesn't dry and cool it in the fridge at least 30 minutes (or a few hours)."
       ]
     }
   ],
   "notes": [],
-  "sourceUrl": "https://www.youtube.com/watch?v=Nc2JlCDzNIg"
+  "sourceUrl": "https://www.instagram.com/reel/DEhdEjbCZz8/"
 }
