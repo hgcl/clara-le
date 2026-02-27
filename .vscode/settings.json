@@ -24,5 +24,7 @@
     "node_modules": true,
     "public": true,
     "src/bookmarks/202[!6]*": true
-  }
+  },
+  // Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
