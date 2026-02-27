@@ -1,0 +1,49 @@
+{
+  "title": "Italian spaghetti all'assassina",
+  "date": "2026-02-27",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "15",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 350, "type": "g", "name": "spaghetti" },
+        { "value": 150, "type": "g", "name": "tomato passata" },
+        { "value": 130, "type": "g", "name": "tomato paste" },
+        { "value": 2, "type": "", "name": "garlic cloves" },
+        {
+          "value": 3,
+          "type": "",
+          "name": "fresh red chili peppers"
+        },
+        { "value": 100, "type": "ml", "name": "olive oil" },
+        { "value": 1, "type": "tbsp", "name": "salt" },
+        "Water",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "First, prepare the broth. Dissolve the tomato paste and coarse salt in water and bring to a boil. The broth should be bright red and flavorful.",
+        "In an iron skillet (big enough for your spaghetti), sauté the olive oil, the whole skinless garlic cloves, two minced chilies, and one whole chili over medium heat.",
+        "When the garlic begins to color, add the tomato passata. Stir and adjust salt to taste.",
+        "At this point, add the whole raw spaghetti to the skillet. Stir them lightly with a wooden spoon so that they are evenly distributed on the bottom of the pan. Cook the spaghetti in the oil and passata. The spaghetti should be browned and stick to the bottom of the pan. Do not be in a hurry or afraid of making a mistake.",
+        "When the side of the spaghetti in contact with the pan is nicely toasted and caramelized (a little burnt), turn it over on the other side so that the toasting is as even as possible. Remove the garlic cloves and whole chili pepper, and turn up the heat.",
+        "Now add a little broth at a time as the pasta absorbs it. Be careful not to pour the broth directly on the spaghetti, but rather on the sides of the pan so as not to \"drown\" the pasta.",
+        "Before flipping the spaghetti, wait for the broth to dry a bit, let the spaghetti toast well, then wait another 10 seconds and flip the spaghetti.",
+        "Add another cup or two of broth, let the spaghetti absorb it all before repeating the flip-pasta-add-broth process for about 8 to 10 minutes.",
+        "Serve topped with some stracciatella or other fresh cheese."
+      ]
+    }
+  ],
+  "notes": [
+    "Be careful not to move the spaghetti too much so as not to break them. Of course, you do not want them to burn completely. The key is to get the spaghetti to stick to the pan evenly so that they get a crispy texture and brown color."
+  ],
+  "sourceUrl": "https://www.recipesfromitaly.com/authentic-spaghetti-allassassina-recipe/"
+}
