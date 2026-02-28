@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 315, "type": "g", "name": "flour" },
-        { "value": 250, "type": "g", "name": "butter", "prep": "very cold" },
-        { "value": 7, "type": "tsp", "name": "salt" },
-        { "value": 155, "type": "g", "name": "water", "prep": "ice-cold" }
+        { "value": 250, "type": "g", "name": "flour" },
+        { "value": 200, "type": "g", "name": "butter", "prep": "very cold" },
+        { "value": 10, "type": "g", "name": "salt" },
+        { "value": 120, "type": "g", "name": "water", "prep": "ice-cold" }
       ],
       "ingOpt": []
     }
