@@ -10,8 +10,8 @@
       "ingTitle": "Pour une tarte",
       "ingMand": [
         { "value": 250, "type": "g", "name": "farine" },
-        { "value": 50, "type": "g", "name": "huile" },
-        { "value": 80, "type": "g", "name": "eau tiède" },
+        { "value": 40, "type": "g", "name": "huile" },
+        { "value": 90, "type": "g", "name": "eau tiède" },
         { "value": 1, "type": "pincée", "name": "sel" }
       ],
       "ingOpt": []
@@ -25,10 +25,12 @@
         "Malaxez rapidement jusqu'à l'obtention d'une boule de pâte homogène. Attention à malaxer le moins longtemps possible afin que la pâte ne soit pas trop dure et garde son croustillant, une pâte à tarte ne se pétrit pas.",
         "Si la pâte est trop collante ajoutez un peu de farine, si elle est trop sèche ajoutez un peu d'huile et/ou d'eau.",
         "Farinez légèrement votre plan de travail, étalez-la et placez-la dans le moule à tarte.",
-        "Il ne vous reste plus qu'à disposer votre garniture à faire cuire (généralement 50 minutes à 180 °C)."
+        "Il ne vous reste plus qu'à disposer votre garniture à faire cuire (généralement 35–45 minutes à 180 °C)."
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "Pour une pâte plus crumbly, on peut ajouter plus d'huile et mettre moins d'eau."
+  ],
   "sourceUrl": "https://tangerinezest.com/pate-a-tarte-sans-beurre/"
 }
