@@ -29,6 +29,7 @@ icon: /public/img/meta/drawing-list.svg
       <select name="category" id="category" onchange="showForm()">
         <option value="">Choose an option</option>
         <option value="bookmarks">Bookmarks</option>
+        <option value="cooking">Cooking wishlist</option>
         <option value="blogroll">Blogroll</option>
         <option value="posts">Musings</option>
       </select>
@@ -44,6 +45,23 @@ icon: /public/img/meta/drawing-list.svg
       <label>Date* <input class="date" type="date" id="date" name="date" required /></label>
       <label>Tags (separated by commas) <input type="text" id="tags" name="tags" placeholder="coding, web"/></label>
       <label for="best">Is this link incredibly good? <input type="checkbox" id="best" name="best" /></label>
+    </div>
+
+    <!-- Form for cooking-wishlist category -->
+    <div id="cooking" class="form" hidden>
+      <label>Link* <input type="url" id="cooking-link" name="cooking-link" autocomplete="off" required placeholder="https://example.com"/></label>
+      <label>Title* <input type="text" id="cooking-title" name="cooking-title" autocomplete="off" required /></label>
+       <label for="cooking-tags">Type
+        <select name="cooking-tags" id="cooking-tags">
+          <option value="main" selected>Main</option>
+          <option value="dessert">Dessert</option>
+          <option value="snack">Snack</option>
+          <option value="basic">Basic</option>
+          <option value="drink">Drink</option>
+          <option value="preserve">Preserve</option>
+        </select>
+      </label>
+      <label>Date* <input class="date" type="date" id="cooking-date" name="cooking-date" required /></label>
     </div>
 
     <!-- Form for blogroll category -->
