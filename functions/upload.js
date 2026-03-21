@@ -53,14 +53,16 @@ export const onRequestPost = async (context) => {
     const slug = slugify(data["cooking-title"].trim());
     filename = `${data["cooking-date"]}-${slug}.json`;
 
+    const url = data["cooking-link"].trim();
+
     // Get domain name
     const regex =
       /^(?:https?:\/\/)?(?<domain>:[^@\/\n]+@)?(?:www\.)?([^:\/\n]+)/gim;
 
     // Format content
     const json = {
-      url: data["cooking-link"].trim(),
-      domain: data["cooking-link"].trim().match(regex).groups.domain,
+      url: url,
+      domain: regex.exec(url).groups.domain,
       title: data["cooking-title"].trim(),
       date: data["cooking-date"],
       tags: data["cooking-tags"],
