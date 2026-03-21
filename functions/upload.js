@@ -11,6 +11,7 @@ export const onRequestPost = async (context) => {
   }
 
   let filename;
+  let directory = data.category;
   let fileContent;
 
   // FOR BOOKMARKS
@@ -52,6 +53,7 @@ export const onRequestPost = async (context) => {
     // Format filename
     const slug = slugify(data["cooking-title"].trim());
     filename = `${data["cooking-date"]}-${slug}.json`;
+    directory = "cooking-wishlist";
 
     const url = data["cooking-link"].trim();
 
@@ -125,7 +127,7 @@ export const onRequestPost = async (context) => {
   // GitHub API setup
   const GITHUB_TOKEN = env.GITHUB_TOKEN; // stored as secret
   const REPO = "hgcl/clara-le";
-  const githubUrl = `https://api.github.com/repos/${REPO}/contents/src/${data.category}/${filename}`;
+  const githubUrl = `https://api.github.com/repos/${REPO}/contents/src/${directory}/${filename}`;
 
   const body = JSON.stringify({
     message: `docs: :robot: new entry in ${data.category}: ${filename}`,
