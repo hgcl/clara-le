@@ -1,0 +1,64 @@
+{
+  "title": "Cookies",
+  "date": "2026-03-21",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "This recipe results in thick and firm cookies.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 300, "type": "g", "name": "flour" },
+        { "value": 100, "type": "g", "name": "cold butter", "prep": "diced" },
+        {
+          "value": 25,
+          "type": "g",
+          "name": "coconut oil (or some more butter)"
+        },
+        {
+          "value": 130,
+          "type": "g",
+          "name": "sugar"
+        },
+        {
+          "value": 10,
+          "type": "g",
+          "name": "vanilla sugar"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "baking soda"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "salt"
+        },
+        {
+          "value": 1,
+          "type": "",
+          "name": "egg"
+        },
+        "Chocolate chips"
+      ],
+      "ingOpt": ["Walnuts (or any kind of nuts)"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Cut the butter into cubes, and mix with sugar.",
+        "Add the egg, and all the dry ingredients. Do not overwork the dough.",
+        "Add chocolate chips and walnuts.",
+        "Make two logs (diameter of 5 cm) and store them in a closed container in the fridge. Let rest for at least 30 minutes.",
+        "Take the dough out, slice the logs into pieces of about 3 cm.",
+        "Bake at 180 °C for 12–14 minutes for cookies that are firm, thick and slightly crunchy."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.jonathangarnier.com/en/blogs/recipes/cookie-ferme-et-epais-beurre-froid-plus-de-farine"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Indian dosas and idlis",
+  "date": "2026-03-21",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 200, "type": "g", "name": "lentils" },
+        { "value": 450, "type": "g", "name": "rice" },
+        { "value": 1, "type": "tsp", "name": "fenugreek seeds" },
+        { "value": 2, "type": "tsp", "name": "salt" },
+        "Water"
+      ],
+      "ingOpt": [{ "value": 1, "type": "tbsp", "name": "wheat gluten" }]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Batter",
+      "insSteps": [
+        "Rince rice and dal throughly before soaking in enough water for 4–6 hours.",
+        "Fill the blender only half-full with the drained rice and dal. Add water to just come up to the level of rice and dal — do not add a lot of water. Grind to a smooth consistency (a fine sand-line gritty texture is also fine). Do this in batches if needed.",
+        "Pour the batter into a large container. Make sure to fill the container only halfway, to allow room for the batter to rise during fermentation. Cover the container lightly and rest in a warm place (on the countertop or in a toasty oven) overnight.",
+        "Once the batter has risen (it will also smell fermented), add salt and mix gently to combine. Make idlis and dosas with this batter. Refrigerate the batter if not using immediately to prevent further fermentation and souring of the batter."
+      ]
+    },
+    {
+      "insTitle": "Idlis",
+      "insSteps": [
+        "Fill the steamer vessel with 2 cups of water and bring to a boil.",
+        "Lightly grease the idli molds with a few drops of oil. Pour the batter to fill the molds. Slightly under-fill the molds so that the idlis have room to rise.",
+        "Place the molds in the steamer vessel, cover with the lid, and cook for 8–9 minutes. You can check if the idlis are done with a toothpick (it should come clean). If you overcook, the idlis can become dense and hard.",
+        "Remove the hot idli molds from the vessel, let cool for a few minutes, then gently remove the idlis with the help of a spoon. It should come away easily since you greased the molds."
+      ]
+    },
+    {
+      "insTitle": "Dosas",
+      "insSteps": [
+        "Place the cast iron pan on medium heat — make sure to preheat it properly. Sprinkle a few drops of water, if it sizzles, the pan is ready. Add a few drops of sesame oil to the pan and gently wipe with a wad of paper towel.",
+        "Pour a ladle-full of batter in the center of the dosa pan. Starting at the center, quickly make concentric circles of increasing diameter with the rounded cup of the ladle. This will form the dosa shape.",
+        "Pour a few drops of ghee or oil on the dosa and around the edges. Cook for a couple of minutes till the bottom is golden brown and the sides unstick from the pan, then flip with a wide spatula and cook the other side for a few seconds. If you have spread the batter thin enough, you may not even need to flip the dosa.",
+        "Serve immediately or keep it warm while you finish making more dosas."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.happyandharried.com/2018/04/04/idli-dosa-batter.html"
+}

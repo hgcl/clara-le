@@ -1,0 +1,76 @@
+{
+  "title": "Café de Paris sauce",
+  "date": "2026-03-21",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 150,
+          "type": "g",
+          "name": "butter",
+          "prep": "at room temperture"
+        },
+        {
+          "value": 1,
+          "type": "",
+          "name": "garlic clove",
+          "prep": "pressed"
+        },
+        {
+          "value": 1,
+          "type": "handful",
+          "name": "parsley",
+          "prep": "pressed"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "mustard"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "lemon juice"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "curry"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "soy sauce"
+        },
+        "Various herbs (thyme, rosmarin, basil, sage, marjoram)",
+        "Salt and pepper"
+      ],
+      "ingOpt": [
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "cognac"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a bowl, using a wooden spatula, soften the butter to a spreadable consistency for a few minutes.",
+        "Press the garlic cloves, and mix them with the butter.",
+        "In a food processor or by hand, finely chop all the herbs (including the parsley). Add all the herbs to the butter.",
+        "Add the soy sauce, lemon juice, cognac, curry powder, and mustard. Season with pepper. Mix well with the spatula. Taste and adjust the seasoning with salt if necessary.",
+        "Refrigerate for at least 1 hour."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.lesrecettesdevirginie.com/2014/10/sauce-cafe-de-paris-maison.html"
+}
