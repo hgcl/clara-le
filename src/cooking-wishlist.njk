@@ -42,11 +42,8 @@ pagination:
             <span class="details">
               <a href="{{ item.url }}">{{ item.title }}</a>
               <span class="subtle">Found on {{ item.domain }}</span>
-                {% set divider = joiner(" / ") %}
                 {% if item.tags %}
-                {%- for tag in item.tags -%}
-                  {{ divider() }}<a class="chip" href="/cooking-wishlist/?q={{ tag }}">{{ tag }}</a>
-                {%- endfor -%}
+                  <a class="chip" href="/cooking-wishlist/?q={{ item.tags }}">{{ item.tags }}</a>
                 {% endif %}
             </span>
           </li>
