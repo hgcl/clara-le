@@ -58,13 +58,14 @@ export const onRequestPost = async (context) => {
     const url = data["cooking-link"].trim();
 
     // Get domain name
-    const regex =
-      /^(?:https?:\/\/)?(?<domain>:[^@\/\n]+@)?(?:www\.)?([^:\/\n]+)/gim;
+    const regex = /^(?:https?:\/\/)?(?:www\.)?([^:\/\n]+)/;
+    const match = url.match(regex);
+    const domain = match ? match[1] : null;
 
     // Format content
     const json = {
       url: url,
-      domain: regex.exec(url).groups.domain,
+      domain: domain,
       title: data["cooking-title"].trim(),
       date: data["cooking-date"],
       tags: data["cooking-tags"],
