@@ -10,7 +10,6 @@
       "ingTitle": "For half a floor cleaning bucket",
       "ingMand": [
         { "value": 4, "type": "tbsp", "name": "white vinegar" },
-        { "value": 4, "type": "tbsp", "name": "baking soda" },
         "Warm water"
       ],
       "ingOpt": [
