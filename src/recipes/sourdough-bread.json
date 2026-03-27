@@ -20,9 +20,19 @@
   ],
   "instructions": [
     {
+      "insTitle": "Winter schedule",
+      "insSteps": [
+        "During winter time, my house gets extremely cold (especially during the night). Here is the bread-making schedule I follow then.",
+        "Prepare the sourdough starter in the morning, so that it is ready by the evening. Adjust the quantity depending on how cold the temperature is.",
+        "Thoroughly mix the dough before going to bed. Let it bulk ferment at room temperature (quite cold) for the night.",
+        "The next morning, shape the dough and place it in a banneton. Let it rest in the fridge up to 24 hours.",
+        "Bake the bread at least two hours before eating it."
+      ]
+    },
+    {
       "insTitle": "Autolyse",
       "insSteps": [
-        "At the same time you start activating your sourdough starter, mix your flour and water in a bowl, fully hydrating the flour."
+        "Mix your flour and water in a bowl, fully hydrating the flour."
       ]
     },
     {
@@ -30,13 +40,13 @@
       "insSteps": [
         "When you are ready to start, add the sourdough starter, salt (and optional herbs/seeds) to your dough until homogenous. There is no need to knead, the ingredients simply need to be combined.",
         "Cover with a clean cloth and let rest for 20 minutes.",
-        "Remove the dough and place it on your bench (no flour!). You will add some strength to it, by pulling the dough as far out as you can, without tearing it, and folding it back. Repeat once from each side. Drag the dough over the surface using your hands at a 45° angle and \"boule\" it. Wait a few minutes, and repeat this process (up to 3 times) until your dough feels smooth, round, and not sticky."
+        "Remove the dough and place it on your bench (no flour!). You will add some strength to it, by pulling the dough as far out as you can, without tearing it, and folding it back. Repeat once from each side. Drag the dough over the surface using your hands at a 45° angle and \"boule\" it. Wait a few minutes, and repeat this process until your dough feels smooth, round, and not sticky."
       ]
     },
     {
       "insTitle": "Bulk fermentation",
       "insSteps": [
-        "While your dough is bulk fermenting, you can be doing a coil folding every few hours — when you see your dough has flattened out quite a lot. However, the more you handle your dough, the more even your crumb is going to be in the end. Wet your fingers to avoid sticky fingers.",
+        "While your dough is bulk fermenting, you can optionally do a coil folding every few hours — when you see your dough has flattened out quite a lot. However, the more you handle your dough, the more even your crumb is going to be in the end. Wet your fingers to avoid sticky fingers.",
         "After coil folding, return to container and cover. This can take anywhere between 4 and 12 hours depending on your room temperature."
       ]
     },

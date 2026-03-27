@@ -12,6 +12,15 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
+## 2026-03-27
+
+I baked bread all winter, and found an easy-going routine that fits the temperature of my house (as it gets extremely cold).
+
+1. Prepare the sourdough starter in the morning (thick version: 45 g flour, 35 g water), so that it is ready by the evening. Adjust the quantity depending on how cold the temperature is.
+2. Thoroughly mix the dough (until smooth) before going to bed. Let it bulk ferment at room temperature (quite cold) for the night.
+3. The next morning, shape the dough and place it in a banneton. Let it rest in the fridge up to 24 hours.
+4. Preheat the oven (with dutch oven inside) for at least 10–15 minutes. Bake the bread two hours before eating it.
+
 ## 2025-11-05
 
 It's been a while, I don't time the first or second fermentation anymore. The temperature inside my house is getting much colder.
