@@ -1,0 +1,62 @@
+{
+  "title": "Sourdough pizza al taglio",
+  "date": "2026-03-30",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "Generous, soft and easy everyday pizza",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 400, "type": "g", "name": "flour" },
+        {
+          "value": 70,
+          "type": "g",
+          "name": "durum flour (or whole wheat flour)"
+        },
+        { "value": 10, "type": "g", "name": "olive oil" },
+        { "value": 320, "type": "g", "name": "water" },
+        { "value": 12, "type": "g", "name": "salt" },
+        { "value": 80, "type": "g", "name": "sourdough starter" },
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Mix",
+      "insSteps": [
+        "In the late morning, add all the ingredients except the olive oil to the bowl, and quickly mix until no dry bits remain. Let the dough rest in the mixing bowl for 10 minutes.",
+        "Knead the dough, adding in a bit of olive oil at a time. Continue until all of the olive oil is absorbed and the dough is cohesive.",
+        "Cover and let it ferment in a warm place."
+      ]
+    },
+    {
+      "insTitle": "Bulk fermentation",
+      "insSteps": [
+        "Give the dough 3 sets of stretch and folds during this time at 30-minute intervals. After the last set, let the dough rest until the end of bulk fermentation.",
+        "If you want to eat the pizza by the evening, let the dough ferment for about 5 hours. If not, refrigerate the covered dough after 3 hours. The next day, take the dough out and let it warm for 30 minutes before continuing with the shaping step."
+      ]
+    },
+    {
+      "insTitle": "Shape",
+      "insSteps": [
+        "Gently scrape the pizza dough out of the bulk fermentation container to a floured surface. Dimple down with fingers and gently stretch out to a rectangle. Drag the dough into your sheet pan and finish stretching it to meet the corners."
+      ]
+    },
+    {
+      "insTitle": "Bake",
+      "insSteps": [
+        "Preheat the oven at 260 °C.",
+        "Spread the seasoned pomodoro sauce over dough, edge-to, edge with no dough exposed.",
+        "Slide the pan into the oven, turn the oven down to 230 °C, and bake for 10 minutes.",
+        "Carefully remove the pan and place it on an oven-safe surface. Spread on cheese and any other toppings.",
+        "Slide the pan back into the oven and cook for 12 to 17 minutes longer until the bottom is well-colored."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.theperfectloaf.com/sourdough-pizza-al-taglio/"
+}

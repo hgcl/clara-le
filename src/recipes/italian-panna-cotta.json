@@ -1,0 +1,52 @@
+{
+  "title": "Italian panna cotta",
+  "date": "2026-03-30",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 470, "type": "ml", "name": "heavy cream" },
+        { "value": 230, "type": "ml", "name": "milk" },
+        { "value": 10, "type": "g", "name": "vanilla sugar" },
+        { "value": 50, "type": "g", "name": "sugar (adjust to taste)" },
+        { "value": 2, "type": "sheets", "name": "gelatin" },
+
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Mix",
+      "insSteps": [
+        "In a small bowl, sprinkle the gelatin evenly over the 3 tablespoons of cold water. Let it sit for 5 to 10 minutes until it forms a jelly-like consistency.",
+        "In a saucepan, combine the heavy cream, whole milk, granulated sugar, and vanilla sugar.",
+        "Place the saucepan over medium-low heat. Stir gently with a whisk until the sugar has completely dissolved. Do NOT bring the mixture to a boil. You want it to be steaming, with small bubbles forming around the edges, but not a rolling boil.",
+        "Once the cream mixture is warm and the sugar is dissolved, remove the saucepan from the heat. Add the bloomed gelatin to the warm cream mixture. Whisk continuously until the gelatin is completely dissolved and no lumps remain."
+      ]
+    },
+    {
+      "insTitle": "Add to molds",
+      "insSteps": [
+        "For the smoothest possible panna cotta, it's a crucial step to strain the mixture through a fine-mesh sieve into a clean bowl or directly into your serving vessels. This catches any undissolved gelatin bits or small impurities, ensuring a silken texture.",
+        "Ladle the mixture carefully into your chosen vessels."
+      ]
+    },
+    ,
+    {
+      "insTitle": "Chill",
+      "insSteps": [
+        "Refrigerate for at least 4–6 hours, or preferably overnight, until the panna cotta is completely set. It should have a gentle wobble but no longer be liquid."
+      ]
+    }
+  ],
+  "notes": [
+    "Scalding the cream can create a grainy texture and can lead to a \"cooked milk\" flavor. The ideal temperature is around 77–82 °C)."
+  ],
+  "sourceUrl": "https://www.cooklikemom.net/panna-cotta-recipe/"
+}
