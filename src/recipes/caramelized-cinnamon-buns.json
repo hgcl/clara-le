@@ -1,0 +1,99 @@
+{
+  "title": "Caramelized cinnamon buns",
+  "date": "2026-03-31",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Buns",
+      "ingMand": [
+        { "value": 315, "type": "g", "name": "white flour" },
+        { "value": 25, "type": "g", "name": "whole wheat flour" },
+        { "value": 1, "type": "", "name": "egg" },
+        { "value": 180, "type": "g", "name": "milk" },
+        { "value": 130, "type": "g", "name": "sourdough starter" },
+        { "value": 20, "type": "g", "name": "sugar" },
+        { "value": 7, "type": "g", "name": "salt" },
+        { "value": 70, "type": "g", "name": "butter", "prep": "softened" }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Filling",
+      "ingMand": [
+        { "value": 15, "type": "g", "name": "butter", "prep": "melted" },
+        { "value": [2, 4], "type": "tbsp", "name": "sugar" },
+        { "value": 2, "type": "tsp", "name": "cinnamon" },
+        { "value": 2, "type": "pinches", "name": "salt" }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Caramel",
+      "ingMand": [
+        { "value": 65, "type": "g", "name": "butter", "prep": "melted" },
+        { "value": 90, "type": "g", "name": "sugar" },
+        { "value": 35, "type": "g", "name": "honey" },
+        { "value": 85, "type": "ml", "name": "heavy cream" },
+        { "value": 0.5, "type": "tsp", "name": "salt" },
+        "raw pecans (or any kind of nuts)"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Bulk fermentation",
+      "insSteps": [
+        "In the evening, add flours to bowl of a stand mixer. Stir together.",
+        "Whisk egg, milk, and sourdough starter together in separate bowl until starter is no longer lumpy.",
+        "Gradually mix in liquid ingredients, until mixture looks just shaggy with no dry bits. Let sit for 15 minutes.",
+        "Mix in sugar, salt, and one chunk of butter at a time to the dough. Only add another chunk once the previous is incorporated into the dough. Keep doing this until all the butter is added to the dough.",
+        "Continue kneading until dough is smooth, and cleaning the sides of the bowl. It will still be sticky to the touch.",
+        "Overnight rise: Once kneading is done, place the dough in a b15owl and tightly cover so it doesn't dry. Leave overnight on counter at room temperature to rise until double and puffy.",
+        "In the morning, check your dough. It should have doubled and be domed on top. Turn it out onto a heavily floured counter. Gently pat it into a rectangle shape and let rest with a linen over the top, while you make the caramel."
+      ]
+    },
+    {
+      "insTitle": "Caramel",
+      "insSteps": [
+        "Melt butter in a saucepan. To make your like easier, also include the butter for the filling (1 tbsp = 15 g) and keep it aside for later.",
+        "Add remaining ingredients except pecans, and bring to a boil, whisking to help dissolve the brown sugar.",
+        "Once it is at a boil, turn down to a simmer for 5 minutes, until caramel is nice and brown, glossy, and smells butterscotchy.",
+        "Pour into a 20 x 30 cm pan, and sprinkle with pecans.",
+        "Set in refrigerator to cool for 15–20 minutes, propped on a cooling rack."
+      ]
+    },
+    {
+      "insTitle": "Shaping buns",
+      "insSteps": [
+        "Using a floured rolling pin, roll your dough it into a large rectangle roughly 40 x 30 cm.",
+        "Brush the butter onto the dough, keeping 1 cm away from edges.",
+        "Mix the remaining fillings ingredient together, then sprinkle evenly on top of the butter, keeping 1 cm away from edges.",
+        "After spreading the filling, use your bench scraper to help your hands begin tightly rolling up the dough into a log, starting with the long edge closest to you. Use a little extra flour on the bench scraper each time to help pick the dough up from the surface. Don’t worry if it sticks a little, just use a little more flour dust.",
+        "Roll it to the top and pinch the bottom edge of the dough log to seal it.",
+        "You should have a long log of dough. With a sharp knife, divide the dough into 8 pieces. Set pieces into the cool caramel pan."
+      ]
+    },
+    {
+      "insTitle": "Proofing",
+      "insSteps": [
+        "Place the pan inside a big plastic bag and fold the opening over so that no air gets inside.",
+        "Leave on counter, preferably a warm spot, to proof for about three hours so that the buns expand, puff up, and are touching each other."
+      ]
+    },
+    {
+      "insTitle": "Baking",
+      "insSteps": [
+        "When the buns are done proofing, preheat oven to 180 °C.",
+        "Bake for 30 to 35 minutes, until buns are golden brown at the edges and set in the middles. You can use a thermometer to test their interior, which should be at 95 °C.",
+        "Remove pan from oven and let sit for 5 minutes.",
+        "Using a big spatula, move the buns out to another big plate or dish. Scrape out all extra caramel in the pan and place on top of all buns. Enjoy warm."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://heartbeetkitchen.com/best-ever-sourdough-sticky-buns/#recipe"
+}

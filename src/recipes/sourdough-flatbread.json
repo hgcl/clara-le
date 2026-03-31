@@ -1,0 +1,44 @@
+{
+  "title": "Sourdough flatbread",
+  "date": "2026-03-31",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "This recipe is perfect to start early in the morning for lunch, or in the afternoon for dinner.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 500, "type": "g", "name": "flour" },
+        { "value": [250, 280], "type": "g", "name": "water" },
+        { "value": 200, "type": "g", "name": "sourdough starter" },
+        { "value": 30, "type": "g", "name": "olive oil" },
+        { "value": 15, "type": "g", "name": "salt" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Bulk fermenting",
+      "insSteps": [
+        "In a large bowl, gently combine all the ingredients so it forms a shaggy dough. Let the dough sit covered for around 30 minutes.",
+        "You'll need to knead the dough by hand until the texture of the dough is smooth and silky. This usually takes around 10 minutes, depending on how hard you knead it.",
+        "Tightly cover and leave to rise until it has doubled. This may take several hours, depending on the temperature of your kitchen."
+      ]
+    },
+    {
+      "insTitle": "Shape and cook",
+      "insSteps": [
+        "Divide the dough into about ten smaller balls so they are ready to be rolled out. Leave the balls on your counter top, covered with a tea towel, for around 30 minutes to allow the gluten to relax.",
+        "Roll them out into rounds using a rolling pin.",
+        "Heat a heavy-bottom pan and wait for it to be very hot.",
+        "Add a few drops of olive oil to your cooking surface and carefully drop the flat bread onto it. (If the dough has shrunk from when you shaped it, gently use your hands to stretch it before dropping it in the pan.)",
+        "They will only need around 1 minute each side. They will bubble up and brown very quickly. Once it bubbles, flip to the other side to brown and then remove.",
+        "If you aren't eating them straight away, keep the flatbreads stacked and wrapped in a tea towel to ensure they stay nice and soft and pliable."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://pantrymama.com/sourdough-flat-bread-tortillas/#wprm-recipe-container-4254"
+}

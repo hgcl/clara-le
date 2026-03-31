@@ -41,12 +41,19 @@
         { "value": 4, "type": "", "name": "cloves" },
 
         { "value": 2, "type": "", "name": "red onion", "prep": "diced" },
-        {
-          "value": 4,
-          "type": "",
-          "name": "tomatoes (or tomato puree)",
-          "prep": "diced"
-        },
+        [
+          {
+            "value": 4,
+            "type": "",
+            "name": "tomatoes (or tomato puree)",
+            "prep": "diced"
+          },
+          {
+            "value": 2,
+            "type": "cans",
+            "name": "tomato"
+          }
+        ],
 
         { "value": 0.5, "type": "tsp", "name": "garam masala" },
         { "value": 1, "type": "tsp", "name": "red chili powder" },
