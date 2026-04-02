@@ -1,0 +1,75 @@
+{
+  "title": "Chinese dumplings",
+  "date": "2026-04-02",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Dumplings",
+      "ingMand": [
+        { "value": 450, "type": "g", "name": "ground pork" },
+        {
+          "value": 900,
+          "type": "g",
+          "name": "Chinese cabbage (or bok choy, Swiss chards, etc.)"
+        },
+        { "value": 1, "type": "", "name": "onion", "prep": "minced" },
+        { "value": 2, "type": "tbsp", "name": "dark soy sauce" },
+        { "value": [1, 2], "type": "tbsp", "name": "sesame oil" },
+        { "value": 0.5, "type": "tsp", "name": "salt" },
+        { "value": 3, "type": "tbsp", "name": "shaoxing wine" },
+        "White pepper",
+        {
+          "value": 60,
+          "type": "",
+          "name": "wrappers",
+          "url": "chinese-dumpling-wrappers"
+        }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Dipping sauce for two",
+      "ingMand": [
+        { "value": 2, "type": "tbsp", "name": "light soy sauce" },
+        { "value": 1, "type": "tbsp", "name": "water" },
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "Chinese black vinegar"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "chili oil"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "sesame oil"
+        },
+
+        "White pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "A few hours before making the dumplings, mix the ground meat with the onion, soy sauce, sesame oil, salt, shaoxing wine and pepper. Let rest in the fridge.",
+        "Blanch or sauté the cabbage until wilted (but not cooked all the way). Drain in a large colander and allow to cool.",
+        "Finely mince the cabbage.",
+        "Working in batches, squeeze most of the liquid out. Don't overdo it or your final filling might be too dry — aim to remove 80% of the liquid.",
+        "Combine the cabbage with the meat, and thoroughly mix by hand. This step is to tenderize the meat and pull everything together to form a tighter, more paste-y consistency, which will yield a bouncier mouthfeel when you bite into a dumpling. Your arm will be very tired doing this but don't skip it!",
+        "Wrap the dumplings.",
+        "To steam, place dumplings in a steamer basket lined with perforated parchment paper or thin cabbage leaves. Bring water in a steamer to a simmer, and steam over medium-high heat for 8–10 minutes (shorter for fresh dumplings, longer for frozen)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.saltnpepperhere.com/blog/2016/1/11/shanghai-wontons/#shanghaiwontons="
+}

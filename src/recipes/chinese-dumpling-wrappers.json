@@ -1,0 +1,38 @@
+{
+  "title": "Chinese dumpling wrappers",
+  "date": "2026-04-02",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "24 wrappers",
+      "ingMand": [
+        { "value": 210, "type": "g", "name": "flour T65" },
+        { "value": 120, "type": "g", "name": "warm water" },
+        { "value": 1, "type": "pinch", "name": "salt" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a large bowl, combine flour with salt. Stir well to ensure the salt is evenly distributed throughout the flour, setting the stage for fantastic flavor.",
+        "Gradually pour in warm water, mixing continuously with your finger. The heat will help hydrate the flour, forming a clumpy dough.",
+        "Cover the bowl with a clean cloth and let it rest for 20–30 minutes.",
+        "After resting, gently knead the dough on a floured surface for about 5 minutes, until it becomes smooth and supple. The texture should be very soft, and just slightly sweaty.",
+        "Divide the dough into two equal portions, cover and let rest for at least 30 minutes. This allows the gluten to relax, making it tamer to work with.",
+        "Take one portion and flatten it with your palm. Roll it out into a rectangle as thin as possible, using as much flour as you need to avoid it sticking. Don't hesitate to flour and flip it regularly.",
+        "Using your dough scraper, cut the rectangle dough into 12 squares."
+      ]
+    }
+  ],
+  "notes": [
+    "The long kneading step is crucial for developing the dough elasticity.",
+    "Water temperature is important. Use boiling water for soft wrappers, and use room temperature for sturdier dough. Adjust based on your desired dumpling type."
+  ],
+  "sourceUrl": "https://www.barrierfreecooking.com/perfect-dumpling-dough/"
+}
