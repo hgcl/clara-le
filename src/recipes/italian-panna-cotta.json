@@ -14,7 +14,6 @@
         { "value": 10, "type": "g", "name": "vanilla sugar" },
         { "value": 50, "type": "g", "name": "sugar (adjust to taste)" },
         { "value": 2, "type": "sheets", "name": "gelatin" },
-
         "Salt and pepper"
       ],
       "ingOpt": []
@@ -37,7 +36,6 @@
         "Ladle the mixture carefully into your chosen vessels."
       ]
     },
-    ,
     {
       "insTitle": "Chill",
       "insSteps": [
