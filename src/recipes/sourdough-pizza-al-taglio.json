@@ -9,7 +9,7 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 400, "type": "g", "name": "flour" },
+        { "value": [400, 425], "type": "g", "name": "flour" },
         {
           "value": 70,
           "type": "g",
@@ -29,7 +29,7 @@
       "insTitle": "Mix",
       "insSteps": [
         "In the late morning, add all the ingredients except the olive oil to the bowl, and quickly mix until no dry bits remain. Let the dough rest in the mixing bowl for 10 minutes.",
-        "Knead the dough, adding in a bit of olive oil at a time. Continue until all of the olive oil is absorbed and the dough is cohesive.",
+        "Knead the dough, adding in a bit of olive oil at a time. Continue until all of the olive oil is absorbed and the dough is cohesive. The dough will still be shaggy and very soft but not soupy or excessively wet at the end of mixing. Transfer the dough to a container for bulk fermentation and cover.",
         "Cover and let it ferment in a warm place."
       ]
     },

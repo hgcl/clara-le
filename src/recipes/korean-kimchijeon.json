@@ -25,8 +25,9 @@
     {
       "ingTitle": "Dipping sauce",
       "ingMand": [
-        { "value": 1, "type": "tbsp", "name": "soy sauce" },
-        { "value": 2, "type": "tsp", "name": "white vinegar" },
+        { "value": 2, "type": "tbsp", "name": "light soy sauce" },
+        { "value": 1, "type": "tsp", "name": "white vinegar" },
+        { "value": 1, "type": "tsp", "name": "sugar" },
         { "value": 1, "type": "tsp", "name": "sesame oil" },
         { "value": 1, "type": "tsp", "name": "toasted sesame seeds" }
       ],
