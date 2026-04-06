@@ -10,7 +10,7 @@
       "ingTitle": "First fermentation",
       "ingMand": [
         { "value": 100, "type": "g", "name": "kefir grains" },
-        { "value": 90, "type": "g", "name": "sugar" },
+        { "value": 70, "type": "g", "name": "sugar" },
         { "value": 1.5, "type": "L", "name": "water" },
         [
           { "value": 1, "type": "", "name": "dried fig" },
@@ -22,6 +22,7 @@
     {
       "ingTitle": "Secondary fermentation",
       "ingMand": [
+        { "value": 5, "type": "g", "name": "sugar" },
         { "value": 1, "type": "handful", "name": "dried fruits" },
         {
           "value": 1,
