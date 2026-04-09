@@ -1,0 +1,89 @@
+{
+  "title": "Austrian Linzer Torte",
+  "date": "2026-04-09",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "The perfect winter pie to use up some of those jars of jam piling up.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 100,
+          "type": "g",
+          "name": "butter",
+          "prep": "room temperature"
+        },
+        {
+          "value": 50,
+          "type": "g",
+          "name": "sugar"
+        },
+        {
+          "value": 1,
+          "type": "pinch",
+          "name": "salt"
+        },
+        {
+          "value": 1,
+          "type": "",
+          "name": "egg"
+        },
+        {
+          "value": 1,
+          "type": "tbsp",
+          "name": "rum (or kirsch)"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "cinnamon"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "cocoa powder"
+        },
+        {
+          "value": [100, 120],
+          "type": "g",
+          "name": "almond (or hazelnut) powder"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "baking powder"
+        },
+        {
+          "value": 120,
+          "type": "g",
+          "name": "flour"
+        },
+        {
+          "value": 200,
+          "type": "g",
+          "name": "jam (raspberry, strawberry, fig)"
+        }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a bowl, combine the butter, sugar, and salt, and strongly mix with a big wooden spoon until creamy.",
+        "Add the egg, rum, and mix some more.",
+        "Add the spices, cocoa powder, hazelnuts, baking powder, and flour. Mix well, store in a closed tupperware and refrigerate for at least 2 hours — overnight works great as well.",
+        "Preheat the oven to 180 °C. Line a 20 cm pie pan with baking paper.",
+        "Roll out the dough to a thickness of 5 mm. Line the pan with the dough and trim off any excess. Press the dough inwards to form a fairly thick edge (about 1 cm). Prick the bottom with a fork.",
+        "Roll out the dough to a 2–3 mm thick layer and cut out shapes of your choice using cookie cutters. Spread a layer of jam on the base (about 5 mm). Place the shapes on top of the jam.",
+        "Bake the pie for approximately 30 minutes. Remove it from the oven and let it cool on a wire rack.",
+        "Before serving, optionally dust the pie with a little powdered sugar."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://knack-rucksack.fr/linzer-torte-tarte-linz/"
+}

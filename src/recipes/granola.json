@@ -1,0 +1,36 @@
+{
+  "title": "Granola",
+  "date": "2026-04-09",
+  "lang": "en",
+  "dataTag": ["snack", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "For 2 baking trays",
+      "ingMand": [
+        { "value": 400, "type": "g", "name": "oat flakes" },
+        { "value": 230, "type": "g", "name": "nuts and seeds mix" },
+        { "value": 100, "type": "g", "name": "honey" },
+        { "value": 70, "type": "g", "name": "neutral oil" },
+        { "value": 1, "type": "pinch", "name": "salt" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a big bowl, mix the oat flakes, nuts, seeds, and salt.",
+        "Add the honey, oil, and mix well.",
+        "Place half of the granola on a baking sheet lined with parchment paper.",
+        "Bake for 20–25 minutes at 150 °C. Halfway through, mix the granola on the tray and put it back in the oven. Keep a close eye on it to avoid burning the granola.",
+        "Remove from the oven and let cool completely to room temperature before transferring to a jar.",
+        "Repeat with the other half of the granola."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://lacuisinedegeraldine.fr/granola-maison-amandes-noix-cajou-cacahuetes"
+}

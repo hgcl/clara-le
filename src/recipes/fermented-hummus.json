@@ -1,0 +1,47 @@
+{
+  "title": "Fermented hummus",
+  "date": "2026-04-09",
+  "lang": "en",
+  "dataTag": ["preserve", "snack", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": ["Dried chickpeas", "Water", "Salt"],
+      "ingOpt": [
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "sauerkraut or other fermented veggie brine",
+          "prep": ""
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Ferment chickpeas",
+      "insSteps": [
+        "Soak chickpeas in cool water for 4 to 8 hours or overnight.",
+        "Drain well after soaking.",
+        "Add fresh water to a pot and bring to a boil. Cook until \"al dente\", meaning a little firm, less than you would if you were eating them straight away. Cooking time varies by bean type.",
+        "Drain cooked chickpeas, and let sit for 15–20 minutes or until cool enough to handle.",
+        "Transfer the chickpeas to a jar, tare the scale.",
+        "Add enough water to completely submerge the chickpeas. Add enough salt to make a 4% brine (salt to water weight). For instance, 20 grams salt for 500 g water.",
+        "Add mature fermented veggie brine.",
+        "Close the jar and let it ferment for three days.",
+        "Drain chickpeas from brine. No need to rinse them unless they're slimy, in which case, rinse briefly. Keep some of the salty drained water for the hummus."
+      ]
+    },
+    {
+      "insTitle": "Make hummus",
+      "insSteps": [
+        "Follow your favorite hummus recipe, using some of the salty fermentation water if needed.",
+        "Serve immediately or refrigerate and consume within 3 days, or freeze for up to a month."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://fermentersclub.com/hummus/#recipe"
+}
