@@ -10,10 +10,10 @@
       "ingTitle": "",
       "ingMand": [
         { "value": 270, "type": "g", "name": "almond powder" },
-        { "value": 190, "type": "g", "name": "sugar" },
+        { "value": 170, "type": "g", "name": "sugar" },
         { "value": 40, "type": "g", "name": "bitter cocoa powder" },
         [
-          { "value": 1, "type": "tsp", "name": "five-spice powder" },
+          { "value": 1.5, "type": "tsp", "name": "five-spice powder" },
           { "value": 1, "type": "tsp", "name": "cinnamon" }
         ],
         { "value": 0.25, "type": "tsp", "name": "salt" },
