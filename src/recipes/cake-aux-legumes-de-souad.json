@@ -10,24 +10,33 @@
       "ingTitle": "Pâte",
       "ingMand": [
         { "value": 220, "type": "g", "name": "farine (mixte)" },
+        { "value": 0.25, "type": "cc", "name": "bicarbonate de soude" },
         { "value": 2, "type": "", "name": "œufs" },
-        { "value": 150, "type": "g", "name": "lait" },
+        { "value": 50, "type": "g", "name": "lait" },
+        { "value": 100, "type": "g", "name": "eau" },
         { "value": 40, "type": "g", "name": "huile" },
-        { "value": 0.5, "type": "cc", "name": "bicarbonate de soude" },
-        { "value": 1, "type": "cc", "name": "vinaigre blanc" },
-        "Sel et poivre"
+        { "value": 1, "type": "cs", "name": "levain" },
+        { "value": 1, "type": "cc", "name": "vinaigre blanc" }
       ],
-      "ingOpt": []
+      "ingOpt": [
+        "Sel et poiver",
+        { "value": 1, "type": "cc", "name": "miso" },
+        "Flocons de levure"
+      ]
     },
     {
       "ingTitle": "Légumes",
       "ingMand": [
-        "2 courgettes, coupés en dés",
-        "2 carottes, coupés en dés",
-        "1 botte de persil plat, ciselé",
+        "Beaucoup d'herbes (orties, persil, menthe), ciselé",
+        {
+          "value": 6,
+          "type": "",
+          "name": "tomates séchées",
+          "prep": "réhydratées et coupées en morceaux"
+        },
         "5–10 noix"
       ],
-      "ingOpt": []
+      "ingOpt": ["Légumes, coupés en dés"]
     }
   ],
   "instructions": [
@@ -38,10 +47,12 @@
         "Ajouter les légumes coupés en dés, le persil ciselé, les noix cassées en petits morceaux.",
         "Préchauffer le four à 180 °C.",
         "Huiler un plat à cake et y verser la préparation.",
-        "Enfourner pendant 45–60 minutes."
+        "Enfourner pendant 45–50 minutes. Vérifier si le cake est prêt en plantant un couteau en son milieu — il devrait ressortir sec."
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "Les tomates séchées peuvent être remplacées par des olives, artichauts, sardines en boîte, ou autre aliment à fort goût."
+  ],
   "sourceUrl": ""
 }
