@@ -9,8 +9,8 @@
     {
       "ingTitle": "Cabbage",
       "ingMand": [
-        { "value": 700, "type": "g", "name": "cabbage", "prep": "chopped" },
-        { "value": 45, "type": "g", "name": "salt (6% of cabbage)" },
+        { "value": 500, "type": "g", "name": "cabbage", "prep": "chopped" },
+        { "value": 30, "type": "g", "name": "salt (6% of cabbage)" },
         {
           "value": [1, 2],
           "type": "",
@@ -38,7 +38,7 @@
         "Water",
         { "value": 2, "type": "tbsp", "name": "sugar" },
         { "value": 6, "type": "tbsp", "name": "soy sauce or fish sauce" },
-        { "value": 5, "type": "tbsp", "name": "gochugaru" }
+        { "value": 3, "type": "tbsp", "name": "gochugaru" }
       ],
       "ingOpt": []
     }
