@@ -1,0 +1,56 @@
+{
+  "title": "Basic puff pastry (traditional method)",
+  "date": "2026-04-15",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Dough",
+      "ingMand": [
+        { "value": 400, "type": "g", "name": "flour" },
+        { "value": 6, "type": "g", "name": "salt" },
+        { "value": 200, "type": "ml", "name": "water" },
+        { "value": 40, "type": "g", "name": "oil" }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Butter for lamination",
+      "ingMand": [{ "value": 180, "type": "g", "name": "butter" }],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Prepare the dough",
+      "insSteps": [
+        "Pour the flour into a large bowl or onto your work surface. Make a well in the center, then gradually add the water and salt. Incorporate the oil.",
+        "Mix with your fingertips until you obtain a smooth, slightly firm dough.",
+        "Form a ball, make a cross-shaped incision on top, wrap in plastic wrap, and refrigerate for at least 30 minutes (or overnight)."
+      ]
+    },
+    {
+      "insTitle": "Prepare the butter for lamination",
+      "insSteps": [
+        "Cut  cold butter into cubes and place them in the center of a large sheet of parchment paper.",
+        "Fold the paper to form a square envelope approximately 20 x 20 cm. Flatten with a rolling pin to distribute the butter evenly within the envelope.",
+        "Refrigerate for 30 minutes."
+      ]
+    },
+    {
+      "insTitle": "Combine dough and butter",
+      "insSteps": [
+        "Remove the dough from the refrigerator and lightly flour your work surface. Flatten the dough with your fingers, following the incisions of the cross, keeping the center thicker.",
+        "Roll it out into a rectangle (approximately 40 x 20 cm). Place the butter in the center.",
+        "Sealing: Fold the two sides of the dough over to enclose the butter, sealing the edges well in the middle.",
+        "First fold: Rotate the dough a quarter turn. The sealed edges now form a vertical line in front of you. Roll it out (following that line) into a rectangle then fold it into thirds (like a letter). Wrap in plastic wrap and refrigerate for 30 minutes.",
+        "Second fold: Position the dough in front of you in the same direction as before, then rotate it a quarter turn. Roll it out into a rectangle, following the original length of the dough. Do a double turn (bringing the sides to the middle, and folding the whole thing in half). Wrap and refrigerate for another 30 minutes.",
+        "Third fold: Perform a final quarter turn. Roll out the dough one last time into a 40 x 20 cm rectangle. Do a letter-fold similar to the first turn. Wrap and refrigerate, or use immediately."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://lacuisinedegeraldine.fr/pate-feuilletee-traditionnelle#recipe"
+}
