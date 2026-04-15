@@ -12,7 +12,7 @@
         { "value": [50, 100], "type": "g", "name": "sourdough starter" },
         { "value": 400, "type": "g", "name": "bread flour" },
         { "value": 100, "type": "g", "name": "whole wheat flour" },
-        { "value": 300, "type": "g", "name": "water" },
+        { "value": [300, 320], "type": "g", "name": "water" },
         { "value": 10, "type": "g", "name": "salt" }
       ],
       "ingOpt": ["Herbs, seeds, dry fruits"]
