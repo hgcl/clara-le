@@ -6,7 +6,7 @@
     <!-- define the canonical URL of this specific page/post -->
     <a rel="canonical" class="u-url hide" href="{{ page.url }}">Page URL</a>
     {% if icon %}
-      <div aria-hidden="true" class="icon" style="mask-image: url('{{ icon }}')"></div>
+      <div aria-hidden="true" class="icon" style="mask-image: url('{{ icon }}'); mask-repeat: no-repeat;"></div>
     {% endif %}
   </div>
   {% if (date) or (dateModified) %}
