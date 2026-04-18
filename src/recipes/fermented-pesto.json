@@ -1,0 +1,35 @@
+{
+  "title": "Fermented pesto",
+  "date": "2026-04-18",
+  "lang": "en",
+  "dataTag": ["preserve", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Fresh basil, carrot or radish tops, nettle, and/or and kinds of herbs",
+        "Seeds or nuts, roasted and roughly ground",
+        "2.5% of all ingredients weight in salt"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Place your vegetables, herbs and seeds in a bowl and weigh them.",
+        "Add 2–2.5% of the weight of your vegetables in salt. For example, for 400 g of vegetables, add approximately 10 g of salt (when in doubt, always round up your salt quantity).",
+        "Lightly mix, and let it sit for about 15 minutes.",
+        "Some brine should have been released from your vegetables. Transfer everything to a tightly sealed jar. Use a weight to keep the greens underwater.",
+        "Store in a cupboard for 3–7 days, then in a cold room for three weeks — or depending on the sourness you want to achieve.",
+        "It will keep for months in the refrigerator.",
+        "Before serving, you can mix in some olive oil, cheese, garlic, or anything your pesto might be lacking."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.youtube.com/watch?v=-43dZWV4zkw"
+}
