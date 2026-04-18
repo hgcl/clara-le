@@ -31,20 +31,22 @@ pagination:
     </p>
 
     <!-- POST FILTER SELECTOR -->
-    {{ listFilterSelector('category', ['Main','Dessert','Basic','Snack','Drink','Preserve']) }}
+    {{ listFilterSelector('category', ['Main','Dessert','Basic','Snack','Drink','Preserve'], "tried", ["Tried","Wishlist"]) }}
 
     <!-- LINK LIST -->
       <ul
         class="nobullet post-rows-with-label filtered-list">
         {% for item in pagination.pages | reverse %}
-          <li data-tag="{{ item.tags }}">
+          <li data-tag="{{ item.tags }}" data-tag-two="{% if item.tried %}tried{% else %}wishlist{% endif %}">
             <time class="label dt-duration" datetime="{{ item.date }}">{{ item.date | formatDate("short") }}</time>
             <span class="details">
               <a href="{{ item.url }}">{{ item.title }}</a>
               <span class="subtle">Found on {{ item.domain }}</span>
                 {% if item.tags %}
                   <a class="chip" href="/cooking-wishlist/?q={{ item.tags }}">{{ item.tags }}</a>
-                {% endif %}
+                {% endif %} 
+                {% if item.tried %}
+                <a class="chip" href="/cooking-wishlist/?r=tried">Tried</a>{% endif %}
             </span>
           </li>
         {% endfor %}
