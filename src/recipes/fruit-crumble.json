@@ -1,0 +1,41 @@
+{
+  "title": "Fruit crumble",
+  "date": "2025-10-29",
+  "lang": "en",
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        "Fruits, cut into pieces",
+        { "value": 100, "type": "g", "name": "flour" },
+        { "value": 30, "type": "g", "name": "oats" },
+        [
+          { "value": 70, "type": "g", "name": "butter" },
+          { "value": 5, "type": "tbsp", "name": "oil or hard coconut oil" }
+        ],
+        { "value": 50, "type": "g", "name": "sugar" },
+        { "value": 1, "type": "pinch", "name": "salt" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Cut the fruit into pieces (you can keep some of the peel for a rustic look).",
+        "In a bowl, combine the flour, oats, sugar, and butter.",
+        "Mix with your fingers or a fork until the mixture resembles coarse breadcrumbs — there should be some big chunks included. Add a little water if the mixture is too dry. Do not add more flour. Spread this crumbly mixture over the fruit.",
+        "Preheat your oven to 180 °C.",
+        "Bake for about 30–35 minutes, until golden brown."
+      ]
+    }
+  ],
+  "notes": [
+    "If using frozen fruits, make sure to throughly thaw them and drain excess liquid before using to prevent the crumble from becoming too watery."
+  ],
+  "sourceUrl": "https://jamieolivereats.co.uk/plum-crumble/"
+}
