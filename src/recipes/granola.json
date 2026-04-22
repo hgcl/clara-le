@@ -10,8 +10,8 @@
       "ingTitle": "For 2 baking trays",
       "ingMand": [
         { "value": 400, "type": "g", "name": "oat flakes" },
-        { "value": 230, "type": "g", "name": "nuts and seeds mix" },
-        { "value": 100, "type": "g", "name": "honey" },
+        { "value": 170, "type": "g", "name": "nuts and seeds mix" },
+        { "value": 110, "type": "g", "name": "honey" },
         { "value": 70, "type": "g", "name": "neutral oil" },
         { "value": 1, "type": "pinch", "name": "salt" }
       ],
