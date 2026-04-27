@@ -1,0 +1,36 @@
+{
+  "title": "Béchamel sauce",
+  "date": "2026-04-27",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 500, "type": "g", "name": "milk" },
+        { "value": [40, 50], "type": "g", "name": "butter (or oil)" },
+        { "value": 50, "type": "g", "name": "flour" },
+        "Nutmeg",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Start by melting the butter in a saucepan over low heat.",
+        "Once it's completely melted, add the flour. Stir quickly using a whisk and continue mixing until the butter and flour blend into a smooth, lump-free paste.",
+        "Let the mixture cook for about 30 seconds to 1 minute, stirring continuously. Once it's ready, remove the saucepan from the heat. This mixture is called roux.",
+        "Gradually pour the warm milk into the roux, a little at a time, while stirring continuously with a whisk. This slow addition is key to preventing lumps. Keep whisking vigorously to ensure the milk blends smoothly with the roux.",
+        "Once all the milk has been added, return the saucepan to low heat. Keep stirring constantly as the mixture begins to thicken. This process takes about 10 to 15 minutes, depending on the heat and consistency you're aiming for.",
+        "Now it's time to add the seasonings. Stir in salt and a small amount of grated nutmeg to enhance the flavor. If you want an even richer taste, you can also mix in a little grated Parmigiano Reggiano — this step is optional but adds a delicious depth to the sauce."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.recipesfromitaly.com/bechamel-sauce-basic-white-sauce/#recipe"
+}
