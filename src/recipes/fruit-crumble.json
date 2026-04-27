@@ -13,7 +13,7 @@
         { "value": 100, "type": "g", "name": "flour" },
         { "value": 30, "type": "g", "name": "oats" },
         [
-          { "value": 70, "type": "g", "name": "butter" },
+          { "value": 75, "type": "g", "name": "butter" },
           { "value": 5, "type": "tbsp", "name": "oil or hard coconut oil" }
         ],
         { "value": 50, "type": "g", "name": "sugar" },

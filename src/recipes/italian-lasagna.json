@@ -16,7 +16,12 @@
           "name": "sauce bolognaise",
           "url": "italian-bolognese"
         },
-        { "value": 0.5, "type": ":", "name": "sauce béchamel" },
+        {
+          "value": 0.5,
+          "type": "L",
+          "name": "sauce béchamel",
+          "url": "bechamel-sauce"
+        },
         { "value": 1, "type": "", "name": "oignon", "prep": "émincé" },
         { "value": 2, "type": "", "name": "gousses d'ail" },
         "Poivre",
