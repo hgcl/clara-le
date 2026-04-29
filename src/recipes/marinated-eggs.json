@@ -13,10 +13,10 @@
         {
           "value": 70,
           "type": "g",
-          "name": "soy sauce (half strong, half soft)"
+          "name": "soy sauce (half dark, half light)"
         },
         { "value": 30, "type": "g", "name": "water" },
-        { "value": [2, 3], "type": "tsp", "name": "sugar" }
+        { "value": [1, 2], "type": "tsp", "name": "sugar" }
       ],
       "ingOpt": [
         { "value": 1, "type": "tsp", "name": "white vinegar" },
@@ -39,7 +39,7 @@
     }
   ],
   "notes": [
-    "For the soy sauce, I mix half \"strong\" soy sauce, and half \"diluted\" soy sauce."
+    "If the tupperware is not tight enough, you might need to mix some more marinade so that the eggs are covered halfway."
   ],
   "sourceUrl": ""
 }
