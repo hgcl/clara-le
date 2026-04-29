@@ -1,0 +1,34 @@
+{
+  "title": "Mayonnaise",
+  "date": "2026-04-29",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 180, "type": "g", "name": "neutral oil" },
+        { "value": 1, "type": "", "name": "egg" },
+        { "value": 1, "type": "tbsp", "name": "mustard", "url": "mustard" },
+        "Apple vinegar",
+        "Lemon juice",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "In a tall jar, add the oil, egg and mustard.",
+        "Fully insert a hand blender and start blending (without moving).",
+        "Once the emulsion is stable, add the rest of the ingredients to taste and mix some more."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.papillesetpupilles.fr/2007/05/mayonnaise-allge.html/"
+}
