@@ -10,7 +10,7 @@
       "ingTitle": "",
       "ingMand": [
         "Fruits, cut into pieces",
-        { "value": 100, "type": "g", "name": "flour" },
+        { "value": 120, "type": "g", "name": "flour" },
         { "value": 30, "type": "g", "name": "oats" },
         [
           { "value": 75, "type": "g", "name": "butter" },
@@ -26,9 +26,10 @@
     {
       "insTitle": "",
       "insSteps": [
+        "In a bowl, combine the flour, oats, sugar, and butter. Cover and let it cool in the fridge for at least an hour.",
+        "Mix with your fingers or a fork until the mixture resembles coarse breadcrumbs — there should be some big chunks included. Add a little water if the mixture is too dry.",
         "Cut the fruit into pieces (you can keep some of the peel for a rustic look).",
-        "In a bowl, combine the flour, oats, sugar, and butter.",
-        "Mix with your fingers or a fork until the mixture resembles coarse breadcrumbs — there should be some big chunks included. Add a little water if the mixture is too dry. Do not add more flour. Spread this crumbly mixture over the fruit.",
+        "Spread the cold crumble over the fruit.",
         "Preheat your oven to 180 °C.",
         "Bake for about 30–35 minutes, until golden brown."
       ]
