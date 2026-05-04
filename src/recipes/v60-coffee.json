@@ -9,8 +9,8 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 20, "type": "g", "name": "coffee" },
-        { "value": 300, "type": "ml", "name": "water" }
+        { "value": 15, "type": "g", "name": "coffee" },
+        { "value": 250, "type": "ml", "name": "water" }
       ],
       "ingOpt": []
     }
@@ -19,20 +19,25 @@
     {
       "insTitle": "Preparations",
       "insSteps": [
-        "Grind the coffee beans to be about the size of sand. On my Knock Aergrind, that translates to the 2.4 dial.",
-        "Heat the water to about 93 °C. Place the filter on your V60, and wash it with the hot water a few times to remove the paper taste."
+        "Grind the coffee beans to be about the size of sand. On my Knock Aergrind, that translates to the 2.1 dial.",
+        "Heat the water to about 93 °C. Place the filter on your V60, and thorougly wash it with the hot water a few times to remove the paper taste. This also makes sure the V60 is hot enough.",
+        "Add the ground coffee to the filter, and make a small dip in it.",
+        "Tare the scale."
       ]
     },
     {
       "insTitle": "Brewing",
       "insSteps": [
-        "Add the ground coffee to the filter, and make a small dip in it.",
-        "I do five even pours of 60 g each.",
-        "Each pour takes around 10 seconds in a steady spiral motion, starting from the centre and moving outward.",
-        "There is a 30-second break between each pour."
+        "0:00 Pre-wet with 50 g of water. Gently swirl the V60 and let the coffee bloom.",
+        "0:45 Pour up to 100 g total (= add 50 g water).",
+        "1:10 Pour up to 150 g total.",
+        "1:30 Pour up to 200 g total.",
+        "1:50 Pour up to 250 g total. Gently swirl and wait for the complete drawdown."
       ]
     }
   ],
-  "notes": [],
-  "sourceUrl": "https://www.nicolebattefeld.com/post/v60-recipe"
+  "notes": [
+    "While pouring, use spiraling motions and try to keep the spout close to surface."
+  ],
+  "sourceUrl": "https://www.youtube.com/watch?v=1oB1oDrDkHM"
 }
