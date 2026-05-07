@@ -10,6 +10,14 @@ This started as a log of my water kefir experiments. I am now broadening it to a
 
 ---
 
+## 2026-05-07: Tofu
+
+Robin and I tried fermenting tofu with rosemary/laurel leaves for the first time in January — or was it February? Anyway, we forgot about it... until today, about four months later. I can only say that we succeeded in creating what some people call the "Chinese blue cheese" — or at least a very potent equivalent.
+
+The sulfur smell is strong, the tofu is flavorful, and funky as hell. Two or three bites per meal should be enough. Or maybe use it in recipes?
+
+I'd love to have another try at fermenting tofu, but for a much shorter time.
+
 ## 2025-12-20: Kimchi
 
 I have just made a batch of kimchi with my mother, and realized that the recipe I was following might be a bit too vague for her. I converted the quantities to be more precise.
