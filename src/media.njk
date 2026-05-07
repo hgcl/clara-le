@@ -18,49 +18,55 @@ icon: /public/img/meta/drawing-camera.svg
     #media li {
       position: relative;
       margin-bottom: 1rem;
+
+      .list-title {
+        /* show h3 only */
+        display: none;
+      }
+
+      .post-title {
+        opacity: 0;
+        /* overlay on image */
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        padding: var(--space-m);
+        color: rgba(var(--white), 1);
+        /* center vertically */
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+      }
     }
-    #media li a {
-      height: 100%;
-    }
-    #media li .list-title {
-      /* show h3 only */
-      display: none;
-    }
-    #media li .post-title {
-      opacity: 0;
-      /* overlay on image */
-      position: absolute;
-      width: 100%;
-      text-align: center;
-      padding: var(--space-m);
-      color: rgba(var(--white), 1);
-      /* center vertically */
-      top: 50%;
-      transform: translateY(-50%);
-      margin: 0;
-    }
-    #media li > a:hover .post-title,
-    #media li > a:focus .post-title,
-    #media li > a:active .post-title {
-      opacity: 1;
-    }
+    
     #media li > a {
-      display: block;
-    }
-    #media li > a img {
       height: 100%;
-      min-width: 100%;
-      object-fit: cover;
-      aspect-ratio: 3 / 4;
+      display: block;
+
+      &:hover .post-title,
+      &:focus .post-title,
+      &:active .post-title {
+        opacity: 1;
+      }
+
+      img {
+        height: 100%;
+        min-width: 100%;
+        object-fit: cover;
+        aspect-ratio: 3 / 4;
+      }
     }
+
     #media li .label {
       /* align with posts.html */
       display: block;
       margin-top: 0.25rem;
+
+      .author {
+        display: none;
+      }
     }
-    #media li .label .author {
-      display: none;
-    }
+    
   </style>
   <style media="only screen and (width >= 768px)">
     #media ul {
