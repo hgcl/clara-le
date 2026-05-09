@@ -1,5 +1,7 @@
 import * as fs from "fs";
 
+const FETCH = false;
+
 // Define Cache Location and API Endpoint
 const CACHE_DIR = "_data";
 const API = "https://webmention.io/api";
@@ -17,7 +19,7 @@ const unionBy = (arr, ...args) => {
   return arr
     .concat(...args)
     .filter(
-      (x, i, self) => i === self.findIndex((y) => iteratee(x) === iteratee(y))
+      (x, i, self) => i === self.findIndex((y) => iteratee(x) === iteratee(y)),
     );
 };
 
@@ -25,7 +27,7 @@ async function fetchWebmentions(since, perPage = 10000) {
   if (!DOMAIN) {
     // If we don't have a domain name, abort
     console.warn(
-      ">>> unable to fetch webmentions: no domain name specified in site.json"
+      ">>> unable to fetch webmentions: no domain name specified in site.json",
     );
     return false;
   }
@@ -33,7 +35,7 @@ async function fetchWebmentions(since, perPage = 10000) {
   if (!TOKEN) {
     // If we don't have a domain access token, abort
     console.warn(
-      ">>> unable to fetch webmentions: no access token specified in environment."
+      ">>> unable to fetch webmentions: no access token specified in environment.",
     );
     return false;
   }
@@ -45,7 +47,7 @@ async function fetchWebmentions(since, perPage = 10000) {
   if (response.ok) {
     const feed = await response.json();
     console.log(
-      `>>> ${feed.children.length} new webmentions fetched from ${API}`
+      `>>> ${feed.children.length} new webmentions fetched from ${API}`,
     );
     return feed;
   }
@@ -101,6 +103,13 @@ async function saveWebmentions() {
 
     if (cache.children.length) {
       console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
+    }
+
+    if (!FETCH) {
+      console.warn(
+        ">>> enable webmention fetching first to save new webmentions",
+      );
+      return false;
     }
 
     const feed = await fetchWebmentions(cache.lastFetched);
