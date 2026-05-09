@@ -17,7 +17,7 @@ _Update: I'm back in my home kitchen! I'll add the date of my first time trying 
 - Ayran: cold savory yogurt-based beverage (best when served cold and foamed)
 - Kuru fasulye: beans in tomato sauce (love the version with a lot of tomato paste for a richer result)
 - Çig köfte: fresh bulgur-based wrap, great for summer
-- Turkish coffee: strong and thick coffee, the good ones are served with a distinct _crema_
+- Turkish coffee: strong and thick coffee, the good ones are served with a distinct _crema_ (✅ made as we were traveling)
 - Lahmacun: sometimes called the "Turkish pizza", it's thin, crispy and delicious
 - Kavut: a type of flour-based halva, very paste-like (make it "bland" so that it can be topped with honey/jam or anything else)
 - Menemen: scrambled eggs with tomatoes, the perfect breakfast dish (✅ made on 23-09-2025, no recipe yet)
@@ -43,7 +43,7 @@ _Update: I'm back in my home kitchen! I'll add the date of my first time trying 
 
 ## Azerbaijan
 
-- Plov: one-pot saffron-flavored rice with dried fruits (made it in Baku and it came out amazing)
+- Plov: one-pot saffron-flavored rice with dried fruits (✅ made it in Baku and it came out amazing)
 - Shirin chörek: sweet turmeric milk bread, crumbly biscuity texture
 - Dovga: yoghurt soup with rice, chickpeas and herbs
 
@@ -58,7 +58,7 @@ _Update: I'm back in my home kitchen! I'll add the date of my first time trying 
 
 - La mian (拉面): hand-pulled noodles because yum
 - Mapo tofu (麻婆豆腐): super spicy silk tofu from the Sichuan region
-- Tofu: not sure why I never made my own
+- Tofu: not sure why I never made my own (✅ made on 05-05-2026)
 - Laocang vinegar rice noodle (老仓米线): noodle soup with ground sesame and vinegar
 - Tea: small tea pot that you refill with hot water and pour into another recipient to avoid steeping the leaves for too long (love the mindful process, perfect for conversation)
 
@@ -85,7 +85,7 @@ _Update: I'm back in my home kitchen! I'll add the date of my first time trying 
 
 - Sambal: a chili-based sauce that can be more or less hot/sour/sweet (great to accompany rice or meat)
 - Laksa: sour noodle soup with curry and fish, never have I tasted a soup that is as _bold_ as laksa
-- Tea-based gelato: not my first tea-based ice cream, but they take it here to another level (Matcha, Hojicha, Earl Grey, and many more!)
+- Tea-based gelato: not my first tea-based ice cream, but they take it here to another level (Matcha, Hojicha, Earl Grey, and many more!) (✅ made in April 2026)
 - Ayam masak merah: "red-cooked chicken", chicken braised in a sweet and spicy tomato sauce (amazing with cheese naan)
 - Roti canai: this might be one of my favorite breakfasts in Malaysia, I love the chewiness of the bread and how it perfectly combines with a dal soup
 - Kuih bingka ubi: I love these small bite-sized desserts, the bingka ubi version (baked tapioca with coconut milk) is by far my favorite, perfect with tea
