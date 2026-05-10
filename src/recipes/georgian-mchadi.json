@@ -11,6 +11,7 @@
       "ingMand": [
         { "value": 200, "type": "g", "name": "coarse cornmeal (or polenta)" },
         { "value": 2, "type": "tsp", "name": "olive oil" },
+        { "value": 120, "type": "ml", "name": "water" },
         "Salt and pepper"
       ],
       "ingOpt": []
