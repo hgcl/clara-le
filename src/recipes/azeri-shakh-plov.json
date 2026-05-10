@@ -1,0 +1,74 @@
+{
+  "title": "Azeri Shakh Plov",
+  "date": "2026-05-10",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "Azerbaijan's national dish: one of many variants of plov, the shakh plov is a celebratory dish, often served at weddings. Robin made it for the first time in Baku with local ingredients. Back in France, we realized that we could make it with many ingredients from our own garden / local community: sheep meat, walnuts, chestnuts, dried plums, saffron.",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "For 5–6 portions",
+      "ingMand": [
+        { "value": 400, "type": "g", "name": "long-grain rice" },
+        { "value": 200, "type": "g", "name": "ghee", "prep": "melted" },
+        { "value": 0.5, "type": "tsp", "name": "saffron" },
+        { "value": 50, "type": "g", "name": "warm water (for the saffron)" },
+        {
+          "value": [5, 6],
+          "type": "",
+          "name": "lavash for the gazmag (crust)",
+          "url": "armenian-lavash"
+        },
+        {
+          "value": 1,
+          "type": "cup",
+          "name": "dried apricots (or plums)"
+        },
+        { "value": 0.5, "type": "cup", "name": "raisins" },
+        { "value": 0.5, "type": "cup", "name": "walnuts" }
+      ],
+      "ingOpt": [
+        { "value": 1, "type": "cup", "name": "chestnuts", "prep": "cooked" }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Soak the rice",
+      "insSteps": [
+        "Rinse the rice thoroughly in cold water several times to remove excess starch.",
+        "Soak the rice overnight in salty water at room temperature (or at least 1 hour) for a truly great, fluffy, and evenly cooked rice."
+      ]
+    },
+    {
+      "insTitle": "Prep the ingredients",
+      "insSteps": [
+        "Infuse the saffron: place the saffron threads into a glass, pour the warm water on top and let sit. The water should become a clear, bright orange.",
+        "Parboil the rice: fill a pot with water and bring it to a boil. Add salt, then place the rice into the boiling water. Stir, lower the heat to medium, and let it cook for about 5 to 7 minutes (depending on the rice). Parboiled rice should be soft on the outside and hard inside (not raw). Strain the rice in a colander, rinse with cold water to stop the cooking.",
+        "Cook the filling: add ghee to a preheated pan. Brown the onion for around 10 minutes, the meat until cooked through, toast the chestnuts and walnuts, and cook the dried fruits until they plump up. Don't hesitate to add more ghee or deglaze with water if necessary. For simplicity, set each of the ingredients aside after cooking and combine them into the pan at the end."
+      ]
+    },
+    {
+      "insTitle": "Layer the plov",
+      "insSteps": [
+        "Melt plenty of ghee in a saucepan and grease the dutch oven pot thoroughly.",
+        "Grease both sides of each lavash with melted ghee. Place one round lavash on the bottom of the pot. Arrange remaining lavash around the sides of the pot, overlapping each other. Do not leave any open spaces, the bottom and sides of the pot must be fully covered with lavash.",
+        "Using half the parboiled rice, create an even layer at the bottom of the pot (on top of the lavash). Pour half the saffron infusion on the rice.",
+        "Layer the meat, dried fruit, and nuts on top of the rice.",
+        "Add a third layer using the rest of the rice. Pour the end of the saffron infusion on top.",
+        "Cover the top with another greased lavash, tuck it over the sides to completely enclose the filling."
+      ]
+    },
+    {
+      "insTitle": "Bake",
+      "insSteps": [
+        "Put the pot (closed with a lid) in the oven, pre-heated at 180 °C, for about 45 minutes.",
+        "Remove the lid and continue baking for 10 minutes, until the lavash is golden-brown.",
+        "Remove the pot from the oven and leave it for about five minutes to rest.",
+        "Turn the pot upside down on a serving plate to take out the plov. Mashallah.",
+        "Cut through the crust into slices to serve. Optionally serve with fresh yoghurt with herbs."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Armenian lavash",
+  "date": "2026-05-10",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 180, "type": "ml", "name": "water", "prep": "lukewarm" },
+        {
+          "value": 160,
+          "type": "ml",
+          "name": "milk (or water)",
+          "prep": "lukewarm"
+        },
+        [
+          { "value": 6, "type": "g", "name": "instant yeast" },
+          { "value": 2, "type": "tbsp", "name": "sourdough starter" }
+        ],
+        { "value": 15, "type": "g", "name": "olive oil" },
+        { "value": 7, "type": "g", "name": "sugar" },
+        { "value": 10, "type": "g", "name": "salt" },
+        { "value": 440, "type": "g", "name": "flour" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Preparing the dough",
+      "insSteps": [
+        "If using yeast, stir together the water, milk, yeast, oil and sugar and let sit for 20 minutes until nice and frothy.",
+        "If using sourdough, stir together the water, milk, sourdough starter, oil, sugar, and flour. Roughly mix until the ingredients are combined. Let rest 20 minutes.",
+        "Knead for about 10 minutes until the dough is homogenous and its gluten network has properly formed.",
+        "Shape the dough into a ball, spray the bowl with oil, return the dough ball to the bowl. Use a bench scraper as the dough is quite sticky.",
+        "Cover and let sit in a warm place for up to an hour or until the dough has doubled in size."
+      ]
+    },
+    {
+      "insTitle": "Make the lavash",
+      "insSteps": [
+        "Divide the dough into 12 equal pieces (or 6 if using for larger wraps), lay them on a lined baking sheet and cover with a towel. Let rest for 10–15 minutes.",
+        "Preheat a large skillet over medium heat.",
+        "Transfer a dough ball ball to a floured work surface and roll out a thinly as you can — almost see-through. You can also try to extend it \"in the air\", using your hands.",
+        "Lightly spray the skillet and place the dough on it. Cook for roughly 45–60 seconds or until the dough bubbles and has some brown spots on the bottom then flip it over and cook on the other side for another 30–40 seconds.",
+        "Transfer to a large plate or baking sheet and cover with a towel so it retains moisture. Repeat this process for the remaining dough balls, stacking the finished lavash on top of each other under the towel.",
+        "Best served immediately. For best texture enjoy within the same day. To store, place the lavash in a ziplock bag at room temperature for up to 2 days. To freeze layer them with parchment paper and store in a freezer bag or container for up to one month. To serve, spray lightly with water and reheat slowly in the oven. "
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.daringgourmet.com/lavash-bread/#recipe"
+}
