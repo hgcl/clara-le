@@ -6,7 +6,6 @@ import filterTags from "./_config/filterTags.js";
 import squash from "./_config/squash.js";
 import getWebmentionsForUrl from "./_config/getWebmentionsForUrl.js";
 // Other plugins
-import pluginRss from "@11ty/eleventy-plugin-rss";
 import markdownItPlugin from "./_config/markdownItPlugin.js";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
@@ -18,14 +17,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(filterTags);
   eleventyConfig.addPlugin(squash);
   eleventyConfig.addPlugin(getWebmentionsForUrl);
-
-  // 11ty official RSS plugin: https://www.11ty.dev/docs/plugins/rss/
-  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(markdownItPlugin);
-  // Syntax highlighting plugin: https://www.11ty.dev/docs/plugins/syntaxhighlight/
-  eleventyConfig.addPlugin(syntaxHighlight);
-  // Copy the following folders over to _site
-  eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPlugin(syntaxHighlight); // syntax highlighting plugin: https://www.11ty.dev/docs/plugins/syntaxhighlight/
+  eleventyConfig.addPassthroughCopy("public"); // Copy this folder over to _site
 
   // Preprocessor API: https://www.11ty.dev/docs/config-preprocessors/
   // Posts with "draft: true" anywhere in its data cascade won't be built, except if built with `--serve` or `--watch` modes
