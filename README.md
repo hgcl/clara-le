@@ -36,7 +36,6 @@ Other special cases:
 
 - `src/search.njk`: fallback search page used if the user disabled Javascript
 - `src/search-data.njk`: template creating the search data JSON file
-- `src/feed.njk`: template creating the RSS feed `/feed.xml`
 
 ### Subdirectories of `src`
 
