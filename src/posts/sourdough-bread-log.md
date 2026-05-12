@@ -10,7 +10,11 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
----
+## 2026-05-12
+
+It is starting to get too hot. Doing the first fermentation during the night is not possible anymore, as the dough overferments and the gluten network starts to break down.
+
+I am trying to change my routine. Let the starter rise during the night, mix and let the dough ferment in the morning, shape and place in the fridge (in a banneton) in the afternoon, and finally bake when ready.
 
 ## 2026-03-27
 
