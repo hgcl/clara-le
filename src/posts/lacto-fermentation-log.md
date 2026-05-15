@@ -10,6 +10,14 @@ This started as a log of my water kefir experiments. I am now broadening it to a
 
 ---
 
+## 2026-05-15: Citrons confits
+
+When life gives you lemons... ferment them! On Feb 12, I fermented a batch of whole lemons, following a citron confit recipe.
+
+The broad lines are: cut the whole lemons in 4 lengthwise (but keep the extremity so they don't break), fill the inside with plenty of salt, add them all to a clean jar (strongly push them down), some juice should come out and cover the lemons (you may add water).
+
+I left the jar in my cave for a few months, and tried some for the first time in... March? Now in May, they are still really good. I just need to figure out some recipes to use them for.
+
 ## 2026-05-07: Tofu
 
 Robin and I tried fermenting tofu with rosemary/laurel leaves for the first time in January — or was it February? Anyway, we forgot about it... until today, about four months later. I can only say that we succeeded in creating what some people call the "Chinese blue cheese" — or at least a very potent equivalent.
