@@ -17,7 +17,7 @@
           { "value": 5, "type": "tbsp", "name": "oil or hard coconut oil" }
         ],
         { "value": 50, "type": "g", "name": "sugar" },
-        { "value": 1, "type": "pinch", "name": "salt" }
+        { "value": 2, "type": "pinches", "name": "salt" }
       ],
       "ingOpt": []
     }
