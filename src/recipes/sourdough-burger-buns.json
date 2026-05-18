@@ -1,7 +1,7 @@
 {
   "title": "Sourdough burger buns",
   "date": "2021-01-22",
-  "lang": "fr",
+  "lang": "en",
   "dataTag": ["basic", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "",
@@ -9,43 +9,46 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 200, "type": "g", "name": "levain" },
-        { "value": 300, "type": "g", "name": "farine blanche" },
-        { "value": 299, "type": "g", "name": "farine semi-complète (T110)" },
-        { "value": 8, "type": "g", "name": "sel" },
-        { "value": 16, "type": "g", "name": "sucre" },
+        [
+          { "value": 200, "type": "g", "name": "sourdough starter" },
+          { "value": 20, "type": "g", "name": "fresh yeast" }
+        ],
         {
           "value": 200,
           "type": "g",
-          "name": "lait à température ambiante (ou de l'eau)"
+          "name": "milk or water (warm)"
         },
-        { "value": 60, "type": "g", "name": "beurre mou" },
-        { "value": 1, "type": "", "name": "œuf" }
+        { "value": 500, "type": "g", "name": "flour T65" },
+        { "value": 10, "type": "g", "name": "salt" },
+        { "value": 16, "type": "g", "name": "sugar" },
+        { "value": 1, "type": "tbsp", "name": "olive oil" }
       ],
-      "ingOpt": [
-        { "value": 1, "type": "", "name": "jaune d'œuf" },
-        "Graines de sésame"
-      ]
+      "ingOpt": [{ "value": 1, "type": "", "name": "egg yolk" }, "Sesame seeds"]
     }
   ],
   "instructions": [
     {
-      "insTitle": "",
+      "insTitle": "First rise",
       "insSteps": [
-        "Pétrisser grossièrement à la main les farines, le lait, l'oeuf, le sucre, le sel et levain en veillant à ce le levain n'entre pas en contact direct avec le sel.",
-        "Au fur et à mesure, ajouter les dés de beurre mou.",
-        "Pétrisser le tout 15 à 20 minutes jusqu'à ce que la pâte se décolle des parois de votre bol, qu'elle soit souple et ferme.",
-        "Réserver une nuit dans un grand bol recouvert d'un linge sec et propre, celui-ci va pousser et doubler de volume.",
-        "Dégazer la pâte en chassant l'air à la main et en pétrissant brièvement à la main. Peser la pâte, puis diviser-la en 8 pâtons de poids égal.",
-        "Former des boules avec les pâtons en les roulant sur le plan de travail et laisser les pâtons de nouveau doubler de volume sur une plaque allant au four, chemisé de papier cuisson, couvert d'un linge. Cela devrait prendre quelques heures.",
-        "Préchauffer le four à 200 °C.",
-        "Badigeonner les buns de jaune d'oeuf (mélangé à un peu d'eau), saupoudrer de graines de sésame et enfourner pour 13–15 minutes. Laisser refroidir sur une grille, c'est prêt !"
+        "In a big bowl, mix the sourdough starter with the warm milk and sugar. If using fresh yeast, use more milk (300 g), and let rest for 15 minutes, so that the yeast activates. If using sourdough, you don't need to let it rest.",
+        "Roughly mix in the flour, sugar, salt, and oil. Let rest 15 minutes.",
+        "Knead everything for 15 to 20 minutes until the dough pulls away from the sides of the bowl and is smooth and firm.",
+        "Cover and leave to bulk rise for 6–8 hours or until double in volume. When using yeast, it could take as little as 1–2 hours."
+      ]
+    },
+    {
+      "insTitle": "Second rise",
+      "insSteps": [
+        "Deflate the dough by pressing out the air with your hands. Weigh the dough, then divide it into 6–8 equal portions.",
+        "Shape the dough portions into balls by rolling them on the work surface and let them double in volume again on a baking sheet lined with parchment paper and covered with a cloth. This should take from 30 minutes to a few hours. Keep the buns surface moist.",
+        "Preheat the oven at 200 °C.",
+        "Brush the buns with egg yolk (mixed with a little water), sprinkle with sesame seeds, and bake for 13–15 minutes. Let cool on a wire rack, and they're ready!"
       ]
     }
   ],
   "notes": [
-    "Note : cette recette nécessite 6–8 heures de \"bulk rising\".",
-    "Tip : la deuxième montée des pains individuellement est plus importante que la première. Mieux vaut racourcir la première durée de montée plutôt que la deuxième. Si la seconde montée est trop lente, vous pouvez chauffer votre four à 35 °C avec une casserole d'eau bouillante posée sur le bas. Placez votre plaque de buns au milieu du four pendant quelques heures, en vous assurant qu'ils ne s'assèchent pas. Vous pouvez humidifier leurs surfaces de temps en temps."
+    "Note: for quick burger buns, use fresh yeast as they can be ready in half a day.",
+    "Tip : The second rise of the individual buns is more important than the first. It's better to shorten the first rise than the second. If the second rise is too slow, you can preheat your oven to 35 °C with a pan of boiling water placed on the bottom rack. Place your tray of buns in the middle of the oven for a few hours, making sure they don't dry out. You can moisten their surfaces occasionally."
   ],
   "sourceUrl": "http://www.grainedefaimkely.com/2020/04/pain-burger-au-levain.html"
 }
