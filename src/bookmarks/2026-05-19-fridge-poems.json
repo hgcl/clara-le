@@ -1,1 +1,8 @@
-{"url":"https://ryanyan.garden/fridge-poems/","title":"Fridge poems","date":"2026-05-19","description":"The poetic web strikes again","best":"false"}
+{
+  "url": "https://ryanyan.garden/fridge-poems/",
+  "title": "Fridge poems",
+  "date": "2026-05-19",
+  "description": "The poetic web strikes again",
+  "best": "false",
+  "tags": ["web"]
+}

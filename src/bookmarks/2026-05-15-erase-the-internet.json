@@ -1,1 +1,8 @@
-{"url":"https://www.erasetheinternet.org/","title":"Erase the internet","date":"2026-05-15","description":"An essay about the internet","best":"false"}
+{
+  "url": "https://www.erasetheinternet.org/",
+  "title": "Erase the internet",
+  "date": "2026-05-15",
+  "description": "An essay about the internet",
+  "best": "false",
+  "tags": ["web"]
+}

@@ -1,1 +1,8 @@
-{"url":"https://sinceyouarrived.world/taken","title":"Taken","date":"2026-05-18","description":"Everything your browser gave away the moment you opened it, narrated as prose.","best":"false"}
+{
+  "url": "https://sinceyouarrived.world/taken",
+  "title": "Taken",
+  "date": "2026-05-18",
+  "description": "Everything your browser gave away the moment you opened it, narrated as prose.",
+  "best": "false",
+  "tags": ["web"]
+}
