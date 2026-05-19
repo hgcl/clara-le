@@ -28,12 +28,6 @@ export const onRequestPost = async (context) => {
       formattedBest = "false";
     }
 
-    // Format tags
-    const formattedTags = data.tags
-      .split(",")
-      .map((tag) => tag.trim())
-      .filter(Boolean);
-
     // Format content
     const json = {
       url: data.link.trim(),
@@ -42,7 +36,7 @@ export const onRequestPost = async (context) => {
       description: data.description.trim(),
       best: formattedBest,
       // Only add tags if not empty
-      ...(formattedTags.length && { tags: formattedTags }),
+      ...(data["tags"] !== "" && { tags: data["tags"] }),
     };
 
     fileContent = JSON.stringify(json);

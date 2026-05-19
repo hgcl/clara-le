@@ -43,7 +43,17 @@ icon: /public/img/meta/drawing-list.svg
         <textarea type="text" id="description" name="description" maxlength="250"></textarea>
       </label>
       <label>Date* <input class="date" type="date" id="date" name="date" required /></label>
-      <label>Tags (separated by commas) <input type="text" id="tags" name="tags" placeholder="coding, web"/></label>
+      <label for="tags">Tags
+        <select name="tags" id="tags" multiple>
+          <option value="" selected>None</option>
+          <option value="accessibility">Accessibility</option>
+          <option value="blog">Blog</option>
+          <option value="coding">Coding</option>
+          <option value="cooking">Cooking</option>
+          <option value="gaming">Gaming</option>
+          <option value="web">Web</option>
+        </select>
+      </label>
       <label for="best">Is this link incredibly good? <input type="checkbox" id="best" name="best" /></label>
     </div>
 
