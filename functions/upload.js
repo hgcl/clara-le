@@ -36,7 +36,7 @@ export const onRequestPost = async (context) => {
       description: data.description.trim(),
       best: formattedBest,
       // Only add tags if not empty
-      ...(data["tags"] !== "" && { tags: data["tags"] }),
+      ...(data["tags"][0] !== "" && { tags: data["tags"] }),
     };
 
     fileContent = JSON.stringify(json);
