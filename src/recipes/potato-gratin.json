@@ -22,7 +22,11 @@
           "prep": "crushed"
         },
         "Milk",
-        "Flour",
+        {
+          "value": 1,
+          "type": "tbsp",
+          "name": "Flour or maïzena"
+        },
         "Butter",
         "Cheese",
         "Chili flakes",
@@ -36,12 +40,13 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Peel and thinly slice the potatoes.",
+        "Peel the potatoes and steam them until almost cooked.",
         "Chop the garlic finely. Slice or dice the cheese.",
-        "Prepare the béchamel sauce with the butter, flour, and milk. Make it slightly thinner than usual. Season it with salt, pepper, chili flakes, and nutmeg, then stir in the garlic and half the cheese.",
-        "For a quick version, cook the potatoes with milk, heavy cream, and all seasoning on low heat for 15 minutes. Add them to the gratin dish when tender.",
-        "In a gratin dish, layer the potato slices and béchamel sauce. Repeat until you reach the top of the dish, finishing with a layer of béchamel. Sprinkle the remaining cheese over the top.",
-        "Bake at 200 °C for 40 minutes (or until golden on top)."
+        "Prepare the creamy sauce with the butter, flour, and milk. Make it much thinner than a regular béchamel. Season it with salt, pepper, chili flakes, and nutmeg, then stir in the garlic and half the cheese.",
+        "Thinly slice the potatoes, and add them to the creamy sauce.",
+        "In a gratin dish, add the potato mixture. There should be enough creamy sauce that we can just see the last layer of potatoes — add more milk if needed. Sprinkle the remaining cheese over the top.",
+        "For a quick version, cook the potatoes with milk, heavy cream, and all seasoning on low heat for 15 minutes. Add them to the gratin dish when just tender.",
+        "Bake at 180 °C for 40 minutes (or until golden on top)."
       ]
     }
   ],
