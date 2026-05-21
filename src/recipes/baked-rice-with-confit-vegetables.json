@@ -26,8 +26,8 @@
         "Fresh herbs (e.g. coriander)",
         "Dry herbs (e.g. thyme)",
         { "value": 150, "type": "ml", "name": "olive oil" },
-        { "value": 450, "type": "g", "name": "rice" },
-        { "value": 900, "type": "g", "name": "water" },
+        { "value": 500, "type": "g", "name": "rice" },
+        { "value": 750, "type": "g", "name": "water" },
         "Salt and pepper"
       ],
       "ingOpt": []
@@ -37,6 +37,7 @@
     {
       "insTitle": "Braise the veggies",
       "insSteps": [
+        "Soak the rice in a bowl.",
         "Preheat your oven to 160 °C.",
         "Place the vegetables, garlic, onions, dry herbs and spices in a large high-sided casserole dish. Ottolenghi recommends a 20 x  30 cm dish.",
         "Pour over the olive oil, along with a teaspoon of salt and some ground black pepper.",
@@ -47,10 +48,10 @@
       "insTitle": "Cook the rice",
       "insSteps": [
         "When your vegetables are almost ready, boil enough water to cook the rice. Set aside.",
-        "Remove the dish from the oven, and sprinkle the rice evenly over the cooked vegetables — you could also add some fresh herbs at this stage. Don't stir anything.",
+        "Remove the dish from the oven, and sprinkle the drained rice evenly over the cooked vegetables — you could also add some fresh herbs at this stage. Don't stir anything.",
         "Sprinkle another half teaspoon of salt, and some ground black pepper over the rice. Then carefully pour the boiling water over the rice.",
-        "Increase the oven temperature to 220 °C.",
-        "Seal the dish tightly with foil. Place in the oven for 25 minutes, until the rice has absorbed all the water.",
+        "Increase the oven temperature to 210 °C.",
+        "Seal the dish tightly with foil. Place in the oven for 30 minutes, until the rice has absorbed all the water.",
         "When cooked, remove the dish from the oven, and let rest for 10 minutes, still covered.",
         "Remove the foil. Top with some extra fresh herbs, cheese, nuts, etc."
       ]
