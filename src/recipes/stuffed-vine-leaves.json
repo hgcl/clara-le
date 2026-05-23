@@ -7,16 +7,22 @@
   "duration": "120",
   "ingredients": [
     {
-      "ingTitle": "",
+      "ingTitle": "Farce",
       "ingMand": [
-        { "value": 1, "type": "tasse", "name": "huile d'olive" },
+        "Huile d'olive",
         { "value": 2, "type": "cs", "name": "pignons de pin" },
         { "value": 2, "type": "", "name": "oignons", "prep": "émincés" },
         { "value": 0.5, "type": "tasse", "name": "riz blanc" },
         { "value": 0.25, "type": "tasse", "name": "raisins secs" },
         "Sel et poivre",
         "Un peu de menthe",
-        { "value": 0.5, "type": "tasse", "name": "eau chaude" },
+        { "value": 0.5, "type": "tasse", "name": "eau chaude" }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Rouleaux et cuisson finale",
+      "ingMand": [
         { "value": 30, "type": "feuilles", "name": "vigne fraîches" },
         { "value": 1, "type": "", "name": "citron" }
       ],
@@ -28,14 +34,14 @@
       "insTitle": "Préparation de la farce",
       "insSteps": [
         "Faire revenir les oignons dans un peu d'huile et laisser cuire doucement jusqu'à ce qu'ils deviennent transparents.",
-        "Ajouter le riz et cuire à courvert 5 min.",
-        "Ajouter les autres ingrédients, exceptés les feuilles de vigne, le citron et la première demi-tasse d'huile d'olive. Laisser refroidir."
+        "Ajouter le riz, l'eau et cuire à couvert 5 min.",
+        "Ajouter les autres ingrédients de la farce. Laisser refroidir."
       ]
     },
     {
       "insTitle": "Farcir les feuilles de vigne",
       "insSteps": [
-        "Faire blanchir les feuilles de vigne.",
+        "Faire blanchir les feuilles de vigne pendant 5 minutes.",
         "Disposer les feuilles, la surface brillante en dessous et mettre au centre de chacune d'elle une bonne c.à.c. du mélange.",
         "Replier la feuille sans trop serrer car le riz gonfle 2 à 3 fois son volume."
       ]
@@ -44,8 +50,9 @@
       "insTitle": "Cuisson finale",
       "insSteps": [
         "Disposer toutes les feuilles farcies dans une poêle en fonte.",
-        "Arroser avec le jus de citron, la demi-tasse d'huile d'olive restante et l'eau chaude.",
-        "Couvrir et mijoter à petit feu pendant une heure. Rajouter éventuellement un peu d'eau en cours de cuisson.",
+        "Arroser avec le jus de citron, un filet d'huile d'olive et assez d'eau chaude pour couvrir aux trois-quarts les rouleaux.",
+        "Couvrir et mijoter à petit feu pendant une heure. Rajouter de l'eau en cours de cuisson pour que ce ne soit jamais sec.",
+        "Vers la fin de la cuisson, découvrir pour bien laisser évaporer toute l'eau.",
         "À manger tiède ou froid. Se congèle très bien également."
       ]
     }
