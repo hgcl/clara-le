@@ -10,7 +10,15 @@ directory: "posts"
 
 Back in our countryside corner of France. A few seasons went by since the last [now update](/posts/now-archive-14), and spring is suddenly here again — alongside my allergies.
 
-I've been experimenting with many new recipes, fermenting more than I ever have. (The last experiment: lacto fermenting vine leaves for future dolmas). I am also trying to work on my willpower and cook/bake fewer desserts for a (slightly) healthier lifestyle. It's hard. --ENDCHAR--
+I've been experimenting with many new recipes, fermenting more than I ever have. (The last experiment: lacto fermenting vine leaves for future dolmas). I am also trying to work on my willpower and cook/bake fewer desserts for a (slightly) healthier lifestyle. It's hard.
+
+Current favorite recipes:
+
+- [Granola](/recipes/granola/)
+- [Yoghurt](/recipes/yoghurt/)
+- [Wild leaves tea](/recipes/wild-leaves-tea/)
+
+--ENDCHAR--
 
 ---
 
