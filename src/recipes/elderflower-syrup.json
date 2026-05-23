@@ -1,0 +1,69 @@
+{
+  "title": "Elderflower syrup",
+  "date": "2026-05-23",
+  "lang": "fr",
+  "dataTag": ["drink", "preserve", "spring"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": [10, 15],
+          "type": "g",
+          "name": "ombelles de fleurs"
+        },
+        {
+          "value": 1,
+          "type": "l",
+          "name": "eau"
+        },
+        {
+          "value": 1,
+          "type": "kg",
+          "name": "sucre (ou un peu moins)"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "citrons bio"
+        }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Cueillette et préparation",
+      "insSteps": [
+        "Cueillez par temps sec, quand les fleurs sont bien ouvertes.",
+        "Secouez-les doucement pour faire partir les petits insectes. Ne surtout pas laver."
+      ]
+    },
+    {
+      "insTitle": "Infusion",
+      "insSteps": [
+        "Mettez les fleurs dans un grand saladier avec les citrons coupés en tranches. Faites bouillir l'eau à côté, puis versez-la dessus.",
+        "Couvrez, laissez infuser 24–48 h, dans un coin tranquille (et pas en plein soleil non plus, pour ne pas cuire les fleurs)."
+      ]
+    },
+    {
+      "insTitle": "Cuisson",
+      "insSteps": [
+        "Filtrez l'infusion sans trop la malmener.",
+        "Versez le liquide dans une casserole, ajoutez le sucre, remuez à feu doux jusqu'à frémissement. 5 à 10 minutes suffisent."
+      ]
+    },
+    {
+      "insTitle": "Mise en bouteille",
+      "insSteps": [
+        "Remplissez des bouteilles propres (bouillies ou stérilisées pour éviter la fermentation et le moisi), fermez bien. Laissez votre sirop refroidir puis conservez le dans un endroit frais et à l'abri de la lumière."
+      ]
+    }
+  ],
+  "notes": [
+    "Note : Une fois ouvert, on le garde au frigo, et on le consomme dans les 3 à 4 semaines"
+  ],
+  "sourceUrl": "https://biodiversitefrance.com/sirop-de-fleurs-de-sureau/"
+}
