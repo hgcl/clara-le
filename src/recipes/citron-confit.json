@@ -1,0 +1,34 @@
+{
+  "title": "Citron confit",
+  "date": "2026-05-23",
+  "lang": "en",
+  "dataTag": ["preserve", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 5, "type": "", "name": "lemons" },
+        { "value": 5, "type": "tsp", "name": "salt" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Take a lemon and cut it in four (lengthwise). Make sure to not cut all the way through, keeping the extremity so that the fruit doesn't break apart.",
+        "Spread one teaspoon of salt inside the lemon before strongly pressing it down in a jar.",
+        "Do the same for all lemons, pressing them all tightly in the jar. Add an extra teaspoon of salt on top of everything.",
+        "Enough juice should come out to cover the lemons. If not, use another smaller jar to press down the lemons before closing the main jar.",
+        "Keep aside in a dark cool room for at least a month before using."
+      ]
+    }
+  ],
+  "notes": [
+    "Note: I like to add extra lemon skins to my main citron confit jar, instead of throwing them away. I just make sure to add an extra teaspoon of salt per lemon, and that everything is still submerged."
+  ],
+  "sourceUrl": "https://www.marmiton.org/recettes/recette_citrons-confits-au-sel_168361.aspx"
+}
