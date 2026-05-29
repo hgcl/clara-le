@@ -1,0 +1,44 @@
+{
+  "title": "Tôt-fait",
+  "date": "2026-05-29",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "Neither a flan, nor a clafoutis",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": [3, 4], "type": "", "name": "eggs" },
+        { "value": [70, 90], "type": "g", "name": "sugar" },
+        { "value": 1, "type": "pinch", "name": "salt" },
+        {
+          "value": 500,
+          "type": "ml",
+          "name": "milk",
+          "prep": "slightly warmed"
+        },
+        { "value": 60, "type": "g", "name": "butter", "prep": "melted" },
+        { "value": 2, "type": "tsp", "name": "orange flower water" }
+      ],
+      "ingOpt": [{ "value": 1, "type": "tsp", "name": "vanilla" }]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Generously butter the bottom and sides of a 23 cm pie dish or similar volume shallow baking dish.",
+        "In a large mixing bowl, whisk or beat together the eggs and sugar until pale and slightly thickened, 3 to 5 minutes.",
+        "Add the flour and salt; whisk or beat until smooth.",
+        "Preheat oven to 180 °C.",
+        "Gradually pour in the milk, whisking constantly. Whisk in the vanilla and/or orange flower water.",
+        "Gradually beat or whisk in the melted butter (pour it in a slow, steady stream as you beat or whisk).",
+        "Pour the batter into the prepared dish and slide into the preheated oven.",
+        "Baking time will depend on the size and depth of the baking pan or dish and whether it is metal, glass, or ceramic, but should take more or less 30 minutes. The tôt-fait should be puffed, lightly golden, and just set in the center (it should still have a slight jiggle)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://jamieschler.substack.com/p/le-tot-fait"
+}

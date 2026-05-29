@@ -17,7 +17,7 @@
         { "value": 1.5, "type": "cs", "name": "farine" },
         { "value": 65, "type": "g", "name": "sucre" },
         { "value": 1, "type": "pincée", "name": "sel" },
-        { "value": 120, "type": "g", "name": "lait" },
+        { "value": 120, "type": "ml", "name": "lait" },
         { "value": 2, "type": "", "name": "œufs" }
       ],
       "ingOpt": [{ "value": 1, "type": "cs", "name": "crème de cerise" }]

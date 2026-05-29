@@ -9,7 +9,7 @@
     {
       "ingTitle": "Pour 6 pots",
       "ingMand": [
-        { "value": 0.5, "type": "l", "name": "milk" },
+        { "value": 500, "type": "ml", "name": "milk" },
         { "value": 50, "type": "g", "name": "sucre" },
         { "value": 3, "type": "", "name": "œufs" }
       ],
