@@ -1,0 +1,40 @@
+{
+  "title": "Cabbage salad",
+  "date": "2026-06-02",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "Valentin brought this simple salad for an apéro, and I have been once again amazed by the potential of cabbage.",
+  "duration": "20",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 1, "type": "", "name": "white cabbage (about 500 g)" },
+        { "value": 3, "type": "", "name": "garlic cloves", "prep": "pressed" },
+        { "value": 2, "type": "tbsp", "name": "sesame oil" },
+        { "value": 1, "type": "tsp", "name": "sugar" },
+        {
+          "value": 2,
+          "type": "tbsp",
+          "name": "rice vinegar (or cider vinegar)"
+        },
+        { "value": 0.5, "type": "cube", "name": "vegetable broth" },
+        { "value": 2, "type": "pinches", "name": "chili powder" },
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Add all ingredients to a salad bowl (except for the cabbage), and mix thoroughly to incorporate everyting.",
+        "Thinly slice the cabbage and add it to the bowl.",
+        "Serve cold."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": ""
+}

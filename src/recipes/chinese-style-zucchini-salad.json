@@ -1,0 +1,47 @@
+{
+  "title": "Chinese-style zucchini salad",
+  "date": "2026-06-02",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "50",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 1, "type": "", "name": "zucchini" },
+        { "value": 1, "type": "tsp", "name": "salt" },
+        { "value": 0.5, "type": "tsp", "name": "sugar" },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "Sichuan peppercorn powder",
+          "prep": ""
+        },
+        { "value": 1.5, "type": "tsp", "name": "sesame oil" },
+        { "value": 1, "type": "tbsp", "name": "light soy sauce" },
+        { "value": 1, "type": "tbsp", "name": "rice vinegar" },
+        { "value": 0.5, "type": "", "name": "garlic", "prep": "pressed" },
+        { "value": 1, "type": "tsp", "name": "chili oil" },
+        { "value": 2, "type": "tsp", "name": "toasted sesame seeds" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Trim off the zucchini ends, and cut each of them in half lengthwise.",
+        "Scoop out any large seeds from the middle.",
+        "Use a julienne peeler, spiralizer, or just a knife to cut the zucchini into long thin strands.",
+        "In a bowl, sprinkle the salt over the zucchini, and toss it well. Let it stand for 20 minutes on the counter.",
+        "Make the dressing by combining the sugar, Sichuan peppercorn powder, sesame oil, light soy sauce, pressed garlic, rice vinegar and chili oil. Stir until the sugar is completely dissolved.",
+        "After 20 minutes, discard the liquid at the bottom of the bowl of zucchini, and gently squeeze out some of the liquid from the zucchini.",
+        "Right before serving, mix the zucchini with the prepared dressing. Garnish with sesame seeds and let it cool in the fridge for 20 minutes before serving."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://thewoksoflife.com/zucchini-salad-chinese/"
+}
