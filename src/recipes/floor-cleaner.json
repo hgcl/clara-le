@@ -9,13 +9,13 @@
     {
       "ingTitle": "For half a floor cleaning bucket",
       "ingMand": [
-        { "value": 4, "type": "tbsp", "name": "white vinegar" },
+        [
+          { "value": 4, "type": "tbsp", "name": "white vinegar" },
+          { "value": 4, "type": "tsp", "name": "citric acid powder" }
+        ],
         "Warm water"
       ],
-      "ingOpt": [
-        "Small handful of savon de Marseilles",
-        "Essential oils (10 drops tea tree, 10 drops lemon)"
-      ]
+      "ingOpt": ["Essential oils (10 drops tea tree, 10 drops lemon)"]
     }
   ],
   "instructions": [
