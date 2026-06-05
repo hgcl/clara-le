@@ -12,6 +12,7 @@
         { "value": [3, 4], "type": "", "name": "eggs" },
         { "value": [70, 90], "type": "g", "name": "sugar" },
         { "value": 1, "type": "pinch", "name": "salt" },
+        { "value": 80, "type": "g", "name": "flour" },
         {
           "value": 500,
           "type": "ml",
