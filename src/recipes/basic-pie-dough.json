@@ -1,36 +1,47 @@
 {
   "title": "Basic pie dough",
   "date": "2021-01-21",
-  "lang": "fr",
+  "lang": "en",
   "dataTag": ["basic", "spring", "summer", "fall", "winter"],
-  "intro": "",
+  "intro": "Here is a no butter recipe",
   "duration": "",
   "ingredients": [
     {
-      "ingTitle": "Pour une tarte",
+      "ingTitle": "For one savory pie",
       "ingMand": [
-        { "value": 250, "type": "g", "name": "farine" },
-        { "value": 40, "type": "g", "name": "huile" },
-        { "value": 90, "type": "g", "name": "eau tiède" },
-        { "value": 1, "type": "pincée", "name": "sel" }
+        { "value": 250, "type": "g", "name": "flour" },
+        { "value": 40, "type": "g", "name": "oil" },
+        { "value": 90, "type": "g", "name": "water" },
+        { "value": 1, "type": "pinch", "name": "salt" }
       ],
       "ingOpt": []
+    },
+    {
+      "ingTitle": "For one sweet pie",
+      "ingMand": [
+        { "value": 200, "type": "g", "name": "flour" },
+        { "value": 30, "type": "g", "name": "almond powder" },
+        { "value": 50, "type": "g", "name": "neutral oil" },
+        { "value": 20, "type": "g", "name": "water" },
+        { "value": 20, "type": "g", "name": "sugar" },
+        { "value": 1, "type": "pinch", "name": "salt" }
+      ],
+      "ingOpt": [{ "value": 1, "type": "", "name": "egg" }]
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "Dans un bol, versez la farine, l'huile, l'eau et une pincée de sel.",
-        "Malaxez rapidement jusqu'à l'obtention d'une boule de pâte homogène. Attention à malaxer le moins longtemps possible afin que la pâte ne soit pas trop dure et garde son croustillant, une pâte à tarte ne se pétrit pas.",
-        "Si la pâte est trop collante ajoutez un peu de farine, si elle est trop sèche ajoutez un peu d'huile et/ou d'eau.",
-        "Farinez légèrement votre plan de travail, étalez-la et placez-la dans le moule à tarte.",
-        "Il ne vous reste plus qu'à disposer votre garniture à faire cuire (généralement 35–45 minutes à 180 °C)."
+        "In a bowl, combine all ingredients.",
+        "Mix quickly until a smooth ball of dough forms. Be careful to mix for as short a time as possible so the dough doesn't become too tough and retains its crispness; pie dough should not be kneaded.",
+        "If the dough is too sticky, add a little flour; if it is too dry, add a little oil and/or water.",
+        "Lightly flour your work surface, roll out the dough, and place it in the tart pan.",
+        "Add a layer of almond powder (if for a sweet pie) or mustard (if savory) to protect the dough from an overly wet filling.",
+        "All that remains is to add your filling and bake (usually 35–45 minutes at 180°C)."
       ]
     }
   ],
-  "notes": [
-    "Pour une pâte plus crumbly, on peut ajouter plus d'huile et mettre moins d'eau."
-  ],
+  "notes": ["For a crumblier pie, add more oil and less water."],
   "sourceUrl": "https://tangerinezest.com/pate-a-tarte-sans-beurre/"
 }

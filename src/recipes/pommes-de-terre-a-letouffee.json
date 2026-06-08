@@ -1,0 +1,36 @@
+{
+  "title": "Pommes de terre à l'étouffée",
+  "date": "2026-06-08",
+  "lang": "fr",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 1, "type": "kg", "name": "pommes de terre" },
+        { "value": 1, "type": "", "name": "oignon", "prep": "finement émincé" },
+        { "value": 2, "type": "cs", "name": "huile d'olive" },
+        { "value": 150, "type": "ml", "name": "bouillon léger" },
+        "Thym, laurier ou gousse d'ail écrasée",
+        "Sel et poivre"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Laver et, selon votre goût, éplucher les pommes de terre.",
+        "Couper en quartiers moyens.",
+        "Chauffer la cocotte à feu moyen, fondre le beurre ou chauffer l'huile et saisir les pommes de terre 3 à 5 minutes pour les enrober et leur donner une légère couleur.",
+        "Ajouter l'oignon, saisir une minute, puis verser le bouillon. Assaisonner.",
+        "Baisser le feu, couvrir et laisser étuver 30 à 35 minutes selon la coupe. Ouvrir une fois à mi-cuisson pour remuer délicatement et vérifier la présence d'un fond de liquide ; ajouter quelques cuillères d'eau ou de bouillon si nécessaire."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.lespetitsplaisirsdedoro.com/patate-a-letouffee/"
+}

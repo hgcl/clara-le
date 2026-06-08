@@ -1,0 +1,53 @@
+{
+  "title": "Vegan köfte",
+  "date": "2026-06-08",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 180, "type": "g", "name": "red lentils" },
+        { "value": 100, "type": "g", "name": "bulgur" },
+        { "value": 1, "type": "", "name": "onion", "prep": "diced" },
+        {
+          "value": 60,
+          "type": "g",
+          "name": "bell pepper puree (biber salçasi)"
+        },
+        { "value": 60, "type": "g", "name": "tomato paste", "prep": "" },
+        { "value": 4, "type": "", "name": "spring onions", "prep": "chopped" },
+        {
+          "value": 1,
+          "type": "bunch",
+          "name": "parsley or mint",
+          "prep": "chopped"
+        },
+        { "value": 1, "type": "tbsp", "name": "chili powder" },
+        { "value": 2, "type": "tsp", "name": "ground cumin" },
+        { "value": 1, "type": "", "name": "lemon", "prep": "juiced" },
+        "Lettuce leaves",
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Wash the red lentils and cook them in 450 ml of boiling salted water for 15 minutes.",
+        "Add the bulgur, and cook it for another 5 minutes. Let it rest covered for 5 minutes.",
+        "In a pan, caramelize the diced onion in some olive oil. Add the tomato paste when almost finished.",
+        "When the lentil and bulgur mixture is drier and cooked, add all the other ingredients: our caramelized onions, spring onions, parsley, bell pepper purée, lemon juice, olive oil, and spices. Taste and adjust the seasonings as needed.",
+        "Wet your hands, then take a small amount of the mixture (about a tablespoon) and form it into a log before pressing it in the palm of your hand.",
+        "Regrigerate before serving.",
+        "Serve the mercimek köftesi in lettuce leaves with a drizzle of lemon juice and perhaps a sprinkle of chili or sumac."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.youtube.com/shorts/h2ueZ4Yn-qA"
+}
