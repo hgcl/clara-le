@@ -10,19 +10,19 @@
       "ingTitle": "",
       "ingMand": [
         { "value": [3, 4], "type": "", "name": "eggs" },
-        { "value": [70, 90], "type": "g", "name": "sugar" },
+        { "value": [60, 80], "type": "g", "name": "sugar" },
         { "value": 1, "type": "pinch", "name": "salt" },
-        { "value": 80, "type": "g", "name": "flour" },
+        { "value": [80, 120], "type": "g", "name": "flour" },
         {
           "value": 500,
           "type": "ml",
-          "name": "milk",
-          "prep": "slightly warmed"
+          "name": "milk"
         },
-        { "value": 60, "type": "g", "name": "butter", "prep": "melted" },
         { "value": 2, "type": "tsp", "name": "orange flower water" }
       ],
-      "ingOpt": [{ "value": 1, "type": "tsp", "name": "vanilla" }]
+      "ingOpt": [
+        { "value": 40, "type": "g", "name": "butter", "prep": "melted" }
+      ]
     }
   ],
   "instructions": [
