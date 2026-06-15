@@ -1,0 +1,59 @@
+{
+  "title": "Chinese potato salad",
+  "date": "2026-06-12",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Potatoes",
+      "ingMand": [
+        { "value": 2, "type": "", "name": "firm potatoes" },
+        {
+          "value": [1, 2],
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "pressed"
+        },
+        { "value": 1, "type": "tsp", "name": "salt" }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Flavored oil",
+      "ingMand": [
+        { "value": 2, "type": "tbsp", "name": "vegetable oil" },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "Sichuan peppercorn",
+          "prep": "coarsely ground"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "dried chili",
+          "prep": "broken into 2 to 3 pieces "
+        }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Bring a medium pot of water to a boil, add potato, then boil until the potato is cooked through, but still crisp, 1 to 2 minutes. Taste along the process, and stop cooking as soon as the potatoes turn tender but are still crisp.",
+        "Drain potato and rinse with cold water, to remove the starch and maintain a firm texture. Drain and transfer potato to a large bowl. Pat dry with paper towels to remove any excess water.",
+        "Add garlic to potato (keep it as one mount), and sprinkle salt over everything.",
+        "Heat oil over medium heat in a small pan. When the oil is hot but not smoking hot, add ground peppercorn and chili pepper, stir a few times to release fragrance.",
+        "Immediately pour the hot oil over the garlic on the potato, and mix everything together to coat the potato evenly when the oil is still hot.",
+        "Taste the dish and more salt if needed.",
+        "Refrigerate, and serve cold as an appetizer or side dish."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://omnivorescookbook.com/chinese-style-potato-salad/"
+}

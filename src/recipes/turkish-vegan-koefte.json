@@ -1,5 +1,5 @@
 {
-  "title": "Vegan köfte",
+  "title": "Turkish vegan köfte",
   "date": "2026-06-08",
   "lang": "en",
   "dataTag": ["main", "spring", "summer", "fall", "winter"],
@@ -9,15 +9,15 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 180, "type": "g", "name": "red lentils" },
-        { "value": 100, "type": "g", "name": "bulgur" },
+        { "value": 150, "type": "g", "name": "red lentils" },
+        { "value": 150, "type": "g", "name": "bulgur" },
         { "value": 1, "type": "", "name": "onion", "prep": "diced" },
         {
-          "value": 60,
-          "type": "g",
+          "value": 2,
+          "type": "tbsp",
           "name": "bell pepper puree (biber salçasi)"
         },
-        { "value": 60, "type": "g", "name": "tomato paste", "prep": "" },
+        { "value": 2, "type": "tbsp", "name": "tomato paste" },
         { "value": 4, "type": "", "name": "spring onions", "prep": "chopped" },
         {
           "value": 1,
@@ -25,9 +25,10 @@
           "name": "parsley or mint",
           "prep": "chopped"
         },
-        { "value": 1, "type": "tbsp", "name": "chili powder" },
+        { "value": [1, 3], "type": "tbsp", "name": "chili powder" },
         { "value": 2, "type": "tsp", "name": "ground cumin" },
         { "value": 1, "type": "", "name": "lemon", "prep": "juiced" },
+        { "value": 1, "type": "tsp", "name": "balsamic vinegar" },
         "Lettuce leaves",
         "Salt and pepper"
       ],
