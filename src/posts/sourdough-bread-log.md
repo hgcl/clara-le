@@ -10,6 +10,15 @@ Here is an ongoing log of my sourdough bread experiments (most recent at the top
 
 ---
 
+## 2026-06-12
+
+To avoid preheating the oven for too long and saving a bit on gas, I am currently trying to adopt a cold bake method:
+
+- 230 °C for 40 minutes, with the lid on
+- remove the lid and leave it for 10 minutes more
+
+The resulting bread seems to rise a bit less in the oven and also has less of a crust. However, it is good enough for everyday bread and does save a lot of energy.
+
 ## 2026-05-12
 
 It is starting to get too hot. Doing the first fermentation during the night is not possible anymore, as the dough overferments and the gluten network starts to break down.
