@@ -1,0 +1,38 @@
+{
+  "title": "Nettle slurry",
+  "date": "2026-06-21",
+  "lang": "en",
+  "dataTag": ["home", "spring", "summer", "fall", "winter"],
+  "intro": "The gardening nitrogen bomb",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 1, "type": "kg", "name": "nettle", "prep": "roughly cut" },
+        { "value": 10, "type": "L", "name": "water" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Preparation",
+      "insSteps": [
+        "Mix everyting in a big pot, cover and let it ferment for 1–2 weeks in a dark room.",
+        "Make sure to stir the mix every two days.",
+        "The fermentation should be done once there is no more bubbles forming.",
+        "Filter and store it for up to one month, in a dark cold room."
+      ]
+    },
+    {
+      "insTitle": "Use",
+      "insSteps": [
+        "Before planting: Mix 1 part nettle slurry with 4 parts water. Submerge your seedlings roots in this mixture for 15–30 minutes before planting.",
+        "For growth: Mix 1 part nettle slurry with 10 parts water. Make sure to water your plants normally first, before watering them with this mix. You can use this mix every two weeks."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "www.autonomiejardin.com/autour-du-jardin/maladies-parasites-et-traitements/guide-purin-dortie/"
+}
