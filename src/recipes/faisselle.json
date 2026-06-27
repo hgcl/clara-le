@@ -1,0 +1,47 @@
+{
+  "title": "Faisselle",
+  "date": "2026-06-27",
+  "lang": "fr",
+  "dataTag": ["basic", "spring", "summer"],
+  "intro": "",
+  "duration": "780",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 1,
+          "type": "L",
+          "name": "lait cru (ou lait entier)"
+        },
+        {
+          "value": 2,
+          "type": "cs",
+          "name": "faisselle ou fromage frais fermier"
+        },
+        {
+          "value": 2,
+          "type": "cs",
+          "name": "jus de citron"
+        }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Si vous utilisez du lait cru, laisser le décanter une nuit pour retirer la couche de crème (jaune) qui remonte à la surface.",
+        "Dans une casserole, battre la faisselle dans le jus de citron jusqu'à ce qu'il n'y ait plus de grumeaux.",
+        "Ajouter le lait petit à petit en remuant bien.",
+        "Fermer la casserole et laisser reposer à température ambiante 12–18 heures, jusqu'à ce qu'il y ait une séparation claire entre solide et petit lait.",
+        "En utilisant une louche à sauce ou une grosse cuillère, délicatement transvaser les parties solides dans des récipients à faisselles. Les recouvrir de petit lait pour la conservation et les mettre au frigo."
+      ]
+    }
+  ],
+  "notes": [
+    "Toujours garder un peu de faisselle de la fournée précédente pour faire la suivante !"
+  ],
+  "sourceUrl": "https://www.ledenicheurdesaveurs.com/faisselle-lait-cru-maison/"
+}
