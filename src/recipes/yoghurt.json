@@ -12,13 +12,7 @@
         { "value": 1, "type": "L", "name": "whole milk" },
         { "value": 125, "type": "g", "name": "fresh yoghurt" }
       ],
-      "ingOpt": [
-        {
-          "value": 1,
-          "type": "tbsp",
-          "name": "powder milk (for a firmer texture)"
-        }
-      ]
+      "ingOpt": []
     }
   ],
   "instructions": [
@@ -27,7 +21,6 @@
       "insSteps": [
         "In a heavy pot (I use my Dutch oven), heat the milk to 40–45 °C.",
         "Add the yoghurt to a bowl, and incorporate a bit of warm milk at a time, mixing well.",
-        "For a firmer yoghurt texture, add the powder milk if using.",
         "Once the mix is liquid enough, add it all to the milk pot. Mix until homogenous.",
         "Close with a lid and cover with 2–3 warm towels.",
         "Let rest for 10–13 hours for the yoghurt to ferment. Once set, do not move the pot around.",
