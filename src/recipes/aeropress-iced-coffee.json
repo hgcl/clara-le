@@ -1,0 +1,51 @@
+{
+  "title": "AeroPress",
+  "date": "2026-06-29",
+  "lang": "en",
+  "dataTag": ["drink", "spring", "summer", "fall", "winter"],
+  "intro": "James Hoffmann's recipe",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 22,
+          "type": "g",
+          "name": "ground coffee",
+          "prep": "Aergrind set at 2.4"
+        },
+        {
+          "value": 240,
+          "type": "ml",
+          "name": "water"
+        },
+        {
+          "value": 160,
+          "type": "g",
+          "name": "ice"
+        }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Fill your cup with the ice.",
+        "Place a paper filter in the cap and attach it to the brew chamber. No need to rinse the filter. Add the ground coffee to the brew chamber.",
+        "For medium roast coffee, heat water to 90–95°C. For dark roast coffee, try 85–90°C.",
+        "Start a timer, add water. You can rotate the AeroPress while pouring to make sure all the coffee is wet.",
+        "Immediately place the plunger on top of the brewer, about 1 cm in. This creates a vacuum to stop the coffee from dripping through.",
+        "Wait 3:30 minutes.",
+        "Holding the brewer and the plunger, gently swirl the brewer to break the \"coffee crust\".",
+        "Wait 30 seconds.",
+        "Press gently all the way, it takes about 30 seconds.",
+        "Since most of the ice will have melted, transfer the contents into a chilled glass with fresh ice. "
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://aeromatic.app/recipes/james-hoffmann-iced-aeropress-recipe"
+}

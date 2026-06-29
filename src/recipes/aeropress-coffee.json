@@ -1,0 +1,44 @@
+{
+  "title": "AeroPress",
+  "date": "2026-06-29",
+  "lang": "en",
+  "dataTag": ["drink", "spring", "summer", "fall", "winter"],
+  "intro": "James Hoffmann's recipe",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": [11, 12],
+          "type": "g",
+          "name": "ground coffee",
+          "prep": "Aergrind set at 2.4"
+        },
+        {
+          "value": 200,
+          "type": "ml",
+          "name": "water"
+        }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Set brewer in standard position on a server. Don't rinse or preheat the brewer (it doesn't make any difference). Add the ground coffee to the brew chamber.",
+        "For medium roast coffee, heat water to 90–95°C. For dark roast coffee, try 85–90°C.",
+        "Start a timer, add water. You can rotate the AeroPress while pouring to make sure all the coffee is wet.",
+        "Immediately place the plunger on top of the brewer, about 1 cm in. This creates a vacuum to stop the coffee from dripping through.",
+        "Wait 2 minutes.",
+        "Holding the brewer and the plunger, gently swirl the brewer to break the \"coffee crust\".",
+        "Wait 30 seconds.",
+        "Press gently all the way, it takes about 30 seconds."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://aeroprecipe.com/recipes/james-hoffmann-aeropress-recipe"
+}

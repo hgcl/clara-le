@@ -9,7 +9,12 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 15, "type": "g", "name": "coffee" },
+        {
+          "value": 15,
+          "type": "g",
+          "name": "coffee",
+          "prep": "Aergrind set at 2.1"
+        },
         { "value": 250, "type": "ml", "name": "water" }
       ],
       "ingOpt": []
