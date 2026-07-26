@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": [3, 4], "type": "", "name": "eggs" },
-        { "value": [60, 80], "type": "g", "name": "sugar" },
+        { "value": 3, "type": "", "name": "eggs" },
+        { "value": 60, "type": "g", "name": "sugar" },
         { "value": 1, "type": "pinch", "name": "salt" },
-        { "value": [80, 120], "type": "g", "name": "flour" },
+        { "value": 110, "type": "g", "name": "flour" },
         {
           "value": 500,
           "type": "ml",
@@ -21,7 +21,7 @@
         { "value": 2, "type": "tsp", "name": "orange flower water" }
       ],
       "ingOpt": [
-        { "value": 40, "type": "g", "name": "butter", "prep": "melted" }
+        { "value": 30, "type": "g", "name": "butter", "prep": "melted" }
       ]
     }
   ],
