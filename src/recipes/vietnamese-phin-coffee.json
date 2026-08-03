@@ -1,0 +1,34 @@
+{
+  "title": "Vietnamese phin coffee",
+  "date": "2026-08-03",
+  "lang": "en",
+  "dataTag": ["drink", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "10",
+  "ingredients": [
+    {
+      "ingTitle": "For a 6 x 7 cm phin filter",
+      "ingMand": [
+        { "value": 25, "type": "g", "name": "coffee", "prep": "ground" },
+        "Water"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Heat water to 90–96 °C.",
+        "Place the phin on top of a cup.",
+        "Add the ground coffee to the phin. Shake it so that the ground coffee is leveled. Add the gravity piece on top of the coffee.",
+        "Gently pour hot water over everything, up to 1 cm above the gravity piece. Let the coffee bloom for a few minutes, it should look like wet brownies.",
+        "Pour more hot water on top of everything, leaving 1 cm from the top. Close the phin to keep the heat in.",
+        "The coffee should start dripping within the first two minutes. Let it drip until the end, press the wet ground coffee with the gravity piece.",
+        "Serve hot, cold on ice, and/or with condensed milk to taste."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.youtube.com/watch?v=w38gbYcWs-A"
+}
