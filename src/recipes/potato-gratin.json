@@ -15,38 +15,32 @@
           "name": "potatoes (or sweet potatoes/squashes)",
           "prep": "peeled and thinly sliced"
         },
+        "Milk and/or cream",
+        "Vegetable stock",
+        "Hard cheese, grated",
+        "Salt and pepper"
+      ],
+      "ingOpt": [
+        "Chili flakes",
         {
           "value": [2, 3],
           "type": "",
           "name": "garlic cloves",
           "prep": "crushed"
-        },
-        "Milk",
-        {
-          "value": 1,
-          "type": "tbsp",
-          "name": "Flour or maïzena"
-        },
-        "Butter",
-        "Cheese",
-        "Chili flakes",
-        "Hard cheese, grated",
-        "Salt and pepper"
-      ],
-      "ingOpt": []
+        }
+      ]
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "Peel the potatoes and steam them until almost cooked.",
         "Chop the garlic finely. Slice or dice the cheese.",
-        "Prepare the creamy sauce with the butter, flour, and milk. Make it much thinner than a regular béchamel. Season it with salt, pepper, chili flakes, and nutmeg, then stir in the garlic and half the cheese.",
-        "Thinly slice the potatoes, and add them to the creamy sauce.",
-        "In a gratin dish, add the potato mixture. There should be enough creamy sauce that we can just see the last layer of potatoes — add more milk if needed. Sprinkle the remaining cheese over the top.",
-        "For a quick version, cook the potatoes with milk, heavy cream, and all seasoning on low heat for 15 minutes. Add them to the gratin dish when just tender.",
-        "Bake at 180 °C for 40 minutes (or until golden on top)."
+        "Prepare the sauce with cream, milk and some stock. Season it with salt, pepper, chili flakes, and nutmeg, then stir in the garlic and half the cheese.",
+        "Peel and thinly slice the potatoes.",
+        "In a gratin dish, add a layer of potatoes, followed by a layer of creamy sauce. Continue until there are no potatoes anymore.",
+        "There should be enough sauce that we can just see the last layer of potatoes — add more milk if needed. Sprinkle the remaining cheese over the top.",
+        "Bake at 200 °C for 50 minutes. If the top is not golden yet, continue baking at 230 °C for 5 minutes."
       ]
     }
   ],
