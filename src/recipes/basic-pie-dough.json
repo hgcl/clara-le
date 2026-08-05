@@ -20,13 +20,17 @@
       "ingTitle": "For one sweet pie",
       "ingMand": [
         { "value": 200, "type": "g", "name": "flour" },
-        { "value": 30, "type": "g", "name": "almond powder" },
+        { "value": 40, "type": "g", "name": "almond powder" },
         { "value": 50, "type": "g", "name": "neutral oil" },
         { "value": 20, "type": "g", "name": "water" },
-        { "value": 20, "type": "g", "name": "sugar" },
-        { "value": 1, "type": "pinch", "name": "salt" }
+        { "value": 25, "type": "g", "name": "sugar" },
+        { "value": 1, "type": "pinch", "name": "salt" },
+        [
+          { "value": 1, "type": "", "name": "egg" },
+          { "value": 55, "type": "g", "name": "water" }
+        ]
       ],
-      "ingOpt": [{ "value": 1, "type": "", "name": "egg" }]
+      "ingOpt": []
     }
   ],
   "instructions": [

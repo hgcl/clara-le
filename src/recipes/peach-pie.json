@@ -1,0 +1,49 @@
+{
+  "title": "Peach pie",
+  "date": "2026-08-05",
+  "lang": "en",
+  "dataTag": ["dessert", "summer"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        {
+          "value": 1,
+          "type": "",
+          "name": "sweet pie dough",
+          "url": "basic-pie-dough"
+        },
+        { "value": 6, "type": "", "name": "peaches" },
+        { "value": 1, "type": "", "name": "rosemary branch" },
+        {
+          "value": 0.5,
+          "type": "",
+          "name": "lemon",
+          "prep": "juiced and zested"
+        },
+        { "value": 1, "type": "tsp", "name": "sugar" },
+        { "value": 1, "type": "pinch", "name": "salt" }
+      ],
+      "ingOpt": ["Almond powder", "Butter"]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Peel and cut the peaches into 1.5 cm slices. Add them to an oven-safe tupperware.",
+        "Add the rosemary, sugar, salt, lemon juice and zest. Gently mix.",
+        "Close the container and keep in the fridge for 1–2 hours.",
+        "Roll out the dough and place it in a pie dish. Add almond powder and a bit of butter on the dough to avoid the dough becoming too wet.",
+        "Take the peaches out of the fridge and place them on the dough. Keep the juice aside in the tupperware.",
+        "Preheat the oven at 200 °C. Bake the pie for 20 minutes. For the last 10 minutes, place the tupperware with the remaining juice in the oven, so that the mixture becomes syrupy.",
+        "Take the pie and juice out of the oven. Pour the thickened juice over the pie and put it back in the oven for 20 more minutes.",
+        "Once baked, let the pie cool down before serving."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.papillesetpupilles.fr/2018/07/tarte-aux-peches-citron-vert-et-romarin-yotam-ottolenghi.html/"
+}
