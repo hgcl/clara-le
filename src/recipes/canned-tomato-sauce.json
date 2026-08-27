@@ -7,14 +7,25 @@
   "duration": "420",
   "ingredients": [
     {
-      "ingTitle": "For about 20 jars",
-      "ingMand": [{ "value": 10, "type": "kg", "name": "tomatoes" }, "Salt"],
+      "ingTitle": "For about 15–20 jars",
+      "ingMand": [
+        { "value": 10, "type": "kg", "name": "tomatoes" },
+        "Salt",
+        [
+          {
+            "value": 5,
+            "type": "tsp",
+            "name": "citric acid"
+          },
+          { "value": 20, "type": "tbsp", "name": "lemon juice" }
+        ]
+      ],
       "ingOpt": [
+        "Celery, diced",
         "Carrots, diced",
         "Onions, sliced",
         "Garlic, cut small",
-        "Dry herbs (laurel, rosmarin, etc.)",
-        "Citric acid (for better spoilage prevention)"
+        "Dry herbs (laurel, rosmarin, etc.)"
       ]
     }
   ],
@@ -24,16 +35,19 @@
       "insSteps": [
         "Wash, trim, and halve tomatoes.",
         "Add the tomatoes to a big pot, and start simmering as soon as possible. Reducing the sauce takes a lot of time, you can add more tomatoes to the pot as you cut them.",
-        "When all tomatoes are added to the pot, blend to your liking.",
         "Add the optional dry herbs and cut vegetables to the pot.",
-        "Simmer until reduced to the desired thickness. Add citric acid to taste, and to improve spoilage prevention. Add salt to taste.",
+        "Simmer until reduced to the desired thickness, blend to your liking. Add salt to taste.",
+        "Add enough citric acid (little flavor change) or lemon juice to reach a more acidic preparation (4.6 pH or less) — botulism is a real risk, don't skip it.",
         "While the sauce cooks, clean and heat jars in boiling water.",
-        "Fill each jar with hot sauce, leaving 1,5 cm headspace.",
-        "Debubble, wipe rims, add lids.",
-        "Sterilize your jars in a pressure cooker (30 min from the whistle) or in a regular pot with boiling water (40 min)."
+        "Fill each jar with hot sauce, leaving 1.5 cm headspace.",
+        "Fpr each jar, debubble, wipe the rim for a better seal, and close with a lid. Set the jar aside upside down.",
+        "Sterilize your jars in a pressure cooker (30 min from the whistle) or in a regular pot with boiling water (45 min)."
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    "Botulism is a real risk. The only way to properly prevent it is for the preparation to be acidic enough (4.6 pH or less).",
+    "To keep your recipe acidic enough, make sure that the total weight of carrots, onions, and garlic is not more than 15 % of the tomatoes. E.g. For 10 kg of tomatoes, the add-ons should not be more than 150 g."
+  ],
   "sourceUrl": "https://ourcountrylife.com/easy-canned-tomato-sauce-recipe/"
 }
