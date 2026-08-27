@@ -10,8 +10,8 @@
       "ingTitle": "For one savory pie",
       "ingMand": [
         { "value": 250, "type": "g", "name": "flour" },
-        { "value": 40, "type": "g", "name": "oil" },
-        { "value": 90, "type": "g", "name": "water" },
+        { "value": 50, "type": "g", "name": "oil" },
+        { "value": 80, "type": "g", "name": "water" },
         { "value": 1, "type": "pinch", "name": "salt" }
       ],
       "ingOpt": []
