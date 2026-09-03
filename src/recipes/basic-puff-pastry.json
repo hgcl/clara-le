@@ -11,7 +11,7 @@
       "ingMand": [
         { "value": 250, "type": "g", "name": "flour" },
         { "value": 200, "type": "g", "name": "butter", "prep": "very cold" },
-        { "value": 10, "type": "g", "name": "salt" },
+        { "value": 2, "type": "pinches", "name": "salt" },
         { "value": 120, "type": "g", "name": "water", "prep": "ice-cold" }
       ],
       "ingOpt": []
