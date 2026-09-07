@@ -9,10 +9,11 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 250, "type": "g", "name": "flour" },
-        { "value": 200, "type": "g", "name": "butter", "prep": "very cold" },
+        { "value": 200, "type": "g", "name": "flour" },
+        { "value": 120, "type": "g", "name": "butter", "prep": "very cold" },
+        { "value": 30, "type": "g", "name": "neutral oil" },
         { "value": 2, "type": "pinches", "name": "salt" },
-        { "value": 120, "type": "g", "name": "water", "prep": "ice-cold" }
+        { "value": [90, 95], "type": "g", "name": "water", "prep": "ice-cold" }
       ],
       "ingOpt": []
     }
@@ -21,13 +22,15 @@
     {
       "insTitle": "",
       "insSteps": [
+        "30 minutes ahead, put some water in the fridge for later use.",
         "Diced the cold butter into the salt and flour with a knife or dough scraper. Continue until the mixture looks crumbly and the butter pieces are around the size of peas.",
         "Make a well in the middle and pour in the ice cold water. Work it gradually until the mixture comes together into a ball. The dough should not be homogenous, we should still see the butter pieces.",
+        "If the weather is hot and the butter too soft, cover and put the dough in the fridge for 30 minutes.",
         "Turn the dough over a floured surface and shape it into a square. Roll out the dough into a rectangle that is twice as long as it is wide.",
         "Fold it in at each third lengthwise — like a letter. Rotate it 90 degree.",
         "Do a wallet fold and rotate it 90 degree.",
-        "Repeat once more the last two steps.",
-        "Cover the dough so that it doesn't dry and cool it in the fridge at least 30 minutes (or a few hours)."
+        "Repeat once more the last two steps. If the weather is hot and the butter melting too fast, put the dough back in the fridge in a closed container between steps.",
+        "Cover the dough so that it doesn't dry and cool it in the fridge at least 30 minutes (or a few hours) before using."
       ]
     }
   ],
