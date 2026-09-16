@@ -1,0 +1,56 @@
+{
+  "title": "Banana cake",
+  "date": "2026-09-16",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "Alex's decadent banana cake",
+  "duration": "90",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": [6, 7], "type": "", "name": "bananas" },
+        {
+          "value": 120,
+          "type": "g",
+          "name": "butter",
+          "prep": "or sub with half butter, half neutral oil for extra moisture"
+        },
+        { "value": 100, "type": "g", "name": "sugar" },
+        { "value": 2, "type": "", "name": "eggs" },
+        { "value": 200, "type": "g", "name": "flour" },
+        { "value": 8, "type": "g", "name": "vanilla powder" },
+        { "value": 4, "type": "g", "name": "baking powder" },
+        { "value": 0.5, "type": "tsp", "name": "coarse salt" },
+        { "value": 1, "type": "tsp", "name": "cinnamon" }
+      ],
+      "ingOpt": [
+        {
+          "value": 0.5,
+          "type": "cup",
+          "name": "sour cream, yogurt or buttermilk"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Preheat your oven to 175 °C. Grease and line your cake pan or loaf tin with baking paper.",
+        "Mash the bananas in a large bowl until mostly smooth (a few small chunks are fine).",
+        "Add the wet ingredients: mix in melted butter, sugar, and eggs. Stir until smooth and glossy.",
+        "Add the dry ingredients: in a separate bowl, whisk together flour, baking soda, baking powder, salt, cinnamon, and vanilla powder.",
+        "Add dry ingredients to the wet banana mixture. Stir gently just until combined (don't overmix).",
+        "Fold in sour cream for a moisture boost. The batter should be thick but pourable.",
+        "Bake: 40–45 minutes (for a square cake), 50–60 minutes (for a loaf). Bake until golden brown and a skewer comes out with just a few moist crumbs (not wet batter).",
+        "You can drizzle a bit of sweetened condensed milk on top after baking for an ultra-moist finish.",
+        "Wrap the cooled cake and let it rest overnight — the banana flavor deepens even more the next day."
+      ]
+    }
+  ],
+  "notes": [
+    "For the most banana flavor, roast your bananas first: bake unpeeled ripe bananas at 180 °C for about 10–15 minutes until the skins go black and syrupy inside. Cool slightly, peel, and mash — the flavor intensifies beautifully."
+  ],
+  "sourceUrl": ""
+}

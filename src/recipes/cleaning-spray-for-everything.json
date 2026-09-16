@@ -9,10 +9,10 @@
     {
       "ingTitle": "",
       "ingMand": [
-        { "value": 500, "type": "ml", "name": "bouteille à sprayer" },
-        { "value": 1.5, "type": "cc", "name": "bicarbonate de soude" },
+        { "value": 400, "type": "ml", "name": "bouteille à sprayer" },
         "Eau chaude",
-        { "value": 2, "type": "cc", "name": "vinaigre blanc" },
+        { "value": 100, "type": "ml", "name": "alcool ménager" },
+        { "value": 2, "type": "cs", "name": "acide citrique" },
         {
           "value": [15, 20],
           "type": "gouttes",
@@ -28,14 +28,11 @@
       "insSteps": [
         "Dans la bouteille vide, mettez 1,5 cc. de bicarbonate.",
         "Ajoutez assez d'eau chaude pour remplir la bouteille.",
-        "Mettez 2 cc. de vinaigre blanc.",
-        "Ajoutez les huiles essentielles de votre choix.",
+        "Ajoutez l'acide citrique, l'alcool ménager, puis les huiles essentielles de votre choix.",
         "Agitez bien avant chaque usage."
       ]
     }
   ],
-  "notes": [
-    "Note: Faites bien attention à ajouter le bicarbonate avant l'eau pour éviter qu'il n'entre en contact direct avec le vinaigre."
-  ],
-  "sourceUrl": "https://www.comment-economiser.fr/nettoyant-multi-usages-maison-bicarbonate-vinaigre.html"
+  "notes": [],
+  "sourceUrl": ""
 }

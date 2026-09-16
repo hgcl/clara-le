@@ -15,22 +15,22 @@
           "name": "pie dough",
           "url": "basic-pie-dough"
         },
-        { "value": 2, "type": "", "name": "tomatoes" },
+        { "value": 2, "type": "", "name": "tomatoes", "prep": "thinly sliced" },
         { "value": 1, "type": "", "name": "zucchini", "prep": "thinly sliced" },
         { "value": 1, "type": "", "name": "onion", "prep": "thinly sliced" }
       ],
-      "ingOpt": ["Spinach leaves"]
+      "ingOpt": []
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "Cut the tomatoes into four and remove the seeds.",
-        "In a pie pan, lay the tomatoes and sliced zucchini. Cook in the oven at 180 °C for 30 minutes.",
+        "In a pie pan, add a bit of oil and lay the sliced tomatoes and zucchini. Cook in the oven at 180 °C for 30 minutes. Pour out the liquid if there is a lot of it, keep it aside to top the final pie.",
         "In the meantime, prepare a pie dough and set it aside in the fridge.",
-        "After 30 minutes in the oven, the veggies should come out caramelized. Push them aside so that you can add a layer of sliced onions on the bottom of the pan. On the top, add the spinach leaves and the rolled out the dough as a last layer. Make sure the dough is pierced through with a fork to avoid air bubbles.",
-        "Bake the pie for 30 side minutes."
+        "After 30 minutes in the oven, the veggies should come out caramelized. Push them aside so that you can add a layer of sliced onions on the bottom of the pan. On the top, add the rolled out the dough as a last layer. Make sure the dough is pierced through with a fork to avoid air bubbles.",
+        "Bake the pie for 30 minutes or until the dough is golden.",
+        "Let it cool for 5 minutes before turning the pie over into a serving plate. If some vegetables get stuck in the pie pan, carefully remove them and place them back on the pie. Add some of the tomato liquid back on top of the pie if too dry."
       ]
     }
   ],
