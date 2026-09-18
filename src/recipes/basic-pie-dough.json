@@ -3,7 +3,7 @@
   "date": "2021-01-21",
   "lang": "en",
   "dataTag": ["basic", "spring", "summer", "fall", "winter"],
-  "intro": "Here is a no butter recipe",
+  "intro": "",
   "duration": "",
   "ingredients": [
     {
@@ -37,11 +37,12 @@
     {
       "insTitle": "",
       "insSteps": [
-        "In a bowl, combine all ingredients.",
-        "Mix quickly until a smooth ball of dough forms. Be careful to mix for as short a time as possible so the dough doesn't become too tough and retains its crispness; pie dough should not be kneaded.",
+        "In a bowl, combine the dry ingredients (flour, salt, almond powder and sugar).",
+        "Add the wet ingredients (oil, egg, water), and quickly mix until a smooth ball of dough forms. Be careful to mix for as short a time as possible so the dough doesn't become too tough and retains its crispness; pie dough should not be kneaded.",
         "If the dough is too sticky, add a little flour; if it is too dry, add a little oil and/or water.",
-        "Lightly flour your work surface, roll out the dough, and place it in the tart pan.",
-        "Add a layer of almond powder (if for a sweet pie) or mustard (if savory) to protect the dough from an overly wet filling.",
+        "Let the dough rest in the fridge in a closed container for at least 30 minutes.",
+        "Lightly flour your work surface, roll out the dough, and place it in the pie pan.",
+        "Optional: Add a layer of almond powder (if for a sweet pie) or mustard (if savory) to protect the dough from an overly wet filling.",
         "All that remains is to add your filling and bake (usually 35–45 minutes at 180°C)."
       ]
     }

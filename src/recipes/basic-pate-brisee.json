@@ -1,32 +1,38 @@
 {
   "title": "Basic pâte brisée",
   "date": "2023-06-30",
-  "lang": "fr",
+  "lang": "en",
   "dataTag": ["basic", "spring", "summer", "fall", "winter"],
   "intro": "",
   "duration": "75",
   "ingredients": [
     {
-      "ingTitle": "Pour une tarte",
+      "ingTitle": "For one sweet pie",
       "ingMand": [
-        { "value": 210, "type": "g", "name": "blé" },
-        { "value": 115, "type": "g", "name": "beurre" },
-        { "value": 0.5, "type": "cc", "name": "sel" },
-        { "value": 60, "type": "g", "name": "eau" }
+        { "value": 250, "type": "g", "name": "flour" },
+        { "value": 120, "type": "g", "name": "butter" },
+        { "value": 30, "type": "g", "name": "sugar" },
+        [
+          { "value": 1, "type": "", "name": "egg" },
+          { "value": 55, "type": "g", "name": "water" }
+        ],
+        { "value": 2, "type": "pinches", "name": "salt" }
       ],
-      "ingOpt": ["Sucre"]
+      "ingOpt": []
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "Dans un récipient, mettez la farine avec le sucre et le sel. Coupez le beurre en morceaux et ajoutez le dans le reste des ingrédients.",
-        "Travaillez la préparation à la main jusqu'à obtenir une texture sableuse. Ajoutez l'eau et pétrissez jusqu'à obtenir une boule. Mettez votre pâte brisée à reposer pendant minimum 30 mn au frais.",
-        "Une fois préparée avec le reste des ingrédients de la tarte, cette pâte est à cuire à 200 °C pendant 45 minutes."
+        "Place the flour, sugar, and salt in a bowl.",
+        "Cut the butter into pieces and add it to the other ingredients. Work the mixture by hand until it has a sandy texture.",
+        "Add the water and knead until a ball forms. Let the shortcrust pastry rest in the refrigerator for at least 30 minutes.",
+        "Optional: If the filling is going to be very wet (e.g. peaches, plums, etc.), you can precook the dough by itself for 10 minutes at 180 °C. Make sure to make holes in it with a fork, and use pie weights (or uncooked rice/beans) to keep the pie leveled.",
+        "Once assembled with the filling, bake the pie at 180 °C for 35–45 minutes."
       ]
     }
   ],
   "notes": [],
-  "sourceUrl": "https://www.marmiton.org/recettes/recette_tarte-rustique-aux-prunes_372783.aspx"
+  "sourceUrl": ""
 }
