@@ -1,0 +1,39 @@
+{
+  "title": "Squash gratin",
+  "date": "2026-10-01",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 1, "type": "kg", "name": "squash" },
+        { "value": [2, 3], "type": "", "name": "eggs" },
+        { "value": 3, "type": "tbsp", "name": "milk or cream" },
+        { "value": 150, "type": "g", "name": "hard cheese", "prep": "grated" },
+        "Nutmeg powder",
+        "Salt and pepper"
+      ],
+      "ingOpt": [
+        "Almonds, walnuts or other seeds, crushed",
+        { "value": 2, "type": "tbsp", "name": "nutritional yeast flakes" }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Cut the squash into big dices. Cook it in salted boiling water until soft.",
+        "Let the squash pieces rest in a colander for 30 minutes for the extra water to drain.",
+        "In a bowl, crush and mix the squash with the eggs, milk, nutritional yeast flakes and half of the cheese. Add salt, pepper and nutmeg to taste, mix well.",
+        "Pour the mixture in a baking dish. Top with the rest of the cheese and crushed nuts.",
+        "Bake for 30–40 minutes at 200 °C."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://cuisine.journaldesfemmes.fr/recette/3097627-gratin-de-courge-facile"
+}
