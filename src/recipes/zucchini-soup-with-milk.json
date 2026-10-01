@@ -2,7 +2,7 @@
   "title": "Zucchini soup with milk",
   "date": "2023-07-06",
   "lang": "fr",
-  "dataTag": ["main", "summer"],
+  "dataTag": ["main", "summer", "fall"],
   "intro": "",
   "duration": "30",
   "ingredients": [
@@ -15,19 +15,20 @@
         { "value": 2, "type": "verres", "name": "lait (ou eau)" },
         "Sel et poivre"
       ],
-      "ingOpt": ["Cumin"]
+      "ingOpt": ["Cumin", "Huile de sésame", "Tahini"]
     }
   ],
   "instructions": [
     {
       "insTitle": "",
       "insSteps": [
-        "A l'aide d'un pinceau, mettre un peu d'huile d'olive au fond d'une casserole. Y faire revenir les oignons, puis les courgettes coupées en rondelles.",
+        "Mettre un peu d'huile d'olive au fond d'une casserole. Y faire revenir les oignons, puis les courgettes coupées en rondelles.",
         "Au bout de quelques minutes, ajouter un fond d'eau, le cumin et du sel et du poivre. Refermez la casserole et laissez cuire quelques minutes.",
+        "Optionnel : ajouter un peu de tahini et d'huile de sésame pour plus de umami.",
         "Quand les courgettes sont cuites, ajouter le lait et mixez le tout."
       ]
     }
   ],
-  "notes": ["Note : cette soupe peut être dégustée chaude ou froide."],
+  "notes": ["Cette soupe peut être dégustée chaude ou froide."],
   "sourceUrl": "https://www.marmiton.org/recettes/recette_soupe-de-courgettes-dietetique_11716.aspx"
 }

@@ -9,20 +9,24 @@
     {
       "ingTitle": "",
       "ingMand": [
-        "Carrot or radish tops",
+        {
+          "value": 1,
+          "type": "",
+          "name": "tops from one carrot (drier, tastier) or radish (moister, blander) plant"
+        },
         {
           "value": 1,
           "type": "handful",
           "name": "pine kernel (or other seed/nut)"
         },
         { "value": [1, 2], "type": "", "name": "garlic cloves" },
-        "Olive oil",
+        { "value": 100, "type": "g", "name": "olive oil" },
         "Salt",
         "Black pepper"
       ],
       "ingOpt": [
-        "Parmesan (or other hard cheese)",
-        "Lemon juice",
+        { "value": 50, "type": "g", "name": "Parmesan (or other hard cheese)" },
+        { "value": 0.5, "type": "", "name": "lemon", "prep": "juiced" },
         "Dried chili or tomato"
       ]
     }
@@ -36,6 +40,9 @@
       ]
     }
   ],
-  "notes": ["If using nuts, you can pre-roast them."],
+  "notes": [
+    "If using nuts, you can pre-roast them.",
+    "Using half radish tops and half carrot tops results in the best texture."
+  ],
   "sourceUrl": "https://www.mesinspirationsculinaires.com/article-pesto-de-fanes-de-carottes-recette-facile.html"
 }

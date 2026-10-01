@@ -10,13 +10,13 @@
       "ingTitle": "",
       "ingMand": [
         {
-          "value": [11, 12],
+          "value": 14,
           "type": "g",
           "name": "ground coffee",
           "prep": "Aergrind set at 2.4"
         },
         {
-          "value": 200,
+          "value": 250,
           "type": "ml",
           "name": "water"
         }
