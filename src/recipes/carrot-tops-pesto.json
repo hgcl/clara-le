@@ -27,7 +27,8 @@
       "ingOpt": [
         { "value": 50, "type": "g", "name": "Parmesan (or other hard cheese)" },
         { "value": 0.5, "type": "", "name": "lemon", "prep": "juiced" },
-        "Dried chili or tomato"
+        "Dried chili or tomato",
+        "Water"
       ]
     }
   ],
@@ -35,13 +36,17 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Simple, just blend everything (or do it by hand the manual way).",
+        "Roast the nuts and add them to the blender. Give it a few pulses.",
+        "Optional: Blanch the tops for a few seconds to preserve their bright green color.",
+        "Carrot tops can be quite fibrous. Cut them into small pieces before adding them to the blender one handful at a time. Pulse in between each handful.",
+        "Add the radish tops to the blender in the same way.",
+        "If the mixture is too dry, add a bit of water.",
+        "Add the rest of the ingredients and blend everything.",
         "If you want to save this pesto for later, it can be stored up to two weeks in the fridge (with enough olive oil on top)."
       ]
     }
   ],
   "notes": [
-    "If using nuts, you can pre-roast them.",
     "Using half radish tops and half carrot tops results in the best texture."
   ],
   "sourceUrl": "https://www.mesinspirationsculinaires.com/article-pesto-de-fanes-de-carottes-recette-facile.html"
