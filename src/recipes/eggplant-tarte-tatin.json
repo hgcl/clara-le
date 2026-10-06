@@ -23,23 +23,44 @@
     {
       "ingTitle": "Sauce",
       "ingMand": [
-        "4 tbsp rice vinegar",
-        "6 tbsp soy sauce",
-        "4 tbsp caster sugar",
-        "3 tbsp water",
-        "5 cm piece fresh ginger, peeled and finely grated",
-        "2 green chilies, finely sliced (or flaked chili)",
-        "2 garlic cloves, peeled and finely sliced",
-        "Juice of 1 lime",
-        "2 garlic cloves, peeled and finely sliced"
+        { "value": 4, "type": "tbsp", "name": "rice vinegar" },
+        { "value": 4, "type": "tbsp", "name": "dark soy sauce" },
+        { "value": 1, "type": "tbsp", "name": "sugar" },
+        { "value": 3, "type": "tbsp", "name": "water" },
+        {
+          "value": 4,
+          "type": "cm",
+          "name": "fresh ginger",
+          "prep": "peeled and finely grated"
+        },
+        [
+          {
+            "value": 2,
+            "type": "",
+            "name": "green chilies",
+            "prep": "finely sliced"
+          },
+          "flaked chili"
+        ],
+        {
+          "value": 2,
+          "type": "",
+          "name": "garlic cloves",
+          "prep": "peeled and finely sliced"
+        }
       ],
       "ingOpt": []
     },
     {
       "ingTitle": "Garnish",
       "ingMand": [
-        "1 bunch spring onions, trimmed",
-        "30 g toasted peanuts",
+        {
+          "value": 1,
+          "type": "bunch",
+          "name": "spring onion",
+          "prep": "trimmed"
+        },
+        { "value": 1, "type": "handful", "name": "toasted peanuts" },
         "Coriander and mint"
       ],
       "ingOpt": []
