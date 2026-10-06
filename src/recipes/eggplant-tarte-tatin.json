@@ -40,7 +40,11 @@
             "name": "green chilies",
             "prep": "finely sliced"
           },
-          "flaked chili"
+          {
+            "value": 3,
+            "type": "pinches",
+            "name": "chili flakes"
+          }
         ],
         {
           "value": 2,
@@ -61,7 +65,8 @@
           "prep": "trimmed"
         },
         { "value": 1, "type": "handful", "name": "toasted peanuts" },
-        "Coriander and mint"
+        "Coriander and mint",
+        "Lemon juice"
       ],
       "ingOpt": []
     }
