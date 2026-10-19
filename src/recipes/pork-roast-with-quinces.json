@@ -1,0 +1,52 @@
+{
+  "title": "Pork roast with quinces",
+  "date": "2026-10-19",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 1, "type": "kg", "name": "pork roast" },
+        { "value": 2, "type": "", "name": "quinces" },
+        { "value": 1, "type": "", "name": "onion" },
+        { "value": 0.5, "type": "tsp", "name": "ground cumin" },
+        { "value": 4, "type": "tbsp", "name": "olive oil" },
+        { "value": 5, "type": "", "name": "potatoes" },
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Preparation",
+      "insSteps": [
+        "If the pork roast is not prepared yet, use thread to keep the pieces compact and together. This makes sure that the meat doesn't dry too much while roasting.",
+        "Peel and cut the onion in thick round slices.",
+        "Cut each potato in two, lengthwise.",
+        "Peel the quinces, remove the seeds and cut them into four.",
+        "In a rectangle dish, add the pork roast, slaver it with cumin, salt, pepper and olive oil.",
+        "Add the potatoes around the meat, as well as the onion slices."
+      ]
+    },
+    {
+      "insTitle": "Roasting",
+      "insSteps": [
+        "Put the dish in a cold oven, and cook at 180 °C for 30–40 minutes.",
+        "Remove the dish from the oven and add enough water to have 1 cm of water at the bottom. Put the dish back into the oven for 1.5 hours."
+      ]
+    },
+    {
+      "insTitle": "Sauce",
+      "insSteps": [
+        "Remove the dish from the oven, cover it with some aluminum paper and let it rest for 10 minutes.",
+        "Use the onion from the dish as well as the remaining broth to make a sauce. Add them all to a blender and blend until homogeneous."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.panierdesaison.com/2024/10/roti-porc-coings-recette.html"
+}

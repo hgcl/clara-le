@@ -1,0 +1,103 @@
+{
+  "title": "Singaporean laksa",
+  "date": "2026-10-19",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "Laksa paste",
+      "ingMand": [
+        { "value": 15, "type": "g", "name": "mild dried chilies" },
+        { "value": 3, "type": "tbsp", "name": "dried shrimps" },
+        {
+          "value": 0.25,
+          "type": "cup",
+          "name": "macadamia  nuts (and/or peanuts)"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "thai chilies"
+        },
+        {
+          "value": 8,
+          "type": "",
+          "name": "garlic cloves"
+        },
+        {
+          "value": 0.5,
+          "type": "cup",
+          "name": "shallots"
+        },
+        {
+          "value": 1,
+          "type": "stalk",
+          "name": "lemongrass"
+        },
+        {
+          "value": 10,
+          "type": "slices",
+          "name": "galangal root"
+        },
+        {
+          "value": 3,
+          "type": "cm",
+          "name": "tumeric root"
+        },
+        {
+          "value": [1, 1.5],
+          "type": "tbsp",
+          "name": "fermented shrimp paste"
+        }
+      ],
+      "ingOpt": []
+    },
+    {
+      "ingTitle": "Other ingredients",
+      "ingMand": [
+        { "value": 1, "type": "pack", "name": "fine rice noodle (bun)" },
+        { "value": 1, "type": "pack", "name": "tofu puffs" },
+        { "value": 1, "type": "pack", "name": "fish cakes" },
+        { "value": 1, "type": "handful", "name": "beansprouts" },
+        { "value": 1, "type": "handful", "name": "mint and thai basil" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Laksa paste",
+      "insSteps": [
+        "Add dried chilies and dried shrimp into a blender and blitz until fine.",
+        "Add macadamia nuts and blitz until fine. Remove this dry mixture from the blender and set aside.",
+        "Add all remaining ingredients and blend until smooth (if using a jug blender, you may need to add a little liquid to get it going).",
+        "Add the dried mixture and blend to mix.",
+        "The paste can be made in advance and freeze."
+      ]
+    },
+    {
+      "insTitle": "Laksa broth",
+      "insSteps": [
+        "In a heavy bottomed pot, add just enough oil to coat the bottom, then add the laksa paste and saute for a few minutes until the paste is thickened and oil starts to sizzle away from the paste.",
+        "Stir in the coconut milk and the stock and simmer for at least 10 minutes to allow the flavors to mingle and develop.",
+        "Season with fish sauce and sugar, then taste and adjust seasoning. You can also adjust the richness of the broth at this point by adding more water to lighten, or more coconut milk to enrich.",
+        "The broth can be made in advance and kept in the fridge for up to a week."
+      ]
+    },
+    {
+      "insTitle": "Assembling",
+      "insSteps": [
+        "Precook the noodles in boiling water for a few minutes. The noodles should still be undercooked. Wash under cold water to stop the cooking process.",
+        "Prep each bowl with some noodles.",
+        "Add the tofu puffs and fish cakes to the broth and bring to a boil.",
+        "Cook the beansprouts and add them to each bowl. Pour enough boiling broth to cover all noodles in each bowl. This will continue cooking the noodles and let them  absorb the laksa flavors. Pour out the broth into the pot again.",
+        "Divide the tofu puffs and fish cakes into each bowl. Boil the laksa broth again and add it to each bowl.",
+        "Top with minced mint and thai basil."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://hot-thai-kitchen.com/singaporean-laksa/"
+}
