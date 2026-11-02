@@ -2,7 +2,7 @@
   "title": "Banana cake",
   "date": "2026-09-16",
   "lang": "en",
-  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "dataTag": ["dessert", "spring", "summer", "fall", "winter"],
   "intro": "Alex's decadent banana cake",
   "duration": "90",
   "ingredients": [
