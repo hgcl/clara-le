@@ -1,0 +1,103 @@
+{
+  "title": "Lebanese falafels",
+  "date": "2026-11-10",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "For 16 falafels",
+      "ingMand": [
+        {
+          "value": 350,
+          "type": "g",
+          "name": "dried chickpeas",
+          "prep": "soaked for at least 12 hours"
+        },
+        {
+          "value": 1,
+          "type": "",
+          "name": "onion",
+          "prep": "roughly diced"
+        },
+        {
+          "value": 1,
+          "type": "bunch",
+          "name": "parsley",
+          "prep": "roughly cut"
+        },
+        {
+          "value": 1,
+          "type": "bunch",
+          "name": "coriander",
+          "prep": "roughly cut"
+        },
+        {
+          "value": 5,
+          "type": "sprigs",
+          "name": "mint (or chives, dill, basil)",
+          "prep": "roughly cut"
+        },
+        {
+          "value": 0.5,
+          "type": "tsp",
+          "name": "green cardamom"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "ground cumin"
+        },
+        {
+          "value": 2,
+          "type": "",
+          "name": "garlic cloves"
+        },
+        {
+          "value": 1.5,
+          "type": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "value": 1,
+          "type": "tsp",
+          "name": "salt"
+        },
+        {
+          "value": 1,
+          "type": "packet",
+          "name": "baking powder"
+        },
+        {
+          "value": 1.5,
+          "type": "tbsp",
+          "name": "flour"
+        }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Prep",
+      "insSteps": [
+        "Peel and roughly chop the onion. Do the same with the fresh herbs.",
+        "Drain the chickpeas carefully and dry them well in a clean kitchen towel. This step is important to avoid a dough that's too wet.",
+        "In the bowl of a food processor, add the chickpeas, onion, herbs, garlic, spices, salt, and pepper. Process until you get a grainy texture, somewhere between a thick purée and couscous. Don't aim for a smooth texture.",
+        "Pour the mixture into a mixing bowl. Add the olive oil, baking powder and flour, then stir. If needed, add one to two tablespoons of water to get a dough that holds together. It should be pliable but not sticky.",
+        "Cover and refrigerate for 1 hour. This resting time allows the dough to firm up: it will be easier to shape and the falafels will hold together better when cooked."
+      ]
+    },
+    {
+      "insTitle": "Cook",
+      "insSteps": [
+        "Using your hands, form balls the size of a walnut. Press them down slightly, without compacting them too much, then place them on a baking sheet lined with parchment paper.",
+        "Sprinkle with sesame seeds and drizzle with olive oil.",
+        "Preheat the oven at 190 °C. Bake for 20 minutes or until golden and crispy."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.papillesetpupilles.fr/2020/06/falafels-au-four.html/"
+}

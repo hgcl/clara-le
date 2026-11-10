@@ -1,0 +1,53 @@
+{
+  "title": "TODO",
+  "date": "2026-11-10",
+  "lang": "en",
+  "dataTag": ["main", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 400, "type": "g", "name": "flour" },
+        {
+          "value": 50,
+          "type": "g",
+          "name": "durum flour (or whole wheat flour)"
+        },
+        {
+          "value": 20,
+          "type": "g",
+          "name": "maïzena"
+        },
+        { "value": 20, "type": "g", "name": "olive oil" },
+        { "value": 280, "type": "g", "name": "water" },
+        { "value": 12, "type": "g", "name": "salt" },
+        { "value": 20, "type": "g", "name": "fresh yeast" },
+        "Salt and pepper"
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "Dough prep",
+      "insSteps": [
+        "In a bowl, add the fresh yeast, warm water and sugar. Let it activate for 15 minutes.",
+        "Add the flour, potato starch, salt, water and olive oil. Knead.",
+        "Once all the water has been added, check if you need to add a little more flour if the dough sticks too much.",
+        "Dust a bowl with flour underneath and on top of the dough. Cover the bowl with a clean cloth and let the dough rest for a minimum of 2 to 3 hours. Half a day is even better."
+      ]
+    },
+    {
+      "insTitle": "Bake",
+      "insSteps": [
+        "Preheat the oven at 240 °C.",
+        "Roll out the dough into the shape of the tray, spread tomato sauce on top of it, and bake for approximately 10 minutes (or until the sauce has dried out and the dough puffed up enough).",
+        "Remove from the tray from the oven, top with the rest of the ingredients (precooked if necessary) and bake for 10 more minutes."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://www.marmiton.org/recettes/recette_pate-a-pizza-rapide-et-simple_335964.aspx"
+}

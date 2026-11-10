@@ -1,0 +1,43 @@
+{
+  "title": "Lebanese pita bread",
+  "date": "2026-11-10",
+  "lang": "en",
+  "dataTag": ["basic", "spring", "summer", "fall", "winter"],
+  "intro": "",
+  "duration": "",
+  "ingredients": [
+    {
+      "ingTitle": "",
+      "ingMand": [
+        { "value": 400, "type": "g", "name": "flour" },
+        { "value": 8, "type": "g", "name": "salt" },
+        { "value": 270, "type": "g", "name": "warm water" },
+        { "value": 7, "type": "g", "name": "fresh yeast" },
+        { "value": 1, "type": "tbsp", "name": "olive oil" }
+      ],
+      "ingOpt": []
+    }
+  ],
+  "instructions": [
+    {
+      "insTitle": "",
+      "insSteps": [
+        "Dissolve the yeast in half a glass of lukewarm water and a little sugar. Stir and let it foam for about 15 minutes.",
+        "Add the rest of the water, flour and salt, and mix. Knead the dough for about 5–7 minutes, until it becomes smooth, even, and elastic.",
+        "Lightly oil the mixing bowl, place the dough in it with a little oil on top, and cover.",
+        "Let it rise at room temperature until doubled in volume, about 1 hour.",
+        "Gently press the dough down to release the air.",
+        "Turn it out onto the work surface. Divide into 6 pieces and flatten each into a round disc about 1 cm thick. Dust with flour and cover with a clean cloth.",
+        "Roll out each piece with a rolling pin to a thickness of about 5 mm",
+        "Heat a skillet over high heat. Grease the surface with a paper towel dipped in oil.",
+        "Place one piece of dough on the skillet and cook until small, timid bubbles begin to appear on the surface.",
+        "Flip the pita and continue cooking for a few more minutes, turning frequently. The pita should begin to puff up.",
+        "Remove each pita as it's done and wrap it in a clean kitchen towel.",
+        "Wipe the skillet with a paper towel. Continue until all the dough has been used.",
+        "Pitas are best eaten immediately after baking, while still warm. Otherwise, reheat them before serving."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceUrl": "https://cuisinezavecdjouza.fr/pain-pita-cuit-a-la-poele-pain-libanais/"
+}
