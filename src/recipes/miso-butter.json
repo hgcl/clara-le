@@ -15,10 +15,11 @@
           "name": "butter",
           "prep": "cut into pieces and at room temperature"
         },
-        { "value": 3, "type": "tbsp", "name": "mise" }
+        { "value": 2, "type": "tsp", "name": "miso" }
       ],
       "ingOpt": [
-        { "value": 1.5, "type": "tbsp", "name": "heavy cream (or milk)" }
+        { "value": 0.5, "type": "", "name": "lemon", "prep": "juiced" },
+        "Fresh herbs, cut small"
       ]
     }
   ],
@@ -26,8 +27,8 @@
     {
       "insTitle": "",
       "insSteps": [
-        "Homogeneously mix the butter and miso.",
-        "Optionally whip in cream or milk. You can add a teaspoon at a time until the desired texture is achieved."
+        "Homogeneously mix the softened butter and miso with a whip.",
+        "Add the rest of the ingredients and mix some more."
       ]
     }
   ],
